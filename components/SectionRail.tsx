@@ -1,11 +1,10 @@
-'use client';
+"use client";
 
-import { useTranslator } from '@/lib/store';
+import { useTranslator } from "@/lib/store";
 
 interface SectionRailProps {
   active: string;
   onSelect: (section: string) => void;
-  /** Populated while searching, so the rail doubles as a hit map. */
   hits?: Record<string, number> | null;
 }
 
@@ -21,8 +20,8 @@ export function SectionRail({ active, onSelect, hits }: SectionRailProps) {
           <button
             type="button"
             className="sb-rail__item"
-            data-active={active === '*' || undefined}
-            onClick={() => onSelect('*')}
+            data-active={active === "*" || undefined}
+            onClick={() => onSelect("*")}
           >
             <span className="sb-rail__name">All texts</span>
             <span className="sb-rail__count">{entries.length}</span>
@@ -40,10 +39,17 @@ export function SectionRail({ active, onSelect, hits }: SectionRailProps) {
                 onClick={() => onSelect(section.name)}
                 title={`${section.count} texts`}
               >
-                <span className="sb-rail__name">{section.name.replace(/_/g, ' ')}</span>
+                <span className="sb-rail__name">
+                  {section.name.replace(/_/g, " ")}
+                </span>
                 <span className="sb-rail__count">
-                  {searching ? hitCount || '—' : section.count}
-                  {section.changed > 0 ? <span className="sb-rail__dot" title={`${section.changed} edited`} /> : null}
+                  {searching ? hitCount || "—" : section.count}
+                  {section.changed > 0 ? (
+                    <span
+                      className="sb-rail__dot"
+                      title={`${section.changed} edited`}
+                    />
+                  ) : null}
                 </span>
               </button>
             </li>

@@ -1,21 +1,23 @@
-'use client';
+"use client";
 
-import { useRef, useState } from 'react';
-import { filesFromDrop, filesFromInput } from '@/lib/files';
-import { LOCALES, isKnownLocale, localeMeta } from '@/lib/locales';
-import { isFileError, parseLocaleFile } from '@/lib/parse';
-import { useTranslator } from '@/lib/store';
-import { AlertIcon, CloseIcon, FolderIcon, UploadIcon } from './Icons';
+import { useRef, useState } from "react";
+import { filesFromDrop, filesFromInput } from "@/lib/files";
+import { LOCALES, isKnownLocale, localeMeta } from "@/lib/locales";
+import { isFileError, parseLocaleFile } from "@/lib/parse";
+import { useTranslator } from "@/lib/store";
+import { AlertIcon, CloseIcon, FolderIcon, UploadIcon } from "./Icons";
 
-/** Not in the React typings, but every current browser honours them. */
-const DIRECTORY_PROPS = { webkitdirectory: 'true', directory: 'true' } as Record<string, string>;
+const DIRECTORY_PROPS = {
+  webkitdirectory: "true",
+  directory: "true",
+} as Record<string, string>;
 
 export function Dropzone() {
   const { state, dispatch, loadedCodes } = useTranslator();
   const [over, setOver] = useState(false);
   const [busy, setBusy] = useState(false);
-  const [paste, setPaste] = useState('');
-  const [pasteCode, setPasteCode] = useState('br');
+  const [paste, setPaste] = useState("");
+  const [pasteCode, setPasteCode] = useState("br");
   const [pasteError, setPasteError] = useState<string | null>(null);
   const fileInput = useRef<HTMLInputElement>(null);
   const folderInput = useRef<HTMLInputElement>(null);
@@ -25,8 +27,8 @@ export function Dropzone() {
     setBusy(true);
     for (const file of files) {
       const result = await parseLocaleFile(file);
-      if (isFileError(result)) dispatch({ type: 'add-error', error: result });
-      else dispatch({ type: 'add-file', file: result });
+      if (isFileError(result)) dispatch({ type: "add-error", error: result });
+      else dispatch({ type: "add-file", file: result });
     }
     setBusy(false);
   }
@@ -41,12 +43,14 @@ export function Dropzone() {
     setPasteError(null);
     const trimmed = paste.trim();
     if (!trimmed) return;
-    const blob = new File([trimmed], `${pasteCode}.json`, { type: 'application/json' });
+    const blob = new File([trimmed], `${pasteCode}.json`, {
+      type: "application/json",
+    });
     void parseLocaleFile(blob, pasteCode).then((result) => {
       if (isFileError(result)) setPasteError(result.message);
       else {
-        dispatch({ type: 'add-file', file: result });
-        setPaste('');
+        dispatch({ type: "add-file", file: result });
+        setPaste("");
       }
     });
   }
@@ -67,14 +71,23 @@ export function Dropzone() {
         <UploadIcon size={22} className="sb-drop__icon" />
         <p className="sb-drop__title">Drop the language files here</p>
         <p className="sb-drop__hint">
-          A whole folder works too. Names like <code>br.json</code>, <code>pt-BR.json</code> or{' '}
-          <code>translations.esAR.json</code> are matched automatically.
+          A whole folder works too. Names like <code>br.json</code>,{" "}
+          <code>pt-BR.json</code> or <code>translations.esAR.json</code> are
+          matched automatically.
         </p>
         <div className="sb-drop__actions">
-          <button type="button" className="sb-button sb-button--quiet" onClick={() => fileInput.current?.click()}>
+          <button
+            type="button"
+            className="sb-button sb-button--quiet"
+            onClick={() => fileInput.current?.click()}
+          >
             <UploadIcon size={15} /> Choose files
           </button>
-          <button type="button" className="sb-button sb-button--quiet" onClick={() => folderInput.current?.click()}>
+          <button
+            type="button"
+            className="sb-button sb-button--quiet"
+            onClick={() => folderInput.current?.click()}
+          >
             <FolderIcon size={15} /> Choose folder
           </button>
         </div>
@@ -86,7 +99,7 @@ export function Dropzone() {
           hidden
           onChange={(event) => {
             void ingest(filesFromInput(event.target.files));
-            event.target.value = '';
+            event.target.value = "";
           }}
         />
         <input
@@ -97,7 +110,7 @@ export function Dropzone() {
           {...DIRECTORY_PROPS}
           onChange={(event) => {
             void ingest(filesFromInput(event.target.files));
-            event.target.value = '';
+            event.target.value = "";
           }}
         />
       </div>
@@ -113,7 +126,11 @@ export function Dropzone() {
             </li>
           ))}
           <li>
-            <button type="button" className="sb-ghost" onClick={() => dispatch({ type: 'clear-errors' })}>
+            <button
+              type="button"
+              className="sb-ghost"
+              onClick={() => dispatch({ type: "clear-errors" })}
+            >
               Dismiss
             </button>
           </li>
@@ -127,20 +144,36 @@ export function Dropzone() {
             const meta = localeMeta(code);
             const known = isKnownLocale(code);
             return (
-              <li key={code} className="sb-filelist__row" data-unknown={!known || undefined}>
+              <li
+                key={code}
+                className="sb-filelist__row"
+                data-unknown={!known || undefined}
+              >
                 <span className="sb-filelist__name" title={file.fileName}>
                   {file.fileName}
                 </span>
-                <span className="sb-filelist__count">{file.keyCount} texts</span>
-                {file.origin === 'standard' ? <span className="sb-tag sb-tag--ref">standard</span> : null}
+                <span className="sb-filelist__count">
+                  {file.keyCount} texts
+                </span>
+                {file.origin === "standard" ? (
+                  <span className="sb-tag sb-tag--ref">standard</span>
+                ) : null}
                 <label className="sb-filelist__assign">
                   <span className="sb-vh">Language for {file.fileName}</span>
                   <select
                     className="sb-select"
                     value={code}
-                    onChange={(event) => dispatch({ type: 'reassign-file', from: code, to: event.target.value })}
+                    onChange={(event) =>
+                      dispatch({
+                        type: "reassign-file",
+                        from: code,
+                        to: event.target.value,
+                      })
+                    }
                   >
-                    {!known ? <option value={code}>{code} — confirm language</option> : null}
+                    {!known ? (
+                      <option value={code}>{code} — confirm language</option>
+                    ) : null}
                     {LOCALES.map((locale) => (
                       <option key={locale.code} value={locale.code}>
                         {locale.code} — {locale.name}
@@ -156,7 +189,7 @@ export function Dropzone() {
                 <button
                   type="button"
                   className="sb-iconbutton"
-                  onClick={() => dispatch({ type: 'remove-file', code })}
+                  onClick={() => dispatch({ type: "remove-file", code })}
                   aria-label={`Remove ${file.fileName}`}
                 >
                   <CloseIcon size={14} />
@@ -172,7 +205,11 @@ export function Dropzone() {
         <div className="sb-paste__body">
           <label className="sb-paste__lang">
             <span className="sb-vh">Language of the pasted JSON</span>
-            <select className="sb-select" value={pasteCode} onChange={(event) => setPasteCode(event.target.value)}>
+            <select
+              className="sb-select"
+              value={pasteCode}
+              onChange={(event) => setPasteCode(event.target.value)}
+            >
               {LOCALES.map((locale) => (
                 <option key={locale.code} value={locale.code}>
                   {locale.code} — {locale.name}
@@ -189,8 +226,17 @@ export function Dropzone() {
             spellCheck={false}
           />
           <div className="sb-paste__foot">
-            {pasteError ? <span className="sb-paste__error">{pasteError}</span> : <span />}
-            <button type="button" className="sb-button sb-button--quiet" onClick={handlePaste} disabled={!paste.trim()}>
+            {pasteError ? (
+              <span className="sb-paste__error">{pasteError}</span>
+            ) : (
+              <span />
+            )}
+            <button
+              type="button"
+              className="sb-button sb-button--quiet"
+              onClick={handlePaste}
+              disabled={!paste.trim()}
+            >
               Load as {pasteCode}.json
             </button>
           </div>

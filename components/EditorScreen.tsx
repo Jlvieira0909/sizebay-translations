@@ -1,17 +1,23 @@
-'use client';
+"use client";
 
-import { useCallback, useDeferredValue, useEffect, useMemo, useState } from 'react';
-import { downloadMany } from '@/lib/files';
-import { applyEdits, hasMarkup, placeholders, serialize } from '@/lib/json';
-import { localeMeta } from '@/lib/locales';
-import { buildIndex, normalize, search } from '@/lib/search';
-import { useTranslator } from '@/lib/store';
-import type { Entry, LoadedLocale } from '@/lib/types';
-import { ChangesDrawer } from './ChangesDrawer';
-import { EntryCard } from './EntryCard';
-import { ListIcon, PinIcon } from './Icons';
-import { SectionRail } from './SectionRail';
-import { SearchBar, type EntryFilter } from './SearchBar';
+import {
+  useCallback,
+  useDeferredValue,
+  useEffect,
+  useMemo,
+  useState,
+} from "react";
+import { downloadMany } from "@/lib/files";
+import { applyEdits, hasMarkup, placeholders, serialize } from "@/lib/json";
+import { localeMeta } from "@/lib/locales";
+import { buildIndex, normalize, search } from "@/lib/search";
+import { useTranslator } from "@/lib/store";
+import type { Entry, LoadedLocale } from "@/lib/types";
+import { ChangesDrawer } from "./ChangesDrawer";
+import { EntryCard } from "./EntryCard";
+import { ListIcon, PinIcon } from "./Icons";
+import { SectionRail } from "./SectionRail";
+import { SearchBar, type EntryFilter } from "./SearchBar";
 
 const PAGE_SIZE = 60;
 
@@ -29,9 +35,9 @@ export function EditorScreen() {
     isChanged,
   } = useTranslator();
 
-  const [query, setQuery] = useState('');
-  const [filter, setFilter] = useState<EntryFilter>('all');
-  const [section, setSection] = useState('*');
+  const [query, setQuery] = useState("");
+  const [filter, setFilter] = useState<EntryFilter>("all");
+  const [section, setSection] = useState("*");
   const [limit, setLimit] = useState(PAGE_SIZE);
   const [drawer, setDrawer] = useState(false);
   const [savedAt, setSavedAt] = useState<string | null>(null);
@@ -44,13 +50,17 @@ export function EditorScreen() {
       buildIndex(
         entries.map((entry) => ({
           path: entry.path,
-          values: Object.fromEntries(activeLocales.map((code) => [code, state.loaded[code]?.flat[entry.path] ?? ''])),
-        })),
+          values: Object.fromEntries(
+            activeLocales.map((code) => [
+              code,
+              state.loaded[code]?.flat[entry.path] ?? "",
+            ])
+          ),
+        }))
       ),
-    [entries, activeLocales, state.loaded],
+    [entries, activeLocales, state.loaded]
   );
 
-  /** Index holds the files as they arrived; edited text is matched separately so it stays cheap. */
   const hits = useMemo(() => {
     if (!searching) return null;
     const found = search(index, deferredQuery);
@@ -66,7 +76,9 @@ export function EditorScreen() {
       }
     }
 
-    return found.sort((a, b) => b.score - a.score || a.path.localeCompare(b.path));
+    return found.sort(
+      (a, b) => b.score - a.score || a.path.localeCompare(b.path)
+    );
   }, [searching, index, deferredQuery, state.edits, activeLocales]);
 
   const matchedByPath = useMemo(() => {
@@ -79,7 +91,7 @@ export function EditorScreen() {
     if (!hits) return null;
     const counts: Record<string, number> = {};
     for (const hit of hits) {
-      const key = hit.path.split('.')[0];
+      const key = hit.path.split(".")[0];
       counts[key] = (counts[key] ?? 0) + 1;
     }
     return counts;
@@ -87,27 +99,40 @@ export function EditorScreen() {
 
   const editedPaths = useMemo(() => {
     const set = new Set<string>();
-    for (const code of activeLocales) for (const path of Object.keys(state.edits[code] ?? {})) set.add(path);
+    for (const code of activeLocales)
+      for (const path of Object.keys(state.edits[code] ?? {})) set.add(path);
     return set;
   }, [state.edits, activeLocales]);
 
   const matches = useMemo(() => {
     const byPath = new Map(entries.map((entry) => [entry.path, entry]));
     let list: Entry[] = hits
-      ? hits.map((hit) => byPath.get(hit.path)).filter((entry): entry is Entry => entry !== undefined)
+      ? hits
+          .map((hit) => byPath.get(hit.path))
+          .filter((entry): entry is Entry => entry !== undefined)
       : entries;
 
-    if (section !== '*') list = list.filter((entry) => entry.section === section);
+    if (section !== "*")
+      list = list.filter((entry) => entry.section === section);
 
-    if (filter === 'edited') list = list.filter((entry) => editedPaths.has(entry.path));
-    if (filter === 'empty') {
-      list = list.filter((entry) => activeLocales.some((code) => valueOf(code, entry.path).trim() === ''));
+    if (filter === "edited")
+      list = list.filter((entry) => editedPaths.has(entry.path));
+    if (filter === "empty") {
+      list = list.filter((entry) =>
+        activeLocales.some((code) => valueOf(code, entry.path).trim() === "")
+      );
     }
-    if (filter === 'vars') {
-      list = list.filter((entry) => activeLocales.some((code) => placeholders(valueOf(code, entry.path)).length > 0));
+    if (filter === "vars") {
+      list = list.filter((entry) =>
+        activeLocales.some(
+          (code) => placeholders(valueOf(code, entry.path)).length > 0
+        )
+      );
     }
-    if (filter === 'html') {
-      list = list.filter((entry) => activeLocales.some((code) => hasMarkup(valueOf(code, entry.path))));
+    if (filter === "html") {
+      list = list.filter((entry) =>
+        activeLocales.some((code) => hasMarkup(valueOf(code, entry.path)))
+      );
     }
 
     return list;
@@ -119,25 +144,28 @@ export function EditorScreen() {
 
   const handleQuery = useCallback(
     (value: string) => {
-      // A new search looks across every section, so drop any section narrowing.
-      if (query.trim() === '' && value.trim() !== '') setSection('*');
+      if (query.trim() === "" && value.trim() !== "") setSection("*");
       setQuery(value);
     },
-    [query],
+    [query]
   );
 
   const onChange = useCallback(
     (code: string, path: string, value: string, original: string) =>
-      dispatch({ type: 'set-value', code, path, value, original }),
-    [dispatch],
+      dispatch({ type: "set-value", code, path, value, original }),
+    [dispatch]
   );
 
   const onRevertValue = useCallback(
-    (code: string, path: string) => dispatch({ type: 'revert-value', code, path }),
-    [dispatch],
+    (code: string, path: string) =>
+      dispatch({ type: "revert-value", code, path }),
+    [dispatch]
   );
 
-  const onRevertRow = useCallback((path: string) => dispatch({ type: 'revert-path', path }), [dispatch]);
+  const onRevertRow = useCallback(
+    (path: string) => dispatch({ type: "revert-path", path }),
+    [dispatch]
+  );
 
   async function save(codes: string[]) {
     const files = codes
@@ -149,7 +177,9 @@ export function EditorScreen() {
       }));
     if (files.length === 0) return;
     await downloadMany(files);
-    setSavedAt(new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }));
+    setSavedAt(
+      new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })
+    );
     window.setTimeout(() => setSavedAt(null), 6000);
   }
 
@@ -168,18 +198,22 @@ export function EditorScreen() {
             const loaded = Boolean(state.loaded[code]);
             const meta = localeMeta(code);
             return (
-              <span key={code} className="sb-lang" data-on={loaded || undefined}>
+              <span
+                key={code}
+                className="sb-lang"
+                data-on={loaded || undefined}
+              >
                 <button
                   type="button"
                   className="sb-lang__toggle"
                   disabled={loaded && activeLocales.length === 1}
-                  onClick={() => dispatch({ type: 'toggle-locale', code })}
+                  onClick={() => dispatch({ type: "toggle-locale", code })}
                   title={
                     loaded && activeLocales.length === 1
-                      ? 'The last visible language stays on'
+                      ? "The last visible language stays on"
                       : loaded
-                        ? `Hide ${meta.name}`
-                        : `${meta.name} — no file loaded`
+                      ? `Hide ${meta.name}`
+                      : `${meta.name} — no file loaded`
                   }
                 >
                   {code}
@@ -188,7 +222,7 @@ export function EditorScreen() {
                   <button
                     type="button"
                     className="sb-lang__pin"
-                    onClick={() => dispatch({ type: 'pin-locale', code })}
+                    onClick={() => dispatch({ type: "pin-locale", code })}
                     aria-label={`Show ${meta.name} first`}
                     title="Show first, as the reference"
                   >
@@ -205,7 +239,7 @@ export function EditorScreen() {
                 key={code}
                 type="button"
                 className="sb-lang sb-lang--off"
-                onClick={() => dispatch({ type: 'toggle-locale', code })}
+                onClick={() => dispatch({ type: "toggle-locale", code })}
                 title={`Show ${localeMeta(code).name}`}
               >
                 + {code}
@@ -214,14 +248,20 @@ export function EditorScreen() {
         </div>
 
         <div className="sb-bar__actions">
-          <button type="button" className="sb-button sb-button--quiet" onClick={() => setDrawer(true)}>
+          <button
+            type="button"
+            className="sb-button sb-button--quiet"
+            onClick={() => setDrawer(true)}
+          >
             <ListIcon size={15} /> Changes
-            {changeCount > 0 ? <span className="sb-badge">{changeCount}</span> : null}
+            {changeCount > 0 ? (
+              <span className="sb-badge">{changeCount}</span>
+            ) : null}
           </button>
           <button
             type="button"
             className="sb-button sb-button--quiet"
-            onClick={() => dispatch({ type: 'set-step', step: 'setup' })}
+            onClick={() => dispatch({ type: "set-step", step: "setup" })}
           >
             Languages &amp; files
           </button>
@@ -243,7 +283,14 @@ export function EditorScreen() {
 
         <main className="sb-list" aria-live="polite">
           {shown.length === 0 ? (
-            <EmptyState query={query} filter={filter} onReset={() => { setQuery(''); setFilter('all'); }} />
+            <EmptyState
+              query={query}
+              filter={filter}
+              onReset={() => {
+                setQuery("");
+                setFilter("all");
+              }}
+            />
           ) : (
             shown.map((entry) => (
               <EntryCard
@@ -262,8 +309,13 @@ export function EditorScreen() {
           )}
 
           {matches.length > shown.length ? (
-            <button type="button" className="sb-button sb-button--quiet sb-more" onClick={() => setLimit(limit + PAGE_SIZE)}>
-              Show {Math.min(PAGE_SIZE, matches.length - shown.length)} more of {matches.length - shown.length}
+            <button
+              type="button"
+              className="sb-button sb-button--quiet sb-more"
+              onClick={() => setLimit(limit + PAGE_SIZE)}
+            >
+              Show {Math.min(PAGE_SIZE, matches.length - shown.length)} more of{" "}
+              {matches.length - shown.length}
             </button>
           ) : null}
         </main>
@@ -274,23 +326,37 @@ export function EditorScreen() {
           <p className="sb-savebar__status">
             {savedAt ? (
               <>
-                Downloaded at {savedAt} · {changeCount} {changeCount === 1 ? 'change' : 'changes'} still open
+                Downloaded at {savedAt} · {changeCount}{" "}
+                {changeCount === 1 ? "change" : "changes"} still open
               </>
             ) : (
               <>
-                <strong>{changeCount}</strong> {changeCount === 1 ? 'change' : 'changes'} in{' '}
-                <strong>{changedLocales.length}</strong> {changedLocales.length === 1 ? 'file' : 'files'}
-                {' · '}
-                {changedLocales.map((code) => state.loaded[code]?.fileName ?? code).join(', ')}
+                <strong>{changeCount}</strong>{" "}
+                {changeCount === 1 ? "change" : "changes"} in{" "}
+                <strong>{changedLocales.length}</strong>{" "}
+                {changedLocales.length === 1 ? "file" : "files"}
+                {" · "}
+                {changedLocales
+                  .map((code) => state.loaded[code]?.fileName ?? code)
+                  .join(", ")}
               </>
             )}
           </p>
           <div className="sb-savebar__actions">
-            <button type="button" className="sb-button sb-button--quiet" onClick={() => setDrawer(true)}>
+            <button
+              type="button"
+              className="sb-button sb-button--quiet"
+              onClick={() => setDrawer(true)}
+            >
               Review changes
             </button>
-            <button type="button" className="sb-button sb-button--primary" onClick={() => void save(changedLocales)}>
-              Save {changedLocales.length} {changedLocales.length === 1 ? 'file' : 'files'}
+            <button
+              type="button"
+              className="sb-button sb-button--primary"
+              onClick={() => void save(changedLocales)}
+            >
+              Save {changedLocales.length}{" "}
+              {changedLocales.length === 1 ? "file" : "files"}
             </button>
           </div>
         </footer>
@@ -301,10 +367,10 @@ export function EditorScreen() {
         onClose={() => setDrawer(false)}
         onSave={save}
         onJump={(path) => {
-          setSection('*');
-          setFilter('all');
+          setSection("*");
+          setFilter("all");
           setQuery(path);
-          window.scrollTo({ top: 0, behavior: 'smooth' });
+          window.scrollTo({ top: 0, behavior: "smooth" });
         }}
       />
     </div>
@@ -324,20 +390,23 @@ function EmptyState({
     <div className="sb-empty sb-empty--list">
       {query.trim() ? (
         <>
-          <p>
-            Nothing matched “{query}”.
-          </p>
+          <p>Nothing matched “{query}”.</p>
           <p className="sb-hint">
-            Try a shorter piece of the sentence, or one distinctive word. Accents, capitals, HTML tags and{' '}
-            <code>{'{{variables}}'}</code> are ignored while matching.
+            Try a shorter piece of the sentence, or one distinctive word.
+            Accents, capitals, HTML tags and <code>{"{{variables}}"}</code> are
+            ignored while matching.
           </p>
         </>
-      ) : filter !== 'all' ? (
+      ) : filter !== "all" ? (
         <p>No text in this section matches the “{filter}” filter.</p>
       ) : (
         <p>This section is empty.</p>
       )}
-      <button type="button" className="sb-button sb-button--quiet" onClick={onReset}>
+      <button
+        type="button"
+        className="sb-button sb-button--quiet"
+        onClick={onReset}
+      >
         Clear search and filters
       </button>
     </div>

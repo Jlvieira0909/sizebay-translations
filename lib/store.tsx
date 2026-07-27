@@ -1,10 +1,22 @@
-'use client';
+"use client";
 
-import { createContext, useContext, useEffect, useMemo, useReducer } from 'react';
-import type { Dispatch, ReactNode } from 'react';
-import { toEntry } from './json';
-import { localeRank } from './locales';
-import type { ChangeRecord, EditMap, Entry, FileError, LoadedLocale } from './types';
+import {
+  createContext,
+  useContext,
+  useEffect,
+  useMemo,
+  useReducer,
+} from "react";
+import type { Dispatch, ReactNode } from "react";
+import { toEntry } from "./json";
+import { localeRank } from "./locales";
+import type {
+  ChangeRecord,
+  EditMap,
+  Entry,
+  FileError,
+  LoadedLocale,
+} from "./types";
 
 export interface SectionSummary {
   name: string;
@@ -12,13 +24,11 @@ export interface SectionSummary {
   changed: number;
 }
 
-/** `choose` until the user says whether to use the standard texts or their own files. */
-export type SourceMode = 'choose' | 'standard' | 'upload';
+export type SourceMode = "choose" | "standard" | "upload";
 
 interface State {
-  step: 'setup' | 'editor';
+  step: "setup" | "editor";
   source: SourceMode;
-  /** Locale codes the user wants to work on. Order drives the column order. */
   selected: string[];
   loaded: Record<string, LoadedLocale>;
   edits: EditMap;
@@ -26,33 +36,42 @@ interface State {
 }
 
 type Action =
-  | { type: 'set-source'; source: SourceMode }
-  | { type: 'toggle-locale'; code: string }
-  | { type: 'select-locales'; codes: string[] }
-  | { type: 'clear-locales' }
-  | { type: 'pin-locale'; code: string }
-  | { type: 'add-file'; file: LoadedLocale }
-  | { type: 'remove-file'; code: string }
-  | { type: 'reassign-file'; from: string; to: string }
-  | { type: 'add-error'; error: FileError }
-  | { type: 'clear-errors' }
-  | { type: 'set-step'; step: State['step'] }
-  | { type: 'set-value'; code: string; path: string; value: string; original: string }
-  | { type: 'revert-value'; code: string; path: string }
-  | { type: 'revert-path'; path: string }
-  | { type: 'revert-locale'; code: string }
-  | { type: 'revert-all' };
+  | { type: "set-source"; source: SourceMode }
+  | { type: "toggle-locale"; code: string }
+  | { type: "select-locales"; codes: string[] }
+  | { type: "clear-locales" }
+  | { type: "pin-locale"; code: string }
+  | { type: "add-file"; file: LoadedLocale }
+  | { type: "remove-file"; code: string }
+  | { type: "reassign-file"; from: string; to: string }
+  | { type: "add-error"; error: FileError }
+  | { type: "clear-errors" }
+  | { type: "set-step"; step: State["step"] }
+  | {
+      type: "set-value";
+      code: string;
+      path: string;
+      value: string;
+      original: string;
+    }
+  | { type: "revert-value"; code: string; path: string }
+  | { type: "revert-path"; path: string }
+  | { type: "revert-locale"; code: string }
+  | { type: "revert-all" };
 
 const initialState: State = {
-  step: 'setup',
-  source: 'choose',
+  step: "setup",
+  source: "choose",
   selected: [],
   loaded: {},
   edits: {},
   errors: [],
 };
 
-function withoutKey<T extends Record<string, unknown>>(source: T, key: string): T {
+function withoutKey<T extends Record<string, unknown>>(
+  source: T,
+  key: string
+): T {
   const next = { ...source };
   delete next[key];
   return next;
@@ -60,32 +79,36 @@ function withoutKey<T extends Record<string, unknown>>(source: T, key: string): 
 
 function reducer(state: State, action: Action): State {
   switch (action.type) {
-    case 'set-source':
+    case "set-source":
       return { ...state, source: action.source, errors: [] };
 
-    case 'toggle-locale': {
+    case "toggle-locale": {
       const selected = state.selected.includes(action.code)
         ? state.selected.filter((code) => code !== action.code)
         : [...state.selected, action.code];
       return { ...state, selected };
     }
 
-    case 'select-locales': {
+    case "select-locales": {
       const merged = [...state.selected];
-      for (const code of action.codes) if (!merged.includes(code)) merged.push(code);
+      for (const code of action.codes)
+        if (!merged.includes(code)) merged.push(code);
       return { ...state, selected: merged };
     }
 
-    case 'clear-locales':
+    case "clear-locales":
       return { ...state, selected: [] };
 
-    case 'pin-locale':
+    case "pin-locale":
       return {
         ...state,
-        selected: [action.code, ...state.selected.filter((code) => code !== action.code)],
+        selected: [
+          action.code,
+          ...state.selected.filter((code) => code !== action.code),
+        ],
       };
 
-    case 'add-file': {
+    case "add-file": {
       const selected = state.selected.includes(action.file.code)
         ? state.selected
         : [...state.selected, action.file.code];
@@ -93,41 +116,50 @@ function reducer(state: State, action: Action): State {
         ...state,
         selected,
         loaded: { ...state.loaded, [action.file.code]: action.file },
-        errors: state.errors.filter((error) => error.fileName !== action.file.fileName),
+        errors: state.errors.filter(
+          (error) => error.fileName !== action.file.fileName
+        ),
       };
     }
 
-    case 'remove-file':
+    case "remove-file":
       return {
         ...state,
         loaded: withoutKey(state.loaded, action.code),
         edits: withoutKey(state.edits, action.code),
       };
 
-    case 'reassign-file': {
+    case "reassign-file": {
       const file = state.loaded[action.from];
       if (!file || action.from === action.to) return state;
       const loaded = withoutKey(state.loaded, action.from);
       loaded[action.to] = { ...file, code: action.to };
-      const selected = state.selected.map((code) => (code === action.from ? action.to : code));
+      const selected = state.selected.map((code) =>
+        code === action.from ? action.to : code
+      );
       const edits = withoutKey(state.edits, action.from);
       if (state.edits[action.from]) edits[action.to] = state.edits[action.from];
       return { ...state, loaded, selected: [...new Set(selected)], edits };
     }
 
-    case 'add-error':
+    case "add-error":
       return {
         ...state,
-        errors: [...state.errors.filter((error) => error.fileName !== action.error.fileName), action.error],
+        errors: [
+          ...state.errors.filter(
+            (error) => error.fileName !== action.error.fileName
+          ),
+          action.error,
+        ],
       };
 
-    case 'clear-errors':
+    case "clear-errors":
       return { ...state, errors: [] };
 
-    case 'set-step':
+    case "set-step":
       return { ...state, step: action.step };
 
-    case 'set-value': {
+    case "set-value": {
       const localeEdits = { ...(state.edits[action.code] ?? {}) };
       if (action.value === action.original) delete localeEdits[action.path];
       else localeEdits[action.path] = action.value;
@@ -139,7 +171,7 @@ function reducer(state: State, action: Action): State {
       return { ...state, edits };
     }
 
-    case 'revert-value': {
+    case "revert-value": {
       const localeEdits = state.edits[action.code];
       if (!localeEdits || !(action.path in localeEdits)) return state;
       const next = withoutKey(localeEdits, action.path);
@@ -149,7 +181,7 @@ function reducer(state: State, action: Action): State {
       return { ...state, edits };
     }
 
-    case 'revert-path': {
+    case "revert-path": {
       const edits: EditMap = {};
       for (const [code, paths] of Object.entries(state.edits)) {
         const next = withoutKey(paths, action.path);
@@ -158,10 +190,10 @@ function reducer(state: State, action: Action): State {
       return { ...state, edits };
     }
 
-    case 'revert-locale':
+    case "revert-locale":
       return { ...state, edits: withoutKey(state.edits, action.code) };
 
-    case 'revert-all':
+    case "revert-all":
       return { ...state, edits: {} };
 
     default:
@@ -172,11 +204,8 @@ function reducer(state: State, action: Action): State {
 interface TranslatorContextValue {
   state: State;
   dispatch: Dispatch<Action>;
-  /** Selected locales that actually have a file loaded, in column order. */
   activeLocales: string[];
-  /** Loaded but not selected — shown as available in the header. */
   loadedCodes: string[];
-  /** Selected with no file yet. */
   awaitingCodes: string[];
   entries: Entry[];
   sections: SectionSummary[];
@@ -195,20 +224,20 @@ export function TranslatorProvider({ children }: { children: ReactNode }) {
 
   const activeLocales = useMemo(
     () => state.selected.filter((code) => Boolean(state.loaded[code])),
-    [state.selected, state.loaded],
+    [state.selected, state.loaded]
   );
 
   const loadedCodes = useMemo(
-    () => Object.keys(state.loaded).sort((a, b) => localeRank(a) - localeRank(b)),
-    [state.loaded],
+    () =>
+      Object.keys(state.loaded).sort((a, b) => localeRank(a) - localeRank(b)),
+    [state.loaded]
   );
 
   const awaitingCodes = useMemo(
     () => state.selected.filter((code) => !state.loaded[code]),
-    [state.selected, state.loaded],
+    [state.selected, state.loaded]
   );
 
-  /** Union of the keys of every active file, ordered by the first file that declares them. */
   const entries = useMemo(() => {
     const seen = new Set<string>();
     const list: Entry[] = [];
@@ -229,21 +258,34 @@ export function TranslatorProvider({ children }: { children: ReactNode }) {
     for (const code of Object.keys(state.edits)) {
       const file = state.loaded[code];
       for (const [path, after] of Object.entries(state.edits[code] ?? {})) {
-        list.push({ locale: code, path, before: file?.flat[path] ?? '', after });
+        list.push({
+          locale: code,
+          path,
+          before: file?.flat[path] ?? "",
+          after,
+        });
       }
     }
-    return list.sort((a, b) => a.path.localeCompare(b.path) || localeRank(a.locale) - localeRank(b.locale));
+    return list.sort(
+      (a, b) =>
+        a.path.localeCompare(b.path) ||
+        localeRank(a.locale) - localeRank(b.locale)
+    );
   }, [state.edits, state.loaded]);
 
   const sections = useMemo(() => {
     const map = new Map<string, SectionSummary>();
     for (const entry of entries) {
-      const current = map.get(entry.section) ?? { name: entry.section, count: 0, changed: 0 };
+      const current = map.get(entry.section) ?? {
+        name: entry.section,
+        count: 0,
+        changed: 0,
+      };
       current.count += 1;
       map.set(entry.section, current);
     }
     for (const change of changes) {
-      const section = change.path.split('.')[0];
+      const section = change.path.split(".")[0];
       const current = map.get(section);
       if (current) current.changed += 1;
     }
@@ -251,9 +293,12 @@ export function TranslatorProvider({ children }: { children: ReactNode }) {
   }, [entries, changes]);
 
   const value = useMemo<TranslatorContextValue>(() => {
-    const originalOf = (code: string, path: string) => state.loaded[code]?.flat[path];
-    const valueOf = (code: string, path: string) => state.edits[code]?.[path] ?? originalOf(code, path) ?? '';
-    const isChanged = (code: string, path: string) => state.edits[code]?.[path] !== undefined;
+    const originalOf = (code: string, path: string) =>
+      state.loaded[code]?.flat[path];
+    const valueOf = (code: string, path: string) =>
+      state.edits[code]?.[path] ?? originalOf(code, path) ?? "";
+    const isChanged = (code: string, path: string) =>
+      state.edits[code]?.[path] !== undefined;
 
     return {
       state,
@@ -265,30 +310,43 @@ export function TranslatorProvider({ children }: { children: ReactNode }) {
       sections,
       changeCount: changes.length,
       changedLocales: [...new Set(changes.map((change) => change.locale))].sort(
-        (a, b) => localeRank(a) - localeRank(b),
+        (a, b) => localeRank(a) - localeRank(b)
       ),
       changes,
       originalOf,
       valueOf,
       isChanged,
     };
-  }, [state, activeLocales, loadedCodes, awaitingCodes, entries, sections, changes]);
+  }, [
+    state,
+    activeLocales,
+    loadedCodes,
+    awaitingCodes,
+    entries,
+    sections,
+    changes,
+  ]);
 
   useEffect(() => {
     if (changes.length === 0) return undefined;
     const warn = (event: BeforeUnloadEvent) => {
       event.preventDefault();
-      event.returnValue = '';
+      event.returnValue = "";
     };
-    window.addEventListener('beforeunload', warn);
-    return () => window.removeEventListener('beforeunload', warn);
+    window.addEventListener("beforeunload", warn);
+    return () => window.removeEventListener("beforeunload", warn);
   }, [changes.length]);
 
-  return <TranslatorContext.Provider value={value}>{children}</TranslatorContext.Provider>;
+  return (
+    <TranslatorContext.Provider value={value}>
+      {children}
+    </TranslatorContext.Provider>
+  );
 }
 
 export function useTranslator(): TranslatorContextValue {
   const context = useContext(TranslatorContext);
-  if (!context) throw new Error('useTranslator must be used inside <TranslatorProvider>.');
+  if (!context)
+    throw new Error("useTranslator must be used inside <TranslatorProvider>.");
   return context;
 }

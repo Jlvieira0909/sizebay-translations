@@ -1,29 +1,34 @@
-import type { Entry, JsonObject, JsonValue } from './types';
+import type { Entry, JsonObject, JsonValue } from "./types";
 
 export function isPlainObject(value: unknown): value is JsonObject {
-  return typeof value === 'object' && value !== null && !Array.isArray(value);
+  return typeof value === "object" && value !== null && !Array.isArray(value);
 }
 
 export function clone<T>(value: T): T {
   return JSON.parse(JSON.stringify(value)) as T;
 }
 
-/** Every leaf of the tree as `path -> text`. Objects and arrays are walked, nulls become "". */
-export function flatten(input: JsonValue, prefix = '', out: Record<string, string> = {}): Record<string, string> {
+export function flatten(
+  input: JsonValue,
+  prefix = "",
+  out: Record<string, string> = {}
+): Record<string, string> {
   if (isPlainObject(input)) {
     for (const [key, value] of Object.entries(input)) {
       flatten(value, prefix ? `${prefix}.${key}` : key, out);
     }
   } else if (Array.isArray(input)) {
-    input.forEach((value, index) => flatten(value, prefix ? `${prefix}.${index}` : String(index), out));
+    input.forEach((value, index) =>
+      flatten(value, prefix ? `${prefix}.${index}` : String(index), out)
+    );
   } else if (prefix) {
-    out[prefix] = input === null ? '' : String(input);
+    out[prefix] = input === null ? "" : String(input);
   }
   return out;
 }
 
 export function toEntry(path: string): Entry {
-  const segments = path.split('.');
+  const segments = path.split(".");
   return {
     path,
     section: segments[0] ?? path,
@@ -32,9 +37,12 @@ export function toEntry(path: string): Entry {
   };
 }
 
-export function getAtPath(root: JsonValue, path: string): JsonValue | undefined {
+export function getAtPath(
+  root: JsonValue,
+  path: string
+): JsonValue | undefined {
   let current: JsonValue | undefined = root;
-  for (const segment of path.split('.')) {
+  for (const segment of path.split(".")) {
     if (Array.isArray(current)) {
       const index = Number(segment);
       current = Number.isInteger(index) ? current[index] : undefined;
@@ -48,16 +56,20 @@ export function getAtPath(root: JsonValue, path: string): JsonValue | undefined 
   return current;
 }
 
-/** Writes into a clone-safe tree, creating containers for keys a locale is missing. */
-export function setAtPath(root: JsonObject, path: string, value: JsonValue): void {
-  const segments = path.split('.');
+export function setAtPath(
+  root: JsonObject,
+  path: string,
+  value: JsonValue
+): void {
+  const segments = path.split(".");
   let current: JsonObject | JsonValue[] = root;
 
   for (let i = 0; i < segments.length - 1; i += 1) {
     const segment = segments[i];
     if (Array.isArray(current)) {
       const index = Number(segment);
-      if (!isPlainObject(current[index]) && !Array.isArray(current[index])) current[index] = {};
+      if (!isPlainObject(current[index]) && !Array.isArray(current[index]))
+        current[index] = {};
       current = current[index] as JsonObject | JsonValue[];
     } else {
       const next = current[segment];
@@ -75,22 +87,23 @@ export function setAtPath(root: JsonObject, path: string, value: JsonValue): voi
   }
 }
 
-/** Keeps numbers as numbers and booleans as booleans when the text still looks like one. */
 function coerceLike(original: JsonValue | undefined, next: string): JsonValue {
-  if (typeof original === 'number') {
+  if (typeof original === "number") {
     const parsed = Number(next);
-    return next.trim() !== '' && Number.isFinite(parsed) ? parsed : next;
+    return next.trim() !== "" && Number.isFinite(parsed) ? parsed : next;
   }
-  if (typeof original === 'boolean') {
-    if (next === 'true') return true;
-    if (next === 'false') return false;
+  if (typeof original === "boolean") {
+    if (next === "true") return true;
+    if (next === "false") return false;
     return next;
   }
   return next;
 }
 
-/** Original file + edits, with untouched keys and their order preserved. */
-export function applyEdits(base: JsonObject, edits: Record<string, string> | undefined): JsonObject {
+export function applyEdits(
+  base: JsonObject,
+  edits: Record<string, string> | undefined
+): JsonObject {
   const next = clone(base);
   if (!edits) return next;
   for (const [path, value] of Object.entries(edits)) {
@@ -106,7 +119,6 @@ export function serialize(data: JsonObject): string {
 const PLACEHOLDER = /\{\{\s*([^{}]+?)\s*\}\}/g;
 const TAG = /<\s*([a-z][a-z0-9]*)\b/gi;
 
-/** `{{size}}`, `{{ brandName }}` → a comparable list of tokens. */
 export function placeholders(text: string): string[] {
   const found = new Set<string>();
   for (const match of text.matchAll(PLACEHOLDER)) found.add(match[1].trim());
@@ -124,15 +136,14 @@ export function hasMarkup(text: string): boolean {
 }
 
 export interface ValueIssue {
-  kind: 'missing-placeholder' | 'extra-placeholder' | 'missing-tag' | 'empty';
+  kind: "missing-placeholder" | "extra-placeholder" | "missing-tag" | "empty";
   tokens: string[];
 }
 
-/** The rewrite that quietly breaks the fitting room: one that drops `{{size}}`. */
 export function inspectValue(original: string, next: string): ValueIssue[] {
   const issues: ValueIssue[] = [];
-  if (original.trim() !== '' && next.trim() === '') {
-    issues.push({ kind: 'empty', tokens: [] });
+  if (original.trim() !== "" && next.trim() === "") {
+    issues.push({ kind: "empty", tokens: [] });
     return issues;
   }
 
@@ -140,13 +151,15 @@ export function inspectValue(original: string, next: string): ValueIssue[] {
   const after = placeholders(next);
   const missing = before.filter((token) => !after.includes(token));
   const extra = after.filter((token) => !before.includes(token));
-  if (missing.length) issues.push({ kind: 'missing-placeholder', tokens: missing });
-  if (extra.length) issues.push({ kind: 'extra-placeholder', tokens: extra });
+  if (missing.length)
+    issues.push({ kind: "missing-placeholder", tokens: missing });
+  if (extra.length) issues.push({ kind: "extra-placeholder", tokens: extra });
 
   const beforeTags = tags(original);
   const afterTags = tags(next);
   const missingTags = beforeTags.filter((tag) => !afterTags.includes(tag));
-  if (missingTags.length) issues.push({ kind: 'missing-tag', tokens: missingTags });
+  if (missingTags.length)
+    issues.push({ kind: "missing-tag", tokens: missingTags });
 
   return issues;
 }

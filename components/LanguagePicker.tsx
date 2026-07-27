@@ -1,30 +1,32 @@
-'use client';
+"use client";
 
-import { useMemo, useState } from 'react';
-import { LOCALES, LOCALE_GROUPS, localeMeta } from '@/lib/locales';
-import { normalize } from '@/lib/search';
-import { useTranslator } from '@/lib/store';
-import type { LocaleGroup, LocaleMeta } from '@/lib/types';
-import { AlertIcon, CheckIcon } from './Icons';
+import { useMemo, useState } from "react";
+import { LOCALES, LOCALE_GROUPS, localeMeta } from "@/lib/locales";
+import { normalize } from "@/lib/search";
+import { useTranslator } from "@/lib/store";
+import type { LocaleGroup, LocaleMeta } from "@/lib/types";
+import { AlertIcon, CheckIcon } from "./Icons";
 
 const SHORTCUTS: { label: string; codes: string[] }[] = [
-  { label: 'BR + EN + ES', codes: ['br', 'en', 'es'] },
-  { label: 'All Spanish', codes: ['es', 'mx', 'esAR', 'esCT'] },
-  { label: 'Western Europe', codes: ['en', 'fr', 'de', 'it', 'nl', 'pt'] },
+  { label: "BR + EN + ES", codes: ["br", "en", "es"] },
+  { label: "All Spanish", codes: ["es", "mx", "esAR", "esCT"] },
+  { label: "Western Europe", codes: ["en", "fr", "de", "it", "nl", "pt"] },
 ];
 
 interface LanguagePickerProps {
-  /** In standard mode, the codes that actually have a file in public/locales. */
   available?: Set<string> | null;
 }
 
 export function LanguagePicker({ available = null }: LanguagePickerProps) {
   const { state, dispatch, loadedCodes } = useTranslator();
-  const [query, setQuery] = useState('');
+  const [query, setQuery] = useState("");
 
   const unlisted = useMemo(
-    () => loadedCodes.filter((code) => !LOCALES.some((locale) => locale.code === code)).map(localeMeta),
-    [loadedCodes],
+    () =>
+      loadedCodes
+        .filter((code) => !LOCALES.some((locale) => locale.code === code))
+        .map(localeMeta),
+    [loadedCodes]
   );
 
   const grouped = useMemo(() => {
@@ -32,7 +34,9 @@ export function LanguagePicker({ available = null }: LanguagePickerProps) {
     const pool = [...LOCALES, ...unlisted];
     const matches = needle
       ? pool.filter((locale) =>
-          [locale.code, locale.name, locale.native].some((field) => normalize(field).includes(needle)),
+          [locale.code, locale.name, locale.native].some((field) =>
+            normalize(field).includes(needle)
+          )
         )
       : pool;
 
@@ -61,7 +65,9 @@ export function LanguagePicker({ available = null }: LanguagePickerProps) {
               key={shortcut.label}
               type="button"
               className="sb-ghost"
-              onClick={() => dispatch({ type: 'select-locales', codes: shortcut.codes })}
+              onClick={() =>
+                dispatch({ type: "select-locales", codes: shortcut.codes })
+              }
             >
               {shortcut.label}
             </button>
@@ -69,7 +75,7 @@ export function LanguagePicker({ available = null }: LanguagePickerProps) {
           <button
             type="button"
             className="sb-ghost"
-            onClick={() => dispatch({ type: 'clear-locales' })}
+            onClick={() => dispatch({ type: "clear-locales" })}
             disabled={selectedCount === 0}
           >
             Clear
@@ -79,8 +85,9 @@ export function LanguagePicker({ available = null }: LanguagePickerProps) {
 
       {grouped.length === 0 ? (
         <p className="sb-empty">
-          No language matches “{query}”. The registry follows the codes in <code>languages.all_langs</code>, so try{' '}
-          <code>br</code> instead of <code>pt-BR</code>.
+          No language matches “{query}”. The registry follows the codes in{" "}
+          <code>languages.all_langs</code>, so try <code>br</code> instead of{" "}
+          <code>pt-BR</code>.
         </p>
       ) : (
         <div className="sb-picker__groups">
@@ -97,8 +104,12 @@ export function LanguagePicker({ available = null }: LanguagePickerProps) {
                     locale={locale}
                     selected={state.selected.includes(locale.code)}
                     loaded={Boolean(state.loaded[locale.code])}
-                    unavailable={Boolean(available) && !available?.has(locale.code)}
-                    onToggle={() => dispatch({ type: 'toggle-locale', code: locale.code })}
+                    unavailable={
+                      Boolean(available) && !available?.has(locale.code)
+                    }
+                    onToggle={() =>
+                      dispatch({ type: "toggle-locale", code: locale.code })
+                    }
                   />
                 ))}
               </ul>
@@ -134,29 +145,35 @@ function LanguageChip({
         aria-pressed={selected}
         disabled={blocked}
         onClick={onToggle}
-        title={blocked ? 'No standard text for this language yet' : locale.note}
+        title={blocked ? "No standard text for this language yet" : locale.note}
       >
         <span className="sb-chip__code">{locale.code}</span>
         <span className="sb-chip__text">
           <span className="sb-chip__name">{locale.name}</span>
-          <span className="sb-chip__native" lang={locale.code} dir={locale.rtl ? 'rtl' : undefined}>
+          <span
+            className="sb-chip__native"
+            lang={locale.code}
+            dir={locale.rtl ? "rtl" : undefined}
+          >
             {locale.native}
           </span>
         </span>
         <span className="sb-chip__state">
           {loaded ? <CheckIcon size={14} /> : null}
-          {locale.note ? <AlertIcon size={13} className="sb-chip__warn" /> : null}
+          {locale.note ? (
+            <AlertIcon size={13} className="sb-chip__warn" />
+          ) : null}
         </span>
       </button>
     </li>
   );
 }
 
-/** Groups by region are for scanning; this is the flat count line under the card. */
 export function LanguagePickerSummary() {
   const { state, loadedCodes, awaitingCodes } = useTranslator();
-  const standard = state.source === 'standard';
-  if (state.selected.length === 0) return <p className="sb-hint">Nothing selected yet.</p>;
+  const standard = state.source === "standard";
+  if (state.selected.length === 0)
+    return <p className="sb-hint">Nothing selected yet.</p>;
 
   return (
     <p className="sb-hint" aria-live="polite">
@@ -164,14 +181,16 @@ export function LanguagePickerSummary() {
       {loadedCodes.length > 0 ? <> · {loadedCodes.length} ready</> : null}
       {awaitingCodes.length > 0 ? (
         <>
-          {standard ? ' · loading ' : ' · waiting for '}
+          {standard ? " · loading " : " · waiting for "}
           {awaitingCodes.slice(0, 4).map((code, index) => (
             <span key={code}>
-              {index > 0 ? ', ' : ''}
+              {index > 0 ? ", " : ""}
               <code>{standard ? code : `${code}.json`}</code>
             </span>
           ))}
-          {awaitingCodes.length > 4 ? ` and ${awaitingCodes.length - 4} more` : null}
+          {awaitingCodes.length > 4
+            ? ` and ${awaitingCodes.length - 4} more`
+            : null}
         </>
       ) : null}
     </p>
