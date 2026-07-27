@@ -1,0 +1,190 @@
+{
+  "generatedAt": "2026-07-27T16:37:40.065Z",
+  "locales": [
+    {
+      "code": "br",
+      "file": "br.json",
+      "keys": 649
+    },
+    {
+      "code": "pt",
+      "file": "pt.json",
+      "keys": 649
+    },
+    {
+      "code": "es",
+      "file": "es.json",
+      "keys": 649
+    },
+    {
+      "code": "mx",
+      "file": "mx.json",
+      "keys": 649
+    },
+    {
+      "code": "en",
+      "file": "en.json",
+      "keys": 649
+    },
+    {
+      "code": "uk",
+      "file": "uk.json",
+      "keys": 649
+    },
+    {
+      "code": "fr",
+      "file": "fr.json",
+      "keys": 648
+    },
+    {
+      "code": "de",
+      "file": "de.json",
+      "keys": 648
+    },
+    {
+      "code": "it",
+      "file": "it.json",
+      "keys": 649
+    },
+    {
+      "code": "nl",
+      "file": "nl.json",
+      "keys": 649
+    },
+    {
+      "code": "gr",
+      "file": "gr.json",
+      "keys": 649
+    },
+    {
+      "code": "sv",
+      "file": "sv.json",
+      "keys": 649
+    },
+    {
+      "code": "no",
+      "file": "no.json",
+      "keys": 649
+    },
+    {
+      "code": "dk",
+      "file": "dk.json",
+      "keys": 649
+    },
+    {
+      "code": "fi",
+      "file": "fi.json",
+      "keys": 649
+    },
+    {
+      "code": "pl",
+      "file": "pl.json",
+      "keys": 649
+    },
+    {
+      "code": "cz",
+      "file": "cz.json",
+      "keys": 649
+    },
+    {
+      "code": "sk",
+      "file": "sk.json",
+      "keys": 649
+    },
+    {
+      "code": "sl",
+      "file": "sl.json",
+      "keys": 648
+    },
+    {
+      "code": "hu",
+      "file": "hu.json",
+      "keys": 649
+    },
+    {
+      "code": "ro",
+      "file": "ro.json",
+      "keys": 649
+    },
+    {
+      "code": "bg",
+      "file": "bg.json",
+      "keys": 649
+    },
+    {
+      "code": "hr",
+      "file": "hr.json",
+      "keys": 648
+    },
+    {
+      "code": "sr",
+      "file": "sr.json",
+      "keys": 649
+    },
+    {
+      "code": "ru",
+      "file": "ru.json",
+      "keys": 649
+    },
+    {
+      "code": "lt",
+      "file": "lt.json",
+      "keys": 649
+    },
+    {
+      "code": "lv",
+      "file": "lv.json",
+      "keys": 649
+    },
+    {
+      "code": "et",
+      "file": "et.json",
+      "keys": 649
+    },
+    {
+      "code": "ar",
+      "file": "ar.json",
+      "keys": 648
+    },
+    {
+      "code": "he",
+      "file": "he.json",
+      "keys": 649
+    },
+    {
+      "code": "tr",
+      "file": "tr.json",
+      "keys": 649
+    },
+    {
+      "code": "cn",
+      "file": "cn.json",
+      "keys": 649
+    },
+    {
+      "code": "jp",
+      "file": "jp.json",
+      "keys": 649
+    },
+    {
+      "code": "ko",
+      "file": "ko.json",
+      "keys": 649
+    },
+    {
+      "code": "th",
+      "file": "th.json",
+      "keys": 649
+    },
+    {
+      "code": "vn",
+      "file": "vn.json",
+      "keys": 649
+    },
+    {
+      "code": "id",
+      "file": "id.json",
+      "keys": 649
+    }
+  ]
+}

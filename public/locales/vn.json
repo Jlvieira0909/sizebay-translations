@@ -1,0 +1,953 @@
+{
+  "shoe_size": {
+    "fit_loose": "Lỏng lẻo",
+    "shoe_accessory": {
+      "no_recommendation": {
+        "subtitle": "Chúng tôi không thể tìm thấy kích thước cho các phép đo bên dưới. Điều chỉnh nếu cần thiết.",
+        "title": "Chúng tôi không tìm thấy bất kỳ kích thước nào"
+      },
+      "all_measures": {
+        "measurements_guide": "Hướng dẫn đo lường [PDF]",
+        "title": "Kích thước bàn chân của bạn là bao nhiêu?"
+      },
+      "info_drawer_subtitle": "Để tìm được cỡ giày phù hợp nhất, tại sao bạn không cho chúng tôi biết một chút về bản thân?"
+    },
+    "recommendation": "Dựa trên thông tin của bạn, đây là số đo bàn chân của bạn. Điều chỉnh nếu cần thiết:",
+    "foot_shape_question": "Hình dạng bàn chân của bạn như thế nào?",
+    "title": "Chiều dài bàn chân của bạn là bao nhiêu?",
+    "drawer_title": "chân bạn dài bao nhiêu",
+    "subtitle": {
+      "0": "Hãy cho chúng tôi biết một chút về bản thân bạn để tìm cỡ giày phù hợp nhất",
+      "box": {
+        "subtitle": "Đặt một tờ giấy trên sàn, dựa vào tường. Đứng với gót chân của bạn trên giấy và sát tường. Đánh dấu đầu ngón chân dài nhất của bạn, sau đó đo khoảng cách.",
+        "title": "Cách đo chân chính xác:"
+      }
+    },
+    "fit_description_ideal": "Có <strong>khoảng trống nhỏ</strong> giữa các ngón chân và giày.",
+    "length_example": "Đi đôi <strong>{{brandName}}</strong> cỡ <strong>{{size}}</strong> của bạn và cho chúng tôi biết chiều dài vừa với chân của bạn như thế nào.",
+    "fit_tight": "Ấm cúng",
+    "fit_ideal": "Vừa vặn",
+    "open_drawer_button": "Làm thế nào để đo lường bản thân",
+    "fit_description_loose": "Có <strong>khoảng trống lớn</strong> giữa các ngón chân và giày.",
+    "shoe_accessory_subtitle": "Chọn số đo bàn chân của bạn bên dưới, theo hướng dẫn của chúng tôi\nvề cách đo lường bản thân.",
+    "drawer_button": "Hiểu rồi",
+    "fit_description_tight": "Giày chạm vào ngón chân của bạn <strong>không có khoảng trống</strong>.",
+    "length_question": "Giày của bạn có vừa chiều dài không?"
+  },
+  "footer": {
+    "add_to_cart_mobile_2": "Thêm vào giỏ hàng",
+    "confirm": "Xác nhận",
+    "none_of_those": "Không trong số đó",
+    "save_measures": "Lưu số đo",
+    "view_recommendation": "Xem gợi ý",
+    "print_measurement_tape": "In thước dây đo lường",
+    "virtual_fitting_room": "Phòng thử đồ ảo",
+    "info_box": "Chọn Tùy chọn Kích cỡ nếu bạn muốn may áo khoác theo số đo cơ thể",
+    "yes": "Có",
+    "add_to_cart": "Thêm vào giỏ hàng",
+    "brand_not_found": "Tôi không thể tìm thấy thương hiệu",
+    "proceed": "Tiếp tục",
+    "edit_data": "Điều chỉnh dữ liệu",
+    "not_yet": "Chưa",
+    "cancel_alt": "Không, hủy",
+    "next": "Tiếp theo",
+    "cancel": "Hủy",
+    "by-sizebay": "bởi Sizebay®",
+    "sure": "Chắc chắn!",
+    "add_profile": "Tạo hồ sơ",
+    "create_new_profile": "Tạo hồ sơ mới",
+    "restart": "Khởi động lại",
+    "close": "Đóng",
+    "select_another_profile": "Chọn hồ sơ khác",
+    "continue_without_brand": "Tôi không thể tìm thấy nhãn hiệu",
+    "unsure": "Tôi không chắc",
+    "save": "Lưu",
+    "edit_measures": "Điều chỉnh số đo",
+    "proceed_anyway": "Vẫn tiếp tục",
+    "edit_profile": "Điều chỉnh hồ sơ",
+    "add_to_cart_mobile": "Mua",
+    "back": "Trước"
+  },
+  "composed_measures": {
+    "welcome": {
+      "link_tooltip": "<b>{{suffix}} {{measureName}} chiều rộng.</b>",
+      "item_text": "{{measureName}} của tôi rộng {{range}} {{sizeSystem}}",
+      "measures_range_item": "{{initialRange}} to {{finalRange}}",
+      "tooltip_text": "Nhấn để chọn kích thước khác",
+      "tooltip_instructions": "Nhấp vào đây để tìm hiểu cách thực hiện đo số đo {{measureName}} của bạn",
+      "height": {
+        "item_text": "Tôi cao {{range}} {{sizeSystem}}",
+        "link_tooltip": "<b>bạn cao bao nhiêu.</b>",
+        "title": "Bạn cao bao nhiêu?",
+        "instructions": "Chúng tôi cần biết <b>height</b> của bạn để hiển thị cho bạn các đề xuất khả thi theo"
+      },
+      "title": "Số đo của {{suffix}} {{measureName}} là gì?",
+      "instructions": "{{suffix}} <b>{{measureName}}</b> rộng bao nhiêu? Chúng tôi cần biết kích thước {{suffix}} {{measureName}} để hiển thị cho bạn các đề xuất có thể có theo"
+    },
+    "height": {
+      "title": "Bạn cao bao nhiêu?",
+      "link_tooltip": "để hiển thị chiều cao của bạn."
+    },
+    "table": {
+      "helper_height": "Chiều cao này từ {{range}} {{sizeSystem}}. Có phải số đo này không chính xác?",
+      "tooltip_change": "Thay đổi ở đây.",
+      "helper": "{{measureName}} này dài từ {{range}} {{sizeSystem}}. Có phải số đo này không chính xác?",
+      "title": "Đây là các kích thước có thể phù hợp cho <span>{{range}}</span> {{measureName}}",
+      "vfr_tooltip": "Bạn có số đo của mình chưa? Tại sao bạn không thử khám phá kích thước phù hợp cho mình trong Phòng thử đồ ảo?"
+    }
+  },
+  "body_measurements": {
+    "diameter": "ĐƯỜNG KÍNH",
+    "collar": "cổ áo",
+    "length": "Chiều dài sản phẩm",
+    "centralSeam": "Giơ lên trước",
+    "weightChart": "Cân nặng",
+    "width": "Chiều rộng",
+    "waistUpper": "Trên thắt lưng",
+    "weight": "Cân nặng",
+    "circumference": "Đường tròn",
+    "insoleLength": "Chiều dài bàn chân",
+    "label1": "KÍCH THƯỚC (USA)",
+    "sleve": "Chiều dài tay áo",
+    "waist": "Thắt lưng",
+    "chest_m": "Ngực",
+    "chest_f": "Vòng 1",
+    "neck": "Cổ",
+    "comfort": "Thoải mái",
+    "sleeve": "Tay",
+    "thigh": "Đùi",
+    "headCircumference": "Đầu",
+    "hip": "Hông",
+    "shoulderWidth": "Vai",
+    "waistLower": "Dưới thắt lưng",
+    "wrist": "Cổ tay",
+    "palm": "Lòng bàn tay",
+    "bar": "Đường viền",
+    "chest": "Ngực",
+    "lowerLength": "chiều dài thấp hơn",
+    "finger_circumference": "ĐƯỜNG TRÒN",
+    "insoleWidth": "Chiều rộng bàn chân",
+    "height": "Chiều cao",
+    "ageChart": "Tuổi",
+    "underBust": "Dưới vòng 1",
+    "insideLeg": "Đường may",
+    "biceps": "Bắp tay",
+    "calf": "Bắp chân",
+    "fist": "Nắm tay",
+    "fullBodyLength": "chiều dài toàn thân"
+  },
+  "measures_info": {
+    "insideLeg": "Đo khoảng cách bên trong của chân từ xương mu đến lòng bàn chân.",
+    "fullBodyLength": "Đo khoảng cách từ vai của bạn đến sàn nhà.",
+    "weightChart": "Bạn nặng bao nhiêu?",
+    "waistUpper": "Đo chu vi vòng eo phía trên rốn của bạn.",
+    "insoleLength": "Đặt một tờ giấy trên sàn, dựa vào tường. Đứng với gót chân của bạn trên giấy và sát tường. Đánh dấu đầu ngón chân dài nhất của bạn, sau đó đo khoảng cách.",
+    "biceps": "Phác thảo thước dây ở giữa cánh tay của bạn, xác định phần rộng nhất của nó.",
+    "height": "Đây là một điều dễ dàng. Đó là khoảng cách giữa đỉnh đầu của bạn (không tính tóc) đến mặt đất (lòng bàn chân), được đo với tư thế đứng thẳng.",
+    "width": "Lấy thước đo chiều rộng quần áo của bạn",
+    "weight": "Cân nặng của bạn",
+    "sleeve": "Với cánh tay hơi cong, đo khoảng cách giữa vai và cổ tay bằng cách luồn thước dây ra sau khuỷu tay.",
+    "neck": "Phác thảo chiều dài trung bình của cổ bạn bằng thước dây mà không cần siết chặt. Sử dụng gương để hỗ trợ kiểm tra phép đo.",
+    "collar": "Đo vòng quanh cổ ngay phía trên xương quai xanh, đặt một ngón tay vào giữa thước dây và cổ của bạn.",
+    "chest": "Phác thảo ngực hoặc ngực của bạn (vòng 1) bằng thước dây và thở bình thường. Lưu ý sự khác nhau khi bạn thở và ghi lại con số cao nhất.",
+    "ageChart": "Bạn bao nhiêu tuổi?",
+    "circumference": "Lấy số đo chu vi quần áo của bạn",
+    "length_botton": "Đặt đầu thước dây ở điểm cao nhất trên cơ thể bạn, vị trí của quần áo. Thả phần còn lại của thước và đánh dấu số đo.",
+    "waist": "Đứng trước gương với vòng eo rõ ràng. Hơi nghiêng thân sang một bên, hình dung sự hình thành của một nếp gấp, biểu thị vị trí của eo tự nhiên. Quấn eo.",
+    "footLength": "Đứng trên một bề mặt phẳng, với chiều cao của bạn thẳng hàng với tường. Đo phần dài nhất của bàn chân (từ gót chân đến các ngón chân) bằng thước.",
+    "lowerLength": "Đây là khoảng cách giữa hông của bạn với sàn nhà.",
+    "chest_m": "Phác thảo vòng 1 của bạn bằng thước dây và thở bình thường. Lưu ý sự khác nhau khi bạn thở và ghi lại con số cao nhất.",
+    "chest_f": "Phác thảo vòng 1 (vùng ngực) bằng thước dây và hít thở bình thường. Lưu ý sự khác nhau khi bạn thở và ghi lại con số cao nhất.",
+    "palm": "Đặt thước lên một mặt phẳng, co bàn tay lại, đặt mặt trái của tay thuận vào điểm 0 của thước và ghi lại khoảng cách tay của bạn.",
+    "waistLower": "Đo vòng eo bên dưới rốn của bạn, nơi thường vừa với cạp quần (eo thấp).",
+    "thigh": "Đặt thước dây quanh phần rộng nhất của đùi, nằm ngay dưới mông.",
+    "underBust": "Đo vòng 1 của bạn bằng thước dây xung quanh khu vực ngay dưới vòng 1 của bạn. Thở bình thường bằng cách chú ý đến sự thay đổi của số đo và ghi lại số cao nhất.",
+    "bar": "Hãy đo đường viền quần áo của bạn",
+    "insoleWidth": "Tháo đế của một chiếc giày vừa vặn với bạn và đo chiều rộng của đế như trong hình.",
+    "headCircumference": "Đo chu vi đầu của bạn (phía trên tai) bằng thước dây.",
+    "wrist": "Phác thảo thước dây quanh cổ tay của bạn, ví dụ chính xác vị trí bạn sẽ đeo đồng hồ.",
+    "hip": "Dùng thước dây phác thảo vùng \"rộng hơn\" bên dưới thắt lưng, chạy song song với phần cao nhất của cơ mông.",
+    "diameter": "Đo đường kính của vòng tròn bên trong của chiếc nhẫn mà bạn đeo trên cùng một ngón tay từ cùng một bàn tay mà bạn muốn đeo sản phẩm này",
+    "length": "Đo khoảng cách giữa phần trên của thân (điểm nối với cổ) và eo dưới (ngay dưới bụng) xung quanh bụng.",
+    "fist": "Phác thảo thước dây quanh cổ tay của bạn, ví dụ chính xác vị trí bạn sẽ đeo đồng hồ.",
+    "calf": "Ngồi trên ghế và giữ chân trên mặt đất, gập chân 90 độ. Với thước dây ở bên bắp chân, hãy đo từ gốc bàn chân đến nếp gấp của đầu gối.",
+    "shoulderWidth": "Với sự giúp đỡ của người khác, hãy đo khoảng cách giữa hai đầu vai của bạn như hình minh họa.",
+    "ring": "Buộc một sợi dây mảnh quanh ngón tay mà bạn muốn đeo sản phẩm này, đánh dấu điểm nối của sợi dây và đo chiều dài để lấy chu vi",
+    "centralSeam": "Ngồi trên một mặt phẳng, đo khoảng cách giữa eo của bạn và bề mặt bằng thước dây"
+  },
+  "privacy": {
+    "services": {
+      "anchor": "Dịch vụ Sizebay",
+      "text": "<p>Các dịch vụ của SIZEBAY có sẵn trên nền tảng thương mại điện tử ở dạng phần mềm dưới dạng dịch vụ (SaaS), có nghĩa là SIZEBAY cấp cho thương mại điện tử giấy phép sử dụng phần mềm.</p>",
+      "title": "SIZEBAY cung cấp các dịch vụ của mình như thế nào?"
+    },
+    "clear_data": {
+      "button": {
+        "initial": "Xóa tất cả dữ liệu",
+        "cleared": "Đã sạch!",
+        "cleaning": "Đang dọn dẹp..."
+      },
+      "title": "Làm sạch cookie",
+      "tooltip": "Dữ liệu của bạn đã được xóa sạch!",
+      "text": "Nhấp vào nút bên dưới nếu bạn muốn xóa tất cả dữ liệu duyệt web, bộ nhớ cache và cookie do Sizebay lưu trữ."
+    },
+    "contact": {
+      "title": "Trong trường hợp nghi ngờ, làm thế nào để liên lạc?",
+      "text": "<p>Nếu bạn có bất kỳ câu hỏi nào về Chính sách của SIZEBAY hoặc cách bạn có thể thực hiện các quyền của mình với tư cách là chủ sở hữu dữ liệu, vui lòng liên hệ với Nhân viên bảo vệ dữ liệu của SIZEBAY (DPO):<br><br>Janderson Roberto Araujo<br>Địa chỉ: R. Blumenau, 953 – Sala 402 – América, Joinville – SC, 89204-251 – Brazil.<br>Điện thoại: +55 48 4042-0150<br>E-mail: <a href='mailto:privacy@sizebay.com' target='_blank'>privacy@sizebay.com</a></p><br><a href='https://sizebay.com/pt/legal/' target='_blank'><strong>Xem thêm chính sách</strong></a>"
+    },
+    "data_protection": {
+      "anchor": "Bảo vệ dữ liệu",
+      "title": "SIZEBAY bảo vệ dữ liệu của mình như thế nào?",
+      "text": "<p>SIZEBAY coi tính bảo mật và an toàn thông tin của khách hàng, người dùng và khách truy cập là vô cùng quan trọng; do đó, nó sử dụng công nghệ Mã hóa và Tường lửa, đồng thời sẽ làm mọi thứ trong khả năng của mình để đảm bảo bảo vệ dữ liệu và thông tin của bạn.</p><p>Chúng tôi khuyên bạn nên định kỳ xóa cookie được lưu trữ trong trình duyệt bạn sử dụng, để để ngăn không cho thông tin thu thập được bị xóa khỏi cơ sở dữ liệu SIZEBAY, cũng như khỏi các trang web khác được truy cập.</p>"
+    },
+    "how_data_is_collected": {
+      "text": "<p>Việc thu thập dữ liệu được thực hiện khi người dùng cung cấp thông tin khi sử dụng các dịch vụ Phòng thử đồ ảo và Biểu đồ kích thước & độ vừa vặn hoặc thông qua cookie khi người dùng truy cập ứng dụng hoặc trang web SIZEBAY.</p>",
+      "title": "SIZEBAY thu thập dữ liệu như thế nào?"
+    },
+    "users_obligations": {
+      "anchor": "Nghĩa vụ của người dùng",
+      "title": "Nghĩa vụ của người dùng là gì?",
+      "text": "<p>Người dùng ứng dụng cam kết sử dụng các dịch vụ của SIZEBAY luôn tôn trọng và tuân thủ Chính sách, cũng như luật pháp hiện hành, phong tục, trật tự công cộng và các yêu cầu bắt buộc cần thiết để sử dụng và chấp nhận nền tảng.</p>"
+    },
+    "data_collected": {
+      "title": "Dữ liệu nào được SIZEBAY thu thập?",
+      "text": "<p>Để cung cấp các dịch vụ của mình, SIZEBAY có thể thu thập dữ liệu hồ sơ như biệt hiệu (không bắt buộc), tuổi, giới tính, chiều cao, cân nặng, hồ sơ giải phẫu và số đo cơ thể. Ngoài ra, dữ liệu nhật ký truy cập và dữ liệu cookie có thể được thu thập để cải thiện trải nghiệm người dùng và dễ dàng sử dụng ứng dụng mà không cần cung cấp lại dữ liệu đã được người dùng thông báo trong trường hợp mua hoặc phân tích sản phẩm khác.< /p><p>SIZEBAY cũng sẽ có thể thu thập dữ liệu từ đơn đặt hàng được thực hiện tại thương mại điện tử, để phân tích kích thước được đề xuất và kích thước thực tế đã mua, điều này nhằm cải thiện các dịch vụ có sẵn cho khuyến nghị kích thước quần áo và những chiếc giày. </p><p>Chúng tôi làm rõ rằng ứng dụng SIZEBAY quan tâm đến quyền riêng tư của người dùng, do đó, các dịch vụ được phát triển theo cách mà việc thu thập dữ liệu được thực hiện mà không thể xác định chủ sở hữu dữ liệu.</p >",
+      "anchor": "Dữ liệu được thu thập"
+    },
+    "how_it_works": {
+      "anchor": "Hoạt động như thế nào?",
+      "title": "Quyền truy cập vào Phòng thử đồ ảo và Biểu đồ vừa vặn & kích cỡ hoạt động như thế nào?",
+      "text": "<p>Để sử dụng các dịch vụ, người dùng không cần phải đăng ký trên nền tảng SIZEBAY. Quyền truy cập vào Biểu đồ vừa vặn & kích cỡ sẽ khả dụng và để sử dụng phòng thử đồ ảo, người dùng cần điền một số thông tin cơ bản để ứng dụng đưa ra khuyến nghị về cỡ quần áo và giày.</p><p>Tạo một biểu đồ hồ sơ cá nhân trong ứng dụng SIZEBAY không yêu cầu người dùng sử dụng họ hoặc tên của họ và thậm chí có thể điền vào dữ liệu hư cấu nếu họ quan tâm đến việc bảo vệ quyền riêng tư của mình hơn nữa.</p><p>Trẻ vị thành niên sẽ không thể sử dụng đơn trừ khi họ được cha mẹ hoặc người giám hộ đại diện và/hoặc hỗ trợ.</p>"
+    },
+    "title": "Bảo mật",
+    "overview": {
+      "title": "Điều khoản, Điều kiện sử dụng và Chính sách quyền riêng tư sử dụng làm gì?",
+      "text": "<p>ĐIỀU KHOẢN VÀ ĐIỀU KIỆN SỬ DỤNG SIZEBAY nhằm điều chỉnh: (i) việc sử dụng các dịch vụ do SIZEBAY cung cấp, thông qua nền tảng thương mại điện tử của khách hàng và cả (ii) quyền truy cập và nội dung có sẵn trên trang web của SIZEBAY, (iii) người dùng, khách truy cập và khách hàng của nền tảng và nghĩa vụ của trang web khi sử dụng ứng dụng hoặc truy cập trang web SIZEBAY, (iv) trách nhiệm của các bên liên quan.</p><p><strong>Các CHÍNH SÁCH QUYỀN RIÊNG TƯ</strong> nhằm mục đích làm rõ cách SIZEBAY xử lý dữ liệu trong quá trình sử dụng và truy cập ứng dụng và trang web của mình, các quyền của chủ sở hữu và cách họ có thể thực hiện chúng với SIZEBAY cũng được làm rõ.</p><p>Khi truy cập và bằng cách sử dụng Phòng thử đồ ảo và Biểu đồ kích thước & độ vừa vặn, bạn đồng ý với Chính sách của SIZEBAY. Bạn có thể truy cập toàn bộ Chính sách SIZEBAY trên liên kết.</p><p><strong>Dưới đây chúng tôi tóm tắt cho bạn những thông tin chính:</strong></p>",
+      "anchor": "Bảo mật"
+    },
+    "share_data": {
+      "text": "<p>Việc chia sẻ dữ liệu luôn có thể được thực hiện với mục đích mang lại trải nghiệm mua sắm trực tuyến tốt hơn hoặc để ứng dụng có thể hoạt động, do đó, có thể thực hiện với: khách hàng, đối tác kinh doanh, nhà cung cấp dịch vụ, nhà thầu phụ, quần áo và giày dép nhà sản xuất sản phẩm.</p>",
+      "title": "SIZEBAY có thể chia sẻ dữ liệu với ai?"
+    }
+  },
+  "product_not_found": {
+    "report_status": {
+      "sending": "Đang thông báo...",
+      "sent": "Cảm ơn!",
+      "not_sending": "Thông báo cho chúng tôi",
+      "not_sent": "Thông báo cho chúng tôi"
+    },
+    "description": "Chúng tôi vẫn chưa có đủ thông tin về sản phẩm này để giới thiệu.",
+    "title": "Oh không!"
+  },
+  "languages": {
+    "all_langs": {
+      "fr": "người Pháp",
+      "et": "tiếng Estonia",
+      "es": "người Tây Ban Nha",
+      "en": "Tiếng Anh",
+      "fi": "tiếng Phần Lan",
+      "dk": "người Đan Mạch",
+      "cn": "Tiếng Trung",
+      "de": "tiếng Đức",
+      "cz": "tiếng Séc",
+      "br": "tiếng Bồ Đào Nha",
+      "ar": "tiếng Ả Rập",
+      "bg": "tiếng Bungari",
+      "mx": "người Tây Ban Nha",
+      "no": "người Na Uy",
+      "nl": "tiếng Hà Lan",
+      "lt": "tiếng Litva",
+      "lv": "tiếng Latvia",
+      "jp": "tiếng Nhật",
+      "ko": "Hàn Quốc",
+      "it": "người Ý",
+      "hu": "người Hungary",
+      "hr": "tiếng Croatia",
+      "id": "Indonesia",
+      "gr": "người Hy Lạp",
+      "he": "Tiếng Do Thái",
+      "vn": "Tiếng Việt",
+      "uk": "Tiếng Anh",
+      "th": "tiếng Thái",
+      "tr": "tiếng Thổ Nhĩ Kỳ",
+      "sr": "tiếng Serbia",
+      "sv": "tiếng Thụy Điển",
+      "sl": "tiếng Slovenia",
+      "sk": "Tiếng Slovak",
+      "ru": "tiếng Nga",
+      "ro": "người Rumani",
+      "pt": "tiếng Bồ Đào Nha",
+      "pl": "Đánh bóng",
+      "esAR": "người Tây Ban Nha",
+      "esCT": "Tiếng Tây Ban Nha (Castilian)",
+      "ukr": "tiếng Ukraina",
+      "zh": "người Trung Quốc"
+    },
+    "select": "Ngôn ngữ khả dụng: {{lang}}",
+    "box": "Bộ chọn ngôn ngữ, bạn đang sử dụng ngôn ngữ {{currentLang}}"
+  },
+  "garment_measurements": {
+    "hip_width": "Chiều rộng hông",
+    "thigh_width": "Chiều rộng đùi",
+    "head_circumference": "Vòng đầu",
+    "lower_waist_circumference": "Giảm Vòng Eo",
+    "collar": "Cổ áo",
+    "waistband_circumference": "Chu vi cạp quần",
+    "hip_circumference": "Vòng hông",
+    "biceps": "Cơ bắp tay",
+    "waistband_width": "Chiều rộng cạp quần",
+    "hem": "Đường hẻm",
+    "lower_waist_width": "Chiều rộng eo thấp",
+    "chest_circumference": "Vòng ngực",
+    "waist_circumference": "Vòng eo",
+    "insole_width": "Chiều rộng lót giày",
+    "palm_length": "Chiều dài lòng bàn tay",
+    "shoulder_length": "Độ dài ngang vai",
+    "length": "Chiều dài",
+    "waist_width": "Chiều rộng eo",
+    "chest_width": "Chiều rộng ngực",
+    "wrist_width": "Chiều rộng cổ tay",
+    "insole_length": "Chiều dài lót giày",
+    "calf_width": "Chiều rộng bắp chân",
+    "heel_height": "Chiều cao gót",
+    "front_length": "Chiều dài phía trước",
+    "brim": "Vành",
+    "sleeve": "Tay áo",
+    "thigh_circumference": "Chu vi đùi",
+    "inside_leg": "Chiều dài bên trong ống quần",
+    "wrist_circumference": "Chu vi cổ tay",
+    "high_waist_circumference": "Vòng Eo Cao",
+    "shaft_height": "Chiều Cao Trục",
+    "calf_circumference": "Chu vi bắp chân",
+    "full_body_length": "Chiều dài toàn thân",
+    "back_hook": "Móc Lưng",
+    "platform_height": "Chiều cao nền tảng",
+    "circumference": "Chu vi",
+    "hook": "Móc câu",
+    "lower_length": "Chiều dài thấp hơn",
+    "under_bust": "Dưới ngực",
+    "high_waist_width": "Chiều Rộng Eo Cao",
+    "back_length": "Chiều dài lưng"
+  },
+  "regions": {
+    "IT": "Tiếng Ý",
+    "HU": "Tiếng Hungary",
+    "FR": "Tiếng Pháp",
+    "MX": "Mexico",
+    "CUSTOM": "Quốc tế",
+    "JP": "Tiếng Nhật",
+    "code": {
+      "CUSTOM": "CUSTOM",
+      "US": "US",
+      "UK": "UK",
+      "AU": "AU",
+      "IT": "IT",
+      "MEX": "MEX",
+      "JP": "JP",
+      "FR": "FR",
+      "EU": "EU",
+      "CN": "CN",
+      "BR": "BR",
+      "DE": "DE"
+    },
+    "ES": "Tây Ban Nha",
+    "EU": "Châu Âu",
+    "DE": "Tiếng Đức",
+    "CN": "Tiếng Trung Quốc",
+    "AU": "Người Úc",
+    "BR": "Brazilian",
+    "region": "Vùng",
+    "other": "Không xác định",
+    "mx_marti": "Marti",
+    "PT": "Tiếng Bồ Đào Nha PT",
+    "letter-br": "Brazilian",
+    "US": "Người Mỹ",
+    "UK": "Người Anh"
+  },
+  "size_chart": {
+    "subtitle": "Trượt thanh cuộn để xem thêm số đo và kích cỡ",
+    "title_web": "Biểu đồ đo lường",
+    "scroll_action": "Kéo",
+    "subtitle_mobile": "Vuốt để xem thêm số đo và kích cỡ",
+    "returns_link": "Tìm hiểu thêm về chính sách hoàn trả.",
+    "returns": "Vẫn còn nghi ngờ? Đừng lo lắng, <strong>trả lại lần đầu miễn phí.</strong>",
+    "title_accessory": "Bảng kích thước cho phụ kiện này",
+    "title": "Chọn một kích thước và kiểm tra các số đo",
+    "instruction_measure": "Xem tài liệu của chúng tôi về cách tự đo và so sánh số đo của bạn với bảng này.",
+    "title_mobile": "So sánh số đo cơ thể của bạn với biểu đồ này. Di chuột qua từng tiêu đề cột bên dưới và tìm ra cách tốt nhất để đo cơ thể của bạn."
+  },
+  "generics": {
+    "disable": "Tắt",
+    "less_than_year": "< 1 năm",
+    "profile_tooltip": "Bạn có thể tạo hồ sơ đo lường mới bằng cách nhấp vào đây",
+    "weight": "Cân nặng",
+    "age": "Tuổi",
+    "accessibility": "KHẢ NĂNG TIẾP CẬN",
+    "language": "Ngôn ngữ",
+    "years": "Năm",
+    "female": "Nữ giới",
+    "size_fit": "Kích cỡ",
+    "no_name": "Không tên",
+    "pronoun_female": "Tôi",
+    "year": "Năm",
+    "suffix_male": "Của bạn",
+    "months": "Tháng",
+    "size_chart": "Biểu đồ kích thước",
+    "chart": "Bảng kích thước",
+    "closeVfr": "Đóng phòng thử đồ ảo",
+    "about": "Về Sizebay",
+    "see_how_to_measure": "Xem cách đo",
+    "kg": "Cân",
+    "assistive_mode": "{{status}} chế độ hỗ trợ",
+    "suffix_female": "Của bạn",
+    "switcher": {
+      "title_chart": "Số đo:"
+    },
+    "lb": "Pound",
+    "how_to_measure": "Cách đo lường",
+    "unavailable": "--",
+    "other_profiles": "Hồ sơ khác",
+    "privacy": "Bảo mật",
+    "ft": "Inch",
+    "pronoun_male": "Tôi",
+    "got_it": "Đã hiểu",
+    "enable": "Bật",
+    "cm": "Centimet",
+    "height": "Chiều cao",
+    "male_singular": "nam giới",
+    "uninformed": "Không được thông báo",
+    "female_singular": "nữ giới",
+    "profile": {
+      "title": "Hồ sơ người dùng"
+    },
+    "male": "Nam giới",
+    "confirm_edit": "Được rồi"
+  },
+  "privacy_v2": {
+    "overview": {
+      "text": "<p>Để bạn có thể hiểu rõ hơn về Chính sách quy định việc sử dụng các giải pháp do <strong> SIZEBAY </strong> phát triển, chúng tôi đã chuẩn bị bản tóm tắt ngắn gọn này cho bạn. Tổng quan này không thay thế toàn bộ nội dung của Chính sách, vì vậy chúng tôi khuyên bạn nên đọc kỹ từng tài liệu sau đó.</p><p>ĐIỀU KHOẢN VÀ ĐIỀU KIỆN SỬ DỤNG<strong> của </strong>SIZEBAY<strong> nhằm điều chỉnh: (i) việc sử dụng các dịch vụ do </strong>SIZEBAY<strong> cung cấp, thông qua nền tảng thương mại điện tử của </strong>{{ tenantName }} ({{ pageTenant }})<a href={{ pageTenant }} target=_blank>, đồng thời (ii) quyền truy cập và nội dung được cung cấp trên trang web của </a>SIZEBAY<strong>, ( iii) nghĩa vụ của người dùng, khách truy cập và khách hàng của nền tảng và trang web khi sử dụng ứng dụng hoặc truy cập trang web </strong>SIZEBAY<strong>, (iv) trách nhiệm của các bên liên quan.</strong>{{ pagePrivacyTenant }}</p>A <p>CHÍNH SÁCH QUYỀN RIÊNG TƯ <strong> nhằm mục đích làm rõ cách thức </strong> SIZEBAY <strong> xử lý dữ liệu trong quá trình sử dụng và truy cập ứng dụng và trang web của mình, quyền của chủ sở hữu cũng được làm rõ và cách họ có thể thực hiện chúng với </strong> SIZEBAY <strong>.</strong>",
+      "title": "Tổng quan"
+    },
+    "clear_data": {
+      "text": "Xóa tất cả dữ liệu duyệt web, bộ nhớ cache và cookie được lưu trữ bởi Sizebay",
+      "button": {
+        "initial": "xoá cookies"
+      }
+    },
+    "person": {
+      "first": {
+        "name": "Marcelo Bastos",
+        "info": "<li>Liên minh Châu Âu</li> <li>privacy@sizebay.com</li>"
+      },
+      "second": {
+        "name": "Janderson Roberto Araujo",
+        "info": "<li>Các địa điểm khác</li> <li>privacy@sizebay.com</li>"
+      }
+    },
+    "services": {
+      "title": "SIZEBAY cung cấp dịch vụ của mình như thế nào?",
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/computer-face.svg /><p> Các dịch vụ <strong>SIZEBAY</strong> có sẵn trên nền tảng thương mại điện tử dưới dạng phần mềm dưới dạng dịch vụ (SaaS), có nghĩa là <strong>SIZEBAY</strong> cấp cho thương mại điện tử giấy phép sử dụng phần mềm.</p></span> <div><img src=https://static.sizebay.technology/assets/icons/computer-face.svg /></div>"
+    },
+    "contact": {
+      "text": "<p>Nếu bạn có bất kỳ câu hỏi nào về Chính sách <strong>SIZEBAY</strong> hoặc cách bạn có thể thực hiện các quyền của mình với tư cách là chủ thể dữ liệu, vui lòng liên hệ với Nhân viên bảo vệ dữ liệu (DPO) của <strong>SIZEBAY</strong>:</p>",
+      "title": "Trong trường hợp nghi ngờ, làm thế nào để liên lạc?"
+    },
+    "data_collected": {
+      "title": "Dữ liệu nào được SIZEBAY thu thập?",
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/cookies.svg /><p> Để cung cấp dịch vụ của mình, <strong>SIZEBAY</strong> có thể thu thập dữ liệu hồ sơ, chẳng hạn như biệt hiệu (tùy chọn), tuổi, giới tính, chiều cao, cân nặng, cấu hình giải phẫu và số đo cơ thể. Ngoài ra, dữ liệu nhật ký truy cập và cookie có thể được thu thập, với mục đích cải thiện trải nghiệm người dùng và tạo điều kiện thuận lợi cho việc sử dụng ứng dụng mà không cần cung cấp lại dữ liệu đã được người dùng thông báo trong lần mua tiếp theo hoặc phân tích sản phẩm. .</p> </span><span><img src=https://static.sizebay.technology/assets/icons/bag.svg /><p> <strong>SIZEBAY</strong> cũng có thể thu thập dữ liệu từ đơn đặt hàng được đặt trên thương mại điện tử, với mục đích tiến hành phân tích giữa kích thước được đề xuất và kích thước thực tế đã mua, nhằm cải thiện dịch vụ khuyến nghị kích thước của quần áo và giày dép. </p></span><span><img src=https://static.sizebay.technology/assets/icons/anonymous-person.svg /><p> Chúng tôi làm rõ rằng ứng dụng <strong>SIZEBAY</strong> quan tâm đến quyền riêng tư của người dùng, do đó, các dịch vụ được phát triển theo cách mà việc thu thập dữ liệu được thực hiện mà không thể xác định được dữ liệu của chủ sở hữu.</p></span><div><img src=https://static.sizebay.technology/assets/icons/cookies.svg /> <img src=https://static.sizebay.technology/assets/icons/bag.svg /> <img src=https://static.sizebay.technology/assets/icons/anonymous-person.svg /></div>"
+    },
+    "how_it_works": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/mannequin.svg /><p> Để sử dụng các dịch vụ, người dùng không cần phải đăng ký trên nền tảng <strong>SIZEBAY</strong>. Truy cập vào bảng đo lường sẽ luôn có sẵn. Để sử dụng Phòng thử đồ ảo, người dùng phải điền một số thông tin cơ bản để ứng dụng có thể đề xuất kích cỡ quần áo và giày dép. </p></span><span><img src=https://static.sizebay.technology/assets/icons/anonymous.svg /><p> Việc tạo hồ sơ trong ứng dụng <strong>SIZEBAY</strong> không yêu cầu người dùng sử dụng thông tin cá nhân của bạn. họ hoặc tên và thậm chí có thể điền dữ liệu hư cấu, nếu bạn muốn bảo vệ quyền riêng tư của mình hơn nữa. </p></span><span><img src=https://static.sizebay.technology/assets/icons/persons.svg /><p> Trẻ vị thành niên không thể sử dụng ứng dụng, trừ khi chúng được cha mẹ đại diện và/hoặc hỗ trợ. cha mẹ hoặc người giám hộ.</p></span><div><img src=https://static.sizebay.technology/assets/icons/mannequin.svg /><img src=https://static.sizebay.technology/assets/icons/anonymous.svg /><img src=https://static.sizebay.technology/assets/icons/persons.svg /></div>",
+      "title": "Quyền truy cập vào các dịch vụ Phòng thử đồ ảo và Bàn ảo hoạt động như thế nào?"
+    },
+    "share_data": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/share.svg /><p> Chia sẻ dữ liệu luôn có thể được thực hiện với mục đích mang lại trải nghiệm mua sắm trực tuyến tốt hơn hoặc để ứng dụng có thể hoạt động, do đó, có thể được thực hiện với: khách hàng và nhà cung cấp.</p></span><div><img src=https://static.sizebay.technology/assets/icons/share.svg /></div>",
+      "title": "SIZEBAY có thể chia sẻ dữ liệu với ai?"
+    },
+    "actions": {
+      "terms": {
+        "content": "<li><a href=https://home.sizebay.com/{{lang}}/legal/conditions-of-use target=_blank>Điều khoản sử dụng</a></li><li><a href=https://home.sizebay.com/{{lang}}/legal/privacy target=_blank>Chính sách quyền riêng tư</a></li><li><a href=https://home.sizebay.com/{{lang}}/legal/cookies-policy target=_blank>Chính sách cookie</a></li>",
+        "conditions-use": "Điều khoản sử dụng",
+        "privacy": "Chính sách bảo mật",
+        "cookies": "Chính sách cookie",
+        "title": "Điều kiện"
+      },
+      "statements": {
+        "gdpr": "Tuân thủ GDPR",
+        "title": "tuyên bố",
+        "lgpd": "Tuân thủ LGPD",
+        "content": "<li><a href=https://home.sizebay.com/{{lang}}/legal/gdpr target=_blank >Tuân thủ GDPR</a></li><li><a href=https: / /home.sizebay.com/{{lang}}/legal/lgpd target=_blank >Tuân thủ LGPD</a></li><li><a href=https://home.sizebay.com/{ {lang }}/legal/ccpa target=_blank >Tuân thủ CCPA</a></li><li><a href=https://sizebay.com/{{lang}}/legal/pipl target=_blank >Tuân thủ PIPL </a></li>",
+        "pipl": "Tuân thủ PIPL",
+        "ccpa": "Tuân thủ CCPA"
+      },
+      "title": "Truy cập các trang điều khoản của chúng tôi",
+      "redirect_privacy": {
+        "text": "Nhấp vào đây để chuyển hướng bạn đến trang Bảo mật của {{ tenantName }}"
+      }
+    },
+    "how_data_is_collected": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/computer-hanger.svg /><p> Việc thu thập dữ liệu được thực hiện khi người dùng cung cấp thông tin khi sử dụng các dịch vụ của Virtua Fitter và Bảng đo lường hoặc thông qua cookie khi người dùng truy cập ứng dụng hoặc trang web <strong>SIZEBAY</strong>. một lần nữa dữ liệu đã được người dùng thông báo trong lần mua tiếp theo hoặc phân tích sản phẩm.</p></span><div><img src=https://static.sizebay.technology/assets/icons/computer-hanger.svg /></div>",
+      "title": "SIZEBAY thu thập dữ liệu như thế nào?"
+    },
+    "users_obligations": {
+      "title": "Nghĩa vụ của người dùng là gì?",
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/obligations.svg /><p> Người dùng ứng dụng cam kết sử dụng các dịch vụ của <strong>SIZEBAY</strong> luôn tôn trọng và tuân thủ các Chính sách, cũng như luật pháp hiện hành, hải quan, trật tự công cộng, cũng như các yêu cầu bắt buộc đối với việc sử dụng và chấp nhận sử dụng nền tảng .</p></span><div><img src=https://static.sizebay.technology/assets/icons/obligations.svg /></div>"
+    },
+    "data_protection": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/security.svg /><p> <strong>SIZEBAY</strong> coi việc bảo mật và an toàn thông tin của khách hàng, người dùng và khách truy cập là vô cùng quan trọng. Vì lý do này, nó sử dụng công nghệ Mã hóa và Tường lửa, đồng thời sẽ làm mọi thứ trong khả năng của mình để đảm bảo bảo vệ dữ liệu và thông tin của bạn. </p></span><span><img src=https://static.sizebay.technology/assets/icons/http.svg /><p> Chúng tôi khuyên bạn nên định kỳ xóa cookie được lưu trữ trong trình duyệt của mình để ngăn chặn thông tin đã thu thập khỏi bị xóa khỏi cơ sở dữ liệu <strong>SIZEBAY</strong>, cũng như khỏi các trang web được truy cập khác.</p></span><div><img src=https://static.sizebay.technology/assets/icons/security.svg /> <img src=https://static.sizebay.technology/assets/icons/http.svg /></div>",
+      "title": "SIZEBAY bảo vệ dữ liệu của bạn như thế nào?"
+    }
+  },
+  "garment_measures_info": {
+    "shaft_height": "Đo từ gót chân đến đỉnh của trục giày.",
+    "shoulder_length": "Chiều rộng từ đường may của một tay áo sang đường may của tay áo kia, ở phía sau của trang phục.",
+    "full_body_length": "Đo từ đường may trên cùng đến gấu dưới cùng của một mảnh toàn thân.",
+    "hem": "Chiều rộng của đáy bộ phận.",
+    "back_length": "Đo từ cổ áo đến gấu của phần trên, từ phía sau.",
+    "lower_waist_width": "Chiều rộng cạp quần của trang phục cạp trễ.",
+    "hip_circumference": "Chiều rộng của trang phục, khoảng 20 cm dưới cạp quần, nhân đôi.",
+    "palm_length": "Đo từ cổ tay đến đầu ngón giữa.",
+    "calf_circumference": "Đo quanh phần trên của trục ủng, thường là tại điểm rộng nhất của bắp chân.",
+    "head_circumference": "Đo vòng quanh bên trong mũ nơi đầu tiếp xúc.",
+    "sleeve": "Đo từ đường may bên trong nơi tay áo bắt đầu đến cuối cổ tay áo.",
+    "waist_width": "Chiều rộng của phần hẹp nhất của áo, giữa nách và gấu áo.",
+    "thigh_width": "Chiều rộng của phần rộng nhất của đùi.",
+    "waistband_circumference": "Đo phần mở trên của trang phục.",
+    "circumference": "Đo xung quanh một mảnh, thường bằng cách nhân chiều rộng với 2.",
+    "lower_waist_circumference": "Chiều rộng của trang phục, ngay dưới eo tự nhiên, nhân đôi.",
+    "high_waist_width": "Chiều rộng của cạp quần của trang phục cạp cao.",
+    "chest_circumference": "Đo chiều rộng của áo trên, từ một bên sang bên kia, ngay dưới nách, rồi nhân đôi.",
+    "waist_circumference": "Chiều rộng của phần hẹp nhất của trang phục nhân đôi.",
+    "front_length": "Đo từ cổ áo đến gấu áo của phần trên, từ phía trước.",
+    "lower_length": "Đo từ cạp quần đến gấu của trang phục, từ phía bên.",
+    "wrist_circumference": "Đo chu vi của phần mở tay áo nơi nó vừa với cổ tay.",
+    "heel_height": "Đo từ đáy của cú nhảy đến điểm cao nhất.",
+    "wrist_width": "Xử lý chiều rộng của mảnh.",
+    "hook": "Đo từ trên cùng của cạp quần đến đường may đáy quần.",
+    "thigh_circumference": "Đo phần rộng nhất của đùi của trang phục, ngay dưới đường may trong.",
+    "platform_height": "Đo từ đế ở phía trước của giày đến đỉnh của đế.",
+    "biceps": "Chiều rộng tay áo, khoảng 2,5 cm dưới nách.",
+    "insole_width": "Đo phần rộng nhất của lót giày.",
+    "brim": "Đo từ chân đến đầu vành mũ.",
+    "high_waist_circumference": "Đo quanh cạp của trang phục cạp cao.",
+    "hip_width": "Chiều rộng của mảnh, 20 cm dưới cạp quần.",
+    "length": "Đo từ đường may trên cùng đến gấu dưới của mảnh vải.",
+    "chest_width": "Đo chiều rộng của phần trên, từ một bên đến bên kia, ngay dưới nách.",
+    "calf_width": "Đo chiều rộng của ống giày tại độ cao bắp chân.",
+    "collar": "Chiều rộng của cổ áo blouse, đo quanh gốc cổ.",
+    "waistband_width": "Chiều rộng cạp quần của phần dưới.",
+    "back_hook": "Đo từ cạp quần đến đường may đáy quần, ở phía sau của trang phục.",
+    "insole_length": "Đo từ đầu gót đến đầu ngón chân của miếng lót.",
+    "under_bust": "Đo chiều rộng của áo trên, từ một bên sang bên kia, ngay dưới ngực, rồi nhân đôi.",
+    "inside_leg": "Đo từ đường may đáy quần đến gấu quần"
+  },
+  "error": {
+    "close": "Ra khỏi phòng thử đồ",
+    "title": "Rất tiếc, đã xảy ra lỗi!",
+    "options": "Bạn có thể thử lại bằng cách khởi động lại cấu hình hoặc đóng và thử lại sau.",
+    "restart": "Khởi động lại hồ sơ",
+    "description": "Đừng lo lắng, chúng tôi đang điều tra những gì đã xảy ra để ngăn điều đó xảy ra lần nữa."
+  },
+  "recommendation": {
+    "3d_feel": {
+      "lanes": {
+        "large": "quá lỏng lẻo",
+        "ideal": "Lý tưởng",
+        "slightly_loose": "Hơi rộng một chút",
+        "loose": "Rộng",
+        "slightly_fit": "hơi chật một chút",
+        "tight": "Rất chật",
+        "fit": "Chật"
+      },
+      "title_suggested": "Lựa chọn tốt nhất"
+    },
+    "lanes": {
+      "tight": "THOẢI MÁI",
+      "ideal": "VỪA VẶN",
+      "fit": "CHẬT",
+      "looser": "RỘNG HƠN",
+      "large": "RỘNG",
+      "loose": "RỘNG",
+      "tighter": "CHẬT HƠN"
+    },
+    "title_not_suggested": "không gợi ý",
+    "measurements": {
+      "title": "Đo",
+      "conversion": {
+        "title": "Chuyển đổi kích thước"
+      }
+    },
+    "centered_mode": {
+      "controls": {
+        "appearance": "Hình ảnh",
+        "comfort": "Thoải mái"
+      },
+      "comfort_map": {
+        "header": "Màu sắc trong hình ảnh 3D cho biết mức độ chật hoặc rộng của trang phục đối với cơ thể bạn"
+      },
+      "tag_info": "Mô phỏng cơ thể 3D thể hiện số đo cơ thể cá nhân của bạn và độ vừa vặn của sản phẩm giống như thật.",
+      "measure_name": "trên {{measureName}} của bạn"
+    },
+    "title_suggested": "là lựa chọn tốt nhất",
+    "height_warning": {
+      "threshold": {
+        "long": "dài",
+        "short": "ngắn"
+      },
+      "message": "quá {{threshold}} đối với những người {{height}}"
+    },
+    "shoe": {
+      "insoleLength": "chiều dài",
+      "insoleWidth": "chiều rộng"
+    },
+    "subtitle": "Xem mức độ thoải mái dưới đây",
+    "subtitle_shoe": "Dựa trên kích thước {{brandName}} {{size}} của bạn",
+    "title_also_fits": "cũng phù hợp",
+    "carousel_also_try": "Ngoài ra, hãy thử các kích thước:"
+  },
+  "product_comparison": {
+    "elements": {
+      "edit": "Chỉnh sửa",
+      "foot_format": "Dáng chân",
+      "category": "Nhóm",
+      "brand": "Nhãn hàng",
+      "size": "Kích thước"
+    },
+    "title": "Sản phẩm so sánh",
+    "subtitle": "Đây là thông tin được sử dụng để đề xuất kích thước."
+  },
+  "warnings": {
+    "age_group": {
+      "age_group": "{{ageGroup}} sản phẩm",
+      "limit_reached": "Số lượng hồ sơ đã đạt đến giới hạn. Xóa một hồ sơ để thêm một hồ sơ mới.",
+      "subtitle": "Độ tuổi của sản phẩm không khớp với độ tuổi của hồ sơ {{profileName}}. Chọn hoặc thêm một hồ sơ để tiếp tục.",
+      "prompt_message": "Bạn cũng muốn thử quần áo từ phần ({{ ageGroup }})?"
+    },
+    "we_need_more_measures": {
+      "subtitle": "Vui lòng điều chỉnh các phép đo dưới đây để có thể được đề xuất.",
+      "title": "Nhập số đo của bạn"
+    },
+    "unmatched_gender": {
+      "choose_a_profile": "Chọn hồ sơ mong muốn",
+      "select_profile": "Không, chọn một hồ sơ khác",
+      "tooltip": "Hồ sơ này không phù hợp với loại sản phẩm đã chọn",
+      "title": "Bạn cũng muốn thử quần áo từ phần {{gender}}?",
+      "create_profile": "Không, tạo một hồ sơ khác"
+    }
+  },
+  "brands_list": {
+    "search_question": "Bạn thường mặc đồ hiệu nào?",
+    "not_found": {
+      "title": "Rất tiếc!",
+      "subtitle": "Hãy thử tìm kiếm lại nếu để sửa bất kỳ lỗi đánh máy nào."
+    },
+    "subtitle": "Sau một vài câu hỏi, chúng tôi sẽ giúp bạn chọn cỡ giày phù hợp nhất.",
+    "title": "Phòng Thử Đồ Ảo",
+    "search_placeholder": "Nhập một thương hiệu ở đây",
+    "title_restricted": "Bạn có đi giày của chúng tôi không?"
+  },
+  "age_group": {
+    "adult": "Người lớn",
+    "kids": "Trẻ em"
+  },
+  "a11y": {
+    "Chart": {
+      "vfr_button": "Nhấn phím cách để vào phòng thử đồ ảo",
+      "step_blocks": {
+        "table": {
+          "measure_description": "Đây là kích thước {{size}}, trên {{measureName}} nó nên đo được {{measure}}"
+        },
+        "switcher": {
+          "instruction_press_space": "Nhấn phím cách để chuyển đổi giá trị",
+          "option": "Giá trị hiện tại của bạn là {{value}}"
+        }
+      },
+      "greeting": "Đây là bảng kích thước",
+      "size_system": {
+        "instruction": "Hệ thống kích thước hiện tại của bạn là {{sizeSystem}}. Nhấn phím cách để chọn tùy chọn khác."
+      },
+      "instruction": "Tại đây bạn có thể so sánh số đo của mình với các số đo được liệt kê trong bảng của chúng tôi"
+    },
+    "shoe": {
+      "Brands": {
+        "highlighted": {
+          "edit_negative": "Nhấn phím cách nếu bạn không mặc bất kỳ thương hiệu nào trong số này",
+          "edit_action": "Nhấn phím cách để tiếp tục với thương hiệu đã chọn",
+          "instruction": "Nhấn phím cách để tiếp tục với {{brandName}}"
+        },
+        "restricted": {
+          "greeting": "Chào mừng bạn đến với phòng thử giày của các thương hiệu giới hạn. Hãy chọn một trong những thương hiệu giày mà bạn đã từng mang"
+        }
+      },
+      "FootSize": {
+        "instruction": "Nhấn phím cách để chọn hệ thống kích thước {{ sizeSystem }}"
+      },
+      "EditData": {
+        "greeting": "Tại đây bạn có thể thay đổi thông tin về bàn chân và giày mà bạn đã gửi cho chúng tôi"
+      },
+      "FootFormat": {
+        "instruction": "Chọn một hình dạng bàn chân.",
+        "edit_action": "Nhấn phím cách để chọn {{ shoeFormat }}"
+      }
+    },
+    "drawer": {
+      "measurement_tape_header": "Băng keo",
+      "measurement_tape_handle": "Thước đo. Nhấn phím cách để truy cập thước đo",
+      "close_group_handle": "Nhấn phím cách để đóng nhóm",
+      "measurement_tape_print_button": "Nhấn phím cách để mở thước đo"
+    },
+    "clothes": {
+      "Welcome": {
+        "step_blocks": {
+          "gender": {
+            "question": "Chọn giới tính để tiếp tục. Giới tính hiện tại của bạn là {{gender}}"
+          },
+          "age": {
+            "tooltip": "Nhấn phím cách để đọc thêm thông tin về cách tuổi tác ảnh hưởng đến đề xuất"
+          },
+          "height": {
+            "question": "Nhập chiều cao của bạn bằng {{measurementSystem}} tại đây."
+          }
+        }
+      },
+      "ProfilesMenu": {
+        "blocks": {
+          "greeting": "Đây là tất cả các hồ sơ của bạn trong phòng thử đồ ảo",
+          "edit": "Tại đây bạn có thể chọn thêm hoặc xóa hồ sơ"
+        },
+        "chip": {
+          "message": "Nhấn phím cách để truy cập thêm chi tiết về hồ sơ {{profileName}} của bạn"
+        }
+      },
+      "Recommendation": {
+        "lane": "Kích thước {{ size }} là {{ label }} trên {{ measureName }}",
+        "carousel_instruction": "Tìm thêm các tùy chọn kích thước tại đây"
+      },
+      "measures": {
+        "edit": "Nhấn các phím mũi tên để tăng hoặc giảm chỉ số {{measureName}}",
+        "read": "{{measureName}} của bạn đo được {{measureValue}} trong {{measureSystem}}"
+      }
+    },
+    "generics": {
+      "welcome": "Chào mừng đến với phòng thử đồ ảo"
+    }
+  },
+  "welcome": {
+    "age_disclaimer": "Hình dạng cơ thể thay đổi theo năm tháng và điều này ảnh hưởng đến việc tính toán của chúng ta.",
+    "gender_f_kids": "Giống cái",
+    "title": "Phòng Thử Đồ Ảo",
+    "gender_m_kids": "Giống đực",
+    "foot_measurement_known": "Tôi đã biết số đo chân của mình",
+    "gender_m": "Nam giới",
+    "shoe_measure": "Chiều dài bàn chân",
+    "gender_f": "Nữ giới",
+    "gender_u": "Unisex",
+    "subtitle": "Để dùng thử sản phẩm này, hãy nhập số đo của bạn"
+  },
+  "edit_measures": {
+    "view_less": "Xem ít số đo hơn",
+    "view_all": "Xem thêm số đo"
+  },
+  "drawers": {
+    "manage": {
+      "actions": {
+        "select": "Chọn",
+        "delete": "Xóa"
+      },
+      "active_profile": {
+        "details_shoe": "{{brandName}} Kích thước {{size}}",
+        "no_name": "Nhập tên",
+        "delete": "Xóa hồ sơ"
+      },
+      "new_profile": {
+        "input_example": "Ví dụ: John Smith",
+        "title": "Thêm hồ sơ",
+        "subtitle": "Nhập tên cho hồ sơ này"
+      }
+    },
+    "knobs": {
+      "kids_shoes_tips": "Mẹo chọn kích thước",
+      "garment_info": "Kích thước trang phục",
+      "size_content": "Hướng dẫn mẫu",
+      "measurement_tape": "Thước đo",
+      "product_info": "Số đo cơ thể",
+      "size_hint_promo": "Hoàn thành khuyến mãi",
+      "size_hint": "Gợi ý",
+      "sizes_conversions": "Chuyển đổi kích thước"
+    },
+    "kids_shoes_title": "Lời khuyên và hướng dẫn về chân và giày của trẻ em",
+    "kids_shoes_button": "Đã hiểu",
+    "kids_shoes_message": "Bàn chân của trẻ lớn hơn một nửa sau mỗi 2 đến 4 tháng. Vì sự phát triển nhanh chóng này, chúng tôi khuyên bạn nên chọn cỡ rộng hơn một chút cho trẻ để giày sẽ bền lâu hơn và không bị chật chân, giúp trẻ phát triển nhanh chóng."
+  },
+  "landscape_vertical_subtitle": "Đặt thiết bị của bạn thẳng đứng để bắt đầu sử dụng",
+  "coppa_gate": {
+    "close": "Không, tôi dưới 13 tuổi",
+    "confirm": "Đúng, tôi là người giám hộ",
+    "prompt_title_months": "Bạn có phải là cha mẹ hoặc người giám hộ của đứa trẻ {{ months }} tháng tuổi không?",
+    "message": "Bạn có thể tiếp tục dùng thử sản phẩm này nếu bạn là người lớn đã tạo hồ sơ này để dùng thử sản phẩm cho con mình.",
+    "prompt_title_years": "Bạn có phải là cha mẹ hoặc người giám hộ của đứa trẻ {{ years }} tuổi không?",
+    "title": "Xác minh độ tuổi"
+  },
+  "fetching": {
+    "subtitle": "Chúng tôi đang tính toán các phép đo để đưa ra khuyến nghị về kích thước lý tưởng",
+    "title": "Sắp hoàn thành rồi!",
+    "shoe": {
+      "success": "Tính toán hoàn tất!",
+      "calculating": "Tính toán số đo của bạn",
+      "analyzing": "Phân tích câu trả lời của bạn"
+    }
+  },
+  "landscape_subtitle": "Giữ điện thoại của bạn theo chiều ngang để bắt đầu",
+  "measurement_tape": {
+    "link_download": {
+      "in": "//static.sizebay.technology/assets/measurement_tape/measurement_tape_in_en.pdf",
+      "cm": "//static.sizebay.technology/assets/measurement_tape/measurement_tape_cm_en.pdf"
+    },
+    "title": "Dán",
+    "message": "In, cắt và ghép thước dây này để kiểm tra số đo của bạn.",
+    "print": "Thước dây cuốn",
+    "print_mobile": "In thước dây",
+    "download": {
+      "file": {
+        "title": "Hướng dẫn in và dùng thước dây",
+        "fold-and-rotate": "gấp và xoay",
+        "how-to-do": "In:\nTrước khi in, đảm bảo rằng tùy chọn “vừa với trang” trong hộp thoại in đã bị tắt để máy in không giảm hoặc tăng kích thước của băng.\n\nCắt:\nSử dụng kéo hoặc bút stylus, cắt bỏ tất cả các đường màu đen liên tục được chỉ định bằng \"kéo\" để tạo các đoạn băng.\n\nGấp:\nGấp và xoay các đầu (như được chỉ ra trên bản in) bằng cách nối các đường chấm chấm cho đến khi ráp thành một cuộn băng duy nhất.\n\nSửa các nếp gấp:\nSau khi lắp ráp, cố định các nếp gấp của băng bằng keo, băng dính hoặc kim bấm."
+      }
+    }
+  },
+  "foot_size": {
+    "select_region": "Chọn vùng:",
+    "not_selected": "Đảm bảo bạn chọn kích thước để tiếp tục",
+    "title": "Cỡ giày của bạn là bao nhiêu?",
+    "pattern": "{{region}} hệ thống",
+    "subtitle": "Chọn kích thước của bạn trong"
+  },
+  "child_name": {
+    "name": "Tên",
+    "title": "Bạn có thể cho chúng tôi biết tên của con bạn?",
+    "subtitle": "Điều này giúp chúng tôi tạo hồ sơ cho Phòng thử đồ"
+  },
+  "size_hint": {
+    "title": "Chúng tôi đã chọn một số sản phẩm phù hợp với bạn",
+    "discount-original-price": "Giá thông thường: <span class='size-hint__discount-original-price discount-description-price'>{{ price }}</span> <span class='size-hint__discount-percentage'>-{{discount }}%</span>",
+    "discount-lowest-price": "Giá thấp nhất từ ​​30 ngày trước khi giảm: <span class='size-hint__discount-lowest-price discount-description-price'>{{ price }}</span> <span class='size-hint__discount-percentage'>-{{ discount }}%</span>",
+    "title_promo": "Hoàn thành khuyến mãi",
+    "try_now": "Thử ngay"
+  },
+  "size_tailor": {
+    "action_button": "Chúng tôi tùy chỉnh cho bạn",
+    "title": "Tùy chỉnh sản phẩm",
+    "description": "Xác nhận số đo cơ thể của bạn để chúng tôi có thể phát triển sản phẩm tùy chỉnh của bạn."
+  },
+  "miscellaneous": {
+    "hannaLinks": {
+      "recommendation": "Quay lại kết quả của tôi",
+      "welcome": "Quay lại"
+    }
+  },
+  "measure_shape": {
+    "shape_bigger": "To hơn",
+    "shape_smaller": "Nhỏ hơn",
+    "skin_types": {
+      "toggle": "Thay đổi màu da"
+    },
+    "subtitle": "Đây là hình dạng cơ thể gần đúng mà chúng tôi tạo ra từ số đo của bạn. Chỉ điều chỉnh nếu cần thiết.",
+    "measure_range": {
+      "1": "Nhỏ hơn nhiều",
+      "2": "Nhỏ hơn",
+      "3": "Trung bình",
+      "4": "Lớn hơn",
+      "5": "Lớn hơn nhiều"
+    },
+    "shape_regular": "Bình thường",
+    "title": "Điều chỉnh hình dáng cơ thể"
+  },
+  "calculating": {
+    "subtitle": "Kiểm tra các số đo và điều chỉnh nếu cần thiết",
+    "circle_title_loading": "Đang tải...",
+    "circle_title_completed": "Sẵn sàng!",
+    "title": "Đã tính xong!"
+  },
+  "brands_grid": {
+    "subtitle": "Bạn thường mặc thương hiệu nào?",
+    "unique_brand": "Bạn đã mang giày {{ brandName }} chưa?",
+    "search_other_brands": "Hãy tìm thương hiệu khác"
+  },
+  "modals": {
+    "remove_profile": {
+      "title_alt": "Bạn có chắc chắn muốn xóa hồ sơ này?",
+      "title": "Xóa hồ sơ {{profileName}}?",
+      "action": "Hủy hồ sơ",
+      "confirm": "Xóa hồ sơ"
+    }
+  },
+  "no_recommendation": {
+    "expected_size": "Kích thước được đề xuất là {{recommendedSize}}.",
+    "title_shoe": "Rất tiếc, hiện tại mẫu và kích thước này không có sẵn trong cửa hàng của chúng tôi.",
+    "based_on": "Bạn có thể chỉnh sửa thông tin của mình để thử lại",
+    "calculate_again": "Tính toán lại",
+    "title": "Kích thước của bạn không có sẵn ngay bây giờ",
+    "subtitle": "Bạn vẫn có thể thử lại để nhận đề xuất. Điều chỉnh số đo của bạn bên dưới"
+  },
+  "accessory": {
+    "welcome": {
+      "subtitle": "Để thử sản phẩm này, hãy làm theo hướng dẫn để lấy số đo của bạn và phản hồi số tương ứng",
+      "shoe": {
+        "subtitle": "Chọn số đo bàn chân của bạn bên dưới, làm theo hướng dẫn của chúng tôi để tự đo"
+      }
+    },
+    "bike": {
+      "recommendation": {
+        "title_suggested": "Kích thước xe đạp chúng tôi khuyên dùng là tốt nhất cho hiệu suất và tư thế của bạn. Không quá cao cũng không quá thấp, bạn sẽ có thể đạp xe thoải mái.",
+        "subtitle": "dựa trên chiều cao của bạn",
+        "title_also_fits": "Kích thước xe đạp chúng tôi khuyên dùng là tốt nhất cho hiệu suất và tư thế của bạn. Không quá cao cũng không quá thấp, bạn sẽ có thể đạp xe thoải mái.",
+        "title_not_suggested": "Kích thước xe đạp chúng tôi khuyên dùng là tốt nhất cho hiệu suất và tư thế của bạn. Không quá cao cũng không quá thấp, bạn sẽ có thể đạp xe thoải mái."
+      }
+    },
+    "shoe_size": {
+      "subtitle": "Để thử sản phẩm này, hãy chọn kích thước theo chiều dài bàn chân của bạn"
+    }
+  },
+  "foot_format": {
+    "formats": {
+      "0": {
+        "description": "Bàn chân hẹp thường có thêm chỗ ở hai bên giày.",
+        "title": "Hẹp"
+      },
+      "1": {
+        "title": "Trung bình",
+        "description": "Bàn chân trung bình thường vừa vặn với hầu hết các loại giày."
+      },
+      "2": {
+        "title": "Rộng",
+        "description": "Bàn chân rộng phù hợp với chiều dài giày nhưng cảm thấy chật ở hai bên."
+      }
+    },
+    "subtitle": "Chọn độ rộng của bàn chân để cải thiện sự vừa vặn của bạn.",
+    "title": "hình dạng bàn chân"
+  },
+  "landscape_warning": {
+    "title": "Phòng Thử Đồ Ảo"
+  },
+  "my_measures": {
+    "title": "Số đo của bạn",
+    "subtitle": "Điều chỉnh các số đo dưới đây theo tỷ lệ bàn chân của bạn."
+  },
+  "subcategory": {
+    "subtitle": "Chọn một trong các danh mục con phù hợp nhất với {{brandName}} > {{categoryName}} của bạn",
+    "title": "Nhóm sản phẩm phụ là gì?"
+  },
+  "model": {
+    "title": "Hình mẫu là gì?",
+    "subtitle": "Chọn một trong những mô hình gần giống nhất với {{brandName}} > {{categoryName}} > {{subcategoryName}}"
+  },
+  "landscape_horizontal_subtitle": "Đặt thiết bị của bạn theo chiều ngang để bắt đầu sử dụng",
+  "category": {
+    "subtitle": "Chọn một trong những danh mục phù hợp nhất với nhãn hàng {{brandName}} của bạn",
+    "title": "Loại giày dép là gì?"
+  },
+  "header": {
+    "title": "Fit Finder"
+  }
+}

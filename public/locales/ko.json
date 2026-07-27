@@ -1,0 +1,953 @@
+{
+  "shoe_size": {
+    "fit_loose": "느슨한",
+    "shoe_accessory": {
+      "no_recommendation": {
+        "subtitle": "아래 측정에 대한 크기를 찾을 수 없습니다. 필요한 경우 조정하십시오.",
+        "title": "사이즈를 찾지 못했습니다"
+      },
+      "all_measures": {
+        "measurements_guide": "측정 가이드 [PDF]",
+        "title": "발 사이즈가 어떻게 되시나요?"
+      },
+      "info_drawer_subtitle": "가장 좋은 신발 사이즈를 찾기 위해 자신에 대해 조금 말해 보시지 않겠습니까?"
+    },
+    "recommendation": "귀하의 정보를 바탕으로 한 발 측정값입니다. 필요시 조정하세요",
+    "foot_shape_question": "당신의 발 모양은 어떤가요?",
+    "title": "발 길이가 얼마인가요?",
+    "drawer_title": "당신의 발은 얼마나 오래",
+    "subtitle": {
+      "0": "가장 적합한 신발 사이즈를 찾기 위해 자신에 대해 알려주세요.",
+      "box": {
+        "subtitle": "바닥에 벽을 따라 종이를 놓으세요. 발뒤꿈치를 종이와 벽에 대고 서세요. 가장 긴 발가락의 끝을 표시한 다음 거리를 측정하세요.",
+        "title": "올바른 발 측정법:"
+      }
+    },
+    "fit_description_ideal": "발가락과 신발 사이에 <strong>약간의 공간</strong>이 있습니다.",
+    "length_example": "<strong>{{brandName}}</strong> <strong>{{size}}</strong> 사이즈를 신어보고 발에 길이가 어떻게 맞는지 알려주세요.",
+    "fit_tight": "포근한",
+    "fit_ideal": "적절한",
+    "open_drawer_button": "자신을 측정하는 방법",
+    "fit_description_loose": "발가락과 신발 사이에 <strong>큰 공간</strong>이 있습니다.",
+    "shoe_accessory_subtitle": "안내에 따라 아래에서 발 치수를 선택하세요.\n자신을 측정하는 방법에 대해.",
+    "drawer_button": "알았어요",
+    "fit_description_tight": "신발이 발가락을 <strong>공간 없이</strong> 닿습니다.",
+    "length_question": "신발 길이는 어떻게 맞나요?"
+  },
+  "footer": {
+    "add_to_cart_mobile_2": "장바구니에 추가",
+    "confirm": "확인",
+    "none_of_those": "이중에 없음",
+    "save_measures": "치수 저장",
+    "view_recommendation": "권장 사이즈 보기",
+    "print_measurement_tape": "인쇄 측정 테이프",
+    "virtual_fitting_room": "온라인 피팅 룸",
+    "info_box": "재킷을 신체 치수에 맞추려면 맞춤 사이즈를 선택하세요.",
+    "yes": "예",
+    "add_to_cart": "장바구니에 담기",
+    "brand_not_found": "해당 브랜드를 찾을 수 없었습니다",
+    "proceed": "계속",
+    "edit_data": "데이터 편집",
+    "not_yet": "아직 아님",
+    "cancel_alt": "아니요, 취소합니다",
+    "next": "다음",
+    "cancel": "취소",
+    "by-sizebay": "사이즈베이®에서",
+    "sure": "물론입니다!",
+    "add_profile": "프로필 만들기",
+    "create_new_profile": "새 프로필 만들기",
+    "restart": "다시 시작",
+    "close": "종료",
+    "select_another_profile": "다른 프로필 선택",
+    "continue_without_brand": "브랜드는 못찾았는데",
+    "unsure": "확실치 않습니다",
+    "save": "저장",
+    "edit_measures": "치수 편집",
+    "proceed_anyway": "무시하고 계속",
+    "edit_profile": "프로필 편집",
+    "add_to_cart_mobile": "구매",
+    "back": "이전"
+  },
+  "composed_measures": {
+    "welcome": {
+      "link_tooltip": "{{suffix}} {{measureName}} 너비.",
+      "item_text": "제 {{measureName}}는 {{sizeSystem}}로 {{range}} 넓이입니다",
+      "measures_range_item": "{{initialRange}}~{{finalRange}}",
+      "tooltip_text": "클릭하여 다른 사이즈를 선택하세요.",
+      "tooltip_instructions": "여기를 클릭하여 {{measureName}} 측정 방법을 배우세요",
+      "height": {
+        "item_text": "저는 {{range}} {{sizeSystem}} 키입니다",
+        "link_tooltip": "당신의 키는 얼마나 됩니까?",
+        "title": "키가 얼마나 되세요?",
+        "instructions": "당신에게 가능한 추천 사항을 보여주기 위해 <b>키</b>를 알아야 합니다."
+      },
+      "title": "{{suffix}} {{measureName}} 치수는 얼마인가요?",
+      "instructions": "{{suffix}} <b>{{measureName}}</b>의 너비는 얼마입니까? 우리는 당신에게 가능한 추천 사항을 보여주기 위해 {{suffix}} {{measureName}} 크기를 알아야 합니다."
+    },
+    "height": {
+      "title": "키가 얼마나 되세요?",
+      "link_tooltip": "키를 보여주기 위해"
+    },
+    "table": {
+      "helper_height": "이 높이는 {{range}} {{sizeSystem}}입니다. 이 측정이 부정확한가요?",
+      "tooltip_change": "여기에서 변경하십시오.",
+      "helper": "이 {{measureName}}는 {{range}} {{sizeSystem}} 길이입니다. 이 측정값이 부정확합니까?",
+      "title": "이것들은 <span>{{range}}</span> {{measureName}}의 가능한 크기입니다",
+      "vfr_tooltip": "치수를 알았나요? 가상 피팅룸에서 자신의 사이즈를 확인해보세요."
+    }
+  },
+  "body_measurements": {
+    "diameter": "지름",
+    "collar": "칼라",
+    "length": "제품 길이",
+    "centralSeam": "앞 밑위",
+    "weightChart": "몸무게",
+    "width": "너비",
+    "waistUpper": "위 허리둘레",
+    "weight": "몸무게",
+    "circumference": "둘레",
+    "insoleLength": "발 길이",
+    "label1": "사이즈(미국)",
+    "sleve": "소매 길이",
+    "waist": "허리둘레",
+    "chest_m": "가슴둘레",
+    "chest_f": "가슴둘레",
+    "neck": "목둘레",
+    "comfort": "편안한 핏",
+    "sleeve": "팔 둘레",
+    "thigh": "허벅지 둘레",
+    "headCircumference": "머리둘레",
+    "hip": "엉덩이둘레",
+    "shoulderWidth": "어깨너비",
+    "waistLower": "밑 허리둘레",
+    "wrist": "손목",
+    "palm": "손바닥",
+    "bar": "밑단",
+    "chest": "가슴둘레",
+    "lowerLength": "하부 길이",
+    "finger_circumference": "둘레",
+    "insoleWidth": "발 너비",
+    "height": "신장",
+    "ageChart": "나이",
+    "underBust": "밑 가슴둘레",
+    "insideLeg": "안쪽 솔기",
+    "biceps": "이두박근",
+    "calf": "종아리",
+    "fist": "주먹",
+    "fullBodyLength": "전신 길이"
+  },
+  "measures_info": {
+    "insideLeg": "치골에서 발바닥까지 다리의 내부 거리를 측정합니다.",
+    "fullBodyLength": "이 치수는 어깨에서 바닥까지 길이를 측정합니다.",
+    "weightChart": "몸무게는 얼마인가요?",
+    "waistUpper": "배꼽 위 허리둘레를 측정합니다.",
+    "insoleLength": "바닥에 벽을 따라 종이를 놓으세요. 발뒤꿈치를 종이와 벽에 대고 서세요. 가장 긴 발가락의 끝을 표시한 다음 거리를 측정하세요.",
+    "biceps": "팔 중앙에 줄자를 대고 팔에서 가장 넓은 부분을 식별합니다.",
+    "height": "이 치수 재기는 쉽습니다. 직립 자세에서 머리 꼭대기(두개골)에서 지면(발바닥)까지 거리를 측정합니다.",
+    "width": "옷 너비를 측정합니다",
+    "weight": "내 몸무게.",
+    "sleeve": "팔을 약간 구부린 상태에서 줄자를 팔꿈치 뒤를 지나 어깨와 손목 사이의 거리를 측정합니다.",
+    "neck": "줄자가 꼬이지 않게 하면서 목 평균 높이를 측정합니다. 수치 확인 시 거울을 사용하면 편리합니다.",
+    "collar": "줄자와 목 사이에 손가락 하나가 들어가는 상태에서 쇄골 바로 위 목 둘레를 측정합니다.",
+    "chest": "가슴 부위를 지나가도록 줄자를 대고 편하게 숨을 내쉽니다. 숨을 쉬면서 치수 변화를 확인하고 가장 큰 숫치를 기록합니다.",
+    "ageChart": "나이가 어떻게 되세요?",
+    "circumference": "옷 둘레를 측정합니다",
+    "length_botton": "신체에서 옷이 닿는 가장 높은 지점에 줄자 시작 부분을 댑니다. 나머지 줄자 부분을 풀어 측정값을 표시합니다.",
+    "waist": "허리선이 잘 보이도록 거울 앞에 섭니다. 상체를 약간 옆으로 기울이면서 허리의 접힌 부분으로 자연스러운 허리 위치를 정확하게 식별합니다. 허리둘레를 줄자로 감쌉니다.",
+    "footLength": "키가 벽에 정렬하도록 평평한 표면 위에 섭니다. 자를 사용하여 발의 가장 긴 부분(발뒤꿈치에서 발가락까지)을 측정합니다.",
+    "lowerLength": "이 치수는 엉덩이에서 바닥까지 길이입니다.",
+    "chest_m": "가슴 부위를 지나가도록 줄자를 대고 편하게 숨을 내쉽니다. 숨을 쉬면서 치수 변화를 확인하고 가장 큰 숫치를 기록합니다.",
+    "chest_f": "가슴 부위를 지나가도록 줄자를 대고 편하게 숨을 내쉽니다. 숨을 쉬면서 치수 변화를 확인하고 가장 큰 숫치를 기록합니다.",
+    "palm": "Place a ruler on a flat surface, flex your hand, place the left side of your dominant hand at the ruler's zero point and take note of your hand span.",
+    "waistLower": "벨트(밑 허리)가 일반적으로 놓이는 배꼽 아래 허리둘레를 측정합니다.",
+    "thigh": "엉덩이 바로 아래 가장 넓은 허벅지 부분 둘레에 줄자를 대고 측정합니다.",
+    "underBust": "가슴 바로 아래 부분 둘레에 줄자를 대고 측정합니다. 편하게 숨을 내쉬는 상태에서 측정한 치수 변화를 보면서 가장 큰 숫치를 기록합니다.",
+    "bar": "옷 밑단을 측정합니다",
+    "insoleWidth": "자신에게 잘 맞는 신발 안창을 분리한 다음 그림과 같이 안창 너비를 측정합니다.",
+    "headCircumference": "줄자로 머리 둘레(귀 윗부분)를 측정합니다.",
+    "wrist": "예를 들어 시계를 차는 위치에 정확히 일치하게 손목 주위에 줄자를 대고 측정합니다.",
+    "hip": "둔근의 가장 높은 부분과 평행을 이루면서 줄자로 허리 아래 ‘더 넓은’ 부위를 측정합니다.",
+    "diameter": "이 반지를 착용하려는 해당 손가락에 낀 반지의 내경을 측정합니다.",
+    "length": "배꼽을 중심으로 상반신(목과의 접합부)과 밑 허리선(배꼽 바로 아래) 사이의 거리를 측정합니다.",
+    "fist": "예를 들어 시계를 차는 위치에 정확히 일치하게 손목 주위에 줄자를 대고 측정합니다.",
+    "calf": "의자에 앉아 다리를 90도로 접은 상태에서 발을 바닥에 대고 고정합니다. 줄자를 사용하여 종아리 옆면에서 발바닥부터 무릎이 접힌 부분까지 측정합니다.",
+    "shoulderWidth": "다른 사람의 도움을 받아 그림과 같이 한쪽 어깨 끝에서 다른 쪽 끝까지 길이를 측정합니다.",
+    "ring": "이 반지를 착용하려는 손가락에 가는 끈을 묶은 다음, 끈의 접합점을 표시한 후 그 길이를 측정하여 손가락 둘레를 구합니다.",
+    "centralSeam": "평평한 표면에 앉은 자세에서 허리부터 표면까지의 거리를 줄자로 측정합니다."
+  },
+  "privacy": {
+    "services": {
+      "anchor": "사이즈베이 서비스",
+      "text": "<p>SIZEBAY의 서비스는 SaaS(Software as a Service) 형태로 전자상거래 플랫폼에서 사용할 수 있습니다. 즉, SIZEBAY는 전자상거래에 소프트웨어 사용 라이선스를 부여합니다.</p>",
+      "title": "SIZEBAY는 어떻게 서비스를 제공합니까?"
+    },
+    "clear_data": {
+      "button": {
+        "initial": "모든 데이터를 삭제하십시오",
+        "cleared": "깨끗하게!",
+        "cleaning": "정리 중..."
+      },
+      "title": "쿠키 청소",
+      "tooltip": "당신의 데이터가 삭제되었습니다!",
+      "text": "Sizebay에서 저장한 모든 브라우징 데이터, 캐시 및 쿠키를 삭제하려면 아래 버튼을 클릭하십시오."
+    },
+    "contact": {
+      "title": "의심스러운 경우, 어떻게 연락할 수 있나요?",
+      "text": "SIZEBAY의 정책이나 데이터 소유자로서 권리를 행사하는 방법에 대해 궁금한 점이 있으면 SIZEBAY 데이터 보호 책임자(DPO)에게 문의하십시오:  \n  \nJanderson Roberto Araujo  \n주소: R. Blumenau, 953 – Sala 402 – América, Joinville – SC, 89204-251 – Brazil.  \n전화: +55 48 4042-0150  \n이메일: privacy@sizebay.com  \n\n더 많은 정책 보기"
+    },
+    "data_protection": {
+      "anchor": "데이터 보호",
+      "title": "SIZEBAY는 데이터를 어떻게 보호하나요?",
+      "text": "SIZEBAY는 고객, 사용자 및 방문자의 정보 기밀성과 보안을 매우 중요하게 여기며, 암호화 및 방화벽 기술을 사용하여 귀하의 데이터와 정보를 보호하기 위해 최선을 다할 것입니다.\n\n브라우저에 저장된 쿠키를 주기적으로 정리하여 SIZEBAY 데이터베이스 및 다른 웹사이트에서 수집된 정보가 삭제되지 않도록 할 것을 권장합니다."
+    },
+    "how_data_is_collected": {
+      "text": "데이터 수집은 사용자가 가상 피팅룸 및 핏 & 사이즈 차트 서비스를 사용할 때 정보를 제공하거나, 사용자가 SIZEBAY 애플리케이션 또는 웹사이트에 접근할 때 쿠키를 통해 수행됩니다.",
+      "title": "SIZEBAY는 데이터를 어떻게 수집하나요?"
+    },
+    "users_obligations": {
+      "anchor": "사용자의 의무",
+      "title": "사용자의 의무는 무엇입니까?",
+      "text": "애플리케이션 사용자는 항상 정책뿐만 아니라 현재 법률, 관습, 공공질서 및 플랫폼 사용과 승인을 위해 요구되는 필수 요건을 존중하고 준수하며 SIZEBAY의 서비스를 사용하기로 약속합니다."
+    },
+    "data_collected": {
+      "title": "SIZEBAY에서 수집하는 데이터는 무엇인가요?",
+      "text": "서비스를 제공하기 위해 SIZEBAY는 프로필 데이터(별명 선택 사항), 나이, 성별, 키, 몸무게, 해부학적 프로필 및 신체 치수를 수집할 수 있습니다. 또한 사용자 경험을 개선하고 애플리케이션 사용을 용이하게 하기 위해 액세스 로그 데이터와 쿠키 데이터를 수집할 수 있습니다. 이는 사용자가 다른 구매를 하거나 제품 분석을 할 경우 이미 제공한 데이터를 다시 제공할 필요가 없도록 하기 위함입니다.\n\nSIZEBAY는 또한 전자 상거래에서 이루어진 구매 주문의 데이터를 수집하여 추천된 사이즈와 실제 구매한 사이즈를 분석할 수 있습니다. 이는 의류 및 신발 사이즈 추천 서비스를 개선하기 위함입니다.\n\nSIZEBAY 애플리케이션은 사용자들의 프라이버시에 대해 신경을 쓰고 있음을 명확히 합니다. 따라서 데이터 수집은 데이터 소유자를 식별할 수 없도록 수행되도록 개발되었습니다.",
+      "anchor": "수집된 데이터"
+    },
+    "how_it_works": {
+      "anchor": "작동 방식은?",
+      "title": "가상 피팅룸과 핏 & 사이즈 차트에 어떻게 접근하나요?",
+      "text": "서비스를 사용하기 위해 사용자가 SIZEBAY 플랫폼에 등록할 필요는 없습니다. Fit & Size Chart에 대한 접근은 가능하며, 가상 피팅룸을 사용하기 위해서는 사용자가 의류 및 신발 사이즈 추천을 위해 일부 기본 정보를 입력해야 합니다.\n\nSIZEBAY 애플리케이션에서 프로필을 생성하는 데 사용자가 이름이나 성을 사용할 필요는 없으며, 개인정보 보호를 더 원할 경우 가상의 데이터를 입력할 수도 있습니다.\n\n미성년자는 부모나 보호자의 대리 및/또는 도움을 받지 않는 한 애플리케이션을 사용할 수 없습니다."
+    },
+    "title": "개인정보보호",
+    "overview": {
+      "title": "이용 약관과 개인정보 보호정책은 무엇을 위한 것인가요?",
+      "text": "SIZEBAY 이용 약관은 다음을 규제하는 것을 목적으로 합니다: (i) SIZEBAY가 고객의 전자상거래 플랫폼을 통해 제공하는 서비스의 이용, (ii) SIZEBAY 웹사이트에서 제공되는 접근 및 콘텐츠, (iii) 애플리케이션 사용 또는 SIZEBAY 웹사이트에 접속할 때 플랫폼과 웹사이트의 사용자, 방문자 및 고객의 의무, (iv) 관련 당사자의 책임.\n\n개인정보 처리방침은 SIZEBAY 애플리케이션 및 웹사이트 사용 및 접속 시 데이터 처리 방식을 명확히 하고, 권리자의 권리와 SIZEBAY에서 이를 행사하는 방법을 설명하는 것을 목표로 합니다.\n\n가상 피팅룸과 핏 & 사이즈 차트를 사용하고 접속할 때, 귀하는 SIZEBAY의 정책에 동의하는 것입니다. SIZEBAY 정책 전문은 링크에서 확인할 수 있습니다.\n\n아래에 주요 정보를 요약합니다:",
+      "anchor": "개인정보보호"
+    },
+    "share_data": {
+      "text": "데이터 공유는 항상 더 나은 온라인 쇼핑 경험을 가능하게 하거나 애플리케이션이 기능할 수 있도록 하는 것을 목표로 수행될 수 있으며, 따라서 고객, 비즈니스 파트너, 서비스 제공업체, 하청업체, 의류 및 신발 제품 제조업체와 함께 수행될 수 있습니다.",
+      "title": "SIZEBAY는 누구와 데이터를 공유할 수 있습니까?"
+    }
+  },
+  "product_not_found": {
+    "report_status": {
+      "sending": "알림 전송 중...",
+      "sent": "감사합니다!",
+      "not_sending": "알림받기",
+      "not_sent": "알림받기"
+    },
+    "description": "이 제품에 관한 정보가 아직 부족하여 추천해드릴 수 없습니다.",
+    "title": "아, 이런!"
+  },
+  "languages": {
+    "all_langs": {
+      "fr": "프랑스 국민",
+      "et": "에스토니아 사람",
+      "es": "스페인의",
+      "en": "영어",
+      "fi": "핀란드어",
+      "dk": "덴마크 말",
+      "cn": "중국어",
+      "de": "독일 사람",
+      "cz": "체코 사람",
+      "br": "포르투갈 인",
+      "ar": "아라비아 말",
+      "bg": "불가리아 사람",
+      "mx": "스페인의",
+      "no": "노르웨이 인",
+      "nl": "네덜란드 사람",
+      "lt": "리투아니아 사람",
+      "lv": "라트비아 사람",
+      "jp": "일본어",
+      "ko": "한국인",
+      "it": "이탈리아 사람",
+      "hu": "헝가리 인",
+      "hr": "크로아티아어",
+      "id": "인도네시아 공화국",
+      "gr": "그리스 어",
+      "he": "헤브라이 사람",
+      "vn": "베트남어",
+      "uk": "영어",
+      "th": "태국어",
+      "tr": "터키어",
+      "sr": "세르비아 사람",
+      "sv": "스웨덴어",
+      "sl": "슬로베니아",
+      "sk": "슬로바키아 사람",
+      "ru": "러시아인",
+      "ro": "루마니아 사람",
+      "pt": "포르투갈 인",
+      "pl": "광택",
+      "esAR": "스페인의",
+      "esCT": "스페인어(카스티야)",
+      "ukr": "우크라이나 인",
+      "zh": "중국인"
+    },
+    "select": "사용 가능한 언어: {{langs}}",
+    "box": "언어 선택기, {{currentLang}} 언어를 사용하는 중입니다."
+  },
+  "garment_measurements": {
+    "hip_width": "엉덩이 너비",
+    "thigh_width": "허벅지 너비",
+    "head_circumference": "머리 둘레",
+    "lower_waist_circumference": "허리 둘레 낮추기",
+    "collar": "칼라",
+    "waistband_circumference": "허리띠 둘레",
+    "hip_circumference": "엉덩이 둘레",
+    "biceps": "이두근",
+    "waistband_width": "허리띠 너비",
+    "hem": "헤엄",
+    "lower_waist_width": "허리 너비 낮추기",
+    "chest_circumference": "가슴 둘레",
+    "waist_circumference": "허리 둘레",
+    "insole_width": "깔창 너비",
+    "palm_length": "손바닥 길이",
+    "shoulder_length": "어깨 길이",
+    "length": "길이",
+    "waist_width": "허리 너비",
+    "chest_width": "가슴 너비",
+    "wrist_width": "손목 너비",
+    "insole_length": "인솔 길이",
+    "calf_width": "종아리 너비",
+    "heel_height": "굽 높이",
+    "front_length": "앞길이",
+    "brim": "브림",
+    "sleeve": "슬리브",
+    "thigh_circumference": "허벅지 둘레",
+    "inside_leg": "안쪽 다리",
+    "wrist_circumference": "손목 둘레",
+    "high_waist_circumference": "높은 허리 둘레",
+    "shaft_height": "샤프트 높이",
+    "calf_circumference": "종아리 둘레",
+    "full_body_length": "전체 신장",
+    "back_hook": "백 훅",
+    "platform_height": "플랫폼 높이",
+    "circumference": "둘레",
+    "hook": "후크",
+    "lower_length": "더 낮은 길이",
+    "under_bust": "언더버스트",
+    "high_waist_width": "하이 웨이스트 너비",
+    "back_length": "등 길이"
+  },
+  "regions": {
+    "IT": "이탈리아어",
+    "HU": "헝가리어",
+    "FR": "프랑스어",
+    "MX": "멕시코",
+    "CUSTOM": "글로벌",
+    "JP": "일본어",
+    "code": {
+      "CUSTOM": "CUSTOM",
+      "US": "US",
+      "UK": "UK",
+      "AU": "AU",
+      "IT": "IT",
+      "MEX": "MEX",
+      "JP": "JP",
+      "FR": "FR",
+      "EU": "EU",
+      "CN": "CN",
+      "BR": "BR",
+      "DE": "DE"
+    },
+    "ES": "스페인",
+    "EU": "유럽",
+    "DE": "독일어",
+    "CN": "중국어",
+    "AU": "호주",
+    "BR": "브라질",
+    "region": "지역",
+    "other": "미상",
+    "mx_marti": "Marti",
+    "PT": "포르투갈",
+    "letter-br": "브라질",
+    "US": "미국",
+    "UK": "British"
+  },
+  "size_chart": {
+    "subtitle": "더 다양한 치수와 사이즈를 보려면 스크롤 막대를 밀어주세요",
+    "title_web": "측정 차트",
+    "scroll_action": "슬라이딩",
+    "subtitle_mobile": "밀어서 더 많은 측정값과 크기를 확인하세요",
+    "returns_link": "반품 정책에 대해 자세히 알아보세요.",
+    "returns": "아직 의심스러우세요? 걱정하지 마세요. 첫 번째 <strong>반품은 무료입니다.</strong>",
+    "title_accessory": "이 액세서리의 사이즈 차트",
+    "title": "사이즈를 선택하고 치수를 확인하세요",
+    "instruction_measure": "자신을 측정하는 방법에 대한 자료를 참조하고 측정값을 이 표와 비교하십시오.",
+    "title_mobile": "신체 치수를 이 차트와 비교하세요. 아래의 각 열 제목을 가리킨 다음, 신체 치수를 측정하는 가장 좋은 방법을 살펴보세요."
+  },
+  "generics": {
+    "disable": "비활성",
+    "less_than_year": "1세 미만",
+    "profile_tooltip": "여기를 클릭하면 새 치수 프로필을 만들 수 있습니다",
+    "weight": "몸무게",
+    "age": "나이",
+    "accessibility": "접근성",
+    "language": "언어",
+    "years": "세",
+    "female": "여성",
+    "size_fit": "크기",
+    "no_name": "이름 미상",
+    "pronoun_female": "내",
+    "year": "세",
+    "suffix_male": "고객님의",
+    "months": "개월",
+    "size_chart": "사이즈 차트",
+    "chart": "사이즈 차트",
+    "closeVfr": "온라인 피팅룸을 종료합니다",
+    "about": "사이즈베이에 대하여",
+    "see_how_to_measure": "측정 방법 보기",
+    "kg": "킬로그램",
+    "assistive_mode": "{{status}} 보조 모드",
+    "suffix_female": "고객님의",
+    "switcher": {
+      "title_chart": "치수:"
+    },
+    "lb": "파운드",
+    "how_to_measure": "측정 방법 보기",
+    "unavailable": "죄송하지만 번역할 텍스트를 제공해 주세요.",
+    "other_profiles": "다른 프로필",
+    "privacy": "개인정보보호",
+    "ft": "인치",
+    "pronoun_male": "내",
+    "got_it": "알았어요",
+    "enable": "활성",
+    "cm": "센티미터",
+    "height": "신장",
+    "male_singular": "남성",
+    "uninformed": "정보가 없음",
+    "female_singular": "여성",
+    "profile": {
+      "title": "사용자 프로필"
+    },
+    "male": "남성",
+    "confirm_edit": "OK"
+  },
+  "privacy_v2": {
+    "overview": {
+      "text": "<p>SIZEBAY <strong>에서 개발한 솔루션의 사용을 규제하는 정책을 더 잘 이해할 수 있도록 이 간략한 요약을 준비했습니다. 이 개요는 정책의 전체 내용을 대체하지 않으므로 이후에 각 문서를 주의 깊게 읽을 것을 권장합니다.</strong></p><p>SIZEBAY<strong>의 </strong>사용 약관<strong>은 다음을 규제하기 위한 것입니다. </strong>{{ tenantName }} ({{ pageTenant }})<strong>의 전자상거래 플랫폼을 통해 </strong>SIZEBAY<a href={{ pageTenant }} target=_blank>에서 제공하는 서비스 및 (ii) </a>SIZEBAY<strong> 웹사이트에서 제공되는 액세스 및 콘텐츠, ( iii) 애플리케이션을 사용하거나 </strong>SIZEBAY<strong> 웹사이트에 액세스하는 동안 플랫폼과 웹사이트의 사용자, 방문자 및 고객의 의무, (iv) 관련된 당사자의 책임.</strong>{{ pagePrivacyTenant }}</p>A <p>개인정보 보호정책 <strong>은 어떻게 </strong> SIZEBAY <strong>는 애플리케이션 및 웹사이트 이용 및 접속 과정에서 정보를 처리하며, </strong> SIZEBAY <strong>를 통해 보유자의 권리와 이를 행사할 수 있는 방법도 명시합니다.</strong>",
+      "title": "개요"
+    },
+    "clear_data": {
+      "text": "Sizebay에 저장된 모든 검색 데이터, 캐시 및 쿠키를 지웁니다.",
+      "button": {
+        "initial": "쿠키 삭제"
+      }
+    },
+    "person": {
+      "first": {
+        "name": "마르셀로 바스토스",
+        "info": "<li>유럽 연합</li> <li>privacy@sizebay.com</li>"
+      },
+      "second": {
+        "name": "잰더슨 로베르토 아라우조",
+        "info": "<li>기타 위치</li> <li>privacy@sizebay.com</li>"
+      }
+    },
+    "services": {
+      "title": "SIZEBAY는 어떻게 서비스를 제공하나요?",
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/computer-face.svg /><p> <strong>SIZEBAY</strong> 서비스는 전자상거래 플랫폼에서 SaaS(Software as a Service) 형태로 제공되며, 이는 <strong>SIZEBAY</strong>가 전자상거래에 소프트웨어 사용 라이선스를 부여함을 의미합니다.</p></span> <div><img src=https://static.sizebay.technology/assets/icons/computer-face.svg /></div>"
+    },
+    "contact": {
+      "text": "<p><strong>SIZEBAY</strong> 정책 또는 데이터 주체로서 귀하의 권리를 행사할 수 있는 방법에 대해 질문이 있는 경우 <strong>SIZEBAY</strong> 데이터 보호 책임자(DPO)에게 문의하십시오.</p>",
+      "title": "의심스러운 경우 어떻게 연락하나요?"
+    },
+    "data_collected": {
+      "title": "SIZEBAY는 어떤 데이터를 수집하나요?",
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/cookies.svg /><p> <strong>SIZEBAY</strong>는 서비스 제공을 위해 닉네임(선택사항), 나이, 성별, 키, 몸무게, 해부학적 프로필 및 신체 치수와 같은 프로필 데이터를 수집할 수 있습니다. 또한 사용자 경험을 개선하고 애플리케이션 사용을 용이하게 하기 위해 액세스 로그 데이터 및 쿠키를 수집할 수 있으며, 다음 구매 또는 제품 분석에서 사용자가 이미 정보를 제공한 데이터를 다시 제공할 필요가 없습니다.</p> </span><span><img src=https://static.sizebay.technology/assets/icons/bag.svg /><p> <strong>SIZEBAY</strong>는 사이즈 추천 서비스를 개선하기 위해 추천 사이즈와 실제 구매한 사이즈 사이의 분석을 수행하기 위해 전자 상거래에 접수된 구매 주문에서 데이터를 수집할 수도 있습니다. 의류 및 신발.</p></span><span><img src=https://static.sizebay.technology/assets/icons/anonymous-person.svg /><p> <strong>SIZEBAY</strong> 애플리케이션은 사용자의 개인 정보를 보호하므로 개인 식별이 불가능한 상태에서 데이터 수집이 수행되는 방식으로 서비스가 개발되었음을 밝힙니다. 보유자의 데이터.</p></span><div><img src=https://static.sizebay.technology/assets/icons/cookies.svg /> <img src=https://static.sizebay.technology/assets/icons/bag.svg /> <img src=https://static.sizebay.technology/assets/icons/anonymous-person.svg /></div>"
+    },
+    "how_it_works": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/mannequin.svg /><p> 서비스를 이용하기 위해 사용자는 <strong>SIZEBAY</strong> 플랫폼에 등록할 필요가 없습니다. 측정 테이블에 대한 액세스는 항상 가능합니다. 가상 피팅룸을 사용하려면 응용 프로그램이 의류와 신발의 사이즈를 추천할 수 있도록 사용자가 몇 가지 기본 정보를 입력해야 합니다.</p></span><span><img src=https://static.sizebay.technology/assets/icons/anonymous.svg /><p> <strong>SIZEBAY</strong> 응용 프로그램에서 프로필을 생성해도 사용자는 개인 정보 보호에 관심이 있는 경우 이름 또는 성을 가상 데이터로 채울 수도 있습니다.</p></span><span><img src=https://static.sizebay.technology/assets/icons/persons.svg /><p> 미성년자는 부모가 대리 및/또는 지원하지 않는 한 응용 프로그램을 사용할 수 없습니다. 보호자.</p></span><div><img src=https://static.sizebay.technology/assets/icons/mannequin.svg /><img src=https://static.sizebay.technology/assets/icons/anonymous.svg /><img src=https://static.sizebay.technology/assets/icons/persons.svg /></div>*",
+      "title": "가상 피팅룸 및 가상 테이블 서비스에 대한 액세스는 어떻게 이루어지나요?"
+    },
+    "share_data": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/share.svg /><p> 데이터 공유는 더 나은 온라인 쇼핑 경험을 제공하거나 애플리케이션 작동을 가능하게 하기 위해 항상 수행될 수 있으므로 고객 및 공급업체와 함께 수행될 수 있습니다.</p></span><div><img src=https://static.sizebay.technology/assets/icons/share.svg /></div>",
+      "title": "SIZEBAY는 누구와 데이터를 공유할 수 있나요?"
+    },
+    "actions": {
+      "terms": {
+        "content": "<li><a href=https://home.sizebay.com/{{lang}}/legal/conditions-of-use target=_blank>이용약관</a></li><li><a href=https://home.sizebay.com/{{lang}}/legal/privacy target=_blank>개인정보 보호정책</a></li><li><a href=https://home.sizebay.com/{{lang}}/legal/cookies-policy target=_blank>쿠키 정책</a></li>",
+        "conditions-use": "이용약관",
+        "privacy": "개인 정보 보호 정책",
+        "cookies": "쿠키 정책",
+        "title": "자귀"
+      },
+      "statements": {
+        "gdpr": "GDPR 준수",
+        "title": "선언",
+        "lgpd": "LGPD 준수",
+        "content": "<li><a href=https://home.sizebay.com/{{lang}}/legal/gdpr target=_blank >GDPR 규정 준수</a></li><li><a href=https: / /home.sizebay.com/{{lang}}/legal/lgpd target=_blank >LGPD 규정 준수</a></li><li><a href=https://home.sizebay.com/{ {lang }}/legal/ccpa target=_blank >CCPA 규정 준수</a></li><li><a href=https://sizebay.com/{{lang}}/legal/pipl target=_blank >PIPL 규정 준수 </a></li>",
+        "pipl": "PIPL 준수",
+        "ccpa": "CCPA 준수"
+      },
+      "title": "약관 페이지에 액세스",
+      "redirect_privacy": {
+        "text": "{{ tenantName }}의 개인 정보 페이지로 리디렉션하려면 여기를 클릭하세요."
+      }
+    },
+    "how_data_is_collected": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/computer-hanger.svg /><p> 데이터 수집은 사용자가 Virtua Fitter 및 측정 테이블 서비스를 사용할 때 정보를 제공하거나 사용자가 <strong>SIZEBAY</strong> 응용 프로그램 또는 웹 사이트에 액세스할 때 쿠키를 통해 수행됩니다. 다시 다음 구매 또는 제품 분석에서 사용자가 이미 정보를 제공한 데이터.</p></span><div><img src=https://static.sizebay.technology/assets/icons/computer-hanger.svg /></div>",
+      "title": "SIZEBAY는 어떻게 데이터를 수집하나요?"
+    },
+    "users_obligations": {
+      "title": "사용자의 의무는 무엇입니까?",
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/obligations.svg /><p> 애플리케이션 사용자는 <strong>SIZEBAY</strong>의 서비스를 항상 정책, 현행법, 관습, 공공질서, 플랫폼 사용 및 사용 승인에 요구되는 필수 요구사항을 존중하고 준수해야 합니다. .</p></span><div><img src=https://static.sizebay.technology/assets/icons/obligations.svg /></div>"
+    },
+    "data_protection": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/security.svg /><p> <strong>SIZEBAY</strong>는 고객, 사용자 및 방문자 정보의 비밀성과 보안을 매우 중요하게 생각합니다. 이러한 이유로 암호화 및 방화벽 기술을 사용하고 데이터 및 정보 보호를 보장하기 위해 최선을 다할 것입니다.</p></span><span><img src=https://static.sizebay.technology/assets/icons/http.svg /><p> 브라우저에 저장된 쿠키를 정기적으로 정리하여 수집된 정보는 <strong>SIZEBAY</strong> 데이터베이스 및 기타 접속 사이트에서 삭제됩니다.</p></span><div><img src=https://static.sizebay.technology/assets/icons/security.svg /> <img src=https://static.sizebay.technology/assets/icons/http.svg /></div>",
+      "title": "SIZEBAY는 귀하의 데이터를 어떻게 보호합니까?"
+    }
+  },
+  "garment_measures_info": {
+    "shaft_height": "뒤꿈치의 바닥에서 신발 축의 상단까지 측정하세요.",
+    "shoulder_length": "옷의 뒷면에서 한 소매 솔기부터 다른 소매 솔기까지의 너비.",
+    "full_body_length": "전체 바디 조각의 상단 솔기부터 하단 단까지 측정하십시오.",
+    "hem": "부품 하단의 너비.",
+    "back_length": "칼라에서 상의 밑단까지, 뒷면에서 측정하세요.",
+    "lower_waist_width": "로우 웨이스트 의상의 허리띠 너비.",
+    "hip_circumference": "의류의 너비는 허리 밴드 아래 약 20cm 지점에서 측정한 값을 두 배로 곱한 것입니다.",
+    "palm_length": "손목에서 중지 끝까지 측정하세요.",
+    "calf_circumference": "부츠 샤프트 상단 부분의 둘레, 일반적으로 종아리의 가장 넓은 지점에서 측정합니다.",
+    "head_circumference": "모자가 머리에 닿는 안쪽을 따라 측정하세요.",
+    "sleeve": "소매가 시작되는 안쪽 솔기에서 커프스 끝까지 측정하세요.",
+    "waist_width": "어깨와 밑단 사이의 가장 좁은 부분의 너비.",
+    "thigh_width": "넓적다리의 가장 넓은 부분의 너비.",
+    "waistband_circumference": "의상의 상단 개구부 측정.",
+    "circumference": "보통 폭을 2배로 곱하여 측정합니다.",
+    "lower_waist_circumference": "의복의 너비를 자연 허리 바로 아래에서 측정한 후 두 배로 곱합니다.",
+    "high_waist_width": "하이웨이스트 의류의 허리밴드 너비.",
+    "chest_circumference": "상의의 너비 측정은 겨드랑이 바로 아래에서 한쪽에서 다른 쪽까지를 측정한 다음 두 배로 곱한 값입니다.",
+    "waist_circumference": "의류의 가장 좁은 부분의 너비를 두 배로 곱한 값.",
+    "front_length": "칼라에서 앞면의 상의 밑단까지 측정하세요.",
+    "lower_length": "허리띠에서 옷의 밑단까지, 옆면에서 측정하세요.",
+    "wrist_circumference": "소매 끝부분의 손목 둘레 측정.",
+    "heel_height": "점프의 시작점에서 최고점까지 측정하세요.",
+    "wrist_width": "조각의 너비를 처리하세요.",
+    "hook": "허리띠의 위쪽에서 가랑이 솔기까지 측정하세요.",
+    "thigh_circumference": "옷의 허벅지에서 가장 넓은 부분의 측정, 밑위 바로 아래.",
+    "platform_height": "신발 앞부분의 밑바닥부터 플랫폼의 꼭대기까지 측정하세요.",
+    "biceps": "소매 너비, 겨드랑이 아래 약 2.5cm.",
+    "insole_width": "안창의 가장 넓은 부분을 측정하십시오.",
+    "brim": "기본에서 모자 챙 끝까지 측정하세요.",
+    "high_waist_circumference": "하이웨이스트 의상의 허리띠 부분을 측정하세요.",
+    "hip_width": "허리띠 아래 20cm 지점의 폭.",
+    "length": "위쪽 솔기에서 아래쪽 단까지 측정하세요.",
+    "chest_width": "윗부분의 너비를 한쪽에서 다른 쪽으로 겨드랑이 바로 아래에서 측정하세요.",
+    "calf_width": "부츠 샤프트의 종아리 높이에서의 폭 측정.",
+    "collar": "블라우스 칼라의 너비, 목의 밑부분을 따라 측정한 값.",
+    "waistband_width": "하의 허리밴드 너비.",
+    "back_hook": "허리띠에서 가랑이 솔기까지, 의류 뒤쪽에서 측정하세요.",
+    "insole_length": "깔창의 뒤꿈치 끝에서 발가락 끝까지 측정하세요.",
+    "under_bust": "상의의 너비를 한쪽에서 다른 쪽으로 가슴 바로 아래에서 측정한 후, 두 배로 곱합니다.",
+    "inside_leg": "가랑이 솔기에서 바지 단까지 측정하세요"
+  },
+  "error": {
+    "close": "피팅룸 나가기",
+    "title": "이런! 문제가 발생했습니다!",
+    "options": "프로필을 다시 시작하여 다시 시도하거나 종료하고 나중에 다시 시도할 수 있습니다.",
+    "restart": "프로필 다시 시작",
+    "description": "걱정하지 마세요. 다시 이런 일이 일어나지 않도록 원인을 조사하는 중입니다."
+  },
+  "recommendation": {
+    "3d_feel": {
+      "lanes": {
+        "large": "너무 헐렁한",
+        "ideal": "이상적임",
+        "slightly_loose": "약간 느슨함",
+        "loose": "헐렁함",
+        "slightly_fit": "약간 조임",
+        "tight": "매우 조임",
+        "fit": "조임"
+      },
+      "title_suggested": "최선의 선택"
+    },
+    "lanes": {
+      "tight": "꼭 맞음",
+      "ideal": "이상적임",
+      "fit": "조임",
+      "looser": "루저",
+      "large": "넓음",
+      "loose": "헐렁함",
+      "tighter": "더 타이트한"
+    },
+    "title_not_suggested": "권장하지 않음",
+    "measurements": {
+      "title": "측정",
+      "conversion": {
+        "title": "크기 변환"
+      }
+    },
+    "centered_mode": {
+      "controls": {
+        "appearance": "외모",
+        "comfort": "편안한 핏"
+      },
+      "comfort_map": {
+        "header": "3D 이미지의 색상은 의복이 몸에 얼마나 타이트하거나 느슨할지를 나타냅니다"
+      },
+      "tag_info": "3D 신체 시뮬레이션은 귀하의 개별 신체 치수와 실제 제품 맞춤을 나타냅니다.",
+      "measure_name": "귀하의 {{measureName}}에서"
+    },
+    "title_suggested": "을(를) 권장합니다",
+    "height_warning": {
+      "threshold": {
+        "long": "김",
+        "short": "짧음"
+      },
+      "message": "신장이 {{height}}인 사람에게 너무 {{threshold}}"
+    },
+    "shoe": {
+      "insoleLength": "길이",
+      "insoleWidth": "너비"
+    },
+    "subtitle": "아래에서 편안한 핏 정도를 참조하세요",
+    "subtitle_shoe": "{{brandName}} 제품의 {{size}} 사이즈 기준",
+    "title_also_fits": "다른 적합한 사이즈",
+    "carousel_also_try": "다른 사이즈 시도하기:"
+  },
+  "product_comparison": {
+    "elements": {
+      "edit": "편집",
+      "foot_format": "발 모양",
+      "category": "카테고리",
+      "brand": "브랜드",
+      "size": "사이즈"
+    },
+    "title": "비교 제품",
+    "subtitle": "권장 사이즈에 사용한 정보입니다."
+  },
+  "warnings": {
+    "age_group": {
+      "age_group": "{{ageGroup}} 연령대 제품",
+      "limit_reached": "프로필 수가 한계에 도달했습니다. 새 프로필을 추가하려면 프로필을 삭제하세요.",
+      "subtitle": "해당 제품의 연령대가 {{profileName}} 프로필 연령과 일치하지 않습니다. 계속하려면 프로필을 선택하거나 추가하세요.",
+      "prompt_message": "({{ ageGroup }}) 섹션 의류도 입어보고 싶으세요?"
+    },
+    "we_need_more_measures": {
+      "subtitle": "고객님의 치수를 계산할 수 없습니다. 아래 치수를 조정하거나 다시 돌아가 얻은 데이터를 검토하세요.",
+      "title": "측정한 치수를 입력하세요"
+    },
+    "unmatched_gender": {
+      "choose_a_profile": "원하는 프로필을 선택하세요",
+      "select_profile": "아니요, 다른 프로필을 선택합니다",
+      "tooltip": "이 프로필은 선택한 제품 유형에 적합하지 않습니다.",
+      "title": "{{gender}} 섹션 의류도 입어보고 싶으세요?",
+      "create_profile": "아니요, 다른 프로필을 만듭니다"
+    }
+  },
+  "brands_list": {
+    "search_question": "평소에 어떤 브랜드를 즐겨 입나요?",
+    "not_found": {
+      "title": "이 이름을 가진 브랜드를 찾을 수 없습니다",
+      "subtitle": "오타를 수정하려면 다시 검색해 보세요."
+    },
+    "subtitle": "몇 가지 질문 후 가장 적합한 신발 사이즈를 찾도록 도와드리겠습니다.",
+    "title": "가상 피팅룸",
+    "search_placeholder": "여기에 브랜드를 입력하고 검색하세요.",
+    "title_restricted": "우리 브랜드를 신으세요?"
+  },
+  "age_group": {
+    "adult": "성인",
+    "kids": "아동"
+  },
+  "a11y": {
+    "Chart": {
+      "vfr_button": "스페이스바를 눌러 가상 피팅룸으로 이동하세요",
+      "step_blocks": {
+        "table": {
+          "measure_description": "이것은 {{size}} 사이즈이며, {{measureName}}에서 {{measure}}로 측정되어야 합니다"
+        },
+        "switcher": {
+          "instruction_press_space": "스페이스바를 눌러 값을 전환하세요",
+          "option": "현재 값은 {{value}}입니다"
+        }
+      },
+      "greeting": "이것은 사이즈 차트입니다",
+      "size_system": {
+        "instruction": "현재 사이즈 시스템은 {{sizeSystem}}입니다. 다른 옵션을 선택하려면 스페이스바를 누르세요."
+      },
+      "instruction": "여기에서 귀하의 치수를 저희 차트에 나와 있는 치수와 비교하실 수 있습니다"
+    },
+    "shoe": {
+      "Brands": {
+        "highlighted": {
+          "edit_negative": "이 브랜드 중 어떤 것도 착용하지 않는다면 스페이스바를 누르세요",
+          "edit_action": "스페이스바를 눌러 선택한 브랜드로 진행하세요",
+          "instruction": "스페이스바를 눌러 {{brandName}}를 진행하세요"
+        },
+        "restricted": {
+          "greeting": "제한된 브랜드 신발 피팅룸에 오신 것을 환영합니다. 이미 착용하고 있는 신발 브랜드 중 하나를 선택하세요"
+        }
+      },
+      "FootSize": {
+        "instruction": "스페이스바를 눌러 {{ sizeSystem }} 사이즈 시스템을 선택하세요"
+      },
+      "EditData": {
+        "greeting": "여기에서 보내주신 발과 신발 정보에 대한 변경을 하실 수 있습니다"
+      },
+      "FootFormat": {
+        "instruction": "발 모양을 선택하세요.",
+        "edit_action": "스페이스바를 눌러 {{ shoeFormat }} 선택"
+      }
+    },
+    "drawer": {
+      "measurement_tape_header": "테이프",
+      "measurement_tape_handle": "줄자. 스페이스바를 눌러 줄자에 접근하세요",
+      "close_group_handle": "스페이스바를 눌러 그룹을 닫으세요",
+      "measurement_tape_print_button": "스페이스바를 눌러 줄자를 여세요"
+    },
+    "clothes": {
+      "Welcome": {
+        "step_blocks": {
+          "gender": {
+            "question": "진행하려면 성별을 선택하세요. 현재 성별은 {{gender}}입니다"
+          },
+          "age": {
+            "tooltip": "스페이스바를 눌러 나이에 따라 추천이 어떻게 달라지는지에 대한 자세한 정보를 읽어보세요"
+          },
+          "height": {
+            "question": "여기에 {{measurementSystem}}로 키를 입력하세요."
+          }
+        }
+      },
+      "ProfilesMenu": {
+        "blocks": {
+          "greeting": "이것들은 가상 피팅룸에 있는 모든 당신의 프로필입니다",
+          "edit": "여기에서 프로필을 추가하거나 제거할 수 있습니다"
+        },
+        "chip": {
+          "message": "스페이스바를 눌러 {{profileName}} 프로필의 자세한 정보를 확인하세요"
+        }
+      },
+      "Recommendation": {
+        "lane": "{{ measureName }}의 {{ size }} 사이즈는 {{ label }}입니다",
+        "carousel_instruction": "여기에서 더 많은 사이즈 옵션을 확인하세요"
+      },
+      "measures": {
+        "edit": "화살표 키를 눌러 {{measureName}} 측정값을 늘리거나 줄이세요",
+        "read": "당신의 {{measureName}}는 {{measureSystem}}에서 {{measureValue}}를 측정합니다"
+      }
+    },
+    "generics": {
+      "welcome": "가상 피팅룸에 오신 것을 환영합니다"
+    }
+  },
+  "welcome": {
+    "age_disclaimer": "체형은 시간이 지나면서 변화하므로 정확한 치수 계산에 영향을 줍니다.",
+    "gender_f_kids": "여자 같은",
+    "title": "가상 피팅룸",
+    "gender_m_kids": "남성 명사",
+    "foot_measurement_known": "이미 내 발 치수를 알고 있어요",
+    "gender_m": "남성",
+    "shoe_measure": "발 길이",
+    "gender_f": "여성",
+    "gender_u": "유니섹스",
+    "subtitle": "이 제품을 시착하려면 세부 정보를 입력하세요"
+  },
+  "edit_measures": {
+    "view_less": "측정값 간략히 보기",
+    "view_all": "다른 치수 보기"
+  },
+  "drawers": {
+    "manage": {
+      "actions": {
+        "select": "선택",
+        "delete": "삭제"
+      },
+      "active_profile": {
+        "details_shoe": "{{brandName}} 제품의 {{size}} 사이즈",
+        "no_name": "이름을 입력하세요",
+        "delete": "프로필 삭제"
+      },
+      "new_profile": {
+        "input_example": "예: 존 스미스",
+        "title": "프로필 추가",
+        "subtitle": "이 프로필 이름을 입력하세요"
+      }
+    },
+    "knobs": {
+      "kids_shoes_tips": "사이즈 팁",
+      "garment_info": "의류 치수",
+      "size_content": "스타일 가이드",
+      "measurement_tape": "측정 줄자",
+      "product_info": "신체 치수",
+      "size_hint_promo": "프로모션을 완료하세요",
+      "size_hint": "추천",
+      "sizes_conversions": "사이즈 변환"
+    },
+    "kids_shoes_title": "아동 발 및 신발 관련 팁과 지침",
+    "kids_shoes_button": "알았어요",
+    "kids_shoes_message": "어린이 발은 2~4개월마다 절반씩 커집니다. 따라서 아동의 경우 신발이 더 오래 가고 급속히 성장한 발이 뒤틀리지 않도록 약간 헐렁한 사이즈를 선택하는 것이 좋습니다."
+  },
+  "landscape_vertical_subtitle": "사용을 시작하려면 기기를 똑바로 세우세요.",
+  "coppa_gate": {
+    "close": "아니요, 저는 13세 미만입니다",
+    "confirm": "네, 저는 성인 보호자입니다",
+    "prompt_title_months": "생후 {{ months }}개월 자녀를 둔 부모 또는 보호자세요?",
+    "message": "자녀를 위한 제품을 사용해보려고 이 프로필을 만드셨다면 이 제품을 계속 사용해보실 수 있습니다.",
+    "prompt_title_years": "{{ years }}세 자녀를 둔 부모 또는 보호자세요?",
+    "title": "나이 확인"
+  },
+  "fetching": {
+    "subtitle": "이상적인 크기 권장 사항을 생성하기 위해 치수를 계산하고 있습니다.",
+    "title": "거의 다 됐어요!",
+    "shoe": {
+      "success": "계산 완료!",
+      "calculating": "측정값 계산하기",
+      "analyzing": "귀하의 답변 분석 중"
+    }
+  },
+  "landscape_subtitle": "시작하려면 휴대전화를 가로로 고정하세요. ",
+  "measurement_tape": {
+    "link_download": {
+      "in": "//static.sizebay.technology/assets/measurement_tape/measurement_tape_in_en.pdf",
+      "cm": "//static.sizebay.technology/assets/measurement_tape/measurement_tape_cm_en.pdf"
+    },
+    "title": "줄자",
+    "message": "치수를 확인하려면 이 줄자를 인쇄, 절단, 조합하세요.",
+    "print": "측정 테이프",
+    "print_mobile": "인쇄 줄자",
+    "download": {
+      "file": {
+        "title": "줄자 인쇄 및 설정 안내",
+        "fold-and-rotate": "접어서 회전",
+        "how-to-do": "\"인쇄:\n인쇄하기 전에 프린터가 줄자 크기를 줄이거나 늘리지 않도록 인쇄 대화 상자의 ‘페이지에 맞추기’ 옵션을 비활성화하세요.\n\n크롭:\n가위나 스타일러스를 사용하여 ‘가위’ 모양으로 표시된 모든 검은색 연속선을 잘라 줄자 조각을 만듭니다.\n\n조합:\n점선 부분을 결합해 각 줄자 조각을 조합하여 끝을 접고 회전합니다(인쇄된 대로).\n\n접힌 부분 고정:\n조합한 후 접착제, 접착 테이프 또는 스테이플러를 사용하여 줄자의 접힌 부분을 고정하세요.\""
+      }
+    }
+  },
+  "foot_size": {
+    "select_region": "지역 선택:",
+    "not_selected": "계속하려면 사이즈를 선택하세요.",
+    "title": "신발 사이즈가 어떻게 되세요?",
+    "pattern": "{{region}} 시스템",
+    "subtitle": "사이즈를 선택하세요"
+  },
+  "child_name": {
+    "name": "이름",
+    "title": "자녀 이름을 말씀해 주시겠어요?",
+    "subtitle": "피팅룸 프로필을 만드는 데 도움이 됩니다"
+  },
+  "size_hint": {
+    "title": "고객님께 잘 맞는 몇 가지 제품을 선정했습니다.",
+    "discount-original-price": "정가: <span class='size-hint__discount-original-price discount-description-price'>{{ price }}</span> <span class='size-hint__discount-percentage'>-{{discount }}%</span>",
+    "discount-lowest-price": "할인 전 30일 최저가: <span class='size-hint__discount-lowest-price discount-description-price'>{{ price }}</span> <span class='size-hint__discount-percentage'>-{{ discount }}%</span>",
+    "title_promo": "프로모션을 완료하세요",
+    "try_now": "지금 시도"
+  },
+  "size_tailor": {
+    "action_button": "고객님을 위한 맞춤 제작",
+    "title": "맞춤형 제품",
+    "description": "맞춤형 제품을 제작할 수 있도록 신체 치수를 확인하세요."
+  },
+  "miscellaneous": {
+    "hannaLinks": {
+      "recommendation": "결과로 돌아가기",
+      "welcome": "돌아가다"
+    }
+  },
+  "measure_shape": {
+    "shape_bigger": "큰 편",
+    "shape_smaller": "작은 편",
+    "skin_types": {
+      "toggle": "피부색 변경"
+    },
+    "subtitle": "이것은 제공된 치수로 생성한 대략적인 체형입니다. 필요한 경우만 조정하세요.",
+    "measure_range": {
+      "1": "훨씬 작음",
+      "2": "더 작게",
+      "3": "평균",
+      "4": "더 크게",
+      "5": "훨씬 더 크다"
+    },
+    "shape_regular": "보통",
+    "title": "체형을 조정하세요"
+  },
+  "calculating": {
+    "subtitle": "치수를 확인하고 필요하면 조정하세요",
+    "circle_title_loading": "불러오는 중...",
+    "circle_title_completed": "준비됐어요!",
+    "title": "계산 완료!"
+  },
+  "brands_grid": {
+    "subtitle": "어느 브랜드를 주로 입으세요?",
+    "unique_brand": "이미 {{brandName }} 신발을 착용하고 계십니까?",
+    "search_other_brands": "다른 브랜드를 찾아보세요"
+  },
+  "modals": {
+    "remove_profile": {
+      "title_alt": "이 프로필을 삭제하시겠습니까?",
+      "title": "{{profileName}} 프로필을 삭제하시겠습니까?",
+      "action": "프로필 삭제하기",
+      "confirm": "프로필 삭제"
+    }
+  },
+  "no_recommendation": {
+    "expected_size": "권장 사이즈는 {{recommendedSize}}입니다.",
+    "title_shoe": "죄송하지만, 현재 이 디자인과 사이즈는 매장에서 구매할 수 없습니다.",
+    "based_on": "다시 시도하려면 정보를 수정하세요.",
+    "calculate_again": "다시 계산",
+    "title": "현재 사이즈가 없습니다.",
+    "subtitle": "아래 치수에 맞는 사이즈를 찾을 수 없습니다. 필요한 경우 조정하세요."
+  },
+  "accessory": {
+    "welcome": {
+      "subtitle": "이 제품을 착용하려면 지침에 따라 치수를 측정하고 해당 수치를 알려주세요.",
+      "shoe": {
+        "subtitle": "자신을 측정하는 방법에 대한 지침에 따라 아래에서 발 측정을 선택하십시오."
+      }
+    },
+    "bike": {
+      "recommendation": {
+        "title_suggested": "권장해드리는 자전거 크기는 원하는 성능과 자세에 가장 적합합니다. 신장이 너무 크지도 작지도 않으므로 편안하게 자전거를 타실 수 있습니다.",
+        "subtitle": "사용자 신장 기준",
+        "title_also_fits": "권장해드리는 자전거 크기는 원하는 성능과 자세에 가장 적합합니다. 신장이 너무 크지도 작지도 않으므로 편안하게 자전거를 타실 수 있습니다.",
+        "title_not_suggested": "권장해드리는 자전거 크기는 원하는 성능과 자세에 가장 적합합니다. 신장이 너무 크지도 작지도 않으므로 편안하게 자전거를 타실 수 있습니다."
+      }
+    },
+    "shoe_size": {
+      "subtitle": "이 제품을 착용하려면 발 길이에 따라 사이즈를 선택하세요."
+    }
+  },
+  "foot_format": {
+    "formats": {
+      "0": {
+        "description": "좁은 발은 신발의 옆면에 여유 공간이 있는 경우가 많습니다.",
+        "title": "좁은"
+      },
+      "1": {
+        "title": "중간",
+        "description": "보통 발 크기는 대부분의 신발에 잘 맞습니다."
+      },
+      "2": {
+        "title": "넓은",
+        "description": "발볼이 넓으면 신발 길이는 맞지만 옆이 꽉 끼는 느낌이 듭니다."
+      }
+    },
+    "subtitle": "발의 너비를 선택하여 맞춤을 개선하세요.",
+    "title": "발 모양"
+  },
+  "landscape_warning": {
+    "title": "가상 피팅룸"
+  },
+  "my_measures": {
+    "title": "내 치수",
+    "subtitle": "필요에 따라 치수를 조정하세요"
+  },
+  "subcategory": {
+    "subtitle": "평소 신는 <strong>{{brandName}}</strong> 신발 유형을 선택하세요.",
+    "title": "어떤 종류의 {{categoryName}}을 입으세요?"
+  },
+  "model": {
+    "title": "어떤 종류의 {{composedName}}을 입으세요?",
+    "subtitle": "평소 신는 <strong>{{brandName}}</strong> 신발의 모델을 선택하세요."
+  },
+  "landscape_horizontal_subtitle": "사용을 시작하려면 장치를 수평으로 놓으십시오.",
+  "category": {
+    "subtitle": "<strong>{{brandName}}</strong> 신발과 가장 유사한 유형을 아래 목록에서 선택하십시오.",
+    "title": "신발의 종류는 무엇입니까?"
+  },
+  "header": {
+    "title": "Fit Finder"
+  }
+}

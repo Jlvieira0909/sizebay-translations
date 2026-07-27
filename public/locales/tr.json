@@ -1,0 +1,953 @@
+{
+  "shoe_size": {
+    "fit_loose": "Gevşek",
+    "shoe_accessory": {
+      "no_recommendation": {
+        "subtitle": "Aşağıdaki ölçüler için beden bulamadık. Gerekirse ayarlayın.",
+        "title": "Herhangi bir boyut bulamadık"
+      },
+      "all_measures": {
+        "measurements_guide": "Ölçüm Kılavuzu [PDF]",
+        "title": "Ayaklarınızın büyüklüğü nedir?"
+      },
+      "info_drawer_subtitle": "En iyi ayakkabı numarasını bulmak için bize biraz kendinizden bahseder misiniz?"
+    },
+    "recommendation": "Bilgilerinize göre, bu sizin ayak ölçünüz. Gerekirse ayarlayın:",
+    "foot_shape_question": "Ayağınızın şekli nasıl?",
+    "title": "Ayağınızın uzunluğu nedir?",
+    "drawer_title": "ayakların ne kadar",
+    "subtitle": {
+      "0": "En iyi ayakkabı numarasını bulmak için bize biraz kendinizden bahsedin",
+      "box": {
+        "subtitle": "Bir duvara karşı yere bir kağıt yerleştirin. Topuğunuzu kağıdın ve duvarın üzerine koyun. En uzun parmağınızın ucunu işaretleyin, ardından mesafeyi ölçün.",
+        "title": "Ayağını nasıl doğru ölçersin:"
+      }
+    },
+    "fit_description_ideal": "Parmaklarınızla ayakkabı arasında <strong>küçük bir boşluk</strong> vardır.",
+    "length_example": "<strong>{{brandName}}</strong> marka <strong>{{size}}</strong> numara ayakkabını giy ve ayağında uzunluğun nasıl hissettirdiğini bize söyle.",
+    "fit_tight": "Rahat",
+    "fit_ideal": "Uygun",
+    "open_drawer_button": "Kendinizi nasıl ölçersiniz?",
+    "fit_description_loose": "Parmaklarınızla ayakkabı arasında <strong>büyük bir boşluk</strong> vardır.",
+    "shoe_accessory_subtitle": "Rehberliğimizi takip ederek aşağıdan ayak ölçünüzü seçin\nKendinizi nasıl ölçeceğiniz konusunda.",
+    "drawer_button": "Anladım",
+    "fit_description_tight": "Ayakkabı parmaklarınıza <strong>boşluk bırakmadan</strong> temas eder.",
+    "length_question": "Ayakkabınızın uzunluğu nasıl uyuyor?"
+  },
+  "footer": {
+    "add_to_cart_mobile_2": "Sepete ekle",
+    "confirm": "Onayla",
+    "none_of_those": "Bunlardan hiçbiri değil",
+    "save_measures": "Ölçüleri kaydet",
+    "view_recommendation": "Öneriyi Görüntüle",
+    "print_measurement_tape": "Baskı mezura",
+    "virtual_fitting_room": "Sanal Deneme Kabini",
+    "info_box": "Ceketinizi vücut ölçülerinize göre diktirmek istiyorsanız Özel Beden'i seçin.",
+    "yes": "Evet",
+    "add_to_cart": "Tabloya ekle",
+    "brand_not_found": "Markayı bulamadım",
+    "proceed": "Devam et",
+    "edit_data": "Bilgileri düzenle",
+    "not_yet": "Henüz değil",
+    "cancel_alt": "Hayır, iptal",
+    "next": "Bir sonraki",
+    "cancel": "İptal et",
+    "by-sizebay": "Sizebay® tarafından",
+    "sure": "Kesinlikle!",
+    "add_profile": "Profil oluştur",
+    "create_new_profile": "Yeni profil oluştur",
+    "restart": "Baştan başlat",
+    "close": "Kapat",
+    "select_another_profile": "Başka bir profil seç",
+    "continue_without_brand": "markayı bulamadım",
+    "unsure": "Emin değilim!",
+    "save": "Kaydet",
+    "edit_measures": "Ölçüleri Düzenle",
+    "proceed_anyway": "Yine de devam et",
+    "edit_profile": "Profilleri düzenle",
+    "add_to_cart_mobile": "Satın al",
+    "back": "Bir önceki"
+  },
+  "composed_measures": {
+    "welcome": {
+      "link_tooltip": "<b>{{ÖlçüAdı}} {{nin}} genişliği.</b>",
+      "item_text": "Benim {{ölçüAdı}} {{ölçü aralığı}} genişliğinde.",
+      "measures_range_item": "{{ilk Aralık}} tan {{son Aralık}}",
+      "tooltip_text": "Başka bir beden seçmek için buraya tıkla",
+      "tooltip_instructions": "{{ÖlçüAdı}} ölçünü nasıl hesaplayacağını öğrenmek için buraya tıkla.",
+      "height": {
+        "item_text": "Boyum {{aralık}} {{bedenSistemi}}.",
+        "link_tooltip": "<b>ne kadar uzunsun.</b>",
+        "title": "Boy uzunluğun nedir?",
+        "instructions": "Sana uygun önerileri gösterebilmemiz için senin <b>boy</b> unu bilmemiz gerekiyor."
+      },
+      "title": "{{ölçüAdı}}  {{-nin}} ölçüsü nedir?",
+      "instructions": "{{ölçüAdı}} <b> {{nin}} genişliği ne kadar? Sana mümkün önerileri göstermemiz için {{ölçüAdı}} <b> {{nin}} ölçüsünü bilmemiz gerekiyor."
+    },
+    "height": {
+      "title": "Boyun ne kadar?",
+      "link_tooltip": "boyunu göstermek için"
+    },
+    "table": {
+      "helper_height": "Bu yükseklik {{aralık}} {{bedenSistemi}} boyundadır. Bu ölçüm yanlış mı?",
+      "tooltip_change": "Burayı değiştir.",
+      "helper": "Bu {{ölçüAdı}}, {{aralık}} {{bedensistemi}} uzunluğundadır. Bu ölçüm yanlış mı?",
+      "title": "Bunlar, <karış>{{aralık}}</karış> {{ölçüAdı}} için olası bedenlerdir.",
+      "vfr_tooltip": "Ölçülerini aldın mı? Neden beden ölçülerini Sanal Deneme Kabininde keşfetmeyi denemiyorsun?"
+    }
+  },
+  "body_measurements": {
+    "diameter": "ÇAP",
+    "collar": "Boyun",
+    "length": "Ürün Uzunluğu",
+    "centralSeam": "Ön Yükseklik",
+    "weightChart": "Ağırlık",
+    "width": "Genişlik",
+    "waistUpper": "Üst bel",
+    "weight": "Ağırlık",
+    "circumference": "Çevre",
+    "insoleLength": "Ayak uzunluğu",
+    "label1": "BEDEN (USA)",
+    "sleve": "Kol boyu",
+    "waist": "Bel",
+    "chest_m": "Göğüs",
+    "chest_f": "Büst",
+    "neck": "Boyun",
+    "comfort": "Konfor",
+    "sleeve": "Omuz",
+    "thigh": "kalça",
+    "headCircumference": "Baş",
+    "hip": "Kalça",
+    "shoulderWidth": "Kollar",
+    "waistLower": "Alt bel",
+    "wrist": "Bilek",
+    "palm": "Avuç içi",
+    "bar": "Kenar",
+    "chest": "Göğüs / Büst",
+    "lowerLength": "Alt uzunluk",
+    "finger_circumference": "ÇEVRE",
+    "insoleWidth": "Ayak Genişliği",
+    "height": "Yükseklik",
+    "ageChart": "Yaş",
+    "underBust": "Göğüs altı",
+    "insideLeg": "iç dikiş",
+    "biceps": "Biseps",
+    "calf": "Baldır",
+    "fist": "yumruk",
+    "fullBodyLength": "Tüm vücut uzunluğu"
+  },
+  "measures_info": {
+    "insideLeg": "Bacağın kasıktan ayak tabanlarına kadar olan iç mesafesini ölçün.",
+    "fullBodyLength": "Omuzlarınızdan yere kadar olan mesafeyi ölçün.",
+    "weightChart": "Kaç kilosun?",
+    "waistUpper": "Göbek deliğinizin üstünden belinizi ölçün.",
+    "insoleLength": "Bir duvara karşı yere bir kağıt yerleştirin. Topuğunuzu kağıdın ve duvarın üzerine koyun. En uzun parmağınızın ucunu işaretleyin, ardından mesafeyi ölçün.",
+    "biceps": "Mezurayı kolunuzun ortasına sabitleyerek en geniş kısmını belirleyin.",
+    "height": "Bu kolay bir şey. Başınızın üst kısmı (kafatası) ile zemin ( ayaka tabanı) arasındaki mesafe, dik bir duruşla ölçülür.",
+    "width": "Kıyafetinizin genişliğini ölçün",
+    "weight": "Kilon",
+    "sleeve": "Kolunuz hafifçe bükülü, mezurayı dirseğinizin arkasından geçirerek omzunuz ve bileğiniz arasındaki mesafeyi ölçün.",
+    "neck": "Boynunuzun ortalama yüksekliğini bir mezura ile sıkmadan çizin. Ölçümü kontrol etmeye yardımcı olması için bir ayna kullanın.",
+    "collar": "Boynunuzun çevresini köprücük kemiğinizin hemen üstünden ölçün, bir parmağınızı bantla boynunuz arasına koyun.",
+    "chest": "Göğsünüzü veya göğsünüzü (göğüs bölgesi) bir mezura ile çerçeveleyin ve normal şekilde nefes alın. Nefes alırken varyasyonları fark edin ve en yüksek sayıyı kaydedin.",
+    "ageChart": "Kaç yaşındasın?",
+    "circumference": "Kıyafetinizin çevresinin ölçüsünü alın",
+    "length_botton": "Mezuranın başlangıcını vücudunuzun en yüksek noktasında giysinin olacağı yere konumlandırın.",
+    "waist": "Beliniz açık bir şekilde görünecek şekilde bir aynanın karşısına geçin. Gövdenizi hafifçe yana eğerek, belinizin doğal konumunu gösteren bir çizgi oluşturun. Beli sarın.",
+    "footLength": "Boyunuz duvarla aynı hizada olacak şekilde düz bir yüzeyde durun. Bir cetvel kullanarak ayağın en uzun kısmını (topuktan parmaklara kadar) ölçün.",
+    "lowerLength": "Bu, kalçalarınızdan zemine kadar olan mesafedir.",
+    "chest_m": "Bir mezura ile göğsünüzün çevresini çizin ve normal şekilde nefes alın. Nefes alırken varyasyonları fark edin ve en yüksek sayıyı kaydedin.",
+    "chest_f": "Bir mezura ile göğsün (göğüs bölgesi) çevresini çizin ve normal şekilde nefes alın. Nefes alırken varyasyonları fark edin ve en yüksek sayıyı kaydedin.",
+    "palm": "Düz bir yüzeye bir cetvel koyun, elinizi esnetin, baskın elinizin sol tarafını cetvelin sıfır noktasına yerleştirin ve el açıklığınızı not edin.",
+    "waistLower": "Göbek deliğinizin altından bel çevrenizi ölçün, genelde kemerininizin (düşük bel) denk geldiği yer.",
+    "thigh": "Kalçanızın hemen altında bulunan uyluğunuzun en geniş kısmının çevresine ölçüm bandını çizin.",
+    "underBust": "Göğsünüzün hemen altındaki alanın çevresinden mezura ile göğsünüzü ölçün. Ölçümlerdeki değişiklikleri fark ederek normal nefes alın ve en yüksek sayıyı kaydedin.",
+    "bar": "Kıyafetinizin kenar ölçüsünü alın",
+    "insoleWidth": "Size uyan bir ayakkabının iç tabanını çıkarın ve iç taban genişliğini resimde gösterildiği gibi ölçün.",
+    "headCircumference": "Kulaklarınızın üstünden kafa çevrenizi bir mezura ile ölçün.",
+    "wrist": "Örneğin, bir saati tam olarak nereye koyacağınız gibi, bileğinizin etrafındaki mezuranın ana hatlarını çizin.",
+    "hip": "Belin altındaki \"daha geniş\" bölgeyi, kalça kaslarının en yüksek kısmına paralel uzanan şerit ölçüsü ile ana hatlarını çizin.",
+    "diameter": "Bu ürünü takmak istediğiniz elinizdeki aynı parmağa taktığınız bir yüzüğün iç çemberinin çapını ölçün.",
+    "length": "Gövdenizin üst kısmı (boynunuzla birleşme noktası) ile düşük beliniz (göbeğinizin hemen altında) arasındaki mesafeyi karnınızın etrafında ölçün.",
+    "fist": "Örneğin, bir saati tam olarak yerleştireceğiniz noktadan, bileğinizin etrafındaki mezuranın ana hatlarını çizin.",
+    "calf": "Bir sandalyeye oturun ve ayağınızı yerde tutun, bacağınızı 90 derece bükün. Baldırın yan tarafındaki mezura ile ayak tabanından diz kıvrımına kadar ölçü alın.",
+    "shoulderWidth": "Başka birinin yardımıyla omuzlarınızın uçları arasındaki mesafeyi şekildeki gibi ölçün.",
+    "ring": "Bu ürünü takmak istediğiniz parmağınızın etrafına ince bir ip bağlayın, ipin birleştiği yeri işaretleyin ve çevreyi elde etmek için uzunluğu ölçün.",
+    "centralSeam": "Çeviri sonuçları\nDüz bir zemine oturarak beliniz ile yüzey arasındaki mesafeyi bir mezura ile ölçün."
+  },
+  "privacy": {
+    "services": {
+      "anchor": "Sizebay Hizmetleri",
+      "text": "<p>SIZEBAY'ın hizmetleri, e-ticaret platformunda hizmet olarak yazılım (SaaS) biçiminde sunulur; bu, SIZEBAY'in yazılımı kullanmak için e-ticaret lisansı verdiği anlamına gelir.</p>",
+      "title": "SIZEBAY servislerini nasıl erişilebilir yapıyor?"
+    },
+    "clear_data": {
+      "button": {
+        "initial": "Bütün veriyi temizle",
+        "cleared": "Temiz!",
+        "cleaning": "Temizleniyor..."
+      },
+      "title": "Çerezleri temizleme",
+      "tooltip": "Datanız silindi!",
+      "text": "Sizebay tarafından saklanan tüm tarama verilerinizi, önbelleğinizi ve çerezlerinizi temizlemek istiyorsanız aşağıdaki butona tıklayın."
+    },
+    "contact": {
+      "title": "Herhangi bir şüphe durumunda nasıl iletişime geçilir?",
+      "text": "<p>SIZEBAY Politikaları veya bir veri sahibi olarak haklarınızı nasıl kullanabileceğiniz hakkında herhangi bir sorunuz varsa, lütfen SIZEBAY Veri Koruma Görevlisi (DPO) ile iletişime geçin:<br><br>Janderson Roberto Araujo<br>Adres: R. Blumenau, 953 – Sala 402 – América, Joinville – SC, 89204-251 – Brezilya.<br>Telefon: +55 48 4042-0150<br>E-posta: <a href='mailto:privacy@sizebay.com' target='_blank'>privacy@sizebay.com</a></p><br><a href='https://sizebay.com/pt/legal/' target='_blank'><strong>Bkz. daha fazla politika</strong></a>"
+    },
+    "data_protection": {
+      "anchor": "Veri Korunması",
+      "title": "SIZEBAY verilerini nasıl korur?",
+      "text": "<p>SIZEBAY müşterilerinin, kullanıcılarının ve ziyaretçilerinin bilgilerinin gizliliğini ve güvenliğini son derece önemser; bu nedenle, Şifreleme ve Güvenlik Duvarı teknolojisini kullanır ve verilerinizin ve bilgilerinizin korunmasını sağlamak için elinden gelen her şeyi yapar.</p><p>Bunun için kullandığınız tarayıcıda saklanan çerezleri düzenli aralıklarla temizlemenizi öneririz. Toplanan bilgilerin SIZEBAY veri tabanından ve erişilen diğer web sitelerinden silinmesini önlemek için.</p>"
+    },
+    "how_data_is_collected": {
+      "text": "<p>Veri toplama işlemi, kullanıcı Sanal Deneme Kabini ve Uyum & Beden Tablosu hizmetlerini kullanırken veya kullanıcı SIZEBAY uygulamasına veya web sitesine eriştiğinde çerezler aracılığıyla bilgi sağladığında gerçekleştirilir.</p>",
+      "title": "SIZEBAY verileri nasıl toplar?"
+    },
+    "users_obligations": {
+      "anchor": "Kullanıcı Yükümlülükleri",
+      "title": "Kullanıcıların kökenleri nelerdir?",
+      "text": "<p>Uygulama kullanıcıları, SIZEBAY'in hizmetlerini her zaman Politikalara, mevcut mevzuata, gümrüklere, kamu düzenine ve platformu kullanmak ve kabul etmek için gereken zorunlu şartlara saygı duyarak kullanmayı taahhüt eder.</p>"
+    },
+    "data_collected": {
+      "title": "SIZEBAY tarafından toplanılan bilgiler nelerdir?",
+      "text": "<p>SIZEBAY, hizmetlerini sunmak için takma ad (isteğe bağlı), yaş, cinsiyet, boy, kilo, anatomik profil ve vücut ölçüleri gibi profil verilerini toplayabilir. Ayrıca, kullanıcı deneyimini iyileştirmek ve uygulamanın kullanımını kolaylaştırmak için, başka bir ürün satın alımı veya analizi durumunda kullanıcı tarafından önceden bildirilen verilerin tekrar sağlanmasına gerek kalmadan erişim günlüğü verileri ve çerez verileri toplanabilir. /p><p>SIZEBAY ayrıca önerilen bedeni ve gerçekte satın alınan bedeni analiz etmek için e-ticarette yapılan satın alma siparişinden veri toplayabilecektir, bu da giyim beden tavsiyesi için mevcut hizmetleri iyileştirmek için ve ayakkabılar. </p><p>SIZEBAY uygulamasının kullanıcılarının gizliliği ile ilgilendiğini, bu nedenle hizmetlerin, veri sahipleri tespit edilemeden veri toplamanın gerçekleştirileceği şekilde geliştirildiğini açıklıyoruz.</p >",
+      "anchor": "Toplanılmış Veri"
+    },
+    "how_it_works": {
+      "anchor": "Nasıl çalışır?",
+      "title": "Beden tablosu & Uyum ve Sanal Deneme Kabinine erişim nasıl çalışır?",
+      "text": "<p>Hizmetleri kullanmak için kullanıcının SIZEBAY platformuna kaydolması gerekli değildir. Beden ve Beden Tablosuna erişim sağlanacak ve sanal soyunma odasını kullanmak için kullanıcının, giysi ve ayakkabı bedeni tavsiyesi yapmak üzere uygulamaya ilişkin bazı temel bilgileri doldurması gerekmektedir.</p><p>Bir SIZEBAY uygulamasındaki profil, kullanıcının adını veya soyadını kullanmasını gerektirmez ve hatta mahremiyetlerini daha fazla korumak istiyorlarsa hayali verileri bile doldurabilirler.</p><p>Reşit olmayanlar kullanamazlar. ebeveynleri veya vasileri tarafından temsil edilmedikleri ve/veya desteklenmedikleri sürece başvuru.</p>"
+    },
+    "title": "Gizlilik",
+    "overview": {
+      "title": "Kullanım Şartları ve Koşulları ve Gizlilik Politikası ne içindir?",
+      "text": "<p>SIZEBAY KULLANIM ŞARTLARI VE KOŞULLARI şunları düzenlemeyi amaçlamaktadır: (i) SIZEBAY tarafından müşterilerinin e-ticaret platformu aracılığıyla sunulan hizmetlerin kullanımı ve ayrıca (ii) sitede sunulan erişim ve içerik. SIZEBAY web sitesi, (iii) platformun kullanıcıları, ziyaretçileri ve müşterilerinin uygulamayı kullanırken veya SIZEBAY web sitesine erişim sırasındaki yükümlülükleri, (iv) ilgili tarafların sorumluluğundadır.</p><p><strong> GİZLİLİK POLİTİKASI</strong>, SIZEBAY'in uygulamasının ve web sitesinin kullanımı ve erişimi sırasında veri işlemeyi nasıl ele aldığını, sahibinin haklarını ve bunları SIZEBAY ile nasıl kullanabileceğini açıklığa kavuşturmayı amaçlamaktadır.</p><p>Erişim ve Virtual Fitting Room'u ve Fit & Size Tablosunu kullanarak SIZEBAY'in Politikalarını kabul etmiş olursunuz. SIZEBAY Politikalarının tamamına bağlantıdan ulaşabilirsiniz.</p><p><strong>Aşağıda ana bilgileri özetliyoruz:</strong></strong></p>",
+      "anchor": "Gizlilik"
+    },
+    "share_data": {
+      "text": "<p>Veri paylaşımı, daha iyi bir çevrimiçi alışveriş deneyimi sağlamak veya uygulamanın çalışabilmesi amacıyla her zaman gerçekleştirilebilir, böylece müşteriler, iş ortakları, hizmet sağlayıcılar, taşeronlar, giyim ve ayakkabı üreticileri ile gerçekleştirilebilir.</p>",
+      "title": "SIZEBAY verileri kimle paylaşabilir?"
+    }
+  },
+  "product_not_found": {
+    "report_status": {
+      "sending": "Bildiriyor...",
+      "sent": "Teşekkürler",
+      "not_sending": "Bizi bilgilendir",
+      "not_sent": "Bizi bilgilendir"
+    },
+    "description": "Bu ürünü tavsiye etmek için hala yeterli bilgiye sahip değiliz.",
+    "title": "Ah hayır!"
+  },
+  "languages": {
+    "all_langs": {
+      "fr": "Fransızca",
+      "et": "Estonyalı",
+      "es": "İspanyol",
+      "en": "İngilizce",
+      "fi": "Fince",
+      "dk": "Danimarka",
+      "cn": "Çince",
+      "de": "Almanca",
+      "cz": "Çek",
+      "br": "Portekizce",
+      "ar": "Arapça",
+      "bg": "Bulgarca",
+      "mx": "İspanyol",
+      "no": "Norveççe",
+      "nl": "Flemenkçe",
+      "lt": "Litvanyalı",
+      "lv": "Letonca",
+      "jp": "Japonca",
+      "ko": "Koreli",
+      "it": "İtalyan",
+      "hu": "Macarca",
+      "hr": "Hırvat",
+      "id": "Endonezya",
+      "gr": "Yunan",
+      "he": "İbranice",
+      "vn": "Vietnam",
+      "uk": "İngilizce",
+      "th": "Tay dili",
+      "tr": "Türkçe",
+      "sr": "Sırpça",
+      "sv": "İsveççe",
+      "sl": "Slovence",
+      "sk": "Slovak",
+      "ru": "Rusça",
+      "ro": "Romen",
+      "pt": "Portekizce",
+      "pl": "Lehçe",
+      "esAR": "İspanyol",
+      "esCT": "İspanyolca (Kastilya)",
+      "ukr": "Ukrayna",
+      "zh": "Çince"
+    },
+    "select": "Mevcut Diller {{diller}} ",
+    "box": "Dil seçici, {{şuankiDil}} kullanıyorsunuz."
+  },
+  "garment_measurements": {
+    "hip_width": "Kalça Genişliği",
+    "thigh_width": "Uyluk Genişliği",
+    "head_circumference": "Baş Çevresi",
+    "lower_waist_circumference": "Daha Düşük Bel Çevresi",
+    "collar": "Yaka",
+    "waistband_circumference": "Bel çevresi",
+    "hip_circumference": "Kalça Çevresi",
+    "biceps": "Biseps",
+    "waistband_width": "Bel genişliği",
+    "hem": "Hem",
+    "lower_waist_width": "Alt Bel Genişliği",
+    "chest_circumference": "Göğüs Çevresi",
+    "waist_circumference": "Bel Çevresi",
+    "insole_width": "Tabanlık Genişliği",
+    "palm_length": "Avuç İçi Uzunluğu",
+    "shoulder_length": "Omuz Uzunluğu",
+    "length": "Uzunluk",
+    "waist_width": "Bel Genişliği",
+    "chest_width": "Göğüs Genişliği",
+    "wrist_width": "Bilek Genişliği",
+    "insole_length": "Tabanlık Uzunluğu",
+    "calf_width": "Baldır Genişliği",
+    "heel_height": "Topuk Yüksekliği",
+    "front_length": "Ön Uzunluk",
+    "brim": "Kenar",
+    "sleeve": "Kol",
+    "thigh_circumference": "Uyluk Çevresi",
+    "inside_leg": "İç Bacak",
+    "wrist_circumference": "Bilek Çevresi",
+    "high_waist_circumference": "Yüksek Bel Çevresi",
+    "shaft_height": "Mil Yüksekliği",
+    "calf_circumference": "Baldır Çevresi",
+    "full_body_length": "Tam vücut uzunluğu",
+    "back_hook": "Arka Kanca",
+    "platform_height": "Platform Yüksekliği",
+    "circumference": "Çevre",
+    "hook": "Kanca",
+    "lower_length": "Alt Uzunluk",
+    "under_bust": "Göğüs altı",
+    "high_waist_width": "Yüksek Bel Genişliği",
+    "back_length": "Sırt Uzunluğu"
+  },
+  "regions": {
+    "IT": "İtalyanca",
+    "HU": "Macar",
+    "FR": "Fransızca",
+    "MX": "Meksikalı",
+    "CUSTOM": "Uluslararası",
+    "JP": "Japonca",
+    "code": {
+      "CUSTOM": "CUSTOM",
+      "US": "US",
+      "UK": "UK",
+      "AU": "AU",
+      "IT": "IT",
+      "MEX": "MEX",
+      "JP": "JP",
+      "FR": "FR",
+      "EU": "EU",
+      "CN": "CN",
+      "BR": "BR",
+      "DE": "DE"
+    },
+    "ES": "İspanya",
+    "EU": "Avrupalı",
+    "DE": "Almanca",
+    "CN": "Çince",
+    "AU": "Avustralyalı",
+    "BR": "Brezilyalı",
+    "region": "Bölge",
+    "other": "Bilinmiyor",
+    "mx_marti": "Martı",
+    "PT": "Portekiz PT",
+    "letter-br": "Brezilyalı",
+    "US": "Amerikan",
+    "UK": "İngiliz"
+  },
+  "size_chart": {
+    "subtitle": "Daha fazla beden ve ölçüm görmek için çubuğu kaydır",
+    "title_web": "ölçüm tablosu",
+    "scroll_action": "Kaydır",
+    "subtitle_mobile": "Daha fazla beden ve ölçü görmek için kaydırın",
+    "returns_link": "Geri iade politikası ile alakalı daha fazlasını gör.",
+    "returns": "Hala emin değil misin? Merak etme, ilk <strong> iade ücretsiz.</strong>",
+    "title_accessory": "Bu aksesuar için beden tablosu",
+    "title": "Bir beden seçin ve ölçüleri kontrol edin",
+    "instruction_measure": "Kendinizi nasıl ölçeceğinizle ilgili materyalimize bakın ve ölçümlerinizi bu tabloyla karşılaştırın.",
+    "title_mobile": "Beden ölçülerini bu tabloyla karşılaştır. Aşağıdaki sütun başlıklarının her birinin üzerine gelin ve vücudunuzu ölçmenin en iyi yolunu bulun."
+  },
+  "generics": {
+    "disable": "Etkisiz",
+    "less_than_year": "1 yıl",
+    "profile_tooltip": "Buraya tıklayarak yeni ölçü yaratabilirsiniz. ",
+    "weight": "Ağırlık",
+    "age": "Yaş",
+    "accessibility": "ERİŞİLEBİLİRLİK",
+    "language": "Dil",
+    "years": "Yıllar",
+    "female": "Kadın",
+    "size_fit": "Boyut",
+    "no_name": "İsimsiz",
+    "pronoun_female": "Benim",
+    "year": "Yıl",
+    "suffix_male": "Senin",
+    "months": "Aylar",
+    "size_chart": "Boyut tablosu",
+    "chart": "Beden Tablosu",
+    "closeVfr": "Sanal Deneme Kabinini kapat",
+    "about": "Sizebay Hakkında",
+    "see_how_to_measure": "Nasıl ölçüleceğini görün",
+    "kg": "Kilogramlar",
+    "assistive_mode": "{{durum}} yardımcı mod",
+    "suffix_female": "Senin",
+    "switcher": {
+      "title_chart": "Ölçüler"
+    },
+    "lb": "Ağırlıklar",
+    "how_to_measure": "Nasıl ölçüleceğini görün",
+    "unavailable": "Metin çevirisi için gerekli metni belirtmediniz. Lütfen çevirmek istediğiniz İngilizce metni sağlayın.",
+    "other_profiles": "Diğer profiller",
+    "privacy": "Gizlilik",
+    "ft": "İnçler",
+    "pronoun_male": "Benim",
+    "got_it": "Anladım",
+    "enable": "Etkin",
+    "cm": "SANTİMETRELER",
+    "height": "Uzunluk",
+    "male_singular": "erkek",
+    "uninformed": "Bilgilendirilmemiş",
+    "female_singular": "kadın",
+    "profile": {
+      "title": "Kullanıcı profili"
+    },
+    "male": "Erkek",
+    "confirm_edit": "OK"
+  },
+  "privacy_v2": {
+    "overview": {
+      "text": "<p>SİZEBAY<strong> tarafından geliştirilen çözümlerin kullanımını düzenleyen Politikaları daha iyi anlayabilmeniz için bu kısa özeti sizler için hazırladık. Bu genel bakış, Politikaların tüm içeriğinin yerine geçmez, bu nedenle her belgeyi dikkatlice okumanızı öneririz.</strong></p> <p>SIZEBAY<strong> </strong>KULLANIM ŞARTLARI VE KOŞULLARI<strong> aşağıdakileri düzenlemeyi amaçlamaktadır: (i) </strong>SIZEBAY<strong> tarafından </strong>{{ tenantName }} ({{ pageTenant }})<a href={{ pageTenant }} target=_blank> e-ticaret platformu aracılığıyla sağlanan hizmetler ve ayrıca (ii) </a>SIZEBAY<strong> web sitesinde sunulan erişim ve içerik, ( iii) platformun ve web sitesinin kullanıcılarının, ziyaretçilerinin ve müşterilerinin uygulamayı kullanırken veya </strong>SİZEBAY<strong> web sitesine erişirken yükümlülükleri, (iv) ilgili tarafların sorumluluğu.</strong>{{ pagePrivacyTenant }}</p>A <p>GİZLİLİK POLİTİKASI <strong>, bunun nasıl gerçekleştirileceğini açıklığa kavuşturmayı amaçlamaktadır. </strong>SİZEBAY <strong>, uygulamasının ve web sitesinin kullanımı ve erişim sırasında verileri işler, ayrıca sahiplerinin hakları ve bunları </strong>SİZEBAY <strong> ile nasıl kullanacakları açıklanır.</strong>",
+      "title": "genel bakış"
+    },
+    "clear_data": {
+      "text": "Sizebay tarafından saklanan tüm göz atma verilerinizi, önbelleğinizi ve çerezlerinizi temizleyin",
+      "button": {
+        "initial": "çerezleri temizlemek"
+      }
+    },
+    "person": {
+      "first": {
+        "name": "Marcelo Bastos",
+        "info": "<li>Avrupa Birliği</li> <li>privacy@sizebay.com</li>"
+      },
+      "second": {
+        "name": "Janderson Roberto Araujo",
+        "info": "<li>Diğer konumlar</li> <li>privacy@sizebay.com</li>"
+      }
+    },
+    "services": {
+      "title": "SİZEBAY hizmetlerini nasıl sağlıyor?",
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/computer-face.svg /><p> <strong>SIZEBAY</strong> hizmetleri, e-ticaret platformunda hizmet olarak yazılım (SaaS) biçiminde mevcuttur; bu, <strong>SIZEBAY</strong>'ın e-ticarete yazılımı kullanma lisansı verdiği anlamına gelir.</p></span> <div><img src=https://static.sizebay.technology/assets/icons/computer-face.svg /></div>"
+    },
+    "contact": {
+      "text": "<p>SIZEBAY<strong> Politikaları veya veri sahibi olarak haklarınızı nasıl kullanabileceğinize ilişkin herhangi bir sorunuz varsa, lütfen </strong>SIZEBAY<strong> Veri Koruma Görevlisi (VPO) ile iletişime geçin:</strong>",
+      "title": "Şüphe durumunda nasıl iletişime geçilir?"
+    },
+    "data_collected": {
+      "title": "SIZEBAY tarafından hangi veriler toplanıyor?",
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/cookies.svg /><p> <strong>SİZEBAY</strong> hizmetlerini sunabilmek için kullanıcı adı (isteğe bağlı), yaş, cinsiyet, boy, kilo, anatomik profil ve vücut ölçüleri gibi profil verilerini toplayabilir. Ayrıca, kullanıcı deneyimini iyileştirmek ve uygulamanın kullanımını kolaylaştırmak amacıyla, kullanıcının bir sonraki satın alma veya ürün analizinde önceden bildirdiği verileri tekrar sağlamaya gerek kalmadan erişim günlüğü verileri ve çerezler toplanabilir. .</p> </span><span><img src=https://static.sizebay.technology/assets/icons/bag.svg /><p> <strong>SİZEBAY</strong> e-ticaret üzerinden verilen satınalma siparişinden de tavsiye edilen beden ile fiilen satın alınan beden arasında analiz yapmak amacıyla beden önerme hizmetlerini geliştirmek amacıyla veri toplayabilir. giysi ve ayakkabı parçaları.</p></span><span><img src=https://static.sizebay.technology/assets/icons/anonymous-person.svg /><p> <strong>SIZEBAY</strong> uygulamasının kullanıcılarının gizliliğiyle ilgilendiğini açıklığa kavuşturuyoruz, bu nedenle hizmetler, kimliği tespit edilemeyecek şekilde veri toplanacak şekilde geliştirilmiştir. sahiplerin verileri.</p></span><div><img src=https://static.sizebay.technology/assets/icons/cookies.svg /> <img src=https://static.sizebay.technology/assets/icons/bag.svg /> <img src=https://static.sizebay.technology/assets/icons/anonymous-person.svg /></div>"
+    },
+    "how_it_works": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/mannequin.svg /><p> Hizmetleri kullanmak için kullanıcının <strong>SIZEBAY</strong> platformuna kaydolması gerekli değildir. Ölçüm tablosuna erişim her zaman mevcut olacaktır. Sanal Giydirme Odası'nı kullanmak için, kullanıcının bazı temel bilgileri doldurması gerekir, böylece uygulama giysi ve ayakkabı bedenlerini önerebilir.</p></span><span><img src=https://static.sizebay.technology/assets/icons/anonymous.svg /><p> <strong>SIZEBAY</strong> uygulamasında bir profil oluşturmak, kullanıcının sizin bilgilerinizi kullanmasını gerektirmez. ad veya soyad ve hatta gizliliğinizi daha fazla korumakla ilgileniyorsanız hayali verilerle doldurabilirsiniz.</p></span><span><img src=https://static.sizebay.technology/assets/icons/persons.svg /><p> Reşit olmayanlar, ebeveynleri tarafından temsil edilmedikçe ve/veya yardım edilmedikçe uygulamayı kullanamazlar. veliler.</p></span><div><img src=https://static.sizebay.technology/assets/icons/mannequin.svg /><img src=https://static.sizebay.technology/assets/icons/anonymous.svg /><img src=https://static.sizebay.technology/assets/icons/persons.svg />",
+      "title": "Sanal Prova Odası ve Sanal Masa hizmetlerine erişim nasıl çalışır?"
+    },
+    "share_data": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/share.svg /><p> Veri paylaşımı her zaman daha iyi bir online alışveriş deneyimi yaşatmak veya uygulamanın çalışmasını sağlamak amacıyla yapılabilir, böylece müşteriler ve tedarikçiler ile gerçekleştirilebilir.</p></span><div><img src=https://static.sizebay.technology/assets/icons/share.svg /></div>",
+      "title": "SİZEBAY kimlerle veri paylaşabilir?"
+    },
+    "actions": {
+      "terms": {
+        "content": "<li><a href=https://home.sizebay.com/{{lang}}/legal/conditions-of-use target=_blank>Kullanım koşulları</a></li><li><a href=https://home.sizebay.com/{{lang}}/legal/privacy target=_blank>Gizlilik Politikası</a></li><li><a href=https://home.sizebay.com/{{lang}}/legal/cookies-policy target=_blank>Çerez Politikası</a></li>",
+        "conditions-use": "Kullanım koşulları",
+        "privacy": "Gizlilik Politikası",
+        "cookies": "Çerez politikası",
+        "title": "şartlar"
+      },
+      "statements": {
+        "gdpr": "GDPR Uyumluluğu",
+        "title": "bildirimler",
+        "lgpd": "LGPD Uyumluluğu",
+        "content": "<li><a href=https://home.sizebay.com/{{lang}}/legal/gdpr target=_blank >GDPR Uyumluluğu</a></li><li><a href=https: / /home.sizebay.com/{{lang}}/legal/lgpd target=_blank >LGPD Uyumluluğu</a></li><li><a href=https://home.sizebay.com/{ {lang }}/legal/ccpa target=_blank >CCPA Uyumluluğu</a></li><li><a href=https://sizebay.com/{{lang}}/legal/pipl target=_blank >PIPL Uyumluluğu </a></li>",
+        "pipl": "PIPL Uyumluluğu",
+        "ccpa": "CCPA Uyumluluğu"
+      },
+      "title": "Şartlar sayfalarımıza erişin",
+      "redirect_privacy": {
+        "text": "Sizi {{ tenantName }} Gizlilik sayfasına yönlendirmek için burayı tıklayın"
+      }
+    },
+    "how_data_is_collected": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/computer-hanger.svg /><p>Veri toplama, kullanıcının Virtua Tesisatçı ve Ölçü Tablosu hizmetlerini kullanırken bilgi vermesi veya çerezler aracılığıyla <strong>SİZEBAY</strong> uygulamasına veya web sitesine girmesiyle gerçekleşir. kullanıcı tarafından bir sonraki satın alma veya ürün analizinde zaten bildirilen veriler yeniden.</p></span><div><img src=https://static.sizebay.technology/assets/icons/computer-hanger.svg /></div>",
+      "title": "SIZEBAY verileri nasıl topluyor?"
+    },
+    "users_obligations": {
+      "title": "Kullanıcının yükümlülükleri nelerdir?",
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/obligations.svg /><p> Uygulama kullanıcıları, Politikalara, yürürlükteki mevzuata, örf ve adetlere, kamu düzenine ve platformun kullanımı ve kullanımının kabulü için talep edilen zorunlu şartlara her zaman saygı duyarak ve gözeterek <strong>SİZEBAY</strong> hizmetlerini kullanmayı taahhüt eder. .</p></span><div><img src=https://static.sizebay.technology/assets/icons/obligations.svg /></div>"
+    },
+    "data_protection": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/security.svg /><p> <strong>SİZEBAY</strong> müşterilerinin, kullanıcılarının ve ziyaretçilerinin bilgilerinin gizliliğine ve güvenliğine son derece önem vermektedir. Bu nedenle Şifreleme ve Güvenlik Duvarı teknolojisini kullanır ve verilerinizin ve bilgilerinizin korunmasını garanti etmek için elinden gelen her şeyi yapar.</p></span><span><img src=https://static.sizebay.technology/assets/icons/http.svg /><p> Önlemek için tarayıcınızda depolanan çerezleri periyodik olarak temizlemenizi öneririz. toplanan bilgilerin <strong>SIZEBAY</strong> veri tabanından ve erişilen diğer sitelerden kaldırılması.</p></span><div><img src=https://static.sizebay.technology/assets/icons/security.svg /> <img src=https://static.sizebay.technology/assets/icons/http.svg /></div>",
+      "title": "SIZEBAY verilerinizi nasıl koruyor?"
+    }
+  },
+  "garment_measures_info": {
+    "shaft_height": "Topuktan ayakkabı gövdesinin tepesine kadar ölçün.",
+    "shoulder_length": "Giysinin arka kısmında bir kol dikişinden diğerine olan genişlik.",
+    "full_body_length": "Tam boy bir parçanın üst dikişinden alt etek ucuna kadar ölçün.",
+    "hem": "Parçanın alt kısmının genişliği.",
+    "back_length": "Yaka kısmından üst parçanın eteğine kadar, arkadan ölçün.",
+    "lower_waist_width": "Düşük bel giysinin bel bandı genişliği.",
+    "hip_circumference": "Bel kıyafetin genişliği, bel bandının yaklaşık 20 cm altından itibaren ikiyle çarpılır.",
+    "palm_length": "Bilekten orta parmağın ucuna kadar ölçün.",
+    "calf_circumference": "Genellikle baldırın en geniş noktasında, bot şaftının üst kısmının çevresinin ölçülmesi.",
+    "head_circumference": "Başın oturduğu şapkanın iç kısmını ölçün.",
+    "sleeve": "Kolun başladığı iç dikişten manşetin sonuna kadar ölçün.",
+    "waist_width": "Üst kısmın en dar bölümünün genişliği, koltuk altları ile etek ucu arasındadır.",
+    "thigh_width": "Uyluğun en geniş kısmının genişliği.",
+    "waistband_circumference": "Giysinin üst açıklığının ölçümü.",
+    "circumference": "Genellikle genişliği 2 ile çarparak bir parçanın etrafını ölçün.",
+    "lower_waist_circumference": "Giysinin genişliği, doğal belin hemen altında, ikiyle çarpılır.",
+    "high_waist_width": "Yüksek belli giysinin bel bandının genişliği.",
+    "chest_circumference": "Üst giysinin genişliğinin bir taraftan diğerine, koltuk altının hemen altından ölçülmesi ve ikiyle çarpılması.",
+    "waist_circumference": "Giysinin en dar kısmının genişliği iki ile çarpılır.",
+    "front_length": "Yaka kısmından üst parçanın etek ucuna kadar, önden ölçün.",
+    "lower_length": "Kıyafetin kenarından kemerden eteğe kadar ölçün.",
+    "wrist_circumference": "Manşet açıklığının bileğe oturduğu yerin çevresinin ölçülmesi.",
+    "heel_height": "Zıplamanın tabanından en yüksek noktaya kadar ölçün.",
+    "wrist_width": "Parçanın genişliğini ayarlayın.",
+    "hook": "Bel bandının üst kısmından ağ dikişine kadar ölçün.",
+    "thigh_circumference": "Giysinin ağ kısmının hemen altındaki en geniş uyluk kısmının ölçüsü.",
+    "platform_height": "Ayakkabının ön tabanından platformun üst kısmına kadar ölçün.",
+    "biceps": "Kol genişliği, koltuk altının yaklaşık 2.5 cm aşağısında.",
+    "insole_width": "Tabanın en geniş kısmını ölçün.",
+    "brim": "Tabanın ucundan şapka kenarının ucuna kadar ölçün.",
+    "high_waist_circumference": "Yüksek bel giysinin bel bandı etrafını ölçün.",
+    "hip_width": "Belin 20 cm aşağısındaki parçanın genişliği.",
+    "length": "Parçanın üst dikişinden alt etek ucuna kadar ölçün.",
+    "chest_width": "Üst parçanın genişliğini, bir taraftan diğerine, koltuk altlarının hemen altından ölçün.",
+    "calf_width": "Çizme şaftının genişliğinin baldır yüksekliğinde ölçülmesi.",
+    "collar": "Bluz yakasının genişliği, boynun tabanı etrafında ölçülür.",
+    "waistband_width": "Alt parça bel bandı genişliği.",
+    "back_hook": "Kıyafetin arkasında bel bandından ağ dikişine kadar ölçün.",
+    "insole_length": "Tabanın topuk ucundan parmak ucuna kadar ölçün.",
+    "under_bust": "Üst giysinin genişliğinin, bir taraftan diğerine, göğsün hemen altından ölçülmesi ve iki ile çarpılması.",
+    "inside_leg": "Kasık dikişinden pantolon paçasına kadar ölçün"
+  },
+  "error": {
+    "close": "Deneme kabininden çık",
+    "title": "Oops, birşeyler yanlış gitti!",
+    "options": "Profili yeniden başlatarak veya daha sonra deneyerek bu ürünü tekrar deneyebilirsin.",
+    "restart": "Profili yeniden başlat",
+    "description": "Merak etme, sorunun tekrarlamasını önlemek için çoktan incelemeye başladık..."
+  },
+  "recommendation": {
+    "3d_feel": {
+      "lanes": {
+        "large": "çok gevşek",
+        "ideal": "ideal",
+        "slightly_loose": "hafif bol",
+        "loose": "gevşek",
+        "slightly_fit": "Hafif dar",
+        "tight": "çok dar",
+        "fit": "dar"
+      },
+      "title_suggested": "En iyi seçenek"
+    },
+    "lanes": {
+      "tight": "KÜÇÜK",
+      "ideal": "İDEAL",
+      "fit": "DAR",
+      "looser": "Gevşek",
+      "large": "GENİŞ",
+      "loose": "BOL",
+      "tighter": "Daha sıkı"
+    },
+    "title_not_suggested": "önerilmiyor",
+    "measurements": {
+      "title": "ölçümler",
+      "conversion": {
+        "title": "Boyut Dönüşümü"
+      }
+    },
+    "centered_mode": {
+      "controls": {
+        "appearance": "Görünüm",
+        "comfort": "Konfor"
+      },
+      "comfort_map": {
+        "header": "3D görüntüsündeki renkler giysinin vücudunuzda ne kadar sıkı veya bol olacağını gösterir"
+      },
+      "tag_info": "3D vücut simülasyonu, bireysel vücut ölçülerinizi ve gerçeğe uygun ürün uyumunu temsil eder.",
+      "measure_name": "{{measureName}} üzerinde"
+    },
+    "title_suggested": "en iyi seçenek",
+    "height_warning": {
+      "threshold": {
+        "long": "uzun",
+        "short": "kısa"
+      },
+      "message": "{{height}} olanlara karşı çok {{threshold}}"
+    },
+    "shoe": {
+      "insoleLength": "uzunluk",
+      "insoleWidth": "Genişlik"
+    },
+    "subtitle": "Rahatlık seviyelerini aşağıda görebilirsin",
+    "subtitle_shoe": "Senin {{markaAdı}} bedenine {{beden}} göre",
+    "title_also_fits": "Bunlar da uyuyor",
+    "carousel_also_try": "Ayrıca bu bedenleri de dene: "
+  },
+  "product_comparison": {
+    "elements": {
+      "edit": "Düzenle",
+      "foot_format": "Ayak şekli",
+      "category": "Kategori",
+      "brand": "Marka",
+      "size": "Beden"
+    },
+    "title": "Ürün karşılaştırma",
+    "subtitle": "Beden önerisi için kullanılan bilgi"
+  },
+  "warnings": {
+    "age_group": {
+      "age_group": "{{yaşGrubu}} ürün",
+      "limit_reached": "Profil sayısı sınırına ulaştı. Yeni bir profil eklemek için bir profili silin.",
+      "subtitle": "Ürünün yaş aralığı, {{profilAdı}} profil yaşı ile uyuşmuyor. Devam etmek için başka bir profil ekle veya seç.",
+      "prompt_message": "({{ yaşGrubu }}) bölümündeki kıyafetleri de denemek ister misiniz?"
+    },
+    "we_need_more_measures": {
+      "subtitle": "Ölçüleri hesaplayamadık. Lütfen aşağıdaki ölçüleri düzenle ya da girilmiş bilgileri düzenlemeye dön.",
+      "title": "Ölçülerini gir"
+    },
+    "unmatched_gender": {
+      "choose_a_profile": "İstenilen profili seç",
+      "select_profile": "Hayır, başka bir profil seç.",
+      "tooltip": "Bu profil seçilen ürün türü için uygun değil.",
+      "title": "Ayrıca bu  {{cinsiyet}} sekmesinden de kıyafet denemek ister misin?",
+      "create_profile": "Hayır, başka bir tane oluştur."
+    }
+  },
+  "brands_list": {
+    "search_question": "Genelde hangi markayı giyersin?",
+    "not_found": {
+      "title": "Bu isimde bir marka bulamadık",
+      "subtitle": "Herhangi bir yazım hatasını düzeltmek için tekrar aramayı deneyin."
+    },
+    "subtitle": "Birkaç soru sonra, en iyi ayakkabı numarasını seçmene yardımcı olacağız.",
+    "title": "Sanal Deneme Kabini",
+    "search_placeholder": "Markanızı buraya yazın ve arayın",
+    "title_restricted": "Ayakkabılarımızı dener misin?"
+  },
+  "age_group": {
+    "adult": "Yetişkin",
+    "kids": "Çocuklar"
+  },
+  "a11y": {
+    "Chart": {
+      "vfr_button": "Sanal deneme odasına gitmek için boşluk tuşuna basın",
+      "step_blocks": {
+        "table": {
+          "measure_description": "Bu {{size}} boyuttur, {{measureName}} üzerinde {{measure}} ölçmelidir"
+        },
+        "switcher": {
+          "instruction_press_space": "Değerleri değiştirmek için boşluk tuşuna basın",
+          "option": "Mevcut değeriniz {{value}}"
+        }
+      },
+      "greeting": "Bu beden tablosudur",
+      "size_system": {
+        "instruction": "Mevcut beden sisteminiz {{sizeSystem}}. Başka bir seçenek seçmek için boşluk tuşuna basın."
+      },
+      "instruction": "Burada ölçülerinizi tablomuzda listelenenlerle karşılaştırabilirsiniz"
+    },
+    "shoe": {
+      "Brands": {
+        "highlighted": {
+          "edit_negative": "Bu markalardan hiçbirini giymiyorsanız boşluk tuşuna basın",
+          "edit_action": "Seçilen marka ile devam etmek için boşluk tuşuna basın",
+          "instruction": "Devam etmek için boşluk tuşuna basın {{brandName}}"
+        },
+        "restricted": {
+          "greeting": "Kısıtlı markalar ayakkabı deneme odasına hoş geldiniz. Zaten kullandığınız ayakkabı markalarından birini seçin"
+        }
+      },
+      "FootSize": {
+        "instruction": "{{ sizeSystem }} boyut sistemini seçmek için boşluk tuşuna basın"
+      },
+      "EditData": {
+        "greeting": "Burada bize gönderdiğiniz ayak ve ayakkabı bilgilerini değiştirebilirsiniz"
+      },
+      "FootFormat": {
+        "instruction": "Bir ayak şekli seç.",
+        "edit_action": "Boşluk tuşuna basarak {{ shoeFormat }} seçin"
+      }
+    },
+    "drawer": {
+      "measurement_tape_header": "Bant",
+      "measurement_tape_handle": "Ölçü bandı. Ölçü bandına erişmek için boşluk tuşuna basın",
+      "close_group_handle": "Grubu kapatmak için boşluk tuşuna basın",
+      "measurement_tape_print_button": "Ölçüm bandını açmak için boşluk tuşuna basın"
+    },
+    "clothes": {
+      "Welcome": {
+        "step_blocks": {
+          "gender": {
+            "question": "Devam etmek için bir cinsiyet seçin. Mevcut cinsiyetiniz {{gender}}"
+          },
+          "age": {
+            "tooltip": "Yaşın önerileri nasıl etkilediği hakkında daha fazla bilgi okumak için boşluk tuşuna basın"
+          },
+          "height": {
+            "question": "Boyunuzu buraya {{measurementSystem}} olarak girin."
+          }
+        }
+      },
+      "ProfilesMenu": {
+        "blocks": {
+          "greeting": "Bunlar sanal deneme odasındaki tüm profilleriniz",
+          "edit": "Burada profilleri eklemeyi veya kaldırmayı seçebilirsiniz"
+        },
+        "chip": {
+          "message": "Boşluk tuşuna basarak {{profileName}} profilinizin daha fazla detayına erişin"
+        }
+      },
+      "Recommendation": {
+        "lane": "{{ size }} bedeni {{ measureName }} üzerinde {{ label }}",
+        "carousel_instruction": "Daha fazla beden seçeneğini burada bulabilirsin"
+      },
+      "measures": {
+        "edit": "Ok tuşlarına basarak {{measureName}} ölçüsünü artırabilir veya azaltabilirsiniz",
+        "read": "{{measureName}} değeriniz {{measureSystem}} cinsinden {{measureValue}} olarak ölçülmüştür"
+      }
+    },
+    "generics": {
+      "welcome": "Sanal deneme odasına hoş geldiniz"
+    }
+  },
+  "welcome": {
+    "age_disclaimer": "Vücut şekli yıllara göre değişir ve bu hesaplamalarımızı etkiler.",
+    "gender_f_kids": "Kadınsı",
+    "title": "Sanal Deneme Kabini",
+    "gender_m_kids": "Eril",
+    "foot_measurement_known": "Zaten ayak ölçümü biliyorum",
+    "gender_m": "Erkek",
+    "shoe_measure": "Ayak uzunluğu",
+    "gender_f": "Kadın",
+    "gender_u": "Uniseks",
+    "subtitle": "Bu ürünü denemek için gerekli detayları gir"
+  },
+  "edit_measures": {
+    "view_less": "Daha az ölçüm görün",
+    "view_all": "Daha fazla ölçüm gör"
+  },
+  "drawers": {
+    "manage": {
+      "actions": {
+        "select": "Seç",
+        "delete": "Sil"
+      },
+      "active_profile": {
+        "details_shoe": "{{markaAdı}} beden {{beden}}",
+        "no_name": "İsim gir",
+        "delete": "Profili sil"
+      },
+      "new_profile": {
+        "input_example": "Örnek: John Smith",
+        "title": "Profil Ekle",
+        "subtitle": "Bu profil için bir isim gir"
+      }
+    },
+    "knobs": {
+      "kids_shoes_tips": "Beden ipuçları",
+      "garment_info": "Giysi ölçüleri",
+      "size_content": "Stil Rehberi",
+      "measurement_tape": "Ölçüm bandı",
+      "product_info": "Vücut ölçüleri",
+      "size_hint_promo": "Promoyu tamamlayın",
+      "size_hint": "Öneri",
+      "sizes_conversions": "Beden Dönüşümleri"
+    },
+    "kids_shoes_title": "Çocukların ayakları ve ayakkabıları hakkında ipuçları ve yönergeler",
+    "kids_shoes_button": "Anladım",
+    "kids_shoes_message": "Çocukların ayakları her 2 ila 4 ayda bir yarım büyür. Bu hızlı büyüme nedeniyle, ayakkabının daha uzun süre dayanması ve hızlı gelişen ayaklarını sıkıştırmaması için çocuk için biraz daha bol bedenler almanızı öneririz."
+  },
+  "landscape_vertical_subtitle": "Kullanmaya başlamak için cihazınızı dik yerleştirin",
+  "coppa_gate": {
+    "close": "Hayır, 13 yaş altıyım",
+    "confirm": "Evet, ben ebeveynim",
+    "prompt_title_months": "{{ ay }} aylık olan çocuğun ebeveyni veya vasisi misiniz?",
+    "message": "Çocuğunuz için bir ürün denemek için bu profili oluşturan bir yetişkinseniz, bu ürünü denemeye devam edebilirsiniz.",
+    "prompt_title_years": "{{ ay }} aylık olan çocuğun ebeveyni veya vasisi misiniz?",
+    "title": "Yaş doğrulama"
+  },
+  "fetching": {
+    "subtitle": "İdeal beden tavsiyesini oluşturmak için ölçümleri hesaplıyoruz",
+    "title": "Neredeyse Bitti!",
+    "shoe": {
+      "success": "Hesaplama tamamlandı!",
+      "calculating": "Ölçümlerinizi hesaplama",
+      "analyzing": "Cevaplarınızı analiz etme"
+    }
+  },
+  "landscape_subtitle": "Başlamak için telefonunu dik tut",
+  "measurement_tape": {
+    "link_download": {
+      "in": "//static.sizebay.technology/assets/measurement_tape/measurement_tape_in_en.pdf",
+      "cm": "//static.sizebay.technology/assets/measurement_tape/measurement_tape_cm_en.pdf"
+    },
+    "title": "Bant",
+    "message": "Yazdır, kes ve ölçülerini almak için bu bandı kullan.",
+    "print": "ölçüm bandı",
+    "print_mobile": "Mezurayı yazdır",
+    "download": {
+      "file": {
+        "title": "Mezurayı yazdırmak ve kullanmak için rehber",
+        "fold-and-rotate": "Yapıştır ve yönlendir",
+        "how-to-do": "Yazdır:\nYazdırmadan önce, yazıcının bandın boyutlarını küçültmemesi veya büyütmemesi için yazdırma iletişim kutusundaki \"sayfaya sığdır\" seçeneğinin devre dışı bırakıldığından emin olun.\n\nMahsul:\nMakas veya kalem kullanarak, bandın bölümlerini oluşturmak için \"makas\" ile gösterilen tüm sürekli siyah çizgileri kesin.\n\nToplantı:\nTek bir bant birleştirilene kadar noktalı çizgileri birleştirerek uçları (baskıda belirtildiği gibi) katlayın ve döndürün.\n\nKıvrımları düzeltin:\nMontajdan sonra, yapıştırıcı, yapışkan bant veya zımba kullanarak bandın kıvrımlarını sabitleyin."
+      }
+    }
+  },
+  "foot_size": {
+    "select_region": "Bir Bölge seçin:",
+    "not_selected": "Devam etmek için bir boyut seçtiğinizden emin olun",
+    "title": "Ayakkabı numaranız nedir?",
+    "pattern": "{{bölge}} sistem",
+    "subtitle": "Boyutunuzu seçin"
+  },
+  "child_name": {
+    "name": "Ad",
+    "title": "Bize çocuğunuzun adını söyler misiniz?",
+    "subtitle": "bu Deneme Odası yaratmamız için bize yardımcı oluyor"
+  },
+  "size_hint": {
+    "title": "Ayrıca sana uyan bazı ürünler de seçtik",
+    "discount-original-price": "Normal fiyat: <span class='size-hint__discount-original-price discount-description-price'>{{ price }}</span> <span class='size-hint__discount-percentage'>-{{discount }}%</span>",
+    "discount-lowest-price": "İndirimden 30 gün önceki en düşük fiyat: <span class='size-hint__discount-lowest-price discount-description-price'>{{ price }}</span> <span class='size-hint__discount-percentage'>-{{ discount }}%</span>",
+    "title_promo": "Promoyu tamamlayın",
+    "try_now": "Şimdi dene"
+  },
+  "size_tailor": {
+    "action_button": "Senin için özelleştiriyoruz",
+    "title": "Özelleştirilmiş ürün",
+    "description": "Beden ölçülerini gir böylelikle sana uygun olarak özelleştirilmiş ürünü geliştirebiliriz."
+  },
+  "miscellaneous": {
+    "hannaLinks": {
+      "recommendation": "Sonuçlarıma geri dön.",
+      "welcome": "Geri git."
+    }
+  },
+  "measure_shape": {
+    "shape_bigger": "Daha büyük",
+    "shape_smaller": "Daha küçük",
+    "skin_types": {
+      "toggle": "Ten rengini değiştir."
+    },
+    "subtitle": "Bu, ölçümlerinizden elde ettiğimiz yaklaşık vücut şeklidir. Yalnızca gerekirse ayarlayın.",
+    "measure_range": {
+      "1": "Çok daha küçük",
+      "2": "Daha küçük",
+      "3": "Ortalama",
+      "4": "Daha büyük",
+      "5": "Çok daha büyük"
+    },
+    "shape_regular": "Standart",
+    "title": "Beden şeklini ayarla"
+  },
+  "calculating": {
+    "subtitle": "Ölüçleri kontrol et ve gerekliyse değiştir",
+    "circle_title_loading": "Yükleniyor...",
+    "circle_title_completed": "Hazır!",
+    "title": "Hesaplama tamamlandı!"
+  },
+  "brands_grid": {
+    "subtitle": "Genellikle hangi markayı giyersin?",
+    "unique_brand": "Zaten {{ brandName }} ayakkabı giyiyor musunuz?",
+    "search_other_brands": "Başka marka ara"
+  },
+  "modals": {
+    "remove_profile": {
+      "title_alt": "Bu profili silmek istediğinizden emin misiniz?",
+      "title": "{{profilAdı}} silmek mi istiyorsun?",
+      "action": "Profili çıkar",
+      "confirm": "Profili sil"
+    }
+  },
+  "no_recommendation": {
+    "expected_size": "Önerilen beden {{önerilenBeden}}.",
+    "title_shoe": "Maalesef şu an bu model ve bu beden mağazamızda mevcut değil. ",
+    "based_on": "Tekrar denemek için bilgilerinizi düzenleyebilirsiniz.",
+    "calculate_again": "Yeniden hesapla",
+    "title": "Bedeniniz şu anda mevcut değil",
+    "subtitle": "Aşağıdaki ölçülere uygun bir beden bulamadık. Gerekliyse düzenle."
+  },
+  "accessory": {
+    "welcome": {
+      "subtitle": "Bu ürünü denemek için, beden ölçülerini alacağın yönergeyi takip et ve karşılık gelen numaraları gir",
+      "shoe": {
+        "subtitle": "Kendinizi nasıl ölçeceğinize ilişkin rehberliğimizi takip ederek aşağıdan ayak ölçünüzü seçin"
+      }
+    },
+    "bike": {
+      "recommendation": {
+        "title_suggested": "Önerdiğimiz bisiklet boyutu, performansınız ve duruşunuz için en iyisidir. Ne çok uzun ne çok kısa, rahatlıkla bisiklete binebileceksiniz.",
+        "subtitle": "Boy uzunluğunuza uygun olarak",
+        "title_also_fits": "Önerdiğimiz bisiklet boyutu, performansınız ve duruşunuz için en iyisidir. Ne çok uzun ne çok kısa, rahatlıkla bisiklete binebileceksiniz.",
+        "title_not_suggested": "Önerdiğimiz bisiklet boyutu, performansınız ve duruşunuz için en iyisidir. Ne çok uzun ne çok kısa, rahatlıkla bisiklete binebileceksiniz."
+      }
+    },
+    "shoe_size": {
+      "subtitle": "Bu ürünü denemek için ayak uzunluğuna uygun bir beden seç"
+    }
+  },
+  "foot_format": {
+    "formats": {
+      "0": {
+        "description": "Dar ayaklar, ayakkabı yanlarında ekstra boşluğa sahip olma eğilimindedir.",
+        "title": "Dar"
+      },
+      "1": {
+        "title": "Orta",
+        "description": "Orta boy ayaklar genellikle çoğu ayakkabıya iyi uyar."
+      },
+      "2": {
+        "title": "Geniş",
+        "description": "Geniş ayaklar ayakkabı uzunluğuna uyar ancak yanlarda sıkı hissedilir."
+      }
+    },
+    "subtitle": "Ayağınızın genişliğini seçerek uyumunuzu geliştirin.",
+    "title": "Ayak Şekli"
+  },
+  "landscape_warning": {
+    "title": "Sanal Deneme Kabini"
+  },
+  "my_measures": {
+    "title": "Benim ölçülerim",
+    "subtitle": "Ölçüleri gerektiği gibi düzenle."
+  },
+  "subcategory": {
+    "subtitle": "Genellikle giydiğin <strong>{{brandName}}</strong> ayakkabı türünü seç",
+    "title": "Ne tür bir {{categoryName}} giyiyorsun?"
+  },
+  "model": {
+    "title": "Ne tür bir {{composedName}} giyiyorsun?",
+    "subtitle": "Genellikle giydiğin <strong>{{brandName}}</strong> ayakkabının modelini seç"
+  },
+  "landscape_horizontal_subtitle": "Kullanmaya başlamak için cihazınızı yatay olarak yerleştirin",
+  "category": {
+    "subtitle": "Aşağıdaki listeden <strong>{{brandName}}</strong> ayakkabınıza en çok benzeyen bir tür seçin",
+    "title": "Ayakkabınızın türü nedir?"
+  },
+  "header": {
+    "title": "Fit Finder"
+  }
+}

@@ -1,0 +1,952 @@
+{
+  "shoe_size": {
+    "fit_loose": "Labav",
+    "shoe_accessory": {
+      "no_recommendation": {
+        "subtitle": "Nismo mogli pronaći veličinu za dolje navedene mjere. Prilagodite ako je potrebno.",
+        "title": "Nismo pronašli nijednu veličinu"
+      },
+      "all_measures": {
+        "measurements_guide": "Vodič za mjerenja [PDF]",
+        "title": "Kolika je veličina tvojih stopala?"
+      },
+      "info_drawer_subtitle": "Kako bismo pronašli najbolju veličinu cipela, zašto nam ne biste rekli nešto o sebi?"
+    },
+    "recommendation": "Na temelju vaših informacija, ovo je mjerenje vašeg stopala. Prilagodite ako je potrebno",
+    "foot_shape_question": "Kakav je oblik vašeg stopala?",
+    "title": "Koja je duljina vašeg stopala?",
+    "drawer_title": "Koliko su ti dugačka stopala",
+    "subtitle": {
+      "0": "Odaberite veličinu marke {{brandName}} prema duljini vašeg stopala.",
+      "box": {
+        "subtitle": "Stavite list papira na pod uz zid. Stanite s petom na papir i uz zid. Označite vrh svog najdužeg prsta, zatim izmjerite udaljenost.",
+        "title": "Kako pravilno izmjeriti stopalo:"
+      }
+    },
+    "fit_description_ideal": "Postoji <strong>mali prostor</strong> između prstiju i cipele.",
+    "length_example": "Obuj svoj {{brandName}} veliÄine {{size}} i reci nam kako duljina pristaje tvojim stopalima.",
+    "fit_tight": "Udoban",
+    "fit_ideal": "Prilagođen",
+    "open_drawer_button": "Kako se izmjeriti",
+    "fit_description_loose": "Postoji <strong>veliki prostor</strong> između prstiju i cipele.",
+    "shoe_accessory_subtitle": "Odaberite svoju mjeru stopala u nastavku, slijedeći naše upute o tome kako se izmjeriti.",
+    "drawer_button": "Razumijem",
+    "fit_description_tight": "Cipela dodiruje vaše prste <strong>bez prostora</strong>.",
+    "length_question": "Kako vam pristaje cipela po dužini?"
+  },
+  "footer": {
+    "add_to_cart_mobile_2": "Dodaj u košaricu",
+    "confirm": "Potvrdi",
+    "none_of_those": "Nijedno od toga",
+    "save_measures": "Spremi mjere",
+    "view_recommendation": "Vidi prijedlog",
+    "print_measurement_tape": "Tiskaj mjeru trake",
+    "virtual_fitting_room": "Virtualna soba za presvlačenje",
+    "info_box": "Odaberite prilagođenu veličinu ako želite da vaša jakna bude krojena prema vašim mjerama tijela",
+    "yes": "Da",
+    "add_to_cart": "Dodaj u košaricu",
+    "brand_not_found": "Ne mogu pronaći marku",
+    "proceed": "Nastavi",
+    "edit_data": "Uredi podatke",
+    "not_yet": "Ne još",
+    "cancel_alt": "Ne, odustani",
+    "next": "Dalje",
+    "cancel": "Odustani",
+    "by-sizebay": "od Sizebay®",
+    "sure": "Naravno!",
+    "add_profile": "Napravi profil",
+    "create_new_profile": "Stvori novi profil",
+    "restart": "Ponovno započni",
+    "close": "Zatvori",
+    "select_another_profile": "Odaberi drugi profil",
+    "continue_without_brand": "Nisam mogao pronaći marku",
+    "unsure": "Nisam siguran/a",
+    "save": "Spremi",
+    "edit_measures": "Uredi mjere",
+    "proceed_anyway": "Svejedno nastavi",
+    "edit_profile": "Uredi profile",
+    "add_to_cart_mobile": "Kupi",
+    "back": "Prethodno"
+  },
+  "composed_measures": {
+    "welcome": {
+      "link_tooltip": "<b>{{suffix}} {{measureName}} širina.</b>",
+      "item_text": "Moj {{measureName}} širok je {{range}} {{sizeSystem}}",
+      "measures_range_item": "{{initialRange}} do {{finalRange}}",
+      "tooltip_text": "Kliknite da biste odabrali drugu veličinu",
+      "tooltip_instructions": "Kliknite ovdje da biste saznali kako izvršiti mjerenje {{measureName}}",
+      "height": {
+        "item_text": "Ja sam {{range}} {{sizeSystem}} visok/a",
+        "link_tooltip": "<b>koliko ste visoki.</b>",
+        "title": "Koliko ste visoki?",
+        "instructions": "Moramo znati vašu <b>visinu</b> kako bismo vam pokazali moguće preporuke prema njoj"
+      },
+      "title": "Koja je mjera {{suffix}} {{measureName}}?",
+      "instructions": "Koliko je širok {{suffix}} <b>{{measureName}}</b>? Moramo znati veličinu {{suffix}} {{measureName}} kako bismo vam pokazali moguće preporuke prema"
+    },
+    "height": {
+      "title": "Koliko si visok?",
+      "link_tooltip": "pokazati svoju visinu"
+    },
+    "table": {
+      "helper_height": "Ova visina kreće se od {{range}} {{sizeSystem}} visine. Je li ovo mjerenje netočno?",
+      "tooltip_change": "Promijenite ovdje.",
+      "helper": "Ovaj {{measureName}} kreće se od {{range}} {{sizeSystem}} duljine. Je li ovo mjerenje netočno?",
+      "title": "Ovo su moguće veličine za <span>{{range}}</span> {{measureName}}",
+      "vfr_tooltip": "Imate svoje mjere? Zašto ne pokušate otkriti svoju veličinu u Virtualnoj kabini za provjeru?"
+    }
+  },
+  "body_measurements": {
+    "diameter": "PROMJER",
+    "collar": "Ovratnik",
+    "length": "Duljina proizvoda",
+    "centralSeam": "Prednji uspon",
+    "weightChart": "Težina",
+    "width": "Širina",
+    "waistUpper": "Gornji struk",
+    "weight": "Težina",
+    "circumference": "Obujam",
+    "insoleLength": "Duljina stopala",
+    "label1": "VELIČINA (SAD)",
+    "sleve": "Duljina rukava",
+    "waist": "Struk",
+    "chest_m": "Prsa",
+    "chest_f": "Poprsje",
+    "neck": "Vrat",
+    "comfort": "Udobnost",
+    "sleeve": "Ruka",
+    "thigh": "Bedro",
+    "headCircumference": "Glava",
+    "hip": "Kuk",
+    "shoulderWidth": "Ramena",
+    "waistLower": "Donji struk",
+    "wrist": "Zapešće",
+    "palm": "Dlan ruke",
+    "bar": "Porub",
+    "chest": "Prsa / poprsje",
+    "lowerLength": "Duljina donjeg dijela",
+    "finger_circumference": "OPSEG",
+    "insoleWidth": "Širina stopala",
+    "height": "Visina",
+    "ageChart": "Dob",
+    "underBust": "Ispod poprsja",
+    "insideLeg": "Unutarnji šav",
+    "biceps": "Bicepsi",
+    "calf": "List",
+    "fist": "Šaka",
+    "fullBodyLength": "Duljina cijelog tijela"
+  },
+  "measures_info": {
+    "insideLeg": "Izmjerite unutarnju udaljenost noge od pubisa do tabana.",
+    "fullBodyLength": "Izmjerite udaljenost počevši od vrha ramena do poda.",
+    "weightChart": "Izvagajte na uređaju za vaganje i provjerite ovu mjernu tablicu da vidite odgovaraju li brojevi težine.",
+    "waistUpper": "Izmjerite opseg struka iznad pupka.",
+    "insoleLength": "Stavite list papira na pod uz zid. Stanite s petom na papir i uz zid. Označite vrh svog najdužeg prsta, zatim izmjerite udaljenost.",
+    "biceps": "Koristite mjernu traku oko sredine ruke, na najširem dijelu.",
+    "height": "Ovo je jednostavno. To je udaljenost između vrha glave (lubanje) i tla (potplata), mjerena u uspravnom položaju.",
+    "width": "Izmjerite širinu odjeće",
+    "weight": "Izvagajte na uređaju za vaganje i provjerite ovu mjernu tablicu da vidite odgovaraju li brojevi težine.",
+    "sleeve": "Izmjerite udaljenost između ramena i ručnog zgloba držeći ruku blago savijenom. Provucite traku iza lakta i zabilježite mjerenje.",
+    "neck": "Upotrijebite mjernu traku oko opsega vrata, pritom ne držite traku pretijesno oko vrata. Upotrijebite ogledalo kao pomoć pri mjerenju.",
+    "collar": "Izmjerite oko vrata točno iznad ključne kosti, stavljajući jedan prst između trake i vrata.",
+    "chest": "Koristite mjernu traku oko prsnog koša (područje grudi) dok mirno dišete. Primijetite varijacije tijekom disanja i zabilježite najveći pronađeni broj.",
+    "ageChart": "Dob osobe koja će nositi ovaj proizvod.",
+    "circumference": "Izmjerite obujam odjeće",
+    "length_botton": "Početak mjerne trake postavite uz struk, gdje biste nosili hlače ili suknju. Rastegnite traku do duljine potkoljenice kako biste označili mjerenje.",
+    "waist": "Stavite tijelo ispred ogledala i izmjerite opseg točno ispod rebara, malo iznad kukova.",
+    "footLength": "Dok stojite na ravnoj površini, poravnajte leđa sa zidom. Izmjerite duljinu stopala (od pete do prstiju) pomoću ravnala.",
+    "lowerLength": "Ovo je udaljenost između kuka i poda.",
+    "chest_m": "Koristite mjernu traku oko prsnog koša dok mirno dišete. Primijetite varijacije tijekom disanja i zabilježite najveći pronađeni broj.",
+    "chest_f": "Koristite mjernu traku oko prsnog koša (područje grudi) dok mirno dišete. Primijetite varijacije tijekom disanja i zabilježite najveći pronađeni broj.",
+    "palm": "Zabilježite raspon ruke dok postavljate ravnalo na ravnu površinu, savijate ruku i postavljate lijevu stranu dominantne ruke na nultu točku ravnala.",
+    "waistLower": "Izmjerite opseg struka ispod pupka, gdje se obično nosi pojas (na donjem dijelu struka).",
+    "thigh": "Postavite mjernu traku oko najšireg dijela bedra, koji se nalazi odmah ispod dna.",
+    "underBust": "Upotrijebite mjernu traku oko grudi, odmah ispod grudi. Nastavite mirno disati dok uočavate varijacije u mjerenjima i označavate najveći broj.",
+    "bar": "Izmjerite porub odjeće",
+    "insoleWidth": "Izvadite uložak cipele koja dobro pristaje i izmjerite širinu uloška.",
+    "headCircumference": "Izmjerite opseg glave (iznad ušiju) mjernom trakom.",
+    "wrist": "Stavite mjernu traku oko zapešća, točno na mjesto gdje bi sat bio postavljen.",
+    "hip": "Trakom izmjerite \"šire\" područje ispod struka, paralelno s najvišim dijelom gluteusa.",
+    "diameter": "Izmjerite promjer unutarnjeg kruga prstena kojeg nosite na istom prstu na ruci na kojem ćete nositi ovaj proizvod.",
+    "length": "Izmjerite udaljenost između gornjeg dijela trupa i donjeg dijela struka (odmah ispod trbuha).",
+    "fist": "Ocrtajte mjernu traku oko zapešća, točno na mjestu gdje biste nosili sat.",
+    "calf": "Sjednite na stolicu i držite stopalo na tlu, a zatim savijte nogu do 90 stupnjeva. Izmjerite pomoću trake, od podnožja stopala do mjesta gdje se koljeno savija.",
+    "shoulderWidth": "Izmjerite udaljenost između krajeva ramena uz pomoć nekog drugog.",
+    "ring": "Zavežite tanku uzicu oko istog prsta na kojem želite nositi ovaj proizvod, označite spoj uzice i izmjerite duljinu kako biste dobili opseg",
+    "centralSeam": "Izmjerite udaljenost između struka i površine mjernom trakom dok sjedite na ravnoj površini."
+  },
+  "privacy": {
+    "services": {
+      "anchor": "Usluge Sizebay",
+      "text": "Usluge SIZEBAY-a dostupne su na platformi za e-trgovinu u obliku softvera kao usluge (SaaS), što znači da SIZEBAY daje e-trgovini licencu za korištenje softvera.",
+      "title": "Kako SIZEBAY omogućuje dostupnost svojih usluga?"
+    },
+    "clear_data": {
+      "button": {
+        "initial": "Izbriši sve podatke",
+        "cleared": "čisto!",
+        "cleaning": "Čišćenje u tijeku..."
+      },
+      "title": "Brisanje kolačića",
+      "tooltip": "Vaši podaci su obrisani!",
+      "text": "Kliknite gumb ispod ako želite izbrisati sve svoje podatke pregledavanja, predmemoriju i kolačiće koje pohranjuje Sizebay."
+    },
+    "contact": {
+      "title": "U slučaju sumnje, kako stupiti u kontakt?",
+      "text": "Ako imate bilo kakva pitanja o SIZEBAY-evim politikama ili kako možete ostvariti svoja prava kao vlasnik podataka, molimo kontaktirajte SIZEBAY-evog službenika za zaštitu podataka (DPO):\n\nJanderson Roberto Araujo  \nAdresa: R. Blumenau, 953 – Sala 402 – América, Joinville – SC, 89204-251 – Brazil.  \nTelefon: +55 48 4042-0150  \nE-mail: privacy@sizebay.com\n\nPogledajte više politika"
+    },
+    "data_protection": {
+      "anchor": "Zaštita podataka",
+      "title": "Kako SIZEBAY štiti svoje podatke?",
+      "text": "SIZEBAY smatra povjerljivost i sigurnost informacija svojih kupaca, korisnika i posjetitelja izuzetno važnima; stoga koristi tehnologiju enkripcije i vatrozida i učinit će sve što je u njegovoj moći kako bi osigurao zaštitu vaših podataka i informacija. Preporučujemo da povremeno očistite kolačiće pohranjene u pregledniku koji koristite kako biste spriječili brisanje prikupljenih informacija iz SIZEBAY baze podataka, kao i s drugih posjećenih web stranica."
+    },
+    "how_data_is_collected": {
+      "text": "Prikupljanje podataka provodi se kada korisnik pruža informacije prilikom korištenja usluga Virtualne kabine za isprobavanje i Tablice veličina, ili putem kolačića, kada korisnik pristupa aplikaciji ili web stranici SIZEBAY.",
+      "title": "Kako SIZEBAY prikuplja podatke?"
+    },
+    "users_obligations": {
+      "anchor": "Obveze korisnika",
+      "title": "Koje su obveze korisnika?",
+      "text": "Korisnici aplikacije obvezuju se koristiti usluge SIZEBAY-a uvijek poštujući i pridržavajući se Pravila, kao i važećeg zakonodavstva, običaja, javnog reda i obveznih zahtjeva potrebnih za korištenje i prihvaćanje platforme."
+    },
+    "data_collected": {
+      "title": "Koje podatke prikuplja SIZEBAY?",
+      "text": "Kako bi pružio svoje usluge, SIZEBAY može prikupljati podatke profila kao što su nadimak (opcionalno), dob, spol, visina, težina, anatomski profil i tjelesne mjere. Osim toga, mogu se prikupljati podaci o pristupnim zapisnicima i podaci o kolačićima, kako bi se poboljšalo korisničko iskustvo i olakšalo korištenje aplikacije, bez potrebe da se ponovno unose podaci koje je korisnik već dao u slučaju druge kupnje ili analize proizvoda.\n\nSIZEBAY će također moći prikupljati podatke iz narudžbenice napravljene u e-trgovini, kako bi analizirao preporučenu veličinu i stvarno kupljenu veličinu, s ciljem poboljšanja usluga dostupnih za preporuku veličina odjeće i obuće.\n\nPojašnjavamo da je aplikacija SIZEBAY zabrinuta za privatnost svojih korisnika, stoga su usluge razvijene na način da se prikupljanje podataka provodi bez mogućnosti identifikacije vlasnika podataka.",
+      "anchor": "Prikupljeni podaci"
+    },
+    "how_it_works": {
+      "anchor": "Kako to funkcionira?",
+      "title": "Kako funkcionira pristup Virtualnoj prostoriji za probu i Fit & Size Chart?",
+      "text": "Za korištenje usluga nije potrebno da se korisnik registrira na platformi SIZEBAY. Pristup Fit & Size Chart bit će dostupan, a za korištenje virtualne garderobe potrebno je da korisnik unese neke osnovne informacije kako bi aplikacija mogla preporučiti veličinu odjeće i obuće. \n\nKreiranje profila u aplikaciji SIZEBAY ne zahtijeva od korisnika korištenje pravog imena ili prezimena, a moguće je unijeti i fiktivne podatke ako žele dodatno sačuvati svoju privatnost. \n\nMaloljetnici neće moći koristiti aplikaciju osim ako ih ne predstavljaju i/ili im ne pomažu njihovi roditelji ili staratelji."
+    },
+    "title": "Privatnost",
+    "overview": {
+      "title": "Koja je svrha Uvjeta korištenja i Pravila privatnosti?",
+      "text": "Uvjeti i odredbe korištenja SIZEBAY-a namijenjeni su reguliranju: (i) korištenja usluga koje pruža SIZEBAY putem platforme za e-trgovinu svojih kupaca, kao i (ii) pristupa i sadržaja dostupnog na web stranici SIZEBAY-a, (iii) obveza korisnika, posjetitelja i kupaca platforme i web stranice prilikom korištenja aplikacije ili pristupa web stranici SIZEBAY-a, (iv) odgovornosti uključenih strana.\n\nPolitika privatnosti ima za cilj pojasniti kako SIZEBAY postupa s obradom podataka tijekom korištenja i pristupa svojoj aplikaciji i web stranici, prava nositelja i kako ih mogu ostvariti sa SIZEBAY-em također su pojašnjeni.\n\nPrilikom pristupa i korištenja Virtualne garderobe i Fit & Size Chart-a, slažete se s politikama SIZEBAY-a. Možete pristupiti cijelim politikama SIZEBAY-a putem poveznice.\n\nU nastavku vam sažimamo glavne informacije:",
+      "anchor": "Privatnost"
+    },
+    "share_data": {
+      "text": "Dijeljenje podataka uvijek se može provoditi s ciljem omogućavanja boljeg online iskustva kupovine ili kako bi aplikacija mogla funkcionirati, stoga se može provoditi s: kupcima, poslovnim partnerima, pružateljima usluga, podizvođačima, proizvođačima odjeće i obuće.",
+      "title": "S kime SIZEBAY može dijeliti podatke?"
+    }
+  },
+  "product_not_found": {
+    "report_status": {
+      "sending": "Obavještavanje...",
+      "sent": "Hvala!",
+      "not_sending": "Obavijestite nas",
+      "not_sent": "Obavijestite nas"
+    },
+    "description": "Još uvijek nemamo dovoljno informacija o ovom proizvodu da bismo ga preporučili.",
+    "title": "O ne!"
+  },
+  "languages": {
+    "all_langs": {
+      "fr": "francuski",
+      "et": "estonski",
+      "es": "španjolski",
+      "en": "Engleski",
+      "fi": "finski",
+      "dk": "danski",
+      "cn": "Kineski",
+      "de": "njemački",
+      "cz": "češki",
+      "br": "Portugalski",
+      "ar": "arapski",
+      "bg": "bugarski",
+      "mx": "španjolski",
+      "no": "norveški",
+      "nl": "nizozemski",
+      "lt": "litvanski",
+      "lv": "latvijski",
+      "jp": "japanski",
+      "ko": "korejski",
+      "it": "talijanski",
+      "hu": "mađarski",
+      "hr": "Hrvatski",
+      "id": "Indonezija",
+      "gr": "grčki",
+      "he": "Hebrejski",
+      "vn": "vijetnamski",
+      "uk": "Engleski",
+      "th": "tajlandski",
+      "tr": "turski",
+      "sr": "srpski",
+      "sv": "švedski",
+      "sl": "slovenski",
+      "sk": "slovački",
+      "ru": "ruski",
+      "ro": "rumunjski",
+      "pt": "Portugalski",
+      "pl": "Polirati",
+      "esAR": "španjolski",
+      "esCT": "španjolski (kastiljanski)",
+      "ukr": "ukrajinski",
+      "zh": "kineski"
+    },
+    "select": "Dostupni jezici: {{langs}}",
+    "box": "Odabir jezika, trenutačno koristite {{currentLang}} jezik"
+  },
+  "garment_measurements": {
+    "hip_width": "Širina bokova",
+    "thigh_width": "Širina bedra",
+    "head_circumference": "Opseg glave",
+    "lower_waist_circumference": "Opseg donjeg dijela struka",
+    "collar": "Ovratnik",
+    "waistband_circumference": "Opseg struka",
+    "hip_circumference": "Opseg bokova",
+    "biceps": "Biceps",
+    "waistband_width": "Širina pojasa",
+    "hem": "Hem",
+    "lower_waist_width": "Širina donjeg dijela struka",
+    "chest_circumference": "Opseg prsa",
+    "waist_circumference": "Opseg struka",
+    "insole_width": "Širina uloška",
+    "palm_length": "Duljina dlana",
+    "shoulder_length": "Dužina do ramena",
+    "length": "Duljina",
+    "waist_width": "Širina struka",
+    "chest_width": "Širina prsa",
+    "wrist_width": "Širina zapešća",
+    "insole_length": "Duljina uloška",
+    "calf_width": "Širina lista",
+    "heel_height": "Visina potpetice",
+    "front_length": "Prednja duljina",
+    "brim": "Obod",
+    "sleeve": "Rukav",
+    "thigh_circumference": "Opseg bedra",
+    "inside_leg": "Unutarnja nogavica",
+    "wrist_circumference": "Opseg zapešća",
+    "high_waist_circumference": "Visoki opseg struka",
+    "shaft_height": "Visina osovine",
+    "calf_circumference": "Opseg lista",
+    "full_body_length": "Cijela dužina tijela",
+    "back_hook": "Stražnja kuka",
+    "platform_height": "Visina platforme",
+    "circumference": "Opseg",
+    "hook": "Udica",
+    "lower_length": "Donja duljina",
+    "under_bust": "Ispod grudi",
+    "high_waist_width": "Visoka širina struka",
+    "back_length": "Duljina leđa"
+  },
+  "regions": {
+    "IT": "Talijanski",
+    "HU": "Mađarski",
+    "FR": "Francuski",
+    "MX": "Meksički",
+    "CUSTOM": "Svjetski",
+    "JP": "Japanski",
+    "code": {
+      "CUSTOM": "CUSTOM",
+      "US": "US",
+      "UK": "UK",
+      "AU": "AU",
+      "IT": "IT",
+      "MEX": "MEX",
+      "JP": "JP",
+      "FR": "FR",
+      "EU": "EU",
+      "CN": "CN",
+      "BR": "BR",
+      "DE": "DE"
+    },
+    "ES": "Španjolska",
+    "EU": "Europski",
+    "DE": "Njemački",
+    "CN": "Kineski",
+    "AU": "Australski",
+    "BR": "Brazilski",
+    "region": "Regija",
+    "other": "Nepoznati",
+    "mx_marti": "Marti",
+    "PT": "Portugalski PT",
+    "letter-br": "Brazilski",
+    "US": "Američki",
+    "UK": "Britanski"
+  },
+  "size_chart": {
+    "subtitle": "Pomaknite trake za pomicanje da vidite više mjera i veličina",
+    "title_web": "Usporedite svoje mjere s ovom tablicom.",
+    "scroll_action": "Povucite",
+    "subtitle_mobile": "Povucite da biste vidjeli više mjera i veličina",
+    "returns_link": "Saznajte više o politici povrata.",
+    "returns": "Još uvijek niste sigurni? Ne brinite, prvi <strong>povrat je besplatan.</strong>",
+    "title_accessory": "Tablica veličina za ovaj dodatak",
+    "title": "Odaberite veličinu i provjerite mjere",
+    "instruction_measure": "Pogledajte naš materijal o tome kako se izmjeriti i usporedite svoje mjere s ovom tablicom.",
+    "title_mobile": "Usporedite svoje tjelesne mjere s ovom tablicom. Zadržite pokazivač iznad svakog od naslova stupaca u nastavku i saznajte najbolji način za mjerenje svog tijela."
+  },
+  "generics": {
+    "disable": "Onemogući",
+    "less_than_year": "< 1 godina",
+    "profile_tooltip": "Možete kreirati nove mjerne profile klikom ovdje",
+    "weight": "Težina",
+    "age": "Dob",
+    "accessibility": "DOSTUPNOST",
+    "language": "Jezik",
+    "years": "Godine",
+    "female": "Žensko",
+    "size_fit": "Veličina",
+    "no_name": "Bez imena",
+    "pronoun_female": "Moj",
+    "year": "Godina",
+    "suffix_male": "vaš",
+    "months": "Mjeseci",
+    "size_chart": "Tablica veličina",
+    "chart": "Tablica veličina",
+    "closeVfr": "Zatvorite virtualnu sobu za presvlačenje",
+    "about": "O Sizebayu",
+    "see_how_to_measure": "Pogledajte kako mjeriti",
+    "kg": "Kilograma",
+    "assistive_mode": "{{status}} pomoćni način rada",
+    "suffix_female": "vaš",
+    "switcher": {
+      "title_chart": "Mjere:"
+    },
+    "lb": "Kilogrami (pounds)",
+    "how_to_measure": "Vidi kako izmjeriti",
+    "unavailable": "--",
+    "other_profiles": "Ostali profili",
+    "privacy": "Privatnost",
+    "ft": "Inči",
+    "pronoun_male": "Moj",
+    "got_it": "Shvaćam",
+    "enable": "Omogući",
+    "cm": "Centimetri",
+    "height": "Visina",
+    "male_singular": "muško",
+    "uninformed": "Nije informiran",
+    "female_singular": "žensko",
+    "profile": {
+      "title": "Korisnički profil"
+    },
+    "male": "Muško",
+    "confirm_edit": "OK"
+  },
+  "privacy_v2": {
+    "overview": {
+      "text": "Kako biste mogli bolje razumjeti Pravila koja reguliraju korištenje rješenja koje je razvio<strong> SIZEBAY </strong>, pripremili smo za vas ovaj kratki sažetak. Ovaj pregled ne zamjenjuje cijeli sadržaj Pravila, stoga preporučujemo da nakon čitanja ovoga pažljivo pročitate svaki dokument.</p><p>The <strong>ODREDBE I UVJETI KORIŠTENJA</strong> <strong>SIZEBAY</strong> namijenjene su reguliranju: (i) korištenje usluga koje pruža <strong>SIZEBAY</strong>, putem platforme e-trgovine <a href={{ pageTenant }} target=_blank>{{ tenantName }} ({{ pageTenant }} )</a>, te također (ii) pristupa i sadržaja dostupnom na web stranici <strong>SIZEBAY</strong>, (iii) obveza korisnika, posjetitelja i kupaca na platformi i web stranici tijekom korištenja aplikacije ili pristupa web stranici <strong>SIZEBAY</strong>, (iv) odgovornosti uključenih strana.</p>{{ pagePrivacyTenant }}<p>A <strong>PRAVILA PRIVATNOSTI </strong> imaju za cilj razjasniti kako <strong> SIZEBAY </strong> obrađuje podatke tijekom korištenja i pristupa svojoj aplikaciji i web stranici, prava nositelja su također pojašnjena i kako ih mogu ostvariti s <strong> SIZEBAY </strong>.</ p>",
+      "title": "Pregled"
+    },
+    "clear_data": {
+      "text": "Izbrišite sve podatke o navigaciji, predmemoriju i kolačiće koje je pohranio Sizebay",
+      "button": {
+        "initial": "Očistite sve kolačiće"
+      }
+    },
+    "person": {
+      "first": {
+        "name": "Marcelo Bastos",
+        "info": "<li>Europska unija</li> <li>privacy@sizebay.com</li>"
+      },
+      "second": {
+        "name": "Janderson Roberto Araujo",
+        "info": "<li>Ostale lokacije</li> <li>privacy@sizebay.com</li>"
+      }
+    },
+    "services": {
+      "title": "Kako SIZEBAY pruža svoje usluge?",
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/computer-face.svg /><p> <strong>SIZEBAY</strong> usluge su dostupne na platformi e-trgovine u obliku softvera kao usluge (SaaS), što znači da <strong>SIZEBAY</strong> e-trgovina ima licencu za korištenje softvera.</p></ span> <div><img src=https://static.sizebay.technology/assets/icons/computer-face.svg /></div>"
+    },
+    "contact": {
+      "text": "<p>Ako imate bilo kakvih pitanja o Pravilima <strong>SIZEBAY</strong> ili o tome kako možete ostvariti svoja prava kao nositelj podataka, obratite se službeniku za zaštitu podataka <strong>SIZEBAY</strong> (DPO):",
+      "title": "U slučaju nedoumica, kako kontaktirati?"
+    },
+    "data_collected": {
+      "title": "Koje podatke prikuplja SIZEBAY?",
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/cookies.svg /><p> Kako bi pružio svoje usluge, <strong>SIZEBAY</strong> može prikupljati podatke o profilu, kao što su nadimak (nije obavezno), dob, spol, visina, težina, anatomski profil i tjelesne mjere. Osim toga, mogu se prikupljati podaci iz dnevnika pristupa i kolačići, s ciljem poboljšanja korisničkog iskustva i olakšavanja korištenja aplikacije, bez potrebe za ponovnim pružanjem podataka koje je korisnik već unio prilikom sljedeće kupnje ili analize proizvoda.</p></span><span><img src=https://static.sizebay.technology/assets/icons/bag.svg /><p> <strong>SIZEBAY</strong> također može prikupljati podatke iz narudžbenice zadane na e-trgovini, s ciljem provođenja analize između preporučene veličine i one stvarno kupljene, radi poboljšanja usluge preporuke veličine komada odjeće i obuće.</p></span><span><img src=https://static.sizebay.technology/assets/icons/anonymous-person.svg /><p> Pojašnjavamo da aplikacija <strong>SIZEBAY</strong> brine o privatnosti svojih korisnika, stoga su usluge razvijene na način da se prikupljanje podataka provodi bez mogućnosti identifikacije podataka nositelja.</p></span><div><img src=https://static.sizebay.technology/assets/icons/cookies.svg /> <img src=https://static.sizebay.technology/assets/icons/bag.svg /> <img src=https://static.sizebay.technology/assets/icons/anonymous-person.svg /></div>"
+    },
+    "how_it_works": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/mannequin.svg /><p> Za korištenje usluga nije potrebno da se korisnik registrira na <strong>SIZEBAY</strong> platformi. Pristup mjernoj tablici bit će uvijek dostupan. Za korištenje Virtualne garderobe korisnik mora ispuniti neke osnovne podatke kako bi aplikacija mogla preporučiti veličinu odjeće i obuće.</p></span><span><img src=https://static.sizebay.technology/assets/icons/anonymous.svg /><p> Izrada profila u aplikaciji <strong>SIZEBAY</strong> ne zahtijeva od korisnika korištenje njihovog imena ili prezimena, a dopušta čak i popunjavanje fiktivnim podacima, ako su korisnici zainteresirani za još veću zaštitu vlastite privatnosti.</p></span><span><img src=https://static.sizebay.technology/assets/icons/persons.svg /><p> Maloljetnici ne mogu koristiti aplikaciju, osim ako ih zastupaju i/ili im pomažu roditelji, skrbnici ili staratelji.</p></span><div><img src=https://static.sizebay.technology/assets/icons/mannequin.svg /><img src=https://static.sizebay.technology/assets/icons/anonymous.svg /><img src=https://static.sizebay.technology/assets/icons/persons.svg /></div>",
+      "title": "Kako funkcionira pristup uslugama Virtual Fitting Room i Virtual Table?"
+    },
+    "share_data": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/share.svg /><p> Dijeljenje podataka uvijek se može provoditi s ciljem pružanja boljeg iskustva online kupnje ili omogućavanja rada aplikacije, dakle, može se provoditi s: kupcima i dobavljačima.</p></span><div><img src=https://static.sizebay.technology/assets/icons/share.svg /></div>",
+      "title": "S kim SIZEBAY može dijeliti podatke?"
+    },
+    "actions": {
+      "terms": {
+        "content": "<li><a href=https://home.sizebay.com/{{lang}}/legal/conditions-of-use target=_blank>Uvjeti korištenja</a></li><li><a href=https://home.sizebay.com/{{lang}}/legal/privacy target=_blank>Pravila privatnosti</a></li><li><a href=https://home.sizebay.com/{{lang}}/legal/cookies-policy target=_blank>Pravila o kolačićima</a></li>",
+        "conditions-use": "Uvjeti korištenja",
+        "privacy": "Politika privatnosti",
+        "cookies": "Politika kolačića",
+        "title": "Uvjeti"
+      },
+      "statements": {
+        "gdpr": "Sukladnost s GDPR-om",
+        "title": "Izjave",
+        "lgpd": "Usklađenost s LGPD-om",
+        "content": "<li><a href=https://home.sizebay.com/{{lang}}/legal/gdpr target=_blank >Usklađenost s GDPR-om</a></li><li><a href=https: / /home.sizebay.com/{{lang}}/legal/lgpd target=_blank >Usuglašenost s LGPD-om</a></li><li><a href=https://home.sizebay.com/{ {lang }}/legal/ccpa target=_blank >Usuglašenost s CCPA</a></li><li><a href=https://sizebay.com/{{lang}}/legal/pipl target=_blank >Usuglašenost s PIPL-om </a></li>",
+        "pipl": "Usklađenost s PIPL-om",
+        "ccpa": "Usklađenost s CCPA-om"
+      },
+      "title": "Pristupite našoj stranici s uvjetima",
+      "redirect_privacy": {
+        "text": "Kliknite ovdje da biste bili preusmjereni na stranicu Pravila privatnosti {{ tenantName }}"
+      }
+    },
+    "how_data_is_collected": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/computer-hanger.svg /><p> Prikupljanje podataka se provodi kada korisnik pruži podatke prilikom korištenja usluga Virtua Fitter i Measurement Table ili putem kolačića, kada korisnik pristupi aplikaciji ili web stranici <strong>SIZEBAY</strong> ponovno te uz podatke koje je korisnik već unio za sljedeću kupnju ili analizu proizvoda.</p></span><div><img src=https://static.sizebay.technology/assets/icons/computer-hanger.svg /></div>",
+      "title": "Kako SIZEBAY prikuplja podatke?"
+    },
+    "users_obligations": {
+      "title": "Koje su obveze korisnika?",
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/obligations.svg /><p> Korisnici aplikacije obvezuju se koristiti usluge <strong>SIZEBAY</strong> uvijek poštujući i pridržavajući se Pravila, kao i važećeg zakonodavstva, običaja, javnog reda, kao i obveznih zahtjeva potrebnih za korištenje i prihvaćanje korištenja platforma.</p></span><div><img "
+    },
+    "data_protection": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/security.svg /><p> <strong>SIZEBAY</strong> smatra tajnost i sigurnost podataka svojih kupaca, korisnika i posjetitelja iznimno važnom. Iz tog razloga koristi Enkripciju i Firewall tehnologiju, te će učiniti sve što je u njegovoj moći da zajamči zaštitu podataka i informacija.</p></span><span><img src=https://static.sizebay.technology/assets/icons/http.svg /><p> Preporučamo da povremeno očistite kolačiće pohranjene u vašem pregledniku, kako biste spriječili uklanjanje prikupljenih informacija iz <strong>SIZEBAY</strong> baze podataka, kao i s drugih stranica kojima pristupate.</p></span><div><img src=https://static.sizebay.technology/assets/icons/security.svg /> <img src=https://static.sizebay.technology/assets/icons/http.svg /></div>",
+      "title": "Kako SIZEBAY štiti vaše podatke?"
+    }
+  },
+  "garment_measures_info": {
+    "shaft_height": "Izmjerite od baze pete do vrha osovine cipele.",
+    "shoulder_length": "Širina od jednog šava rukava do drugog, na stražnjoj strani odjevnog predmeta.",
+    "full_body_length": "Izmjerite od gornjeg šava do donjeg ruba cijelog tijela.",
+    "hem": "Širina donjeg dijela dijela.",
+    "back_length": "Mjerite od ovratnika do ruba gornjeg dijela, s leđa.",
+    "lower_waist_width": "Širina pojasa odjeće s niskim strukom.",
+    "hip_circumference": "Širina odjevnog predmeta, otprilike 20 cm ispod pojasa, pomnožena s dva.",
+    "palm_length": "Mjerite od zapešća do vrha srednjeg prsta.",
+    "calf_circumference": "Mjerenje oko gornjeg dijela osovine čizme, obično na najširem dijelu lista.",
+    "head_circumference": "Izmjerite unutarnji dio šešira gdje glava počiva.",
+    "sleeve": "Mjerite od unutarnjeg šava gdje rukav počinje do kraja manžete.",
+    "waist_width": "Širina najužeg dijela gornjeg dijela, između pazuha i ruba.",
+    "thigh_width": "Širina najšireg dijela bedra.",
+    "waistband_circumference": "Mjerenje gornjeg otvora odjevnog predmeta.",
+    "circumference": "Izmjerite oko komada, obično množenjem širine s 2.",
+    "lower_waist_circumference": "Širina odjevnog predmeta, odmah ispod prirodnog struka, pomnožena s dva.",
+    "high_waist_width": "Širina pojasa visokog struka odjeće.",
+    "chest_circumference": "Mjerenje širine gornjeg odjevnog predmeta, s jedne strane na drugu, neposredno ispod pazuha, pomnoženo s dva.",
+    "waist_circumference": "Širina najužeg dijela odjevnog predmeta pomnožena s dva.",
+    "front_length": "Mjerite od ovratnika do ruba gornjeg dijela, s prednje strane.",
+    "lower_length": "Mjerite od struka do poruba odjevnog predmeta, s bočne strane.",
+    "wrist_circumference": "Mjerenje opsega otvora rukava gdje pristaje zapešću.",
+    "heel_height": "Mjerite od osnove skoka do najviše točke.",
+    "wrist_width": "Rukovati širinom komada.",
+    "hook": "Mjerite od vrha pojasa do šava međunožja.",
+    "thigh_circumference": "Mjerenje najšireg dijela bedra odjevnog predmeta, neposredno ispod unutarnjeg šava.",
+    "platform_height": "Mjerite od baze prednjeg dijela cipele do vrha platforme.",
+    "biceps": "Širina rukava, otprilike 2,5 cm ispod pazuha.",
+    "insole_width": "Izmjerite najširi dio uloška.",
+    "brim": "Mjerite od baze do vrha oboda kape.",
+    "high_waist_circumference": "Izmjerite oko struka odjeće visokog struka.",
+    "hip_width": "Širina komada, 20 cm ispod pojasa.",
+    "length": "Izmjerite od gornjeg šava do donjeg poruba komada.",
+    "chest_width": "Izmjerite širinu gornjeg dijela, s jedne strane na drugu, odmah ispod pazuha.",
+    "calf_width": "Mjerenje širine osovine čizme na visini lista.",
+    "collar": "Širina ovratnika bluze, mjeri se oko baze vrata.",
+    "waistband_width": "Širina struka donjeg dijela.",
+    "back_hook": "Mjerite od pojasa do šava međunožja, na stražnjoj strani odjevnog predmeta.",
+    "insole_length": "Mjerite od vrha pete do vrha prsta uloška.",
+    "under_bust": "Mjerenje širine gornjeg odjevnog predmeta, s jedne strane na drugu, odmah ispod poprsja, pomnoženo s dva.",
+    "inside_leg": "Izmjerite od šava međunožja do ruba hlača"
+  },
+  "error": {
+    "close": "Izađi iz sobe za presvlačenje",
+    "title": "Ups! Nešto je pošlo po zlu!",
+    "options": "Možete pokušati ponovno ponovnim otvaranjem profila ili zatvoriti i pokušati kasnije.",
+    "restart": "Ponovno otvori profil",
+    "description": "Ne brinite, već istražujemo što se dogodilo kako bismo spriječili da se ponovi."
+  },
+  "recommendation": {
+    "lanes": {
+      "tight": "LAGODNO",
+      "ideal": "IDEALNO",
+      "fit": "USKO",
+      "looser": "ŠIRE",
+      "large": "ŠIROKO",
+      "loose": "LABAVO",
+      "tighter": "UŽE"
+    },
+    "title_not_suggested": "nije preporučeno",
+    "measurements": {
+      "title": "Mjerenja",
+      "conversion": {
+        "title": "Pretvorba veličine"
+      }
+    },
+    "centered_mode": {
+      "controls": {
+        "appearance": "Izgled",
+        "comfort": "Udobnost"
+      },
+      "comfort_map": {
+        "header": "Boje na 3D slici pokazuju koliko će odjeća biti uska ili široka na vašem tijelu"
+      },
+      "tag_info": "3D simulacija tijela predstavlja vaše individualne mjere tijela i vjerno pristajanje proizvoda.",
+      "measure_name": "na vašem {{measureName}}"
+    },
+    "title_suggested": "je najbolja opcija",
+    "height_warning": {
+      "threshold": {
+        "long": "dugo",
+        "short": "kratko"
+      },
+      "message": "previše {{threshold}} na onima koji su {{height}}"
+    },
+    "3d_feel": {
+      "title_suggested": "Najbolja opcija",
+      "lanes": {
+        "ideal": "idealno",
+        "slightly_loose": "blago široko",
+        "loose": "široko",
+        "slightly_fit": "blago tijesno",
+        "tight": "vrlo usko",
+        "fit": "usko"
+      }
+    },
+    "shoe": {
+      "insoleLength": "duljina",
+      "insoleWidth": "širina"
+    },
+    "subtitle": "Pogledajte razine udobnosti u nastavku",
+    "subtitle_shoe": "Na temelju vaše {{brandName}} veličine {{size}}",
+    "title_also_fits": "također pristaje",
+    "carousel_also_try": "Također isprobajte veličine:"
+  },
+  "product_comparison": {
+    "elements": {
+      "edit": "Uredi",
+      "foot_format": "Oblik stopala",
+      "category": "Kategorija",
+      "brand": "Marka",
+      "size": "Veličina"
+    },
+    "title": "Proizvod za usporedbu",
+    "subtitle": "Ovo su informacije koje se koriste za preporuku veličine."
+  },
+  "warnings": {
+    "age_group": {
+      "age_group": "{{ageGroup}} proizvod",
+      "limit_reached": "Broj profila je dosegao svoj limit. Izbrišite profil da biste dodali novi.",
+      "subtitle": "Dobni raspon proizvoda ne odgovara dobi profila {{profileName}}. Odaberite ili dodajte profil za nastavak.",
+      "prompt_message": "Želite li i vi isprobati odjeću iz odjeljka ({{ ageGroup }})?"
+    },
+    "we_need_more_measures": {
+      "subtitle": "Nismo bili u mogućnosti izračunati mjere za vas. Prilagodite mjere u nastavku ili se vratite da pregledate informirane podatke.",
+      "title": "Unesite svoje mjere"
+    },
+    "unmatched_gender": {
+      "choose_a_profile": "Odaberite željeni profil",
+      "select_profile": "Ne, odaberite drugi profil",
+      "tooltip": "Ovaj profil nije prikladan za odabranu vrstu proizvoda",
+      "title": "Želite li i vi isprobati odjeću iz rubrike {{gender}}?",
+      "create_profile": "Ne, stvorite drugi profil"
+    }
+  },
+  "brands_list": {
+    "search_question": "Koju marku inače nosite?",
+    "not_found": {
+      "title": "Ups!",
+      "subtitle": "Nema rezultata."
+    },
+    "subtitle": "Nakon nekoliko pitanja, pomoći ćemo vam odabrati najbolju veličinu cipela.",
+    "title": "Virtualna soba za isprobavanje odjeće",
+    "search_placeholder": "Unesite marku ovdje",
+    "title_restricted": "Nosite li naše cipele?"
+  },
+  "age_group": {
+    "adult": "Odrasli",
+    "kids": "Djeca"
+  },
+  "a11y": {
+    "Chart": {
+      "vfr_button": "Pritisnite razmaknicu za ulazak u virtualnu garderobu",
+      "step_blocks": {
+        "table": {
+          "measure_description": "Ovo je veličina {{size}}, na {{measureName}} bi trebalo mjeriti {{measure}}"
+        },
+        "switcher": {
+          "instruction_press_space": "Pritisnite razmaknicu za promjenu vrijednosti",
+          "option": "Vaša trenutna vrijednost je {{value}}"
+        }
+      },
+      "greeting": "Ovo je tablica veličina",
+      "size_system": {
+        "instruction": "Vaš trenutni sustav veličina je {{sizeSystem}}. Pritisnite razmaknicu za odabir druge opcije."
+      },
+      "instruction": "Ovdje možete usporediti svoje mjere s onima navedenima u našoj tablici"
+    },
+    "shoe": {
+      "Brands": {
+        "highlighted": {
+          "edit_negative": "Pritisnite razmaknicu ako ne nosite nijednu od ovih marki",
+          "edit_action": "Pritisnite razmaknicu za nastavak s odabranim brendom",
+          "instruction": "Pritisnite razmaknicu za nastavak s {{brandName}}"
+        },
+        "restricted": {
+          "greeting": "Dobrodošli u garderobu za isprobavanje cipela s ograničenim markama. Odaberite jedan od brendova cipela koje već nosite"
+        }
+      },
+      "FootSize": {
+        "instruction": "Pritisnite razmaknicu za odabir sustava veličina {{ sizeSystem }}"
+      },
+      "EditData": {
+        "greeting": "Ovdje možete napraviti izmjene podataka o stopalu i obući koje ste nam poslali"
+      },
+      "FootFormat": {
+        "instruction": "Odaberite oblik stopala.",
+        "edit_action": "Pritisnite razmaknicu za odabir {{ shoeFormat }}"
+      }
+    },
+    "drawer": {
+      "measurement_tape_header": "Traka",
+      "measurement_tape_handle": "Metar. Pritisnite razmaknicu za pristup metru",
+      "close_group_handle": "Pritisnite razmaknicu za zatvaranje grupe",
+      "measurement_tape_print_button": "Pritisnite razmaknicu za otvaranje mjerne trake"
+    },
+    "clothes": {
+      "Welcome": {
+        "step_blocks": {
+          "gender": {
+            "question": "Odaberite spol za nastavak. Vaš trenutni spol je {{gender}}"
+          },
+          "age": {
+            "tooltip": "Pritisnite razmaknicu za čitanje više informacija o tome kako dob dob utječe na preporuku"
+          },
+          "height": {
+            "question": "Unesite svoju visinu u {{measurementSystem}} ovdje."
+          }
+        }
+      },
+      "ProfilesMenu": {
+        "blocks": {
+          "greeting": "Ovo su svi tvoji profili u virtualnoj garderobi",
+          "edit": "Ovdje možete odabrati želite li dodati ili ukloniti profile"
+        },
+        "chip": {
+          "message": "Pritisnite razmaknicu za pristup dodatnim detaljima vašeg profila {{profileName}}"
+        }
+      },
+      "Recommendation": {
+        "lane": "Veličina {{ size }} je {{ label }} na {{ measureName }}",
+        "carousel_instruction": "Pronađite više opcija veličina ovdje"
+      },
+      "measures": {
+        "edit": "Pritisnite tipke sa strelicama za povećanje ili smanjenje mjere {{measureName}}",
+        "read": "Vaš {{measureName}} mjeri {{measureValue}} u {{measureSystem}}"
+      }
+    },
+    "generics": {
+      "welcome": "Dobrodošli u virtualnu garderobu"
+    }
+  },
+  "welcome": {
+    "age_disclaimer": "Oblik tijela se mijenja tijekom godina i to utječe na naš izračun.",
+    "gender_f_kids": "Ženski",
+    "title": "Virtualna soba za isprobavanje odjeće",
+    "gender_m_kids": "Muški",
+    "foot_measurement_known": "Već znam mjeru svog stopala",
+    "gender_m": "Muško",
+    "shoe_measure": "Dužina stopala",
+    "gender_f": "Žensko",
+    "gender_u": "Uniseks",
+    "subtitle": "Ispunite detalje kako biste isprobali ovaj proizvod"
+  },
+  "edit_measures": {
+    "view_less": "Pogledajte manje mjerenja",
+    "view_all": "Vidi više mjera"
+  },
+  "drawers": {
+    "manage": {
+      "actions": {
+        "select": "Odaberi",
+        "delete": "Izbriši"
+      },
+      "active_profile": {
+        "details_shoe": "{{brandName}} veličina {{size}}",
+        "no_name": "Unesi ime",
+        "delete": "Izbriši profil"
+      },
+      "new_profile": {
+        "input_example": "Na primjer: Ivan Horvat",
+        "title": "Dodaj profil",
+        "subtitle": "Unesite ime za ovaj profil"
+      }
+    },
+    "knobs": {
+      "kids_shoes_tips": "Savjeti za veličine",
+      "garment_info": "Mjere odjeće",
+      "size_content": "Vodič za stil",
+      "measurement_tape": "Traka za mjerenje",
+      "product_info": "Tjelesne mjere",
+      "size_hint_promo": "Upotpunite promociju",
+      "size_hint": "Prijedlog",
+      "sizes_conversions": "Pretvorbe veličina"
+    },
+    "kids_shoes_title": "Savjeti i smjernice o dječjim stopalima i cipelama",
+    "kids_shoes_button": "Shvaćam",
+    "kids_shoes_message": "Dječja stopala narastu upola veća svaka 2 do 4 mjeseca. Zbog ovog brzog rasta, savjetujemo da djetetu nabavite malo veće brojeve kako bi cipelice dulje trajale i ne bi stezale noge koje se brzo razvijaju."
+  },
+  "landscape_vertical_subtitle": "Postavite uređaj uspravno za početak korištenja",
+  "coppa_gate": {
+    "close": "Ne, imam manje od 13 godina",
+    "confirm": "Da, ja sam skrbnik",
+    "prompt_title_months": "Jeste li roditelj ili skrbnik djeteta koje ima {{ months }} mjeseci?",
+    "message": "Možete nastaviti isprobavati ovaj proizvod ako ste odrasla osoba koja je kreirala ovaj profil kako bi isprobala proizvod za svoje dijete.",
+    "prompt_title_years": "Jeste li roditelj ili skrbnik djeteta koje ima {{ years }} godina?",
+    "title": "Potvrda dobi"
+  },
+  "fetching": {
+    "subtitle": "Izračunavamo vaše tjelesne mjere kako bismo vam preporučili idealnu veličinu.",
+    "title": "Skoro tamo!",
+    "shoe": {
+      "success": "Izračun završen!",
+      "calculating": "Izračunavanje vaših mjera",
+      "analyzing": "Analiziranje vaših odgovora"
+    }
+  },
+  "landscape_subtitle": "Za početak držite telefon vodoravno",
+  "measurement_tape": {
+    "link_download": {
+      "in": "//static.sizebay.technology/assets/measurement_tape/measurement_tape_in_en.pdf",
+      "cm": "//static.sizebay.technology/assets/measurement_tape/measurement_tape_cm_en.pdf"
+    },
+    "title": "Traka",
+    "message": "Ispišite, izrežite i sastavite ovaj metar kako biste provjerili svoje mjere.",
+    "print": "Ispis",
+    "print_mobile": "Ispis metarske trake",
+    "download": {
+      "file": {
+        "title": "Upute za ispis i postavljanje mjerne trake",
+        "fold-and-rotate": "savijte i rotirajte",
+        "how-to-do": "Ispis:\nPrije ispisa provjerite je li opcija \"odgovara stranici\" u dijaloškom okviru ispisa onemogućena kako pisač ne bi smanjivao ili povećavao dimenzije trake.\n\nUsjev:\nPomoću škara ili olovke izrežite sve neprekinute crne linije označene \"škarama\" kako biste stvorili segmente trake.\n\nSastavljanje:\nPresavijte i zakrenite krajeve (kako je naznačeno na ispisu) spajanjem isprekidanih linija dok se ne sastavi jedna traka.\n\nPopravite nabore:\nNakon sastavljanja, pričvrstite nabore trake pomoću ljepila, ljepljive trake ili spajalice."
+      }
+    }
+  },
+  "foot_size": {
+    "select_region": "Odaberite regiju",
+    "not_selected": "Provjerite jeste li odabrali veličinu za nastavak",
+    "title": "Koji je vaš broj cipela?",
+    "pattern": "{{region}} sustav",
+    "subtitle": "Odaberite svoju veličinu u"
+  },
+  "child_name": {
+    "name": "Ime",
+    "title": "Želite li nam reći ime svoga djeteta?",
+    "subtitle": "Ovo nam pomaže da napravimo profil za kabinu za presvlačenje"
+  },
+  "size_hint": {
+    "title": "Odabrali smo neke proizvode koji vam također pristaju",
+    "discount-original-price": "Redovna cijena: <span class='size-hint__discount-original-price discount-description-price'>{{ price }}</span> <span class='size-hint__discount-percentage'>-{{discount }}%</span>",
+    "discount-lowest-price": "Najniža cijena od 30 dana prije sniženja: <span class='size-hint__discount-lowest-price discount-description-price'>{{ price }}</span> <span class='size-hint__discount-percentage'>-{{ discount }}%</span>",
+    "title_promo": "Upotpunite promociju",
+    "try_now": "Isprobajte sada"
+  },
+  "size_tailor": {
+    "action_button": "Prilagođavamo za vas",
+    "title": "Prilagođeni proizvod",
+    "description": "Potvrdite svoje tjelesne mjere kako bismo mogli napraviti vaš proizvod po mjeri."
+  },
+  "miscellaneous": {
+    "hannaLinks": {
+      "recommendation": "Vrati se na moje rezultate",
+      "welcome": "Idi natrag"
+    }
+  },
+  "measure_shape": {
+    "shape_bigger": "Veće",
+    "shape_smaller": "Manje",
+    "skin_types": {
+      "toggle": "Promijenite boju kože"
+    },
+    "subtitle": "Ovo je približan oblik tijela koji generiramo iz vaših mjera. Podesite samo ako je potrebno.",
+    "measure_range": {
+      "1": "Puno manji",
+      "2": "Manji",
+      "3": "Prosjek",
+      "4": "Veći",
+      "5": "Mnogo veće"
+    },
+    "shape_regular": "Obično",
+    "title": "Prilagodite oblik tijela"
+  },
+  "calculating": {
+    "subtitle": "Provjerite mjerenja i prilagodite ako je potrebno",
+    "circle_title_loading": "Učitavanje...",
+    "circle_title_completed": "Spremni!",
+    "title": "Izračun je završen!"
+  },
+  "brands_grid": {
+    "subtitle": "Koji brend obično nosiš?",
+    "unique_brand": "Nosite li već cipele marke {{ brandName }}?",
+    "search_other_brands": "Potražite drugu marku"
+  },
+  "modals": {
+    "remove_profile": {
+      "title_alt": "Jeste li sigurni da želite izbrisati ovaj profil?",
+      "title": "Izbriši {{profileName}} profil?",
+      "action": "Ukloni profil",
+      "confirm": "Izbriši profil"
+    }
+  },
+  "no_recommendation": {
+    "expected_size": "Preporučena veličina je {{recommendedSize}}.",
+    "title_shoe": "Nažalost, trenutno ovaj model i veličina nisu dostupni u našoj trgovini.",
+    "based_on": "Preporuka se temelji na vašim mjerama i proizvodu {{brandName}} veličine {{size}} koji koristite.",
+    "calculate_again": "Ponovno izračunaj",
+    "title": "Nismo pronašli veličine",
+    "subtitle": "Nismo mogli pronaći veličinu za mjere u nastavku. Prilagodite ako je potrebno."
+  },
+  "accessory": {
+    "welcome": {
+      "subtitle": "Za isprobavanje ovog proizvoda slijedite upute za mjerenje i javite odgovarajući broj",
+      "shoe": {
+        "subtitle": "Odaberite svoju mjeru stopala u nastavku, slijedeći naše upute o tome kako se izmjeriti"
+      }
+    },
+    "bike": {
+      "recommendation": {
+        "title_suggested": "Veličina bicikla koju preporučujemo najbolja je za vaše performanse i držanje. Ni previsok ni prenizak, moći ćete udobno voziti bicikl.",
+        "subtitle": "na temelju vaše visine",
+        "title_also_fits": "Veličina bicikla koju preporučujemo najbolja je za vaše performanse i držanje. Ni previsok ni prenizak, moći ćete udobno voziti bicikl.",
+        "title_not_suggested": "Veličina bicikla koju preporučujemo najbolja je za vaše performanse i držanje. Ni previsok ni prenizak, moći ćete udobno voziti bicikl."
+      }
+    },
+    "shoe_size": {
+      "subtitle": "Kako biste isprobali ovaj proizvod odaberite veličinu prema duljini vašeg stopala"
+    }
+  },
+  "foot_format": {
+    "formats": {
+      "0": {
+        "description": "Uska stopala obično imaju dodatni prostor na stranama cipela.",
+        "title": "Uski"
+      },
+      "1": {
+        "title": "Srednje",
+        "description": "Srednja stopala obično dobro pristaju u većinu cipela."
+      },
+      "2": {
+        "title": "Širok",
+        "description": "Široka stopala odgovaraju duljini cipela, ali su tijesna sa strane."
+      }
+    },
+    "subtitle": "Odaberite širinu svog stopala kako biste poboljšali pristajanje.",
+    "title": "Koliko je široko vaše stopalo?"
+  },
+  "landscape_warning": {
+    "title": "Virtualna soba za isprobavanje odjeće"
+  },
+  "my_measures": {
+    "title": "Moje mjere",
+    "subtitle": "Prilagodite mjere po potrebi"
+  },
+  "subcategory": {
+    "subtitle": "Odaberite jednu od potkategorija koja najviše odgovara vašem {{brandName}} > {{categoryName}}",
+    "title": "Što je podkategorija?"
+  },
+  "model": {
+    "title": "Koji je model?",
+    "subtitle": "Odaberite jedan od modela koji je najsličniji {{brandName}} > {{categoryName}} > {{subcategoryName}}"
+  },
+  "landscape_horizontal_subtitle": "Postavite uređaj vodoravno da biste ga počeli koristiti",
+  "category": {
+    "subtitle": "Odaberite jednu od kategorija koja najviše odgovara vašem {{brandName}}",
+    "title": "Koja je vrsta obuće?"
+  },
+  "header": {
+    "title": "Fit Finder"
+  }
+}

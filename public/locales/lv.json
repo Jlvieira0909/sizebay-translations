@@ -1,0 +1,953 @@
+{
+  "shoe_size": {
+    "fit_loose": "Vaļīgs",
+    "shoe_accessory": {
+      "no_recommendation": {
+        "subtitle": "Mēs nevarējām atrast izmēru tālāk norādītajiem mērījumiem. Ja nepieciešams, noregulējiet.",
+        "title": "Mēs neatradām nevienu izmēru"
+      },
+      "all_measures": {
+        "measurements_guide": "Mērījumu rokasgrāmata [PDF]",
+        "title": "Kāds ir jūsu pēdu izmērs?"
+      },
+      "info_drawer_subtitle": "Lai atrastu labāko apavu izmēru, kāpēc nepastāstiet mums mazliet par sevi?"
+    },
+    "recommendation": "Balstoties uz jūsu informāciju, šis ir jūsu pēdas izmērs. Pielāgojiet, ja nepieciešams",
+    "foot_shape_question": "Kāda ir jūsu pēdas forma?",
+    "title": "Kāds ir jūsu pēdas garums",
+    "drawer_title": "kā izmērīt sevi",
+    "subtitle": {
+      "0": "Lai atrastu labāko apavu izmēru, kāpēc nepastāstiet mums mazliet par sevi?",
+      "box": {
+        "subtitle": "Novietojiet papīra lapu uz grīdas pie sienas. Stāviet ar papēdi uz papīra un pie sienas. Atzīmējiet sava garākā pirksta galu, tad izmēriet attālumu.",
+        "title": "Kā pareizi nomērīt pēdas izmērus:"
+      }
+    },
+    "fit_description_ideal": "Starp pirkstiem un apavu ir <strong>neliela vieta</strong>.",
+    "length_example": "Uzvelciet savus <strong>{{brandName}}</strong> apavus izmērā <strong>{{size}}</strong> un pastāstiet mums, kā garums iederas jūsu kājās.",
+    "fit_tight": "Mājīgs",
+    "fit_ideal": "Piemērots",
+    "open_drawer_button": "Kā izmērīt sevi",
+    "fit_description_loose": "Starp pirkstiem un apavu ir <strong>liela vieta</strong>.",
+    "shoe_accessory_subtitle": "Tālāk atlasiet savu pēdas izmēru, ievērojot mūsu norādījumus\\npar to, kā izmērīt sevi.",
+    "drawer_button": "Sapratu",
+    "fit_description_tight": "Apavs pieskaras jūsu pirkstiem <strong>bez vietas</strong>.",
+    "length_question": "Kā tavs apavs der garumā?"
+  },
+  "footer": {
+    "add_to_cart_mobile_2": "Pievienot grozam",
+    "confirm": "Apstiprināt",
+    "none_of_those": "Neviens no tiem",
+    "save_measures": "Saglabāt mērījumus",
+    "view_recommendation": "Apskatīt Ieteikumu",
+    "print_measurement_tape": "Izdrukāt mērlenti",
+    "virtual_fitting_room": "Virtuālā Pielaikošanas Kabīne",
+    "info_box": "Izvēlieties Pielāgots Izmērs, ja vēlaties saviem ķermeņa izmēriem šūtu jaku",
+    "yes": "Jā",
+    "add_to_cart": "Ielikt grozā",
+    "brand_not_found": "Neizdevās atrast zīmolu",
+    "proceed": "Turpināt",
+    "edit_data": "Rediģēt datus",
+    "not_yet": "Vēl nē",
+    "cancel_alt": "Nē, atcelt",
+    "next": "Nākošais",
+    "cancel": "Atcelt",
+    "by-sizebay": "autors Sizebay®",
+    "sure": "Protams!",
+    "add_profile": "Izveidot profilu",
+    "create_new_profile": "Izveidot jaunu profilu",
+    "restart": "Sākt no jauna",
+    "close": "Aizvērt",
+    "select_another_profile": "Izvēlēties citu profilu",
+    "continue_without_brand": "Es nevarēju atrast zīmolu",
+    "unsure": "Neesmu pārliecināts",
+    "save": "Saglabāt",
+    "edit_measures": "Rediģēt Izmērus",
+    "proceed_anyway": "Tik un tā turpināt",
+    "edit_profile": "Rediģēt profilus",
+    "add_to_cart_mobile": "Pirkt",
+    "back": "Iepriekšējais"
+  },
+  "composed_measures": {
+    "welcome": {
+      "link_tooltip": "<b>{{suffix}} {{measureName}} platumam.</b>",
+      "item_text": "Mans {{measureName}} ir {{range}} {{sizeSystem}} plats",
+      "measures_range_item": "{{initialRange}} līdz {{finalRange}}",
+      "tooltip_text": "Spiediet, lai izvēlētos citu izmēru",
+      "tooltip_instructions": "Spiediet šeit, lai uzzinātu kā nomērīt Jūsu {{measureName}} izmēru",
+      "height": {
+        "item_text": "Es esmu {{range}} {{sizeSystem}} garš/gara",
+        "link_tooltip": "<b>Jūsu garumam.</b>",
+        "title": "Cik garš/gara Jūs esat?",
+        "instructions": "Mums jāin Jūsu <b>garums</b>, lai varētu parādīt jums piemērotus ieteikumus atbilstoši"
+      },
+      "title": "Kāds ir {{suffix}} {{measureName}} izmērs?",
+      "instructions": "Cik plats ir {{suffix}} <b>{{measureName}}</b>? Mums jāzin {{suffix}} {{measureName}} izmērs, lai varētu rādīt Jums iespējamos ieteikumus atbilstoši "
+    },
+    "height": {
+      "title": "Cik garš tu esi?",
+      "link_tooltip": "lai parādītu savu augumu"
+    },
+    "table": {
+      "helper_height": "Šis garums ir robežās no {{range}} {{sizeSystem}}. Vai šis mērījums ir neprecīzs?",
+      "tooltip_change": "Mainīt šeit",
+      "helper": "Šis {{measureName}} ir robežās no {{range}} {{sizeSystem}}. Vai šis mērījums ir neprecīzs?",
+      "title": "Šie ir iespējamie izmēri, kas atbildīs <span>{{range}}</span> {{measureName}}",
+      "vfr_tooltip": "Vai zinat savus izmērus? Mēģiniet noskaidrot savus izmērus Virtuālajā Pielaikošanas Kabīnē!"
+    }
+  },
+  "body_measurements": {
+    "diameter": "DIAMETRS",
+    "collar": "Apkakle",
+    "length": "Produkta Garums",
+    "centralSeam": "Kājstarpes Garums",
+    "weightChart": "Svars",
+    "width": "Platums",
+    "waistUpper": "Vidukļa augšdaļa",
+    "weight": "Svars",
+    "circumference": "Apkārtmērs",
+    "insoleLength": "Pēdas garums",
+    "label1": "IZMĒRS (ASV)",
+    "sleve": "Piedurknes Garums",
+    "waist": "Viduklis",
+    "chest_m": "Krūtis",
+    "chest_f": "Krūtis",
+    "neck": "Kakls",
+    "comfort": "Komforts",
+    "sleeve": "Roka",
+    "thigh": "Augšstilbs",
+    "headCircumference": "Galva",
+    "hip": "Gurns",
+    "shoulderWidth": "Pleci",
+    "waistLower": "Jostasvieta",
+    "wrist": "Plaukstas locītava",
+    "palm": "Rokas plauksta",
+    "bar": "Vīle",
+    "chest": "Krūtis",
+    "lowerLength": "Ķermeņa apakšdaļas garums",
+    "finger_circumference": "APKĀRTMĒRS",
+    "insoleWidth": "Pēdas platums",
+    "height": "Garums",
+    "ageChart": "Vecums",
+    "underBust": "Zem krūtīm",
+    "insideLeg": "Iekššuve",
+    "biceps": "Bicepss",
+    "calf": "Apakšstilbs",
+    "fist": "Dūre",
+    "fullBodyLength": "Pilns ķermeņa garums"
+  },
+  "measures_info": {
+    "insideLeg": "Izmēriet kājas iekšējo garumu no pēdu apakšas līdz kājstarpei.",
+    "fullBodyLength": "Nomēriet attālumu starp plecu augšpusi un grīdu",
+    "weightChart": "Nosverieties uz svariem un pārbaudiet, vai svara mērījumi atbilst tabulā norādītajiem.",
+    "waistUpper": "Izmēriet vidukļa apkārtmēru nedaudz virs nabas.",
+    "insoleLength": "Novietojiet papīra lapu uz grīdas pie sienas. Stāviet ar papēdi uz papīra un pie sienas. Atzīmējiet sava garākā pirksta galu, tad izmēriet attālumu.",
+    "biceps": "Ar mērlenti izmēriet rokas augšdelma platāko vietu.",
+    "height": "Šis ir vienkāršākais mērījums. Tas ir attālums no zemes (papēžiem) līdz galvas augšdaļai, stāvot taisni.",
+    "width": "Nomēriet apģērba platumu",
+    "weight": "Nosverieties uz svariem un pārbaudiet, vai svara mērījumi atbilst tabulā norādītajiem.",
+    "sleeve": "Nomēriet attālumu no pleca līdz plaukstas locītavai, roku turot nedaudz saliektā stāvoklī. Mērlenti lieciet aiz elkoņa.",
+    "neck": "Brīvi aplieciet mērlenti sev ap kaklu, lai tā nespiestu. Šī mērījuma veikšanu var atvieglot ar spoguli.",
+    "collar": "Nomēriet kakla apkārtmēru tieši virs atslēgas kaula, turot vienu pirkstu starp kaklu un mērlenti.",
+    "chest": "Elpojot lēnām, ar mērlenti nomēriet ķermeņa apkārtmēru krūšu augstumā. Ievērojot savu elpošanu (pie normālām, pilnām ieelpām), piefiksējiet lielāko krūšu apkārtmēra rādījumu.",
+    "ageChart": "Tā cilvēka vecums, kas valkās šo produktu.",
+    "circumference": "Nomēriet apģērba apkārtmēru",
+    "length_botton": "Ar mērlenti nomēriet attālumu no apakšstilba apakšas (kur tas savienojas ar pēdu) līdz jostasvietai.",
+    "waist": "Nostājieties pretī spogulim un nomēriet ķermeņa apkārtmēru tieši zem ribām, nedaudz virs gurniem.",
+    "footLength": "Stāvot uz gludas virsmas, atspiediet papēdi pie sienas. Ar lineālu nomēriet pēdas garumu (no papēža līdzu pirkstu galiem).",
+    "lowerLength": "Šis ir attālums starp gurniem un grīdu",
+    "chest_m": "Elpojot lēnām, ar mērlenti nomēriet ķermeņa apkārtmēru krūšu augstumā. Ievērojot savu elpošanu (pie normālām, pilnām ieelpām), piefiksējiet lielāko krūšu apkārtmēra rādījumu.",
+    "chest_f": "Elpojot lēnām, ar mērlenti nomēriet ķermeņa apkārtmēru krūšu augstumā. Ievērojot savu elpošanu (pie normālām, pilnām ieelpām), piefiksējiet lielāko krūšu apkārtmēra rādījumu.",
+    "palm": "Nomēriet savu plaukstas plētumu, novietojot lineālu uz plakanas virsmas, izstiepjot pirkstus cik plati vien iespējams un nomērot attālumu starp mazā pirksta un īkšķa pirkstgaliem.",
+    "waistLower": "Izmēriet ķermeņa apkārtmēru zem nabas - ap jostasvietu.",
+    "thigh": "Aplieciet mērlenti ap platāko augšstilba daļu, kas atrodas tieši zem dibena.",
+    "underBust": "Aplieciet mērlenti ap vidukli tieši zem krūtīm. Elpojiet mierīgi un piefiksējiet lielāko mērījumu (pie normālas ieelpas).",
+    "bar": "Nomēriet apģērba vīles",
+    "insoleWidth": "Izņemiet iekšzoli no kurpēm kuras Jums der un nomēriet iekšzoles platumu.",
+    "headCircumference": "Ar mērlenti izmēriet galvas apkārtmēru (virs ausīm).",
+    "wrist": "Aptiniet mērlenti ap plaukstas locītavu vietā, kur parasti tiktu valkāts pulkstenis.",
+    "hip": "Aptiniet ar mērlenti vidukļa zemāko, \"platāko\" daļu, paralēli dibena augstākajai daļai.",
+    "diameter": "Izmēriet iekšējo apkārtmēru gredzenam, ko jau valkājat uz attiecīgās plaukstas tā pirksta, uz kura tiks valkāts produkts.",
+    "length": "Izmēriet attālumu starp torsa augšdaļu un vidukļa apakšdaļu.",
+    "fist": "Aptiniet mērlenti ap plaukstas locītavu vietā, kur parasti tiktu valkāts pulkstenis.",
+    "calf": "Apsēdieties krēslā, turot pēdu uz grīdas, tad salokiet kāju 90 grādos. Ar mērlenti nomēriet attālumu no pēdas apakšas līdz līdz vietai, kur saliecas celis.",
+    "shoulderWidth": "Izmēriet attālumu starp plecu galiem, izmantojot kāda cita palīdzību.",
+    "ring": "Aptiniet tievu auklu ap to pirkstu, uz kura valkāsit produktu. Atzīmējot vietu, kur auklas gals saslēdz riņķi ap pirkstu, izmēriet pirksta apkārtmēru",
+    "centralSeam": "Sēžot uz plakanas virsmas, izmēriet attālumu no šīs virsmas līdz viduklim."
+  },
+  "privacy": {
+    "services": {
+      "anchor": "Sizebay pakalpojumi",
+      "text": "SIZEBAY pakalpojumi ir pieejami e-komercijas platformā programmatūras kā pakalpojuma (SaaS) veidā, kas nozīmē, ka SIZEBAY piešķir e-komercijai licenci izmantot programmatūru.",
+      "title": "Kā SIZEBAY nodrošina savus pakalpojumus?"
+    },
+    "clear_data": {
+      "button": {
+        "initial": "Notīrīt visus datus",
+        "cleared": "tīrs!",
+        "cleaning": "Tīrīšana..."
+      },
+      "title": "Tīrīšana sīkdatnes",
+      "tooltip": "Jūsu dati ir izdzēsti!",
+      "text": "Noklikšķiniet uz pogas zemāk, ja vēlaties izdzēst visus Sizebay saglabātos pārlūkošanas datus, kešatmiņu un sīkfailus."
+    },
+    "contact": {
+      "title": "Ja rodas šaubas, kā sazināties?",
+      "text": "Ja jums ir kādi jautājumi par SIZEBAY politikām vai par to, kā jūs varat īstenot savas tiesības kā datu īpašnieks, lūdzu, sazinieties ar SIZEBAY datu aizsardzības speciālistu (DPO): Janderson Roberto Araujo Adrese: R. Blumenau, 953 – Sala 402 – América, Joinville – SC, 89204-251 – Brazīlija. Tālrunis: +55 48 4042-0150 E-pasts: privacy@sizebay.com Skatīt vairāk politiku"
+    },
+    "data_protection": {
+      "anchor": "Datu aizsardzība",
+      "title": "Kā SIZEBAY aizsargā savus datus?",
+      "text": "SIZEBAY uzskata savu klientu, lietotāju un apmeklētāju informācijas konfidencialitāti un drošību par ārkārtīgi svarīgu; tāpēc tā izmanto šifrēšanas un ugunsmūra tehnoloģijas un darīs visu iespējamo, lai nodrošinātu jūsu datu un informācijas aizsardzību. Mēs iesakām periodiski notīrīt pārlūkprogrammā saglabātās sīkdatnes, lai novērstu, ka no SIZEBAY datubāzes, kā arī no citām apmeklētām vietnēm savāktā informācija tiktu dzēsta."
+    },
+    "how_data_is_collected": {
+      "text": "Datu vākšana tiek veikta, kad lietotājs sniedz informāciju, izmantojot virtuālo pielaikošanas telpu un izmēru un izmēra tabulu pakalpojumus, vai caur sīkdatnēm, kad lietotājs piekļūst SIZEBAY lietotnei vai vietnei.",
+      "title": "Kā SIZEBAY apkopo datus?"
+    },
+    "users_obligations": {
+      "anchor": "Lietotāju pienākumi",
+      "title": "Kādas ir lietotāja saistības?",
+      "text": "Lietotāji apņemas izmantot SIZEBAY pakalpojumus, vienmēr ievērojot un respektējot politikas, kā arī spēkā esošos tiesību aktus, paražas, sabiedrisko kārtību un obligātās prasības, kas nepieciešamas platformas lietošanai un pieņemšanai."
+    },
+    "data_collected": {
+      "title": "Kādus datus vāc SIZEBAY?",
+      "text": "Lai nodrošinātu savus pakalpojumus, SIZEBAY var apkopot profila datus, piemēram, lietotājvārdu (pēc izvēles), vecumu, dzimumu, augumu, svaru, anatomisko profilu un ķermeņa izmērus. Turklāt var tikt apkopoti piekļuves žurnālu dati un sīkdatņu dati, lai uzlabotu lietotāja pieredzi un atvieglotu lietojumprogrammas izmantošanu, bez nepieciešamības atkārtoti sniegt jau iepriekš sniegtos datus gadījumā, ja tiek veikts vēl viens pirkums vai produkta analīze.\n\nSIZEBAY varēs arī apkopot datus no e-komercijā veiktā pasūtījuma, lai analizētu ieteikto izmēru un faktiski iegādāto izmēru, lai uzlabotu pieejamos pakalpojumus apģērbu un apavu izmēra ieteikšanai.\n\nMēs paskaidrojam, ka SIZEBAY lietojumprogramma rūpējas par savu lietotāju privātumu, tāpēc pakalpojumi tika izstrādāti tā, lai datu vākšana tiktu veikta, neļaujot identificēt datu īpašniekus.",
+      "anchor": "Savāktie dati"
+    },
+    "how_it_works": {
+      "anchor": "Kā tas darbojas?",
+      "title": "Kā darbojas piekļuve virtuālajai uzlaikošanas telpai un derīguma un izmēru tabulai?",
+      "text": "Lai izmantotu pakalpojumus, lietotājam nav nepieciešams reģistrēties SIZEBAY platformā. Piekļuve Fit & Size Chart būs pieejama, un, lai izmantotu virtuālo pielaikošanas telpu, lietotājam ir jāaizpilda daži pamata dati, lai lietojumprogramma varētu sniegt apģērbu un apavu izmēra ieteikumus. Izveidojot profilu SIZEBAY lietojumprogrammā, lietotājam nav nepieciešams izmantot savu vārdu vai uzvārdu, un viņš var pat aizpildīt izdomātus datus, ja vēlas labāk saglabāt savu privātumu. Nepilngadīgie nevarēs izmantot lietojumprogrammu, ja vien viņus nepārstāv un/vai nepalīdz viņu vecāki vai aizbildņi."
+    },
+    "title": "Privātums",
+    "overview": {
+      "title": "Kādiem nolūkiem ir Lietošanas noteikumi un Privātuma politika?",
+      "text": "SIZEBAY LIETOŠANAS NOTEIKUMI ir paredzēti, lai regulētu: (i) pakalpojumu izmantošanu, ko nodrošina SIZEBAY, izmantojot savu klientu e-komercijas platformu, kā arī (ii) piekļuvi un saturu, kas pieejams SIZEBAY tīmekļa vietnē, (iii) lietotāju, apmeklētāju un klientu pienākumus platformas un tīmekļa vietnes izmantošanas laikā vai piekļūstot SIZEBAY tīmekļa vietnei, (iv) iesaistīto pušu atbildību.\n\nPRIVĀTUMA POLITIKA mērķis ir skaidrot, kā SIZEBAY apstrādā datus lietojot un piekļūstot tās lietotnei un tīmekļa vietnei, tiek skaidrotas arī datu subjekta tiesības un kā tās var izmantot ar SIZEBAY.\n\nPiekļūstot un izmantojot Virtuālo Mēģinājumu Telpu un Fit & Size Chart, jūs piekrītat SIZEBAY Politikām. Jūs varat piekļūt pilnām SIZEBAY Politikām, izmantojot saiti.\n\nZemāk mēs jums apkopojam galveno informāciju:",
+      "anchor": "Privātums"
+    },
+    "share_data": {
+      "text": "Datu koplietošana vienmēr var tikt veikta ar mērķi nodrošināt labāku iepirkšanās pieredzi tiešsaistē vai lai lietotne varētu darboties, tādējādi tā var tikt veikta ar: klientiem, biznesa partneriem, pakalpojumu sniedzējiem, apakšuzņēmējiem, apģērbu un apavu ražotājiem.",
+      "title": "Ar ko SIZEBAY var dalīties ar datiem?"
+    }
+  },
+  "product_not_found": {
+    "report_status": {
+      "sending": "Tiek sūtīts paziņojums...",
+      "sent": "Paldies!",
+      "not_sending": "Paziņojiet mums",
+      "not_sent": "Paziņojiet mums"
+    },
+    "description": "Mums vēl aizvien nav pietiekoši daudz informācijas par šo produktu, lai varētu to ieteikt.",
+    "title": "Ak, nē!"
+  },
+  "languages": {
+    "all_langs": {
+      "fr": "franču valoda",
+      "et": "igauņu",
+      "es": "spāņu valoda",
+      "en": "Angļu",
+      "fi": "somu",
+      "dk": "dāņu",
+      "cn": "Ķīniešu",
+      "de": "vācu",
+      "cz": "čehu",
+      "br": "portugāļu",
+      "ar": "arābu",
+      "bg": "bulgāru valoda",
+      "mx": "spāņu valoda",
+      "no": "norvēģu",
+      "nl": "holandiešu valoda",
+      "lt": "lietuviešu",
+      "lv": "latviski",
+      "jp": "japāņi",
+      "ko": "korejiešu",
+      "it": "itāļu valoda",
+      "hu": "ungāru",
+      "hr": "horvātu",
+      "id": "Indonēzija",
+      "gr": "grieķu valoda",
+      "he": "Ebreju valoda",
+      "vn": "vjetnamietis",
+      "uk": "Angļu",
+      "th": "taju",
+      "tr": "Turku",
+      "sr": "serbu",
+      "sv": "zviedru",
+      "sl": "slovēņu",
+      "sk": "slovāku",
+      "ru": "krievu valoda",
+      "ro": "rumāņu valoda",
+      "pt": "portugāļu",
+      "pl": "poļu",
+      "esAR": "spāņu valoda",
+      "esCT": "spāņu (kastīliešu)",
+      "ukr": "ukraiņu",
+      "zh": "ķīniešu"
+    },
+    "select": "Pieejamās valodas: {{langs}}",
+    "box": "Valodas atlasītājs, Jūs lietojat {{currentLang}} valodu"
+  },
+  "garment_measurements": {
+    "hip_width": "Gurnu platums",
+    "thigh_width": "Augšstilba platums",
+    "head_circumference": "Galvas apkārtmērs",
+    "lower_waist_circumference": "Zemāks vidukļa apkārtmērs",
+    "collar": "Kakla siksna",
+    "waistband_circumference": "Vidukļa apkārtmērs",
+    "hip_circumference": "Gurnu apkārtmērs",
+    "biceps": "Bicepss",
+    "waistband_width": "Jostas platums",
+    "hem": "Hem",
+    "lower_waist_width": "Zemāks vidukļa platums",
+    "chest_circumference": "Krūšu apkārtmērs",
+    "waist_circumference": "Vidukļa apkārtmērs",
+    "insole_width": "Iekšzoles platums",
+    "palm_length": "Plaukstas garums",
+    "shoulder_length": "Plecu Garums",
+    "length": "Garums",
+    "waist_width": "Vidukļa platums",
+    "chest_width": "Krūšu platums",
+    "wrist_width": "Plaukstas platums",
+    "insole_length": "Zolītes garums",
+    "calf_width": "Ikru platums",
+    "heel_height": "Papēža augstums",
+    "front_length": "Priekšējais garums",
+    "brim": "Brīze",
+    "sleeve": "Piedurkne",
+    "thigh_circumference": "Augšstilba apkārtmērs",
+    "inside_leg": "Iekšējā kāja",
+    "wrist_circumference": "Rokas apkārtmērs",
+    "high_waist_circumference": "Augsts vidukļa apkārtmērs",
+    "shaft_height": "Vārpstas augstums",
+    "calf_circumference": "Ikru apkārtmērs",
+    "full_body_length": "Pilns auguma garums",
+    "back_hook": "Atpakaļ āķis",
+    "platform_height": "Platformas augstums",
+    "circumference": "Apgabals",
+    "hook": "Āķis",
+    "lower_length": "Mazāks garums",
+    "under_bust": "Zemkrūšu",
+    "high_waist_width": "Augsta jostas platums",
+    "back_length": "Muguras garums"
+  },
+  "regions": {
+    "IT": "Itālijas",
+    "HU": "Ungārijas",
+    "FR": "Francijas",
+    "MX": "Meksikas",
+    "CUSTOM": "Internacionāls",
+    "JP": "Japānas",
+    "code": {
+      "CUSTOM": "CUSTOM",
+      "US": "US",
+      "UK": "UK",
+      "AU": "AU",
+      "IT": "IT",
+      "MEX": "MEX",
+      "JP": "JP",
+      "FR": "FR",
+      "EU": "EU",
+      "CN": "CN",
+      "BR": "BR",
+      "DE": "DE"
+    },
+    "ES": "Spānija",
+    "EU": "Eiropas",
+    "DE": "Vācijas",
+    "CN": "Ķīnas",
+    "AU": "Austrālijas",
+    "BR": "Brazīlijas",
+    "region": "Reģions",
+    "other": "Nezināms",
+    "mx_marti": "Marti",
+    "PT": "Portugāles PT",
+    "letter-br": "Brazīlijas",
+    "US": "Amerikas",
+    "UK": "Britu"
+  },
+  "size_chart": {
+    "subtitle": "Paritiniet ritjoslas, lai redzētu vairāk mērījumu un izmēru",
+    "title_web": "Mērījumu diagramma",
+    "scroll_action": "Paritināt",
+    "subtitle_mobile": "Pavelciet, lai redzētu vairāk mērījumu un izmēru",
+    "returns_link": "Uzzināt vairāk par atgriešanas politiku.",
+    "returns": "Vēl šaubieties? Neuztraucieties, pirmā <strong>produkta atgriešana ir par brīvu.</strong>",
+    "title_accessory": "Izmēru Tabula šim aksesuāram",
+    "title": "Izvēlieties izmēru un pārbaudiet izmērus",
+    "instruction_measure": "Skatiet mūsu materiālu par to, kā izmērīt sevi, un salīdziniet savus mērījumus ar šo tabulu.",
+    "title_mobile": "Salīdziniet savus ķermeņa mērījumus ar šo tabulu. Kustiniet peli virs katras kolonnas virsraksta, lai uzzinātu visērtāko veidu, kā izmērīt savu ķermeni."
+  },
+  "generics": {
+    "disable": "Atspējot",
+    "less_than_year": "< 1 gads",
+    "profile_tooltip": "Jūs varat radīt jaunus izmēru profilus, nospiežot šeit",
+    "weight": "Svars",
+    "age": "Vecums",
+    "accessibility": "PIEEJAMĪBA",
+    "language": "Valoda",
+    "years": "Gadi",
+    "female": "Sieviešu",
+    "size_fit": "Izmērs",
+    "no_name": "Nenosaukts",
+    "pronoun_female": "Mana",
+    "year": "Gads",
+    "suffix_male": "Jūsu",
+    "months": "Mēneši",
+    "size_chart": "Izmēru tabula",
+    "chart": "Izmēru Tabula",
+    "closeVfr": "Aizvērt Virtuālo Pielaikošanas Kabīni",
+    "about": "Par Sizebay",
+    "see_how_to_measure": "Skatiet, kā izmērīt",
+    "kg": "Kilogrami",
+    "assistive_mode": "{{status}} palīdzošo režīmu",
+    "suffix_female": "Jūsu",
+    "switcher": {
+      "title_chart": "Izmēri:"
+    },
+    "lb": "Mārciņas",
+    "how_to_measure": "Skatīt kā veikt mērījumus",
+    "unavailable": "--",
+    "other_profiles": "Citi profili",
+    "privacy": "Privātums",
+    "ft": "Collas",
+    "pronoun_male": "Mans",
+    "got_it": "Skaidrs",
+    "enable": "Iespējot",
+    "cm": "Centimetri",
+    "height": "Garums",
+    "male_singular": "vīrietis",
+    "uninformed": "Nav informēts",
+    "female_singular": "sieviete",
+    "profile": {
+      "title": "Lietotāja profils"
+    },
+    "male": "Vīriešu",
+    "confirm_edit": "OK"
+  },
+  "privacy_v2": {
+    "overview": {
+      "text": "<p>Lai Jūs varētu labāk saprast <strong> SIZEBAY </strong> izstrādātos risinājumus regulējošās Politikas, mēs esam Jums sagatavojuši šo nelielo kopsavilkumu. Šis pārskats neaizvieto pilno Politiku saturu, tādēļ mēs stingri iesakām uzmanīgi izlasīt katru dokumentu atsevišķi.</p><p><strong>SIZEBAY</strong> <strong>LIETOŠANAS NOTEIKUMI UN NOSACĪJUMI</strong> ir radīti lai regulētu: (i) <strong>SIZEBAY</strong> nodrošināto pakalpojumu lietošanu, caur e-komercijas platformu <a href={{ pageTenant }} target=_blank>{{ tenantName }} ({{ pageTenant }})</a>, kā arī (ii) piekļuvi un saturu, kas atrodams <strong>SIZEBAY</strong> vietnē, ( iii) platformas un vietnes lietotāju, viesu un klientu pienākumus, lietojot lietojumprogrammu vai piekļūstot <strong>SIZEBAY</strong> vietnei, (iv) iedsaistīto pušu atbildību.</p>{{ pagePrivacyTenant }}<p> <strong>PRIVĀTUMA POLITIKAS</strong> mērķis ir precizēt to, kā <strong> SIZEBAY </strong> apstrādā datus vietnes un aplikācijas lietošanas laikā. Šī politika precizē arī turētāju tiesības, kā arī šo tiesību izmantošanu ar <strong> SIZEBAY </strong>.</p>",
+      "title": "Pārskats"
+    },
+    "clear_data": {
+      "text": "Notīrīt visus Sizebay uzglabātos navigācijas datus, kešatmiņu un sīkfailus",
+      "button": {
+        "initial": "Notīrīt visus sīkfailus"
+      }
+    },
+    "person": {
+      "first": {
+        "name": "Mercelo Bastos",
+        "info": "<li>Eiropas Savienība</li> <li>privacy@sizebay.com</li>"
+      },
+      "second": {
+        "name": "Jandersons Roberto Araujo",
+        "info": "<li>Citas atrašanās vietas</li> <li>privacy@sizebay.com</li>"
+      }
+    },
+    "services": {
+      "title": "Kā SIZEBAY sniedz savus pakalpojumus?",
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/computer-face.svg /><p> <strong>SIZEBAY</strong> pakalpojumi e-komercijas platformā ir pieejami kā programmatūra kā pakalpojums (Software as a Service - SaaS), kas nozīmē ka<strong>SIZEBAY</strong> sniedz e-komercijas platformai programmatūras lietošanas licenci.</p></span> <div><img src=https://static.sizebay.technology/assets/icons/computer-face.svg /></div>"
+    },
+    "contact": {
+      "text": "<p>Ja Jums radušies kādi jautājumi par <strong>SIZEBAY</strong> Politikām vai savu datu turētāja tiesību izmantošanu, lūdzu, sazinieties ar <strong>SIZEBAY</strong> Datu Aizsardzības Speciālistu (Data Protection Officer - DPO):",
+      "title": "Neskaidrību gadījumā, kā sazināties?"
+    },
+    "data_collected": {
+      "title": "Kādus datus vāc SIZEBAY?",
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/cookies.svg /><p> Lai sniegtu savus pakalpojumus, <strong>SIZEBAY</strong> var vākt profila informāciju, piemēram, segvārdu (nav obligāti), vecumu, dzimumu, garumu, svaru, anatomisko profilu un ķermeņa izmērus. Papildus var tikt vākti piekļuves dati un sīkfaili, lai uzlabotu lietotāja pieredzi un sekmētu lietojumprogrammas lietošanu bez nepieciešamības atkārtoti ievadīt jau iepriekšējos pirkumos vai produktu analīzē sniegtos datus.</p></span><span><img src=https://static.sizebay.technology/assets/icons/bag.svg /><p> <strong>SIZEBAY</strong> var vākt datus arī no pirkumu pasūtījumiem e-komercijas vidē, ar mērķi analizēt ieteiktā un lietotāja izvēlētā produkta izmēra starpību, lai nākotnē uzlabotu piedāvāto apģērbu un apavu izmēru piemērotību lietotāja vajadzībām.</p></span><span><img src=https://static.sizebay.technology/assets/icons/anonymous-person.svg /><p> Mēs precizējam, ka <strong>SIZEBAY</strong> lietojumprogramma ņem vērā savu lietotāju privātumu, tādēļ tās pakalpojumi tika izstrādāti tā, lai datu vākšana tiktu veikta bez kādas iespējamības, ka tiktu identificēti šo datu turētāja personas dati.</p></span><div><img src=https://static.sizebay.technology/assets/icons/cookies.svg /> <img src=https://static.sizebay.technology/assets/icons/bag.svg /> <img src=https://static.sizebay.technology/assets/icons/anonymous-person.svg /></div>"
+    },
+    "how_it_works": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/mannequin.svg /><p> Lai izmantotu pakalpojumus, nav nepieciešams reģistrēties <strong>SIZEBAY</strong> platformā. Mērījumu tabulu būs pieejama vienmēr. Lai izmantotu Virtuālo Pielaikošanas Kabīni, lietotājam jāievada nedaudz pamatinformācijas, lai lietojumprogramma varētu ieteikt atbilstoša izmēra apģērbus un apavus.</p></span><span><img src=https://static.sizebay.technology/assets/icons/anonymous.svg /><p> Profila izveidei <strong>SIZEBAY</strong> lietojumprogrammā nav nepieciešams ne Jūsu vārds, ne uzvārds. Turklāt, ja vēlaties vēl vairāk saglabāt savu privātumu, reģistrācijai iespējams izmantot pat izdomātus personas datus.</p></span><span><img src=https://static.sizebay.technology/assets/icons/persons.svg /><p> Mazgadīgie nedrīkst lietot šo lietojumprogrammu, izņemot ar vecāka vai aizbildņa palīdzību vai pārstāvību.</p></span><div><img src=https://static.sizebay.technology/assets/icons/mannequin.svg /><img src=https://static.sizebay.technology/assets/icons/anonymous.svg /><img src=https://static.sizebay.technology/assets/icons/persons.svg /></div>",
+      "title": "Kā darbojas piekļuve virtuālās pielaikošanas istabas un virtuālā galda pakalpojumiem?"
+    },
+    "share_data": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/share.svg /><p> Datu apmaiņa var tikt veikta ar mērķi nodrošinātu labāku tiešsaistes iepirkšanās pieredzi, vai arī lai nodrošinātu lietojumprogrammas darbību, tādēļ tā var tikt veikta ar klientu un piegādātāju starpniecību.</p></span><div><img src=https://static.sizebay.technology/assets/icons/share.svg /></div>",
+      "title": "Ar ko SIZEBAY var koplietot datus?"
+    },
+    "actions": {
+      "terms": {
+        "content": "<li><a href=https://home.sizebay.com/{{lang}}/legal/conditions-of-use target=_blank>Lietošanas noteikumi</a></li><li><a href=https://home.sizebay.com/{{lang}}/legal/privacy target=_blank>Privātuma politika</a></li><li><a href=https://home.sizebay.com/{{lang}}/legal/cookies-policy target=_blank>Sīkfailu politika</a></li>",
+        "conditions-use": "Lietošanas noteikumi",
+        "privacy": "Privātuma politika",
+        "cookies": "Sīkdatņu politika",
+        "title": "Noteikumi"
+      },
+      "statements": {
+        "gdpr": "GDPR atbilstība",
+        "title": "Paziņojumi",
+        "lgpd": "LGPD atbilstība",
+        "content": "<li><a href=https://home.sizebay.com/{{lang}}/legal/gdpr target=_blank >VDAR atbilstība</a></li><li><a href=https: / /home.sizebay.com/{{lang}}/legal/lgpd target=_blank >LGPD atbilstība</a></li><li><a href=https://home.sizebay.com/{ {lang }}/legal/ccpa target=_blank >CCPA atbilstība</a></li><li><a href=https://sizebay.com/{{lang}}/legal/pipl target=_blank >PIPL atbilstība </a></li>",
+        "pipl": "PIPL atbilstība",
+        "ccpa": "CCPA atbilstība"
+      },
+      "title": "Piekļūstiet mūsu noteikumu tīmekļa lapām",
+      "redirect_privacy": {
+        "text": "Spiediet šeit lai tiktu novirzīts uz {{ tenantName }} Privātuma Politikas lapu"
+      }
+    },
+    "how_data_is_collected": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/computer-hanger.svg /><p> Datu vākšana tiek veikta, kad lietotājs sniedz informāciju Virtua Fitter un Izmēru Tabulas pakalpojumu lietošanai, vai ar sīkfailu palīdzību, lietotājam piekļūstot <strong>SIZEBAY</strong> lietojumprogrammai vai vietnei. Iepriekš sniegti dati var tikt lietoti nākamajā pirkumā vai produkta analīzē.</p></span><div><img src=https://static.sizebay.technology/assets/icons/computer-hanger.svg /></div>",
+      "title": "Kā SIZEBAY vāc datus?"
+    },
+    "users_obligations": {
+      "title": "Kādi ir lietotāja pienākumi?",
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/obligations.svg /><p>  <strong>SIZEBAY</strong> lietojumprogrammas lietotāji uzņemas vienmēr cienīt un sekot Politikām, kā arī esošajai likumdošanai, sabiedriskajai kārtībai un obligātajiem priekšnosacījumiem, kas nepieciešami pieņemamai platformas lietošanai.</p></span><div><img src=https://static.sizebay.technology/assets/icons/obligations.svg /></div>"
+    },
+    "data_protection": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/security.svg /><p> <strong>SIZEBAY</strong> ir ļoti svarīga tā klientu, lietotāju un viesu informācijas slepenība un drošība. Šī iemesla dēļ, tas izmanto Šifrēšanas un Ugunsmūra tehnoloģijas un darīs visu savos spēkos, lai garantētu Jūsu datu un informācijas aizsardzību.</p></span><span><img src=https://static.sizebay.technology/assets/icons/http.svg /><p> Mēs iesakām regulāri iztīrīt savas pārlūkprogrammas sīkfailus, lai novērstu savāktās informācijas izdzēšanu no <strong>SIZEBAY</strong> datubāzes, kā arī no citu vietņu datubāzēm.</p></span><div><img src=https://static.sizebay.technology/assets/icons/security.svg /> <img src=https://static.sizebay.technology/assets/icons/http.svg /></div>",
+      "title": "Kā SIZEBAY aizsargā jūsu datus?"
+    }
+  },
+  "garment_measures_info": {
+    "shaft_height": "Mēri no papēža pamatnes līdz apavu šahtas augšai.",
+    "shoulder_length": "Platums no vienas piedurknes šuves līdz otrai, apģērba aizmugurē.",
+    "full_body_length": "Mēriet no augšējās vīles līdz apakšai apmalē visam apģērba gabalam.",
+    "hem": "Apakšējās daļas platums.",
+    "back_length": "Mēriet no apkakles līdz augšējās daļas apakšmalai, no mugurpuses.",
+    "lower_waist_width": "Vidukļa platums zemā jostasvietas apģērbam.",
+    "hip_circumference": "Apģērba platums, aptuveni 20 cm zem jostasvietas, reizināts ar divi.",
+    "palm_length": "Izmēriet no plaukstas līdz vidējā pirksta galam.",
+    "calf_circumference": "Mērījums ap zābaka stulma augšdaļu, parasti visplatākajā vietā ap ikru.",
+    "head_circumference": "Mēriet cepures iekšpusi tur, kur galva atrodas.",
+    "sleeve": "Mēriet no iekššūma, kur sākas piedurkne, līdz aproces galam.",
+    "waist_width": "Platums šaurākajā augšdaļas daļā, starp padusēm un apakšmalu.",
+    "thigh_width": "Platums augšstilba visplatākajā daļā.",
+    "waistband_circumference": "Apģērba augšējās atveres mērīšana.",
+    "circumference": "Izmēriet apgabalu ap gabalu, parasti reizinot platumu ar 2.",
+    "lower_waist_circumference": "Apģērba platums, tieši zem dabiskās jostas vietas, reizināts ar divi.",
+    "high_waist_width": "Augstās jostas apģērba jostas platums.",
+    "chest_circumference": "Augšējā apģērba platuma mērīšana, no vienas puses uz otru, tieši zem paduses, reizināta ar divi.",
+    "waist_circumference": "Šaurākās apģērba daļas platums reizināts ar divi.",
+    "front_length": "Izmēriet no apkakles līdz augšējās daļas apakšai, no priekšpuses.",
+    "lower_length": "Mēri no jostasvietas līdz apģērba apakšai, no sāniem.",
+    "wrist_circumference": "Piedurknes atvēruma apkārtmēra mērīšana vietā, kur tas pieguļ plaukstas locītavai.",
+    "heel_height": "Mēri no lēciena pamatnes līdz augstākajam punktam.",
+    "wrist_width": "Rokturiet gabala platumu.",
+    "hook": "Mēri no jostas augšdaļas līdz kājstarpes šuvēm.",
+    "thigh_circumference": "Mērījums apģērba augšstilba platākajā daļā, tieši zem iekšstara.",
+    "platform_height": "Mēriet no kurpes priekšpuses pamatnes līdz platformas augšai.",
+    "biceps": "Piedurknes platums, aptuveni 2.5 cm zem paduses.",
+    "insole_width": "Izmēriet zolītes platāko daļu.",
+    "brim": "Mēriet no pamatnes līdz cepures malas galam.",
+    "high_waist_circumference": "Izmēriet apkārt jostasvietai augstās jostasvietas apģērba.",
+    "hip_width": "Gabala platums, 20 cm zem jostas vietas.",
+    "length": "Mēriet no augšējās vīles līdz apakšējai malai.",
+    "chest_width": "Izmēriet augšējā gabala platumu no vienas puses līdz otrai, tieši zem padusēm.",
+    "calf_width": "Zābaka stulma platuma mērīšana ikra augstumā.",
+    "collar": "Blūzes apkakles platums, mērīts ap kakla pamatni.",
+    "waistband_width": "Jostas platums apakšējai daļai.",
+    "back_hook": "Mēriet no jostasvietas līdz kājstarpes šuvei, apģērba aizmugurē.",
+    "insole_length": "Mēriet no papēža gala līdz zoles purngala galam.",
+    "under_bust": "Augšējā apģērba platuma mērīšana no vienas puses uz otru, tieši zem krūtīm, reizināta ar divi.",
+    "inside_leg": "Mēriet no kājstarpes vīles līdz bikšu apakšmalai"
+  },
+  "error": {
+    "close": "Iziet no pielaikošanas kabīnes",
+    "title": "Ups, kaut kas neizdevās!",
+    "options": "Jūs varat mēģināt vēlreiz, pārstartējot profilu, vai arī aizveriet un mēģiniet vēlāk.",
+    "restart": "Pārstartēt profilu",
+    "description": "Neuztraucieties, mēs jau pētām šīs kļūmes iemeslus, lai novērstu tās atkārtošanos."
+  },
+  "recommendation": {
+    "3d_feel": {
+      "lanes": {
+        "large": "pārāk vaļīgs",
+        "ideal": "ideāls",
+        "slightly_loose": "nedaudz brīvs",
+        "loose": "brīvs",
+        "slightly_fit": "nedaudz ciešs",
+        "tight": "ļoti ciešs",
+        "fit": "ciešs"
+      },
+      "title_suggested": "Labākais variants"
+    },
+    "lanes": {
+      "tight": "PIEGUĻOŠS",
+      "ideal": "IDEĀLS",
+      "fit": "CIEŠS",
+      "looser": "BRĪVĀK",
+      "large": "PLATS",
+      "loose": "BRĪVS",
+      "tighter": "CIEŠĀK"
+    },
+    "title_not_suggested": "nav ieteicams",
+    "measurements": {
+      "title": "Mērījumi",
+      "conversion": {
+        "title": "Izmēru konvertēšana"
+      }
+    },
+    "centered_mode": {
+      "controls": {
+        "appearance": "Izskats",
+        "comfort": "Komforts"
+      },
+      "comfort_map": {
+        "header": "3D attēlā redzamās krāsas atspoguļo cik cieši vai brīvi apģērbs piegulsies Jūsu ķermenim"
+      },
+      "tag_info": "3D ķermeņa simulācija atspoguļo Jūsu individuālos ķermeņa izmērus un patieso produktu piemērotību tiem.",
+      "measure_name": "uz Jūsu {{measureName}}"
+    },
+    "title_suggested": "ir labākais variants",
+    "height_warning": {
+      "threshold": {
+        "long": "garš",
+        "short": "īss"
+      },
+      "message": "pārāk {{threshold}} cilvēkiem, kas ir {{height}} gari"
+    },
+    "shoe": {
+      "insoleLength": "garums",
+      "insoleWidth": "platums"
+    },
+    "subtitle": "Apskatiet zemāk norādītos komforta līmeņus",
+    "subtitle_shoe": "Balstoties uz Jūsu {{size}} izmēra {{brandName}}",
+    "title_also_fits": "arī der",
+    "carousel_also_try": "Pamēģiniet arī šos izmērus:"
+  },
+  "product_comparison": {
+    "elements": {
+      "edit": "Rediģēt",
+      "foot_format": "Pēdas forma",
+      "category": "Kategorija",
+      "brand": "Zīmols",
+      "size": "Izmērs"
+    },
+    "title": "Salīdzināmais produkts",
+    "subtitle": "Šī ir informācija, kas tiek izmantota izmēru ieteikumiem."
+  },
+  "warnings": {
+    "age_group": {
+      "age_group": "{{ageGroup}} produkts",
+      "limit_reached": "Ir sasniegts maksimālais profilu skaits. Lai pievienotu jaunu profilu, lūdzu, izdzēsiet kādu no esošajiem.",
+      "subtitle": "Produkta vecuma grupa neatbilst {{profileName}} profila vecumam. Lai turpinātu, izvēlieties vai pievienojiet citu profilu.",
+      "prompt_message": "Vai vēlaties pielaikot drēbes arī no ({{ ageGroup }}) sadaļas?"
+    },
+    "we_need_more_measures": {
+      "subtitle": "Mums neizdevās aprēķināt Jūsu izmērus. Lūdzu, rediģējiet zemāk norādītos izmērus vai atgriezieties pie sevis norādītajiem datiem, lai tos pārskatītu.",
+      "title": "Ievadiet savus izmērus"
+    },
+    "unmatched_gender": {
+      "choose_a_profile": "Izvēlieties vēlamo profilu",
+      "select_profile": "Nē, izvēlēties citu profilu",
+      "tooltip": "Šis profils nav piemērots izvēlētajam produktam",
+      "title": "Vai vēlaties aplūkot apģērbus arī no {{gender}} sadaļas?",
+      "create_profile": "Nē, izveidot citu profilu"
+    }
+  },
+  "brands_list": {
+    "search_question": "Kāda zīmola produktus parasti valkājat?",
+    "not_found": {
+      "title": "Mēs nevarējām atrast zīmolu ar šādu nosaukumu",
+      "subtitle": "Ja izlabotu drukas kļūdas, mēģiniet meklēt vēlreiz."
+    },
+    "subtitle": "Pēc pāris jautājumiem mēs Jums palīdzēsim izvēlēties labāko apavu izmēru.",
+    "title": "Virtuālā ģērbtuve",
+    "search_placeholder": "Šeit ierakstiet un meklējiet savu zīmolu",
+    "title_restricted": "Vai Jūs valkājat mūsu kurpes?"
+  },
+  "age_group": {
+    "adult": "Pieaugušie",
+    "kids": "Bērni"
+  },
+  "a11y": {
+    "Chart": {
+      "vfr_button": "Nospiediet atstarpi, lai dotos uz virtuālo pielaikošanas telpu",
+      "step_blocks": {
+        "table": {
+          "measure_description": "Šis ir {{size}} izmērs, uz {{measureName}} tam jābūt {{measure}}"
+        },
+        "switcher": {
+          "instruction_press_space": "Nospied atstarpes taustiņu, lai pārslēgtu vērtības",
+          "option": "Jūsu pašreizējā vērtība ir {{value}}"
+        }
+      },
+      "greeting": "Šī ir izmēru tabula",
+      "size_system": {
+        "instruction": "Jūsu pašreizējā izmēru sistēma ir {{sizeSystem}}. Nospiediet atstarpi, lai izvēlētos citu opciju."
+      },
+      "instruction": "Šeit jūs varat salīdzināt savus mērījumus ar tiem, kas norādīti mūsu tabulā"
+    },
+    "shoe": {
+      "Brands": {
+        "highlighted": {
+          "edit_negative": "Nospied atstarpes taustiņu, ja nevalkā nevienu no šiem zīmoliem",
+          "edit_action": "Nospiediet atstarpes taustiņu, lai turpinātu ar izvēlēto zīmolu",
+          "instruction": "Nospiediet atstarpes taustiņu, lai turpinātu ar {{brandName}}"
+        },
+        "restricted": {
+          "greeting": "Laipni lūdzam ierobežoto zīmolu apavu pielaikošanas telpā. Izvēlieties vienu no apavu zīmoliem, ko jau valkājat"
+        }
+      },
+      "FootSize": {
+        "instruction": "Nospiediet atstarpi, lai izvēlētos {{ sizeSystem }} izmēru sistēmu"
+      },
+      "EditData": {
+        "greeting": "Šeit jūs varat veikt izmaiņas nosūtītajā pēdas un apavu informācijā"
+      },
+      "FootFormat": {
+        "instruction": "Izvēlieties pēdas formu.",
+        "edit_action": "Nospied atstarpes taustiņu, lai izvēlētos {{ shoeFormat }}"
+      }
+    },
+    "drawer": {
+      "measurement_tape_header": "Lente",
+      "measurement_tape_handle": "Mērlente. Nospiediet atstarpes taustiņu, lai piekļūtu mērlentei",
+      "close_group_handle": "Nospiediet atstarpi, lai aizvērtu grupu",
+      "measurement_tape_print_button": "Nospiediet atstarpes taustiņu, lai atvērtu mērlenti"
+    },
+    "clothes": {
+      "Welcome": {
+        "step_blocks": {
+          "gender": {
+            "question": "Izvēlieties dzimumu, lai turpinātu. Jūsu pašreizējais dzimums ir {{gender}}"
+          },
+          "age": {
+            "tooltip": "Nospiediet atstarpi, lai uzzinātu vairāk informācijas par to, kā vecums ietekmē ieteikumus"
+          },
+          "height": {
+            "question": "Ievadiet savu augumu šeit {{measurementSystem}}."
+          }
+        }
+      },
+      "ProfilesMenu": {
+        "blocks": {
+          "greeting": "Šie ir visi tavi profili virtuālajā pielaikošanas telpā",
+          "edit": "Šeit jūs varat izvēlēties, vai pievienot vai noņemt profilus"
+        },
+        "chip": {
+          "message": "Nospiediet atstarpes taustiņu, lai piekļūtu sīkākai informācijai par jūsu {{profileName}} profilu"
+        }
+      },
+      "Recommendation": {
+        "lane": "{{ size }} izmērs ir {{ label }} uz {{ measureName }}",
+        "carousel_instruction": "Atrodiet vairāk izmēru iespēju šeit"
+      },
+      "measures": {
+        "edit": "Nospiediet bulttaustiņus, lai palielinātu vai samazinātu {{measureName}} mērvienību",
+        "read": "Jūsu {{measureName}} mēra {{measureValue}} {{measureSystem}}"
+      }
+    },
+    "generics": {
+      "welcome": "Laipni lūdzam virtuālajā pielaikošanas telpā"
+    }
+  },
+  "welcome": {
+    "age_disclaimer": "Ķermeņa formas gadu gaitā var mainīties un tas var ietekmēt mūsu aprēķinus.",
+    "gender_f_kids": "Sievišķīgs",
+    "title": "Virtuālā ģērbtuve",
+    "gender_m_kids": "Vīrišķīgs",
+    "foot_measurement_known": "Es jau zinu sava kājas izmēru",
+    "gender_m": "Vīrietis",
+    "shoe_measure": "Pēdas garums",
+    "gender_f": "Sieviete",
+    "gender_u": "Unisekss",
+    "subtitle": "Aizpildiet informāciju, lai izmēģinātu šo produktu"
+  },
+  "edit_measures": {
+    "view_less": "Skatīt mazāk mērījumu",
+    "view_all": "Skatīt vairāk izmēru"
+  },
+  "drawers": {
+    "manage": {
+      "actions": {
+        "select": "Atlasīt",
+        "delete": "Dzēst"
+      },
+      "active_profile": {
+        "details_shoe": "{{brandName}} izmērs {{size}}",
+        "no_name": "Ievadiet vārdu",
+        "delete": "Dzēst profilu"
+      },
+      "new_profile": {
+        "input_example": "Piemērs: Jānis Bērziņš",
+        "title": "Pievienot profilu",
+        "subtitle": "Ievadiet šī profila vārdu"
+      }
+    },
+    "knobs": {
+      "kids_shoes_tips": "Izmēru padomi",
+      "garment_info": "Apģērba izmēri",
+      "size_content": "Stila Rokasgrāmata",
+      "measurement_tape": "Mērlenta",
+      "product_info": "Ķermeņa mērījumi",
+      "size_hint_promo": "Pabeidziet reklāmu",
+      "size_hint": "Ieteikums",
+      "sizes_conversions": "Izmēru Konvertēšana"
+    },
+    "kids_shoes_title": "Bērnu pēdu un apavu padomi un vadlīnijas",
+    "kids_shoes_button": "Skaidrs",
+    "kids_shoes_message": "Bērnu pēdas ik pēc 2-4 mēnešiem izaug par pusotru reizi lielākas. Šī milzīgā augšanas tempa dēļ mēs iesakām priekš bērna iegādāties nedaudz brīvākus apavu izmērus, lai tās kalpotu ilgāk un nespiestu ātri augošās pēdas."
+  },
+  "landscape_vertical_subtitle": "Novietojiet ierīci vertikāli, lai sāktu lietot",
+  "coppa_gate": {
+    "close": "Nē, esmu jaunāks/-a par 13 gadiem",
+    "confirm": "Jā, esmu aizbildnis",
+    "prompt_title_months": "Vai Jūs esat {{ months }} mēnešus vecā bērna vecāks vai aizbildnis?",
+    "message": "Jūs varat turpināt izmēģināt šo produktu, ja esat pieaugušais, kas izveidojis šo kontu, lai izmēģinātu savam bērnam domātu produktu.",
+    "prompt_title_years": "Vai Jūs esat {{ years }} gadus vecā bērna vecāks vai aizbildnis?",
+    "title": "Vecuma verifikācija"
+  },
+  "fetching": {
+    "subtitle": "Mēs aprēķinām mērījumus, lai ģenerētu ideālā izmēra ieteikumu",
+    "title": "Gandrīz jau pabeigts!",
+    "shoe": {
+      "success": "Aprēķins pabeigts!",
+      "calculating": "Aprēķinot jūsu mērījumus",
+      "analyzing": "Analizējot jūsu atbildes"
+    }
+  },
+  "landscape_subtitle": "Lai sāktu, turiet savu telefonu horizontāli",
+  "measurement_tape": {
+    "link_download": {
+      "in": "//static.sizebay.technology/assets/measurement_tape/measurement_tape_in_en.pdf",
+      "cm": "//static.sizebay.technology/assets/measurement_tape/measurement_tape_cm_en.pdf"
+    },
+    "title": "Lente",
+    "message": "Izdrukājiet, sagrieziet un salieciet šo mērlenti, lai pārbaudītu savus izmērus.",
+    "print": "Mērīšanas lente",
+    "print_mobile": "Drukājiet mērlenti",
+    "download": {
+      "file": {
+        "title": "Mērlentes drukāšanas un salikšanas instrukcija",
+        "fold-and-rotate": "salocīt un pagriezt",
+        "how-to-do": "Drukāšana:\nPirms drukāšanas, pārliecinieties lai nebūtu atzīmēta funkcija \"ietilpināt lapā\" (\"fit to page\"), lai printeris neizmainītu mērlentes attēla izmērus.\n\nSagrieziet:\nAr šķērēm izgrieziet mērlentes daļas, griežot pa līnijām, kas atzīmētas ar šķēru simbolu.\n\nSamontēšana:\nSekojot uz drukātā attēla esošajiem norādījumiem, salokiet pagrieziet un savienojiet daļas pa punktētajām līnijām, līdz no daļām izveidojas viena vesela mērlente.\n\nSastipriniet locījuma vietas:\nPēc samontēšanas, sastipriniet mērlentes locījuma vietas ar līmi, līmlenti vai skavotāju."
+      }
+    }
+  },
+  "foot_size": {
+    "select_region": "Izvēlieties reģionu:",
+    "not_selected": "Lai turpinātu, noteikti atlasiet izmēru",
+    "title": "Kāds ir jūsu kurpju izmērs?",
+    "pattern": "{{region}} sistēma",
+    "subtitle": "Izvēlieties savu izmēru"
+  },
+  "child_name": {
+    "name": "Vārds",
+    "title": "Vai vēlaties norādīt sava bērna vārdu?",
+    "subtitle": "Šis palīdzēs mums izveidot Pielaikošanas Kabīnes profilu"
+  },
+  "size_hint": {
+    "title": "Mēs atlasījām dažu produktus, kas arī Jums derētu",
+    "discount-original-price": "Parastā cena: <span class='size-hint__discount-original-price discount-description-price'>{{ price }}</span> <span class='size-hint__discount-percentage'>-{{discount }}%</span>",
+    "discount-lowest-price": "Zemākā cena no 30 dienām pirms samazinājuma: <span class='size-hint__discount-lowest-price discount-description-price'>{{ price }}</span> <span class='size-hint__discount-percentage'>-{{ discount }}%</span>",
+    "title_promo": "Pabeidziet reklāmu",
+    "try_now": "Izmēģināt tagad"
+  },
+  "size_tailor": {
+    "action_button": "Mēs pielāgosim tieši Jums",
+    "title": "Pielāgots Produkts",
+    "description": "Apstipriniet savus ķermeņa izmērus, lai mēs varētu izstrādāt Jūsu pielāgoto produktu."
+  },
+  "miscellaneous": {
+    "hannaLinks": {
+      "recommendation": "Atgriezties pie maniem rezultātiem",
+      "welcome": "Atgriezties"
+    }
+  },
+  "measure_shape": {
+    "shape_bigger": "Lielāka",
+    "shape_smaller": "Mazāka",
+    "skin_types": {
+      "toggle": "Mainīt ādas krāsu"
+    },
+    "subtitle": "Šī ir aptuvenā ķermeņa forma, kuru izveidojām pēc Jūsu izmēriem. Rediģējiet tikai tad, ja tas nepieciešams.",
+    "measure_range": {
+      "1": "Daudz mazāks",
+      "2": "Mazāks",
+      "3": "Vidēji",
+      "4": "Lielāks",
+      "5": "Daudz lielāks"
+    },
+    "shape_regular": "Parasta",
+    "title": "Rediģēt ķermeņa formu"
+  },
+  "calculating": {
+    "subtitle": "Pārbaudiet mērījumus un veiciet izmaiņas, ja tās nepieciešamas",
+    "circle_title_loading": "Notiek ielāde...",
+    "circle_title_completed": "Gatavs!",
+    "title": "Datu apstrāde pabeigta!"
+  },
+  "brands_grid": {
+    "subtitle": "Kuru zīmolu jūs parasti valkājat?",
+    "unique_brand": "Vai jūs jau valkājat {{ brandName }} apavus?",
+    "search_other_brands": "Meklējiet citu zīmolu"
+  },
+  "modals": {
+    "remove_profile": {
+      "title_alt": "Vai tiešām vēlaties dzēst šo profilu?",
+      "title": "Dzēst {{profileName}} profilu?",
+      "action": "Noņemt profilu",
+      "confirm": "Dzēst profilu"
+    }
+  },
+  "no_recommendation": {
+    "expected_size": "Ieteicamais izmērs ir {{recommendedSize}}.",
+    "title_shoe": "Diemžēl šis modelis šajā izmērā patlaban mūsu veikalā nav pieejams.",
+    "based_on": "Varat rediģēt savu informāciju, lai mēģinātu vēlreiz",
+    "calculate_again": "Pārrēķināt",
+    "title": "Jūsu izmērs šobrīd nav pieejams",
+    "subtitle": "Mums neizdevās atrast izmēr, kas atbilst zemāk norādītajiem mērījumiem. Rediģējiet pēc vajadzības."
+  },
+  "accessory": {
+    "welcome": {
+      "subtitle": "Lai izmēģinātu šo produktu, sekojiet savu izmēru noteikšanas instrukcijām un sniedziet mums savus attiecīgos izmērus",
+      "shoe": {
+        "subtitle": "Zemāk izvēlieties savu pēdas izmēru, sekojot mūsu norādījumiem, kā uzzināt savus izmērus"
+      }
+    },
+    "bike": {
+      "recommendation": {
+        "title_suggested": "Mūsu ieteiktais divriteņa izmērs ir piemērotākais Jūsu stājai un veiktspējai. Tas nebūs ne par mazu, ne par lielu, un Jūs varēsiet doties izbraucienos bez nekādām neērtībām.",
+        "subtitle": "pamatojoties uz jūsu garumu",
+        "title_also_fits": "Mūsu ieteiktais divriteņa izmērs ir piemērotākais Jūsu stājai un veiktspējai. Tas nebūs ne par mazu, ne par lielu, un Jūs varēsiet doties izbraucienos bez nekādām neērtībām.",
+        "title_not_suggested": "Mūsu ieteiktais divriteņa izmērs ir piemērotākais Jūsu stājai un veiktspējai. Tas nebūs ne par mazu, ne par lielu, un Jūs varēsiet doties izbraucienos bez nekādām neērtībām."
+      }
+    },
+    "shoe_size": {
+      "subtitle": "Lai izmēģinātu šo produktu, izvēlieties savas pēdas garumam atbilstošu izmēru"
+    }
+  },
+  "foot_format": {
+    "formats": {
+      "0": {
+        "description": "Šaurām pēdām mēdz būt papildus vieta apavu sānos.",
+        "title": "Šaurs"
+      },
+      "1": {
+        "title": "Vidējs",
+        "description": "Vidēji pēdas parasti labi der vairumam apavu."
+      },
+      "2": {
+        "title": "Plašs",
+        "description": "Platas pēdas atbilst apavu garumam, bet sānos jūtas ciešas."
+      }
+    },
+    "subtitle": "Izvēlieties, cik plata ir jūsu pēda, lai uzlabotu piemērotību.",
+    "title": "Pēdas forma"
+  },
+  "landscape_warning": {
+    "title": "Virtuālā ģērbtuve"
+  },
+  "my_measures": {
+    "title": "Mani izmēri",
+    "subtitle": "Rediģējiet izmērus pēc vajadzības"
+  },
+  "subcategory": {
+    "subtitle": "Izvēlieties <strong>{{brandName}}</strong> apavu veidu, ko parasti valkājat",
+    "title": "Kādu {{categoryName}} apģērbu tu valkā?"
+  },
+  "model": {
+    "title": "Kādu {{composedName}} valkājat?",
+    "subtitle": "Izvēlieties <strong>{{brandName}}</strong> apavu modeli, ko parasti valkājat"
+  },
+  "landscape_horizontal_subtitle": "Novietojiet ierīci horizontāli, lai sāktu lietot",
+  "category": {
+    "subtitle": "Tālāk esošajā sarakstā izvēlieties vienu veidu\nvisvairāk līdzīgs jūsu <strong>{{brandName}}</strong> apaviem",
+    "title": "Kāds ir jūsu apavu veids?"
+  },
+  "header": {
+    "title": "Fit Finder"
+  }
+}

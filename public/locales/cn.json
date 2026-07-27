@@ -1,0 +1,953 @@
+{
+  "shoe_size": {
+    "fit_loose": "松散",
+    "shoe_accessory": {
+      "no_recommendation": {
+        "subtitle": "我们找不到以下尺寸的尺码。必要时进行调整。",
+        "title": "我们没有找到任何尺寸"
+      },
+      "all_measures": {
+        "measurements_guide": "测量指南 [PDF]",
+        "title": "你的脚有多大？"
+      },
+      "info_drawer_subtitle": "要找到最合适的鞋码，何不简单介绍一下您自己？"
+    },
+    "recommendation": "根据您的信息，这是您的脚部测量结果。如有必要，请调整。",
+    "foot_shape_question": "你的脚是什么形状的",
+    "title": "你的脚有多长",
+    "drawer_title": "你的脚有多长",
+    "subtitle": {
+      "0": "告诉我们一些关于您自己的信息，以找到最佳鞋码",
+      "box": {
+        "subtitle": "在墙边的地板上放一张纸。脚跟踩在纸和墙上。标记最长脚趾的尖端，然后测量距离。",
+        "title": "如何正确测量脚："
+      }
+    },
+    "fit_description_ideal": "你的脚趾和鞋子之间有<strong>小空间</strong>.",
+    "length_example": "穿上你的 <strong>{{brandName}}</strong> <strong>{{size}}</strong> 码鞋子，告诉我们长度在你的脚上感觉如何。",
+    "fit_tight": "温暖舒适",
+    "fit_ideal": "合适",
+    "open_drawer_button": "如何衡量自己",
+    "fit_description_loose": "你的脚趾和鞋子之间有<strong>很大的空间</strong>.",
+    "shoe_accessory_subtitle": "按照我们的指导，在下面选择您的脚尺寸\n关于如何衡量自己。",
+    "drawer_button": "知道了",
+    "fit_description_tight": "鞋子触碰你的脚趾，<strong>没有空间</strong>.",
+    "length_question": "你的鞋子长度合适吗"
+  },
+  "footer": {
+    "add_to_cart_mobile_2": "添加到购物车",
+    "confirm": "确定",
+    "none_of_those": "这些都不是",
+    "save_measures": "保存措施",
+    "view_recommendation": "查看建议",
+    "print_measurement_tape": "打印卷尺",
+    "virtual_fitting_room": "虚拟试衣间",
+    "info_box": "如果您想根据您的身体尺寸定制夹克，请选择自定义尺寸",
+    "yes": "是",
+    "add_to_cart": "加入购物车",
+    "brand_not_found": "我找不到品牌",
+    "proceed": "继续",
+    "edit_data": "编辑数据",
+    "not_yet": "还没",
+    "cancel_alt": "不，取消",
+    "next": "下一个",
+    "cancel": "取消",
+    "by-sizebay": "由Sizebay®提供",
+    "sure": "确定！",
+    "add_profile": "创建个人资料",
+    "create_new_profile": "创建新的个人资料",
+    "restart": "重新开始",
+    "close": "关闭",
+    "select_another_profile": "选择另一个个人资料",
+    "continue_without_brand": "我找不到这个品牌",
+    "unsure": "我不确定",
+    "save": "保存",
+    "edit_measures": "编辑尺寸",
+    "proceed_anyway": "还是继续",
+    "edit_profile": "编辑个人资料",
+    "add_to_cart_mobile": "买",
+    "back": "上一个"
+  },
+  "composed_measures": {
+    "welcome": {
+      "link_tooltip": "{{suffix}} {{measureName}} 宽度。",
+      "item_text": "我的{{measureName}}是{{range}} {{sizeSystem}}宽",
+      "measures_range_item": "{{initialRange}}到{{finalRange}}",
+      "tooltip_text": "点击选择其他尺寸",
+      "tooltip_instructions": "点击此处了解如何测量您的{{measureName}}",
+      "height": {
+        "item_text": "我身高{{range}} {{sizeSystem}}",
+        "link_tooltip": "你有多高",
+        "title": "你多高？",
+        "instructions": "我们需要知道你的<b>身高</b>，以便根据推荐给你可能的建议"
+      },
+      "title": "{{suffix}} {{measureName}}的测量值是多少",
+      "instructions": "{{suffix}} <b>{{measureName}}</b> 有多宽？我们需要知道 {{suffix}} {{measureName}} 的尺寸，以便向您显示可能的推荐内容，依据"
+    },
+    "height": {
+      "title": "你多高？",
+      "link_tooltip": "显示你的身高"
+    },
+    "table": {
+      "helper_height": "此高度为{{range}} {{sizeSystem}}。这个测量不准确吗",
+      "tooltip_change": "在此更改。",
+      "helper": "这个{{measureName}}的范围是{{range}} {{sizeSystem}}。这个测量不准确吗？",
+      "title": "这些是<span>{{range}}</span> {{measureName}}的可能尺寸",
+      "vfr_tooltip": "得到了你的测量数据？为什么不尝试在虚拟试衣间中发现你的尺寸呢？"
+    }
+  },
+  "body_measurements": {
+    "diameter": "直径",
+    "collar": "衣领",
+    "length": "产品长度",
+    "centralSeam": "裤子前方",
+    "weightChart": "体重",
+    "width": "宽度",
+    "waistUpper": "上腰部",
+    "weight": "体重",
+    "circumference": "圆周",
+    "insoleLength": "足长",
+    "label1": "尺码（美国）",
+    "sleve": "袖子长度",
+    "waist": "腰部",
+    "chest_m": "胸围",
+    "chest_f": "胸部",
+    "neck": "颈部",
+    "comfort": "舒适",
+    "sleeve": "手臂",
+    "thigh": "大腿",
+    "headCircumference": "头",
+    "hip": "臀部",
+    "shoulderWidth": "肩膀",
+    "waistLower": "下腰部",
+    "wrist": "手腕",
+    "palm": "手掌",
+    "bar": "下摆",
+    "chest": "胸围/胸部",
+    "lowerLength": "下长",
+    "finger_circumference": "圆周",
+    "insoleWidth": "足宽",
+    "height": "身高",
+    "ageChart": "年龄",
+    "underBust": "胸部下方",
+    "insideLeg": "内缝",
+    "biceps": "二头肌",
+    "calf": "小牛",
+    "fist": "拳头",
+    "fullBodyLength": "全身长度"
+  },
+  "measures_info": {
+    "insideLeg": "测量从耻骨到脚底的腿部内部距离。",
+    "fullBodyLength": "测量从肩膀到地板的距离。",
+    "weightChart": "您的体重是多少？",
+    "waistUpper": "测量肚脐以上的腰围。",
+    "insoleLength": "在墙边的地板上放一张纸。脚跟踩在纸和墙上。标记最长脚趾的尖端，然后测量距离。",
+    "biceps": "把卷尺绕着您手臂的中端，找出它最宽的部分。",
+    "height": "这很简单。它是你的头顶（头骨）到地面（脚底）的距离，用直立的姿势测量。",
+    "width": "测量衣服的宽度",
+    "weight": "您的体重。",
+    "sleeve": "手臂微微弯曲，将卷尺放在肘部后面，测量肩部和手腕之间的距离。",
+    "neck": "用卷尺勾勒出您脖子的平均高度，不要挤压它。用镜子协助检查测量值。",
+    "collar": "在锁骨上方测量您的脖子，将一根手指放在胶带和您的脖子之间。",
+    "chest": "把卷尺绕着您胸部或胸围，正常呼吸。呼吸的同时，留意尺寸的更变并记录最高值。",
+    "ageChart": "您的年龄是？",
+    "circumference": "测量衣服的周长",
+    "length_botton": "把卷尺的开头放在您身上衣服所在的最高点。松开卷尺的其余部分并标记测量的尺寸。",
+    "waist": "站在镜子前，腰部清晰可见。将身体稍微向一侧倾斜，想象出一条折痕的形成，这表明了自然腰部的位置。把腰包起来。",
+    "footLength": "站在一个平坦的表面上，您的身体与墙对齐。用尺测量脚的最长部分（从脚跟到脚趾）。",
+    "lowerLength": "这是你的臀部到地板之间的距离。",
+    "chest_m": "把卷尺绕着您的胸围，正常呼吸。呼吸的同时，留意尺寸的更变并记录最高值。",
+    "chest_f": "把卷尺绕着您胸部（胸围），正常呼吸。呼吸的同时，留意尺寸的更变并记录最高值。",
+    "palm": "将尺子放在平坦的表面上，弯曲您的手，将惯用手的左侧放在尺子的零点处，并记下您的手跨度。",
+    "waistLower": "测量肚脐以下的腰围，这是腰带（低腰）通常合身的地方。",
+    "thigh": "用卷尺绕着臀部下方，大腿最宽的部位。",
+    "underBust": "用卷尺在胸部下方测量您的胸围。注意尺寸的变化，正常呼吸，并记录最高尺寸。",
+    "bar": "量一下衣服的下摆",
+    "insoleWidth": "取下适合您的鞋垫，测量鞋垫的宽度，如图所示。",
+    "headCircumference": "用卷尺量一下你的头（耳朵以上）的周长。",
+    "wrist": "把卷尺缠绕在您的手腕，例如您戴手表一样。",
+    "hip": "把卷尺绕着您腰部下方“更宽”的部分，与臀大肌最高部位平行。",
+    "diameter": "用同一只手测量您戴在同一手指上的戒指内圆直径",
+    "length": "测量您的身体上部（与颈部的交界处）和低腰（刚好在腹部下方）之间的距离。",
+    "fist": "把卷尺缠绕在您的手腕，例如您戴手表一样。",
+    "calf": "坐在椅子上，将脚放在地上，将腿折叠成 90 度。将卷尺放在小腿的一侧，从脚底到膝盖折叠处进行测量。",
+    "shoulderWidth": "在另一个人的帮助下，测量肩膀末端之间的距离，如图所示。",
+    "ring": "在您要佩戴本产品的同一根手指上系一根细绳，标记绳的连接处并测量长度以获得周长",
+    "centralSeam": "坐在一个平坦的表面上，用卷尺测量腰部和表面之间的距离"
+  },
+  "privacy": {
+    "services": {
+      "anchor": "大小湾服务",
+      "text": "<p>SIZEBAY的服務以軟件即服務（SaaS）的形式在電子商務平台上提供，這意味著SIZEBAY授予電子商務使用該軟件的許可。</p>",
+      "title": "SIZEBAY 如何提供其服务？"
+    },
+    "clear_data": {
+      "button": {
+        "initial": "清除所有数据",
+        "cleared": "干净的！",
+        "cleaning": "打扫干净..."
+      },
+      "title": "清洁饼干",
+      "tooltip": "您的数据已被清除！",
+      "text": "如果您想清除 Sizebay 存储的所有浏览数据、缓存和 cookie，请单击下面的按钮。"
+    },
+    "contact": {
+      "title": "如有疑问，如何联系？",
+      "text": "<p>如果您对 SIZEBAY 的政策或如何行使您作为数据所有者的权利有任何疑问，请联系 SIZEBAY 数据保护官 (DPO)：<br><br>Janderson Roberto Araujo<br>地址：R. Blumenau, 953 – Sala 402 – América, Joinville – SC, 89204-251 – 巴西。<br>电话：+55 48 4042-0150<br>电子邮件：<a href='mailto:privacy@sizebay.com' target='_blank'>privacy@sizebay.com</a></p><br><a href='https://sizebay.com/pt/legal/' target='_blank'><strong>见更多政策</strong></a>"
+    },
+    "data_protection": {
+      "anchor": "数据保护",
+      "title": "SIZEBAY 如何保护其数据？",
+      "text": "<p>SIZEBAY 认为其客户、用户和访问者信息的机密性和安全性极为重要；因此，它使用加密和防火墙技术，并将尽其所能确保保护您的数据和信息。</p><p>我们建议您定期清理您使用的浏览器中存储的 cookie，以便防止收集到的信息从 SIZEBAY 数据库以及访问的其他网站中删除。</p>"
+    },
+    "how_data_is_collected": {
+      "text": "<p>当用户在使用虚拟试衣间和试衣间和尺码表服务时提供信息时，或在用户访问 SIZEBAY 应用程序或网站时通过 cookie 提供信息时，会执行数据收集。</p>",
+      "title": "SIZEBAY 如何收集数据？"
+    },
+    "users_obligations": {
+      "anchor": "用户义务",
+      "title": "用户的义务是什么？",
+      "text": "<p>应用程序用户承诺在使用 SIZEBAY 的服务时始终尊重和遵守政策、现行法律、海关、公共秩序以及使用和接受平台所需的强制性要求。</p>"
+    },
+    "data_collected": {
+      "title": "SIZEBAY 收集哪些数据？",
+      "text": "<p>为提供服务，SIZEBAY 可能会收集个人资料数据，例如昵称（可选）、年龄、性别、身高、体重、解剖学资料和身体测量值。此外，可能会收集访问日志数据和 cookie 数据，以改善用户体验和简化应用程序的使用，而无需再次提供用户已经通知的数据以防再次购买或分析产品。< /p><p>SIZEBAY 还将能够从电子商务的采购订单中收集数据，以分析推荐尺码和实际购买的尺码，从而改进可用于服装尺码推荐的服务和鞋子。 </p><p>我们澄清说，SIZEBAY 应用程序关注其用户的隐私，因此，服务的开发方式是在无法识别数据所有者的情况下进行数据收集。</p >",
+      "anchor": "收集的数据"
+    },
+    "how_it_works": {
+      "anchor": "这个怎么运作？",
+      "title": "访问虚拟试衣间和试衣间和尺码表是如何工作的？",
+      "text": "<p>用户无需在 SIZEBAY 平台上注册即可使用服务。可以访问试衣和尺码表，并且要使用虚拟试衣间，用户需要填写一些基本信息，以便应用程序进行服装和鞋码推荐。</p><p>创建一个SIZEBAY 应用程序中的个人资料不要求用户使用他们的名字或姓氏，如果他们有兴趣进一步保护自己的隐私，甚至可以填写虚构数据。</p><p>未成年人将无法使用除非他们有父母或监护人代表和/或协助申请。</p>"
+    },
+    "title": "隐私政策",
+    "overview": {
+      "title": "使用条款和条件以及隐私政策的用途是什么？",
+      "text": "<p>SIZEBAY 使用条款和条件旨在规范：(i) SIZEBAY 通过其客户的电子商务平台提供的服务的使用，以及 (ii) 在SIZEBAY 网站，(iii) 平台的用户、访问者和客户以及网站在使用应用程序或访问 SIZEBAY 网站时的义务，(iv) 相关各方的责任。</p><p><strong>隐私政策</strong>旨在阐明 SIZEBAY 在使用和访问其应用程序和网站期间如何处理数据处理、持有人的权利以及他们如何使用 SIZEBAY 行使这些权利。</p><p>在访问和访问时使用虚拟试衣间和试衣尺码表，即表示您同意 SIZEBAY 的政策。您可以通过链接访问完整的 SIZEBAY 政策。</p><p><strong>下面我们向您总结主要信息：</strong></p>",
+      "anchor": "隐私"
+    },
+    "share_data": {
+      "text": "<p>始终可以进行数据共享以实现更好的在线购物体验或使应用程序能够正常运行，因此可以与以下对象进行数据共享：客户、业务合作伙伴、服务提供商、分包商、服装和鞋类产品制造商。</p>",
+      "title": "SIZEBAY 可以与谁共享数据？"
+    }
+  },
+  "product_not_found": {
+    "report_status": {
+      "sending": "通知...",
+      "sent": "谢谢！",
+      "not_sending": "通知我们",
+      "not_sent": "通知我们"
+    },
+    "description": "我们仍然没有足够的关于该产品的信息来推荐它。",
+    "title": "不好了！"
+  },
+  "languages": {
+    "all_langs": {
+      "fr": "法语",
+      "et": "爱沙尼亚语",
+      "es": "西班牙语",
+      "en": "英语",
+      "fi": "芬兰",
+      "dk": "丹麦语",
+      "cn": "中文",
+      "de": "德语",
+      "cz": "捷克语",
+      "br": "葡萄牙语",
+      "ar": "阿拉伯",
+      "bg": "保加利亚语",
+      "mx": "西班牙语",
+      "no": "挪威",
+      "nl": "荷兰语",
+      "lt": "立陶宛语",
+      "lv": "拉脱维亚语",
+      "jp": "日本人",
+      "ko": "韩国人",
+      "it": "意大利语",
+      "hu": "匈牙利",
+      "hr": "克罗地亚语",
+      "id": "印度尼西亚",
+      "gr": "希腊语",
+      "he": "希伯来语",
+      "vn": "越南语",
+      "uk": "英语",
+      "th": "泰国",
+      "tr": "土耳其",
+      "sr": "塞尔维亚",
+      "sv": "瑞典",
+      "sl": "斯洛文尼亚语",
+      "sk": "斯洛伐克语",
+      "ru": "俄语",
+      "ro": "罗马尼亚语",
+      "pt": "葡萄牙语",
+      "pl": "抛光",
+      "esAR": "西班牙语",
+      "esCT": "西班牙语（卡斯蒂利亚语）",
+      "ukr": "乌克兰",
+      "zh": "中国人"
+    },
+    "select": "可用语言：{{langs}}",
+    "box": "语言选择器，您正在使用{{currentLang}}语言"
+  },
+  "garment_measurements": {
+    "hip_width": "臀宽",
+    "thigh_width": "大腿宽度",
+    "head_circumference": "头围",
+    "lower_waist_circumference": "较低的腰围",
+    "collar": "领子",
+    "waistband_circumference": "腰围",
+    "hip_circumference": "臀围",
+    "biceps": "肱二头肌",
+    "waistband_width": "腰带宽度",
+    "hem": "血边",
+    "lower_waist_width": "下腰宽度",
+    "chest_circumference": "胸围",
+    "waist_circumference": "腰围",
+    "insole_width": "鞋垫宽度",
+    "palm_length": "手掌长度",
+    "shoulder_length": "肩长",
+    "length": "长度",
+    "waist_width": "腰部宽度",
+    "chest_width": "胸围",
+    "wrist_width": "手腕宽度",
+    "insole_length": "鞋垫长度",
+    "calf_width": "小腿围度",
+    "heel_height": "鞋跟高度",
+    "front_length": "前长",
+    "brim": "边缘",
+    "sleeve": "袖子",
+    "thigh_circumference": "大腿围度",
+    "inside_leg": "内侧裤长",
+    "wrist_circumference": "腕围",
+    "high_waist_circumference": "高腰围",
+    "shaft_height": "轴高度",
+    "calf_circumference": "小腿围",
+    "full_body_length": "全身长度",
+    "back_hook": "后钩",
+    "platform_height": "平台高度",
+    "circumference": "圆周长",
+    "hook": "钩子",
+    "lower_length": "较低长度",
+    "under_bust": "下胸围",
+    "high_waist_width": "高腰宽度",
+    "back_length": "背长"
+  },
+  "regions": {
+    "IT": "意大利語",
+    "HU": "匈牙利语",
+    "FR": "法語",
+    "MX": "墨西哥人",
+    "CUSTOM": "國際的",
+    "JP": "日本",
+    "code": {
+      "CUSTOM": "CUSTOM",
+      "US": "US",
+      "UK": "UK",
+      "AU": "AU",
+      "IT": "IT",
+      "MEX": "MEX",
+      "JP": "JP",
+      "FR": "FR",
+      "EU": "EU",
+      "CN": "CN",
+      "BR": "BR",
+      "DE": "DE"
+    },
+    "ES": "西班牙",
+    "EU": "欧洲",
+    "DE": "德語",
+    "CN": "中國人",
+    "AU": "澳洲人",
+    "BR": "巴西",
+    "region": "地区",
+    "other": "未知",
+    "mx_marti": "马蒂",
+    "PT": "葡萄牙 PT",
+    "letter-br": "巴西人",
+    "US": "美国",
+    "UK": "英国"
+  },
+  "size_chart": {
+    "subtitle": "滑动滚动条以查看更多测量值和尺寸",
+    "title_web": "测量图表",
+    "scroll_action": "滑动它",
+    "subtitle_mobile": "滑动查看更多测量和尺寸",
+    "returns_link": "了解更多有关退货政策的信息。",
+    "returns": "还在犹豫吗？别担心，第一次<strong>退货是免费的。</strong>",
+    "title_accessory": "此配件尺码表",
+    "title": "选择一个尺寸并检查测量值",
+    "instruction_measure": "请参阅我们有关如何测量自己的材料，并将您的测量值与此表进行比较。",
+    "title_mobile": "把您的身体尺寸和这张图表比较一下。在下面的每一个栏目标题上悬停，找出测量您身体的最佳方法。"
+  },
+  "generics": {
+    "disable": "禁用",
+    "less_than_year": "少过一年",
+    "profile_tooltip": "单击此处编辑数据或添加新个人资料。",
+    "weight": "体重",
+    "age": "年龄",
+    "accessibility": "可访问性",
+    "language": "语言",
+    "years": "年",
+    "female": "女性",
+    "size_fit": "尺寸",
+    "no_name": "未命名",
+    "pronoun_female": "我的",
+    "year": "年",
+    "suffix_male": "你的",
+    "months": "月",
+    "size_chart": "尺码表",
+    "chart": "尺寸表",
+    "closeVfr": "关闭虚拟试衣间",
+    "about": "关于Sizebay",
+    "see_how_to_measure": "查看如何测量",
+    "kg": "千克",
+    "assistive_mode": "{{status}} 輔助模式",
+    "suffix_female": "你的",
+    "switcher": {
+      "title_chart": "尺寸："
+    },
+    "lb": "磅",
+    "how_to_measure": "查看如何测量",
+    "unavailable": "--",
+    "other_profiles": "其他資料",
+    "privacy": "隐私政策",
+    "ft": "英尺",
+    "pronoun_male": "我的",
+    "got_it": "知道了",
+    "enable": "使能夠",
+    "cm": "公分",
+    "height": "身高",
+    "male_singular": "男性",
+    "uninformed": "未通知",
+    "female_singular": "女性",
+    "profile": {
+      "title": "用户资料"
+    },
+    "male": "男性",
+    "confirm_edit": "OK"
+  },
+  "privacy_v2": {
+    "overview": {
+      "text": "<p>为了让您更好地理解规范<strong> SIZEBAY </strong> 开发的解决方案使用的政策，我们为您准备了这份简短摘要。本概述并不能替代政策的全部内容，因此我们建议您在阅读完每份文件后仔细阅读。</p><p><strong>SIZEBAY</strong> 的<strong>使用条款</strong>旨在规范：(i) 使用<strong>SIZEBAY</strong> 通过 <a href={{ pageTenant }} target=_blank>{{ tenantName }} ({{ pageTenant }})</a> 电子商务平台提供的服务，以及 (ii) <strong>SIZEBAY</strong> 网站上提供的访问权限和内容，( iii)平台和网站的用户、访问者和客户在使用应用程序或访问 <strong>SIZEBAY</strong> 网站时的义务，(iv) 相关各方的责任。</p>{{ pagePrivacyTenant }}<p>A <strong>隐私政策 </strong> 旨在阐明如何<strong> SIZEBAY </strong> 在使用和访问其应用程序和网站期间处理数据，持有人的权利也得到阐明，以及他们如何通过 <strong> SIZEBAY </strong>.</p> 行使这些权利",
+      "title": "概述"
+    },
+    "clear_data": {
+      "text": "清除 Sizebay 存储的所有浏览数据、缓存和 cookie",
+      "button": {
+        "initial": "清除Cookies"
+      }
+    },
+    "person": {
+      "first": {
+        "name": "马塞洛巴斯托斯",
+        "info": "<li>欧盟</li> <li>privacy@sizebay.com</li>"
+      },
+      "second": {
+        "name": "詹德森·罗伯托·阿劳霍",
+        "info": "<li>其他地点</li> <li>privacy@sizebay.com</li>"
+      }
+    },
+    "services": {
+      "title": "SIZEBAY如何提供服务？",
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/computer-face.svg /><p> <strong>SIZEBAY</strong>服务以软件即服务（SaaS）的形式在电子商务平台上提供，这意味着<strong>SIZEBAY</strong>授予电子商务使用该软件的许可。</p></span> <div><img src=https://static.sizebay.technology/assets/icons/computer-face.svg /></div>"
+    },
+    "contact": {
+      "text": "<p>如果您对<strong>SIZEBAY</strong> 政策或如何行使您作为数据主体的权利有任何疑问，请联系<strong>SIZEBAY</strong> 数据保护官 (DPO)：</p>",
+      "title": "如有疑问，如何联系？"
+    },
+    "data_collected": {
+      "title": "SIZEBAY 收集哪些数据？",
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/cookies.svg /><p> 为了提供其服务，<strong>SIZEBAY</strong> 可能会收集个人资料数据，例如昵称（可选）、年龄、性别、身高、体重、解剖学资料和身体测量值。此外，可能会收集访问日志数据和 cookie，目的是改善用户体验并促进应用程序的使用，而无需再次提供用户在下一次购买或产品分析中已告知的数据。.</p> </span><span><img src=https://static.sizebay.technology/assets/icons/bag.svg /><p> <strong>SIZEBAY</strong>也可能收集电商下单的数据，目的是对推荐尺码与实际购买的尺码进行分析，以改进尺码推荐服务。件衣服和鞋类。</p></span><span><img src=https://static.sizebay.technology/assets/icons/anonymous-person.svg /><p> 我们澄清 <strong>SIZEBAY</strong> 应用程序关注其用户的隐私，因此，服务的开发方式是在无法识别的情况下进行数据收集持有人的数据。 </p></span><div><img src=https://static.sizebay.technology/assets/icons/cookies.svg /> <img src=https://static.sizebay.technology/assets/icons/bag.svg /> <img src=https://static.sizebay.technology/assets/icons/anonymous-person.svg /></div>"
+    },
+    "how_it_works": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/mannequin.svg /><p> 用户无需在<strong>SIZEBAY</strong>平台注册即可使用服务。始终可以访问测量表。要使用虚拟试衣间，用户必须填写一些基本信息，以便该应用程序可以推荐衣服和鞋子的尺码。</p></span><span><img src=https://static.sizebay.technology/assets/icons/anonymous.svg /><p> 在 <strong>SIZEBAY</strong> 应用程序中创建个人资料不需要用户使用您的名字或姓氏，如果您有兴趣进一步保护您的隐私，甚至可以填写虚构数据。</p></span><span><img src=https://static.sizebay.technology/assets/icons/persons.svg /><p> 未成年人不能使用该应用程序，除非他们有父母的代表和/或协助。父母或监护人。</p></span><div><img src=https://static.sizebay.technology/assets/icons/mannequin.svg /><img src=https://static.sizebay.technology/assets/icons/anonymous.svg /><img src=https://static.sizebay.technology/assets/icons/persons.svg /></div>",
+      "title": "如何访问虚拟试衣间和虚拟餐桌服务？"
+    },
+    "share_data": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/share.svg /><p> 数据共享的目的始终是提供更好的在线购物体验或使应用程序能够正常工作，因此，它可以与：客户和供应商一起进行。</p></span><div><img src=https://static.sizebay.technology/assets/icons/share.svg /></div>",
+      "title": "SIZEBAY 可以与谁共享数据？"
+    },
+    "actions": {
+      "terms": {
+        "content": "<li><a href=https://home.sizebay.com/{{lang}}/legal/conditions-of-use target=_blank>使用条款</a></li><li><a href=https://home.sizebay.com/{{lang}}/legal/privacy target=_blank>隐私政策</a></li><li><a href=https://home.sizebay.com/{{lang}}/legal/cookies-policy target=_blank>Cookie政策</a></li>",
+        "conditions-use": "使用条款",
+        "privacy": "隐私政策",
+        "cookies": "Cookie 政策",
+        "title": "条款"
+      },
+      "statements": {
+        "gdpr": "GDPR 合规性",
+        "title": "声明",
+        "lgpd": "LGPD 合规性",
+        "content": "<li><a href=https://home.sizebay.com/{{lang}}/legal/gdpr target=_blank >GDPR 合规性</a></li><li><a href=https: / /home.sizebay.com/{{lang}}/legal/lgpd target=_blank >LGPD 合规性</a></li><li><a href=https://home.sizebay.com/{ {lang }}/legal/ccpa target=_blank >CCPA 合规性</a></li><li><a href=https://sizebay.com/{{lang}}/legal/pipl target=_blank >PIPL 合规性</a></li>",
+        "pipl": "PIPL 合规性",
+        "ccpa": "CCPA 合规性"
+      },
+      "title": "访问我们的条款页面",
+      "redirect_privacy": {
+        "text": "单击此处将您重定向到 {{ tenantName }} 的隐私页面"
+      }
+    },
+    "how_data_is_collected": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/computer-hanger.svg /><p> 当用户在使用 Virtua Fitter and Measurement Table 服务时提供信息时，或在用户访问 <strong>SIZEBAY</strong> 应用程序或网站时通过 cookie 提供信息时，将执行数据收集。用户在下一次购买或产品分析中已经告知的数据。</p></span><div><img src=https://static.sizebay.technology/assets/icons/computer-hanger.svg /></div>",
+      "title": "SIZEBAY 如何收集数据？"
+    },
+    "users_obligations": {
+      "title": "用户有哪些义务？",
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/obligations.svg /><p> 应用程序用户承诺使用<strong>SIZEBAY</strong> 的服务始终尊重和遵守政策，以及现行法律、习俗、公共秩序，以及使用和接受平台使用的强制性要求.</p></span><div><img src=https://static.sizebay.technology/assets/icons/obligations.svg /></div>"
+    },
+    "data_protection": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/security.svg /><p> <strong>SIZEBAY</strong> 认为其客户、用户和访客信息的保密性和安全性极其重要。为此，它使用了加密和防火墙技术，并将尽其所能保证对您的数据和信息的保护。</p></span><span><img src=https://static.sizebay.technology/assets/icons/http.svg /><p> 我们建议您定期清除存储在您浏览器中的cookies，以防止所收集的信息不会从 <strong>SIZEBAY</strong> 数据库以及其他访问的站点中删除。</p></span><div><img src=https://static.sizebay.technology/assets/icons/security.svg /> <img src=https://static.sizebay.technology/assets/icons/http.svg /></div>",
+      "title": "SIZEBAY 如何保护您的数据？"
+    }
+  },
+  "garment_measures_info": {
+    "shaft_height": "从脚跟底部测量到鞋筒顶部。",
+    "shoulder_length": "从一侧袖缝到另一侧袖缝的宽度，位于衣服的背面。",
+    "full_body_length": "从顶缝量到全身衣物的底边。",
+    "hem": "部件底部的宽度",
+    "back_length": "从领口到上衣下摆测量，从背面开始。",
+    "lower_waist_width": "低腰服装的腰带宽度",
+    "hip_circumference": "服装的宽度，在腰带下方约20厘米处，乘以二。",
+    "palm_length": "从手腕量到中指尖。",
+    "calf_circumference": "靴筒上部的测量，通常在小腿最宽处。",
+    "head_circumference": "测量帽子内侧头部接触的地方。",
+    "sleeve": "从袖子开始的内缝处测量到袖口的末端。",
+    "waist_width": "上衣最窄部分的宽度，在腋下和下摆之间。",
+    "thigh_width": "大腿最宽部分的宽度",
+    "waistband_circumference": "衣物上部开口的测量。",
+    "circumference": "通常通过将宽度乘以2来测量一块物品的周长。",
+    "lower_waist_circumference": "服装的宽度，位于自然腰线下方，乘以二。",
+    "high_waist_width": "高腰服装的腰带宽度。",
+    "chest_circumference": "上衣宽度的测量，从一侧到另一侧，刚好在腋下方，乘以二。",
+    "waist_circumference": "服装最窄部分的宽度乘以二。",
+    "front_length": "从前面测量从领口到上衣的下摆。",
+    "lower_length": "从腰带到衣服下摆测量，从侧面开始。",
+    "wrist_circumference": "测量袖口开口处适合手腕的周长。",
+    "heel_height": "从跳跃的起点测量到最高点。",
+    "wrist_width": "处理零件的宽度。",
+    "hook": "从腰带顶部测量到裆部缝线。",
+    "thigh_circumference": "测量服装大腿最宽部分的尺寸，位于裤裆下方。",
+    "platform_height": "从鞋子前部的底部测量到鞋底的顶部。",
+    "biceps": "袖宽，约在腋下2.5厘米处。",
+    "insole_width": "测量鞋垫最宽的部分",
+    "brim": "从底部到帽檐的尖端进行测量。",
+    "high_waist_circumference": "测量高腰服装的腰围。",
+    "hip_width": "腰带下20厘米处的宽度。",
+    "length": "从上缝到下摆测量。",
+    "chest_width": "测量上部件的宽度，从一侧到另一侧，位于腋下。",
+    "calf_width": "测量靴筒在小腿高度处的宽度。",
+    "collar": "衬衫领口的宽度，沿脖子底部测量。",
+    "waistband_width": "底部衣物的腰带宽度",
+    "back_hook": "从腰带到裆缝测量服装的背面。",
+    "insole_length": "从鞋垫的后跟尖端测量到脚趾尖端。",
+    "under_bust": "测量上衣的宽度，从一侧到另一侧，在胸部下方，然后乘以二。",
+    "inside_leg": "从裤裆缝测量到裤脚"
+  },
+  "error": {
+    "close": "出口试衣间",
+    "title": "哎呀！出事了！",
+    "options": "您可以通过重新启动配置文件重试或关闭并稍后重试。",
+    "restart": "重新启动个人资料",
+    "description": "别担心，我们已经在调查发生了什么事情，以防止再次发生。"
+  },
+  "recommendation": {
+    "3d_feel": {
+      "lanes": {
+        "large": "太松了",
+        "ideal": "合适",
+        "slightly_loose": "稍松",
+        "loose": "松",
+        "slightly_fit": "略紧",
+        "tight": "舒适",
+        "fit": "紧"
+      },
+      "title_suggested": "最佳选择"
+    },
+    "lanes": {
+      "tight": "舒适",
+      "ideal": "合适",
+      "fit": "紧",
+      "looser": "失败者",
+      "large": "宽",
+      "loose": "松",
+      "tighter": "更紧"
+    },
+    "title_not_suggested": "不推荐",
+    "measurements": {
+      "title": "测量",
+      "conversion": {
+        "title": "尺寸换算"
+      }
+    },
+    "centered_mode": {
+      "controls": {
+        "appearance": "外观",
+        "comfort": "舒适感"
+      },
+      "comfort_map": {
+        "header": "3D图像中的颜色表示服装在您身上的松紧程度"
+      },
+      "tag_info": "3D身体模拟代表了您的个人身体测量和真实的产品合身度。",
+      "measure_name": "在你的{{measureName}}"
+    },
+    "title_suggested": "是最好的选择",
+    "height_warning": {
+      "threshold": {
+        "long": "长",
+        "short": "短"
+      },
+      "message": "对 {{height}} 的人来说太 {{threshold}}"
+    },
+    "shoe": {
+      "insoleLength": "长度",
+      "insoleWidth": "宽度"
+    },
+    "subtitle": "请参见下面的舒适级别",
+    "subtitle_shoe": "根据您的 {{brandName}} 尺码 {{size}}",
+    "title_also_fits": "也适合",
+    "carousel_also_try": "也试试这些尺码:"
+  },
+  "product_comparison": {
+    "elements": {
+      "edit": "编辑",
+      "foot_format": "脚形",
+      "category": "类别",
+      "brand": "品牌",
+      "size": "尺码"
+    },
+    "title": "产品比较",
+    "subtitle": "这是用于推荐尺码的资料。"
+  },
+  "warnings": {
+    "age_group": {
+      "age_group": "{{ageGroup}} 产品",
+      "limit_reached": "个人资料的数量已达到其限制。删除一个个人资料以添加新的。",
+      "subtitle": "产品的年龄范围与 {{profileName}} 个人资料的年龄不匹配。选择或添加个人资料以继续。",
+      "prompt_message": "你也想试试 ({{ ageGroup }}) 部分的衣服吗？"
+    },
+    "we_need_more_measures": {
+      "subtitle": "我们无法为您计算尺寸。请调整以下的尺寸或返回查看所通知的数据。",
+      "title": "输入您的尺寸"
+    },
+    "unmatched_gender": {
+      "choose_a_profile": "选择您要的个人资料",
+      "select_profile": "不，选择另一个个人资料",
+      "tooltip": "此个人资料不适合所选的产品类型",
+      "title": "你也想试试 {{gender}} 部分的衣服吗？",
+      "create_profile": "不，创造另一个个人资料"
+    }
+  },
+  "brands_list": {
+    "search_question": "您通常穿什么品牌？",
+    "not_found": {
+      "title": "我们找不到这个名字的品牌",
+      "subtitle": "尝试再次搜索是否更正任何拼写错误。"
+    },
+    "subtitle": "在几个问题之后，我们将帮助您选择最佳鞋码。",
+    "title": "虚拟试衣间",
+    "search_placeholder": "在此处输入并搜索您的品牌",
+    "title_restricted": "您有没有穿我们的鞋子？\n"
+  },
+  "age_group": {
+    "adult": "成人",
+    "kids": "小孩"
+  },
+  "a11y": {
+    "Chart": {
+      "vfr_button": "按空格键进入虚拟试衣间",
+      "step_blocks": {
+        "table": {
+          "measure_description": "这是{{size}}尺寸，在{{measureName}}上应为{{measure}}"
+        },
+        "switcher": {
+          "instruction_press_space": "按空格键切换数值",
+          "option": "您当前的数值是 {{value}}"
+        }
+      },
+      "greeting": "这是尺码表",
+      "size_system": {
+        "instruction": "您当前的尺码系统是{{sizeSystem}}。按空格键选择其他选项。"
+      },
+      "instruction": "在这里，您可以将您的测量值与我们图表中列出的数值进行比较"
+    },
+    "shoe": {
+      "Brands": {
+        "highlighted": {
+          "edit_negative": "如果你没有穿这些品牌，请按空格键",
+          "edit_action": "按空格键以继续选择的品牌",
+          "instruction": "按空格键以继续使用{{brandName}}"
+        },
+        "restricted": {
+          "greeting": "欢迎来到受限品牌鞋子试穿室。请选择一个你已经穿过的鞋子品牌"
+        }
+      },
+      "FootSize": {
+        "instruction": "按空格键选择{{ sizeSystem }}尺码系统"
+      },
+      "EditData": {
+        "greeting": "您可以在这里修改您发送给我们的脚部和鞋子信息"
+      },
+      "FootFormat": {
+        "instruction": "选择一个脚型。",
+        "edit_action": "按空格键选择{{ shoeFormat }}"
+      }
+    },
+    "drawer": {
+      "measurement_tape_header": "胶带",
+      "measurement_tape_handle": "卷尺。按空格键访问卷尺",
+      "close_group_handle": "按空格键关闭该组",
+      "measurement_tape_print_button": "按空格键打开测量尺"
+    },
+    "clothes": {
+      "Welcome": {
+        "step_blocks": {
+          "gender": {
+            "question": "请选择性别以继续。您当前的性别是{{gender}}"
+          },
+          "age": {
+            "tooltip": "按空格键阅读更多关于年龄如何影响推荐的信息"
+          },
+          "height": {
+            "question": "在此输入您的身高（{{measurementSystem}}）。"
+          }
+        }
+      },
+      "ProfilesMenu": {
+        "blocks": {
+          "greeting": "这些是您在虚拟试衣间中的所有个人资料",
+          "edit": "在这里，您可以选择添加或移除配置文件"
+        },
+        "chip": {
+          "message": "按空格键以查看更多您的{{profileName}}个人资料的详细信息"
+        }
+      },
+      "Recommendation": {
+        "lane": "{{ size }} 尺寸在 {{ measureName }} 上为 {{ label }}",
+        "carousel_instruction": "在这里查看更多尺寸选项"
+      },
+      "measures": {
+        "edit": "按箭头键增加或减少{{measureName}}指标",
+        "read": "您的{{measureName}}在{{measureSystem}}中测量为{{measureValue}}"
+      }
+    },
+    "generics": {
+      "welcome": "欢迎来到虚拟试衣间"
+    }
+  },
+  "welcome": {
+    "age_disclaimer": "體型隨著年齡的增長而變化，這會影響我們的計算。",
+    "gender_f_kids": "女性化",
+    "title": "虚拟试衣间",
+    "gender_m_kids": "男性",
+    "foot_measurement_known": "我已经知道我的脚尺寸",
+    "gender_m": "男性",
+    "shoe_measure": "脚长",
+    "gender_f": "女性",
+    "gender_u": "中性",
+    "subtitle": "请填写详细信息以试用此产品"
+  },
+  "edit_measures": {
+    "view_less": "查看更少的测量值",
+    "view_all": "查看更多尺寸"
+  },
+  "drawers": {
+    "manage": {
+      "actions": {
+        "select": "选择",
+        "delete": "删除"
+      },
+      "active_profile": {
+        "details_shoe": "{{brandName}} 尺码 {{size}}",
+        "no_name": "输入名字",
+        "delete": "删除个人资料"
+      },
+      "new_profile": {
+        "input_example": "例子：李四",
+        "title": "添加个人资料",
+        "subtitle": "为此个人资料输入名字"
+      }
+    },
+    "knobs": {
+      "kids_shoes_tips": "尺码提示",
+      "garment_info": "服装尺寸",
+      "size_content": "风格指南",
+      "measurement_tape": "捲尺",
+      "product_info": "身体测量",
+      "size_hint_promo": "完成促销",
+      "size_hint": "建议",
+      "sizes_conversions": "尺寸转换"
+    },
+    "kids_shoes_title": "关于儿童脚和鞋子的提示和指南",
+    "kids_shoes_button": "了解",
+    "kids_shoes_message": "孩子的脚每 2 到 4 个月就会变大一半。由于这种快速增长，我们建议您为孩子选择稍微宽松的尺码，这样鞋子会穿得更久，而且不会夹到他们的脚，因为他们的脚会快速发育。"
+  },
+  "landscape_vertical_subtitle": "将您的设备直立放置以开始使用",
+  "coppa_gate": {
+    "close": "不，我未满 13 岁",
+    "confirm": "是的，我是监护人",
+    "prompt_title_months": "您是 {{ months }} 个月大的孩子的父母或监护人吗？",
+    "message": "如果您是创建此个人资料为您的孩子试用产品的成年人，您可以继续试用此产品。",
+    "prompt_title_years": "您是 {{ years }} 岁孩子的父母或监护人吗？",
+    "title": "年龄验证"
+  },
+  "fetching": {
+    "subtitle": "我们正在计算测量结果以生成理想的尺寸建议",
+    "title": "快好了！",
+    "shoe": {
+      "success": "计算完成！",
+      "calculating": "计算你的测量值",
+      "analyzing": "分析你的答案"
+    }
+  },
+  "landscape_subtitle": "水平握住手机开始",
+  "measurement_tape": {
+    "link_download": {
+      "in": "//static.sizebay.technology/assets/measurement_tape/measurement_tape_in_zh.pdf",
+      "cm": "//static.sizebay.technology/assets/measurement_tape/measurement_tape_cm_zh.pdf"
+    },
+    "title": "卷尺",
+    "message": "打印，切割和组装这个卷尺来检查您的尺寸。",
+    "print": "卷尺",
+    "print_mobile": "打印卷尺",
+    "download": {
+      "file": {
+        "title": "打印和设置卷尺的说明",
+        "fold-and-rotate": "折叠和旋转",
+        "how-to-do": "打印：\n打印之前，请确保已禁用打印对话框中的“适合页面”选项，以便打印机不会减小或增大卷尺的尺寸。\n\n裁切：\n使用剪刀或电笔，剪下所有用“剪刀”表示的连续黑线，以创建卷尺。\n\n组装：\n将虚线连接起来，折叠并旋转末端（如印刷图所示），直到组装好一条卷尺。\n\n固定折叠：\n组装后，用胶水、胶带或订书机固定卷尺的折叠处。"
+      }
+    }
+  },
+  "foot_size": {
+    "select_region": "选择地区：",
+    "not_selected": "确保选择尺寸才能继续",
+    "title": "你的鞋码是多少",
+    "pattern": "{{region}} 系统",
+    "subtitle": "选择您的尺寸"
+  },
+  "child_name": {
+    "name": "姓名",
+    "title": "你能告诉我们你孩子的名字吗？",
+    "subtitle": "这有助于我们为试衣间创建配置文件"
+  },
+  "size_hint": {
+    "title": "我们挑选了一些适合您的产品",
+    "discount-original-price": "正常价格：<span class='size-hint__discount-original-price discount-description-price'>{{ price }}</span> <span class='size-hint__discount-percentage'>-{{discount }}%</span>",
+    "discount-lowest-price": "降价前30天最低价：<span class='size-hint__discount-lowest-price discount-description-price'>{{ price }}</span> <span class='size-hint__discount-percentage'>-{{ discount }}%</span>",
+    "title_promo": "完成促销",
+    "try_now": "现在就试试"
+  },
+  "size_tailor": {
+    "action_button": "我们为您定制",
+    "title": "定制产品",
+    "description": "确认您的身体尺寸，以便我们开发您的定制产品。"
+  },
+  "miscellaneous": {
+    "hannaLinks": {
+      "recommendation": "返回我的结果",
+      "welcome": "返回"
+    }
+  },
+  "measure_shape": {
+    "shape_bigger": "更大",
+    "shape_smaller": "更小",
+    "skin_types": {
+      "toggle": "改变肤色"
+    },
+    "subtitle": "这是我们根据您的测量结果生成的近似体型。仅在必要时进行调整。",
+    "measure_range": {
+      "1": "小得多",
+      "2": "较小",
+      "3": "平均的",
+      "4": "较大",
+      "5": "更大"
+    },
+    "shape_regular": "正常",
+    "title": "调整体型"
+  },
+  "calculating": {
+    "subtitle": "查看尺寸并",
+    "circle_title_loading": "加载。。。",
+    "circle_title_completed": "准备好！",
+    "title": "完成计算！"
+  },
+  "brands_grid": {
+    "subtitle": "你通常穿哪个品牌？",
+    "unique_brand": "您已经穿了 {{brandName }} 鞋了吗？",
+    "search_other_brands": "寻找另一个品牌"
+  },
+  "modals": {
+    "remove_profile": {
+      "title_alt": "您确定要删除此个人资料吗？",
+      "title": "删除 {{profileName}} 个人资料?",
+      "action": "删除个人资料",
+      "confirm": "删除个人资料"
+    }
+  },
+  "no_recommendation": {
+    "expected_size": "推荐的尺码是 {{recommendedSize}}。",
+    "title_shoe": "不幸的是，目前我们店里没有这种型号和尺码。",
+    "based_on": "您可以编辑您的信息再试一次",
+    "calculate_again": "重新计算",
+    "title": "您的尺码目前不可用",
+    "subtitle": "我们找不到以下尺寸的尺码。必要的话，进行调整。"
+  },
+  "accessory": {
+    "welcome": {
+      "subtitle": "要试用此产品，请按照说明进行测量并告知相应的编号",
+      "shoe": {
+        "subtitle": "按照我们关于如何测量自己的指导，在下面选择您的脚尺寸"
+      }
+    },
+    "bike": {
+      "recommendation": {
+        "title_suggested": "我们推荐的自行车尺寸最适合您的表现和姿势。不要太高也不要太矮，你将能够舒适地骑自行车。",
+        "subtitle": "根据你的身高",
+        "title_also_fits": "我们推荐的自行车尺寸最适合您的表现和姿势。不要太高也不要太矮，你将能够舒适地骑自行车。",
+        "title_not_suggested": "我们推荐的自行车尺寸最适合您的表现和姿势。不要太高也不要太矮，你将能够舒适地骑自行车。"
+      }
+    },
+    "shoe_size": {
+      "subtitle": "要试用此产品，请根据您的脚长选择尺码"
+    }
+  },
+  "foot_format": {
+    "formats": {
+      "0": {
+        "description": "窄脚通常在鞋的两侧有额外的空间。",
+        "title": "狭窄"
+      },
+      "1": {
+        "title": "中等",
+        "description": "中等脚通常适合大多数鞋子。"
+      },
+      "2": {
+        "title": "宽广",
+        "description": "脚宽与鞋长匹配，但侧面感觉紧。"
+      }
+    },
+    "subtitle": "选择您的脚宽以改善贴合度。",
+    "title": "脚型"
+  },
+  "landscape_warning": {
+    "title": "虚拟试衣间"
+  },
+  "my_measures": {
+    "title": "我的尺寸",
+    "subtitle": "根据需要调整测尺寸"
+  },
+  "subcategory": {
+    "subtitle": "选择您平时穿的<strong>{{brandName}}</strong>鞋子类型",
+    "title": "你穿什么样的{{categoryName}}？"
+  },
+  "model": {
+    "title": "你穿什么样的{{composedName}}？",
+    "subtitle": "选择您平时穿的<strong>{{brandName}}</strong>鞋子的型号"
+  },
+  "landscape_horizontal_subtitle": "将设备水平放置即可开始使用",
+  "category": {
+    "subtitle": "从下面的列表中选择一种与您的 <strong>{{brandName}}</strong> 鞋子最相似的类型",
+    "title": "你的鞋子是什么类型的？"
+  },
+  "header": {
+    "title": "Fit Finder"
+  }
+}

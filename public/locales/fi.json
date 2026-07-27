@@ -1,0 +1,953 @@
+{
+  "shoe_size": {
+    "fit_loose": "Irrallinen",
+    "shoe_accessory": {
+      "no_recommendation": {
+        "subtitle": "Emme löytäneet kokoa alla oleville mitoille. Säädä tarvittaessa.",
+        "title": "Emme löytäneet kokoa"
+      },
+      "all_measures": {
+        "measurements_guide": "Mittausopas [PDF]",
+        "title": "Mikä on jalkasi koko?"
+      },
+      "info_drawer_subtitle": "Kerro meille vähän itsestäsi löytääksesi parhaan kenkäkoon?"
+    },
+    "recommendation": "Perustuen tietoihisi, tämä on jalkasi mitta. Säädä tarvittaessa:",
+    "foot_shape_question": "Minkä muotoinen jalkasi on?",
+    "title": "Mikä on jalkasi pituus?",
+    "drawer_title": "Kuinka pitkät jalkasi ovat",
+    "subtitle": {
+      "0": "Kerro meille hieman itsestäsi löytääksesi parhaan kenkäkoon",
+      "box": {
+        "subtitle": "Aseta paperiarkki lattialle seinää vasten. Seiso kantapää paperilla ja seinällä. Merkitse pisimmän varpaasi kärki ja mittaa sitten etäisyys.",
+        "title": "Kuinka mittaat jalkasi oikein"
+      }
+    },
+    "fit_description_ideal": "Varpaiden ja kengän välillä on <strong>pieni tila</strong>.",
+    "length_example": "Pue jalkaasi <strong>{{brandName}}</strong> koossa <strong>{{size}}</strong> ja kerro meille, miltä pituus tuntuu jaloissasi.",
+    "fit_tight": "Mukava",
+    "fit_ideal": "Sopiva",
+    "open_drawer_button": "Kuinka mitata itseäsi",
+    "fit_description_loose": "Varpaiden ja kengän välillä on <strong>paljon tilaa</strong>.",
+    "shoe_accessory_subtitle": "Valitse jalkasi mitta alta ohjeidemme mukaisesti\nmiten mittaat itsesi.",
+    "drawer_button": "Sain sen",
+    "fit_description_tight": "Kenkä koskettaa varpaitasi <strong>ilman tilaa</strong>.",
+    "length_question": "Miten kenkäsi sopii pituudeltaan?"
+  },
+  "footer": {
+    "add_to_cart_mobile_2": "Lisää ostoskoriin",
+    "confirm": "Vahvistaa",
+    "none_of_those": "Mikään niistä",
+    "save_measures": "Säästä toimenpiteet",
+    "view_recommendation": "Katso suositus",
+    "print_measurement_tape": "Tulostusmittanauha",
+    "virtual_fitting_room": "Virtuaalinen sovitushuone",
+    "info_box": "Valitse Mukautettu koko, jos haluat räätälöidä takkisi vartalonmittojen mukaan",
+    "yes": "Kyllä",
+    "add_to_cart": "Lisää ostoskoriin",
+    "brand_not_found": "En löytänyt tuotemerkkiä",
+    "proceed": "Jatkaa",
+    "edit_data": "Muokata tietoja",
+    "not_yet": "En vielä",
+    "cancel_alt": "Ei, peruuta",
+    "next": "Seuraava",
+    "cancel": "Peruuta",
+    "by-sizebay": "by Sizebay®",
+    "sure": "Tietysti!",
+    "add_profile": "Luo profiili",
+    "create_new_profile": "Luo uusi profiili",
+    "restart": "Uudelleenkäynnistä",
+    "close": "Sulje",
+    "select_another_profile": "Valitse toinen profiili",
+    "continue_without_brand": "En löytänyt merkkiä",
+    "unsure": "en ole varma",
+    "save": "Tallenna",
+    "edit_measures": "Muokata tietoja",
+    "proceed_anyway": "Jatka joka tapauksessa",
+    "edit_profile": "Muokata profiileja",
+    "add_to_cart_mobile": "Ostaa",
+    "back": "Takaisin"
+  },
+  "composed_measures": {
+    "welcome": {
+      "link_tooltip": "{{suffix}} {{measureName}} leveys.",
+      "item_text": "Minun {{measureName}} on {{range}} {{sizeSystem}} leveä",
+      "measures_range_item": "{{initialRange}} - {{finalRange}}",
+      "tooltip_text": "Napsauta valitaksesi toisen koon",
+      "tooltip_instructions": "Napsauta tästä oppiaksesi ottamaan {{measureName}} mittauksen",
+      "height": {
+        "item_text": "Olen {{range}} {{sizeSystem}} pitkä",
+        "link_tooltip": "kuinka pitkä olet",
+        "title": "Kuinka pitkä olet?",
+        "instructions": "Meidän tarvitsee tietää sinun <b>pituutesi</b> näyttääksemme sinulle mahdolliset suositukset sinun mukaan"
+      },
+      "title": "Mikä on {{suffix}} {{measureName}} mitta?",
+      "instructions": "Kuinka leveä on {{suffix}} <b>{{measureName}}</b>? Meidän on tiedettävä {{suffix}} {{measureName}} koko näyttääksemme sinulle mahdolliset suositukset "
+    },
+    "height": {
+      "title": "Kuinka pitkä olet?",
+      "link_tooltip": "näyttääksesi pituutesi"
+    },
+    "table": {
+      "helper_height": "Tämä korkeus on {{range}} {{sizeSystem}} korkea. Onko tämä mitta epätarkka?",
+      "tooltip_change": "Muuta tässä.",
+      "helper": "Tämä {{measureName}} on {{range}} {{sizeSystem}} pitkä. Onko tämä mitta epätarkka?",
+      "title": "Nämä ovat mahdolliset koot <span>{{range}}</span> {{measureName}} varten",
+      "vfr_tooltip": "Onko sinulla mitat? Mikset kokeilisi löytää kokoasi virtuaalisessa sovitushuoneessa?"
+    }
+  },
+  "body_measurements": {
+    "diameter": "HALKAISIJA",
+    "collar": "Kaulus",
+    "length": "Osan pituus",
+    "centralSeam": "Koukku",
+    "weightChart": "Paino",
+    "width": "Leveys",
+    "waistUpper": "Korkea vyötärö",
+    "weight": "Paino",
+    "circumference": "Ympärysmitta",
+    "insoleLength": "Jalan pituus",
+    "label1": "Koko (USA)",
+    "sleve": "Hihan pituus",
+    "waist": "Vyötärö",
+    "chest_m": "Rinta",
+    "chest_f": "Rinnanympärys",
+    "neck": "Kaulan ympärys",
+    "comfort": "Mukavuus",
+    "sleeve": "Käsivarsi",
+    "thigh": "Reide",
+    "headCircumference": "Pää",
+    "hip": "Lantio",
+    "shoulderWidth": "Olkapäästä olkapäähän",
+    "waistLower": "Matala vyötärö",
+    "wrist": "Ranne",
+    "palm": "Kämmen",
+    "bar": "Helma",
+    "chest": "Rinta ",
+    "lowerLength": "Alempi pituus",
+    "finger_circumference": "YMPÄRYSMITTA",
+    "insoleWidth": "Jalan leveys",
+    "height": "Pituus",
+    "ageChart": "Ikä",
+    "underBust": "Rinnan alta",
+    "insideLeg": "Jalan sisämitta",
+    "biceps": "Hauislihas",
+    "calf": "Vasikka",
+    "fist": "Nyrkki\n",
+    "fullBodyLength": "Koko vartalon pituus"
+  },
+  "measures_info": {
+    "insideLeg": "Mittaa jalan sisäinen etäisyys pubista jalkapohjiin.",
+    "fullBodyLength": "Mittaa etäisyys hartioistasi lattiaan.",
+    "weightChart": "Mikä on painosi?\n",
+    "waistUpper": "Mittaa vyötärön kehä navan yläpuolella.\n",
+    "insoleLength": "Aseta paperiarkki lattialle seinää vasten. Seiso kantapää paperilla ja seinällä. Merkitse pisimmän varpaasi kärki ja mittaa sitten etäisyys.",
+    "biceps": "Piirrä mittanauha käsivarren keskeltä ja tunnista sen levein osa.\n",
+    "height": "Tämä on helppo. Seiso suorassa ja mittaa pituutesi päälaelta kantapäähän.",
+    "width": "Mittaa leveys vaatteistasi",
+    "weight": "Painosi.\n",
+    "sleeve": "Taivuta hieman käsivarttasi, mittaa olkapään ja ranteen välinen etäisyys asettamalla mittanauha kyynärpään taakse.",
+    "neck": "Mittaa kaulanympäryksesi varoen mittanauhalla. Käytä peiliä apunasi.",
+    "collar": "Mittaa niskasi ympäriltä juuri kauluksesi yläpuolelta ja aseta yksi sormi teipin ja kaulan väliin.",
+    "chest": "Piirrä rinta tai rinta (rinta-alue) mittanauhalla ja hengitä normaalisti. Huomaa variaatiot hengitettäessä ja tallenna eniten lukuja.\n",
+    "ageChart": "Kuinka vanha olet?\n",
+    "circumference": "Ota ympärysmitta vaatteistasi",
+    "length_botton": "Sijoita mittanauhan alku kehon korkeimpaan kohtaan, missä vaatteet ovat. Vapauta loput nauha ja merkitse mittaus.\n",
+    "waist": "Asetu peilin eteen vyötärösi selvästi näkyvillä. Kallista vartaloa hieman sivulle nähdäksesi vyötärön luonnollisen sijainnin. Kierrä mittanauha vyötärösi ympärille.",
+    "footLength": "Seiso tasaisella pinnalla ja aseta kantapää tukevasti seinää vasten. Mittaa jalan pisin osa (kantapäästä varpaisiin) mitalla.",
+    "lowerLength": "Tämä on lantion ja lattian välinen etäisyys.",
+    "chest_m": "Aseta mittanauha rintasi ympärille ja hengitä normaalisti. Huomaa luontaiset variaatiot hengitettäessä ja tallenna korkein luku.",
+    "chest_f": "Aseta mittanauha rinnanympärille ja hengitä normaalisti. Huomaa luontaiset variaatiot hengitettäessä ja tallenna korkein luku.",
+    "palm": "Aseta viivain tasaiselle pinnalle, taivuta kättäsi, aseta hallitsevan kätesi vasen puoli viivaimen nollapisteeseen ja ota huomioon käden ulottuvuus.",
+    "waistLower": "Mittaa vyötärön kehä navan alapuolella, missä vyötärönauha (matala vyötärö) sopii yleensä.\n",
+    "thigh": "Piirrä mittanauha reiteen leveimmän osan ympärille, joka sijaitsee juuri pakaran alapuolella.\n",
+    "underBust": "Aseta mittanauha rintojen alle ja hengitä normaalisti. Huomaa luontaiset variaatiot hengitettäessä ja tallenna korkein luku.",
+    "bar": "Ota vaatteesi helman mitta",
+    "insoleWidth": "Poista hyvin sopivan kengän pohjallinen ja mittaa pohjallisen leveys kuvan osoittamalla tavalla.\n",
+    "headCircumference": "Mittaa pään ympärys (korvien yläpuolelta) mittanauhalla.\n",
+    "wrist": "Piirrä mittanauha ranteesi ympärille, kohtaan, johon esimerkiksi asetat kellon.",
+    "hip": "Vyötärön ympärysmitta leveimmästä kohdasta mitattuna.",
+    "diameter": "Mittaa renkaan sisärenkaan halkaisija, jota käytät samalla sormella samasta kädestä, jossa haluat käyttää tätä tuotetta",
+    "length": "Mittaa etäisyys vartaloasi yläosan (niskaan liittyvän) ja matalan vyötärön (juuri vatsasi alapuolella) välillä vatsasi.\n",
+    "fist": "Piirrä mittanauha ranteesi ympärille, kohtaan, johon esimerkiksi asetat kellon.",
+    "calf": "Istu tuolille ja pidä jalkasi maassa, taivuta jalkasi 90 astetta. Kun mittanauha on pohkeen sivulla, ota mitta jalan tyvestä polven poimulle.",
+    "shoulderWidth": "Mittaa toisen ihmisen avulla hartioiden päiden välinen etäisyys kuvan osoittamalla tavalla.\n",
+    "ring": "Sido ohut naru saman sormen ympärille, jota haluat käyttää tässä tuotteessa, merkitse narun risteys ja mittaa pituus saadaksesi ympärysmitan",
+    "centralSeam": "Istuen tasaiselle pinnalle, mittaa vyötärön ja pinnan välinen etäisyys mittanauhalla\n"
+  },
+  "privacy": {
+    "services": {
+      "anchor": "Sizebay-palvelut",
+      "text": "<p>SIZEBAY:n palvelut ovat saatavilla verkkokauppa-alustalla ohjelmistona palveluna (SaaS), mikä tarkoittaa, että SIZEBAY myöntää verkkokaupalle luvan ohjelmiston käyttöön.</p>",
+      "title": "Miten SIZEBAY tarjoaa palvelunsa saataville?"
+    },
+    "clear_data": {
+      "button": {
+        "initial": "Tyhjennä kaikki tiedot",
+        "cleared": "puhdas!",
+        "cleaning": "Siivota..."
+      },
+      "title": "Evästeiden puhdistus",
+      "tooltip": "Tietosi on pyyhitty!",
+      "text": "Napsauta alla olevaa painiketta, jos haluat tyhjentää kaikki Sizebayn tallentamat selaustietosi, välimuistisi ja evästeet."
+    },
+    "contact": {
+      "title": "Epäselvissä tapauksissa miten ottaa yhteyttä?",
+      "text": "<p>Jos sinulla on kysyttävää SIZEBAY:n käytännöistä tai siitä, kuinka voit käyttää oikeuksiasi tietojen omistajana, ota yhteyttä SIZEBAY:n tietosuojavastaavaan (DPO):<br><br>Janderson Roberto Araujo<br>Osoite: R. Blumenau, 953 – Sala 402 – América, Joinville – SC, 89204-251 – Brasilia.<br>Puhelin: +55 48 4042-0150<br>Sähköposti: <a href='mailto:privacy@sizebay.com' target='_blank'>privacy@sizebay.com</a></p><br><a href='https://sizebay.com/pt/legal/' target='_blank'><strong>Katso lisää käytäntöjä</strong></a>"
+    },
+    "data_protection": {
+      "anchor": "Datan suojelu",
+      "title": "Miten SIZEBAY suojaa tietojaan?",
+      "text": "<p>SIZEBAY pitää asiakkaidensa, käyttäjiensä ja vierailijoidensa tietojen luottamuksellisuutta ja turvallisuutta erittäin tärkeänä. siksi se käyttää salaus- ja palomuuritekniikkaa ja tekee kaikkensa varmistaakseen tietojesi suojan.</p><p>Suosittelemme, että puhdistat käyttämääsi selaimeen tallennetut evästeet säännöllisesti, jotta estääksesi kerättyjen tietojen poistamisen SIZEBAY-tietokannasta sekä muilta avatuilta verkkosivustoilta.</p>"
+    },
+    "how_data_is_collected": {
+      "text": "<p>Tiedonkeruu suoritetaan, kun käyttäjä antaa tietoja käyttäessään Virtual Fitting Room- ja Fit & Size Chart -palveluita tai evästeiden avulla, kun käyttäjä käyttää SIZEBAY-sovellusta tai verkkosivustoa.</p>",
+      "title": "Miten SIZEBAY kerää tietoja?"
+    },
+    "users_obligations": {
+      "anchor": "Käyttäjien velvollisuudet",
+      "title": "Mitkä ovat käyttäjän velvollisuudet?",
+      "text": "<p>Sovelluskäyttäjät sitoutuvat käyttämään SIZEBAY:n palveluita noudattaen ja noudattaen aina käytäntöjä sekä voimassa olevaa lainsäädäntöä, tullia, yleistä järjestystä ja alustan käyttöä ja hyväksymistä koskevia pakollisia vaatimuksia.</p>"
+    },
+    "data_collected": {
+      "title": "Mitä tietoja SIZEBAY kerää?",
+      "text": "<p>Palvelunsa tarjoamiseksi SIZEBAY voi kerätä profiilitietoja, kuten lempinimen (valinnainen), iän, sukupuolen, pituuden, painon, anatomisen profiilin ja kehon mittoja. Lisäksi voidaan kerätä pääsylokitietoja ja evästetietoja käyttökokemuksen parantamiseksi ja sovelluksen käytön helpottamiseksi ilman, että käyttäjän tarvitsee toimittaa uudelleen tietoja, jotka käyttäjä on jo ilmoittanut toisen tuotteen oston tai analysoinnin yhteydessä.< /p><p>SIZEBAY pystyy myös keräämään tietoja verkkokaupassa tehdystä ostotilauksesta analysoidakseen suositeltua kokoa ja tosiasiallisesti ostettua kokoa, mikä parantaa vaatteiden kokosuosituksiin saatavilla olevia palveluita ja kenkiä. </p><p>Selvennämme, että SIZEBAY-sovellus koskee käyttäjiensä yksityisyyttä, joten palvelut on kehitetty siten, että tiedonkeruu tapahtuu ilman, että tietojen omistajia on mahdollista tunnistaa.</p >",
+      "anchor": "Kerätyt tiedot"
+    },
+    "how_it_works": {
+      "anchor": "Kuinka se toimii?",
+      "title": "Kuinka pääsy virtuaaliseen sovitushuoneeseen ja istuvuus- ja kokotaulukkoon toimii?",
+      "text": "<p>Palveluiden käyttäminen ei edellytä käyttäjän rekisteröitymistä SIZEBAY-alustalle. Istuvuus- ja kokotaulukko on käytettävissä, ja virtuaalisen sovitushuoneen käyttäminen edellyttää, että käyttäjä täyttää joitakin perustietoja hakemusta varten, jotta hän voi tehdä suosituksen vaatteista ja kengän koosta.</p><p>Luo SIZEBAY-sovelluksen profiili ei edellytä käyttäjää käyttämään etu- tai sukunimeään, ja se voi jopa täyttää kuvitteellisia tietoja, jos hän on kiinnostunut säilyttämään yksityisyytensä edelleen.</p><p>Alaikäiset eivät voi käyttää hakemus, elleivät heidän vanhempansa tai huoltajansa edusta ja/tai avusta heitä.</p>"
+    },
+    "title": "Tietosuojakäytäntö",
+    "overview": {
+      "title": "Mitä käyttöehdot ja tietosuojakäytäntö koskevat?",
+      "text": "<p>SIZEBAYN KÄYTTÖEHDOT on tarkoitettu säätelemään: (i) SIZEBAY:n tarjoamien palvelujen käyttöä asiakkaidensa verkkokauppaalustan kautta sekä (ii) pääsyä ja sisältöä, joka on saatavilla SIZEBAY:n verkkosivusto, (iii) alustan ja verkkosivuston käyttäjät, vierailijat ja asiakkaat velvollisuudet sovelluksen käytön tai SIZEBAY:n verkkosivuston käytön aikana, (iv) osapuolten vastuulla.</p><p><strong> TIETOSUOJAKÄYTÄNTÖ</strong> pyrkii selventämään, kuinka SIZEBAY käsittelee tietojenkäsittelyä sovelluksensa ja verkkosivustonsa käytön ja pääsyn aikana, myös haltijan oikeudet ja se, kuinka he voivat käyttää niitä SIZEBAY:n kanssa, selvennetään.</p><p>Käytössä ja Käyttämällä virtuaalista sovitushuonetta ja istuvuus- ja kokotaulukkoa hyväksyt SIZEBAY:n säännöt. Pääset kaikkiin SIZEBAY-käytäntöihin linkistä.</p><p><strong>Alla on yhteenveto tärkeimmistä tiedoista:</strong></p>",
+      "anchor": "Yksityisyys"
+    },
+    "share_data": {
+      "text": "<p>Tietojen jakaminen voidaan aina toteuttaa paremman verkkokauppakokemuksen mahdollistamiseksi tai sovelluksen toimimiseksi, jolloin se voidaan suorittaa asiakkaiden, liikekumppaneiden, palveluntarjoajien, alihankkijoiden, vaatteiden ja jalkineiden kanssa tuotteiden valmistajat.</p>",
+      "title": "Kenen kanssa SIZEBAY voi jakaa tietoja?"
+    }
+  },
+  "product_not_found": {
+    "report_status": {
+      "sending": "Ilmoitus...",
+      "sent": "Kiitos!",
+      "not_sending": "Ilmoita meille",
+      "not_sent": "Ilmoita meille"
+    },
+    "description": "Meillä ei vieläkään ole tarpeeksi tietoa tästä tuotteesta suositellaksemme sitä.",
+    "title": "Voi ei!"
+  },
+  "languages": {
+    "all_langs": {
+      "fr": "Ranskan kieli",
+      "et": "Virolainen",
+      "es": "Espanja",
+      "en": "Englanti",
+      "fi": "Suomalainen",
+      "dk": "Tanskan kieli",
+      "cn": "Kiinalainen",
+      "de": "Saksan kieli",
+      "cz": "Tšekki",
+      "br": "Portugalin kieli",
+      "ar": "arabialainen",
+      "bg": "bulgarialainen",
+      "mx": "Espanja",
+      "no": "Norjan kieli",
+      "nl": "Hollannin kieli",
+      "lt": "liettualainen",
+      "lv": "Latvialainen",
+      "jp": "japanilainen",
+      "ko": "Korealainen",
+      "it": "italialainen",
+      "hu": "Unkarin kieli",
+      "hr": "Kroatia",
+      "id": "Indonesia",
+      "gr": "kreikkalainen",
+      "he": "Heprealainen",
+      "vn": "vietnam",
+      "uk": "Englanti",
+      "th": "thaimaalainen",
+      "tr": "turkkilainen",
+      "sr": "serbia",
+      "sv": "Ruotsin kieli",
+      "sl": "slovenialainen",
+      "sk": "Slovakian",
+      "ru": "Venäjän kieli",
+      "ro": "romanialainen",
+      "pt": "Portugalin kieli",
+      "pl": "Kiillottaa",
+      "esAR": "Espanja",
+      "esCT": "espanja (kastilia)",
+      "ukr": "ukrainalainen",
+      "zh": "Kiinalainen"
+    },
+    "select": "Saatavilla olevat kielet: {{langs}}",
+    "box": "Kielivalitsin, käytät kieltä {{currentLang}}"
+  },
+  "garment_measurements": {
+    "hip_width": "Lantion leveys",
+    "thigh_width": "Reiden leveys",
+    "head_circumference": "Päänympärys",
+    "lower_waist_circumference": "Pienempi vyötärön ympärysmitta",
+    "collar": "Kaulus",
+    "waistband_circumference": "Vyötärönympärys",
+    "hip_circumference": "Lantion ympärys",
+    "biceps": "Biceps",
+    "waistband_width": "Vyötärönauhan leveys",
+    "hem": "Hem",
+    "lower_waist_width": "Alaosan vyötärön leveys",
+    "chest_circumference": "Rinnanympärys",
+    "waist_circumference": "Vyötärönympärys",
+    "insole_width": "Pohjallisen leveys",
+    "palm_length": "Kämmenen pituus",
+    "shoulder_length": "Olkamitta",
+    "length": "Pituus",
+    "waist_width": "Vyötärön leveys",
+    "chest_width": "Rinnan leveys",
+    "wrist_width": "Ranteen leveys",
+    "insole_length": "Pohjallisen pituus",
+    "calf_width": "Pohkeen leveys",
+    "heel_height": "Korko Korkeus",
+    "front_length": "Etupituus",
+    "brim": "Reuna",
+    "sleeve": "Hiha",
+    "thigh_circumference": "Reiden ympärysmitta",
+    "inside_leg": "Sisäsauma",
+    "wrist_circumference": "Ranteen ympärysmitta",
+    "high_waist_circumference": "Korkea vyötärönympärys",
+    "shaft_height": "Akselin korkeus",
+    "calf_circumference": "Pohkeen ympärysmitta",
+    "full_body_length": "Koko vartalon pituus",
+    "back_hook": "Takakoukku",
+    "platform_height": "Alustan korkeus",
+    "circumference": "Ympärysmitta",
+    "hook": "Koukku",
+    "lower_length": "Ala Pituus",
+    "under_bust": "Rintojen alapuolella",
+    "high_waist_width": "Korkea vyötärön leveys",
+    "back_length": "Selän pituus"
+  },
+  "regions": {
+    "IT": "italialainen",
+    "HU": "Unkari",
+    "FR": "Ranskan kieli",
+    "MX": "Meksikolainen",
+    "CUSTOM": "Kansainvälinen",
+    "JP": "Japanilainen",
+    "code": {
+      "CUSTOM": "CUSTOM",
+      "US": "US",
+      "UK": "UK",
+      "AU": "AU",
+      "IT": "IT",
+      "MEX": "MEX",
+      "JP": "JP",
+      "FR": "FR",
+      "EU": "EU",
+      "CN": "CN",
+      "BR": "BR",
+      "DE": "DE"
+    },
+    "ES": "Espanja",
+    "EU": "eurooppalainen\n",
+    "DE": "Deutsch",
+    "CN": "Kiinalainen",
+    "AU": "Australialainen",
+    "BR": "Brasilialainen\n",
+    "region": "Alue",
+    "other": "Tuntematon\n",
+    "mx_marti": "Marti",
+    "PT": "Portugalin kieli PT",
+    "letter-br": "Brasilialainen",
+    "US": "amerikkalainen\n",
+    "UK": "brittiläinen\n"
+  },
+  "size_chart": {
+    "subtitle": "Liu'uta vierityspalkkeja nähdäksesi lisää mittoja ja kokoja",
+    "title_web": "Mittauskaavio",
+    "scroll_action": "Liu'uta",
+    "subtitle_mobile": "Pyyhkäise nähdäksesi lisää mittoja ja kokoja",
+    "returns_link": "Lisätietoja vaihto-politiikasta.\n",
+    "returns": "Vielä epävarma? Älä huoli, ensimmäinen vaihto on ilmainen.\n",
+    "title_accessory": "Kokotaulukko tälle asusteelle",
+    "title": "Valitse koko ja tarkista mitat",
+    "instruction_measure": "Katso materiaalimme itsesi mittaamisesta ja vertaa mittojasi tähän taulukkoon.",
+    "title_mobile": "Vertaa pohjallisen kokoa tähän taulukkoon. Katso mittausohjeet vasemmalta kengän vierestä."
+  },
+  "generics": {
+    "disable": "Poista käytöstä",
+    "less_than_year": "<1 vuosi",
+    "profile_tooltip": "Napsauta tätä, kun haluat muokata tietojasi tai lisätä uusia profiileja.\n",
+    "weight": "Paino",
+    "age": "Ikä",
+    "accessibility": "Saavutettavuus",
+    "language": "Kieli",
+    "years": "Vuotta",
+    "female": "Nainen",
+    "size_fit": "Koko",
+    "no_name": "Nimeämätön",
+    "pronoun_female": "Minun",
+    "year": "Vuosi",
+    "suffix_male": "sinun",
+    "months": "Kuukaudet",
+    "size_chart": "Kokotaulukko",
+    "chart": "Kokotaulukko",
+    "closeVfr": "Sulje virtuaalinen sovitushuone",
+    "about": "Tietoa Sizebaysta",
+    "see_how_to_measure": "Katso kuinka mitata",
+    "kg": "Kilogrammat",
+    "assistive_mode": "Aputila {{status}}",
+    "suffix_female": "sinun",
+    "switcher": {
+      "title_chart": "Mitat"
+    },
+    "lb": "Puntaa",
+    "how_to_measure": "Katso kuinka mitata",
+    "unavailable": "--",
+    "other_profiles": "Muut profiilit",
+    "privacy": "Yksityisyys",
+    "ft": "Tuumaa",
+    "pronoun_male": "Minun",
+    "got_it": "Sain sen",
+    "enable": "ota käyttöön",
+    "cm": "Centimetrit",
+    "height": "Pituus",
+    "male_singular": "uros",
+    "uninformed": "Ei tiedotettu",
+    "female_singular": "nainen",
+    "profile": {
+      "title": "Käyttäjäprofiili"
+    },
+    "male": "Mies",
+    "confirm_edit": "OK"
+  },
+  "privacy_v2": {
+    "overview": {
+      "text": "<p>Jotta ymmärrät paremmin käytännöt, jotka säätelevät<strong> SIZEBAYn</strong> kehittämien ratkaisujen käyttöä, olemme laatineet sinulle tämän lyhyen yhteenvedon. Tämä yleiskatsaus ei korvaa käytäntöjen koko sisältöä, joten suosittelemme, että luet sen jälkeen jokaisen asiakirjan huolellisesti.</p><p>SIZEBAY:n <strong>KÄYTTÖEHDOT</strong> on tarkoitettu säätelemään: (i) <strong>SIZEBAY</strong>:n <strong>{{tenantName }} ({{ pageTenant }})</strong> verkkokauppa-alustan kautta tarjoamat palvelut sekä (ii) <a href={{ pageTenant }} target=_blank>SIZEBAY:n</a> verkkosivuston käyttöoikeus ja sisältö, (iii) alustan ja verkkosivuston käyttäjien, vierailijoiden ja asiakkaiden velvollisuudet, kun he käyttävät sovellusta tai käyvät <strong>SIZEBAY</strong>-verkkosivustolla, (iv) osapuolten vastuu.<strong>{{ pagePrivacyTenant }}</strong></p>TIETOSUOJAKÄYTÄNTÖ <p> pyrkii selventämään, miten <strong> SIZEBAY </strong> käsittelee tietoja sovelluksensa ja verkkosivustonsa käytön ja pääsyn aikana, haltijoiden oikeuksia myös selvennetään ja kuinka he voivat käyttää niitä <strong> SIZEBAY </strong>.<strong>",
+      "title": "Yleiskatsaus"
+    },
+    "clear_data": {
+      "text": "Tyhjennä kaikki Sizebayn tallentamat selaustiedot, välimuisti ja evästeet",
+      "button": {
+        "initial": "Poista evästeet"
+      }
+    },
+    "person": {
+      "first": {
+        "name": "Marcelo Bastos",
+        "info": "<li>Euroopan unioni</li> <li>privacy@sizebay.com</li>"
+      },
+      "second": {
+        "name": "Janderson Roberto Araujo",
+        "info": "<li>Muut sijainnit</li> <li>privacy@sizebay.com</li>"
+      }
+    },
+    "services": {
+      "title": "Miten SIZEBAY tarjoaa palvelujaan?",
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/computer-face.svg /><p> <strong>SIZEBAY</strong> palvelut ovat saatavilla verkkokauppaalustalla ohjelmistona palveluna (SaaS), mikä tarkoittaa, että <strong>SIZEBAY</strong> myöntää verkkokaupalle luvan ohjelmiston käyttöön.</p></span> <div><img src=https://static.sizebay.technology/assets/icons/computer-face.svg /></div>"
+    },
+    "contact": {
+      "text": "<p>Jos sinulla on kysyttävää <strong>SIZEBAY</strong>-käytännöistä tai siitä, kuinka voit käyttää rekisteröidyn oikeuksiasi, ota yhteyttä <strong>SIZEBAY</strong>-tietosuojavastaavaan (DPO):</p>",
+      "title": "Epäselvissä tapauksissa, miten ottaa yhteyttä?"
+    },
+    "data_collected": {
+      "title": "Mitä tietoja SIZEBAY kerää?",
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/cookies.svg /><p> Palvelujensa tarjoamiseksi <strong>SIZEBAY</strong> voi kerätä profiilitietoja, kuten lempinimi (valinnainen), ikä, sukupuoli, pituus, paino, anatominen profiili ja kehon mitat. Lisäksi voidaan kerätä pääsylokitietoja ja evästeitä käyttökokemuksen parantamiseksi ja sovelluksen käytön helpottamiseksi ilman, että käyttäjän tarvitsee toimittaa uudelleen tietoja, jotka käyttäjä on jo ilmoittanut seuraavassa ostossa tai tuoteanalyysissä. .</p> </span><span><img src=https://static.sizebay.technology/assets/icons/bag.svg /><p> <strong>SIZEBAY</strong> voi myös kerätä tietoja verkkokaupassa tehdystä ostotilauksesta tarkoituksenaan suorittaa analyyseja suositellun koon ja todellisuudessa ostetun koon välillä parantaakseen koon suosittelemisen palveluja. vaatteita ja jalkineita.</p></span><span><img src=https://static.sizebay.technology/assets/icons/anonymous-person.svg /><p> Selvennämme, että <strong>SIZEBAY</strong>-sovellus koskee käyttäjiensä yksityisyyttä, joten palvelut on kehitetty siten, että tiedonkeruu tapahtuu ilman, että tunnistaminen on mahdollista haltijoiden tiedot.</p></span><div><img src=https://static.sizebay.technology/assets/icons/cookies.svg /> <img src=https://static.sizebay.technology/assets/icons/bag.svg /> <img src=https://static.sizebay.technology/assets/icons/anonymous-person.svg /></div>"
+    },
+    "how_it_works": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/mannequin.svg /><p> Palveluiden käyttämiseksi käyttäjän ei tarvitse rekisteröityä <strong>SIZEBAY</strong>-alustalle. Pääsy mittaustaulukkoon on aina käytettävissä. Käyttääkseen Virtuaalista sovitushuonetta käyttäjän on täytettävä joitain perustietoja, jotta sovellus voi suositella vaatteiden ja kenkien kokoa.</p></span><span><img src=https://static.sizebay.technology/assets/icons/anonymous.svg /><p> Profiilin luominen <strong>SIZEBAY</strong>-sovelluksessa ei edellytä käyttäjän käyttävän etu- tai sukunimi ja voi jopa täyttää kuvitteelliset tiedot, jos olet kiinnostunut suojelemaan yksityisyyttäsi entistä enemmän.</p></span><span><img src=https://static.sizebay.technology/assets/icons/persons.svg /><p> Alaikäiset eivät voi käyttää sovellusta, elleivät heidän vanhempansa edusta ja/tai avusta heitä. huoltajat.</p></span><div><img src=https://static.sizebay.technology/assets/icons/mannequin.svg /><img src=https://static.sizebay.technology/assets/icons/anonymous.svg /><img src=https://static.sizebay.technology/assets/icons/persons.svg /></div>",
+      "title": "Kuinka pääsy Virtuaaliseen sovitussaliin ja Virtuaalipöytäpalveluihin toimii?"
+    },
+    "share_data": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/share.svg /><p> Tiedon jakaminen voidaan aina toteuttaa paremman verkkokauppakokemuksen tarjoamiseksi tai sovelluksen toiminnan mahdollistamiseksi, joten se voidaan suorittaa: asiakkaiden ja toimittajien kanssa.</p></span><div><img src=https://static.sizebay.technology/assets/icons/share.svg /></div>",
+      "title": "Kenen kanssa SIZEBAY voi jakaa tietoja?"
+    },
+    "actions": {
+      "terms": {
+        "content": "<li><a href=https://home.sizebay.com/{{lang}}/legal/conditions-of-use target=_blank>Käyttöehdot</a></li><li><a href=https://home.sizebay.com/{{lang}}/legal/privacy target=_blank>Tietosuojakäytäntö</a></li><li><a href=https://home.sizebay.com/{{lang}}/legal/cookies-policy target=_blank>Evästekäytäntö</a></li>",
+        "conditions-use": "Käyttöehdot",
+        "privacy": "Tietosuojakäytäntö",
+        "cookies": "Evästepolitiikka",
+        "title": "Ehdot"
+      },
+      "statements": {
+        "gdpr": "GDPR-yhteensopivuus",
+        "title": "julistuksia",
+        "lgpd": "LGPD-yhteensopivuus",
+        "content": "<li><a href=https://home.sizebay.com/{{lang}}/legal/gdpr target=_blank >GDPR-yhteensopivuus</a></li><li><a href=https: / /home.sizebay.com/{{lang}}/legal/lgpd target=_blank >LGPD-yhteensopivuus</a></li><li><a href=https://home.sizebay.com/{ {lang }}/legal/ccpa target=_blank >CCPA-vaatimustenmukaisuus</a></li><li><a href=https://sizebay.com/{{lang}}/legal/pipl target=_blank >PIPL-vaatimustenmukaisuus </a></li>",
+        "pipl": "PIPL-yhteensopivuus",
+        "ccpa": "CCPA:n noudattaminen"
+      },
+      "title": "Siirry ehtosivuillemme",
+      "redirect_privacy": {
+        "text": "Napsauta tätä ohjataksesi sinut käyttäjän {{ tenantName }} tietosuojasivulle"
+      }
+    },
+    "how_data_is_collected": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/computer-hanger.svg /><p> Tiedonkeruu suoritetaan, kun käyttäjä antaa tietoja käyttäessään Virtua Fitter- ja Measurement Table -palveluita tai evästeiden avulla, kun käyttäjä käyttää <strong>SIZEBAY</strong> sovellusta tai verkkosivustoa. jälleen tiedot, jotka käyttäjä on jo ilmoittanut seuraavassa ostossa tai tuoteanalyysissä.</p></span><div><img src=https://static.sizebay.technology/assets/icons/computer-hanger.svg /></div>",
+      "title": "Miten SIZEBAY kerää tietoja?"
+    },
+    "users_obligations": {
+      "title": "Mitkä ovat käyttäjän velvollisuudet?",
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/obligations.svg /><p> Sovelluksen käyttäjät sitoutuvat käyttämään <strong>SIZEBAYn</strong> palveluita noudattaen ja noudattaen aina Sääntöjä sekä voimassa olevaa lainsäädäntöä, tullia, yleistä järjestystä sekä alustan käytölle ja käytön hyväksymiselle asetettuja pakollisia vaatimuksia. .</p></span><div><img src=https://static.sizebay.technology/assets/icons/obligations.svg />"
+    },
+    "data_protection": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/security.svg /><p> <strong>SIZEBAY</strong> pitää asiakkaidensa, käyttäjiensä ja vierailijoidensa tietojen salassapitoa ja turvallisuutta erittäin tärkeänä. Tästä syystä se käyttää salaus- ja palomuuritekniikkaa ja tekee kaikkensa varmistaakseen tietojesi suojan.</p></span><span><img src=https://static.sizebay.technology/assets/icons/http.svg /><p> Suosittelemme, että puhdistat säännöllisesti selaimeesi tallennetut evästeet estääksesi kerättyjä tietoja ei poisteta <strong>SIZEBAY</strong>-tietokannasta sekä muilta avatuilta sivustoilta.</p></span><div><img src=https://static.sizebay.technology/assets/icons/security.svg /> <img src=https://static.sizebay.technology/assets/icons/http.svg /></div>",
+      "title": "Miten SIZEBAY suojaa tietojasi?"
+    }
+  },
+  "garment_measures_info": {
+    "shaft_height": "Mittaa kantapään pohjasta kengän varren yläosaan.",
+    "shoulder_length": "Leveys yhdestä hihan saumasta toiseen, vaatteen takana.",
+    "full_body_length": "Mittaa yläsaumasta alahelmaan koko vartalon pituudella.",
+    "hem": "Osan alaosan leveys.",
+    "back_length": "Mittaa kauluksesta yläosan helmaan, takaa.",
+    "lower_waist_width": "Vyötärönauhan leveys matalavyötäröisessä vaatteessa.",
+    "hip_circumference": "Vaatteen leveys, noin 20 cm vyötärönauhan alapuolella, kerrottuna kahdella.",
+    "palm_length": "Mittaa ranteesta keskisormen kärkeen.",
+    "calf_circumference": "Mittaaminen saappaan varren yläosasta, yleensä pohkeen leveimmästä kohdasta.",
+    "head_circumference": "Mittaa hatun sisäpuolelta kohdasta, jossa pää lepää.",
+    "sleeve": "Mittaa sisäsaumasta, missä hiha alkaa, kalvosimen päähän asti.",
+    "waist_width": "Yläosan kapeimman osan leveys, kainaloiden ja helman välillä.",
+    "thigh_width": "Reiden leveimmän osan leveys.",
+    "waistband_circumference": "Vaatteen yläosan aukon mittaus.",
+    "circumference": "Mittaa kappaleen ympäri yleensä kertomalla leveys kahdella.",
+    "lower_waist_circumference": "Vaatteen leveys, juuri luonnollisen vyötärön alapuolella, kerrottuna kahdella.",
+    "high_waist_width": "Korkeavyötäröisen vaatteen vyötärönauhan leveys.",
+    "chest_circumference": "Ylävaatteen leveyden mittaaminen, puolelta toiselle, juuri kainalon alapuolelta, kerrottuna kahdella.",
+    "waist_circumference": "Kapeimman osan leveys kerrottuna kahdella.",
+    "front_length": "Mittaa etupuolelta kauluksesta yläosan helmaan.",
+    "lower_length": "Mittaa vyötärökaistaleesta vaatteen helmaan sivulta.",
+    "wrist_circumference": "Hihan aukon ympärysmitan mittaaminen kohdasta, jossa se istuu ranteeseen.",
+    "heel_height": "Mittaa hypyn alusta korkeimpaan kohtaan.",
+    "wrist_width": "Kappaleen leveys hallintaan.",
+    "hook": "Mittaa vyötärönauhan yläosasta haaraompeleeseen.",
+    "thigh_circumference": "Vaatteen reiden leveimmän kohdan mittaus, juuri sauman alapuolella.",
+    "platform_height": "Mittaa kengän etuosan pohjasta alustan yläosaan.",
+    "biceps": "Hihan leveys, noin 2,5 cm kainalon alapuolella.",
+    "insole_width": "Mittaa sisäpohjan levein kohta.",
+    "brim": "Mittaa pohjasta lippalakin kärkeen.",
+    "high_waist_circumference": "Mittaa korkeavyötäröisen vaatteen vyötärönauhan ympäriltä.",
+    "hip_width": "Kappaleen leveys, 20 cm vyötärönauhan alapuolella.",
+    "length": "Mittaa yläsaumasta kappaleen alahelmaan.",
+    "chest_width": "Mittaa yläosan leveys, yhdeltä puolelta toiselle, juuri kainaloiden alapuolelta.",
+    "calf_width": "Säärivarren leveyden mittaaminen pohkeen korkeudelta.",
+    "collar": "Puserokauluksen leveys, mitattuna kaulan juuresta ympäri.",
+    "waistband_width": "Alaosan vyötärönauhan leveys.",
+    "back_hook": "Mittaa vyötärönauhasta haarasaumaan vaatteen takaa.",
+    "insole_length": "Mittaa kantapään kärjestä sisäpohjan kärkeen.",
+    "under_bust": "Ylävaatteen leveyden mittaaminen, sivulta toiselle, juuri rinnan alapuolelta, kerrottuna kahdella.",
+    "inside_leg": "Mittaa haarasaumasta housujen helmaan"
+  },
+  "error": {
+    "close": "Poistu asennustilasta",
+    "title": "Hups! Jotain meni pieleen!",
+    "options": "Voit yrittää uudelleen käynnistämällä profiilin uudelleen tai sulkemalla ja yrittämällä myöhemmin.",
+    "restart": "Käynnistä profiili uudelleen",
+    "description": "Älä huoli, tutkimme jo mitä tapahtui estääksemme sen toistumisen."
+  },
+  "recommendation": {
+    "3d_feel": {
+      "lanes": {
+        "large": "liian löysä",
+        "ideal": "ihanteellinen",
+        "slightly_loose": "hieman löysä",
+        "loose": "väljä",
+        "slightly_fit": "hieman tiukka",
+        "tight": "tiukka",
+        "fit": "tiukka"
+      },
+      "title_suggested": "Paras vaihtoehto"
+    },
+    "lanes": {
+      "tight": "TIUKKA",
+      "ideal": "IHANTEELLINEN",
+      "fit": "Tiukka",
+      "looser": "Häviäjä",
+      "large": "Väljä",
+      "loose": "Väljä",
+      "tighter": "TIUKEMPI"
+    },
+    "title_not_suggested": "ei suositeltu\n",
+    "measurements": {
+      "title": "Mitat",
+      "conversion": {
+        "title": "Koon muuntaminen"
+      }
+    },
+    "centered_mode": {
+      "controls": {
+        "appearance": "Ulkonäkö",
+        "comfort": "Mukavuus"
+      },
+      "comfort_map": {
+        "header": "3D-kuvan värit ilmaisevat, kuinka tiukasti tai löysästi vaate istuu kehollesi"
+      },
+      "tag_info": "3D-kehosimulaatio edustaa yksilöllisiä kehon mittojasi ja tuotteiden todellista istuvuutta.",
+      "measure_name": "kanssa {{measureName}}"
+    },
+    "title_suggested": "on paras vaihtoehto\n",
+    "height_warning": {
+      "threshold": {
+        "long": "Pitkä",
+        "short": "Nautin"
+      },
+      "message": "{{threshold}} liikaa siitä, kuka mittaa {{height}}\n"
+    },
+    "shoe": {
+      "insoleLength": "pituus",
+      "insoleWidth": "leveys"
+    },
+    "subtitle": "Katso istuvuus alta",
+    "subtitle_shoe": "Perustuu {{brandName}} kokoosi {{size}}\n",
+    "title_also_fits": "Sopii myös",
+    "carousel_also_try": "Kokeile myös kokoja:\n"
+  },
+  "product_comparison": {
+    "elements": {
+      "edit": "Muokata",
+      "foot_format": "Jalan muoto",
+      "category": "Kategoria",
+      "brand": "Brändi",
+      "size": "Koko"
+    },
+    "title": "Vertailutuote",
+    "subtitle": "Tätä tietoa käytetään kokosuositukseen."
+  },
+  "warnings": {
+    "age_group": {
+      "age_group": "Tuote {{ageGroup}}\n",
+      "limit_reached": "Profiilien lukumäärä on saavuttanut rajansa. Poista jotkut lisätäksesi uuden.\n",
+      "subtitle": "Tuotteen ikäryhmä ei ole yhteensopiva {{profileName}} profiilin ikärajan kanssa. Jatka valitsemalla tai Lisää profiili.\n",
+      "prompt_message": "Haluatko myös kokeilla ({{ ageGroup }}) -osion vaatteita?"
+    },
+    "we_need_more_measures": {
+      "subtitle": "Emme voineet laskea mittauksia sinulle. Ole hyvä ja ilmoita alla tai palaa tarkistaaksesi toimitetut tiedot.\n",
+      "title": "Syötä mittauksesi\n"
+    },
+    "unmatched_gender": {
+      "choose_a_profile": "Valitse haluamasi profiili\n",
+      "select_profile": "Ei, valitse toinen profiili\n",
+      "tooltip": "Tämä profiili ei sovellu valitulle tuotetyypille\n",
+      "title": "Haluatko myös kokeilla {{gender}}-osion vaatteita?",
+      "create_profile": "Ei, luo uusi profiili\n"
+    }
+  },
+  "brands_list": {
+    "search_question": "Mitä merkkiä käytät yleensä?\n",
+    "not_found": {
+      "title": "Emme löytäneet tämännimistä tuotemerkkiä",
+      "subtitle": "Yritä etsiä uudelleen, jos haluat korjata kirjoitusvirheet."
+    },
+    "subtitle": "Muutamalla kysymyksellä autamme sinua valitsemaan paras jalkasi koko.\n",
+    "title": "Virtuaalinen sovituskoppi",
+    "search_placeholder": "Kirjoita ja etsi tuotemerkkisi tästä",
+    "title_restricted": "Olen jo Nvii kenkien käyttäjä?"
+  },
+  "age_group": {
+    "adult": "Aikuinen",
+    "kids": "Lapset"
+  },
+  "a11y": {
+    "Chart": {
+      "vfr_button": "Paina välilyöntinäppäintä siirtyäksesi virtuaaliseen sovitushuoneeseen",
+      "step_blocks": {
+        "table": {
+          "measure_description": "Tämä on {{size}}-koko, ja {{measureName}}:ssa sen tulisi mitata {{measure}}"
+        },
+        "switcher": {
+          "instruction_press_space": "Paina välilyöntiä vaihtaaksesi arvoja",
+          "option": "Nykyinen arvosi on {{value}}"
+        }
+      },
+      "greeting": "Tämä on kokotaulukko",
+      "size_system": {
+        "instruction": "Nykyinen kokojärjestelmäsi on {{sizeSystem}}. Paina välilyöntiä valitaksesi toisen vaihtoehdon."
+      },
+      "instruction": "Täällä voit verrata mittauksiasi taulukossamme lueteltuihin mittoihin"
+    },
+    "shoe": {
+      "Brands": {
+        "highlighted": {
+          "edit_negative": "Paina välilyöntiä, jos et käytä mitään näistä merkeistä",
+          "edit_action": "Paina välilyöntiä jatkaaksesi valitulla tuotemerkillä",
+          "instruction": "Paina välilyöntinäppäintä jatkaaksesi {{brandName}} kanssa"
+        },
+        "restricted": {
+          "greeting": "Tervetuloa rajoitettujen merkkien kenkien sovitushuoneeseen. Valitse yksi kengänmerkki, jota jo käytät"
+        }
+      },
+      "FootSize": {
+        "instruction": "Paina välilyöntiä valitaksesi {{ sizeSystem }} kokojärjestelmän"
+      },
+      "EditData": {
+        "greeting": "Täällä voit tehdä muutoksia meille lähettämiisi jalka- ja kenkätietoihin"
+      },
+      "FootFormat": {
+        "instruction": "Valitse jalkaterän muoto.",
+        "edit_action": "Paina välilyöntiä valitaksesi {{ shoeFormat }}"
+      }
+    },
+    "drawer": {
+      "measurement_tape_header": "Teippi",
+      "measurement_tape_handle": "Mittanauha. Paina välilyöntiä käyttääksesi mittanauhaa",
+      "close_group_handle": "Paina välilyöntinäppäintä sulkeaksesi ryhmän",
+      "measurement_tape_print_button": "Paina välilyöntiä avataksesi mittanauhan"
+    },
+    "clothes": {
+      "Welcome": {
+        "step_blocks": {
+          "gender": {
+            "question": "Valitse sukupuoli jatkaaksesi. Nykyinen sukupuolesi on {{gender}}"
+          },
+          "age": {
+            "tooltip": "Paina välilyöntiä saadaksesi lisätietoja siitä, miten ikä vaikuttaa suositukseen"
+          },
+          "height": {
+            "question": "Syötä pituutesi tässä yksikössä: {{measurementSystem}}."
+          }
+        }
+      },
+      "ProfilesMenu": {
+        "blocks": {
+          "greeting": "Nämä ovat kaikki profiilisi virtuaalisessa sovituskopissa",
+          "edit": "Tässä voit valita, lisäätkö vai poistatko profiileja"
+        },
+        "chip": {
+          "message": "Paina välilyöntinäppäintä saadaksesi lisätietoja profiilistasi {{profileName}}"
+        }
+      },
+      "Recommendation": {
+        "lane": "Koko {{ size }} on {{ label }} mittauksessa {{ measureName }}",
+        "carousel_instruction": "Löydä lisää kokovaihtoehtoja täältä"
+      },
+      "measures": {
+        "edit": "Paina nuolinäppäimiä lisätäksesi tai vähentääksesi mittaa {{measureName}}",
+        "read": "Sinun {{measureName}} mittaa {{measureValue}} yksikössä {{measureSystem}}"
+      }
+    },
+    "generics": {
+      "welcome": "Tervetuloa virtuaaliseen sovituskoppiin"
+    }
+  },
+  "welcome": {
+    "age_disclaimer": "Rungon muoto muuttuu iän myötä, ja tämä vaikuttaa laskelmaamme.",
+    "gender_f_kids": "Naisellinen",
+    "title": "Virtuaalinen sovituskoppi",
+    "gender_m_kids": "Maskuliini",
+    "foot_measurement_known": "Tiedän jo jalkani mitat",
+    "gender_m": "Mies",
+    "shoe_measure": "Jalan pituus",
+    "gender_f": "Nainen",
+    "gender_u": "Unisex",
+    "subtitle": "Täytä tiedot ja kokeile tätä tuotetta"
+  },
+  "edit_measures": {
+    "view_less": "Katso vähemmän mittoja",
+    "view_all": "Katso lisää mittauksia"
+  },
+  "drawers": {
+    "manage": {
+      "actions": {
+        "select": "Valitse",
+        "delete": "Poistaa"
+      },
+      "active_profile": {
+        "details_shoe": "{{brandName}} koko {{size}}",
+        "no_name": "Kirjoita nimi",
+        "delete": "Poista profiili"
+      },
+      "new_profile": {
+        "input_example": "Esimerkki: Matti Meikäläinen\n",
+        "title": "Lisää profiili",
+        "subtitle": "Nimeä profiilisi"
+      }
+    },
+    "knobs": {
+      "kids_shoes_tips": "Koko vinkkejä",
+      "garment_info": "Vaatteen mitat",
+      "size_content": "Tyyliopas",
+      "measurement_tape": "Mittanauha",
+      "product_info": "Vartalon mitat",
+      "size_hint_promo": "Täytä promo",
+      "size_hint": "Ehdotus\n",
+      "sizes_conversions": "Kokojen Muunnokset"
+    },
+    "kids_shoes_title": "Vinkkejä ja ohjeita lasten jalkoihin ja kenkiin",
+    "kids_shoes_button": "Ymmärsi",
+    "kids_shoes_message": "Lasten jalat kasvavat puolet suuremmiksi 2-4 kuukauden välein. Tämän nopean kasvun vuoksi suosittelemme hankkimaan lapselle hieman löysemmät koot, jotta kengät kestävät pidempään eivätkä purista nopeasti kehittyviä jalkoja."
+  },
+  "landscape_vertical_subtitle": "Aseta laite pystyasentoon aloittaaksesi sen käytön",
+  "coppa_gate": {
+    "close": "Ei, olen alle 13-vuotias",
+    "confirm": "Kyllä, olen huoltaja",
+    "prompt_title_months": "Oletko {{ months }} kuukauden ikäisen lapsen vanhempi tai huoltaja?",
+    "message": "Voit jatkaa tämän tuotteen kokeilemista, jos olet aikuinen, joka loi tämän profiilin kokeillaksesi tuotetta lapsellesi.",
+    "prompt_title_years": "Oletko {{ years }}-vuotiaan lapsen vanhempi tai huoltaja?",
+    "title": "Iän varmistus"
+  },
+  "fetching": {
+    "subtitle": "Laskemme mittoja luodaksemme ihanteellisen kokosuosituksen",
+    "title": "Melkein valmista!\n",
+    "shoe": {
+      "success": "Laskenta valmis!",
+      "calculating": "Mittauksiesi laskeminen",
+      "analyzing": "Analysoida vastauksiasi"
+    }
+  },
+  "landscape_subtitle": "Pidä puhelinta vaakasuorassa aloittaaksesi",
+  "measurement_tape": {
+    "link_download": {
+      "in": "//static.sizebay.technology/assets/measurement_tape/measurement_tape_in_fi.pdf",
+      "cm": "//static.sizebay.technology/assets/measurement_tape/measurement_tape_cm_fi.pdf"
+    },
+    "title": "Mittanauha",
+    "message": "Tulosta, leikkaa ja kokoa tämä mittanauha tarkistaaksesi mittasi.",
+    "print": "Mittanauha",
+    "print_mobile": "Tulosta mittanauha",
+    "download": {
+      "file": {
+        "title": "Ohjeet mittanauhan tulostamiseen ja asentamiseen\n",
+        "fold-and-rotate": "taita ja kierrä",
+        "how-to-do": "Tulosta:\nVarmista ennen tulostamista, että tulostusvalintaikkunan ”sovita sivulle” tai ”sovita sivulle” -asetukset on poistettu käytöstä, jotta tulostin ei pienennä tai lisää nauhan kokoa.\n\nRajaus:\nLeikkaa kaikki saksilla merkityt jatkuvat mustat viivat saksilla tai kynällä nauhan segmenttien luomiseksi.\n\nValmistella:\nKäännä ja käännä päitä (kuten painotuotteella) yhdistämällä katkoviivat, kunnes yksi nauha kootaan.\n\nKorjaa taitokset:\nValmistamisen jälkeen kiinnitä teipin taitokset liimalla, teipillä tai nitojalla."
+      }
+    }
+  },
+  "foot_size": {
+    "select_region": "Valitse alue:",
+    "not_selected": "Varmista, että valitset koon jatkaaksesi",
+    "title": "Mikä on kenkäkokosi?",
+    "pattern": "{{region}} standardi\n",
+    "subtitle": "Valitse kokosi"
+  },
+  "child_name": {
+    "name": "Nimi",
+    "title": "Kerrotko meille lapsesi nimen?",
+    "subtitle": "Tämä auttaa meitä luomaan sovitushuoneen profiilin"
+  },
+  "size_hint": {
+    "title": "Erotimme joitain tuotteita, jotka sopivat myös sinulle\n",
+    "discount-original-price": "Normaali hinta: <span class='size-hint__discount-original-price discount-description-price'>{{ price }}</span> <span class='size-hint__discount-percentage'>-{{discount }}%</span>",
+    "discount-lowest-price": "Alin hinta 30 päivää ennen alennusta: <span class='size-hint__discount-lowest-price discount-description-price'>{{ price }}</span> <span class='size-hint__discount-percentage'>-{{ discount }}%</span>",
+    "title_promo": "Täytä promo",
+    "try_now": "Kokeile"
+  },
+  "size_tailor": {
+    "action_button": "Räätälöimme sinulle",
+    "title": "Mukautettu tuote",
+    "description": "Vahvista kehon mitat, jotta voimme kehittää räätälöidyn tuotteen."
+  },
+  "miscellaneous": {
+    "hannaLinks": {
+      "recommendation": "Palaa tuloksiini",
+      "welcome": "Palaa takaisin"
+    }
+  },
+  "measure_shape": {
+    "shape_bigger": "Suurempi",
+    "shape_smaller": "Pienempi",
+    "skin_types": {
+      "toggle": "Muuta ihon väriä"
+    },
+    "subtitle": "Tämä on arvioitu kehomme muoto, jonka luomme mittauksistasi. Säädä vain tarvittaessa.",
+    "measure_range": {
+      "1": "Paljon pienempi",
+      "2": "Pienempi",
+      "3": "Keskimäärin",
+      "4": "Suurempi",
+      "5": "Paljon suurempi"
+    },
+    "shape_regular": "Normaali",
+    "title": "Säädä kehon muoto"
+  },
+  "calculating": {
+    "subtitle": "Tarkista mittaukset ja säädä tarvittaessa\n",
+    "circle_title_loading": "Odota\n",
+    "circle_title_completed": "Valmis",
+    "title": "Valmiit laskelmat\n"
+  },
+  "brands_grid": {
+    "subtitle": "Minkä merkin vaatteita käytät yleensä?",
+    "unique_brand": "Käytätkö jo kenkiä {{ brandName }}?",
+    "search_other_brands": "Etsi toinen merkki"
+  },
+  "modals": {
+    "remove_profile": {
+      "title_alt": "Haluatko varmasti poistaa tämän profiilin?",
+      "title": "Poistetaanko {{profileName}} profiili?",
+      "action": "Poista profiili\n",
+      "confirm": "Poista profiili\n"
+    }
+  },
+  "no_recommendation": {
+    "expected_size": "Suositeltava koko on {{RecommendedSize}}.",
+    "title_shoe": "Valitettavasti tällä hetkellä tätä mallia ja kokoa ei ole saatavana myymälästämme.",
+    "based_on": "Voit yrittää uudelleen muokkaamalla tietojasi",
+    "calculate_again": "Laske uudelleen\n",
+    "title": "Kokoasi ei ole saatavilla juuri nyt",
+    "subtitle": "Emme löytäneet kokoa alla oleville mittauksille. Säädä tarvittaessa.\n"
+  },
+  "accessory": {
+    "welcome": {
+      "subtitle": "Jos haluat kokeilla tätä tuotetta, seuraa mittauksia ja ilmoita vastaava numero",
+      "shoe": {
+        "subtitle": "Valitse jalkamitta alta noudattamalla ohjeitamme itse mittaamiseen"
+      }
+    },
+    "bike": {
+      "recommendation": {
+        "title_suggested": "Suosittelemamme polkupyörän koko on paras suorituskyvyllesi ja asennollesi. Ei liian pitkä eikä liian lyhyt, voit pyöräillä mukavasti.",
+        "subtitle": "pituutesi perusteella",
+        "title_also_fits": "Suosittelemamme polkupyörän koko on paras suorituskyvyllesi ja asennollesi. Ei liian pitkä eikä liian lyhyt, voit pyöräillä mukavasti.",
+        "title_not_suggested": "Suosittelemamme polkupyörän koko on paras suorituskyvyllesi ja asennollesi. Ei liian pitkä eikä liian lyhyt, voit pyöräillä mukavasti."
+      }
+    },
+    "shoe_size": {
+      "subtitle": "Jos haluat kokeilla tätä tuotetta, valitse koko jalkasi pituuden mukaan"
+    }
+  },
+  "foot_format": {
+    "formats": {
+      "0": {
+        "description": "Kapeilla jaloilla on taipumus jättää ylimääräistä tilaa kengän sivuille.",
+        "title": "Kapea"
+      },
+      "1": {
+        "title": "Keskitaso",
+        "description": "Keskikokoiset jalat sopivat yleensä hyvin useimpiin kenkiin."
+      },
+      "2": {
+        "title": "Laaja",
+        "description": "Leveät jalat sopivat kengän pituuteen, mutta tuntuvat tiukoilta sivuilla."
+      }
+    },
+    "subtitle": "Valitse jalkasi leveys parantaaksesi istuvuutta.",
+    "title": "Jalan muoto"
+  },
+  "landscape_warning": {
+    "title": "Virtuaalinen sovituskoppi"
+  },
+  "my_measures": {
+    "title": "Mittaukseni\n",
+    "subtitle": "Säädä mittoja tarpeen mukaan"
+  },
+  "subcategory": {
+    "subtitle": "Valitse tavallisesti käyttämäsi <strong>{{brandName}}</strong>-kenkätyyppi",
+    "title": "Millaista {{categoryName}} sinulla on päälläsi?"
+  },
+  "model": {
+    "title": "Millaisia ​​{{composedName}} käytät?",
+    "subtitle": "Valitse tavallisesti käyttämäsi <strong>{{brandName}}</strong>-kenkämalli"
+  },
+  "landscape_horizontal_subtitle": "Aseta laite vaakasuoraan aloittaaksesi sen käytön",
+  "category": {
+    "subtitle": "Valitse alla olevasta luettelosta yksi tyyppi, joka muistuttaa eniten kenkiäsi <strong>{{brandName}}</strong>",
+    "title": "Mikä on kenkäsi tyyppi?"
+  },
+  "header": {
+    "title": "Fit Finder"
+  }
+}

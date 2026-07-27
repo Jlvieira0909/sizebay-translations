@@ -1,0 +1,953 @@
+{
+  "shoe_size": {
+    "fit_loose": "Slab",
+    "shoe_accessory": {
+      "no_recommendation": {
+        "subtitle": "Nu am putut găsi o mărime pentru măsurătorile de mai jos. Ajustați dacă este necesar.",
+        "title": "Nu am găsit nicio mărime"
+      },
+      "all_measures": {
+        "measurements_guide": "Ghid de Măsurători [PDF]",
+        "title": "Care este mărimea picioarelor tale?"
+      },
+      "info_drawer_subtitle": "Pentru a găsi cea mai bună mărime de pantofi, de ce nu ne spui puțin despre tine?"
+    },
+    "recommendation": "Pe baza informațiilor tale, aceasta este măsurătoarea piciorului tău. Ajustează dacă este necesar",
+    "foot_shape_question": "Care este forma piciorului tău?",
+    "title": "Care este lungimea piciorului tău?",
+    "drawer_title": "Cât de lungi sunt picioarele tale",
+    "subtitle": {
+      "0": "Alegeți o mărime din marca {{brandName}} în funcție de lungimea piciorului.",
+      "box": {
+        "subtitle": "Așează o foaie de hârtie pe podea, lângă un perete. Stai cu călcâiul pe hârtie și lângă perete. Marchează vârful degetului cel mai lung, apoi măsoară distanța.",
+        "title": "Cum să vă măsurați corect piciorul:"
+      }
+    },
+    "fit_description_ideal": "Există un <strong>spațiu mic</strong> între degetele de la picioare și pantof.",
+    "length_example": "Încalță-ți <strong>{{brandName}}</strong> mărimea <strong>{{size}}</strong> și spune-ne cum se potrivește lungimea pe picioarele tale.",
+    "fit_tight": "Confortabil",
+    "fit_ideal": "Potrivit",
+    "open_drawer_button": "Cum să te măsori",
+    "fit_description_loose": "Există un <strong>spațiu mare</strong> între degetele de la picioare și pantof.",
+    "shoe_accessory_subtitle": "Selectează măsura piciorului tău mai jos, urmând instrucțiunile noastre despre cum să te măsori.",
+    "drawer_button": "Am înțeles",
+    "fit_description_tight": "Pantoful atinge degetele de la picioare <strong>fără spațiu</strong>.",
+    "length_question": "Cum se potrivește pantoful tău în lungime?"
+  },
+  "footer": {
+    "add_to_cart_mobile_2": "Adaugă în coș",
+    "confirm": "Confirmați",
+    "none_of_those": "Niciuna dintre acestea",
+    "save_measures": "Salvați măsurile",
+    "view_recommendation": "Vedeți recomandarea",
+    "print_measurement_tape": "Bandă de măsurat imprimată",
+    "virtual_fitting_room": "Virtual Fitting Room",
+    "info_box": "Alegeți mărimea personalizată dacă doriți să vă adaptați jacheta la măsurătorile corpului",
+    "yes": "Da",
+    "add_to_cart": "Adăugați în coș",
+    "brand_not_found": "Nu am putut găsi marca",
+    "proceed": "Continuați",
+    "edit_data": "Editați datele",
+    "not_yet": "Nu încă",
+    "cancel_alt": "Nu, anulați",
+    "next": "Următorul",
+    "cancel": "Anulați",
+    "by-sizebay": "de Sizebay®",
+    "sure": "Sigur!",
+    "add_profile": "Creați profil",
+    "create_new_profile": "Creați un profil nou",
+    "restart": "Reîncepeți",
+    "close": "Închideți",
+    "select_another_profile": "Alegeți alt profil",
+    "continue_without_brand": "Nu am putut găsi marca",
+    "unsure": "Nu sunt sigur",
+    "save": "Salvați",
+    "edit_measures": "Editați măsurătorile",
+    "proceed_anyway": "Continuați oricum",
+    "edit_profile": "Editarea profilurilor",
+    "add_to_cart_mobile": "Cumpărați",
+    "back": "Înapoi"
+  },
+  "composed_measures": {
+    "welcome": {
+      "link_tooltip": "<b>{{suffix}} {{measureName}} lățime.</b>",
+      "item_text": "{{measureName}} este {{range}} {{sizeSystem}} lat",
+      "measures_range_item": "de la {{initialRange}} până la {{finalRange}}",
+      "tooltip_text": "Faceți clic pentru a alege o altă dimensiune",
+      "tooltip_instructions": "Faceți clic aici pentru a afla cum să efectuați măsurarea {{measureName}}",
+      "height": {
+        "item_text": "Am înalțimea de {{range}} {{sizeSystem}}",
+        "link_tooltip": "<b>cât de înalt sunteți.</b>",
+        "title": "Cât de înalt sunteți?",
+        "instructions": "Trebuie să vă cunoaștem <b>înălțimea</b> pentru a vă arăta posibilele recomandări în funcție de"
+      },
+      "title": "Care este măsura lui {{sufix}} {{measureName}}?",
+      "instructions": "Cât de lat este {{sufix}} {<b>{measureName}}</b>? Trebuie să cunoaștem dimensiunea {{sufix}} {{measureName}} pentru a vă arăta recomandările posibile în funcție de "
+    },
+    "height": {
+      "title": "Cât de înalt ești?",
+      "link_tooltip": "pentru a-ți arăta înălțimea"
+    },
+    "table": {
+      "helper_height": "Această înălțime începe de la {{range}} {{sizeSystem}} înălțime. Este această măsurătoare inexactă?",
+      "tooltip_change": "Schimbați aici.",
+      "helper": "Acest {{measureName}} începe de la {{range}} {{sizeSystem}} lungime. Este această măsurătoare inexactă?",
+      "title": "Acestea sunt dimensiunile posibile pentru <span>{{range}}</span> {{measureName}}",
+      "vfr_tooltip": "Aveți măsurătorile? De ce nu încercați să descoperiți dimensiunea în cabina de probă virtuală?"
+    }
+  },
+  "body_measurements": {
+    "diameter": "DIAMETRU",
+    "collar": "Guler",
+    "length": "Lungimea Produsului",
+    "centralSeam": "Înălțime față",
+    "weightChart": "Greutate",
+    "width": "Lățime",
+    "waistUpper": "Talie superioară",
+    "weight": "Greutate",
+    "circumference": "Circumferință",
+    "insoleLength": "Lungimea piciorului",
+    "label1": "MĂRIME (SUA)",
+    "sleve": "Lungimea mânecii",
+    "waist": "Talie",
+    "chest_m": "Piept",
+    "chest_f": "Bust",
+    "neck": "Gât",
+    "comfort": "Confort",
+    "sleeve": "Braț",
+    "thigh": "Coapsă",
+    "headCircumference": "Cap",
+    "hip": "Șold",
+    "shoulderWidth": "Umeri",
+    "waistLower": "Talie inferioară",
+    "wrist": "Încheietură",
+    "palm": "Palma",
+    "bar": "Tiv",
+    "chest": "Piept / Bust",
+    "lowerLength": "Lungimea inferioară",
+    "finger_circumference": "CIRCUMFERINȚĂ",
+    "insoleWidth": "Lățimea piciorului",
+    "height": "Înălțime ",
+    "ageChart": "Vârstă",
+    "underBust": "Sub bust",
+    "insideLeg": "Cusătură",
+    "biceps": "Bicepși",
+    "calf": "Gambă",
+    "fist": "Pumn",
+    "fullBodyLength": "Lungimea completă a corpului"
+  },
+  "measures_info": {
+    "insideLeg": "Măsurați distanța internă a piciorului de la pubis la tălpile picioarelor.",
+    "fullBodyLength": "Măsurați distanța începând de la partea superioară a umerilor până la podea.",
+    "weightChart": "Cântăriți greutatea pe un cântar și verificați acest tabel de măsurare pentru a vedea dacă numerele de greutate se potrivesc.",
+    "waistUpper": "Măsurați circumferința taliei deasupra buricului.",
+    "insoleLength": "Așează o foaie de hârtie pe podea, lângă un perete. Stai cu călcâiul pe hârtie și lângă perete. Marchează vârful degetului cel mai lung, apoi măsoară distanța.",
+    "biceps": "Utilizați banda de măsurare în jurul mijlocului brațului, pe partea cea mai lată a acestuia.",
+    "height": "Asta este ușor. Este distanța dintre vârful capului (craniul) și sol (tălpile), măsurată într-o poziție verticală.",
+    "width": "Luați măsura lățimii îmbrăcămintei",
+    "weight": "Cântăriți greutatea pe un cântar și verificați acest tabel de măsurare pentru a vedea dacă numerele de greutate se potrivesc.",
+    "sleeve": "Măsurați distanța dintre umăr și încheietura mâinii, ținând brațul ușor îndoit. Treceți banda în spatele cotului și luați notițe despre măsurare.",
+    "neck": "Utilizați banda de măsurare în jurul circumferinței gâtului, fără a menține banda prea strânsă. Utilizați o oglindă pentru a ajuta la efectuarea acestei măsurători.",
+    "collar": "Măsurați în jurul gâtului chiar deasupra osului gulerului, punând un deget între bandă și gât.",
+    "chest": "Utilizați banda de măsurare în jurul pieptului (zona sânilor) în timp ce respirați calm. Observați variațiile în timp ce respirați și luați notă de cel mai mare număr găsit.",
+    "ageChart": "Vârsta persoanei care va purta acest produs.",
+    "circumference": "Luați măsura circumferinței îmbrăcămintei",
+    "length_botton": "Așezați începutul benzii de măsurare în dreptul taliei, unde ar fi purtați pantaloni sau o fustă. Întindeți banda până la lungimea tibiei pentru a marca măsurarea.",
+    "waist": "Așezați corpul în fața unei oglinzi și măsurați circumferința chiar sub coaste, puțin deasupra șoldurilor.",
+    "footLength": "În timp ce stați pe o suprafață plană, aliniați spatele la perete. Măsurați lungimea piciorului (de la călcâi până la degetele de la picioare) folosind o riglă.",
+    "lowerLength": "Aceasta este distanța dintre șold și podea.",
+    "chest_m": "Utilizați banda de măsurare în jurul pieptului în timp ce respirați calm. Observați variațiile în timp ce respirați și luați notă de cel mai mare număr găsit.",
+    "chest_f": "Utilizați banda de măsurare în jurul pieptului (zona sânilor) în timp ce respirați calm. Observați variațiile în timp ce respirați și luați notă de cel mai mare număr găsit.",
+    "palm": "Luați notă de întinderea mâinii în timp ce plasați o riglă pe o suprafață plană, flexați mâna și plasați partea stângă a mâinii dominante la punctul zero al riglei.",
+    "waistLower": "Măsurați circumferința taliei sub buric, unde se poartă de obicei banda de talie (pe talia inferioară).",
+    "thigh": "Așezați banda de măsurare în jurul celei mai largi părți a coapsei, care este situată chiar sub fesieri.",
+    "underBust": "Utilizați banda de măsurare în jurul pieptului, chiar sub bust. Continuați să respirați calm în timp ce observați variațiile măsurătorilor și marcați cel mai mare număr.",
+    "bar": "Luați măsura tivului îmbrăcămintei",
+    "insoleWidth": "Scoateți talpa unui pantof care se potrivește bine și măsurați lățimea ei.",
+    "headCircumference": "Măsurați circumferința capului (deasupra urechilor) cu banda de măsurare.",
+    "wrist": "Puneți banda de măsurare în jurul încheieturii mâinii, exact unde ar fi plasat un ceas.",
+    "hip": "Măsurați cu banda măsurați regiunea \"mai largă\" de sub talie, paralelă cu cea mai înaltă parte a fesierilor.",
+    "diameter": "Măsurați diametrul cercului interior al unui inel care este purtat pe același deget de la mâna unde va fi purtat acest produs.",
+    "length": "Măsurați distanța dintre partea superioară a trunchiului și talia inferioară (chiar sub burtă).",
+    "fist": "Utilizați banda de măsurare în jurul încheieturii mâinii, exact unde ar fi purtat un ceas.",
+    "calf": "Stați pe un scaun și țineți piciorul pe pământ, apoi pliați piciorul la 90 de grade. Efectuați măsurarea cu banda, de la baza piciorului până la locul în care genunchiul se îndoaie.",
+    "shoulderWidth": "Măsurați distanța dintre capetele umerilor cu ajutorul altcuiva.",
+    "ring": "Legați un șnur subțire în jurul aceluiași deget pe care doriți să purtați acest produs, marcați intersecția firului și măsurați lungimea pentru a obține circumferința",
+    "centralSeam": "Măsurați distanța dintre talie și podea cu o bandă de măsurare în timp ce stați așezat pe o suprafață plană."
+  },
+  "privacy": {
+    "services": {
+      "anchor": "Serviciile Sizebay",
+      "text": "Serviciile SIZEBAY sunt disponibile pe platforma de comerț electronic sub forma software-ului ca serviciu (SaaS), ceea ce înseamnă că SIZEBAY acordă comerțului electronic licența de a utiliza software-ul.",
+      "title": "Cum își pune SIZEBAY serviciile la dispoziție?"
+    },
+    "clear_data": {
+      "button": {
+        "initial": "Șterge toate datele",
+        "cleared": "curat!",
+        "cleaning": "Curățare în curs..."
+      },
+      "title": "Curățarea cookie-urilor",
+      "tooltip": "Datele tale au fost șterse!",
+      "text": "Faceți clic pe butonul de mai jos dacă doriți să ștergeți toate datele de navigare, memoria cache și cookie-urile stocate de Sizebay."
+    },
+    "contact": {
+      "title": "În caz de îndoială, cum să luați legătura?",
+      "text": "Dacă aveți întrebări despre politicile SIZEBAY sau despre cum vă puteți exercita drepturile ca proprietar de date, vă rugăm să contactați Responsabilul cu Protecția Datelor (DPO) de la SIZEBAY:\n\nJanderson Roberto Araujo  \nAdresă: R. Blumenau, 953 – Sala 402 – América, Joinville – SC, 89204-251 – Brazilia.  \nTelefon: +55 48 4042-0150  \nE-mail: privacy@sizebay.com  \n\nVezi mai multe politici"
+    },
+    "data_protection": {
+      "anchor": "Protecția datelor",
+      "title": "Cum protejează SIZEBAY datele sale?",
+      "text": "SIZEBAY consideră confidențialitatea și securitatea informațiilor clienților, utilizatorilor și vizitatorilor săi extrem de importante; de aceea, folosește tehnologia de criptare și firewall și va face tot ce îi stă în putere pentru a asigura protecția datelor și informațiilor dumneavoastră.\n\nRecomandăm să curățați periodic cookie-urile stocate în browserul pe care îl utilizați, pentru a preveni ștergerea informațiilor colectate din baza de date SIZEBAY, precum și de pe alte site-uri web accesate."
+    },
+    "how_data_is_collected": {
+      "text": "Colectarea datelor se efectuează atunci când utilizatorul furnizează informații la utilizarea serviciilor de Cameră de probă virtuală și Grafic de mărimi și dimensiuni sau prin intermediul cookie-urilor, când utilizatorul accesează aplicația sau site-ul web SIZEBAY.",
+      "title": "Cum colectează SIZEBAY datele?"
+    },
+    "users_obligations": {
+      "anchor": "Obligațiile Utilizatorilor",
+      "title": "Care sunt obligațiile utilizatorului?",
+      "text": "Utilizatorii aplicației se angajează să folosească serviciile SIZEBAY respectând și observând întotdeauna Politicile, precum și legislația în vigoare, obiceiurile, ordinea publică și cerințele obligatorii necesare pentru a utiliza și accepta platforma."
+    },
+    "data_collected": {
+      "title": "Ce date sunt colectate de SIZEBAY?",
+      "text": "Pentru a furniza serviciile sale, SIZEBAY poate colecta date de profil precum poreclă (opțional), vârstă, gen, înălțime, greutate, profil anatomic și măsurători corporale. În plus, datele jurnalului de acces și datele cookie pot fi colectate pentru a îmbunătăți experiența utilizatorului și a ușura utilizarea aplicației, fără a fi nevoie să se furnizeze din nou datele deja informate de utilizator în cazul unei alte achiziții sau analize a produsului.\n\nSIZEBAY va putea, de asemenea, să colecteze date din comanda de achiziție efectuată în comerțul electronic, pentru a analiza mărimea recomandată și mărimea efectiv achiziționată, aceasta pentru a îmbunătăți serviciile disponibile pentru recomandarea mărimii îmbrăcămintei și încălțămintei.\n\nClarificăm că aplicația SIZEBAY este preocupată de confidențialitatea utilizatorilor săi, astfel încât serviciile au fost dezvoltate în așa fel încât colectarea datelor să se realizeze fără a fi posibilă identificarea proprietarilor datelor.",
+      "anchor": "Date colectate"
+    },
+    "how_it_works": {
+      "anchor": "Cum funcționează?",
+      "title": "Cum funcționează accesul la Cabina de Probă Virtuală și la Tabelul de Mărimi și Fit?",
+      "text": "Pentru a utiliza serviciile nu este necesar ca utilizatorul să se înregistreze pe platforma SIZEBAY. Accesul la Fit & Size Chart va fi disponibil și pentru a folosi cabina de probă virtuală este necesar ca utilizatorul să completeze câteva informații de bază pentru ca aplicația să facă recomandarea de mărime pentru îmbrăcăminte și încălțăminte.\n\nCrearea unui profil în aplicația SIZEBAY nu necesită ca utilizatorul să folosească prenumele sau numele de familie, și poate chiar să completeze date fictive, dacă dorește să-și păstreze mai mult intimitatea.\n\nMinorii nu vor putea utiliza aplicația decât dacă sunt reprezentați și/sau asistați de părinții sau tutorii lor."
+    },
+    "title": "Confidențialitate",
+    "overview": {
+      "title": "Care sunt Termenii și Condițiile de Utilizare și Politica de Confidențialitate pentru?",
+      "text": "Termenii și condițiile de utilizare SIZEBAY sunt destinate să reglementeze: (i) utilizarea serviciilor puse la dispoziție de SIZEBAY, prin intermediul platformei de comerț electronic a clienților săi, și de asemenea (ii) accesul și conținutul disponibil pe site-ul SIZEBAY, (iii) obligațiile utilizatorilor, vizitatorilor și clienților platformei și site-ului în timp ce folosesc aplicația sau accesează site-ul SIZEBAY, (iv) responsabilitatea părților implicate.\n\nPolitica de confidențialitate are scopul de a clarifica modul în care SIZEBAY gestionează procesarea datelor în timpul utilizării și accesului la aplicația și site-ul său, drepturile deținătorului și cum le pot exercita cu SIZEBAY sunt de asemenea clarificate.\n\nCând accesați și utilizați Cabina de probă virtuală și Graficul de mărimi și potrivire, sunteți de acord cu politicile SIZEBAY. Puteți accesa politicile complete SIZEBAY pe link.\n\nMai jos vă rezumăm principalele informații:",
+      "anchor": "Confidențialitate"
+    },
+    "share_data": {
+      "text": "Partajarea datelor poate fi întotdeauna realizată cu scopul de a oferi o experiență mai bună de cumpărături online sau pentru ca aplicația să funcționeze, astfel încât poate fi realizată cu: clienți, parteneri de afaceri, furnizori de servicii, subcontractanți, producători de produse de îmbrăcăminte și încălțăminte.",
+      "title": "Cu cine poate SIZEBAY să partajeze datele?"
+    }
+  },
+  "product_not_found": {
+    "report_status": {
+      "sending": "Notificând...",
+      "sent": "Mulțumim!",
+      "not_sending": "Anunțați-ne",
+      "not_sent": "Anunțați-ne"
+    },
+    "description": "Încă nu avem suficiente informații despre acest produs pentru a-l recomanda.",
+    "title": "Oh nu!"
+  },
+  "languages": {
+    "all_langs": {
+      "fr": "Franceză",
+      "et": "Estoniană",
+      "es": "Spaniolă",
+      "en": "Engleză",
+      "fi": "Finlandeză",
+      "dk": "Daneză",
+      "cn": "Chineză",
+      "de": "Germană",
+      "cz": "Cehă",
+      "br": "Portugheză",
+      "ar": "Arabă",
+      "bg": "bulgară",
+      "mx": "Spaniolă",
+      "no": "Norvegiană",
+      "nl": "Olandeză",
+      "lt": "Lituaniană",
+      "lv": "Letonă",
+      "jp": "Japoneză",
+      "ko": "Coreeană",
+      "it": "Italiană",
+      "hu": "Maghiară",
+      "hr": "Croată",
+      "id": "Indonezia",
+      "gr": "Greacă",
+      "he": "Ebraică",
+      "vn": "Vietnameză",
+      "uk": "Engleză",
+      "th": "Tailandeză",
+      "tr": "Turcă",
+      "sr": "Sârbă",
+      "sv": "Suedeză",
+      "sl": "slovenă",
+      "sk": "Slovacă",
+      "ru": "Rusă",
+      "ro": "Română",
+      "pt": "Portugheză",
+      "pl": "Poloneză",
+      "esAR": "Spaniolă",
+      "esCT": "spaniolă (catalană)",
+      "ukr": "Ucraineană",
+      "zh": "Chineză"
+    },
+    "select": "Limbi disponibile: {{langs}}",
+    "box": "Selector de limbi, utilizați limba {{currentLang}}"
+  },
+  "garment_measurements": {
+    "hip_width": "Lățimea șoldurilor",
+    "thigh_width": "Lățimea coapsei",
+    "head_circumference": "Circumferința capului",
+    "lower_waist_circumference": "Circumferință talie inferioară",
+    "collar": "Guler",
+    "waistband_circumference": "Circumferința taliei",
+    "hip_circumference": "Circumferința șoldului",
+    "biceps": "Bicepși",
+    "waistband_width": "Lățimea taliei",
+    "hem": "Hemă",
+    "lower_waist_width": "Lățimea Taliei Inferioare",
+    "chest_circumference": "Circumferința pieptului",
+    "waist_circumference": "Circumferința taliei",
+    "insole_width": "Lățimea tălpii interioare",
+    "palm_length": "Lungimea palmei",
+    "shoulder_length": "Lungimea umărului",
+    "length": "Lungime",
+    "waist_width": "Lățime talie",
+    "chest_width": "Lățimea pieptului",
+    "wrist_width": "Lățimea încheieturii",
+    "insole_length": "Lungime talpă interioară",
+    "calf_width": "Lățimea gambei",
+    "heel_height": "Înălțimea tocului",
+    "front_length": "Lungime Față",
+    "brim": "Boruri",
+    "sleeve": "Mânecă",
+    "thigh_circumference": "Circumferința coapsei",
+    "inside_leg": "Interior picior",
+    "wrist_circumference": "Circumferința încheieturii",
+    "high_waist_circumference": "Circumferință Talie Înaltă",
+    "shaft_height": "Înălțimea arborelui",
+    "calf_circumference": "Circumferința gambei",
+    "full_body_length": "Lungime totală a corpului",
+    "back_hook": "Cârlig spate",
+    "platform_height": "Înălțimea platformei",
+    "circumference": "Circumferință",
+    "hook": "Cârlig",
+    "lower_length": "Lungime mai mică",
+    "under_bust": "Sub bust",
+    "high_waist_width": "Lățime Talie Înaltă",
+    "back_length": "Lungimea spatelui"
+  },
+  "regions": {
+    "IT": "italian",
+    "HU": "maghiară",
+    "FR": "francez",
+    "MX": "mexican",
+    "CUSTOM": "internațional",
+    "JP": "japonez",
+    "code": {
+      "CUSTOM": "CUSTOM",
+      "US": "US",
+      "UK": "UK",
+      "AU": "AU",
+      "IT": "IT",
+      "MEX": "MEX",
+      "JP": "JP",
+      "FR": "FR",
+      "EU": "EU",
+      "CN": "CN",
+      "BR": "BR",
+      "DE": "DE"
+    },
+    "ES": "Spania",
+    "EU": "european",
+    "DE": "german",
+    "CN": "chinezesc",
+    "AU": "australian",
+    "BR": "brazilian",
+    "region": "Regiune",
+    "other": "Necunoscut",
+    "mx_marti": "Marti",
+    "PT": "portughez PT",
+    "letter-br": "brazilian",
+    "US": "american",
+    "UK": "britanic"
+  },
+  "size_chart": {
+    "subtitle": "Glisați barele de glisare pentru a vedea mai multe măsurători și dimensiuni",
+    "title_web": "Comparați măsurătorile cu această diagramă.",
+    "scroll_action": "Glisați",
+    "subtitle_mobile": "Glisați pentru a vedea mai multe măsurători și dimensiuni",
+    "returns_link": "Aflați mai multe despre politica de returnare.",
+    "returns": "Încă aveți îndoieli? Nu vă faceți griji, primul <strong>retur este gratuit.</strong>",
+    "title_accessory": "Diagramă de mărimi pentru acest accesoriu",
+    "title": "Selectați o mărime și verificați măsurătorile",
+    "instruction_measure": "Consultați materialul nostru despre cum să vă măsurați și să comparați măsurătorile cu acest tabel.",
+    "title_mobile": "Comparați măsurătorile corporale cu această diagramă. Plasați cursorul pe fiecare dintre titlurile coloanelor de mai jos și aflați cel mai bun mod de a vă măsura corpul."
+  },
+  "generics": {
+    "disable": "Dezactivați",
+    "less_than_year": "< 1 an",
+    "profile_tooltip": "Puteți crea noi profiluri de măsurare dând clic aici",
+    "weight": "Greutatea",
+    "age": "Vârsta",
+    "accessibility": "ACCESIBILITATE",
+    "language": "Limbă",
+    "years": "Ani",
+    "female": "Femei",
+    "size_fit": "Size & Fit",
+    "no_name": "Nedenumit",
+    "pronoun_female": "Mea",
+    "year": "An",
+    "suffix_male": "dvs.",
+    "months": "Luni",
+    "size_chart": "Tabel mărimi",
+    "chart": "Diagrama mărimilor",
+    "closeVfr": "Închideți Virtual Fitting Room",
+    "about": "Despre Sizebay",
+    "see_how_to_measure": "Vezi cum să măsori",
+    "kg": "Kilograme",
+    "assistive_mode": "{{status}} modul asistat",
+    "suffix_female": "dvs.",
+    "switcher": {
+      "title_chart": "Măsurători:"
+    },
+    "lb": "Livre",
+    "how_to_measure": "Vedeți cum se măsoară",
+    "unavailable": "--",
+    "other_profiles": "Alte profile",
+    "privacy": "Confidențialitate",
+    "ft": "Inci",
+    "pronoun_male": "Mea",
+    "got_it": "Am înțeles",
+    "enable": "Activați",
+    "cm": "Centimetri",
+    "height": "Înălțimea",
+    "male_singular": "masculin",
+    "uninformed": "Neinformat",
+    "female_singular": "feminin",
+    "profile": {
+      "title": "Profil de utilizator"
+    },
+    "male": "Bărbați",
+    "confirm_edit": "OK"
+  },
+  "privacy_v2": {
+    "overview": {
+      "text": "<p>Pentru a putea înțelege mai bine politicile care reglementează utilizarea soluțiilor dezvoltate de<strong> SIZEBAY </strong>, am pregătit acest scurt rezumat pentru dvs. Această prezentare generală nu înlocuiește întregul conținut al Politicilor, așa că vă recomandăm ca după aceea să citiți cu atenție fiecare document.</p><p> <strong>TERMENII ȘI CONDIȚIILE DE UTILIZARE</strong> ale SIZEBAY sunt destinate să reglementeze: (i) utilizarea serviciilor furnizate de <strong>SIZEBAY</strong> prin intermediul platformei de comerț electronic a <a href={{ pageTenant }} target=_blank>{{ tenantName }} ({{ pageTenant }})), precum și (ii) accesul și conținutul pus la dispoziție pe site-ul web al <strong>SIZEBAY</strong>, (iii) obligațiile utilizatorilor, vizitatorilor și clienților platformei și site-ului web în timpul utilizării aplicației sau accesării site-ului <strong>SIZEBAY</strong>, (iv) responsabilitatea părților implicate.</p>{{ pagePrivacyTenant }} <p>O <strong>POLITICĂ DE CONFIDENȚIALITATE </strong> își propune să clarifice modul în care <strong>SIZEBAY</strong> procesează datele în timpul utilizării și accesării aplicației și site-ului său web, drepturile titularilor sunt, de asemenea, clarificate și modul în care le pot exercita cu <strong>SIZEBAY</strong> .</<strong></strong>.</p>",
+      "title": "Prezentare generală"
+    },
+    "clear_data": {
+      "text": "Ștergeți toate datele de navigare, memoria cache și cookie-urile stocate de Sizebay",
+      "button": {
+        "initial": "Ștergeți toate cookie-urile"
+      }
+    },
+    "person": {
+      "first": {
+        "name": "Marcelo Bastos",
+        "info": "<li>Uniunea Europeană</li> <li>privacy@sizebay.com</li>"
+      },
+      "second": {
+        "name": "Janderson Roberto Araujo",
+        "info": "<li>Alte locații</li> <li>privacy@sizebay.com</li>"
+      }
+    },
+    "services": {
+      "title": "Cum își oferă SIZEBAY serviciile?",
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/computer-face.svg /><p>Serviciile<strong> SIZEBAY</strong> sunt disponibile pe platforma de comerț electronic sub formă de software ca serviciu (SaaS), ceea ce înseamnă că <strong>SIZEBAY</strong>acordă comerțului electronic licența de utilizare a software-ului</p>.</span><div><img src=https://static.sizebay.technology/assets/icons/computer-face.svg /> </div>"
+    },
+    "contact": {
+      "text": "<p>Dacă aveți întrebări despre politicile <strong>SIZEBAY</strong> sau despre modul în care vă puteți exercita drepturile în calitate de deținător de date, vă rugăm să contactați responsabilul cu protecția datelor (DPO) al <strong>SIZEBAY</strong>:",
+      "title": "În caz de îndoieli, cum să contactăm?"
+    },
+    "data_collected": {
+      "title": "Ce date sunt colectate de SIZEBAY?",
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/cookies.svg /><p>  Pentru a-și furniza serviciile, <strong>SIZEBAY</strong> poate colecta date de profil, cum ar fi porecla (opțional), vârsta, sexul, înălțimea, greutatea, profilul anatomic și măsurătorile corporale. În plus, datele jurnalului de acces și cookie-urile pot fi colectate, cu scopul de a îmbunătăți experiența utilizatorului și de a facilita utilizarea aplicației, fără a fi nevoie să furnizați din nou date deja informate de utilizator într-o următoare achiziție sau analiză a produsului. </p></span><span><img src=https://static.sizebay.technology/assets/icons/bag.svg /><p> <strong>SIZEBAY</strong> poate colecta, de asemenea, date din comanda de cumpărare plasată prin comerțul electronic, cu scopul de a efectua analize între dimensiunea recomandată și cea achiziționată efectiv, pentru a îmbunătăți serviciile de recomandare a dimensiunii pieselor de îmbrăcăminte și încălțăminte.</p></span><span><img src=https://static.sizebay.technology/assets/icons/anonymous-person.svg /><p> Clarificăm faptul că aplicația <strong>SIZEBAY</strong> este preocupată de confidențialitatea utilizatorilor săi, prin urmare, serviciile au fost dezvoltate în așa fel încât colectarea datelor să fie efectuată fără a fi posibilă identificarea datelor titularilor.</p></span><div><img src=https://static.sizebay.technology/assets/icons/cookies.svg /> <img src=https://static.sizebay.technology/assets/icons/bag.svg /> <img src=https://static.sizebay.technology/assets/icons/anonymous-person.svg /></div>"
+    },
+    "how_it_works": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/mannequin.svg /><p> Pentru a utiliza serviciile, nu este necesar ca utilizatorul să se înregistreze pe platforma <strong>SIZEBAY</strong>. Accesul la tabelul de măsurare va fi întotdeauna disponibil. Pentru a utiliza Cabina de probă virtuală, utilizatorul trebuie să completeze câteva informații de bază, astfel încât aplicația să poată recomanda dimensiunea articolelor de îmbrăcăminte și încălțăminte. </p></span><span><img src=https://static.sizebay.technology/assets/icons/anonymous.svg /><p> Crearea unui profil în aplicația <strong>SIZEBAY</strong> nu necesită ca utilizatorul să utilizeze numele sau prenumele dvs. și poate chiar completa cu date fictive, dacă sunteți interesat să vă păstrați confidențialitatea și mai mult. </p></span><span><img src=https://static.sizebay.technology/assets/icons/persons.svg /><p> Minorii nu pot utiliza cererea, cu excepția cazului în care sunt reprezentați și/sau asistați de părinții lor. părinți sau tutori.</p></span><div><img src=https://static.sizebay.technology/assets/icons/mannequin.svg /><img src=https://static.sizebay.technology/assets/icons/anonymous.svg /><img src=https://static.sizebay.technology/assets/icons/persons.svg /></div>",
+      "title": "Cum funcționează accesul la serviciile de Cabină de Probă Virtuală și Masă Virtuală?"
+    },
+    "share_data": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/share.svg /><p> Schimbul de date poate fi întotdeauna realizat cu scopul de a oferi o experiență mai bună de cumpărături online sau de a face posibilă funcționarea aplicației, astfel încât poate fi efectuată cu: clienți și furnizori.</p></span><div><img src=https://static.sizebay.technology/assets/icons/share.svg /></div>",
+      "title": "Cu cine poate SIZEBAY împărtăși datele?"
+    },
+    "actions": {
+      "terms": {
+        "content": "<li><a href=https://home.sizebay.com/{{lang}}/legal/conditions-of-use target=_blank>Termeni de utilizare</a></li><li><a href=https://home.sizebay.com/{{lang}}/legal/privacy target=_blank>Politica de confidențialitate</a></li><li><a href=https://home.sizebay.com/{{lang}}/legal/cookies-policy target=_blank>Politica de cookie-uri</a></li>",
+        "conditions-use": "Termeni de utilizare",
+        "privacy": "Politica de confidențialitate",
+        "cookies": "Politica de cookie-uri",
+        "title": "Termeni"
+      },
+      "statements": {
+        "gdpr": "Conformitate GDPR",
+        "title": "Declarații",
+        "lgpd": "Conformitatea LGPD",
+        "content": "<li><a href=https://home.sizebay.com/{{lang}}/legal/gdpr target=_blank >Conformitate GDPR</a></li><li><a href=https://home.sizebay.com/{{lang}}/legal/lgpd target=_blank >Conformitate LGPD</a></li><li><a href=https://home.sizebay.com/{{lang}}/legal/ccpa target=_blank >Conformitate CCPA</a></li><li><a href=https://sizebay.com/{{lang}}/legal/pipl target=_blank >Conformitate PIPL</a></li>",
+        "pipl": "Conformitatea PIPL",
+        "ccpa": "Conformitatea CCPA"
+      },
+      "title": "Accesați paginile noastre de termeni",
+      "redirect_privacy": {
+        "text": "Faceți clic aici pentru a fi redirecționat către pagina Politica de confidențialitate a {{ tenantName }}"
+      }
+    },
+    "how_data_is_collected": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/computer-hanger.svg /><p> Colectarea datelor se efectuează atunci când utilizatorul furnizează informații atunci când utilizează serviciile Virtua Fitter și Measurement Table sau prin cookie-uri, atunci când utilizatorul accesează aplicația sau site-ul web <strong>SIZEBAY</strong>. din nou, date deja informate de utilizator într-o următoare achiziție sau analiză a produsului.</p></span><div><img src=https://static.sizebay.technology/assets/icons/computer-hanger.svg /></div>",
+      "title": "Cum colectează SIZEBAY datele?"
+    },
+    "users_obligations": {
+      "title": "Care sunt obligațiile utilizatorului?",
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/obligations.svg /><p> Utilizatorii aplicației se angajează să utilizeze serviciile <strong>SIZEBAY</strong> respectând și observând întotdeauna politicile, precum și legislația în vigoare, vama, ordinea publică, precum și cerințele obligatorii solicitate pentru utilizarea și acceptarea utilizării platformei.</p></span><div><img src=https://static.sizebay.technology/assets/icons/obligations.svg /></div>"
+    },
+    "data_protection": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/security.svg /><p> <strong>SIZEBAY</strong> consideră secretul și securitatea informațiilor clienților, utilizatorilor și vizitatorilor săi extrem de importante. Din acest motiv, folosește tehnologia de criptare și firewall și va face tot ce îi stă în putință pentru a garanta protecția datelor și informațiilor dvs.</p></span><span><img src=https://static.sizebay.technology/assets/icons/http.svg /><p> Vă recomandăm să curățați periodic cookie-urile stocate în browserul dvs., pentru a preveni eliminarea informațiilor colectate din baza de date <strong>SIZEBAY</strong>, precum și de pe alte site-uri accesate.</p></span><div><img src=https://static.sizebay.technology/assets/icons/security.svg /> <img src=https://static.sizebay.technology/assets/icons/http.svg /></div>",
+      "title": "Cum îți protejează SIZEBAY datele?"
+    }
+  },
+  "garment_measures_info": {
+    "shaft_height": "Măsurați de la baza călcâiului până la vârful tijei pantofului.",
+    "shoulder_length": "Lățime de la o cusătură a mânecii la cealaltă, pe spatele articolului de îmbrăcăminte.",
+    "full_body_length": "Măsurați de la cusătura de sus până la tivul de jos al unei piese de îmbrăcăminte întregi.",
+    "hem": "Lățimea părții de jos a piesei.",
+    "back_length": "Măsurați de la guler până la tivul piesei de sus, de la spate.",
+    "lower_waist_width": "Lățimea taliei articolului de îmbrăcăminte cu talie joasă.",
+    "hip_circumference": "Lățimea îmbrăcămintei, aproximativ 20 cm sub talie, înmulțită cu doi.",
+    "palm_length": "Măsoară de la încheietura mâinii până la vârful degetului mijlociu.",
+    "calf_circumference": "Măsurătoarea în jurul părții superioare a tijei cizmei, de obicei în cel mai lat punct al gambei.",
+    "head_circumference": "Măsurați în jurul interiorului pălăriei unde se sprijină capul.",
+    "sleeve": "Măsurați de la cusătura interioară unde începe mâneca până la capătul manșetei.",
+    "waist_width": "Lățimea celei mai înguste părți a bluzei, între subsuori și tiv.",
+    "thigh_width": "Lățimea celei mai late părți a coapsei.",
+    "waistband_circumference": "Măsurarea deschiderii superioare a îmbrăcămintei.",
+    "circumference": "Măsurați în jurul unei piese, de obicei înmulțind lățimea cu 2.",
+    "lower_waist_circumference": "Lățimea îmbrăcămintei, chiar sub talia naturală, înmulțită cu doi.",
+    "high_waist_width": "Lățimea taliei articolului vestimentar cu talie înaltă.",
+    "chest_circumference": "Măsurarea lățimii îmbrăcămintei superioare, de la o parte la alta, chiar sub axilă, înmulțită cu doi.",
+    "waist_circumference": "Lățimea celei mai înguste părți a articolului de îmbrăcăminte înmulțită cu doi.",
+    "front_length": "Măsoară de la guler până la tivul piesei de sus, din față.",
+    "lower_length": "Măsurați de la talie până la tivul articolului de îmbrăcăminte, de la lateral.",
+    "wrist_circumference": "Măsurarea circumferinței deschiderii mânecii unde se potrivește la încheietura mâinii.",
+    "heel_height": "Măsoară de la baza săriturii până la cel mai înalt punct.",
+    "wrist_width": "Gestionează lățimea piesei.",
+    "hook": "Măsoară de la partea de sus a taliei până la cusătura picioarelor.",
+    "thigh_circumference": "Măsurarea celei mai late părți a coapsei îmbrăcămintei, chiar sub cusătura interioară.",
+    "platform_height": "Măsurați de la baza din fața pantofului până la partea superioară a platformei.",
+    "biceps": "Lățimea mânecii, aproximativ 2,5 cm sub axilă.",
+    "insole_width": "Măsoară partea cea mai lată a branțului.",
+    "brim": "Măsurați de la baza până la vârful marginii șepcii.",
+    "high_waist_circumference": "Măsurați în jurul taliei articolului vestimentar cu talie înaltă.",
+    "hip_width": "Lățimea piesei, 20 cm sub betelie.",
+    "length": "Măsoară de la cusătura de sus până la tivul de jos al piesei.",
+    "chest_width": "Măsoară lățimea piesei de sus, de la o parte la alta, chiar sub axile.",
+    "calf_width": "Măsurarea lățimii tijei cizmei la înălțimea gambei.",
+    "collar": "Lățimea gulerului bluzei, măsurată în jurul bazei gâtului.",
+    "waistband_width": "Lățimea taliei piesei de jos.",
+    "back_hook": "Măsurați de la talie până la cusătura dintre picioare, la spatele hainei.",
+    "insole_length": "Măsoară de la vârful călcâiului până la vârful degetului tălpii interioare.",
+    "under_bust": "Măsurarea lățimii articolului de îmbrăcăminte superior, de la o parte la cealaltă, chiar sub bust, înmulțită cu doi.",
+    "inside_leg": "Măsurați de la cusătura din zona inghinală până la tivul pantalonilor"
+  },
+  "error": {
+    "close": "Ieșirea din cabina de probă",
+    "title": "Oops, ceva nu a mers bine!",
+    "options": "Puteți încerca din nou repornind profilul sau închideți și încercați mai târziu.",
+    "restart": "Reporniți profilul",
+    "description": "Nu vă faceți griji, investigăm deja ce s-a întâmplat pentru a preveni să se întâmple din nou."
+  },
+  "recommendation": {
+    "3d_feel": {
+      "lanes": {
+        "large": "prea larg",
+        "ideal": "ideal",
+        "slightly_loose": "ușor larg",
+        "loose": "larg",
+        "slightly_fit": "ușor strâmt",
+        "tight": "foarte strâmt",
+        "fit": "strâmt"
+      },
+      "title_suggested": "Cea mai bună opțiune"
+    },
+    "lanes": {
+      "tight": "CONFORTABIL",
+      "ideal": "IDEAL",
+      "fit": "STRÂMT",
+      "looser": "MAI LARG",
+      "large": "LAT",
+      "loose": "LARG",
+      "tighter": "MAI STRÂMT"
+    },
+    "title_not_suggested": "nerecomandat",
+    "measurements": {
+      "title": "Măsurători",
+      "conversion": {
+        "title": "Conversie Mărime"
+      }
+    },
+    "centered_mode": {
+      "controls": {
+        "appearance": "Aspect",
+        "comfort": "Confort"
+      },
+      "comfort_map": {
+        "header": "Culorile din imaginea 3D indică cât de strâmtă sau liberă va fi îmbrăcămintea pe corp"
+      },
+      "tag_info": "Simularea corporală 3D reprezintă măsurătorile corporale individuale și potrivirea reală a produsului.",
+      "measure_name": "pe {{measureName}}"
+    },
+    "title_suggested": "este cea mai bună opțiune",
+    "height_warning": {
+      "threshold": {
+        "long": "lung",
+        "short": "scurt"
+      },
+      "message": "prea {{threshold}} pe cei care sunt {{height}}"
+    },
+    "shoe": {
+      "insoleLength": "lungime",
+      "insoleWidth": "lățime"
+    },
+    "subtitle": "Vedeți nivelurile de confort de mai jos",
+    "subtitle_shoe": "Pe baza dimensiunii {{brandName}} {{size}}",
+    "title_also_fits": "de asemenea, se potrivește",
+    "carousel_also_try": "Încercați și dimensiunile:"
+  },
+  "product_comparison": {
+    "elements": {
+      "edit": "Editați",
+      "foot_format": "Forma piciorului",
+      "category": "Categorie",
+      "brand": "Marcă",
+      "size": "Mărime"
+    },
+    "title": "Produs comparativ",
+    "subtitle": "Acestea sunt informațiile utilizate pentru recomandarea dimensiunilor."
+  },
+  "warnings": {
+    "age_group": {
+      "age_group": "{{ageGroup}} produs",
+      "limit_reached": "Numărul de profiluri și-a atins limita. Ștergeți un profil pentru a adăuga unul nou.",
+      "subtitle": "Intervalul de vârstă al produsului nu se potrivește cu vârsta profilului {{profileName}}. Selectați sau adăugați un profil pentru a continua.",
+      "prompt_message": "Doriți să probați și haine din secțiunea ({{ ageGroup }})?"
+    },
+    "we_need_more_measures": {
+      "subtitle": "Nu am putut calcula măsurătorile pentru dvs. Vă rugăm să ajustați măsurătorile de mai jos sau să reveniți pentru a revizui datele informate.",
+      "title": "Introduceți măsurătorile"
+    },
+    "unmatched_gender": {
+      "choose_a_profile": "Selectați profilul dorit",
+      "select_profile": "Nu, selectați alt profil",
+      "tooltip": "Acest profil nu este potrivit pentru tipul de produs ales",
+      "title": "Doriți să încercați și haine din secțiunea {{gender}}?",
+      "create_profile": "Nu, creați alt profil"
+    }
+  },
+  "brands_list": {
+    "search_question": "Ce marcă purtați de obicei?",
+    "not_found": {
+      "title": "Oops!",
+      "subtitle": "Nu s-au găsit rezultate."
+    },
+    "subtitle": "După câteva întrebări, vă vom ajuta să alegeți cea mai bună dimensiune de pantofi.",
+    "title": "Cabină de probă virtuală",
+    "search_placeholder": "Tastați o marcă aici",
+    "title_restricted": "Purtați încălțămintea noastră?"
+  },
+  "age_group": {
+    "adult": "Adult",
+    "kids": "Copii"
+  },
+  "a11y": {
+    "Chart": {
+      "vfr_button": "Apasă bara de spațiu pentru a merge la cabina de probă virtuală",
+      "step_blocks": {
+        "table": {
+          "measure_description": "Aceasta este mărimea {{size}}, pe {{measureName}} ar trebui să măsoare {{measure}}"
+        },
+        "switcher": {
+          "instruction_press_space": "Apasă bara de spațiu pentru a schimba valorile",
+          "option": "Valoarea dvs. curentă este {{value}}"
+        }
+      },
+      "greeting": "Acesta este tabelul de mărimi",
+      "size_system": {
+        "instruction": "Sistemul tău de mărimi actual este {{sizeSystem}}. Apasă bara de spațiu pentru a alege o altă opțiune."
+      },
+      "instruction": "Aici poți compara măsurătorile tale cu cele listate în tabelul nostru"
+    },
+    "shoe": {
+      "Brands": {
+        "highlighted": {
+          "edit_negative": "Apasă bara de spațiu dacă nu porți niciunul dintre aceste branduri",
+          "edit_action": "Apasă bara de spațiu pentru a continua cu brandul ales",
+          "instruction": "Apasă bara de spațiu pentru a continua cu {{brandName}}"
+        },
+        "restricted": {
+          "greeting": "Bine ai venit în cabina de probă pentru mărci de pantofi restricționate. Alege una dintre mărcile de pantofi pe care le porți deja"
+        }
+      },
+      "FootSize": {
+        "instruction": "Apasă bara de spațiu pentru a selecta sistemul de mărimi {{ sizeSystem }}"
+      },
+      "EditData": {
+        "greeting": "Aici poți face modificări la informațiile despre picior și pantof pe care ni le-ai trimis"
+      },
+      "FootFormat": {
+        "instruction": "Alege o formă de picior.",
+        "edit_action": "Apasă bara de spațiu pentru a alege {{ shoeFormat }}"
+      }
+    },
+    "drawer": {
+      "measurement_tape_header": "Bandă",
+      "measurement_tape_handle": "Ruletă de măsurat. Apasă bara de spațiu pentru a accesa ruleta de măsurat",
+      "close_group_handle": "Apasă bara de spațiu pentru a închide grupul",
+      "measurement_tape_print_button": "Apasă bara de spațiu pentru a deschide ruleta de măsurare"
+    },
+    "clothes": {
+      "Welcome": {
+        "step_blocks": {
+          "gender": {
+            "question": "Alege un gen pentru a continua. Genul tău actual este {{gender}}"
+          },
+          "age": {
+            "tooltip": "Apasă bara de spațiu pentru a citi mai multe informații despre cum vârsta afectează recomandarea"
+          },
+          "height": {
+            "question": "Introduceți aici înălțimea dvs. în {{measurementSystem}}."
+          }
+        }
+      },
+      "ProfilesMenu": {
+        "blocks": {
+          "greeting": "Acestea sunt toate profilurile tale din cabina de probă virtuală",
+          "edit": "Aici poți alege dacă să adaugi sau să ștergi profiluri"
+        },
+        "chip": {
+          "message": "Apasă bara de spațiu pentru a accesa mai multe detalii ale profilului tău {{profileName}}"
+        }
+      },
+      "Recommendation": {
+        "lane": "Mărimea {{ size }} este {{ label }} pe {{ measureName }}",
+        "carousel_instruction": "Găsește mai multe opțiuni de mărime aici"
+      },
+      "measures": {
+        "edit": "Apasă tastele săgeată pentru a crește sau a scădea măsura {{measureName}}",
+        "read": "{{measureName}} măsoară {{measureValue}} în {{measureSystem}}"
+      }
+    },
+    "generics": {
+      "welcome": "Bun venit în cabina de probă virtuală"
+    }
+  },
+  "welcome": {
+    "age_disclaimer": "Forma corpului se schimbă de-a lungul anilor și acest lucru ne afectează calculul.",
+    "gender_f_kids": "Feminin",
+    "title": "Cabină de probă virtuală",
+    "gender_m_kids": "Masculin",
+    "foot_measurement_known": "Deja îmi cunosc măsura piciorului meu",
+    "gender_m": "Masculin",
+    "shoe_measure": "Lungime talpă interioară",
+    "gender_f": "Feminin",
+    "gender_u": "Unisex",
+    "subtitle": "Completați detaliile pentru a încerca acest produs"
+  },
+  "edit_measures": {
+    "view_less": "Vedeți mai puține măsurători",
+    "view_all": "Vedeți mai multe măsurători"
+  },
+  "drawers": {
+    "manage": {
+      "actions": {
+        "select": "Alegeți",
+        "delete": "Ștergeți"
+      },
+      "active_profile": {
+        "details_shoe": "{{brandName}} mărimea {{size}}",
+        "no_name": "Introduceți numele",
+        "delete": "Șterge Profilul"
+      },
+      "new_profile": {
+        "input_example": "Exemplu: John Smith",
+        "title": "Adăugați profil ",
+        "subtitle": "Introduceți un nume pentru acest profil"
+      }
+    },
+    "knobs": {
+      "kids_shoes_tips": "Sfaturi pentru dimensiuni",
+      "garment_info": "Măsurători pentru articole de îmbrăcăminte",
+      "size_content": "Ghid de stil",
+      "measurement_tape": "Bandă de măsurare",
+      "product_info": "Măsurători corporale",
+      "size_hint_promo": "Complete promo",
+      "size_hint": "Sugestie",
+      "sizes_conversions": "Conversiile mărimilor"
+    },
+    "kids_shoes_title": "Sfaturi și îndrumări privind picioarele și încălțămintea copiilor",
+    "kids_shoes_button": "Am înțeles",
+    "kids_shoes_message": "Picioarele copiilor cresc cu o jumătate mai mare la fiecare 2 până la 4 luni. Din cauza acestei creșteri rapide, sfatul nostru este să obțineți dimensiuni puțin mai largi pentru copil, astfel încât pantofii să dureze mai mult și să nu-i strângă picioarele, care se dezvoltă rapid."
+  },
+  "landscape_vertical_subtitle": "Așează-ți dispozitivul în poziție verticală pentru a începe utilizarea",
+  "coppa_gate": {
+    "close": "Nu, am sub 13 ani",
+    "confirm": "Da, eu sunt gardianul",
+    "prompt_title_months": "Sunteți părintele sau tutorele copilului care are {{ months }} luni?",
+    "message": "Puteți continua să încercați acest produs dacă sunteți un adult care a creat acest profil pentru a încerca un produs pentru copilul dvs.",
+    "prompt_title_years": "Sunteți părintele sau tutorele copilului care are {{ years }} ani?",
+    "title": "Verificarea vârstei"
+  },
+  "fetching": {
+    "subtitle": "Vă calculăm măsurătorile corporale pentru a vă recomanda dimensiunea ideală.",
+    "title": "Aproape gata!",
+    "shoe": {
+      "success": "Calculul a fost finalizat!",
+      "calculating": "Calcularea măsurătorilor tale",
+      "analyzing": "Analizând răspunsurile tale"
+    }
+  },
+  "landscape_subtitle": "Țineți telefonul orizontal pentru a începe",
+  "measurement_tape": {
+    "link_download": {
+      "in": "//static.sizebay.technology/assets/measurement_tape/measurement_tape_in_en.pdf",
+      "cm": "//static.sizebay.technology/assets/measurement_tape/measurement_tape_cm_en.pdf"
+    },
+    "title": "Bandă",
+    "message": "Imprimați, tăiați și asamblați această ruletă pentru a verifica măsurătorile.",
+    "print": "Printați",
+    "print_mobile": "Imprimare bandă de măsurat",
+    "download": {
+      "file": {
+        "title": "Instrucțiuni pentru imprimarea și configurarea benzii",
+        "fold-and-rotate": "îndoiți și rotați",
+        "how-to-do": "Tipăriți:\nÎnainte de imprimare, asigurați-vă că opțiunea \"potrivire la pagină\" din caseta de dialog pentru imprimare este dezactivată, astfel încât imprimanta să nu reducă sau să mărească dimensiunile benzii.\n\nTăiați:\nFolosind foarfece, tăiați toate liniile negre continue indicate cu \"scissors\" pentru a crea segmentele benzii.\n\nAsamblare:\nÎndoiți și rotiți capetele (așa cum este indicat pe imprimare) unind liniile punctate până când se asamblează o singură bandă.\n\nFixați pliurile:\nDupă asamblare, fixați pliurile benzii folosind lipici, bandă adezivă sau capsator."
+      }
+    }
+  },
+  "foot_size": {
+    "select_region": "Selectați o regiune",
+    "not_selected": "Asigură-te că selectezi o mărime pentru a continua",
+    "title": "Care este mărimea ta la pantofi?",
+    "pattern": "Sistem {{region}} ",
+    "subtitle": "Alege mărimea ta în"
+  },
+  "child_name": {
+    "name": "Nume",
+    "title": "Doriți să ne spuneți numele copilului dvs.?",
+    "subtitle": "Acest lucru ne ajută să creăm un profil pentru Fitting Room"
+  },
+  "size_hint": {
+    "title": "Am selectat câteva produse care vi se potrivesc și dvs.",
+    "discount-original-price": "Preț obișnuit: <span class='size-hint__discount-original-price discount-description-price'>{{ price }}</span> <span class='size-hint__discount-percentage'>-{{discount }}%</span>",
+    "discount-lowest-price": "Cel mai mic preț din ultimele 30 de zile înainte de reducere: <span class='size-hint__discount-lowest-price discount-description-price'>{{ price }}</span> <span class='size-hint__discount-percentage'>-{{ discount }}%</span>",
+    "title_promo": "Complete promo",
+    "try_now": "Încercați acum"
+  },
+  "size_tailor": {
+    "action_button": "Personalizăm pentru dvs.",
+    "title": "Produs Personalizat",
+    "description": "Confirmați măsurătorile corporale, astfel încât să vă putem dezvolta produsul personalizat."
+  },
+  "miscellaneous": {
+    "hannaLinks": {
+      "recommendation": "Reveniți la rezultatele mele",
+      "welcome": "Înapoi"
+    }
+  },
+  "measure_shape": {
+    "shape_bigger": "Mai mare",
+    "shape_smaller": "Mai mic",
+    "skin_types": {
+      "toggle": "Schimbați culoarea pielii"
+    },
+    "subtitle": "Aceasta este forma aproximativă a corpului pe care o generăm din măsurătorile dvs. Ajustați numai dacă este necesar.",
+    "measure_range": {
+      "1": "Mult mai mic",
+      "2": "Mai mic",
+      "3": "Medie",
+      "4": "Mai mare",
+      "5": "Mult mai mare"
+    },
+    "shape_regular": "Obișnuit",
+    "title": "Ajustați forma corpului"
+  },
+  "calculating": {
+    "subtitle": "Verificați măsurătorile și reglați-le dacă este necesar",
+    "circle_title_loading": "Se încarcă...",
+    "circle_title_completed": "Gata!",
+    "title": "Am terminat de calculat!"
+  },
+  "brands_grid": {
+    "subtitle": "Ce marcă porți de obicei?",
+    "unique_brand": "Porți deja pantofi {{ brandName }}?",
+    "search_other_brands": "Caută altă marcă"
+  },
+  "modals": {
+    "remove_profile": {
+      "title_alt": "Sigur doriți să ștergeți acest profil?",
+      "title": "Ștergeți profilul {{profileName}}?",
+      "action": "Eliminarea profilului",
+      "confirm": "Ștergeți profilul"
+    }
+  },
+  "no_recommendation": {
+    "expected_size": "Dimensiunea recomandată este {{recommendedSize}}.",
+    "title_shoe": "Din păcate, în acest moment acest model și dimensiune nu este disponibil în magazinul nostru.",
+    "based_on": "Recomandarea se bazează pe măsurătorile dvs. și pe dimensiunea produsului {{brandName}} {{size}} pe care îl utilizați.",
+    "calculate_again": "Recalculați",
+    "title": "Nu am găsit nicio dimensiune",
+    "subtitle": "Nu am putut găsi o dimensiune pentru măsurătorile de mai jos. Reglați dacă este necesar."
+  },
+  "accessory": {
+    "welcome": {
+      "subtitle": "Pentru a încerca acest produs, urmați instrucțiunile pentru a efectua măsurătorile și pentru a informa numărul corespunzător",
+      "shoe": {
+        "subtitle": "Selectați măsura piciorului de mai jos, urmând îndrumările noastre despre cum să vă măsurați"
+      }
+    },
+    "bike": {
+      "recommendation": {
+        "title_suggested": "Dimensiunea bicicletei pe care o recomandăm este cea mai bună pentru performanța și postura dvs. Nici prea înalt, nici prea scund, veți putea merge cu bicicleta confortabil.",
+        "subtitle": "în funcție de înălțimea dvs.",
+        "title_also_fits": "Dimensiunea bicicletei pe care o recomandăm este cea mai bună pentru performanța și postura dvs. Nici prea înalt, nici prea scund, veți putea merge cu bicicleta confortabil.",
+        "title_not_suggested": "Dimensiunea bicicletei pe care o recomandăm este cea mai bună pentru performanța și postura dvs. Nici prea înalt, nici prea scund, veți putea merge cu bicicleta confortabil."
+      }
+    },
+    "shoe_size": {
+      "subtitle": "Pentru a încerca acest produs, alegeți o dimensiune în funcție de lungimea piciorului"
+    }
+  },
+  "foot_format": {
+    "formats": {
+      "0": {
+        "description": "Picioarele înguste tind să aibă spațiu suplimentar pe părțile laterale ale pantofului.",
+        "title": "Îngust"
+      },
+      "1": {
+        "title": "Mediu",
+        "description": "Picioarele medii se potrivesc de obicei bine în majoritatea pantofilor."
+      },
+      "2": {
+        "title": "Larg",
+        "description": "Picioarele late se potrivesc cu lungimea pantofului, dar se simt strâmte pe laterale."
+      }
+    },
+    "subtitle": "Selectează cât de lat este piciorul tău pentru a îmbunătăți potrivirea.",
+    "title": "Cât de lat este piciorul dvs.?"
+  },
+  "landscape_warning": {
+    "title": "Cabină de probă virtuală"
+  },
+  "my_measures": {
+    "title": "Măsurătorile mele",
+    "subtitle": "Ajustați măsurătorile după cum este necesar"
+  },
+  "subcategory": {
+    "subtitle": "Alegeți una dintre subcategoriile care se potrivesc cel mai bine cu {{brandName}} > {{categoryName}}",
+    "title": "Care este subcategoria?"
+  },
+  "model": {
+    "title": "Care este modelul?",
+    "subtitle": "Alegeți unul dintre modelele care seamănă cel mai mult cu {{brandName}} > {{categoryName}} > {{subcategoryName}}"
+  },
+  "landscape_horizontal_subtitle": "Așezați dispozitivul orizontal pentru a începe utilizarea",
+  "category": {
+    "subtitle": "Alegeți una dintre categoriile care se potrivește cel mai bine cu {{brandName}}",
+    "title": "Care este tipul de încălțăminte?"
+  },
+  "header": {
+    "title": "Găsitor de măsuri"
+  }
+}

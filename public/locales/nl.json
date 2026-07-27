@@ -1,0 +1,953 @@
+{
+  "shoe_size": {
+    "fit_loose": "Los",
+    "shoe_accessory": {
+      "no_recommendation": {
+        "subtitle": "We konden geen maat vinden voor de onderstaande afmetingen. Pas indien nodig aan.",
+        "title": "We hebben geen maat gevonden"
+      },
+      "all_measures": {
+        "measurements_guide": "Maatgids [PDF]",
+        "title": "Wat is de maat van je voeten?"
+      },
+      "info_drawer_subtitle": "Waarom vertel je ons niet iets over jezelf om de beste schoenmaat te vinden?"
+    },
+    "recommendation": "Op basis van uw informatie is dit uw voetmaat. Pas indien nodig aan",
+    "foot_shape_question": "Wat is de vorm van je voet?",
+    "title": "Wat is de lengte van je voet?",
+    "drawer_title": "Hoe lang zijn je voeten",
+    "subtitle": {
+      "0": "Vertel ons iets over jezelf om de beste schoenmaat te vinden",
+      "box": {
+        "subtitle": "Leg een vel papier op de vloer tegen een muur. Ga met je hiel op het papier en tegen de muur staan. Markeer de punt van je langste teen en meet vervolgens de afstand.",
+        "title": "Hoe meet je de voet op de juiste manier:"
+      }
+    },
+    "fit_description_ideal": "Er is <strong>een kleine ruimte</strong> tussen je tenen en de schoen.",
+    "length_example": "Trek je <strong>{{brandName}}</strong> maat <strong>{{size}}</strong> aan en vertel ons hoe de lengte aanvoelt op je voeten.",
+    "fit_tight": "Knus",
+    "fit_ideal": "Passend",
+    "open_drawer_button": "Hoe meet je jezelf",
+    "fit_description_loose": "Er is <strong>veel ruimte</strong> tussen je tenen en de schoen.",
+    "shoe_accessory_subtitle": "Selecteer hieronder uw voetmaat volgens onze richtlijnen\nover hoe je jezelf moet meten.",
+    "drawer_button": "Begrepen",
+    "fit_description_tight": "De schoen raakt je tenen <strong>zonder ruimte</strong>.",
+    "length_question": "Hoe past je schoen qua lengte?"
+  },
+  "footer": {
+    "add_to_cart_mobile_2": "Voeg toe aan winkelkar",
+    "confirm": "Bevestigen",
+    "none_of_those": "Geen enkele van deze",
+    "save_measures": "Maatregelen opslaan",
+    "view_recommendation": "Bekijk je ideale maat",
+    "print_measurement_tape": "Meetlint afdrukken",
+    "virtual_fitting_room": "Virtuele Paskamer",
+    "info_box": "Kies Aangepast formaat als je je jas op maat wilt laten maken voor je lichaams metingen",
+    "yes": "Ja",
+    "add_to_cart": "Aan de winkelwagen toevoegen",
+    "brand_not_found": "Ik heb het merk niet gevonden",
+    "proceed": "Ga verder",
+    "edit_data": "Gegevens bewerken",
+    "not_yet": "Nog niet",
+    "cancel_alt": "Nee, annuleer",
+    "next": "Volgende",
+    "cancel": "Annuleren",
+    "by-sizebay": "door Sizebay®",
+    "sure": "Natuurlijk!",
+    "add_profile": "Profiel aanmaken",
+    "create_new_profile": "Nieuw profiel aanmaken",
+    "restart": "Opnieuw beginnen",
+    "close": "Sluiten",
+    "select_another_profile": "Kies een ander profiel",
+    "continue_without_brand": "Ik kon het merk niet vinden",
+    "unsure": "Ik weet het niet zeker.",
+    "save": "Opslaan",
+    "edit_measures": "Bewerk afmetingen",
+    "proceed_anyway": "Ga toch door",
+    "edit_profile": "Bewerk profielen",
+    "add_to_cart_mobile": "Kopen",
+    "back": "Terug"
+  },
+  "composed_measures": {
+    "welcome": {
+      "link_tooltip": "<b>{{suffix}} {{measureName}} breedte.</b>",
+      "item_text": "Mijn {{measureName}} is {{range}} {{sizeSystem}} breed",
+      "measures_range_item": "{{initialRange}} tot  {{finalRange}}",
+      "tooltip_text": "Klik om een ​​andere maat te kiezen",
+      "tooltip_instructions": "Klik hier voor meer informatie over het uitvoeren van uw {{measureName}} meting",
+      "height": {
+        "item_text": "I am {{range}} {{sizeSystem}} tall",
+        "link_tooltip": "<b>hoe lang je bent.</b>",
+        "title": "How tall are you?",
+        "instructions": "We moeten uw <b>lengte</b> weten om u de mogelijke aanbevelingen te laten zien volgens"
+      },
+      "title": "Wat is de maat van {{suffix}} {{measureName}}?",
+      "instructions": "Hoe breed is {{suffix}} <b>{{measureName}}</b>? We moeten de grootte van {{suffix}} {{measureName}} weten om u de mogelijke aanbevelingen te laten zien volgens "
+    },
+    "height": {
+      "title": "Hoe lang ben je?",
+      "link_tooltip": "om je lengte te tonen"
+    },
+    "table": {
+      "helper_height": "Deze hoogte gaat van {{range}} {{sizeSystem}} hoog. Is deze meting onnauwkeurig?",
+      "tooltip_change": "Verander hier.",
+      "helper": "Deze {{measureName}} gaat van {{range}} {{sizeSystem}} lang. Is deze meting onnauwkeurig?",
+      "title": "Dit zijn de mogelijke maten voor de <span>{{range}}</span> {{measureName}}",
+      "vfr_tooltip": "Heb je je maten? Waarom probeer je je maat niet eens te ontdekken in de Virtuele Paskamer?"
+    }
+  },
+  "body_measurements": {
+    "diameter": "DIAMETER",
+    "collar": "Kraag",
+    "length": "Productlengte",
+    "centralSeam": "Haak",
+    "weightChart": "Gewicht",
+    "width": "Breedte",
+    "waistUpper": "Hoge taille",
+    "weight": "Gewicht",
+    "circumference": "Omtrek",
+    "insoleLength": "Voetlengte",
+    "label1": "MAAT (US)",
+    "sleve": "Mouwlengte",
+    "waist": "Taille",
+    "chest_m": "Borst",
+    "chest_f": "Borst",
+    "neck": "Nek",
+    "comfort": "Comfort",
+    "sleeve": "Arm",
+    "thigh": "Dij",
+    "headCircumference": "Hoofd",
+    "hip": "Heupen",
+    "shoulderWidth": "Schouder tot schouder",
+    "waistLower": "Lage taille",
+    "wrist": "Pols",
+    "palm": "Handpalm",
+    "bar": "Zoom",
+    "chest": "Borst",
+    "lowerLength": "Lagere lengte",
+    "finger_circumference": "OMTREK",
+    "insoleWidth": "Voetbreedte",
+    "height": "Lengte",
+    "ageChart": "Leeftijd",
+    "underBust": "Onderborstomvang",
+    "insideLeg": "Tussen de benen",
+    "biceps": "Biceps",
+    "calf": "Kalf",
+    "fist": "Pols",
+    "fullBodyLength": "Volledige lichaamslengte"
+  },
+  "measures_info": {
+    "insideLeg": "Meet de interne afstand van het been van het schaambeen tot de voetzolen.",
+    "fullBodyLength": "Meet de afstand van je schouders tot de vloer.",
+    "weightChart": "Wat is je gewicht?",
+    "waistUpper": "Meet de tailleomtrek boven je navel.",
+    "insoleLength": "Leg een vel papier op de vloer tegen een muur. Ga met je hiel op het papier en tegen de muur staan. Markeer de punt van je langste teen en meet vervolgens de afstand.",
+    "biceps": "Contourneer het meetlint in de gemiddelde hoogte van uw arm, waarbij het breedste deel van uw arm wordt geïdentificeerd.",
+    "height": "Easy! Het is de afstand tussen de bovenkant van je hoofd (schedel) en de grond (voetzool), gemeten met de rechtopstaande houding.",
+    "width": "Meet de breedte van je kleding",
+    "weight": "Uw gewicht",
+    "sleeve": "Meet met je arm licht gebogen de afstand tussen je schouder en pols door het meeltint achter je elleboog te plaatsen",
+    "neck": "Contourneer de gemiddelde hoogte van uw nek met het meetlint zonder te knijpen. Gebruik een spiegel om te helpen",
+    "collar": "Meet rond je nek net boven je sleutelbeen, plaats een vinger tussen de tape en je nek.",
+    "chest": "Contourneer uw borst of buste met het meetlint en adem normaal. Registreer variaties tijdens de ademhaling",
+    "ageChart": "Hoe oud ben je?",
+    "circumference": "Meet de omtrek van je kleding af",
+    "length_botton": "Plaats het begin van het meetlint op het hoogste punt van uw lichaam waar de kleding zich zal bevinden. Laat de rest van het meetlint los en markeer de meting.",
+    "waist": "Ga om je taille te meten voor de spiegel staan en buig je bovenlichaam iets opzij. Waar je een plooi krijgt zit je taille.",
+    "footLength": "Ga op een plat oppervlak staan, met uw lengte uitgelijnd met de muur. Meet het langste deel van de voet (van hiel tot tenen) met een liniaal.",
+    "lowerLength": "Dit is de afstand tussen je heup en de vloer.",
+    "chest_m": "Omzeil uw borst met het meetlint en adem normaal. Let op de variaties terwijl je ademt en registreer het grootste aantal",
+    "chest_f": "Meet de omtrek van het breedste gedeelte van uw borstkas en adem normaal. Let op de variatie in breedte van uw borstkas als je ademt en schrijf de omtrek op tijdens inademing (het hoogste getal)",
+    "palm": "Plaats een liniaal op een plat oppervlak, buig uw hand, plaats de linkerkant van uw dominante hand op het nulpunt van de liniaal en noteer uw handspanwijdte.",
+    "waistLower": "Meet de tailleomvang onder je navel, waar de tailleband (lage taille) meestal past.",
+    "thigh": "Meet het meetlint rond het breedste deel van uw dij, net onder het gluteale gebied.",
+    "underBust": "Meet met het meetlint direct onder je borstkas. Let op de variatie in breedte van uw borstkas als je ademt en schrijf de omtrek op tijdens inademing (het hoogste getal).",
+    "bar": "Meet de zoom van je kleding",
+    "insoleWidth": "Verwijder de binnenzool van een schoen die goed past en meet de breedte van de binnenzool zoals afgebeeld.",
+    "headCircumference": "Meet de omtrek van uw hoofd (boven de oren) met het meetlint.",
+    "wrist": "Contourneer het meetlint om uw pols, precies waar u bijvoorbeeld een horloge zou dragen.",
+    "hip": "Meet voor je heupomvang het breedste deel onder je taille over de billen.",
+    "diameter": "Meet de diameter van de binnenste cirkel van een ring die u aan dezelfde vinger draagt ​​van dezelfde hand waar u dit product wilt dragen",
+    "length": "Meet de afstand tussen het hoogste deel van je torso (kruising met je nek) en de lage taille (net onder je buik).",
+    "fist": "Contourneer het meetlint om uw pols, precies waar u bijvoorbeeld een horloge zou dragen.",
+    "calf": "Ga op een stoel zitten en houd je voet op de grond, waarbij je je been 90 graden vouwt. Neem met het meetlint aan de zijkant van de kuit de maat van de voetbasis tot de knieplooi.",
+    "shoulderWidth": "Meet met de hulp van iemand anders de afstand tussen de uiteinden van uw schouders zoals afgebeeld.",
+    "ring": "Bind een dun touwtje rond dezelfde vinger waarmee u dit product wilt dragen, markeer de kruising van het touwtje en meet de lengte om de omtrek te krijgen",
+    "centralSeam": "Zittend op een vlakke ondergrond, meet met het meetlint de afstand tussen uw taille en het oppervlak."
+  },
+  "privacy": {
+    "services": {
+      "anchor": "Sizebay Services",
+      "text": "<p>De services van SIZEBAY zijn beschikbaar op het e-commerceplatform in de vorm van software as a service (SaaS), wat betekent dat SIZEBAY de e-commerce de licentie verleent om de software te gebruiken.</p>",
+      "title": "Hoe maakt SIZEBAY zijn diensten beschikbaar?"
+    },
+    "clear_data": {
+      "button": {
+        "initial": "Alle gegevens wissen",
+        "cleared": "schoon!",
+        "cleaning": "Opruimen..."
+      },
+      "title": "Cookies wissen",
+      "tooltip": "Je gegevens zijn gewist!",
+      "text": "Klik op de knop hieronder als je alle je browsegegevens, cache en cookies opgeslagen door Sizebay wilt wissen."
+    },
+    "contact": {
+      "title": "Bij twijfel, hoe kan men contact opnemen?",
+      "text": "Als u vragen heeft over de beleidsregels van SIZEBAY of hoe u uw rechten als gegevenshouder kunt uitoefenen, neem dan contact op met de SIZEBAY Data Protection Officer (DPO):\n\nJanderson Roberto Araujo  \nAdres: R. Blumenau, 953 – Sala 402 – América, Joinville – SC, 89204-251 – Brazilië.  \nTelefoon: +55 48 4042-0150  \nE-mail: privacy@sizebay.com  \n\nZie meer beleidsregels"
+    },
+    "data_protection": {
+      "anchor": "Gegevensbescherming",
+      "title": "Hoe beschermt SIZEBAY zijn gegevens?",
+      "text": "SIZEBAY beschouwt de vertrouwelijkheid en beveiliging van de informatie van zijn klanten, gebruikers en bezoekers als uiterst belangrijk; daarom maakt het gebruik van versleuteling en firewalltechnologie, en zal het alles in zijn macht doen om de bescherming van uw gegevens en informatie te waarborgen.\n\nWe raden u aan om periodiek de cookies die in de browser die u gebruikt zijn opgeslagen te wissen, om te voorkomen dat de verzamelde informatie uit de SIZEBAY-database wordt verwijderd, evenals van andere bezochte websites."
+    },
+    "how_data_is_collected": {
+      "text": "Gegevensverzameling wordt uitgevoerd wanneer de gebruiker informatie verstrekt bij het gebruik van de Virtual Fitting Room en Fit & Size Chart-diensten, of via cookies, wanneer de gebruiker toegang heeft tot de SIZEBAY-applicatie of -website.",
+      "title": "Hoe verzamelt SIZEBAY gegevens?"
+    },
+    "users_obligations": {
+      "anchor": "Verplichtingen van Gebruikers",
+      "title": "Wat zijn de verplichtingen van de gebruiker?",
+      "text": "Gebruikers van de applicatie verbinden zich ertoe de diensten van SIZEBAY te gebruiken met respect voor en inachtneming van de beleidsregels, evenals de geldende wetgeving, gewoonten, openbare orde en de verplichte vereisten die nodig zijn om het platform te gebruiken en te accepteren."
+    },
+    "data_collected": {
+      "title": "Welke gegevens worden verzameld door SIZEBAY?",
+      "text": "Om zijn diensten te verlenen, kan SIZEBAY profielgegevens verzamelen zoals bijnaam (optioneel), leeftijd, geslacht, lengte, gewicht, anatomisch profiel en lichaamsmaten. Daarnaast kunnen toegangsloggegevens en cookiedata worden verzameld om de gebruikerservaring te verbeteren en het gebruik van de applicatie te vergemakkelijken, zonder dat opnieuw gegevens hoeven te worden verstrekt die al door de gebruiker zijn ingevoerd bij een andere aankoop of productanalyse.\n\nSIZEBAY zal ook gegevens kunnen verzamelen van de bestelling die bij de e-commerce is geplaatst, om de aanbevolen maat en de daadwerkelijk gekochte maat te analyseren, dit om de beschikbare diensten voor maatadvies van kleding en schoenen te verbeteren.\n\nWe verduidelijken dat de SIZEBAY-applicatie begaan is met de privacy van zijn gebruikers, en daarom zijn de diensten zodanig ontwikkeld dat gegevensverzameling plaatsvindt zonder dat het mogelijk is de eigenaren van de gegevens te identificeren.",
+      "anchor": "Gegevens verzameld"
+    },
+    "how_it_works": {
+      "anchor": "Hoe werkt het?",
+      "title": "Hoe werkt de toegang tot de Virtuele Paskamer en de Pasvorm- & Maatgrafiek?",
+      "text": "Om de diensten te gebruiken is het niet noodzakelijk voor de gebruiker om zich te registreren op het SIZEBAY-platform. Toegang tot de Fit & Size Chart zal beschikbaar zijn en om de virtuele paskamer te gebruiken is het voor de gebruiker noodzakelijk om enkele basisgegevens in te vullen zodat de applicatie de kleding- en schoenmaat kan aanbevelen.\n\nEen profiel aanmaken in de SIZEBAY-applicatie vereist niet dat de gebruiker zijn of haar voor- of achternaam gebruikt, en hij of zij kan zelfs fictieve gegevens invullen als men geïnteresseerd is in het verder beschermen van hun privacy.\n\nMinderjarigen kunnen de applicatie niet gebruiken tenzij zij worden vertegenwoordigd en/of bijgestaan door hun ouders of voogden."
+    },
+    "title": "Privacy Policy",
+    "overview": {
+      "title": "Wat zijn de Gebruiksvoorwaarden en het Privacybeleid voor?",
+      "text": "De SIZEBAY GEBRUIKSVOORWAARDEN zijn bedoeld om te regelen: (i) het gebruik van de diensten die beschikbaar zijn gesteld door SIZEBAY, via het e-commerce platform van haar klanten, en ook (ii) de toegang en inhoud die beschikbaar is op de website van SIZEBAY, (iii) de verplichtingen van de gebruikers, bezoekers en klanten van het platform en de website bij het gebruik van de applicatie of toegang tot de SIZEBAY-website, (iv) de verantwoordelijkheid van de betrokken partijen.\n\nHet PRIVACYBELEID heeft als doel te verduidelijken hoe SIZEBAY gegevensverwerking hanteert tijdens het gebruik en de toegang tot zijn applicatie en website, de rechten van de houder en hoe zij deze kunnen uitoefenen met SIZEBAY worden ook verduidelijkt.\n\nBij het toegang krijgen tot en gebruiken van de Virtuele Paskamer en de Fit & Size Chart, gaat u akkoord met de SIZEBAY-beleid. U kunt de volledige SIZEBAY-beleid via de link bekijken.\n\nHieronder vatten we de belangrijkste informatie voor u samen:",
+      "anchor": "Privacy"
+    },
+    "share_data": {
+      "text": "Gegevensdeling kan altijd worden uitgevoerd met als doel een betere online winkelervaring mogelijk te maken of zodat de applicatie kan functioneren, en kan dus worden uitgevoerd met: klanten, zakenpartners, dienstverleners, onderaannemers, fabrikanten van kleding- en schoenproducten.",
+      "title": "Met wie kan SIZEBAY gegevens delen?"
+    }
+  },
+  "product_not_found": {
+    "report_status": {
+      "sending": "Informeren...",
+      "sent": "Bedankt!",
+      "not_sending": "Informeer ons",
+      "not_sent": "Informeer ons"
+    },
+    "description": "We hebben nog steeds niet genoeg informatie over dit product om het aan te bevelen.",
+    "title": "Oh nee!"
+  },
+  "languages": {
+    "all_langs": {
+      "fr": "Frans",
+      "et": "Ests",
+      "es": "Spaans",
+      "en": "Engels",
+      "fi": "Fins",
+      "dk": "Deens",
+      "cn": "Chinees",
+      "de": "Duits",
+      "cz": "Tsjechisch",
+      "br": "Portugees",
+      "ar": "Arabisch",
+      "bg": "Bulgaars",
+      "mx": "Spaans",
+      "no": "Noors",
+      "nl": "Nederlands",
+      "lt": "Litouws",
+      "lv": "Lets",
+      "jp": "Japans",
+      "ko": "Koreaans",
+      "it": "Italiaans",
+      "hu": "Hongaars",
+      "hr": "Kroatisch",
+      "id": "Indonesië",
+      "gr": "Grieks",
+      "he": "Hebreeuws",
+      "vn": "Vietnamees",
+      "uk": "Engels",
+      "th": "Thais",
+      "tr": "Turks",
+      "sr": "Servisch",
+      "sv": "Zweeds",
+      "sl": "Sloveens",
+      "sk": "Slowaaks",
+      "ru": "Russisch",
+      "ro": "Roemeense",
+      "pt": "Portugees",
+      "pl": "Pools",
+      "esAR": "Spaans",
+      "esCT": "Spaans (Castiliaans)",
+      "ukr": "Oekraïens",
+      "zh": "Chinese"
+    },
+    "select": "Beschikbare talen: {{langs}}",
+    "box": "Taalkeuze, je gebruikt de {{currentLang}} taal"
+  },
+  "garment_measurements": {
+    "hip_width": "Heupbreedte",
+    "thigh_width": "Dijbreedte",
+    "head_circumference": "Hoofdomtrek",
+    "lower_waist_circumference": "Lagere Tailleomtrek",
+    "collar": "Kraag",
+    "waistband_circumference": "Tailleomtrek",
+    "hip_circumference": "Heupomtrek",
+    "biceps": "Biceps",
+    "waistband_width": "Taillebandbreedte",
+    "hem": "Hem",
+    "lower_waist_width": "Lagere Taillebreedte",
+    "chest_circumference": "Borstomtrek",
+    "waist_circumference": "Tailleomtrek",
+    "insole_width": "Inlegzoolbreedte",
+    "palm_length": "Palmlengte",
+    "shoulder_length": "Schouderlengte",
+    "length": "Lengte",
+    "waist_width": "Taillebreedte",
+    "chest_width": "Borstbreedte",
+    "wrist_width": "Polsbreedte",
+    "insole_length": "Binnenzool Lengte",
+    "calf_width": "Beenbreedte",
+    "heel_height": "Hakhoogte",
+    "front_length": "Voorlengte",
+    "brim": "Klep",
+    "sleeve": "Mouw",
+    "thigh_circumference": "Dijomtrek",
+    "inside_leg": "Binnenbeenlengte",
+    "wrist_circumference": "Polsomtrek",
+    "high_waist_circumference": "Hoge Tailleomtrek",
+    "shaft_height": "Schachthoogte",
+    "calf_circumference": "Beenomtrek",
+    "full_body_length": "Volledige lichaamslengte",
+    "back_hook": "Achterhaak",
+    "platform_height": "Platformhoogte",
+    "circumference": "Omtrek",
+    "hook": "Haak",
+    "lower_length": "Lagere lengte",
+    "under_bust": "Onderborstomtrek",
+    "high_waist_width": "Hoge Taillebreedte",
+    "back_length": "Ruglengte"
+  },
+  "regions": {
+    "IT": "Italiaans",
+    "HU": "Hongaars",
+    "FR": "Frans",
+    "MX": "Mexicaans",
+    "CUSTOM": "Internationaal",
+    "JP": "Japans",
+    "code": {
+      "CUSTOM": "CUSTOM",
+      "US": "US",
+      "UK": "UK",
+      "AU": "AU",
+      "IT": "IT",
+      "MEX": "MEX",
+      "JP": "JP",
+      "FR": "FR",
+      "EU": "EU",
+      "CN": "CN",
+      "BR": "BR",
+      "DE": "DE"
+    },
+    "ES": "Spanje",
+    "EU": "Europees",
+    "DE": "Duits",
+    "CN": "Chinese",
+    "AU": "Australisch",
+    "BR": "Braziliaans",
+    "region": "Regio",
+    "other": "Onbekend",
+    "mx_marti": "Marti",
+    "PT": "Portugees PT",
+    "letter-br": "Braziliaans",
+    "US": "US maten",
+    "UK": "UK maten"
+  },
+  "size_chart": {
+    "subtitle": "Schuif de schuifbalken om meer metingen en maten te zien",
+    "title_web": "Vergelijk uw lichaamsafmetingen met deze tabel",
+    "scroll_action": "Schuif",
+    "subtitle_mobile": "Veeg om meer metingen en maten te zien",
+    "returns_link": "Lees meer over retourneren.",
+    "returns": "Heb je nog twijfels? Maak je geen zorgen, de eerste <strong> retour is gratis. </strong>",
+    "title_accessory": "Maattabel voor dit accessoire",
+    "title": "Selecteer een maat en controleer de maten.",
+    "instruction_measure": "Bekijk ons ​​materiaal over hoe u zelf kunt meten en vergelijk uw metingen met deze tabel.",
+    "title_mobile": "Vergelijk uw lichaamsafmetingen met deze tabel. Raak de kolomkoppen hieronder aan en zie hoe u correct kunt meten"
+  },
+  "generics": {
+    "disable": "uitschakelen",
+    "less_than_year": "< 1 jaar",
+    "profile_tooltip": "Klik hier om uw gegevens te bewerken of nieuwe profielen toe te voegen.",
+    "weight": "Gewicht",
+    "age": "Leeftijd",
+    "accessibility": "TOEGANKELIJKHEID",
+    "language": "Taal",
+    "years": "Jaar",
+    "female": "Vrouw",
+    "size_fit": "Maat",
+    "no_name": "Geen naam",
+    "pronoun_female": "Mijn",
+    "year": "Jaar",
+    "suffix_male": "jouw",
+    "months": "Maanden",
+    "size_chart": "Maattabel",
+    "chart": "Maattabel",
+    "closeVfr": "Sluit de virtuele paskamer",
+    "about": "Over Sizebay",
+    "see_how_to_measure": "Bekijk hoe u kunt meten",
+    "kg": "Kilogrammen",
+    "assistive_mode": "{{status}} ondersteunende modus",
+    "suffix_female": "jouw",
+    "switcher": {
+      "title_chart": "Afmetingen"
+    },
+    "lb": "Ponden",
+    "how_to_measure": "Zie hoe te meten",
+    "unavailable": "--",
+    "other_profiles": "Andere profielen",
+    "privacy": "Privacy",
+    "ft": "Inches",
+    "pronoun_male": "Mijn",
+    "got_it": "Begrepen",
+    "enable": "inschakelen",
+    "cm": "Centimeters",
+    "height": "Lengte",
+    "male_singular": "man",
+    "uninformed": "Niet op de hoogte",
+    "female_singular": "vrouw",
+    "profile": {
+      "title": "Gebruikersprofiel"
+    },
+    "male": "Man",
+    "confirm_edit": "OK"
+  },
+  "privacy_v2": {
+    "overview": {
+      "text": "<p>Om het beleid dat het gebruik van oplossingen ontwikkeld door<strong> SIZEBAY</strong> reguleert, beter te begrijpen, hebben we deze korte samenvatting voor u opgesteld. Dit overzicht vervangt niet de volledige inhoud van het Beleid, dus we raden u aan om daarna elk document zorgvuldig te lezen. </p><p>De <strong>GEBRUIKSVOORWAARDEN</strong> van <strong>SIZEBAY</strong> zijn bedoeld om het volgende te reguleren: (i) het gebruik van de diensten geleverd door <strong>SIZEBAY</strong>, via het e-commerceplatform van <a href={{ pageTenant }} target=_blank>{{ tenantName }} ({{ pageTenant }})</a>, en ook (ii) toegang tot en inhoud beschikbaar gesteld op de website van <strong>SIZEBAY</strong>, (iii) de verplichtingen van gebruikers, bezoekers en klanten van het platform en de website tijdens het gebruik van de applicatie of toegang tot de <strong>SIZEBAY</strong>-website, (iv) verantwoordelijkheid van de betrokken partijen.</p>{{ pagePrivacyTenant }}<p>A <strong>PRIVACYBELEID </strong> heeft tot doel te verduidelijken hoe <strong> SIZEBAY </strong> verwerkt gegevens tijdens het gebruik van en de toegang tot haar applicatie en website, ook worden de rechten van houders verduidelijkt en hoe ze deze kunnen uitoefenen met <strong> SIZEBAY </strong>.</p>",
+      "title": "Overzicht"
+    },
+    "clear_data": {
+      "text": "Wis al uw browsegegevens, cachegeheugen en cookies die zijn opgeslagen door Sizebay",
+      "button": {
+        "initial": "cookies wissen"
+      }
+    },
+    "person": {
+      "first": {
+        "name": "Marcelo Bastos",
+        "info": "<li>Europese Unie</li> <li>privacy@sizebay.com</li>"
+      },
+      "second": {
+        "name": "Janderson Roberto Araujo",
+        "info": "<li>Andere locaties</li> <li>privacy@sizebay.com</li>"
+      }
+    },
+    "services": {
+      "title": "Hoe levert SIZEBAY haar diensten?",
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/computer-face.svg /><p> <strong>SIZEBAY</strong>-diensten zijn beschikbaar op het e-commerceplatform in de vorm van software as a service (SaaS), wat betekent dat <strong>SIZEBAY</strong> de e-commerce de licentie verleent om de software te gebruiken.</p></span> <div><img src=https://static.sizebay.technology/assets/icons/computer-face.svg /></div>"
+    },
+    "contact": {
+      "text": "<p>Als u vragen heeft over <strong>SIZEBAY</strong>-beleid of hoe u uw rechten als betrokkene kunt uitoefenen, neem dan contact op met de <strong>SIZEBAY</strong> functionaris voor gegevensbescherming (DPO):</p>",
+      "title": "Hoe contact opnemen bij twijfel?"
+    },
+    "data_collected": {
+      "title": "Welke gegevens worden door SIZEBAY verzameld?",
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/cookies.svg /><p> Om zijn diensten te kunnen leveren, kan <strong>SIZEBAY</strong> profielgegevens verzamelen, zoals bijnaam (optioneel), leeftijd, geslacht, lengte, gewicht, anatomisch profiel en lichaamsafmetingen. Daarnaast kunnen toegangsloggegevens en cookies worden verzameld, met als doel de gebruikerservaring te verbeteren en het gebruik van de applicatie te vergemakkelijken, zonder de noodzaak om opnieuw gegevens te verstrekken die al door de gebruiker zijn geïnformeerd bij een volgende aankoop of productanalyse. .</p> </span><span><img src=https://static.sizebay.technology/assets/icons/bag.svg /><p> <strong>SIZEBAY</strong> kan ook gegevens verzamelen van de aankooporder die op de e-commerce is geplaatst, met als doel analyses uit te voeren tussen de aanbevolen maat en de daadwerkelijk gekochte maat, om de diensten voor het aanbevelen van de maat van kledingstukken en schoeisel.</p></span><span><img src=https://static.sizebay.technology/assets/icons/anonymous-person.svg /><p> We verduidelijken dat de <strong>SIZEBAY</strong>-applicatie zich bezighoudt met de privacy van zijn gebruikers, daarom zijn de services zo ontwikkeld dat gegevensverzameling wordt uitgevoerd zonder dat het mogelijk is om te identificeren gegevens van de houders.</p></span><div><img src=https://static.sizebay.technology/assets/icons/cookies.svg /> <img src=https://static.sizebay.technology/assets/icons/bag.svg /> <img src=https://static.sizebay.technology/assets/icons/anonymous-person.svg /></div>"
+    },
+    "how_it_works": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/mannequin.svg /><p> Om de diensten te gebruiken, is het niet nodig dat de gebruiker zich registreert op het <strong>SIZEBAY</strong>-platform. Toegang tot de meettafel zal altijd beschikbaar zijn. Om de Virtuele Paskamer te gebruiken, moet de gebruiker wat basisinformatie invullen zodat de applicatie de maat van kledingstukken en schoenen kan aanbevelen.</p></span><span><img src=https://static.sizebay.technology/assets/icons/anonymous.svg /><p> Het aanmaken van een profiel in de <strong>SIZEBAY</strong>-applicatie vereist niet dat de gebruiker uw voor- of achternaam, en eventueel zelfs invullen met fictieve gegevens, als u uw privacy nog meer wilt waarborgen.</p></span><span><img src=https://static.sizebay.technology/assets/icons/persons.svg /><p> Minderjarigen kunnen de applicatie niet gebruiken, tenzij zij worden vertegenwoordigd en/of bijgestaan ​​door hun ouders. voogden.</p></span><div><img src=https://static.sizebay.technology/assets/icons/mannequin.svg /><img src=https://static.sizebay.technology/assets/icons/anonymous.svg /><img src=https://static.sizebay.technology/assets/icons/persons.svg /></div>",
+      "title": "Hoe werkt de toegang tot de virtuele paskamer- en virtuele tafeldiensten?"
+    },
+    "share_data": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/share.svg /><p> Het delen van gegevens kan altijd worden uitgevoerd met als doel een betere online winkelervaring te bieden of om de applicatie te laten werken, dus het kan worden uitgevoerd met: klanten en leveranciers.</p></span><div><img src=https://static.sizebay.technology/assets/icons/share.svg /></div>",
+      "title": "Met wie kan SIZEBAY gegevens delen?"
+    },
+    "actions": {
+      "terms": {
+        "content": "<li><a href=https://home.sizebay.com/{{lang}}/legal/conditions-of-use target=_blank>Gebruiksvoorwaarden</a></li><li><a href=https://home.sizebay.com/{{lang}}/legal/privacy target=_blank>Privacybeleid</a></li><li><a href=https://home.sizebay.com/{{lang}}/legal/cookies-policy target=_blank>Cookiebeleid</a></li>",
+        "conditions-use": "Gebruiksvoorwaarden",
+        "privacy": "Privacybeleid",
+        "cookies": "Cookiebeleid",
+        "title": "Voorwaarden"
+      },
+      "statements": {
+        "gdpr": "AVG-naleving",
+        "title": "verklaringen",
+        "lgpd": "LGPD-naleving",
+        "content": "<li><a href=https://home.sizebay.com/{{lang}}/legal/gdpr target=_blank >AVG-naleving</a></li><li><a href=https: / /home.sizebay.com/{{lang}}/legal/lgpd target=_blank >LGPD-naleving</a></li><li><a href=https://home.sizebay.com/{ {lang }}/legal/ccpa target=_blank >CCPA-naleving</a></li><li><a href=https://sizebay.com/{{lang}}/legal/pipl target=_blank >PIPL-naleving </a></li>",
+        "pipl": "PIPL-naleving",
+        "ccpa": "CCPA-naleving"
+      },
+      "title": "Ga naar onze pagina's met voorwaarden",
+      "redirect_privacy": {
+        "text": "Klik hier om u om te leiden naar de privacypagina van {{ tenantName }}"
+      }
+    },
+    "how_data_is_collected": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/computer-hanger.svg /><p> Gegevensverzameling wordt uitgevoerd wanneer de gebruiker informatie verstrekt bij het gebruik van de Virtua Fitter- en Meettabel-services, of via cookies wanneer de gebruiker toegang krijgt tot de <strong>SIZEBAY</strong>-applicatie of website. opnieuw gegevens die de gebruiker al heeft meegedeeld bij een volgende aankoop of productanalyse.</p></span><div><img src=https://static.sizebay.technology/assets/icons/computer-hanger.svg /></div>",
+      "title": "Hoe verzamelt SIZEBAY gegevens?"
+    },
+    "users_obligations": {
+      "title": "Wat zijn de verplichtingen van de gebruiker?",
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/obligations.svg /><p> Applicatiegebruikers verbinden zich ertoe om de diensten van <strong>SIZEBAY</strong> te gebruiken en altijd het beleid te respecteren en na te leven, evenals de huidige wetgeving, gebruiken, openbare orde, evenals de verplichte eisen die worden gesteld aan het gebruik en acceptatie van het gebruik van het platform .</p></span><div><img src=https://static.sizebay.technology/assets/icons/obligations.svg /></div>"
+    },
+    "data_protection": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/security.svg /><p> <strong>SIZEBAY</strong> hecht veel waarde aan geheimhouding en veiligheid van de informatie van haar klanten, gebruikers en bezoekers. Om deze reden maakt het gebruik van versleutelings- en firewalltechnologie en zal het alles in het werk stellen om de bescherming van uw gegevens en informatie te garanderen.</p></span><span><img src=https://static.sizebay.technology/assets/icons/http.svg /><p> We raden u aan om de cookies die in uw browser zijn opgeslagen regelmatig op te schonen om te voorkomen dat de verzamelde informatie wordt verwijderd uit de <strong>SIZEBAY</strong>-database, evenals uit andere bezochte sites.</p></span><div><img src=https://static.sizebay.technology/assets/icons/security.svg /> <img src=https://static.sizebay.technology/assets/icons/http.svg /></div>",
+      "title": "Hoe beschermt SIZEBAY uw gegevens?"
+    }
+  },
+  "garment_measures_info": {
+    "shaft_height": "Meet vanaf de basis van de hak tot de bovenkant van de schacht van de schoen.",
+    "shoulder_length": "Breedte van de ene mouwnaad tot de andere, aan de achterkant van het kledingstuk.",
+    "full_body_length": "Meet van de bovennaad tot de onderste zoom van een geheel kledingstuk.",
+    "hem": "Breedte van de onderkant van het onderdeel.",
+    "back_length": "Meet vanaf de kraag tot de zoom van het bovenstuk aan de achterkant.",
+    "lower_waist_width": "Taillebandbreedte van het kledingstuk met lage taille.",
+    "hip_circumference": "Breedte van het kledingstuk, ongeveer 20 cm onder de tailleband, vermenigvuldigd met twee.",
+    "palm_length": "Meet vanaf de pols tot de top van de middelvinger.",
+    "calf_circumference": "Meting rond de bovenkant van de schacht van de laars, meestal op het breedste punt van de kuiten.",
+    "head_circumference": "Meet rond de binnenkant van de hoed waar het hoofd rust.",
+    "sleeve": "Meet vanaf de binnenkant waar de mouw begint tot het einde van de manchet.",
+    "waist_width": "Breedte van het smalste deel van het bovenstuk, tussen de oksels en de zoom.",
+    "thigh_width": "Breedte van het breedste deel van de dij.",
+    "waistband_circumference": "Meting van de bovenopening van het kledingstuk.",
+    "circumference": "Meet rond een stuk, meestal door de breedte met 2 te vermenigvuldigen.",
+    "lower_waist_circumference": "Breedte van het kledingstuk, net onder de natuurlijke taille, vermenigvuldigd met twee.",
+    "high_waist_width": "Breedte van de tailleband van het kledingstuk met hoge taille.",
+    "chest_circumference": "Meting van de breedte van het bovenkledingstuk, van de ene kant naar de andere, net onder de oksel, vermenigvuldigd met twee.",
+    "waist_circumference": "Breedte van het smalste deel van het kledingstuk vermenigvuldigd met twee.",
+    "front_length": "Meet van de kraag tot de zoom van het bovenstuk, aan de voorkant.",
+    "lower_length": "Meet vanaf de tailleband tot de zoom van het kledingstuk, vanaf de zijkant.",
+    "wrist_circumference": "Meting van de omtrek van de mouwopening waar de pols door past.",
+    "heel_height": "Meet vanaf de basis van de hak tot het hoogste punt.",
+    "wrist_width": "Breedte van de band van het kledingstuk.",
+    "hook": "Meet vanaf de bovenkant van de taille tot de kruisnaad.",
+    "thigh_circumference": "Meting van het breedste gedeelte van de dij van het kledingstuk, net onder de naad.",
+    "platform_height": "Meet vanaf de basis, van de voorkant van de schoen, tot de bovenkant van het platform.",
+    "biceps": "Mouwbreedte, ongeveer 2,5 cm onder de oksel.",
+    "insole_width": "Meet het breedste deel van de binnenzool.",
+    "brim": "Meet vanaf de basis tot de punt van de klep van de pet.",
+    "high_waist_circumference": "Meet rond de tailleband van het kledingstuk met hoge taille.",
+    "hip_width": "Breedte van het stuk, 20 cm onder de tailleband.",
+    "length": "Meet van de bovenste naad tot de onderste zoom van het stuk.",
+    "chest_width": "Meet de breedte van het bovenstuk, van de ene kant naar de andere, net onder de oksels.",
+    "calf_width": "Meting van de breedte van de laars schacht op kuit hoogte.",
+    "collar": "Breedte van de blousekraag, gemeten rond de basis van de nek.",
+    "waistband_width": "Taillebandbreedte van het onderste stuk.",
+    "back_hook": "Meet vanaf de taille tot de naad van het kruis aan de achterkant van het kledingstuk.",
+    "insole_length": "Meet van de punt van de hiel tot de punt van de teen van de binnenzool.",
+    "under_bust": "Meting van de breedte van het bovenkledingstuk, van de ene kant naar de andere, net onder de buste, vermenigvuldigd met twee.",
+    "inside_leg": "Meet van de kruisnaad tot de zoom van de broek"
+  },
+  "error": {
+    "close": "Verlaat de paskamer",
+    "title": "Oeps! Er is iets misgegaan!",
+    "options": "U kunt het opnieuw proberen door het profiel opnieuw te starten of te sluiten en later te proberen.",
+    "restart": "Herstart profiel",
+    "description": "Maak je geen zorgen, we zijn al aan het onderzoeken wat er is gebeurd om te voorkomen dat het opnieuw gebeurt."
+  },
+  "recommendation": {
+    "3d_feel": {
+      "lanes": {
+        "large": "te los",
+        "ideal": "precies goed",
+        "slightly_loose": "lets ruim",
+        "loose": "los",
+        "slightly_fit": "een beetje strak",
+        "tight": "te strak",
+        "fit": "strak"
+      },
+      "title_suggested": "Dit is de ideale maat"
+    },
+    "lanes": {
+      "tight": "STRAK",
+      "ideal": "IDEAAL",
+      "fit": "NAUW",
+      "looser": "VERLIEZER",
+      "large": "WIJD",
+      "loose": "LOS",
+      "tighter": "Strakker"
+    },
+    "title_not_suggested": "niet aanbevolen",
+    "measurements": {
+      "title": "Afmetingen",
+      "conversion": {
+        "title": "Grootte conversie"
+      }
+    },
+    "centered_mode": {
+      "controls": {
+        "appearance": "Uiterlijk",
+        "comfort": "Comfort"
+      },
+      "comfort_map": {
+        "header": "De kleuren in het 3D-beeld geven aan hoe strak of los het kledingstuk om je lichaam zal zitten"
+      },
+      "tag_info": "De 3D-lichaamssimulatie vertegenwoordigt je individuele lichaamsmaten en levensechte productpasvorm.",
+      "measure_name": "op uw {{measureName}}"
+    },
+    "title_suggested": "is de beste optie",
+    "height_warning": {
+      "threshold": {
+        "long": "Lang",
+        "short": "Kort"
+      },
+      "message": "{{threshold}} te groot als je {{height}} meet"
+    },
+    "shoe": {
+      "insoleLength": "lengte",
+      "insoleWidth": "breedte"
+    },
+    "subtitle": "Zie comfortniveau's hieronder",
+    "subtitle_shoe": "Gebaseerd op je {{brandName}} maat {{size}}",
+    "title_also_fits": "past ook",
+    "carousel_also_try": "Probeer ook deze maten:"
+  },
+  "product_comparison": {
+    "elements": {
+      "edit": "Bewerk",
+      "foot_format": "Voetvorm",
+      "category": "Categorie",
+      "brand": "Merk",
+      "size": "Maat      "
+    },
+    "title": "Vergelijkingsproduct",
+    "subtitle": "Dit is de informatie die wordt gebruikt voor de maataanbeveling."
+  },
+  "warnings": {
+    "age_group": {
+      "age_group": "Product {{ageGroup}}",
+      "limit_reached": "Je hebt de profiellimiet bereikt. Verwijder er een om een nieuwe toe te voegen.",
+      "subtitle": "Het leeftijdsbereik van het product is niet compatibel met de leeftijd van het profiel {{profileName}}. Selecteer of voeg een profiel toe om verder te gaan.",
+      "prompt_message": "Wil je ook kleding uit de ({{ ageGroup }}) sectie proberen?"
+    },
+    "we_need_more_measures": {
+      "subtitle": "We kunnen de lichaamsafmetingen niet voor u berekenen. Vul a.u.b. hieronder in of ga terug om de gegevens te bekijken.",
+      "title": "Vul uw lichaamsafmetingen in"
+    },
+    "unmatched_gender": {
+      "choose_a_profile": "Kies het gewenste profiel",
+      "select_profile": "Nee, selecteer een ander profiel",
+      "tooltip": "Dit profiel is niet geschikt voor het gekozen type product",
+      "title": "Wil je ook kleding passen uit de {{gender}} sectie?",
+      "create_profile": "Nee, maak nog een profiel aan"
+    }
+  },
+  "brands_list": {
+    "search_question": "Welk merk draag je meestal?",
+    "not_found": {
+      "title": "We konden geen merk met deze naam vinden",
+      "subtitle": "Probeer opnieuw te zoeken om typefouten te corrigeren."
+    },
+    "subtitle": "Met een paar vragen helpen wij u de beste maat voor uw voet te kiezen.",
+    "title": "Virtuele paskamer",
+    "search_placeholder": "Typ en zoek hier uw merk",
+    "title_restricted": "Draag je onze schoenen?"
+  },
+  "age_group": {
+    "adult": "Volwassen",
+    "kids": "Kinderen"
+  },
+  "a11y": {
+    "Chart": {
+      "vfr_button": "Druk op de spatiebalk om naar de virtuele paskamer te gaan",
+      "step_blocks": {
+        "table": {
+          "measure_description": "Dit is de {{size}} maat, op de {{measureName}} moet het {{measure}} meten"
+        },
+        "switcher": {
+          "instruction_press_space": "Druk op de spatiebalk om waarden te wisselen",
+          "option": "Uw huidige waarde is {{value}}"
+        }
+      },
+      "greeting": "Dit is de maattabel",
+      "size_system": {
+        "instruction": "Uw huidige maatsysteem is {{sizeSystem}}. Druk op de spatiebalk om een andere optie te kiezen."
+      },
+      "instruction": "Hier kun je je metingen vergelijken met de metingen in onze tabel"
+    },
+    "shoe": {
+      "Brands": {
+        "highlighted": {
+          "edit_negative": "Druk op de spatiebalk als je geen van deze merken draagt",
+          "edit_action": "Druk op de spatiebalk om verder te gaan met het gekozen merk",
+          "instruction": "Druk op de spatiebalk om door te gaan met {{brandName}}"
+        },
+        "restricted": {
+          "greeting": "Welkom in de paskamer voor schoenen van beperkte merken. Kies een van de schoenmerken die je al draagt"
+        }
+      },
+      "FootSize": {
+        "instruction": "Druk op de spatiebalk om het {{ sizeSystem }} maatsysteem te selecteren"
+      },
+      "EditData": {
+        "greeting": "Hier kun je wijzigingen aanbrengen in de voet- en schoeninformatie die je naar ons hebt gestuurd"
+      },
+      "FootFormat": {
+        "instruction": "Kies een voetvorm.",
+        "edit_action": "Druk op de spatiebalk om {{ shoeFormat }} te kiezen"
+      }
+    },
+    "drawer": {
+      "measurement_tape_header": "Tape",
+      "measurement_tape_handle": "Meetlint. Druk op de spatiebalk om toegang te krijgen tot het meetlint",
+      "close_group_handle": "Druk op de spatiebalk om de groep te sluiten",
+      "measurement_tape_print_button": "Druk op de spatiebalk om het meetlint te openen"
+    },
+    "clothes": {
+      "Welcome": {
+        "step_blocks": {
+          "gender": {
+            "question": "Kies een geslacht om verder te gaan. Je huidige geslacht is {{gender}}"
+          },
+          "age": {
+            "tooltip": "Druk op de spatiebalk om meer informatie te lezen over hoe leeftijd de aanbeveling beïnvloedt"
+          },
+          "height": {
+            "question": "Voer hier uw lengte in {{measurementSystem}} in."
+          }
+        }
+      },
+      "ProfilesMenu": {
+        "blocks": {
+          "greeting": "Dit zijn al jouw profielen in de virtuele paskamer",
+          "edit": "Hier kun je kiezen of je profielen wilt toevoegen of verwijderen"
+        },
+        "chip": {
+          "message": "Druk op de spatiebalk om meer details van je {{profileName}}-profiel te bekijken"
+        }
+      },
+      "Recommendation": {
+        "lane": "De {{ size }} maat is {{ label }} op de {{ measureName }}",
+        "carousel_instruction": "Vind hier meer maatopties"
+      },
+      "measures": {
+        "edit": "Druk op de pijltjestoetsen om de {{measureName}} maat te verhogen of te verlagen",
+        "read": "Je {{measureName}} meet {{measureValue}} in {{measureSystem}}"
+      }
+    },
+    "generics": {
+      "welcome": "Welkom in de virtuele paskamer"
+    }
+  },
+  "welcome": {
+    "age_disclaimer": "Je lichaamsvorm verandert door de jaren heen en dit heeft invloed op onze berekening.",
+    "gender_f_kids": "Vrouwelijk",
+    "title": "Virtuele paskamer",
+    "gender_m_kids": "Mannelijk",
+    "foot_measurement_known": "Ik weet mijn voetmaat al",
+    "gender_m": "Man ",
+    "shoe_measure": "Voet lengte",
+    "gender_f": "Vrouw",
+    "gender_u": "Uniseks",
+    "subtitle": "Vul je gegevens in om dit product te passen."
+  },
+  "edit_measures": {
+    "view_less": "Zie minder metingen",
+    "view_all": "Bekijk meer afmetingen"
+  },
+  "drawers": {
+    "manage": {
+      "actions": {
+        "select": "Selecteer",
+        "delete": "Verwijder"
+      },
+      "active_profile": {
+        "details_shoe": "{{brandName}} maat {{size}}",
+        "no_name": "Vul je naam in",
+        "delete": "Verwijder profiel"
+      },
+      "new_profile": {
+        "input_example": "Voorbeeld: Jan Smith",
+        "title": "Profiel toevoegen",
+        "subtitle": "Voer een naam in voor dit profiel"
+      }
+    },
+    "knobs": {
+      "kids_shoes_tips": "Maattips",
+      "garment_info": "Kledingmaten",
+      "size_content": "Stijl gids",
+      "measurement_tape": "Meetlint",
+      "product_info": "Lichaamsmetingen",
+      "size_hint_promo": "Maak de promo compleet",
+      "size_hint": "Tip",
+      "sizes_conversions": "Maattabel"
+    },
+    "kids_shoes_title": "Tips en richtlijnen voor kindervoeten en -schoenen",
+    "kids_shoes_button": "Begrepen",
+    "kids_shoes_message": "Kindervoeten worden elke 2 tot 4 maanden een half groter. Vanwege deze snelle groei adviseren wij u om iets lossere maten voor het kind te nemen zodat de schoenen langer meegaan en hun voeten niet knellen, die zich snel ontwikkelen."
+  },
+  "landscape_vertical_subtitle": "Zet uw apparaat rechtop om het te gebruiken",
+  "coppa_gate": {
+    "close": "Nee, ik ben jonger dan 13",
+    "confirm": "Ja, ik ben de voogd",
+    "prompt_title_months": "Bent u de ouder of voogd van het kind dat {{ months }} maanden oud is?",
+    "message": "U kunt dit product blijven proberen als u een volwassene bent die dit profiel heeft gemaakt om een ​​product voor uw kind te proberen.",
+    "prompt_title_years": "Bent u de ouder of voogd van het kind dat {{ years }} jaar oud is?",
+    "title": "Leeftijds verificatie"
+  },
+  "fetching": {
+    "subtitle": "We berekenen de afmetingen om de ideale maataanbeveling te genereren",
+    "title": "Bijna klaar!",
+    "shoe": {
+      "success": "Berekening voltooid!",
+      "calculating": "Uw metingen berekenen",
+      "analyzing": "Je antwoorden analyseren"
+    }
+  },
+  "landscape_subtitle": "Houd uw telefoon horizontaal om te beginnen",
+  "measurement_tape": {
+    "link_download": {
+      "in": "//static.sizebay.technology/assets/measurement_tape/measurement_tape_in_nl.pdf",
+      "cm": "//static.sizebay.technology/assets/measurement_tape/measurement_tape_cm_nl.pdf"
+    },
+    "title": "Meetlint",
+    "message": "Print, knip en plak dit meetlint af om uw metingen te controleren. ",
+    "print": "Meetlint",
+    "print_mobile": "Meetlint afdrukken",
+    "download": {
+      "file": {
+        "title": "Instructies voor het bedrukken en verlijmen van het meetlint",
+        "fold-and-rotate": "vouwen en draaien",
+        "how-to-do": "Afdrukken:\nControleer voordat u gaat afdrukken of de optie \"Aan pagina aanpassen\" in het afdrukdialoogvenster is uitgeschakeld, zodat de printer de afmetingen van de tape niet verkleint of vergroot.\n\nBijsnijden:\nKnip met een schaar of een stylus alle doorlopende zwarte lijnen uit die zijn aangegeven met de \"schaar\" om de segmenten van de tape te maken.\n\nBijeenkomst:\nVouw en draai de uiteinden (zoals aangegeven op de afdruk) door de stippellijnen samen te voegen tot een enkele tape is gemonteerd.\n\nBevestig de plooien:\nNa montage de vouwen van de tape fixeren met lijm, plakband of een nietmachine."
+      }
+    }
+  },
+  "foot_size": {
+    "select_region": "Selecteer een regio:",
+    "not_selected": "Zorg ervoor dat u een maat selecteert om door te gaan",
+    "title": "Wat is jouw schoenmaat?",
+    "pattern": "{{region}}",
+    "subtitle": "Kies je maat in"
+  },
+  "child_name": {
+    "name": "Naam",
+    "title": "Wilt u ons de naam van uw kind vertellen?",
+    "subtitle": "Dit helpt ons bij het maken van een profiel voor de Paskamer"
+  },
+  "size_hint": {
+    "title": "Enkele producten die ook passen",
+    "discount-original-price": "Normale prijs: <span class='size-hint__discount-original-price discount-description-price'>{{ price }}</span> <span class='size-hint__discount-percentage'>-{{discount }}%</span>",
+    "discount-lowest-price": "Laagste prijs vanaf 30 dagen vóór korting: <span class='size-hint__discount-lowest-price discount-description-price'>{{ price }}</span> <span class='size-hint__discount-percentage'>-{{ discount }}%</span>",
+    "title_promo": "Maak de promo compleet",
+    "try_now": "Probeer"
+  },
+  "size_tailor": {
+    "action_button": "Wij passen voor u aan",
+    "title": "Aangepast product",
+    "description": "Bevestig uw lichaamsmaten zodat we uw product op maat kunnen ontwikkelen."
+  },
+  "miscellaneous": {
+    "hannaLinks": {
+      "recommendation": "Terug naar mijn resultaten",
+      "welcome": "Ga terug"
+    }
+  },
+  "measure_shape": {
+    "shape_bigger": "Groter",
+    "shape_smaller": "Kleiner",
+    "skin_types": {
+      "toggle": "Huidskleur wijzigen"
+    },
+    "subtitle": "Op basis van wat je hebt ingevuld denken we dat je er ongeveer zo uit ziet. Je kunt je lichaamsvorm hier eventueel aanpassen.",
+    "measure_range": {
+      "1": "Veel kleiner",
+      "2": "Kleiner",
+      "3": "Gemiddeld",
+      "4": "Groter",
+      "5": "Veel groter"
+    },
+    "shape_regular": "Normaal",
+    "title": "Pas je lichaamsvorm aan"
+  },
+  "calculating": {
+    "subtitle": "Controleer je metingen en pas ze indien nodig aan",
+    "circle_title_loading": "Wacht...",
+    "circle_title_completed": "Klaar!",
+    "title": "Berekeningen Voltooid"
+  },
+  "brands_grid": {
+    "subtitle": "Welk merk draag je gewoonlijk?",
+    "unique_brand": "Draag je al schoenen van {{ brandName }}?",
+    "search_other_brands": "Zoek een ander merk"
+  },
+  "modals": {
+    "remove_profile": {
+      "title_alt": "Weet je zeker dat je dit profiel wilt verwijderen?",
+      "title": "Verwijder het profiel {{profileName}}?",
+      "action": "Profiel verwijderen",
+      "confirm": "Verwijder profiel"
+    }
+  },
+  "no_recommendation": {
+    "expected_size": "De aanbevolen maat is {{recommendedSize}}.",
+    "title_shoe": "Helaas is dit model en deze maat op dit moment niet verkrijgbaar in onze winkel.",
+    "based_on": "U kunt uw gegevens bewerken om het opnieuw te proberen",
+    "calculate_again": "Opnieuw berekenen",
+    "title": "Je maat is momenteel niet beschikbaar",
+    "subtitle": "We kunnen geen maat vinden voor de afmetingen hieronder. Aanpassen indien nodig."
+  },
+  "accessory": {
+    "welcome": {
+      "subtitle": "Om dit product te proberen, volgt u de instructies om uw metingen uit te voeren en het bijbehorende nummer door te geven",
+      "shoe": {
+        "subtitle": "Selecteer hieronder uw voetmaat volgens onze richtlijnen voor het opmeten van uzelf"
+      }
+    },
+    "bike": {
+      "recommendation": {
+        "title_suggested": "De fietsmaat die we aanbevelen is het beste voor je prestaties en houding. Niet te lang en niet te kort, je zult comfortabel kunnen fietsen.",
+        "subtitle": "op basis van je lengte",
+        "title_also_fits": "De fietsmaat die we aanbevelen is het beste voor je prestaties en houding. Niet te lang en niet te kort, je zult comfortabel kunnen fietsen.",
+        "title_not_suggested": "De fietsmaat die we aanbevelen is het beste voor je prestaties en houding. Niet te lang en niet te kort, je zult comfortabel kunnen fietsen."
+      }
+    },
+    "shoe_size": {
+      "subtitle": "Kies een maat die past bij je voetlengte om dit product te proberen"
+    }
+  },
+  "foot_format": {
+    "formats": {
+      "0": {
+        "description": "Smalle voeten hebben meestal extra ruimte aan de zijkanten van de schoen.",
+        "title": "Nauw"
+      },
+      "1": {
+        "title": "Medium",
+        "description": "Middelgrote voeten passen meestal goed in de meeste schoenen."
+      },
+      "2": {
+        "title": "Breed",
+        "description": "Brede voeten passen bij de schoenlengte maar voelen strak aan de zijkanten."
+      }
+    },
+    "subtitle": "Selecteer hoe breed uw voet is om uw pasvorm te verbeteren.",
+    "title": "Voet vorm"
+  },
+  "landscape_warning": {
+    "title": "Virtuele paskamer"
+  },
+  "my_measures": {
+    "title": "Mijn maten",
+    "subtitle": "Pas de lichaamsafmetingen aan"
+  },
+  "subcategory": {
+    "subtitle": "Kies het type <strong>{{brandName}}</strong> schoen dat je gewoonlijk draagt",
+    "title": "Wat voor soort {{categoryName}} draag je?"
+  },
+  "model": {
+    "title": "Wat voor soort {{composedName}} draag je?",
+    "subtitle": "Kies het model van de <strong>{{brandName}}</strong> schoen die je gewoonlijk draagt"
+  },
+  "landscape_horizontal_subtitle": "Plaats uw apparaat horizontaal om te beginnen met gebruiken",
+  "category": {
+    "subtitle": "Kies een type uit de onderstaande lijst dat het meest lijkt op je <strong>{{brandName}}</strong> schoen",
+    "title": "Wat is het type van je schoen?"
+  },
+  "header": {
+    "title": "Fit Finder"
+  }
+}

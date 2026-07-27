@@ -1,0 +1,953 @@
+{
+  "shoe_size": {
+    "fit_loose": "緩い",
+    "shoe_accessory": {
+      "no_recommendation": {
+        "subtitle": "以下の測定値に該当するサイズが見つかりませんでした。必要に応じて調整します。",
+        "title": "サイズが見つかりませんでした"
+      },
+      "all_measures": {
+        "measurements_guide": "測定ガイド [PDF]",
+        "title": "足のサイズはどれくらいですか？"
+      },
+      "info_drawer_subtitle": "最適な靴のサイズを見つけるために、あなた自身について少しお話しませんか?"
+    },
+    "recommendation": "あなたの情報に基づくと、これがあなたの足のサイズです。必要に応じて調整してください。",
+    "foot_shape_question": "あなたの足の形はどんな形ですか",
+    "title": "あなたの足の長さはどれくらいですか",
+    "drawer_title": "足の長さはどのくらいですか",
+    "subtitle": {
+      "0": "最適な靴のサイズを見つけるために、あなた自身について少し教えてください",
+      "box": {
+        "subtitle": "床に紙を一枚置き、壁に寄せます。かかとを紙と壁に付けて立ち、一番長い指の先を印し、その距離を測ります。",
+        "title": "足を正しく測定する方法："
+      }
+    },
+    "fit_description_ideal": "つま先と靴の間に<strong>少し隙間</strong>があります。",
+    "length_example": "<strong>{{size}}</strong> サイズの <strong>{{brandName}}</strong> を履いて、足の長さのフィット感を教えてください。",
+    "fit_tight": "心地よい",
+    "fit_ideal": "適切",
+    "open_drawer_button": "自分自身を測定する方法",
+    "fit_description_loose": "つま先と靴の間に<strong>大きな隙間</strong>があります。",
+    "shoe_accessory_subtitle": "ガイダンスに従って、以下から足のサイズを選択してください\n自分自身を測定する方法について。",
+    "drawer_button": "とった",
+    "fit_description_tight": "靴がつま先に<strong>隙間なく</strong>接触します。",
+    "length_question": "あなたの靴の長さはどうですか？"
+  },
+  "footer": {
+    "add_to_cart_mobile_2": "カートに追加",
+    "confirm": "確認する",
+    "none_of_those": "これらのどれも",
+    "save_measures": "対策を保存する",
+    "view_recommendation": "ビュー推奨事項",
+    "print_measurement_tape": "メジャーテープを印刷",
+    "virtual_fitting_room": "バーチャル試着室",
+    "info_box": "ジャケットを体のサイズに合わせて調整したい場合は、カスタムサイズを選択してください",
+    "yes": "はい",
+    "add_to_cart": "カートに入れます",
+    "brand_not_found": "どれでもない",
+    "proceed": "継続する",
+    "edit_data": "編集データ",
+    "not_yet": "ないまだ",
+    "cancel_alt": "いいえ、キャンセルします",
+    "next": "ネクスト",
+    "cancel": "キャンセル",
+    "by-sizebay": "Sizebay®によって",
+    "sure": "確かに!",
+    "add_profile": "プロファイルを追加",
+    "create_new_profile": "新しいプロファイルを作成する",
+    "restart": "リスタート",
+    "close": "クローズ",
+    "select_another_profile": "別のプロファイルを選択",
+    "continue_without_brand": "ブランドが見つからなかった",
+    "unsure": "よく分かりません",
+    "save": "セーブ",
+    "edit_measures": "編集測定",
+    "proceed_anyway": "とにかく続ける",
+    "edit_profile": "編集プロフィール",
+    "add_to_cart_mobile": "買う",
+    "back": "以前"
+  },
+  "composed_measures": {
+    "welcome": {
+      "link_tooltip": "{{suffix}} {{measureName}} の幅。",
+      "item_text": "私の{{measureName}}は{{range}} {{sizeSystem}}の幅です",
+      "measures_range_item": "{{initialRange}}から{{finalRange}}まで",
+      "tooltip_text": "クリックして別のサイズを選択",
+      "tooltip_instructions": "ここをクリックして{{measureName}}の測定方法を学びましょう",
+      "height": {
+        "item_text": "私は{{range}} {{sizeSystem}}の身長です",
+        "link_tooltip": "あなたの身長はどれくらいですか。",
+        "title": "あなたの身長はどれくらいですか？",
+        "instructions": "あなたに可能な推奨事項を表示するために、あなたの<b>身長</b>を知る必要があります"
+      },
+      "title": "{{suffix}} {{measureName}}の測定値は何ですか",
+      "instructions": "{{suffix}} <b>{{measureName}}</b>はどれくらいの幅ですか？{{suffix}} {{measureName}}のサイズを知る必要があります。これに基づいて可能な推奨事項をお見せします。"
+    },
+    "height": {
+      "title": "あなたの身長はどれくらいですか",
+      "link_tooltip": "身長を示すために"
+    },
+    "table": {
+      "helper_height": "この高さは{{range}} {{sizeSystem}}の高さです。この測定は不正確ですか。",
+      "tooltip_change": "ここを変更。",
+      "helper": "この{{measureName}}は{{range}} {{sizeSystem}}の長さです。この測定値は不正確ですか?",
+      "title": "これらは<span>{{range}}</span> {{measureName}}の可能なサイズです",
+      "vfr_tooltip": "サイズは測りましたか？バーチャル試着室で自分のサイズを確認してみませんか？"
+    }
+  },
+  "body_measurements": {
+    "diameter": "直径",
+    "collar": "襟",
+    "length": "プロダクトレングス",
+    "centralSeam": "フロントライズ",
+    "weightChart": "ウエート",
+    "width": "幅",
+    "waistUpper": "アッパーウエスト",
+    "weight": "ウエート",
+    "circumference": "周",
+    "insoleLength": "足の長さ",
+    "label1": "サイズ（USA）",
+    "sleve": "スリーブレングス",
+    "waist": "ウエスト",
+    "chest_m": "チェスト",
+    "chest_f": "バスト",
+    "neck": "ネック",
+    "comfort": "快適さ",
+    "sleeve": "アーム",
+    "thigh": "大腿",
+    "headCircumference": "頭",
+    "hip": "ヒップ",
+    "shoulderWidth": "肩身",
+    "waistLower": "下ウエスト",
+    "wrist": "手首",
+    "palm": "手のひら",
+    "bar": "裾",
+    "chest": "チェスト/バスト",
+    "lowerLength": "短い長さ",
+    "finger_circumference": "周",
+    "insoleWidth": "足幅",
+    "height": "高さ",
+    "ageChart": "エージ",
+    "underBust": "アンダーバスト",
+    "insideLeg": "股下",
+    "biceps": "二頭筋",
+    "calf": "ふくらはぎ",
+    "fist": "拳",
+    "fullBodyLength": "全身の長さ"
+  },
+  "measures_info": {
+    "insideLeg": "恥骨から足の裏までの脚の内部距離を測定します。",
+    "fullBodyLength": "肩から床までの距離を測定します。",
+    "weightChart": "あなたの体重は何ですか？",
+    "waistUpper": "あなたの腹ボタンの上のウエスト周囲径を測定します。",
+    "insoleLength": "床に紙を一枚置き、壁に寄せます。かかとを紙と壁に付けて立ち、一番長い指の先を印し、その距離を測ります。",
+    "biceps": "腕の真ん中に巻尺の輪郭を描き、その最も広い部分を特定します。",
+    "height": "これは簡単なものです。 これは直立姿勢で測定し、地面（裏）へのあなたの頭の上（頭蓋骨）の間の距離です。",
+    "width": "あなたの服から幅の測定をしてください",
+    "weight": "あなたの体重。",
+    "sleeve": "腕を少し曲げて肩と肩の間の距離を測定します  そして肘の後ろにテープを渡すことによって手首。",
+    "neck": "首を絞らずに巻尺で首の平均の高さの輪郭を描きます。 測定の確認を支援するためにミラーを使用してください。",
+    "collar": "テープと首の間に1本の指を置いて、鎖骨のすぐ上の首の周りを測定します。",
+    "chest": "巻尺で胸または胸（胸部）の輪郭を描き通常の呼吸をします。 あなたが呼吸し最高数を記録するなどバリエーションに注目してください。",
+    "ageChart": "あなたは何歳ですか？",
+    "circumference": "あなたの服から円周の測定をしてください",
+    "length_botton": "巻尺の始まりを衣服が置かれる身体の最高点に配置します。 テープの残りの部分を解放し測定値をマークします。",
+    "waist": "腰がはっきり見えるように鏡の前に身を置きます。 胴体を少し横に傾けて、自然な腰の位置を示す折り目の形成を視覚化します。 腰を包みます。",
+    "footLength": "平らな面に立ち、身長を壁に合わせます。 定規を用いて（かかとからつま先への）足の最も長い部分を測定します。",
+    "lowerLength": "これは、腰から床までの距離です。",
+    "chest_m": "巻尺であなたの胸を概説し、正常に呼吸します。 あなたが呼吸し最高数を記録するなどバリエーションに注目してください。",
+    "chest_f": "巻尺でバスト（乳房領域）の概要と、正常に呼吸します。 あなたが呼吸し最高数を記録するなどバリエーションに注目してください。",
+    "palm": "定規を平らな面に置き、手を曲げ、利き手の左側を定規のゼロ点に置き、手のスパンに注意します。",
+    "waistLower": "ウエストバンド（ローウエスト）が通常はまるおへその下のウエスト周囲長を測定します。",
+    "thigh": "ちょうどお尻の下にあなたの太ももの最も広い部分の周りを測定テープを、アウトライン。",
+    "underBust": "ちょうどあなたのバストの下の領域の周りに巻尺をあなたの胸を測定します。 測定の変化に気づくことにより正常に呼吸し、最高数を記録。",
+    "bar": "あなたの服の裾を測る",
+    "insoleWidth": "あなたによく合う靴の中敷を取り外し画像に示すようにインソールの幅を測定します。",
+    "headCircumference": "巻尺で（あなたの耳の上）あなたの頭の円周を測定します。",
+    "wrist": "たとえば時計を置く場所など、手首の周りに巻尺の輪郭を描きます。",
+    "hip": "巻尺で輪郭を描き、臀筋の最も高い部分と平行に走る、ウエストの下の「より広い」領域を測定します。",
+    "diameter": "この製品を着用したい同じ手から同じ指に着用するリングの内側の円の直径を測定します",
+    "length": "あなたの腹の周りにあなたの胴（首との接合部）の上部と（ちょうどあなたの腹の下）自分のローウエストの間の距離を測定します。",
+    "fist": "たとえば時計を置く場所など、手首の周りに巻尺の輪郭を描きます。",
+    "calf": "椅子に座って、足を地面に置き、足を90度に折ります。ふくらはぎの側面に巻尺を付けて、足の付け根から膝のひだまでを測定します。",
+    "shoulderWidth": "他の人の助けを借りて、図のように肩の端の間の距離を測定します。",
+    "ring": "この製品を着用したいのと同じ指の周りに細い紐を結び、紐の接合部に印を付け、長さを測定して円周を求めます",
+    "centralSeam": "平らな面に座り、巻尺で腰と表面との間の距離を測定します。"
+  },
+  "privacy": {
+    "services": {
+      "anchor": "サイズベイサービス",
+      "text": "<p>SIZEBAY のサービスは、サービスとしてのソフトウェア (SaaS) の形で e コマース プラットフォーム上で利用可能になります。つまり、SIZEBAY はソフトウェアを使用するための e コマース ライセンスを付与します。</p>",
+      "title": "SIZEBAY はどのようにサービスを提供していますか?"
+    },
+    "clear_data": {
+      "button": {
+        "initial": "すべてのデータを消去",
+        "cleared": "清掃...",
+        "cleaning": "清掃..."
+      },
+      "title": "クッキーのクリーニング",
+      "tooltip": "あなたのデータは消去されました！",
+      "text": "Sizebay によって保存されたすべての閲覧データ、キャッシュ、Cookie を消去するには、下のボタンをクリックしてください。"
+    },
+    "contact": {
+      "title": "不明な場合の連絡方法は？",
+      "text": "<p>SIZEBAY のポリシーまたはデータ所有者としての権利を行使する方法についてご質問がある場合は、SIZEBAY データ保護責任者 (DPO) にお問い合わせください:<br><br>Janderson Roberto Araujo<br>住所: R.ブルメナウ、953 – サラ 402 – アメリカ、ジョインヴィレ – サウスカロライナ州、89204-251 – ブラジル<br>電話: +55 48 4042-0150<br>電子メール: <a href='mailto:privacy@sizebay.com' target='_blank'>privacy@sizebay.com</a></p><br><a href='https://sizebay.com/pt/legal/' target='_blank'><strong>参照その他のポリシー</strong></a>"
+    },
+    "data_protection": {
+      "anchor": "データ保護",
+      "title": "SIZEBAY はどのようにデータを保護していますか?",
+      "text": "<p>SIZEBAY は、顧客、ユーザー、および訪問者の情報の機密性とセキュリティを非常に重要と考えています。したがって、暗号化とファイアウォール技術を使用し、データと情報を確実に保護するために全力を尽くします。</p><p>使用するブラウザに保存されている Cookie を定期的に削除することをお勧めします。収集された情報が SIZEBAY データベースやアクセスした他の Web サイトから削除されないようにするため。</p>"
+    },
+    "how_data_is_collected": {
+      "text": "<p>データ収集は、ユーザーが SIZEBAY アプリケーションまたはウェブサイトにアクセスする際に、ユーザーが Virtual Fitting Room および Fit & Size Chart サービスを使用する際、または Cookie を通じて情報を提供する際に実行されます。</p>",
+      "title": "SIZEBAY はどのようにデータを収集しますか?"
+    },
+    "users_obligations": {
+      "anchor": "ユーザーの義務",
+      "title": "ユーザーの義務は何ですか?",
+      "text": "<p>アプリケーションのユーザーは、ポリシー、ならびに現在の法律、慣習、公序良俗、およびプラットフォームを使用して受け入れるために必要な必須要件を常に尊重および遵守して、SIZEBAY のサービスを使用することを約束します。</p>"
+    },
+    "data_collected": {
+      "title": "SIZEBAY が収集するデータは何ですか?",
+      "text": "<p>サービスを提供するために、SIZEBAY は、ニックネーム (オプション)、年齢、性別、身長、体重、解剖学的プロファイル、身体測定値などのプロファイル データを収集する場合があります。また、ユーザーエクスペリエンスを向上させ、アプリケーションの使用を容易にするために、アクセスログデータとCookieデータが収集される場合があります. /p><p>また、サイズベイは、ECサイトでの購入注文からデータを収集し、推奨サイズと実際に購入されたサイズを分析して、衣類のサイズ推奨サービスを改善することができます。そして靴。 </p><p>SIZEBAY アプリケーションはユーザーのプライバシーに関係していることを明確にします。そのため、サービスは、データ所有者を特定することができずにデータ収集が実行されるように開発されました。</p >",
+      "anchor": "収集したデータ"
+    },
+    "how_it_works": {
+      "anchor": "使い方？",
+      "title": "バーチャル フィッティング ルームとフィット & サイズ チャートへのアクセスはどのように機能しますか?",
+      "text": "<p>サービスを使用するために、ユーザーは SIZEBAY プラットフォームに登録する必要はありません。 Fit & Size Chart へのアクセスが利用可能になります。バーチャル フィッティング ルームを使用するには、アプリケーションが衣類と靴のサイズを推奨するための基本情報を入力する必要があります。</p><p> SIZEBAY アプリケーションのプロファイルでは、ユーザーが姓名を使用する必要はなく、プライバシーをさらに保護することに関心がある場合は、架空のデータを入力することさえできます。</p><p>未成年者は使用できません。両親または保護者の代理および/または支援がない限り、申請書を提出することはできません。</p>"
+    },
+    "title": "プライバシーポリシー",
+    "overview": {
+      "title": "利用規約とプライバシー ポリシーとは何ですか?",
+      "text": "<p>SIZEBAY 利用規約は、(i) SIZEBAY が顧客の e コマース プラットフォームを通じて提供するサービスの使用、および (ii) SIZEBAY の Web サイト、(iii) プラットフォームのユーザー、訪問者、顧客、およびアプリケーションの使用中または SIZEBAY Web サイトへのアクセス中の Web サイトの義務、(iv) 関係者の責任。</p><p><strong>プライバシー ポリシー</strong>は、SIZEBAY がそのアプリケーションおよび Web サイトの使用およびアクセス中にデータ処理をどのように処理するかを明確にすることを目的としており、所有者の権利と、SIZEBAY でそれらを行使する方法も明確にされています。</p><p>アクセスおよびバーチャル フィッティング ルームとフィット & サイズ チャートを使用すると、SIZEBAY のポリシーに同意したことになります。リンクから SIZEBAY ポリシーの全文にアクセスできます。</p><p><strong>主な情報を以下にまとめます:</strong></p>",
+      "anchor": "プライバシー"
+    },
+    "share_data": {
+      "text": "<p>データ共有は、より良いオンライン ショッピング エクスペリエンスを可能にするため、またはアプリケーションが機能できるようにするためにいつでも実行できます。したがって、データ共有は、顧客、ビジネス パートナー、サービス プロバイダー、下請け業者、衣料品、履物と一緒に実行できます。製品メーカー</p>",
+      "title": "SIZEBAY は誰とデータを共有できますか?"
+    }
+  },
+  "product_not_found": {
+    "report_status": {
+      "sending": "通知しています...",
+      "sent": "ありがとう！",
+      "not_sending": "お知らせください",
+      "not_sent": "お知らせください"
+    },
+    "description": "この製品について、推奨するのに十分な情報がまだありません。",
+    "title": "大野！"
+  },
+  "languages": {
+    "all_langs": {
+      "fr": "フランス語",
+      "et": "エストニア語",
+      "es": "スペイン語",
+      "en": "英語",
+      "fi": "フィンランド語",
+      "dk": "デンマーク語",
+      "cn": "中国語",
+      "de": "ドイツ人",
+      "cz": "チェコ語",
+      "br": "ポルトガル語",
+      "ar": "アラビア語",
+      "bg": "ブルガリア語",
+      "mx": "スペイン語",
+      "no": "ノルウェー語",
+      "nl": "オランダの",
+      "lt": "リトアニア語",
+      "lv": "ラトビア語",
+      "jp": "日本語",
+      "ko": "韓国語",
+      "it": "イタリアの",
+      "hu": "ハンガリー語",
+      "hr": "クロアチア語",
+      "id": "インドネシア",
+      "gr": "ギリシャ語",
+      "he": "ヘブライ語",
+      "vn": "ベトナム語",
+      "uk": "英語",
+      "th": "タイ語",
+      "tr": "トルコ語",
+      "sr": "セルビア語",
+      "sv": "スウェーデンの",
+      "sl": "スロベニア語",
+      "sk": "スロバキア語",
+      "ru": "ロシア",
+      "ro": "ルーマニア語",
+      "pt": "ポルトガル語",
+      "pl": "研磨",
+      "esAR": "スペイン語",
+      "esCT": "スペイン語 (カスティーリャ語)",
+      "ukr": "ウクライナ語",
+      "zh": "中国語"
+    },
+    "select": "利用可能な言語: {{langs}}",
+    "box": "言語セレクター、あなたは{{currentLang}}言語を使用しています"
+  },
+  "garment_measurements": {
+    "hip_width": "ヒップ幅",
+    "thigh_width": "腿の幅",
+    "head_circumference": "頭囲",
+    "lower_waist_circumference": "腰囲を下げる",
+    "collar": "カラー",
+    "waistband_circumference": "ウエストバンドの周囲",
+    "hip_circumference": "ヒップ周囲長",
+    "biceps": "上腕二頭筋",
+    "waistband_width": "ウエストバンドの幅",
+    "hem": "ヘム",
+    "lower_waist_width": "ウエスト幅を狭くする",
+    "chest_circumference": "胸囲",
+    "waist_circumference": "ウエスト周囲長",
+    "insole_width": "インソール幅",
+    "palm_length": "手のひらの長さ",
+    "shoulder_length": "ショルダー長",
+    "length": "長さ",
+    "waist_width": "ウエスト幅",
+    "chest_width": "胸幅",
+    "wrist_width": "手首の幅",
+    "insole_length": "インソールの長さ",
+    "calf_width": "ふくらはぎの幅",
+    "heel_height": "ヒールの高さ",
+    "front_length": "フロント長",
+    "brim": "ブリム",
+    "sleeve": "袖",
+    "thigh_circumference": "大腿周囲長",
+    "inside_leg": "内側の脚",
+    "wrist_circumference": "手首の周囲長",
+    "high_waist_circumference": "ハイウエスト周囲",
+    "shaft_height": "シャフトの高さ",
+    "calf_circumference": "ふくらはぎ周囲",
+    "full_body_length": "全身の長さ",
+    "back_hook": "バックフック",
+    "platform_height": "プラットフォームの高さ",
+    "circumference": "円周",
+    "hook": "フック",
+    "lower_length": "下限長さ",
+    "under_bust": "アンダーバスト",
+    "high_waist_width": "ハイウエスト幅",
+    "back_length": "バックレングス"
+  },
+  "regions": {
+    "IT": "イタリアの",
+    "HU": "ハンガリー語",
+    "FR": "フランス語",
+    "MX": "Mekishiko",
+    "CUSTOM": "インターナショナル",
+    "JP": "Nihongo",
+    "code": {
+      "CUSTOM": "CUSTOM",
+      "US": "US",
+      "UK": "UK",
+      "AU": "AU",
+      "IT": "IT",
+      "MEX": "MEX",
+      "JP": "JP",
+      "FR": "FR",
+      "EU": "EU",
+      "CN": "CN",
+      "BR": "BR",
+      "DE": "DE"
+    },
+    "ES": "スペイン",
+    "EU": "ヨーロッパ人",
+    "DE": "ドイツ語",
+    "CN": "中国語",
+    "AU": "Ōsutoraria",
+    "BR": "ブラジル人",
+    "region": "地域",
+    "other": "未知の",
+    "mx_marti": "マルティ",
+    "PT": "ポルトガル語PT",
+    "letter-br": "ブラジル人",
+    "US": "アメリカン",
+    "UK": "イギリス人"
+  },
+  "size_chart": {
+    "subtitle": "スクロールバーをスライドして、その他の測定値とサイズを確認します",
+    "title_web": "測定チャート",
+    "scroll_action": "スライド",
+    "subtitle_mobile": "スワイプしてさらに多くの測定値とサイズを確認",
+    "returns_link": "返品条件の詳細をご覧ください。",
+    "returns": "まだ疑問ですか？ 心配しないで、最初の<strong>リターンは無料です。</ strong>",
+    "title_accessory": "このアクセサリーのサイズ表",
+    "title": "サイズを選び、寸法を確認してください",
+    "instruction_measure": "自分自身の測定方法に関する資料を参照し、測定値をこの表と比較してください。",
+    "title_mobile": "あなたの体の測定値をこのチャートと比較してください。 以下の各列のタイトルにカーソルを合わせて、体を測定するための最良の方法を見つけてください。"
+  },
+  "generics": {
+    "disable": "無効にする",
+    "less_than_year": "<1年",
+    "profile_tooltip": "あなたのデータを編集したり新しいプロファイルを追加するにはここをクリックしてください。",
+    "weight": "ウエート",
+    "age": "エージ",
+    "accessibility": "アクセシビリティ",
+    "language": "ランゲージ",
+    "years": "年",
+    "female": "女性",
+    "size_fit": "サイズ",
+    "no_name": "名前なし",
+    "pronoun_female": "私の",
+    "year": "年",
+    "suffix_male": "あなたの",
+    "months": "ヶ月",
+    "size_chart": "サイズ表",
+    "chart": "サイズチャート",
+    "closeVfr": "バーチャル試着室を閉じる",
+    "about": "Sizebayについて",
+    "see_how_to_measure": "測定方法を見る",
+    "kg": "キログラム",
+    "assistive_mode": "{{status}} アシストモード",
+    "suffix_female": "あなたの",
+    "switcher": {
+      "title_chart": "測定："
+    },
+    "lb": "ポンド",
+    "how_to_measure": "測定方法を見る",
+    "unavailable": "--",
+    "other_profiles": "その他のプロファイル",
+    "privacy": "プライバシー",
+    "ft": "インチ",
+    "pronoun_male": "私の",
+    "got_it": "とった",
+    "enable": "有効にする",
+    "cm": "センチメートル",
+    "height": "高さ",
+    "male_singular": "男",
+    "uninformed": "知らされていない",
+    "female_singular": "女性",
+    "profile": {
+      "title": "ユーザープロフィール"
+    },
+    "male": "男性",
+    "confirm_edit": "OK"
+  },
+  "privacy_v2": {
+    "overview": {
+      "text": "<p><strong> SIZEBAY </strong> によって開発されたソリューションの使用を規制するポリシーをよりよく理解できるように、この簡単な要約を用意しました。この概要は、ポリシーの内容全体を置き換えるものではありません。そのため、その後、各ドキュメントを注意深くお読みになることをお勧めします。</p><p><strong>SIZEBAY</strong> の <strong>利用規約</strong> は、以下を規制することを目的としています: (i) <strong>{{ tenantName }} ({{ pageTenant }})</strong> の e コマース プラットフォームを通じて <a href={{ pageTenant }} target=_blank>SIZEBAY</a> が提供するサービス、および (ii) <strong>SIZEBAY</strong> の Web サイトで利用可能なアクセスとコンテンツ、(iii)アプリケーションの使用中または <strong>SIZEBAY</strong> ウェブサイトへのアクセス中のプラットフォームおよびウェブサイトのユーザー、訪問者、および顧客の義務、(iv) 関係者の責任。</p>{{ pagePrivacyTenant }}<p> <strong>プライバシー ポリシー </strong> は、 <strong> SIZEBAY </strong> は、アプリケーションおよびウェブサイトの使用およびアクセス中にデータを処理します。所有者の権利も明確にされ、<strong> SIZEBAY </strong>.</p>",
+      "title": "概要"
+    },
+    "clear_data": {
+      "text": "Sizebay によって保存されたすべての閲覧データ、キャッシュ、Cookie を消去します",
+      "button": {
+        "initial": "クッキーを消す"
+      }
+    },
+    "person": {
+      "first": {
+        "name": "マルセロ・バストス",
+        "info": "<li>欧州連合</li> <li>privacy@sizebay.com</li>"
+      },
+      "second": {
+        "name": "ジャンダーソン・ロベルト・アラウホ",
+        "info": "<li>その他の場所</li> <li>privacy@sizebay.com</li>"
+      }
+    },
+    "services": {
+      "title": "SIZEBAY はどのようにサービスを提供していますか?",
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/computer-face.svg /><p> <strong>SIZEBAY</strong> サービスは、サービスとしてのソフトウェア (SaaS) の形で e コマース プラットフォームで利用できます。つまり、<strong>SIZEBAY</strong> はソフトウェアを使用するライセンスを e コマースに付与します。</p></span> <div><img src=https://static.sizebay.technology/assets/icons/computer-face.svg /></div>"
+    },
+    "contact": {
+      "text": "<p><strong>SIZEBAY</strong> ポリシーまたはデータ主体としての権利の行使方法についてご質問がある場合は、<strong>SIZEBAY</strong> データ保護責任者 (DPO) までお問い合わせください:</p>",
+      "title": "疑問がある場合、どのように連絡すればよいですか?"
+    },
+    "data_collected": {
+      "title": "SIZEBAY ではどのようなデータが収集されますか?",
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/cookies.svg /><p> サービスを提供するために、<strong>SIZEBAY</strong> は、ニックネーム (オプション)、年齢、性別、身長、体重、解剖学的プロファイル、身体測定値などのプロファイル データを収集する場合があります。また、ユーザーエクスペリエンスの向上とアプリケーションの使用を容易にすることを目的として、アクセスログデータとCookieが収集される場合があり、次回の購入または製品分析でユーザーが既に通知したデータを再度提供する必要はありません.</p> </span><span><img src=https://static.sizebay.technology/assets/icons/bag.svg /><p> <strong>SIZEBAY</strong> は、サイズの推奨サービスを改善するために、推奨サイズと実際に購入されたサイズとの間の分析を行うことを目的として、電子商取引で発注された注文からデータを収集することもあります。 </p></span><span><img src=https://static.sizebay.technology/assets/icons/anonymous-person.svg /><p> <strong>SIZEBAY</strong> アプリケーションはユーザーのプライバシーに関係していることを明確にします。そのため、サービスは、個人を特定できないようにデータ収集が行われるように開発されました。所有者のデータ</p></span><div><img src=https://static.sizebay.technology/assets/icons/cookies.svg /> <img src=https://static.sizebay.technology/assets/icons/bag.svg /> <img src=https://static.sizebay.technology/assets/icons/anonymous-person.svg /></div>"
+    },
+    "how_it_works": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/mannequin.svg /><p> サービスを利用するために、ユーザーは <strong>SIZEBAY</strong> プラットフォームに登録する必要はありません。測定テーブルへのアクセスは常に利用可能です。仮想試着室を使用するには、アプリケーションが衣服と靴のサイズを推奨できるように、ユーザーはいくつかの基本情報を入力する必要があります。</p></span><span><img src=https://static.sizebay.technology/assets/icons/anonymous.svg /><p> <strong>SIZEBAY</strong> アプリケーションでプロファイルを作成する場合、ユーザーは</p></span><span><img src=https://static.sizebay.technology/assets/icons/persons.svg /><p> 未成年者は、両親の代理および/または支援がない限り、アプリケーションを使用できません. 両親または保護者.</p></span><div><img src=https://static.sizebay.technology/assets/icons/mannequin.svg /><img src=https://static.sizebay.technology/assets/icons/anonymous.svg /><img src=https://static.sizebay.technology/assets/icons/persons.svg /></div>*",
+      "title": "バーチャル フィッティング ルームおよびバーチャル テーブル サービスへのアクセスはどのように機能しますか?"
+    },
+    "share_data": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/share.svg /><p> データ共有は、より良いオンライン ショッピング体験を提供したり、アプリケーションを機能させることを目的としていつでも実行できます。つまり、顧客やサプライヤーと一緒に実行できます。</p></span><div><img src=https://static.sizebay.technology/assets/icons/share.svg /></div>",
+      "title": "SIZEBAY は誰とデータを共有できますか?"
+    },
+    "actions": {
+      "terms": {
+        "content": "<li><a href=https://home.sizebay.com/{{lang}}/legal/conditions-of-use target=_blank>利用規約</a></li><li><a href=https://home.sizebay.com/{{lang}}/legal/privacy target=_blank>プライバシーポリシー</a></li><li><a href=https://home.sizebay.com/{{lang}}/legal/cookies-policy target=_blank>Cookieポリシー</a></li>",
+        "conditions-use": "利用規約",
+        "privacy": "プライバシーポリシー",
+        "cookies": "クッキーポリシー",
+        "title": "条項"
+      },
+      "statements": {
+        "gdpr": "GDPR への準拠",
+        "title": "宣言",
+        "lgpd": "LGPDコンプライアンス",
+        "content": "<li><a href=https://home.sizebay.com/{{lang}}/legal/gdpr target=_blank >GDPR への準拠</a></li><li><a href=https: / /home.sizebay.com/{{lang}}/legal/lgpd target=_blank >LGPD 準拠</a></li><li><a href=https://home.sizebay.com/{ {lang }}/legal/ccpa target=_blank >CCPA コンプライアンス</a></li><li><a href=https://sizebay.com/{{lang}}/legal/pipl target=_blank >PIPL コンプライアンス</a></li>",
+        "pipl": "PIPLコンプライアンス",
+        "ccpa": "CCPAコンプライアンス"
+      },
+      "title": "規約ページにアクセスする",
+      "redirect_privacy": {
+        "text": "{{ tenantName }} のプライバシー ページにリダイレクトするには、ここをクリックしてください"
+      }
+    },
+    "how_data_is_collected": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/computer-hanger.svg /><p> データ収集は、ユーザーが Virtua Fitter および Measurement Table サービスを使用する際に情報を提供する際、またはユーザーが <strong>SIZEBAY</strong> アプリケーションまたはウェブサイトにアクセスする際に Cookie を介して実行されます。次回の購入または製品分析で、ユーザーから既に通知されたデータが再度提供されます</p></span><div><img src=https://static.sizebay.technology/assets/icons/computer-hanger.svg /></div>。",
+      "title": "SIZEBAY はどのようにデータを収集しますか?"
+    },
+    "users_obligations": {
+      "title": "ユーザーの義務は何ですか?",
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/obligations.svg /><p> アプリケーション ユーザーは、<strong>SIZEBAY</strong> のサービスを使用することを約束し、ポリシー、現在の法律、慣習、公序良俗、およびプラットフォームの使用と使用の受け入れに要求される必須要件を常に尊重し、遵守します。 .</p></span><div><img src=https://static.sizebay.technology/assets/icons/obligations.svg /></div>"
+    },
+    "data_protection": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/security.svg /><p> <strong>SIZEBAY</strong> は、顧客、ユーザー、訪問者の情報の機密性とセキュリティを非常に重要と考えています。このため、暗号化とファイアウォール技術を使用し、データと情報の保護を保証するために全力を尽くします.</p></span><span><img src=https://static.sizebay.technology/assets/icons/http.svg /><p>収集された情報は、<strong>SIZEBAY</strong> データベースやアクセスされた他のサイトから削除されません。</p></span><div><img src=https://static.sizebay.technology/assets/icons/security.svg /> <img src=https://static.sizebay.technology/assets/icons/http.svg /></div>",
+      "title": "SIZEBAY はデータをどのように保護しますか?"
+    }
+  },
+  "garment_measures_info": {
+    "shaft_height": "かかとの基部から靴のシャフトの上部まで測定してください。",
+    "shoulder_length": "衣服の背中の袖の縫い目からもう一方の袖の縫い目までの幅。",
+    "full_body_length": "フルボディピースの上部の縫い目から下部の裾まで測定します。",
+    "hem": "部品底部の幅。",
+    "back_length": "襟から上着の裾まで、背面から測定してください。",
+    "lower_waist_width": "ローウエスト衣類のウエストバンドの幅。",
+    "hip_circumference": "ウエストバンドから約20 cm下の衣服の幅を2倍したもの。",
+    "palm_length": "手首から中指の先まで測定します。",
+    "calf_circumference": "ブーツのシャフトの上部の周囲の測定、通常はふくらはぎの最も広い部分で行います。",
+    "head_circumference": "帽子の内側で頭が乗る部分を測ってください。",
+    "sleeve": "袖が始まる内側の縫い目からカフスの端まで測ります。",
+    "waist_width": "脇の下と裾の間の、トップの最も狭い部分の幅。",
+    "thigh_width": "太ももの最も広い部分の幅。",
+    "waistband_circumference": "衣服の上部開口部の測定",
+    "circumference": "通常、幅を2倍にして、部分の周囲を測定します。",
+    "lower_waist_circumference": "衣服の幅は自然なウエストのすぐ下で測り、2倍します。",
+    "high_waist_width": "ハイウエスト衣服のウエストバンドの幅。",
+    "chest_circumference": "上着の幅は、脇の下のすぐ下で片側からもう片側までを測り、それを2倍します。",
+    "waist_circumference": "衣服の最も狭い部分の幅を2倍にします。",
+    "front_length": "襟から上着の裾まで前面から測ってください。",
+    "lower_length": "ウエストバンドから衣服の裾まで、側面から測定します。",
+    "wrist_circumference": "袖口の開きが手首に合う部分の周囲の測定。",
+    "heel_height": "ジャンプの基点から最高点まで測定してください。",
+    "wrist_width": "部品の幅を処理する",
+    "hook": "ウエストバンドの上部から股下の縫い目まで測定します。",
+    "thigh_circumference": "股下すぐ下の衣服の最も広い部分の測定。",
+    "platform_height": "靴の前面の底からプラットフォームの上部まで測定してください。",
+    "biceps": "袖の幅、脇の下から約2.5 cm下。",
+    "insole_width": "インソールの最も広い部分を測定してください。",
+    "brim": "ベースから帽子のつばの先端まで測定してください。",
+    "high_waist_circumference": "ハイウエストの衣服のウエストバンド周りを測定してください。",
+    "hip_width": "ウエストバンドから20 cm下の部分の幅。",
+    "length": "上部の縫い目から下部の裾までの長さを測ってください。",
+    "chest_width": "上部の部分の幅を、片側からもう一方まで、脇の下のすぐ下で測ってください。",
+    "calf_width": "ふくらはぎの高さでのブーツシャフトの幅の測定。",
+    "collar": "首の付け根に沿って測定されたブラウスの襟の幅。",
+    "waistband_width": "ボトムピースのウエストバンドの幅",
+    "back_hook": "ウエストバンドから衣服の後ろ側の股の縫い目まで測ります。",
+    "insole_length": "インソールのかかとの先端からつま先の先端までを測定します。",
+    "under_bust": "上衣の幅を、バストのすぐ下の一方から他方まで測定し、2倍します。",
+    "inside_leg": "股下の縫い目からパンツの裾まで測ります"
+  },
+  "error": {
+    "close": "試着室を出る",
+    "title": "おっと！何かが間違っていた！",
+    "options": "プロファイルを再起動して再試行するか、閉じて後で再試行できます。",
+    "restart": "プロファイルを再起動します",
+    "description": "心配しないでください、私たちはすでにそれが再び起こるのを防ぐために何が起こったのかを調査しています。"
+  },
+  "recommendation": {
+    "3d_feel": {
+      "lanes": {
+        "large": "緩すぎる",
+        "ideal": "理想",
+        "slightly_loose": "少し緩い",
+        "loose": "ルーズ",
+        "slightly_fit": "ややきつい",
+        "tight": "タイト",
+        "fit": "きつい"
+      },
+      "title_suggested": "最良のオプション"
+    },
+    "lanes": {
+      "tight": "タイト",
+      "ideal": "理想",
+      "fit": "きつい",
+      "looser": "ルーザー",
+      "large": "ワイド",
+      "loose": "ルーズ",
+      "tighter": "タイトな"
+    },
+    "title_not_suggested": "推奨されません",
+    "measurements": {
+      "title": "測定",
+      "conversion": {
+        "title": "サイズ変換"
+      }
+    },
+    "centered_mode": {
+      "controls": {
+        "appearance": "外見",
+        "comfort": "快適さ"
+      },
+      "comfort_map": {
+        "header": "3D画像の色は、衣服が体にどれほどきついかゆるいかを示しています。"
+      },
+      "tag_info": "3Dボディシミュレーションは、あなたの個々の体の測定値と実物そっくりの製品フィットを表しています。",
+      "measure_name": "あなたの{{measureName}}で"
+    },
+    "title_suggested": "最良の選択肢であります",
+    "height_warning": {
+      "threshold": {
+        "long": "ロング",
+        "short": "ショート"
+      },
+      "message": "あまりに{{THRESHOLD}}である人に{{height}}"
+    },
+    "shoe": {
+      "insoleLength": "長さ",
+      "insoleWidth": "幅"
+    },
+    "subtitle": "以下の快適レベルをご覧ください",
+    "subtitle_shoe": "あなたに基づいて{{brandName}}サイズ{{size}}",
+    "title_also_fits": "また、フィット",
+    "carousel_also_try": "また、サイズを試してください。"
+  },
+  "product_comparison": {
+    "elements": {
+      "edit": "編集",
+      "foot_format": "フィート形状",
+      "category": "カテゴリー",
+      "brand": "ブランド",
+      "size": "サイズ"
+    },
+    "title": "比較プロダクト",
+    "subtitle": "これはサイズの勧告のために使用される情報です。"
+  },
+  "warnings": {
+    "age_group": {
+      "age_group": "{{ageGroup}} プロダクト",
+      "limit_reached": "プロファイルの数が制限に達しました。 プロファイルを削除して、新しいプロファイルを追加します。",
+      "subtitle": "製品の年齢範囲が{{profileName}}プロファイルの年齢と一致しません。 プロファイルを選択または追加して続行します。",
+      "prompt_message": "（{{ageGroup}}）セクションの服も試してみませんか？"
+    },
+    "we_need_more_measures": {
+      "subtitle": "私たちはあなたのための測定を計算することができませんでした。 以下の測定値を調整したり、情報に基づいたデータを確認するために返却してください。",
+      "title": "あなたの測定値を入力します"
+    },
+    "unmatched_gender": {
+      "choose_a_profile": "必要なプロファイルを選択します",
+      "select_profile": "いいえ、別のプロファイルを選択",
+      "tooltip": "このプロファイルは選択された製品の種類には適していません",
+      "title": "{{gender}}セクションの服も試してみませんか？",
+      "create_profile": "いいえ、別のプロファイルを作成します"
+    }
+  },
+  "brands_list": {
+    "search_question": "普段はどのブランドを着ていますか？",
+    "not_found": {
+      "title": "この名前のブランドは見つかりませんでした",
+      "subtitle": "タイプミスを修正する場合は、再度検索してください。"
+    },
+    "subtitle": "いくつかの質問の後、私たちはあなたが最高の靴のサイズを選ぶのを手伝います。",
+    "title": "バーチャル試着室",
+    "search_placeholder": "ここにブランドを入力して検索します",
+    "title_restricted": "あなたは私たちの靴を履きますか？"
+  },
+  "age_group": {
+    "adult": "アダルト",
+    "kids": "子供達"
+  },
+  "a11y": {
+    "Chart": {
+      "vfr_button": "スペースバーを押してバーチャル試着室へ移動",
+      "step_blocks": {
+        "table": {
+          "measure_description": "これは{{size}}サイズで、{{measureName}}では{{measure}}になるはずです"
+        },
+        "switcher": {
+          "instruction_press_space": "スペースバーを押して値を切り替えます",
+          "option": "現在の値は{{value}}です"
+        }
+      },
+      "greeting": "これはサイズ表です",
+      "size_system": {
+        "instruction": "現在のサイズシステムは{{sizeSystem}}です。スペースバーを押して別のオプションを選択してください。"
+      },
+      "instruction": "ここで、あなたの測定値を当社のチャートに記載されている値と比較できます"
+    },
+    "shoe": {
+      "Brands": {
+        "highlighted": {
+          "edit_negative": "これらのブランドを身につけていない場合は、スペースバーを押してください",
+          "edit_action": "選択したブランドで進むにはスペースバーを押してください",
+          "instruction": "スペースバーを押して{{brandName}}を続行してください"
+        },
+        "restricted": {
+          "greeting": "制限付きブランドのシューズ試着室へようこそ。すでに履いている靴のブランドを選んでください"
+        }
+      },
+      "FootSize": {
+        "instruction": "スペースバーを押して{{ sizeSystem }}サイズシステムを選択してください"
+      },
+      "EditData": {
+        "greeting": "ここで、お送りいただいた足と靴の情報を変更できます"
+      },
+      "FootFormat": {
+        "instruction": "足の形を選んでください",
+        "edit_action": "スペースバーを押して{{ shoeFormat }}を選択"
+      }
+    },
+    "drawer": {
+      "measurement_tape_header": "テープ",
+      "measurement_tape_handle": "メジャーテープ。スペースバーを押してメジャーテープにアクセスします",
+      "close_group_handle": "スペースバーを押してグループを閉じる",
+      "measurement_tape_print_button": "スペースバーを押してメジャーを開く"
+    },
+    "clothes": {
+      "Welcome": {
+        "step_blocks": {
+          "gender": {
+            "question": "続行するには性別を選択してください。現在の性別は{{gender}}です"
+          },
+          "age": {
+            "tooltip": "年齢が推奨にどのように影響するかについての詳細情報を読むにはスペースバーを押してください"
+          },
+          "height": {
+            "question": "ここにあなたの身長を{{measurementSystem}}で入力してください。"
+          }
+        }
+      },
+      "ProfilesMenu": {
+        "blocks": {
+          "greeting": "これらはバーチャル試着室内のあなたのすべてのプロフィールです",
+          "edit": "ここでプロフィールを追加または削除することができます"
+        },
+        "chip": {
+          "message": "スペースバーを押して、{{profileName}}プロフィールの詳細を表示します"
+        }
+      },
+      "Recommendation": {
+        "lane": "{{ measureName }}の{{ size }}サイズは{{ label }}です",
+        "carousel_instruction": "他のサイズオプションはこちら"
+      },
+      "measures": {
+        "edit": "矢印キーを押して{{measureName}}の値を増減します",
+        "read": "あなたの{{measureName}}は{{measureSystem}}で{{measureValue}}を測定します"
+      }
+    },
+    "generics": {
+      "welcome": "バーチャル試着室へようこそ"
+    }
+  },
+  "welcome": {
+    "age_disclaimer": "体型は年齢とともに変化し、これは私たちの計算に影響を与えます。",
+    "gender_f_kids": "フェミニン",
+    "title": "バーチャル試着室",
+    "gender_m_kids": "男性的な",
+    "foot_measurement_known": "私はすでに自分の足のサイズを知っています",
+    "gender_m": "男性",
+    "shoe_measure": "足の長さ",
+    "gender_f": "女性",
+    "gender_u": "ユニセックス",
+    "subtitle": "この製品を試すには、詳細を入力してください"
+  },
+  "edit_measures": {
+    "view_less": "測定結果の表示を減らす",
+    "view_all": "他の測定値を見る"
+  },
+  "drawers": {
+    "manage": {
+      "actions": {
+        "select": "セレクト",
+        "delete": "デリート"
+      },
+      "active_profile": {
+        "details_shoe": "{{brandName}} サイズ{{size}}",
+        "no_name": "エンターネーム",
+        "delete": "プロフィールの削除"
+      },
+      "new_profile": {
+        "input_example": "例：山田 太郎",
+        "title": "加算プロフィール",
+        "subtitle": "プロファイルの名前を挿入します"
+      }
+    },
+    "knobs": {
+      "kids_shoes_tips": "サイズのヒント",
+      "garment_info": "衣服の寸法",
+      "size_content": "スタイルガイド",
+      "measurement_tape": "測定テープ",
+      "product_info": "身体測定",
+      "size_hint_promo": "プロモを完成させる",
+      "size_hint": "提案",
+      "sizes_conversions": "サイズ変換"
+    },
+    "kids_shoes_title": "子供の足と靴に関するヒントとガイドライン",
+    "kids_shoes_button": "了解した",
+    "kids_shoes_message": "子供の足は2〜4ヶ月ごとに半分大きくなります。この急速な成長のために、靴が長持ちし、足を挟まないように、子供用に少しゆるいサイズにすることをお勧めします。"
+  },
+  "landscape_vertical_subtitle": "デバイスを直立に置いて使用を開始してください",
+  "coppa_gate": {
+    "close": "いいえ、私は13歳未満です",
+    "confirm": "はい、私は保護者です",
+    "prompt_title_months": "あなたは{{months}}か月の子供の親または保護者ですか？",
+    "message": "あなたがあなたの子供のために製品を試すためにこのプロフィールを作成した大人であるならば、あなたはこの製品を試し続けることができます。",
+    "prompt_title_years": "あなたは {{years}} 歳の子供の親または保護者ですか？",
+    "title": "年齢確認"
+  },
+  "fetching": {
+    "subtitle": "理想的な推奨サイズを生成するために寸法を計算しています。",
+    "title": "ほとんどそこに！",
+    "shoe": {
+      "success": "計算完了しました",
+      "calculating": "測定値を計算中",
+      "analyzing": "あなたの回答を分析中"
+    }
+  },
+  "landscape_subtitle": "スマートフォンを水平に持って開始します",
+  "measurement_tape": {
+    "link_download": {
+      "in": "//static.sizebay.technology/assets/measurement_tape/measurement_tape_in_jp.pdf",
+      "cm": "//static.sizebay.technology/assets/measurement_tape/measurement_tape_cm_jp.pdf"
+    },
+    "title": "測定テープ",
+    "message": "この巻尺を印刷、カット、組み立てて、測定値を確認します。",
+    "print": "巻き尺",
+    "print_mobile": "印刷巻尺",
+    "download": {
+      "file": {
+        "title": "印刷のための指示  そして巻尺を設定します",
+        "fold-and-rotate": "折りますそして回転する",
+        "how-to-do": "印刷：\n印刷する前に、印刷ダイアログボックスの[ページに合わせる]オプションが無効になっていることを確認して、プリンタがテープのサイズを縮小または拡大しないようにします。\n\nクロップ：\nはさみまたはスタイラスを使用して、「はさみ」で示されたすべての連続した黒い線を切り取り、テープのセグメントを作成します。\n\nアセンブリ：\n単一のテープが組み立てられるまで点線を結合することにより、両端を折り曲げて回転させます（印刷物に示されています）。\n\n折り目を修正します：\n組み立て後、接着剤、粘着テープ、またはホッチキスを使用してテープの折り目を固定します。"
+      }
+    }
+  },
+  "foot_size": {
+    "select_region": "地域を選択してください:",
+    "not_selected": "続行するには必ずサイズを選択してください",
+    "title": "靴のサイズは何ですか",
+    "pattern": "{{region}} システム",
+    "subtitle": "サイズを選択"
+  },
+  "child_name": {
+    "name": "名前",
+    "title": "お子さんの名前を教えてください。",
+    "subtitle": "これは、試着室のプロファイルを作成するのに役立ちます"
+  },
+  "size_hint": {
+    "title": "我々またあな合ういくつかの製品を選択しました",
+    "discount-original-price": "通常価格: <span class='size-hint__discount-original-price discount-description-price'>{{ price }}</span> <span class='size-hint__discount-percentage'>-{{discount }}%</span>",
+    "discount-lowest-price": "割引の 30 日前からの最低価格: <span class='size-hint__discount-lowest-price discount-description-price'>{{ price }}</span> <span class='size-hint__discount-percentage'>-{{ discount }}%</span>",
+    "title_promo": "プロモを完成させる",
+    "try_now": "トライ今"
+  },
+  "size_tailor": {
+    "action_button": "私たちはあなたのためにカスタマイズします",
+    "title": "カスタム製品",
+    "description": "私たちがあなたのカスタムメイドの製品を開発できるように、あなたの体の測定値を確認してください。"
+  },
+  "miscellaneous": {
+    "hannaLinks": {
+      "recommendation": "結果に戻る",
+      "welcome": "戻る"
+    }
+  },
+  "measure_shape": {
+    "shape_bigger": "大きい",
+    "shape_smaller": "小さい",
+    "skin_types": {
+      "toggle": "肌の色を変える"
+    },
+    "subtitle": "これは、測定値から生成されたおおよその体型です。必要な場合にのみ調整してください。",
+    "measure_range": {
+      "1": "はるかに小さい",
+      "2": "より小さい",
+      "3": "平均",
+      "4": "より大きな",
+      "5": "はるかに大きい"
+    },
+    "shape_regular": "レギュラー",
+    "title": "体型を調整する"
+  },
+  "calculating": {
+    "subtitle": "測定結果を確認し、必要に応じて調整します",
+    "circle_title_loading": "荷積み...",
+    "circle_title_completed": "準備完了!",
+    "title": "終了しました計算中！"
+  },
+  "brands_grid": {
+    "subtitle": "普段どのブランドを着ていますか",
+    "unique_brand": "もう {{ brandName }} の靴を履いていますか?",
+    "search_other_brands": "別のブランドを探す"
+  },
+  "modals": {
+    "remove_profile": {
+      "title_alt": "このプロファイルを削除してもよろしいですか?",
+      "title": "を削除します{{profileName}}プロファイル？",
+      "action": "削除プロフィール",
+      "confirm": "削除プロフィール"
+    }
+  },
+  "no_recommendation": {
+    "expected_size": "推奨サイズは  {{recommendedSize}}。",
+    "title_shoe": "残念ながら現時点では、このモデルそしてサイズは、私たちの店では使用できません。",
+    "based_on": "情報を編集して再試行できます",
+    "calculate_again": "再計算",
+    "title": "あなたのサイズは現在入手できません",
+    "subtitle": "当社は下記の測定のためにサイズを見つけることができませんでした。 必要に応じて調整します。"
+  },
+  "accessory": {
+    "welcome": {
+      "subtitle": "この製品を試すには、指示に従って測定を行い、対応する番号を通知してください",
+      "shoe": {
+        "subtitle": "以下の足のサイズを選択してください。"
+      }
+    },
+    "bike": {
+      "recommendation": {
+        "title_suggested": "私たちがお勧めする自転車のサイズは、あなたのパフォーマンスと姿勢に最適です。背が高すぎず、短すぎず、快適に自転車に乗ることができます。",
+        "subtitle": "あなたの身長に基づいて",
+        "title_also_fits": "私たちがお勧めする自転車のサイズは、あなたのパフォーマンスと姿勢に最適です。背が高すぎず、短すぎず、快適に自転車に乗ることができます。",
+        "title_not_suggested": "私たちがお勧めする自転車のサイズは、あなたのパフォーマンスと姿勢に最適です。背が高すぎず、短すぎず、快適に自転車に乗ることができます。"
+      }
+    },
+    "shoe_size": {
+      "subtitle": "この商品を試すには、足の長さに合わせてサイズをお選びください"
+    }
+  },
+  "foot_format": {
+    "formats": {
+      "0": {
+        "description": "狭い足は靴の側面に余裕がある傾向があります。",
+        "title": "狭い"
+      },
+      "1": {
+        "title": "ミディアム",
+        "description": "中くらいの足は通常ほとんどの靴にうまく合います。"
+      },
+      "2": {
+        "title": "広い",
+        "description": "幅広の足は靴の長さに合っていますが、側面がきつく感じます。"
+      }
+    },
+    "subtitle": "足の幅を選んで、フィット感を向上させましょう。",
+    "title": "足の形"
+  },
+  "landscape_warning": {
+    "title": "バーチャル試着室"
+  },
+  "my_measures": {
+    "title": "私の測定値",
+    "subtitle": "必要に応じて測定を調整します"
+  },
+  "subcategory": {
+    "subtitle": "普段履いている <strong>{{brandName}}</strong> の靴の種類を選択してください",
+    "title": "どんな{{categoryName}}を着ていますか?"
+  },
+  "model": {
+    "title": "どんな{{composedName}}を着ていますか?",
+    "subtitle": "普段履いている <strong>{{brandName}}</strong> の靴のモデルを選択してください"
+  },
+  "landscape_horizontal_subtitle": "デバイスを水平に置いて使用を開始してください",
+  "category": {
+    "subtitle": "以下のリストから、<strong>{{brandName}}</strong> の靴に最も似ているタイプを 1 つ選択してください",
+    "title": "あなたの靴のタイプは何ですか？"
+  },
+  "header": {
+    "title": "Fit Finder"
+  }
+}

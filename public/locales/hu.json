@@ -1,0 +1,953 @@
+{
+  "shoe_size": {
+    "fit_loose": "Laza",
+    "shoe_accessory": {
+      "no_recommendation": {
+        "subtitle": "Az alábbi méretekhez nem találtunk méretet. Szükség esetén állítsa be.",
+        "title": "Méretet nem találtunk"
+      },
+      "all_measures": {
+        "measurements_guide": "Mérési útmutató [PDF]",
+        "title": "Mekkora a lábad?"
+      },
+      "info_drawer_subtitle": "A legjobb cipőméret megtalálásához miért nem mesélsz magadról egy kicsit?"
+    },
+    "recommendation": "Az Ön információi alapján, ez a lábmérése. Szükség esetén módosítsa:",
+    "foot_shape_question": "Milyen alakú a lábad?",
+    "title": "Milyen hosszú a lábad?",
+    "drawer_title": "Milyen hosszú a lábad",
+    "subtitle": {
+      "0": "Meséljen egy kicsit magáról, hogy megtalálja a legjobb cipőméretet",
+      "box": {
+        "subtitle": "Helyezzen egy papírlapot a padlóra a fal mellé. Álljon a sarkával a papírra és a falhoz. Jelölje meg a leghosszabb lábujja hegyét, majd mérje meg a távolságot.",
+        "title": "Hogyan mérd meg helyesen a lábfejed:"
+      }
+    },
+    "fit_description_ideal": "Van egy <strong>kis hely</strong> a lábujjaid és a cipő között.",
+    "length_example": "Vedd fel a <strong>{{brandName}}</strong> cipődet <strong>{{size}}</strong> méretben, és mondd el, hogyan illeszkedik a hossz a lábadon.",
+    "fit_tight": "Kényelmes",
+    "fit_ideal": "Megfelelő",
+    "open_drawer_button": "Hogyan mérje meg magát",
+    "fit_description_loose": "A lábujjak és a cipő között <strong>nagy hely</strong> van.",
+    "shoe_accessory_subtitle": "Útmutatásunk szerint válassza ki a lábméretét alább\nhogyan mérje meg magát.",
+    "drawer_button": "Megvan",
+    "fit_description_tight": "A cipő érinti a lábujjakat <strong>hely nélkül</strong>.",
+    "length_question": "Milyen a cipőd hosszúsága?"
+  },
+  "footer": {
+    "add_to_cart_mobile_2": "Kosárba",
+    "confirm": "Megerősítés",
+    "none_of_those": "Egyik sem",
+    "save_measures": "Hány éves vagy?",
+    "view_recommendation": "Ajánlás megtekintése",
+    "print_measurement_tape": "Nyomtató mérőszalag",
+    "virtual_fitting_room": "Virtuális próbafülke",
+    "info_box": "Válaszd az Egyedi méretet, ha azt szeretnéd, hogy a kabátod testméreteidhez igazodjon",
+    "yes": "Igen",
+    "add_to_cart": "Kosárba tesz",
+    "brand_not_found": "Nem találtam a márkát",
+    "proceed": "Folytatás",
+    "edit_data": "Adatok szerkesztése",
+    "not_yet": "Még nem",
+    "cancel_alt": "Nem, mégsem",
+    "next": "Következő",
+    "cancel": "Mégsem",
+    "by-sizebay": "a Sizebay® által",
+    "sure": "Biztos!",
+    "add_profile": "Profil létrehozása",
+    "create_new_profile": "Új profil létrehozása",
+    "restart": "Újrakezdés",
+    "close": "Bezárás",
+    "select_another_profile": "Válassz másik profilt",
+    "continue_without_brand": "Nem találtam a márkát",
+    "unsure": "Nem vagyok benne biztos",
+    "save": "Mentés",
+    "edit_measures": "Mérések szerkesztése",
+    "proceed_anyway": "Folytatás mindenképp",
+    "edit_profile": "Profilok szerkesztése",
+    "add_to_cart_mobile": "Vásároljon",
+    "back": "Előző"
+  },
+  "composed_measures": {
+    "welcome": {
+      "link_tooltip": "<b>{{suffix}} {{measureName}} szélességének megfelelően.</b>",
+      "item_text": "Az én {{measureName}} {{range}} {{sizeSystem}} széles",
+      "measures_range_item": "{{initialRange}}–{{finalRange}}",
+      "tooltip_text": "Kattints egy másik méret kiválasztásához",
+      "tooltip_instructions": "Ide kattintva megtudhatod, hogyan végezheted el a(z) {{measureName}} mérését",
+      "height": {
+        "item_text": "{{range}} {{sizeSystem}} magas vagyok",
+        "link_tooltip": "<b>lehetséges kínálatot.</b>",
+        "title": "Milyen magas vagy?",
+        "instructions": "Ismernünk kell a magasságod, hogy megmutassuk a magasságodnak mefelelő "
+      },
+      "title": "Mi {{suffix}} {{measureName}} mérete?",
+      "instructions": "Mi {{suffix}} <b>{{measureName}}</b> szélessége? Ismernünk kell {{suffix}} {{measureName}} méretét, hogy megmutassuk a lehetséges kínálatot "
+    },
+    "height": {
+      "title": "Milyen magas vagy?",
+      "link_tooltip": "megmutatni a magasságodat"
+    },
+    "table": {
+      "helper_height": "Ez a magasság {{range}} {{sizeSystem}} magasságtól indul. Pontatlan a mérés?",
+      "tooltip_change": "Változtasd meg itt.",
+      "helper": "Ez a(z) {{measureName}} a(z) {{range}} {{sizeSystem}} hossztól indul. Pontatlan a mérés?",
+      "title": "Ezek a lehetséges méretek a következőhöz: <span>{{range}}</span> {{measureName}}",
+      "vfr_tooltip": "Megvannak a méreteid? Miért nem próbálod meg a Virtuális próbafülkében felfedezni a méreted?"
+    }
+  },
+  "body_measurements": {
+    "diameter": "ÁTMÉRŐ",
+    "collar": "Gallér",
+    "length": "Termék hossza",
+    "centralSeam": "Ülep",
+    "weightChart": "Weight",
+    "width": "Szélesség",
+    "waistUpper": "Derék felső rész",
+    "weight": "Súly",
+    "circumference": "Körméret",
+    "insoleLength": "Lábhossz",
+    "label1": "MÉRET (USA)",
+    "sleve": "Ujjhossz",
+    "waist": "Derék",
+    "chest_m": "Mellkas",
+    "chest_f": "Mellbőség",
+    "neck": "Nyak",
+    "comfort": "Kényelmes",
+    "sleeve": "Kar",
+    "thigh": "Comb",
+    "headCircumference": "Fej",
+    "hip": "Csípő",
+    "shoulderWidth": "Vállak",
+    "waistLower": "Derék alsó rész",
+    "wrist": "Csukló",
+    "palm": "Tenyér",
+    "bar": "Szegély",
+    "chest": "Mellkas / Mellbőség",
+    "lowerLength": "Altest hossz",
+    "finger_circumference": "KÖRMÉRT",
+    "insoleWidth": "Lábszélesség",
+    "height": "Magasság",
+    "ageChart": "Kor",
+    "underBust": "Mell alatt",
+    "insideLeg": "Lábszárhossz",
+    "biceps": "Bicepsz",
+    "calf": "Alsó lábszár",
+    "fist": "Ököl",
+    "fullBodyLength": "Teljes testhossz"
+  },
+  "measures_info": {
+    "insideLeg": "Mérje meg a láb belső távolságát a szeméremtesttől a talpig.",
+    "fullBodyLength": "Mérd meg a távolságot a válladtól a padlóig.",
+    "weightChart": "Mennyi a súlyod?",
+    "waistUpper": "Mérd meg a derékbőséget a köldök felett.",
+    "insoleLength": "Helyezzen egy papírlapot a padlóra a fal mellé. Álljon a sarkával a papírra és a falhoz. Jelölje meg a leghosszabb lábujja hegyét, majd mérje meg a távolságot.",
+    "biceps": "Tekerd körbe a mérőszalagot a karodon középen, és mérd meg annak legszélesebb részét.",
+    "height": "Ez nagyon könnyű. A fej teteje (koponya) és a talaj (talp) közötti távolság, egyenes testtartás mellett mérve.",
+    "width": "Mérd meg a ruhád szélességét",
+    "weight": "A súlyod.",
+    "sleeve": "Enyhén behajlított karral mérd meg a váll és a csukló közötti távolságot úgy, hogy a szalagot a könyök mögé húzod.",
+    "neck": "Anélkül, hogy a nyakadat behajlítanád, mérőszalaggal mérd meg a nyakad normál magasságát. Használj tükröt a mérés ellenőrzéséhez.",
+    "collar": "Mérd meg a nyakad közvetlenül a kulcscsont felett, az egyik ujjad a szalag és a nyaka közé helyezve.",
+    "chest": "Szabályosan lélegezve mérőszalaggal mérd le a mellkasod (mellkas területe) közvetlen mellek alatti részét. Figyeld meg a változásokat légzés közben, és a legnagyobb számot jegyezd fel.",
+    "ageChart": "Hány éves vagy?",
+    "circumference": "Mérd meg a ruhád körméretét (bőségét)",
+    "length_botton": "Helyezd a mérőszalag végét a tested azon legmagasabb pontjára, ahol a ruha lesz. Engedje el a szalag maradék részét, és jegyezd fel a méretet.",
+    "waist": "Állj a tükör elé úgy, hogy a derekadat jól lásd. A törzset enyhén oldalra döntve képzelj el egy redőt a derék természetes mozgásából adódóan. Tekerd körbe a derekad.",
+    "footLength": "Áll egy sík felületre, úgy, hogy a magasságod a falhoz igazodjon. Mérd meg a lábfej leghosszabb részét (saroktól a lábujjakig) egy vonalzó segítségével.",
+    "lowerLength": "Ez a távolság a csípőd és a padló között.",
+    "chest_m": "Outline your chest with a tape measure and breathe normally. Notice the variations as you breathe and record the highest number.",
+    "chest_f": "Szabályosan lélegezve mérőszalaggal mérd le a mellbőségedet (mellkas területe). Figyeld meg a változásokat légzés közben, és a legnagyobb számot jegyezd fel.",
+    "palm": "Helyezz egy vonalzót egy sík felületre, hajlítsd be a kezed, tedd a domináns kezed bal oldalát a vonalzó nullpontjához, és jegyezd fel a kézméreted.",
+    "waistLower": "Mérjd meg a derékbőséged a köldök alatt, ott, ahol általában a derékpánt (alacsony derekú nadrág) van.",
+    "thigh": "Mérőszalaggal mérd le a combod legszélesebb részét, közvetlenül a fenék alatt.",
+    "underBust": "Mérd meg a mellkasod szélességét a mérőszalaggal, közvetlen a mellek alatti területen. Lélegezz szabályosan, figyeld meg a mérések eltéréseit, és a legnagyobb számot jegyezd fel.",
+    "bar": "Mérd meg a ruhád szegélyét",
+    "insoleWidth": "Vedd ki a talpbetétet az egyik kényelmes cipődből, és mérd meg a talpbetét szélességét a képen látható módon.",
+    "headCircumference": "Mérd meg a fejed kerületét (a fülek felett) a mérőszalaggal.",
+    "wrist": "Tekerd körbe a mérőszalagot a csuklód körül, pontosan ott, ahová például egy karórát tennél.",
+    "hip": "A mérőszalaggal körvonalazzuk a \"szélesebb\" régiót a derék alatt, párhuzamosan a fenék legmagasabb részével.",
+    "diameter": "Mérje meg annak a gyűrűnek a belső körének átmérőjét, amelyet ugyanazon az ujján visel ugyanabból a kézből, ahol ezt a terméket viselni szeretné",
+    "length": "Mérd meg a törzs felső része (a nyakával találkozva) és a derék alsó része (közvetlenül a has alatt) közötti távolságot a hasad körül.",
+    "fist": "Tekerd körbe a mérőszalagot a csuklód körül, pontosan ott, ahová például egy karórát tennél.",
+    "calf": "Ülj le egy székre, tartsd a talpad a talajon, és hajlítsd be a lábad 90 fokban. A mérőszalaggal a mérd meg a lábszárad a lábfej tövétől a térdhajlatig.",
+    "shoulderWidth": "Egy másik személy segítségével mérd meg a vállak csúcspontja közötti távolságot az ábra szerint.",
+    "ring": "Kössön egy vékony zsinórt ugyanarra az ujjra, amelyet viselni szeretne, jelölje meg a zsinór találkozási helyét, és mérje meg a hosszát, hogy megkapja a kerületet",
+    "centralSeam": "Sík felületen ülve mérd meg a derekad és a felület közötti távolságot egy mérőszalaggal"
+  },
+  "privacy": {
+    "services": {
+      "anchor": "Sizebay szolgáltatások",
+      "text": "<p>A SIZEBAY szolgáltatásai az e-commerce platformon és a szoftver as a service (SaaS) módozatán elérhetőek, és ez a SIZEBAY jelentőséggel bír, mint például az e-kereskedelem és a szoftver licence.</p>",
+      "title": "Sizebay szolgáltatások"
+    },
+    "clear_data": {
+      "button": {
+        "initial": "Minden adat törlése",
+        "cleared": "tiszta!",
+        "cleaning": "Takarítás..."
+      },
+      "title": "Tisztító sütik",
+      "tooltip": "Adataid törlésre kerültek!",
+      "text": "Kattintson az alábbi gombra, ha törölni szeretné a Sizebay által tárolt összes böngészési adatát, gyorsítótárát és cookie-ját."
+    },
+    "contact": {
+      "title": "Javasoljuk, hogy rendszeres időközönként tisztítsa meg az Ön által használt böngészőben tárolt sütiket, hogy megakadályozza az összegyűjtött információk törlését a SIZEBAY adatbázisból, valamint más felkeresett webhelyekről.",
+      "text": "<p>Ha bármilyen kérdése van a SIZEBAY szabályzatával vagy azzal kapcsolatban, hogyan gyakorolhatja adattulajdonosi jogait, forduljon a SIZEBAY adatvédelmi tisztviselőjéhez (DPO):<br><br>Janderson Roberto Araujo<br>Address: R. Blumenau, 953 – Sala 402 – América, Joinville – SC, 89204-251 – Brazil.<br>Phone: +55 48 4042-0150<br>E-mail: <a href='mailto:privacy@sizebay.com' target='_blank'>privacy@sizebay.com</a></p><br><a href='https://sizebay.com/pt/legal/' target='_blank'><strong>További irányelvek megtekintése</strong></a>"
+    },
+    "data_protection": {
+      "anchor": "Adat védelem",
+      "title": "Hogyan védi a SIZEBAY az adatait?",
+      "text": "<p>A SIZEBAY kiemelten fontosnak tartja ügyfelei, felhasználói és látogatói információinak bizalmas kezelését és biztonságát; ezért titkosítási és tűzfaltechnológiát használ, és mindent megtesz az Ön adatainak és információinak védelméért.</p><p>Javasoljuk, hogy rendszeres időközönként tisztítsa meg az Ön által használt böngészőben tárolt sütiket, hogy megakadályozza az összegyűjtött információk törlését a SIZEBAY adatbázisból, valamint más felkeresett webhelyekről.</p>"
+    },
+    "how_data_is_collected": {
+      "text": "<p>Az adatgyűjtésre akkor kerül sor, ha a felhasználó a Virtuális Fitnesz és Fitnesz és Mérettáblázat szolgáltatások igénybevételekor információt ad, vagy cookie-kon keresztül, amikor a felhasználó belép a SIZEBAY alkalmazásba vagy weboldalra.</p>",
+      "title": "Hogyan gyűjti a SIZEBAY az adatokat?"
+    },
+    "users_obligations": {
+      "anchor": "A felhasználók kötelezettségei",
+      "title": "Mik a felhasználói kötelezettségek?",
+      "text": "<p>Az alkalmazás felhasználói kötelezettséget vállalnak arra, hogy a SIZEBAY szolgáltatásait a Szabályzat, valamint a hatályos jogszabályok, szokások, közrend, valamint a platform használatához és elfogadásához szükséges kötelező követelmények tiszteletben tartásával és betartásával veszik igénybe.</p>"
+    },
+    "data_collected": {
+      "title": "Milyen adatokat gyűjt a SIZEBAY?",
+      "text": "<p>Szolgáltatásainak nyújtása érdekében a SIZEBAY olyan profiladatokat gyűjthet, mint a becenév (opcionális), életkor, nem, magasság, súly, anatómiai profil és testméretek. Ezen túlmenően a felhasználói élmény javítása és az alkalmazás használatának megkönnyítése érdekében hozzáférési naplóadatok és cookie-adatok is gyűjthetők anélkül, hogy újabb termékvásárlás vagy termékelemzés esetén a felhasználó által már korábban közölt adatokat kellene megadni.</p><p>A SIZEBAY az e-kereskedelemben leadott vásárlási rendelésből is képes lesz adatot gyűjteni az ajánlott méret és a ténylegesen vásárolt méret elemzéséhez, ezzel is javítva a ruházati és cipők méretajánlási szolgáltatásait. </p><p>Tisztázzuk, hogy a SIZEBAY alkalmazás törekszik a felhasználói magánélet védelmére, így a szolgáltatásokat úgy fejlesztettük ki, hogy az adatgyűjtés az adattulajdonosok azonosítása nélkül történik.</p>",
+      "anchor": "Gyűjtés dátuma"
+    },
+    "how_it_works": {
+      "anchor": "Hogyan működik?",
+      "title": "Hogyan működik a hozzáférés a virtuális próbateremhez és az alkalmassági és mérettáblázathoz?",
+      "text": "<p>A szolgáltatások igénybevételéhez nem szükséges, hogy a felhasználó regisztráljon a SIZEBAY platformon. A Fit & Size Chart elérhető lesz, és a virtuális próbafülke használatához a felhasználónak néhány alapvető adatot ki kell töltenie a jelentkezéshez, hogy a ruha- és cipőméret-ajánlást elkészíthesse.</p><p>A SIZEBAY alkalmazásban való profil létrehozásához a felhasználónak nem kell vezeték- vagy utónevét megadnia, sőt fiktív adatokat is kitölthet, ha magánélete további megőrzése érdekében érdekelt.</p><p>Kiskorúak csak akkor használhatják az alkalmazást, ha szüleik vagy gondviselőik képviselik és/vagy nem segítik őket.</p>"
+    },
+    "title": "Magánélet",
+    "overview": {
+      "title": "Mire vonatkoznak a használati feltételek és az adatvédelmi szabályzat?",
+      "text": "<p>A SIZEBAY HASZNÁLATI FELTÉTELEI a következőket szabályozzák: (i) a SIZEBAY által elérhetővé tett szolgáltatások igénybevétele ügyfelei e-kereskedelmi platformján keresztül, valamint (ii) a SIZEBAY honlapján elérhető hozzáférés és tartalom, (iii) a platform és a weboldal felhasználóinak, látogatóinak és ügyfeleinek kötelezettségei az alkalmazás használata vagy a SIZEBAY webhely elérése során, (iv) az érintett felek felelőssége.</p><p><strong>ADATVÉDELMI IRÁNYELV</strong> célja annak tisztázása, hogy a SIZEBAY hogyan kezeli az adatkezelést az alkalmazásának és a weboldalának használata és elérése során, valamint tisztázásra kerülnek a jogosultak jogai és azok gyakorlásának módja a SIZEBAY-vel.</p><p>A Virtuális próbaterem és az Alkalmassági és Mérettáblázat elérésekor és használatával Ön elfogadja a SIZEBAY szabályzatát. A teljes SIZEBAY szabályzatot a linken érheti el.</p><p><strong>Az alábbiakban összefoglaljuk a legfontosabb információkat:</strong></p>",
+      "anchor": "Magánélet"
+    },
+    "share_data": {
+      "text": "<p>Az adatmegosztás mindig történhet a jobb online vásárlási élmény érdekében, illetve az alkalmazás működése érdekében, így az ügyfelekkel, üzleti partnerekkel, szolgáltatókkal, alvállalkozókkal, ruha- és lábbeligyártókkal valósulhat meg.</p>",
+      "title": "Kivel oszthat meg adatokat a SIZEBAY?"
+    }
+  },
+  "product_not_found": {
+    "report_status": {
+      "sending": "Értesítés......",
+      "sent": "Köszönöm!",
+      "not_sending": "Értesíts minket",
+      "not_sent": "Értesíts minket"
+    },
+    "description": "Még mindig nincs elegendő információnk a termékről ahhoz, hogy ajánlani tudjuk.",
+    "title": "Jaj, ne!"
+  },
+  "languages": {
+    "all_langs": {
+      "fr": "Francia",
+      "et": "észt",
+      "es": "spanyol",
+      "en": "angol",
+      "fi": "finn",
+      "dk": "dán",
+      "cn": "Kínai",
+      "de": "német",
+      "cz": "cseh",
+      "br": "portugál",
+      "ar": "arab",
+      "bg": "bolgár",
+      "mx": "spanyol",
+      "no": "norvég",
+      "nl": "holland",
+      "lt": "litván",
+      "lv": "lett",
+      "jp": "japán",
+      "ko": "koreai",
+      "it": "olasz",
+      "hu": "Magyar",
+      "hr": "horvát",
+      "id": "Indonézia",
+      "gr": "görög",
+      "he": "Héber",
+      "vn": "vietnami",
+      "uk": "angol",
+      "th": "thai",
+      "tr": "török",
+      "sr": "szerb",
+      "sv": "svéd",
+      "sl": "szlovén",
+      "sk": "szlovák",
+      "ru": "orosz",
+      "ro": "román",
+      "pt": "portugál",
+      "pl": "fényesít",
+      "esAR": "spanyol",
+      "esCT": "spanyol (kasztíliai)",
+      "ukr": "ukrán",
+      "zh": "kínai"
+    },
+    "select": "Elérhető nyelvek: {{langs}}",
+    "box": "Nyelvválasztó: jelenleg a(z) {{currentLang}} nyelv van beállítva"
+  },
+  "garment_measurements": {
+    "hip_width": "Csípőszélesség",
+    "thigh_width": "Comb szélesség",
+    "head_circumference": "Fejkörfogat",
+    "lower_waist_circumference": "Alacsonyabb derékbőség",
+    "collar": "Gallér",
+    "waistband_circumference": "Derékbőség",
+    "hip_circumference": "Csípőkerület",
+    "biceps": "Bicepsz",
+    "waistband_width": "Derékpánt szélesség",
+    "hem": "Hem",
+    "lower_waist_width": "Alsó derék szélesség",
+    "chest_circumference": "Mellkas kerülete",
+    "waist_circumference": "Derékbőség",
+    "insole_width": "Talpbetét szélessége",
+    "palm_length": "Tenyerhossz",
+    "shoulder_length": "Vállhossz",
+    "length": "Hosszúság",
+    "waist_width": "Derék szélesség",
+    "chest_width": "Mellszélesség",
+    "wrist_width": "Csukló szélessége",
+    "insole_length": "Talpbetét hossza",
+    "calf_width": "Vádli szélessége",
+    "heel_height": "Sarokmagasság",
+    "front_length": "Első hossz",
+    "brim": "Karima",
+    "sleeve": "Ujj",
+    "thigh_circumference": "Combkerület",
+    "inside_leg": "Belső lábszárhossz",
+    "wrist_circumference": "Csukló kerülete",
+    "high_waist_circumference": "Magas derékbőség",
+    "shaft_height": "Tengely Magasság",
+    "calf_circumference": "Vádli kerülete",
+    "full_body_length": "Teljes testhossz",
+    "back_hook": "Hátsó horog",
+    "platform_height": "Emelvény magasság",
+    "circumference": "Kerület",
+    "hook": "Horog",
+    "lower_length": "Alsó hosszúság",
+    "under_bust": "Mell alatti",
+    "high_waist_width": "Magas derék szélesség",
+    "back_length": "Háthossz"
+  },
+  "regions": {
+    "IT": "Olasz",
+    "HU": "Magyar",
+    "FR": "Francia",
+    "MX": "Mexikói",
+    "CUSTOM": "Nemzetközi",
+    "JP": "Japán",
+    "code": {
+      "CUSTOM": "CUSTOM",
+      "US": "US",
+      "UK": "UK",
+      "AU": "AU",
+      "IT": "IT",
+      "MEX": "MEX",
+      "JP": "JP",
+      "FR": "FR",
+      "EU": "EU",
+      "CN": "CN",
+      "BR": "BR",
+      "DE": "DE"
+    },
+    "ES": "Spanyolország",
+    "EU": "Európai",
+    "DE": "Német",
+    "CN": "Kínai",
+    "AU": "Ausztrál",
+    "BR": "Brazil",
+    "region": "Régió",
+    "other": "Ismeretlen",
+    "mx_marti": "Marti",
+    "PT": "Portugáliai Portugál",
+    "letter-br": "Brazil",
+    "US": "Amerikai",
+    "UK": "Angol"
+  },
+  "size_chart": {
+    "subtitle": "További méretek és méretezés megtekintéséhez csúsztasd a görgetősávokat",
+    "title_web": "Mérési diagram",
+    "scroll_action": "Csúsztatás",
+    "subtitle_mobile": "További méretek és méretezés megtekintéséhez csúsztass az ujjaddal",
+    "returns_link": "Tudjon meg többet a visszaküldési politikáról.",
+    "returns": "Még mindig kétségeid vannak? Ne aggódj, az első <strong>visszaküldés ingyenes</strong>.",
+    "title_accessory": "Mérettáblázat ehhez a kiegészítőhöz",
+    "title": "Válasszon méretet és ellenőrizze a méreteket",
+    "instruction_measure": "Tekintse meg anyagunkat arról, hogyan mérheti meg magát, és hasonlítsa össze méréseit ezzel a táblázattal.",
+    "title_mobile": "Hasonlítsd össze testméreteid ezzel a táblázattal. Lépj az alábbi oszlopok címei fölé, és találd meg a testrészeid mérésének legjobb módját."
+  },
+  "generics": {
+    "disable": "Letilt",
+    "less_than_year": "< 1 év",
+    "profile_tooltip": "Ide kattintva új mérési profilokat hozhatsz létre",
+    "weight": "Súly",
+    "age": "Kor",
+    "accessibility": "ELÉRHETŐSÉG",
+    "language": "Nyelv",
+    "years": "Év",
+    "female": "Nő",
+    "size_fit": "Méret",
+    "no_name": "Névtelen",
+    "pronoun_female": "Az én",
+    "year": "Év",
+    "suffix_male": "a te",
+    "months": "Hónap",
+    "size_chart": "Mérettáblázat",
+    "chart": "SMérettáblázat",
+    "closeVfr": "Zárja be a virtuális próbatermet",
+    "about": "A Sizebayról",
+    "see_how_to_measure": "Nézze meg, hogyan kell mérni",
+    "kg": "Kilogramm",
+    "assistive_mode": "{{status}} segítő mód",
+    "suffix_female": "a te",
+    "switcher": {
+      "title_chart": "Méretek:"
+    },
+    "lb": "Font",
+    "how_to_measure": "Nézze meg, hogyan kell mérni",
+    "unavailable": "--",
+    "other_profiles": "Egyéb profilok",
+    "privacy": "Magánélet",
+    "ft": "Hüvelyk",
+    "pronoun_male": "Az én",
+    "got_it": "Megvan",
+    "enable": "Engedélyez",
+    "cm": "Centiméter",
+    "height": "Magasság",
+    "male_singular": "férfi",
+    "uninformed": "Nem tájékoztatták",
+    "female_singular": "női",
+    "profile": {
+      "title": "Felhasználói profil"
+    },
+    "male": "Férfi",
+    "confirm_edit": "OK"
+  },
+  "privacy_v2": {
+    "overview": {
+      "text": "<p>Annak érdekében, hogy jobban megértse a<strong> SIZEBAY </strong> által kifejlesztett megoldások használatát szabályozó Irányelveket, elkészítettük ezt a rövid összefoglalót az Ön számára. Ez az áttekintés nem helyettesíti a Szabályzat teljes tartalmát, ezért azt javasoljuk, hogy ezt követően figyelmesen olvassa el az egyes dokumentumokat.</p><p>A <strong>SIZEBAY</strong> <strong>HASZNÁLATI FELTÉTELEI</strong> a következőket hivatottak szabályozni: (i) a a <strong>SIZEBAY</strong> által a <a href={{ pageTenant }} target=_blank>{{ tenantName }} ({{ pageTenant }})</a> e-kereskedelmi platformján keresztül nyújtott szolgáltatások, valamint (ii) a <strong>SIZEBAY</strong> webhelyén elérhető hozzáférés és tartalom, (iii) a platform és a webhely felhasználóinak, látogatóinak és ügyfeleinek kötelezettségei az alkalmazás használata vagy a <strong>SIZEBAY</strong> webhely elérése során, (iv) az érintett felek felelőssége.</p>{{ pagePrivacyTenant }}<p>A <strong>ADATVÉDELMI IRÁNYELV </strong> célja annak tisztázása, hogyan <strong> A SIZEBAY </strong> alkalmazásának és weboldalának használata és elérése során adatokat dolgoz fel, a tulajdonosok jogai is tisztázódnak és azok gyakorlásának módja a <strong> SIZEBAY </strong>.</p>",
+      "title": "Áttekintés"
+    },
+    "clear_data": {
+      "text": "Törölje a Sizebay által tárolt összes böngészési adatot, gyorsítótárat és cookie-kat",
+      "button": {
+        "initial": "törölje a cookie-kat"
+      }
+    },
+    "person": {
+      "first": {
+        "name": "Marcelo Bastos",
+        "info": "<li>Európai Unió</li> <li>privacy@sizebay.com</li>"
+      },
+      "second": {
+        "name": "Janderson Roberto Araujo",
+        "info": "<li>Egyéb helyek</li> <li>privacy@sizebay.com</li>"
+      }
+    },
+    "services": {
+      "title": "Hogyan nyújtja a SIZEBAY szolgáltatásait?",
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/computer-face.svg /><p> A <strong>SIZEBAY</strong> szolgáltatások az e-kereskedelmi platformon szoftverként szolgáltatásként (SaaS) érhetők el, ami azt jelenti, hogy a <strong>SIZEBAY</strong> engedélyt ad az e-kereskedelemnek a szoftver használatára.</p></span> <div><img src=https://static.sizebay.technology/assets/icons/computer-face.svg /></div>"
+    },
+    "contact": {
+      "text": "<p>Ha bármilyen kérdése van a <strong>SIZEBAY</strong> szabályzattal vagy azzal kapcsolatban, hogyan gyakorolhatja az érintettként fennálló jogait, forduljon a <strong>SIZEBAY</strong> adatvédelmi tisztviselőjéhez:</p>",
+      "title": "Kétség esetén hogyan lehet kapcsolatba lépni?"
+    },
+    "data_collected": {
+      "title": "Milyen adatokat gyűjt a SIZEBAY?",
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/cookies.svg /><p> Szolgáltatásainak nyújtása érdekében a <strong>SIZEBAY</strong> profiladatokat gyűjthet, például becenevet (nem kötelező), életkort, nemet, magasságot, súlyt, anatómiai profilt és testméreteket. Ezen túlmenően a felhasználói élmény javítása és az alkalmazás használatának megkönnyítése érdekében hozzáférési naplóadatok és cookie-k is gyűjthetők anélkül, hogy a következő vásárláskor vagy termékelemzéskor a felhasználó által már közölt adatokat újra meg kellene adni. .</p> </span><span><img src=https://static.sizebay.technology/assets/icons/bag.svg /><p> A <strong>SIZEBAY</strong> az e-kereskedelemben leadott vásárlási megrendelésből is adatokat gyűjthet azzal a céllal, hogy az ajánlott méret és a ténylegesen vásárolt méret között elemzéseket végezzen, a méretajánlási szolgáltatások javítása érdekében. ruhadarabok és lábbelik.</p></span><span><img src=https://static.sizebay.technology/assets/icons/anonymous-person.svg /><p> Tisztázzuk, hogy a <strong>SIZEBAY</strong> alkalmazás törődik a felhasználók magánéletével, ezért a szolgáltatásokat úgy fejlesztettük ki, hogy az adatgyűjtés az azonosítás nélkül történik a birtokosok adatai.</p></span><div><img src=https://static.sizebay.technology/assets/icons/cookies.svg /> <img src=https://static.sizebay.technology/assets/icons/bag.svg /> <img src=https://static.sizebay.technology/assets/icons/anonymous-person.svg /></div>"
+    },
+    "how_it_works": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/mannequin.svg /><p> A szolgáltatások igénybevételéhez nem szükséges, hogy a felhasználó regisztráljon a <strong>SIZEBAY</strong> platformon. A mérési táblázat mindig elérhető lesz. A Virtuális próbaterem használatához a felhasználónak meg kell adnia néhány alapvető adatot, hogy az alkalmazás javasolni tudja a ruhadarabok és cipők méretét.</p></span><span><img src=https://static.sizebay.technology/assets/icons/anonymous.svg /><p> A <strong>SIZEBAY</strong> alkalmazásban profil létrehozásához nem szükséges a felhasználónak használnia vezeték- vagy keresztnév, sőt fiktív adatokkal is kitölthető, ha magánélete még inkább megóvása érdekli.</p></span><span><img src=https://static.sizebay.technology/assets/icons/persons.svg /><p> Kiskorúak az alkalmazást nem használhatják, kivéve, ha szüleik képviselik és/vagy segítik őket. gyámok.</p></span><div><img src=https://static.sizebay.technology/assets/icons/mannequin.svg /><img src=https://static.sizebay.technology/assets/icons/anonymous.svg /><img src=https://static.sizebay.technology/assets/icons/persons.svg /></div>",
+      "title": "Hogyan működik a virtuális próbaterem és a virtuális asztal szolgáltatások elérése?"
+    },
+    "share_data": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/share.svg /><p> Az adatmegosztás mindig történhet azzal a céllal, hogy jobb online vásárlási élményt nyújtson, vagy az alkalmazás működését lehetővé tegye, így az: vásárlókkal, beszállítókkal valósítható meg.</p></span><div><img src=https://static.sizebay.technology/assets/icons/share.svg /></div>",
+      "title": "Kivel oszthat meg adatokat a SIZEBAY?"
+    },
+    "actions": {
+      "terms": {
+        "content": "<li><a href=https://home.sizebay.com/{{lang}}/legal/conditions-of-use target=_blank>Felhasználási feltételek</a></li><li><a href=https://home.sizebay.com/{{lang}}/legal/privacy target=_blank>Adatvédelmi szabályzat</a></li><li><a href=https://home.sizebay.com/{{lang}}/legal/cookies-policy target=_blank>Cookie-szabályzat</a></li>",
+        "conditions-use": "Felhasználási feltételek",
+        "privacy": "Adatvédelmi szabályzat",
+        "cookies": "Cookie-kra vonatkozó szabályzat",
+        "title": "Feltételek"
+      },
+      "statements": {
+        "gdpr": "GDPR megfelelőség",
+        "title": "nyilatkozatok",
+        "lgpd": "LGPD megfelelőség",
+        "content": "<li><a href=https://home.sizebay.com/{{lang}}/legal/gdpr target=_blank >GDPR megfelelőség</a></li><li><a href=https: / /home.sizebay.com/{{lang}}/legal/lgpd target=_blank >LGPD-megfelelőség</a></li><li><a href=https://home.sizebay.com/{ {lang }}/legal/ccpa target=_blank >CCPA-megfelelőség</a></li><li><a href=https://sizebay.com/{{lang}}/legal/pipl target=_blank >PIPL-megfelelőség </a></li>",
+        "pipl": "PIPL megfelelőség",
+        "ccpa": "CCPA megfelelőség"
+      },
+      "title": "Nyissa meg feltételeinket",
+      "redirect_privacy": {
+        "text": "Kattintson ide, hogy átirányítsa Önt {{ tenantName }} adatvédelmi oldalára"
+      }
+    },
+    "how_data_is_collected": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/computer-hanger.svg /><p> Adatgyűjtésre akkor kerül sor, amikor a felhasználó a Virtua Fitter és Measurement Table szolgáltatások igénybevételekor információt ad, vagy cookie-kon keresztül, amikor a felhasználó belép a <strong>SIZEBAY</strong> alkalmazásba vagy weboldalra. ismét olyan adatok, amelyeket a felhasználó a következő vásárláskor vagy termékelemzéskor már közölt.</p></span><div><img src=https://static.sizebay.technology/assets/icons/computer-hanger.svg /></div>",
+      "title": "Hogyan gyűjti a SIZEBAY az adatokat?"
+    },
+    "users_obligations": {
+      "title": "Milyen kötelezettségei vannak a felhasználónak?",
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/obligations.svg /><p> Az alkalmazás felhasználói kötelezettséget vállalnak arra, hogy a <strong>SIZEBAY</strong> szolgáltatásait mindig tiszteletben tartva és betartva a Szabályzatot, valamint a mindenkor hatályos jogszabályokat, szokásokat, közrendet, valamint a platform használatához és használatának elfogadásához szükséges kötelező követelményeket .</p></span><div><img src=https://static.sizebay.technology/assets/icons/obligations.svg />"
+    },
+    "data_protection": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/security.svg /><p> A <strong>SIZEBAY</strong> kiemelten fontosnak tartja ügyfelei, felhasználói és látogatói információinak titkosságát és biztonságát. Emiatt titkosítási és tűzfal technológiát használ, és mindent megtesz az Ön adatainak és információinak védelméért.</p></span><span><img src=https://static.sizebay.technology/assets/icons/http.svg /><p> Javasoljuk, hogy rendszeresen tisztítsa meg a böngészőjében tárolt sütiket, hogy megakadályozza az összegyűjtött információ ne kerüljön eltávolításra a <strong>SIZEBAY</strong> adatbázisból, valamint más elért oldalakról.</p></span><div><img src=https://static.sizebay.technology/assets/icons/security.svg /> <img src=https://static.sizebay.technology/assets/icons/http.svg /></div>",
+      "title": "Hogyan védi a SIZEBAY az Ön adatait?"
+    }
+  },
+  "garment_measures_info": {
+    "shaft_height": "Mérje meg a sarok alapjától a cipő szárának tetejéig.",
+    "shoulder_length": "Szélesség az egyik ujjvarrástól a másikig, a ruhadarab hátulján.",
+    "full_body_length": "Mérje meg a teljes testdarab felső varrásától az alsó szegélyig.",
+    "hem": "Az alkatrész aljának szélessége.",
+    "back_length": "Mérje meg a gallértól a felső ruhadarab szegélyéig, hátulról.",
+    "lower_waist_width": "Az alacsony derekú ruhadarab derékszíjának szélessége.",
+    "hip_circumference": "A ruhadarab szélessége, körülbelül 20 cm-rel a derékrész alatt, kétszeresére szorozva.",
+    "palm_length": "Mérje meg a csuklótól a középső ujj hegyéig.",
+    "calf_circumference": "Mérés a csizmaszár felső részénél, általában a vádli legszélesebb pontján.",
+    "head_circumference": "Mérje meg a kalap belsejében, ahol a fej nyugszik.",
+    "sleeve": "Mérje le a belső varrástól, ahol az ujj kezdődik, a mandzsetta végéig.",
+    "waist_width": "A legszűkebb rész szélessége a felsőn, a hónaljak és a szegély között.",
+    "thigh_width": "A comb legszélesebb részének szélessége.",
+    "waistband_circumference": "A ruhadarab felső nyílásának mérése.",
+    "circumference": "Mérje meg egy darab körül, általában úgy, hogy a szélességet megszorozza 2-vel.",
+    "lower_waist_circumference": "A ruhadarab szélessége, közvetlenül a természetes derék alatt, megszorozva kettővel.",
+    "high_waist_width": "A magas derekú ruhadarab deréksávjának szélessége.",
+    "chest_circumference": "A felsőruházat szélességének mérése, egyik oldalról a másikra, közvetlenül a hónalj alatt, kettővel megszorozva.",
+    "waist_circumference": "A ruhadarab legkeskenyebb részének szélessége megszorozva kettővel.",
+    "front_length": "Mérje meg a nyakrészről a felső rész szegélyéig, elölről.",
+    "lower_length": "Mérjen a derékpánttól a ruhadarab szegélyéig, oldalról.",
+    "wrist_circumference": "A mandzsetta nyílásának kerületének mérése ott, ahol a csuklóra illeszkedik.",
+    "heel_height": "Mérje meg az ugrás alapjától a legmagasabb pontig.",
+    "wrist_width": "Kezelje a darab szélességét.",
+    "hook": "Mérje meg a derékpánt tetejétől az ülepvarrásig.",
+    "thigh_circumference": "A ruhadarab legszélesebb részének mérése a combnál, közvetlenül a belső varrás alatt.",
+    "platform_height": "Mérje meg a cipő elejének talapzatától a platform tetejéig.",
+    "biceps": "Ujj szélessége, körülbelül 2,5 cm-rel a hónalj alatt.",
+    "insole_width": "Mérje meg a talpbetét legszélesebb részét.",
+    "brim": "Mérje meg az alapjától a sapka karimájának csúcsáig.",
+    "high_waist_circumference": "Mérje meg a magas derekú ruhadarab derékrészét.",
+    "hip_width": "A darab szélessége, 20 cm-rel a derékpánt alatt.",
+    "length": "Mérje le a felső varrástól a darab alsó szegélyéig.",
+    "chest_width": "Mérje meg a felső rész szélességét, az egyik oldalától a másikig, közvetlenül a hónalj alatt.",
+    "calf_width": "A csizmaszár szélességének mérése vádli magasságában.",
+    "collar": "Blúz gallér szélessége, a nyak tövénél mérve.",
+    "waistband_width": "Az alsó rész derékpántjának szélessége.",
+    "back_hook": "Mérje meg a derékpánttól az üleprészig, a ruhadarab hátulján.",
+    "insole_length": "Mérje meg a sarok hegyétől a talpbetét orráig.",
+    "under_bust": "A felsőruházat szélességének mérése, egyik oldalról a másikra, közvetlenül a mellszobor alatt, szorozva kettővel.",
+    "inside_leg": "Mérje meg a nadrág belső varrásától a szegélyig."
+  },
+  "error": {
+    "close": "Kilépés a próbafülkéből",
+    "title": "Hoppá, valami nincs rendben!",
+    "options": "Ne aggódj, már vizsgáljuk, hogy mi történt, hogy ne forduljon elő újra.",
+    "restart": "Profil újraindítása",
+    "description": "Don't worry, we are already investigating what happened to prevent it from happening again."
+  },
+  "recommendation": {
+    "3d_feel": {
+      "lanes": {
+        "large": "túl laza",
+        "ideal": "ideális",
+        "slightly_loose": "kissé laza",
+        "loose": "laza",
+        "slightly_fit": "kissé feszes",
+        "tight": "nagyon feszes",
+        "fit": "feszes"
+      },
+      "title_suggested": "a legjobb lehetőség"
+    },
+    "lanes": {
+      "tight": "KÉNYELMES",
+      "ideal": "IDEÁLIS",
+      "fit": "FESZES",
+      "looser": "LÚZER",
+      "large": "SZÉLES",
+      "loose": "LAZA",
+      "tighter": "Szorosabb"
+    },
+    "title_not_suggested": "nem ajánlott",
+    "measurements": {
+      "title": "Mérések",
+      "conversion": {
+        "title": "Méret átalakítás"
+      }
+    },
+    "centered_mode": {
+      "controls": {
+        "appearance": "Megjelenés",
+        "comfort": "Kényelem"
+      },
+      "comfort_map": {
+        "header": "A 3D kép színei azt jelzik, hogy a ruha mennyire lesz szoros vagy laza a testeden."
+      },
+      "tag_info": "A 3D test szimuláció az egyéni testméreteket és a valósághű termékilleszkedést ábrázolja.",
+      "measure_name": "a te {{measureName}}"
+    },
+    "title_suggested": "a legjobb lehetőség",
+    "height_warning": {
+      "threshold": {
+        "long": "hosszú",
+        "short": "rövid"
+      },
+      "message": "túl {{threshold}} azokra, akik {{height}} magasak"
+    },
+    "shoe": {
+      "insoleLength": "hossz",
+      "insoleWidth": "szélesség"
+    },
+    "subtitle": "Lásd alább a kényelmi szinteket",
+    "subtitle_shoe": "A(z) {{brandName}} {{size}} mérete alapján",
+    "title_also_fits": "belefér",
+    "carousel_also_try": "Próbáld ki ezeket a méreteket is:"
+  },
+  "product_comparison": {
+    "elements": {
+      "edit": "Szerkesztés",
+      "foot_format": "Lábforma",
+      "category": "Kategória",
+      "brand": "Márka",
+      "size": "Méret"
+    },
+    "title": "Összehasonlító termék",
+    "subtitle": "Ez a méretajánlathoz használt információ."
+  },
+  "warnings": {
+    "age_group": {
+      "age_group": "termék {{ageGroup}}",
+      "limit_reached": "A profilok száma elérte a korlátot. Új profil hozzáadásához törölj egy profilt.",
+      "subtitle": "A termék korosztálya nem egyezik a(z) {{profileName}} profil életkorával. A folytatáshoz válassz ki vagy adj hozzá egy profilt.",
+      "prompt_message": "Ki szeretnéd próbálni a ({{ ageGroup }}) szekció ruháit is?"
+    },
+    "we_need_more_measures": {
+      "subtitle": "Nem tudtuk kiszámítani a méreteidet. Kérjük, módosítsd az alábbi méreteket, vagy lépj vissza és nézd át a megadott adatokat.",
+      "title": "Add meg a méreteidet"
+    },
+    "unmatched_gender": {
+      "choose_a_profile": "Válaszd ki a kívánt profilt",
+      "select_profile": "Nem, választok egy másik profilt",
+      "tooltip": "Ez a profil nem felel meg a kiválasztott terméktípusnak",
+      "title": "Ki szeretnéd próbálni a {{gender}} szekció ruháit is?",
+      "create_profile": "Nem, létrehozok egy másik profilt"
+    }
+  },
+  "brands_list": {
+    "search_question": "Melyik márkát szoktad hordani?",
+    "not_found": {
+      "title": "Nem találtunk ilyen nevű márkát",
+      "subtitle": "Próbáljon újra keresni, ha kijavítja az elírásokat."
+    },
+    "subtitle": "Néhány kérdés, és segítünk megtalálni a legjobb cipőméretet.",
+    "title": "Virtuális próbafülke",
+    "search_placeholder": "Írja be és keresse meg a márkáját itt",
+    "title_restricted": "Szoktad hordani a cipőinket?"
+  },
+  "age_group": {
+    "adult": "Felnőtt",
+    "kids": "Gyerek"
+  },
+  "a11y": {
+    "Chart": {
+      "vfr_button": "Nyomja meg a szóköz billentyűt a virtuális próbafülkéhez",
+      "step_blocks": {
+        "table": {
+          "measure_description": "Ez a(z) {{size}} méret, a(z) {{measureName}}-en/ön/ban/ben ennek {{measure}}-nek kell lennie"
+        },
+        "switcher": {
+          "instruction_press_space": "Nyomja meg a szóközt az értékek váltásához",
+          "option": "Az aktuális értéked: {{value}}"
+        }
+      },
+      "greeting": "Ez a mérettáblázat",
+      "size_system": {
+        "instruction": "Az aktuális méretrendszered: {{sizeSystem}}. Nyomd meg a szóközt egy másik opció kiválasztásához."
+      },
+      "instruction": "Itt összehasonlíthatja a méréseit a táblázatunkban szereplő adatokkal"
+    },
+    "shoe": {
+      "Brands": {
+        "highlighted": {
+          "edit_negative": "Nyomja meg a szóközt, ha egyiket sem viseli ezek közül a márkák közül",
+          "edit_action": "Nyomja meg a szóköz billentyűt a kiválasztott márkával való továbblépéshez",
+          "instruction": "Nyomja meg a szóközt a folytatáshoz a(z) {{brandName}} használatával"
+        },
+        "restricted": {
+          "greeting": "Üdvözöljük a korlátozott márkák cipőpróbáló szobájában. Válasszon egyet a már ismert cipőmárkák közül, amelyet már visel"
+        }
+      },
+      "FootSize": {
+        "instruction": "Nyomja meg a szóközt a(z) {{ sizeSystem }} méretrendszer kiválasztásához"
+      },
+      "EditData": {
+        "greeting": "Itt módosíthatja a nekünk elküldött láb- és cipőinformációkat"
+      },
+      "FootFormat": {
+        "instruction": "Válassz egy lábformát.",
+        "edit_action": "Nyomja meg a szóközt a(z) {{ shoeFormat }} kiválasztásához"
+      }
+    },
+    "drawer": {
+      "measurement_tape_header": "Szalag",
+      "measurement_tape_handle": "Mérőszalag. Nyomja meg a szóköz billentyűt a mérőszalag eléréséhez",
+      "close_group_handle": "Nyomja meg a szóköz billentyűt a csoport bezárásához",
+      "measurement_tape_print_button": "Nyomja meg a szóköz billentyűt a mérőszalag megnyitásához"
+    },
+    "clothes": {
+      "Welcome": {
+        "step_blocks": {
+          "gender": {
+            "question": "Válassz nemet a folytatáshoz. A jelenlegi nemed: {{gender}}"
+          },
+          "age": {
+            "tooltip": "Nyomja meg a szóközt, hogy további információkat olvasson arról, hogyan befolyásolja az életkor az ajánlást"
+          },
+          "height": {
+            "question": "Írja be ide a magasságát {{measurementSystem}} szerint."
+          }
+        }
+      },
+      "ProfilesMenu": {
+        "blocks": {
+          "greeting": "Ezek mind a profiljaid a virtuális próbafülkében",
+          "edit": "Itt kiválaszthatja, hogy profilokat ad hozzá vagy távolít el"
+        },
+        "chip": {
+          "message": "Nyomja meg a szóköz billentyűt, hogy hozzáférjen a(z) {{profileName}} profil további részleteihez"
+        }
+      },
+      "Recommendation": {
+        "lane": "A(z) {{ size }} méret {{ label }} a(z) {{ measureName }}-n",
+        "carousel_instruction": "További méretválasztékot itt talál"
+      },
+      "measures": {
+        "edit": "Nyomja meg a nyílbillentyűket a(z) {{measureName}} mérték növeléséhez vagy csökkentéséhez",
+        "read": "A(z) {{measureName}} mértéke {{measureValue}} a(z) {{measureSystem}} rendszerben"
+      }
+    },
+    "generics": {
+      "welcome": "Üdvözöljük a virtuális próbafülkében"
+    }
+  },
+  "welcome": {
+    "age_disclaimer": "A testalkat az évek során változik, és ez befolyásolja a számításainkat.",
+    "gender_f_kids": "Nőies",
+    "title": "Virtuális próbafülke",
+    "gender_m_kids": "Férfias",
+    "foot_measurement_known": "Már ismerem a lábméretemet",
+    "gender_m": "Férfi",
+    "shoe_measure": "Lábhossz",
+    "gender_f": "Nő",
+    "gender_u": "Uniszex",
+    "subtitle": "Töltsd ki az adatokat a termék felpróbálásához"
+  },
+  "edit_measures": {
+    "view_less": "Lásd kevesebb mérést",
+    "view_all": "További mérések megtekintése"
+  },
+  "drawers": {
+    "manage": {
+      "actions": {
+        "select": "Válasszon",
+        "delete": "Törlés"
+      },
+      "active_profile": {
+        "details_shoe": "{{brandName}} méret: {{size}}",
+        "no_name": "Írj be nevet",
+        "delete": "Profil törlése"
+      },
+      "new_profile": {
+        "input_example": "Példa: John Smith",
+        "title": "Profil hozzáadása",
+        "subtitle": "Adj nevet a profilnak"
+      }
+    },
+    "knobs": {
+      "kids_shoes_tips": "Mérettippek",
+      "garment_info": "Ruhaméretek",
+      "size_content": "Stíluskézikönyv",
+      "measurement_tape": "Mérőszalag",
+      "product_info": "Testméretek",
+      "size_hint_promo": "Tökéletesítse a promót",
+      "size_hint": "Javaslat",
+      "sizes_conversions": "Mérettáblázatok"
+    },
+    "kids_shoes_title": "Tippek és irányelvek a gyerekek lábméretéhez és cipőihez",
+    "kids_shoes_button": "Megvan",
+    "kids_shoes_message": "A gyerekek lábai 2-4 havonta fél számmal nőnek. A gyors növekedés miatt azt tanácsoljuk, hogy a gyereknek valamivel lazább méretet válassz, így a cipő tovább tart, és nem szorítja a gyorsan fejlődő lábát."
+  },
+  "landscape_vertical_subtitle": "A használat megkezdéséhez helyezze függőlegesen a készüléket",
+  "coppa_gate": {
+    "close": "Nem, 13 év alatti vagyok",
+    "confirm": "Igen, én vagyok a gyám",
+    "prompt_title_months": "A {{ months }} hónapos gyermek szülője vagy gyámja vagy?",
+    "message": "Továbbra is felpróbálhatja ezt a terméket, ha Ön felnőttként létrehozta ezt a profilt, hogy felpróbáljon egy terméket gyermeke számára.",
+    "prompt_title_years": "A {{ years }} éves gyermek szülője vagy gyámja vagy?",
+    "title": "Életkor ellenőrzése"
+  },
+  "fetching": {
+    "subtitle": "A méreteket kiszámítjuk az ideális méretajánlat elkészítéséhez",
+    "title": "Majdnem kész!",
+    "shoe": {
+      "success": "Számítás befejezve!",
+      "calculating": "Méréseinek kiszámítása",
+      "analyzing": "Válaszainak elemzése"
+    }
+  },
+  "landscape_subtitle": "A kezdéshez tartsd vízszintesen a telefont ",
+  "measurement_tape": {
+    "link_download": {
+      "in": "//static.sizebay.technology/assets/measurement_tape/measurement_tape_in_hu.pdf",
+      "cm": "//static.sizebay.technology/assets/measurement_tape/measurement_tape_cm_hu.pdf"
+    },
+    "title": "Szalag",
+    "message": "Nyomtasd ki, vágd ki és állítsd össze a mérőszalagot a méretek ellenőrzéséhez.",
+    "print": "Mérőszalag",
+    "print_mobile": "Mérőszalag nyomtatása",
+    "download": {
+      "file": {
+        "title": "Útmutató a nyomtatáshoz és a mérőszalag beállításához",
+        "fold-and-rotate": "hajtsd össze és forgasd",
+        "how-to-do": "Nyomtatás:\nNyomtatás előtt győződj meg arról, hogy a nyomtatási párbeszédpanel „oldalhoz igazítás” opciója le van tiltva, nehogy a nyomtató csökkentse vagy növelje a szalag méretét.\n\nKivágás:\nOlló vagy ceruza segítségével vágd ki az „ollóval” jelölt összes folytonos fekete vonalat a szalag részeihez.\n\nÖsszeállítás:\nHajtsd össze és forgasd el a végeket (a nyomtatványon jelzett módon) a szaggatott vonalak összekapcsolásával, amíg egyetlen szalagot nem kapsz.\n\nRögzítsd a hajtásokat:\nAz összeállítás után rögzítsd a szalag hajtásait ragasztóval, ragasztószalaggal vagy tűzőgéppel."
+      }
+    }
+  },
+  "foot_size": {
+    "select_region": "Válasszon régiót:",
+    "not_selected": "A folytatáshoz feltétlenül válasszon méretet",
+    "title": "Mekkora a cipőméreted?",
+    "pattern": "{{region}} rendszer",
+    "subtitle": "Válassza ki a méretét a"
+  },
+  "child_name": {
+    "name": "Név",
+    "title": "Elárulod nekünk a gyereked nevét?",
+    "subtitle": "Ez segít próbafülkéhez szükséges profil létrehozásához"
+  },
+  "size_hint": {
+    "title": "Kiválasztottunk néhány olyan terméket, amelyek szintén megfelelnek Önnek",
+    "discount-original-price": "Normál ár: <span class='size-hint__discount-original-price discount-description-price'>{{ price }}</span> <span class='size-hint__discount-percentage'>-{{discount }}%</span>",
+    "discount-lowest-price": "A legalacsonyabb ár 30 nappal a csökkentés előtt: <span class='size-hint__discount-lowest-price discount-description-price'>{{ price }}</span> <span class='size-hint__discount-percentage'>-{{ discount }}%</span>",
+    "title_promo": "Tökéletesítse a promót",
+    "try_now": "Próbálja ki most"
+  },
+  "size_tailor": {
+    "action_button": "Személyre szabjuk az Ön számára",
+    "title": "Egyedi termék",
+    "description": "Erősítse meg testméreteit, hogy ki tudjuk fejleszteni egyedi termékét."
+  },
+  "miscellaneous": {
+    "hannaLinks": {
+      "recommendation": "Vissza az eredményeimhez",
+      "welcome": "Menjen vissza"
+    }
+  },
+  "measure_shape": {
+    "shape_bigger": "Nagyobb",
+    "shape_smaller": "Nagyobb",
+    "skin_types": {
+      "toggle": "Bőrszín megváltoztatása"
+    },
+    "subtitle": "Ez az a hozzávetőleges testalkat, amelyet a méréseid alapján létrehoztunk. Csak szükség esetén igazítsd ki.",
+    "measure_range": {
+      "1": "Sokkal kisebb",
+      "2": "Kisebb",
+      "3": "Átlagos",
+      "4": "Nagyobb",
+      "5": "Sokkal nagyobb"
+    },
+    "shape_regular": "Normális",
+    "title": "Igazítsd ki a testalkatod"
+  },
+  "calculating": {
+    "subtitle": "Ellenőrizd a méréseket, és szükség esetén módosítsd azokat",
+    "circle_title_loading": "Betöltés...",
+    "circle_title_completed": "Kész!",
+    "title": "Befejeződött a számítás!"
+  },
+  "brands_grid": {
+    "subtitle": "Melyik márkát szoktad viselni?",
+    "unique_brand": "Visel már {{ brandName }} cipőt?",
+    "search_other_brands": "Keress másik márkát"
+  },
+  "modals": {
+    "remove_profile": {
+      "title_alt": "Biztos, hogy törölni akarod ezt a profilt?",
+      "title": "Törlöd a(z) {{profileName}} profilt?",
+      "action": "Profil eltávolítása",
+      "confirm": "Profil törlése"
+    }
+  },
+  "no_recommendation": {
+    "expected_size": "Az ajánlott méret: {{recommendedSize}}.",
+    "title_shoe": "Sajnos ez a modell és méret jelenleg nem kapható üzletünkben.",
+    "based_on": "Módosíthatja adatait az újrapróbálkozáshoz",
+    "calculate_again": "Újraszámolás",
+    "title": "Az Ön mérete jelenleg nem elérhető",
+    "subtitle": "Az alábbi méretekhez nem találtunk méretet. Igazítsd ki, ha szükséges."
+  },
+  "accessory": {
+    "welcome": {
+      "subtitle": "A termék kipróbálásához kövesse a mérési utasításokat, és adja meg a megfelelő számot",
+      "shoe": {
+        "subtitle": "Válassza ki a lábméretét alább, kövesse a mérési útmutatónkat"
+      }
+    },
+    "bike": {
+      "recommendation": {
+        "title_suggested": "Az általunk javasolt kerékpárméret a legjobb teljesítményéhez és testtartásához. Nem túl magas, sem túl alacsony, kényelmesen tud majd kerékpározni.",
+        "subtitle": "magassága alapján",
+        "title_also_fits": "Az általunk javasolt kerékpárméret a legjobb teljesítményéhez és testtartásához. Nem túl magas, sem túl alacsony, kényelmesen tud majd kerékpározni.",
+        "title_not_suggested": "Az általunk javasolt kerékpárméret a legjobb teljesítményéhez és testtartásához. Nem túl magas, sem túl alacsony, kényelmesen tud majd kerékpározni."
+      }
+    },
+    "shoe_size": {
+      "subtitle": "A termék kipróbálásához válasszon méretet a lábad hosszának megfelelően"
+    }
+  },
+  "foot_format": {
+    "formats": {
+      "0": {
+        "description": "A keskeny lábaknál általában több hely van a cipő oldalain.",
+        "title": "Keskeny"
+      },
+      "1": {
+        "title": "Közepes",
+        "description": "A közepes méretű lábak általában jól illeszkednek a legtöbb cipőbe."
+      },
+      "2": {
+        "title": "Széles",
+        "description": "A széles láb megfelel a cipő hosszának, de oldalt szorosnak érződik."
+      }
+    },
+    "subtitle": "Válassza ki, milyen széles a lába, hogy javítsa a kényelmét.",
+    "title": "Lábforma"
+  },
+  "landscape_warning": {
+    "title": "Virtuális próbafülke"
+  },
+  "my_measures": {
+    "title": "Az én méreteim",
+    "subtitle": "Szükség szerint igazítsd ki a méreteket"
+  },
+  "subcategory": {
+    "subtitle": "Válassza ki a szokásos <strong>{{brandName}}</strong> cipő típusát",
+    "title": "Milyen {{categoryName}} ruhát viselsz?"
+  },
+  "model": {
+    "title": "Milyen {{composedName}} ruhát viselsz?",
+    "subtitle": "Válassza ki a szokásos <strong>{{brandName}}</strong> cipő modelljét"
+  },
+  "landscape_horizontal_subtitle": "A használat megkezdéséhez helyezze vízszintesen a készüléket",
+  "category": {
+    "subtitle": "Válasszon egy olyan típust az alábbi listából, amely leginkább hasonlít a <strong>{{brandName}}</strong> cipőjéhez",
+    "title": "Milyen típusú a cipőd?"
+  },
+  "header": {
+    "title": "Fit Finder"
+  }
+}

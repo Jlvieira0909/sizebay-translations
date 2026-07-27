@@ -1,0 +1,953 @@
+{
+  "shoe_size": {
+    "fit_loose": "Lahti",
+    "shoe_accessory": {
+      "no_recommendation": {
+        "subtitle": "Me ei leidnud allolevate mõõtude jaoks suurust. Vajadusel reguleerige.",
+        "title": "Me ei leidnud ühtegi suurust"
+      },
+      "all_measures": {
+        "measurements_guide": "Mõõtmisjuhend [PDF]",
+        "title": "Mis on teie jalgade suurus?"
+      },
+      "info_drawer_subtitle": "Rääkige meile natuke endast, et leida parim kinga suurus?"
+    },
+    "recommendation": "Teie andmete põhjal on see teie jalalaba mõõt. Kohandage vajadusel:",
+    "foot_shape_question": "Milline on sinu jala kuju?",
+    "title": "Kui pikk on teie jalg?",
+    "drawer_title": "Kui pikad on su jalad",
+    "subtitle": {
+      "0": "Rääkige meile natuke endast, et leida parim kinga suurus",
+      "box": {
+        "subtitle": "Aseta paberileht põrandale vastu seina. Seisa kand paberil ja seinal. Märgi oma pikima varba tipp, seejärel mõõda kaugus.",
+        "title": "Kuidas mõõta oma jalalaba korrektselt:"
+      }
+    },
+    "fit_description_ideal": "Varvaste ja kinga vahel on <strong>väike vahe</strong>.",
+    "length_example": "Pane jalga oma <strong>{{brandName}}</strong> suuruses <strong>{{size}}</strong> ja ütle meile, kuidas pikkus sobib sinu jalale.",
+    "fit_tight": "Hubane",
+    "fit_ideal": "Sobiv",
+    "open_drawer_button": "Kuidas ennast mõõta",
+    "fit_description_loose": "Varvaste ja kinga vahel on <strong>suur vahe</strong>.",
+    "shoe_accessory_subtitle": "Valige allpool oma jalamõõt, järgides meie juhiseid\nkuidas ennast mõõta.",
+    "drawer_button": "Sain aru",
+    "fit_description_tight": "King puudutab teie varbaid <strong>ilma ruumita</strong>.",
+    "length_question": "Kuidas sobib teie kinga pikkus?"
+  },
+  "footer": {
+    "add_to_cart_mobile_2": "Lisa ostukorvi",
+    "confirm": "Kinnita",
+    "none_of_those": "Mitte ükski neist",
+    "save_measures": "Salvesta mõõdud",
+    "view_recommendation": "Näita soovitust",
+    "print_measurement_tape": "Prindi mõõdulint",
+    "virtual_fitting_room": "Virtuaalne proovikabiin",
+    "info_box": "Vali Kohandatud Suurus, kui soovid, et jakk oleks valmistatud vastavalt sinu keha mõõtudele",
+    "yes": "Jah",
+    "add_to_cart": "Lisa ostukorvi",
+    "brand_not_found": "Ma ei leidnud seda brändi",
+    "proceed": "Jätka",
+    "edit_data": "Sisesta andmed",
+    "not_yet": "Mitte veel",
+    "cancel_alt": "Ei, katkesta",
+    "next": "Järgmine",
+    "cancel": "Katkesta",
+    "by-sizebay": "by Sizebay®",
+    "sure": "Muidugi!",
+    "add_profile": "Loo profiil",
+    "create_new_profile": "Loo uus profiil",
+    "restart": "Tee restart",
+    "close": "Sule",
+    "select_another_profile": "Vali muu profiil",
+    "continue_without_brand": "Ma ei leidnud kaubamärki",
+    "unsure": "Ma ei ole kindel",
+    "save": "Salvesta",
+    "edit_measures": "Sisesta mõõdud",
+    "proceed_anyway": "Jätka ikka",
+    "edit_profile": "Sisesta profiil",
+    "add_to_cart_mobile": "Osta",
+    "back": "Eelmine"
+  },
+  "composed_measures": {
+    "welcome": {
+      "link_tooltip": "<b>{{suffix}} {{measureName}} laius.</b>",
+      "item_text": "Minu {{measureName}} on {{range}} {{sizeSystem}} lai",
+      "measures_range_item": "{{initialRange}} kuni {{finalRange}}",
+      "tooltip_text": "Kliki siia ja vali muu suurus",
+      "tooltip_instructions": "Kliki siin õppimaks kuidas võtta oma {{measureName}} mõõtusid",
+      "height": {
+        "item_text": "Ma olen {{range}} {{sizeSyztem}} pikk",
+        "link_tooltip": "<b>kui pikk sa oled.</b>",
+        "title": "Kui pikk sa oled?",
+        "instructions": "Me peame teadma sinu <b>pikkust</b> näitamaks sulle soovitusi vastavalt"
+      },
+      "title": "Mis on sinu {{suffix}} {{measureName}} mõõt?",
+      "instructions": "Kui lai on {{suffix}} <b>{{measureName}}</b>? Me peame teadma {{suffix}} {{measureName}} suurust soovitamaks sulle võimalikke lahendusi vastavalt "
+    },
+    "height": {
+      "title": "Kui pikk sa oled?",
+      "link_tooltip": "näidata oma pikkust"
+    },
+    "table": {
+      "helper_height": "See pikkus {{measureName}} tuleneb {{range}} {{sizeSystem}} pikkusest. Kas see mõõdik on ebasobiv?",
+      "tooltip_change": "Muuda siin.",
+      "helper": "See {{measureName}} tuleneb {{range}} {{sizeSystem}} pikkusest. Kas see mõõdik on ebasobiv?",
+      "title": "Need on võimalikud suurused <span>{{range}}</span> {{measureName}}",
+      "vfr_tooltip": "Kas sul on oma mõõdud? Sooviksid sa kasutada Virtuaalse Proovikabiini abi mis aitab sul suurust määrata?"
+    }
+  },
+  "body_measurements": {
+    "diameter": "LÄBIMÕÕT",
+    "collar": "Krae",
+    "length": "Toote pikkus",
+    "centralSeam": "Esiosa",
+    "weightChart": "Kaal",
+    "width": "Laius",
+    "waistUpper": "Ülemine vöökoht",
+    "weight": "Kaal",
+    "circumference": "Ümbermõõt",
+    "insoleLength": "Jala pikkus",
+    "label1": "SUURUS (USA)",
+    "sleve": "Varruka pikkus",
+    "waist": "Keskkoht",
+    "chest_m": "Rindkere",
+    "chest_f": "Rind",
+    "neck": "Kael",
+    "comfort": "Mugavus",
+    "sleeve": "Käsi",
+    "thigh": "Reis",
+    "headCircumference": "Pea",
+    "hip": "Puus",
+    "shoulderWidth": "Õlad",
+    "waistLower": "Alumine vöökoht",
+    "wrist": "Rind",
+    "palm": "Peopesa",
+    "bar": "Alumine äär",
+    "chest": "Rindkere",
+    "lowerLength": "Alakeha pikkus",
+    "finger_circumference": "ÜMBERMÕÕT",
+    "insoleWidth": "Jalatalla laius",
+    "height": "Pikkus",
+    "ageChart": "Vanus",
+    "underBust": "Rinna alt",
+    "insideLeg": "Sisekülg",
+    "biceps": "Biitseps",
+    "calf": "Säär",
+    "fist": "Rusikas",
+    "fullBodyLength": "Keha pikkus"
+  },
+  "measures_info": {
+    "insideLeg": "Mõõtke jala sisemine kaugus häbemest jalatallani.",
+    "fullBodyLength": "Mõõda kaugus õlgadest põrandani.",
+    "weightChart": "Kui palju sa kaalud?",
+    "waistUpper": "Mõõda oma keskkoht ülevalt poolt oma naba.",
+    "insoleLength": "Aseta paberileht põrandale vastu seina. Seisa kand paberil ja seinal. Märgi oma pikima varba tipp, seejärel mõõda kaugus.",
+    "biceps": "Aseta mõõdulint oma käe keskele ja leia oma käe kõige laiema osa.",
+    "height": "See on lihtne. See on kaugus sinu pea (kolju) ja maapinna (taldade) vahel, mõõdetuna püstiseisu asendis.",
+    "width": "Mõõda oma rõivaste laius",
+    "weight": "Sinu kaal.",
+    "sleeve": "Mõõda kergelt kõverdatud käega oma õla ja randme vaheline kaugus, tõmmates mõõdulinti küünarnuki tagant.",
+    "neck": "Aseta mõõdulint oma kaela keskele mõõtmaks kaela kõrgust, kasuta peeglit.",
+    "collar": "Mõõtke oma kaela ümbermõõt rangluu kohalt, asetades üks sõrm mõõdulindi ja kaela vahele.",
+    "chest": "Aseta mõõdulint oma rindkere või rinnapiirkonna peale ja hinga normaalselt. Märka erinevusi hingates ja salvesta suurim number mida näed mõõdulindil.",
+    "ageChart": "Kui vana sa oled?",
+    "circumference": "Mõõda oma rõivaeseme ümbermõõt",
+    "length_botton": "Aseta mõõdulindi algus oma keha kõrgeimasse punkti, kus sinu rõivas olema hakkab. Vabasta ülejäänud mõõdulint ja märgi saadud mõõt.",
+    "waist": "Seisa peegli ette nii, et vöökoht on selgelt nähtav. Kergelt ülakeha küljele kallutades visualiseeri küljevoldi teke, see näitab loomulikku talje asendit. Mõõda talje.",
+    "footLength": "Seisa siledal pinnal toetades selga sirgelt vastu seina. Mõõda pikim jalalaba pikkus (kannast varbani) kasutades joonlauda.\n",
+    "lowerLength": "See on kaugus sinu puusast põrandani.",
+    "chest_m": "Aseta mõõdulint oma rindkerele ja hinga normaalselt. Märka erinevusi hingates ja salvesta suurim number mida näed mõõdulindil.",
+    "chest_f": "Aseta mõõdulint oma büstile (rindade peale) ja hinga normaalselt. Märka erinevusi hingates ja salvesta suurim number mida näed mõõdulindil.",
+    "palm": "Asetage joonlaud tasasele pinnale, painutage oma kätt, asetage domineeriva käe vasak pool joonlaua nullpunkti ja märkige oma käeulatus.",
+    "waistLower": "Mõõda oma keskkoha ümbermõõt kohast kus tavaliselt asub vöö või püksirihm madala vöökohaga mudeli korral.",
+    "thigh": "Aseta mõõdulint ümber oma reie kõige laiema osa, mis asub vahetult tuharate all.",
+    "underBust": "Mõõda mõõdulindiga ümbermõõt oma rinna (büsti) alt. Hinga normaalselt märgates erinevusi mõõtudes mõõdulindil, salvesta suurim number mida näed.",
+    "bar": "Mõõda oma rõivaeseme alumise serva pikkus",
+    "insoleWidth": "Eemalda oma mugava hästi istuva jalatsi sisetald ja mõõda selle sisetalla laius, nagu pildil näidatud.",
+    "headCircumference": "Mõõda pehme mõõdulindiga oma peaümbermõõt (kõrvadest üleval).",
+    "wrist": "Pane mõõdulint randme ümber täpselt sealt kuhu sa paneksid näiteks kella.",
+    "hip": "Aseta mõõdulint \"laiemale\" alale vööst alla poole, mis kulgeb paralleelselt tuharalihaste kõrgeima kohaga.",
+    "diameter": "Mõõda sõrmuse sisemise ringi läbimõõt, mida kannad samal sõrmel samal käel, kus soovid seda toodet kandma hakata",
+    "length": "Mõõda kaugus oma torso ülaosa (ühenduskoht kaelaga) ja madalama vöökoha (vahetult kõhu all) vahel oma kõhu ümber.",
+    "fist": "Aseta mõõdulint ümber randme, täpselt sealt kuhu näiteks käekella paneksid.",
+    "calf": "Istu toolile ja hoia jalg maas, painuta jalga 90 kraadise nurga all. Hoides mõõdulinti sääre küljel, mõõda kaugus jalalabast kuni põlveõndlani.",
+    "shoulderWidth": "Mõõda teise inimese abiga oma õlgade otste vaheline kaugus, nagu siin näidatud.",
+    "ring": "Siduge peenike nöör ümber sama sõrme, millega soovite seda toodet kanda, märkige nööri ühenduskoht ja mõõtke pikkus, et saada ümbermõõt",
+    "centralSeam": "Tasasel pinnal istudes mõõda mõõdulindiga vöökoha ja selle pinna vaheline kaugus"
+  },
+  "privacy": {
+    "services": {
+      "anchor": "Sizebay Teenused",
+      "text": "<p>SIZEBAY teenused on e-kaubanduse platvormil saadaval tarkvarana teenusena (SaaS), mis tähendab, et SIZEBAY annab e-kaubandusele litsentsi tarkvara kasutamiseks.</p>",
+      "title": "Kuidas SIZEBAY oma teenused kättesaadavaks teeb?"
+    },
+    "clear_data": {
+      "button": {
+        "initial": "Kustuta kõik andmed",
+        "cleared": "puhas!",
+        "cleaning": "Puhastan..."
+      },
+      "title": "Küpsiste puhastamine",
+      "tooltip": "Sinu andmed on minema pühitud!",
+      "text": "Kliki alloleval nupul, kui soovid kustutada kõik Sizebay salvestatud sirvimisandmed, vahemälu ja küpsised."
+    },
+    "contact": {
+      "title": "Kuidas saan kahtluste korral ühendust võtta?",
+      "text": "<p>Kui teil on küsimusi SIZEBAY eeskirjade või andmete omaniku õiguste kasutamise kohta, võtke ühendust SIZEBAY andmekaitseametnikuga (DPO).:<br><br>Janderson Roberto Araujo<br>Aadress: R. Blumenau, 953 – Sala 402 – América, Joinville – SC, 89204-251 – Brazil.<br>Telefon: +55 48 4042-0150<br>E-mail: <a href='mailto:privacy@sizebay.com' target='_blank'>privacy@sizebay.com</a></p><br><a href='https://sizebay.com/pt/legal/' target='_blank'><strong>Vaata rohkem poliitika kohta</strong></a>"
+    },
+    "data_protection": {
+      "anchor": "Andmete kaitse",
+      "title": "Kuidas SIZEBAY andmeid kaitseb?",
+      "text": "<p>SIZEBAY peab oma klientide, kasutajate ja külastajate teabe konfidentsiaalsust ja turvalisust äärmiselt oluliseks; seetõttu kasutab ta krüptimise ja tulemüüri tehnoloogiat ning teeb kõik endast oleneva, et tagada teie andmete ja teabe kaitse.</p><p>Soovitame perioodiliselt puhastada kasutatavas brauseris salvestatud küpsiseid, et vältida kogutud teabe kustutamist SIZEBAY andmebaasist, aga ka muudelt külastatavatelt veebisaitidelt.</p>"
+    },
+    "how_data_is_collected": {
+      "text": "<p>Andmete kogumine toimub siis, kui kasutaja annab teavet Virtuaalse Proovikabiini ja Sobivuse & Suuruse Tabeli teenuste kasutamisel või küpsiste kaudu, kui kasutaja siseneb SIZEBAY rakendusse või veebisaidile.</p>",
+      "title": "Kuidas SIZEBAY andmeid kogub?"
+    },
+    "users_obligations": {
+      "anchor": "Kasutaja kohustused",
+      "title": "Millised on kasutaja kohustused?",
+      "text": "<p>Rakenduse kasutajad kohustuvad kasutama SIZEBAY teenuseid, austades ja järgides alati eeskirju, samuti kehtivaid õigusakte, kombeid, avalikku korda ning platvormi kasutamiseks ja aktsepteerimiseks vajalikke kohustuslikke nõudeid.</p>"
+    },
+    "data_collected": {
+      "title": "Mis andmeid SIZEBAY kogub?",
+      "text": "<p>Teenuste osutamiseks võib SIZEBAY koguda profiiliandmeid, nagu hüüdnimi (valikuline), vanus, sugu, pikkus, kaal, anatoomiline profiil ja keha mõõdud. Lisaks võidakse koguda juurdepääsulogi andmeid ja küpsiste andmeid, et parandada kasutajakogemust ja hõlbustada rakenduse kasutamist, ilma et oleks vaja uuesti esitada kasutaja poolt juba teavitatud andmeid uue toote ostmise või analüüsimise korral.</p><p>Samuti saab SIZEBAY koguda andmeid e-poes tehtud ostutellimusest, et analüüsida soovitatud suurust ja tegelikult ostetud suurust, mis parandab rõivaste ja jalanõude suurussoovituse teenuseid.</p><p>Selgitame, et SIZEBAY rakendus puudutab oma kasutajate privaatsust, seega on teenused arendatud selliselt, et andmete kogumine toimub ilma andmete omanike tuvastamiseta.</p>",
+      "anchor": "Andmed kogutud"
+    },
+    "how_it_works": {
+      "anchor": "Kuidas see toimib?",
+      "title": "Kuidas ma saan juurdepääsu Virtuaalsele Proovikabiinile ning Sobivuse & Suuruse tabelile?",
+      "text": "<p>Teenuste kasutamiseks ei pea kasutaja end SIZEBAY platvormil registreerima. Juurdepääs sobivuse ja suuruse tabelile on saadaval ning virtuaalse proovikabiini kasutamiseks peab kasutaja rõiva- ja jalanõude suuruse soovituse andmiseks täitma rakenduse jaoks põhiteavet.</p><p>Profiili loomine SIZEBAY rakenduses ei nõua kasutajalt oma ees- ega perekonnanime kasutamist ning võib isegi sisestada fiktiivseid andmeid, kui ta on huvitatud oma privaatsuse edasisest säilitamisest.</p><p>Alaealised ei saa rakendust kasutada, kui neid ei esinda ja/või ei abista nende vanemad või eestkostjad.</p>"
+    },
+    "title": "Privaatsus",
+    "overview": {
+      "title": "Millised on Kasutaja tingimused ja privaatsus?",
+      "text": "<p>SIZEBAY KASUTUSTINGIMUSED on mõeldud reguleerima: (i) SIZEBAY poolt klientide e-kaubanduse platvormi kaudu kättesaadavaks tehtud teenuste kasutamist ning ka (ii) juurdepääsu ja sisu, mis tehakse kättesaadavaks SIZEBAY veebisaidil, (iii) platvormi ja veebisaidi kasutajate, külastajate ja klientide kohustused rakenduste kasutamisel või SIZEBAY veebisaidile juurdepääsul, (iv) asjaosaliste vastutus.</p><p><strong> PRIVAATSUSPOLIITIKA</strong>eesmärk on selgitada, kuidas SIZEBAY töötleb andmetöötlust oma rakenduse ja veebisaidi kasutamise ja juurdepääsu ajal, samuti selgitatakse omaniku õigusi ja seda, kuidas nad saavad neid SIZEBAY-ga kasutada.</p><p>Juurdepääsul ja kasutades virtuaalset prooviruumi ning sobivuse ja suuruse tabelit, nõustute SIZEBAY eeskirjadega. Täielikele SIZEBAY eeskirjadele pääsete juurde lingilt.</p><p><strong>Allpool teeme teile kokkuvõtte põhiteabest:</strong></p>",
+      "anchor": "Privaatsus"
+    },
+    "share_data": {
+      "text": "<p>Andmete jagamist saab alati läbi viia eesmärgiga võimaldada paremat veebiostlemise kogemust või selleks, et rakendus saaks toimida, seega saab seda teha: klientide, äripartnerite, teenusepakkujate, alltöövõtjate, rõiva- ja jalatsitoodete tootjatega.<p>",
+      "title": "Kellega SIZEBAY andmeid jagab?"
+    }
+  },
+  "product_not_found": {
+    "report_status": {
+      "sending": "Teavitamine.....",
+      "sent": "Aitäh!",
+      "not_sending": "Teavita mind",
+      "not_sent": "Teavita mind"
+    },
+    "description": "Meil ei ole piisavalt informatsiooni selle toote kohta, et seda soovitada.",
+    "title": "Oh ei!"
+  },
+  "languages": {
+    "all_langs": {
+      "fr": "prantsuse keel",
+      "et": "eesti keel",
+      "es": "hispaania keel",
+      "en": "Inglise",
+      "fi": "soome keel",
+      "dk": "taani keel",
+      "cn": "Hiina",
+      "de": "saksa keel",
+      "cz": "Tšehhi",
+      "br": "portugali keel",
+      "ar": "araabia keel",
+      "bg": "bulgaaria keel",
+      "mx": "hispaania keel",
+      "no": "norra keel",
+      "nl": "hollandi keel",
+      "lt": "Leedu",
+      "lv": "lätlane",
+      "jp": "Jaapani",
+      "ko": "korea keel",
+      "it": "itaalia keel",
+      "hu": "ungari",
+      "hr": "Horvaatia",
+      "id": "Indoneesia",
+      "gr": "kreeka keel",
+      "he": "Heebrea",
+      "vn": "vietnamlane",
+      "uk": "Inglise",
+      "th": "Tai",
+      "tr": "türgi keel",
+      "sr": "serblane",
+      "sv": "rootsi keel",
+      "sl": "Sloveenia",
+      "sk": "slovaki",
+      "ru": "vene keel",
+      "ro": "rumeenlane",
+      "pt": "portugali keel",
+      "pl": "poola keel",
+      "esAR": "hispaania keel",
+      "esCT": "hispaania (kastiilia)",
+      "ukr": "ukrainlane",
+      "zh": "hiina keel"
+    },
+    "select": "Keelevalik: {{langs}}",
+    "box": "Keele valik, sa kasutad {{currentLang}} keelt"
+  },
+  "garment_measurements": {
+    "hip_width": "Puusa laius",
+    "thigh_width": "Reie laius",
+    "head_circumference": "Peaümbermõõt",
+    "lower_waist_circumference": "Vähenda vööümbermõõtu",
+    "collar": "Krae",
+    "waistband_circumference": "Vööümbermõõt",
+    "hip_circumference": "Puusaümbermõõt",
+    "biceps": "Biitseps",
+    "waistband_width": "Vöökoha laius",
+    "hem": "Hem",
+    "lower_waist_width": "Alumise talje laius",
+    "chest_circumference": "Rinnaümbermõõt",
+    "waist_circumference": "Vööümbermõõt",
+    "insole_width": "Sisetalla laius",
+    "palm_length": "Peopesa pikkus",
+    "shoulder_length": "Õlgadeni pikkus",
+    "length": "Pikkus",
+    "waist_width": "Vöökoha laius",
+    "chest_width": "Rinna laius",
+    "wrist_width": "Randme laius",
+    "insole_length": "Sisetalla pikkus",
+    "calf_width": "Sääremarja laius",
+    "heel_height": "Kontsa kõrgus",
+    "front_length": "Esiosa Pikkus",
+    "brim": "Äär",
+    "sleeve": "Varrukas",
+    "thigh_circumference": "Reieümbermõõt",
+    "inside_leg": "Säärde pikkus",
+    "wrist_circumference": "Randme ümbermõõt",
+    "high_waist_circumference": "Kõrge taljeümbermõõt",
+    "shaft_height": "Võlli kõrgus",
+    "calf_circumference": "Sääremarja ümbermõõt",
+    "full_body_length": "Täielik kehapikkus",
+    "back_hook": "Tagumine konks",
+    "platform_height": "Platvormi kõrgus",
+    "circumference": "Ümbermõõt",
+    "hook": "Kouk",
+    "lower_length": "Alumine pikkus",
+    "under_bust": "Allapoole rinda",
+    "high_waist_width": "Kõrge vöökoha laius",
+    "back_length": "Selja pikkus"
+  },
+  "regions": {
+    "IT": "Itaalia",
+    "HU": "Ungari",
+    "FR": "Prantsuse",
+    "MX": "Mehhiko",
+    "CUSTOM": "Rahvusvaheline",
+    "JP": "Jaapani",
+    "code": {
+      "CUSTOM": "CUSTOM",
+      "US": "US",
+      "UK": "UK",
+      "AU": "AU",
+      "IT": "IT",
+      "MEX": "MEX",
+      "JP": "JP",
+      "FR": "FR",
+      "EU": "EU",
+      "CN": "CN",
+      "BR": "BR",
+      "DE": "DE"
+    },
+    "ES": "Hispaania",
+    "EU": "Euroopa",
+    "DE": "Saksa",
+    "CN": "Hiina",
+    "AU": "Austraalia",
+    "BR": "Brasiilia",
+    "region": "Piirkond",
+    "other": "Tundmatu",
+    "mx_marti": "Marti",
+    "PT": "Portugali",
+    "letter-br": "Brasiilia",
+    "US": "Ameerika",
+    "UK": "Briti"
+  },
+  "size_chart": {
+    "subtitle": "Keri edasi nägemaks rohkem mõõte ja suurusi",
+    "title_web": "Mõõtmistabel",
+    "scroll_action": "Keri",
+    "subtitle_mobile": "Vaata rohkem mõõte ja suurusi",
+    "returns_link": "Tutvu tagastusvõimalustega.",
+    "returns": "Ikka kahtled? Ära muretse, tagastus <strong>on tasuta.</strong>",
+    "title_accessory": "Mõõtude tabel sellele esemele",
+    "title": "Valige suurus ja kontrollige mõõtmeid",
+    "instruction_measure": "Vaadake meie materjali enda mõõtmise kohta ja võrrelge oma mõõte selle tabeliga.",
+    "title_mobile": "Võrdle oma keha mõõte selle tabeli abil. Liigu kursoriga allolevate veergude pealkirjade peale ja leia parim viis oma keha mõõtmiseks."
+  },
+  "generics": {
+    "disable": "Keela",
+    "less_than_year": "< 1 aasta",
+    "profile_tooltip": "Sa võid luua uue uute mõõtudega profiili klikkides siia",
+    "weight": "Kaal",
+    "age": "Vanus",
+    "accessibility": "LIGIPÄÄS",
+    "language": "Keel",
+    "years": "Aastad",
+    "female": "Naine",
+    "size_fit": "Suurus",
+    "no_name": "Nimetu",
+    "pronoun_female": "Minu",
+    "year": "Aasta",
+    "suffix_male": "sinu",
+    "months": "Kuud",
+    "size_chart": "Suuruste tabel",
+    "chart": "Suuruse tabel",
+    "closeVfr": "Pane kinni Virtuaalne Proovikabiin",
+    "about": "Umbes Sizebay",
+    "see_how_to_measure": "Vaadake, kuidas mõõta",
+    "kg": "Kilogramm",
+    "assistive_mode": "{{status}} abistav reziim",
+    "suffix_female": "sinu",
+    "switcher": {
+      "title_chart": "Mõõdud:"
+    },
+    "lb": "Nael",
+    "how_to_measure": "Vaadake, kuidas mõõta",
+    "unavailable": "--",
+    "other_profiles": "Muud profiilid",
+    "privacy": "Privaatsus",
+    "ft": "Tolli",
+    "pronoun_male": "Minu",
+    "got_it": "Sain aru",
+    "enable": "Luba",
+    "cm": "Sentimeeter",
+    "height": "Pikkus",
+    "male_singular": "mees",
+    "uninformed": "Ei teavitatud",
+    "female_singular": "naine",
+    "profile": {
+      "title": "Kasutajaprofiil"
+    },
+    "male": "Mees",
+    "confirm_edit": "OK"
+  },
+  "privacy_v2": {
+    "overview": {
+      "text": "<p>Selleks, et saaksite paremini mõista poliitikaid, mis reguleerivad<strong> SIZEBAY</strong> väljatöötatud lahenduste kasutamist, koostasime teile selle lühikokkuvõtte. See ülevaade ei asenda kogu poliitika sisu, seega soovitame teil pärast seda iga dokumenti hoolikalt lugeda.</p><p> <strong>SIZEBAY</strong> <strong>KASUTUSTINGIMUSED</strong> on mõeldud reguleerima: (i) <strong>SIZEBAY</strong> pakutavad teenused <a href={{ pageTenant }} target=_blank>{{ tenantName }} ({{ pageTenant }})</a> e-kaubanduse platvormi kaudu ning (ii) juurdepääs ja sisu, mis on kättesaadavaks tehtud <strong>SIZEBAY</strong> veebisaidil, (iii) platvormi ja veebisaidi kasutajate, külastajate ja klientide kohustused rakenduse kasutamise või <strong>SIZEBAY</strong> veebisaidile juurdepääsu ajal, (iv) asjaosaliste vastutus.</p>{{ pagePrivacyTenant }}<p><strong>PRIVAATSUSPOLIITIKA </strong> eesmärk on selgitada, kuidas <strong> SIZEBAY </strong> töötleb andmeid oma rakenduse ja veebisaidi kasutamise ja juurdepääsu ajal, samuti selgitatakse omanike õigusi ja kuidas nad saavad neid <strong> SIZEBAY </strong>.</p> abil kasutada.",
+      "title": "Ülevaade"
+    },
+    "clear_data": {
+      "text": "Kustutage kõik Sizebay salvestatud sirvimisandmed, vahemälu ja küpsised",
+      "button": {
+        "initial": "selged küpsised"
+      }
+    },
+    "person": {
+      "first": {
+        "name": "Marcelo Bastos",
+        "info": "<li>Euroopa Liit</li> <li>privacy@sizebay.com</li>"
+      },
+      "second": {
+        "name": "Janderson Roberto Araujo",
+        "info": "<li>Muud asukohad</li> <li>privacy@sizebay.com</li>"
+      }
+    },
+    "services": {
+      "title": "Kuidas SIZEBAY oma teenuseid pakub?",
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/computer-face.svg /><p> <strong>SIZEBAY</strong> teenused on e-kaubanduse platvormil saadaval tarkvara kui teenuse (SaaS) kujul, mis tähendab, et <strong>SIZEBAY</strong> annab e-kaubandusele litsentsi tarkvara kasutamiseks.</p></span> <div><img src=https://static.sizebay.technology/assets/icons/computer-face.svg /></div>"
+    },
+    "contact": {
+      "text": "<p>Kui teil on <strong>SIZEBAY</strong> poliitika või andmesubjekti õiguste kasutamise kohta küsimusi, võtke ühendust <strong>SIZEBAY</strong> andmekaitseametnikuga:</p>",
+      "title": "Kahtluste korral kuidas ühendust võtta?"
+    },
+    "data_collected": {
+      "title": "Milliseid andmeid SIZEBAY kogub?",
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/cookies.svg /><p> Oma teenuste osutamiseks võib <strong>SIZEBAY</strong> koguda profiiliandmeid, nagu hüüdnimi (valikuline), vanus, sugu, pikkus, kaal, anatoomiline profiil ja kehamõõtmised. Lisaks võidakse koguda juurdepääsulogi andmeid ja küpsiseid eesmärgiga parandada kasutajakogemust ja hõlbustada rakenduse kasutamist, ilma et oleks vaja uuesti esitada andmeid, mille kasutaja on juba järgmisel ostul või tooteanalüüsil teavitanud. .</p> </span><span><img src=https://static.sizebay.technology/assets/icons/bag.svg /><p> <strong>SIZEBAY</strong> võib koguda andmeid ka e-poes esitatud ostutellimusest, eesmärgiga teostada analüüse soovitatud suuruse ja tegelikult ostetud suuruse vahel, et parandada suuruse soovitamise teenuseid. rõivatükke ja jalatseid.</p></span><span><img src=https://static.sizebay.technology/assets/icons/anonymous-person.svg /><p> Selgitame, et <strong>SIZEBAY</strong> rakendus on seotud selle kasutajate privaatsusega, seetõttu töötati teenused välja selliselt, et andmeid kogutakse, ilma et oleks võimalik tuvastada omanike andmed.</p></span><div><img src=https://static.sizebay.technology/assets/icons/cookies.svg /> <img src=https://static.sizebay.technology/assets/icons/bag.svg /> <img src=https://static.sizebay.technology/assets/icons/anonymous-person.svg /></div>"
+    },
+    "how_it_works": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/mannequin.svg /><p> Teenuste kasutamiseks ei pea kasutaja registreeruma <strong>SIZEBAY</strong> platvormil. Juurdepääs mõõtmistabelile on alati saadaval. Virtuaalse proovikabiini kasutamiseks peab kasutaja sisestama mõned põhiandmed, et rakendus saaks soovitada rõivaste ja kingade suurust.</p></span><span><img src=https://static.sizebay.technology/assets/icons/anonymous.svg /><p> Profiili loomine rakenduses <strong>SIZEBAY</strong> ei nõua kasutajalt teie ees- või perekonnanimi ning võite isegi täita fiktiivsete andmetega, kui olete huvitatud oma privaatsuse veelgi suuremast säilitamisest.</p></span><span><img src=https://static.sizebay.technology/assets/icons/persons.svg /><p> Alaealised ei saa rakendust kasutada, välja arvatud juhul, kui neid esindavad ja/või abistavad vanemad. eestkostjad.</p></span><div><img src=https://static.sizebay.technology/assets/icons/mannequin.svg /><img src=https://static.sizebay.technology/assets/icons/anonymous.svg /><img src=https://static.sizebay.technology/assets/icons/persons.svg /></div>",
+      "title": "Kuidas toimib juurdepääs virtuaalsele proovikabiinile ja virtuaallaua teenustele?"
+    },
+    "share_data": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/share.svg /><p> Andmete jagamist saab alati läbi viia eesmärgiga pakkuda paremat veebipõhise ostukogemust või võimaldada rakendusel töötada, seega saab seda teha: klientide ja tarnijatega.</p></span><div><img src=https://static.sizebay.technology/assets/icons/share.svg /></div>",
+      "title": "Kellega saab SIZEBAY andmeid jagada?"
+    },
+    "actions": {
+      "terms": {
+        "content": "<li><a href=https://home.sizebay.com/{{lang}}/legal/conditions-of-use target=_blank>Kasutustingimused</a></li><li><a href=https://home.sizebay.com/{{lang}}/legal/privacy target=_blank>Privaatsuspoliitika</a></li><li><a href=https://home.sizebay.com/{{lang}}/legal/cookies-policy target=_blank>Küpsisepoliitika</a></li>",
+        "conditions-use": "Kasutustingimused",
+        "privacy": "Privaatsuspoliitika",
+        "cookies": "Küpsiste poliitika",
+        "title": "Tingimused"
+      },
+      "statements": {
+        "gdpr": "GDPR-i järgimine",
+        "title": "deklaratsioonid",
+        "lgpd": "LGPD vastavus",
+        "content": "<li><a href=https://home.sizebay.com/{{lang}}/legal/gdpr target=_blank >GDPR-i järgimine</a></li><li><a href=https: / /home.sizebay.com/{{lang}}/legal/lgpd target=_blank >LGPD vastavus</a></li><li><a href=https://home.sizebay.com/{ {lang }}/legal/ccpa target=_blank >CCPA vastavus</a></li><li><a href=https://sizebay.com/{{lang}}/legal/pipl target=_blank >PIPL-i järgimine </a></li>",
+        "pipl": "PIPL-i järgimine",
+        "ccpa": "CCPA vastavus"
+      },
+      "title": "Juurdepääs meie tingimuste lehtedele",
+      "redirect_privacy": {
+        "text": "Klõpsake siin, et suunata teid ümber ettevõtte {{ tenantName }} privaatsuslehele"
+      }
+    },
+    "how_data_is_collected": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/computer-hanger.svg /><p> Andmeid kogutakse, kui kasutaja annab teavet Virtua Fitteri ja Measurement Table teenuste kasutamisel või küpsiste kaudu, kui kasutaja siseneb <strong>SIZEBAY</strong> rakendusele või veebisaidile. jällegi andmed, mille kasutaja on juba järgmise ostu või tooteanalüüsi käigus teavitanud.</p></span><div><img src=https://static.sizebay.technology/assets/icons/computer-hanger.svg /></div>",
+      "title": "Kuidas SIZEBAY andmeid kogub?"
+    },
+    "users_obligations": {
+      "title": "Millised on kasutaja kohustused?",
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/obligations.svg /><p> Rakenduse kasutajad kohustuvad kasutama <strong>SIZEBAY</strong> teenuseid, austades ja järgides alati eeskirju, samuti kehtivaid õigusakte, kombeid, avalikku korda, samuti platvormi kasutamiseks ja kasutamisega nõustumiseks nõutavaid kohustuslikke nõudeid. .</p></span><div><img src=https://static.sizebay.technology/assets/icons/obligations.svg />"
+    },
+    "data_protection": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/security.svg /><p> <strong>SIZEBAY</strong> peab oma klientide, kasutajate ja külastajate info salastatust ja turvalisust ülimalt oluliseks. Sel põhjusel kasutab see krüptimise ja tulemüüri tehnoloogiat ning teeb kõik endast oleneva, et tagada teie andmete ja teabe kaitse.</p></span><span><img src=https://static.sizebay.technology/assets/icons/http.svg /><p> Soovitame teil aeg-ajalt puhastada brauseris salvestatud küpsiseid, et vältida kogutud teave ei eemaldata <strong>SIZEBAY</strong> andmebaasist ega ka muudelt juurdepääsetavatelt saitidelt.</p></span><div><img src=https://static.sizebay.technology/assets/icons/security.svg /> <img src=https://static.sizebay.technology/assets/icons/http.svg /></div>",
+      "title": "Kuidas SIZEBAY teie andmeid kaitseb?"
+    }
+  },
+  "garment_measures_info": {
+    "shaft_height": "Mõõda kannapõhjast kuni kingavõlli ülaosani.",
+    "shoulder_length": "Laius ühe varruka õmblusest teiseni, rõiva seljaosas.",
+    "full_body_length": "Mõõda ülemisest õmblusest kuni alumise palistuseni kogu kehaosa peal.",
+    "hem": "Osa alumise osa laius.",
+    "back_length": "Mõõtke kraest kuni ülemise osa allääreni, tagantpoolt.",
+    "lower_waist_width": "Madala vöökohaga rõiva vöökoha laius.",
+    "hip_circumference": "Rõiva laius, umbes 20 cm allpool vöökohast, korrutatud kahega.",
+    "palm_length": "Mõõtke randmest keskmise sõrme tipuni.",
+    "calf_circumference": "Mõõtmine ümber saapasääre ülaosa, tavaliselt sääre kõige laiemas punktis.",
+    "head_circumference": "Mõõtke mütsi sees oleva ääre ümbermõõt, kus pea toetub.",
+    "sleeve": "Mõõda siseküljest, kus varrukas algab, kuni manseti lõpuni.",
+    "waist_width": "Kitsama osa laius ülaosas, kaenlaaluste ja allääre vahel.",
+    "thigh_width": "Reie kõige laiema osa laius.",
+    "waistband_circumference": "Rõiva ülemise avause mõõtmine.",
+    "circumference": "Mõõda ümber tüki, tavaliselt korrutades laiuse 2-ga.",
+    "lower_waist_circumference": "Rõiva laius, vahetult loodusliku vöökoha all, korrutatud kahega.",
+    "high_waist_width": "Kõrge vöökohaga rõiva vöökoha laius.",
+    "chest_circumference": "Ülerõiva laiuse mõõtmine ühelt küljelt teisele, vahetult kaenla alt, korrutatuna kahega.",
+    "waist_circumference": "Kitsama osa rõiva laius korrutatud kahega.",
+    "front_length": "Mõõda kaelusest ülemise osa servani, eest poolt.",
+    "lower_length": "Mõõtke vöökohast kuni rõiva allääreni, külje pealt.",
+    "wrist_circumference": "Varruka avause ümbermõõdu mõõtmine, kus see sobitub randmega.",
+    "heel_height": "Mõõtke hüppe alusest kuni kõrgeima punktini.",
+    "wrist_width": "Tüki laiusest hoolitsemine.",
+    "hook": "Mõõtke vöökoha ülaosast jalgevahe õmbluseni.",
+    "thigh_circumference": "Mõõtke rõiva reie kõige laiemat osa, vahetult sisekülje all.",
+    "platform_height": "Mõõda kinga esiosa alusest kuni platvormi tipuni.",
+    "biceps": "Varruka laius, umbes 2.5 cm kaenla alt allpool.",
+    "insole_width": "Mõõda sisetalla kõige laiem osa.",
+    "brim": "Mõõtke alusest kuni mütsi ääre tipuni.",
+    "high_waist_circumference": "Mõõtke ümber kõrge vöökohaga rõiva vöökoha.",
+    "hip_width": "Tüki laius, 20 cm allpool vöökohta.",
+    "length": "Mõõda ülemisest õmblusest kuni alumise palistuseni.",
+    "chest_width": "Mõõtke ülemise osa laius ühelt küljelt teisele, kohe kaenlaaluste alt.",
+    "calf_width": "Saapasääre laiuse mõõtmine sääre kõrgusel.",
+    "collar": "Pluusi krae laius, mõõdetuna ümber kaela aluse.",
+    "waistband_width": "Alumise osa vöökoha laius.",
+    "back_hook": "Mõõda vöökohast jalgevahe õmbluseni, rõiva tagaküljel.",
+    "insole_length": "Mõõda sisetalla kannast kuni varbaotsani.",
+    "under_bust": "Ülemise rõiva laiuse mõõtmine, ühelt küljelt teisele, vahetult rinna alt, korrutatud kahega.",
+    "inside_leg": "Mõõtke jalgevahe õmblusest pükste allääreni"
+  },
+  "error": {
+    "close": "Välju prooviruumist",
+    "title": "Ups, nüüd läks midagi valesti!",
+    "options": "Sa võid uuesti proovida uuendades profiili või pane kinni ja proovi hiljem.",
+    "restart": "Uuenda profiili",
+    "description": "Ära muretse, me juba uurime juhtunut, et seda enam ei juhtuks."
+  },
+  "recommendation": {
+    "3d_feel": {
+      "lanes": {
+        "large": "liiga lõtv",
+        "ideal": "ideaalne",
+        "slightly_loose": "natuke lai",
+        "loose": "avar",
+        "slightly_fit": "natuke kitsas",
+        "tight": "väga kitsas",
+        "fit": "kitsas"
+      },
+      "title_suggested": "Parim valik"
+    },
+    "lanes": {
+      "tight": "PARAS",
+      "ideal": "IDEAALNE",
+      "fit": "KITSAS",
+      "looser": "LÕDVEM",
+      "large": "LAI",
+      "loose": "AVAR",
+      "tighter": "KITSAM"
+    },
+    "title_not_suggested": "ei soovita",
+    "measurements": {
+      "title": "Mõõdud",
+      "conversion": {
+        "title": "Suuruse teisendamine"
+      }
+    },
+    "centered_mode": {
+      "controls": {
+        "appearance": "Välimus",
+        "comfort": "Mugavus"
+      },
+      "comfort_map": {
+        "header": "Värvid 3D-pildil näitavad, kui pingul või lõdvalt rõivad sinu kehal on"
+      },
+      "tag_info": "3D simulatsioon näitab sinu individuaalseid keha mõõte ja annab tõetruu pildi toote sobivusest.",
+      "measure_name": "sinu {{measureName}}"
+    },
+    "title_suggested": "parim valik on",
+    "height_warning": {
+      "threshold": {
+        "long": "pikk",
+        "short": "lühike"
+      },
+      "message": "liiga {{threshold}} neile kes on {{height}}"
+    },
+    "shoe": {
+      "insoleLength": "pikkus",
+      "insoleWidth": "laius"
+    },
+    "subtitle": "Vaata mugavustasemeid allpool",
+    "subtitle_shoe": "Tuginedes sinu {{brandName}} suurusele {{size}}",
+    "title_also_fits": "sobib samuti",
+    "carousel_also_try": "Proovi ka neid suurusi:"
+  },
+  "product_comparison": {
+    "elements": {
+      "edit": "Sisesta",
+      "foot_format": "Jalalaba kuju",
+      "category": "Kategooria",
+      "brand": "Kaubamärk",
+      "size": "Suurus"
+    },
+    "title": "Võrreldav toode",
+    "subtitle": "Seda infot kasutame sulle parima suuruse soovitamiseks."
+  },
+  "warnings": {
+    "age_group": {
+      "age_group": "{{ageGroup}} toode",
+      "limit_reached": "Profiilide arvu limiit sai täis. Uue profiili loomiseks kustuta mõni vana profiil.",
+      "subtitle": "Selle toote vanusevahemik ei sobi vanusega sellest {{profileName}} profiilist. Jätkamiseks vali või lisa profiil.",
+      "prompt_message": "Kas sa soovid proovida riideid ka ({{ ageGroup }}) valikust?"
+    },
+    "we_need_more_measures": {
+      "subtitle": "Meil ei olnud võimalik tulemust arvutada. Palun kohenda neid allolevaid mõõte või pöördu tagasi sisestatud andmete juurde.",
+      "title": "Sisesta oma mõõdud"
+    },
+    "unmatched_gender": {
+      "choose_a_profile": "Vali soovitud profiil",
+      "select_profile": "Ei, vali uus profiil",
+      "tooltip": "See profiil ei sobi valitud tootegrupile",
+      "title": "Kas sa soovid proovida rõivaid ka {{gender}} osakonnast?",
+      "create_profile": "Ei, loo uus profiil"
+    }
+  },
+  "brands_list": {
+    "search_question": "Millise brändi tooteid sa tavaliselt kannad?",
+    "not_found": {
+      "title": "Ups!",
+      "subtitle": "Proovige kirjavigade parandamiseks uuesti otsida."
+    },
+    "subtitle": "Pärast paari küsimust me aitame sul valida parima jalanõu suuruse.",
+    "title": "Virtuaalne proovikabiin",
+    "search_placeholder": "Kirjuta brändi nimi siia",
+    "title_restricted": "Kas sa kannad meie brändi jalanõusid?"
+  },
+  "age_group": {
+    "adult": "Täiskasvanud",
+    "kids": "Lapsed"
+  },
+  "a11y": {
+    "Chart": {
+      "vfr_button": "Vajuta tühikuklahvi, et minna virtuaalsesse prooviruumi",
+      "step_blocks": {
+        "table": {
+          "measure_description": "See on {{size}} suurus, {{measureName}} peal peaks see olema {{measure}}"
+        },
+        "switcher": {
+          "instruction_press_space": "Vajuta tühikuklahvi väärtuste vahetamiseks",
+          "option": "Teie praegune väärtus on {{value}}"
+        }
+      },
+      "greeting": "See on suurustetabel",
+      "size_system": {
+        "instruction": "Teie praegune suurusesüsteem on {{sizeSystem}}. Vajutage tühikut, et valida teine valik."
+      },
+      "instruction": "Siin saate võrrelda oma mõõtmeid meie tabelis toodud mõõtmetega"
+    },
+    "shoe": {
+      "Brands": {
+        "highlighted": {
+          "edit_negative": "Vajuta tühikuklahvi, kui sa ei kanna ühtegi neist brändidest",
+          "edit_action": "Vajuta tühikuklahvi, et jätkata valitud kaubamärgiga",
+          "instruction": "Vajuta tühikuklahvi, et jätkata {{brandName}}-ga"
+        },
+        "restricted": {
+          "greeting": "Tere tulemast piiratud kaubamärkide kingade prooviruumi. Vali üks kingabränd, mida sa juba kannad"
+        }
+      },
+      "FootSize": {
+        "instruction": "Vajuta tühikuklahvi, et valida {{ sizeSystem }} suurussüsteem"
+      },
+      "EditData": {
+        "greeting": "Siin saate teha muudatusi jala ja kinga teabes, mille meile saatsite"
+      },
+      "FootFormat": {
+        "instruction": "Vali jalakuju.",
+        "edit_action": "Vajuta tühikuklahvi, et valida {{ shoeFormat }}"
+      }
+    },
+    "drawer": {
+      "measurement_tape_header": "Lint",
+      "measurement_tape_handle": "Mõõdulint. Vajuta tühikuklahvi, et pääseda mõõdulindile",
+      "close_group_handle": "Vajuta tühikuklahvi, et grupp sulgeda",
+      "measurement_tape_print_button": "Vajuta tühikuklahvi, et avada mõõdulint"
+    },
+    "clothes": {
+      "Welcome": {
+        "step_blocks": {
+          "gender": {
+            "question": "Vali sugu, et jätkata. Sinu praegune sugu on {{gender}}"
+          },
+          "age": {
+            "tooltip": "Vajutage tühikuklahvi, et lugeda rohkem teavet selle kohta, kuidas vanus mõjutab soovitusi"
+          },
+          "height": {
+            "question": "Sisesta siia oma pikkus {{measurementSystem}}."
+          }
+        }
+      },
+      "ProfilesMenu": {
+        "blocks": {
+          "greeting": "Need on kõik sinu profiilid virtuaalses proovikabiinis",
+          "edit": "Siin saate valida, kas lisada või eemaldada profiile"
+        },
+        "chip": {
+          "message": "Vajuta tühikuklahvi, et pääseda juurde rohkematele üksikasjadele oma {{profileName}} profiili kohta"
+        }
+      },
+      "Recommendation": {
+        "lane": "{{ size }} suurus on {{ label }} {{ measureName }} peal",
+        "carousel_instruction": "Leia rohkem suurusevalikuid siit"
+      },
+      "measures": {
+        "edit": "Vajuta nooleklahve, et suurendada või vähendada {{measureName}} mõõtu",
+        "read": "Teie {{measureName}} mõõdab {{measureValue}} {{measureSystem}}-s"
+      }
+    },
+    "generics": {
+      "welcome": "Tere tulemast virtuaalsesse prooviruumi"
+    }
+  },
+  "welcome": {
+    "age_disclaimer": "Keha kuju muutub aastate jooksul ja see mõjutab ka meie arvutusi.",
+    "gender_f_kids": "Naiselik",
+    "title": "Virtuaalne proovikabiin",
+    "gender_m_kids": "Mehelik",
+    "foot_measurement_known": "Ma juba tean oma jala mõõtu",
+    "gender_m": "Mees",
+    "shoe_measure": "Jala pikkus",
+    "gender_f": "Naine",
+    "gender_u": "Unisex",
+    "subtitle": "Täida lüngad proovimaks seda toodet"
+  },
+  "edit_measures": {
+    "view_less": "Vaadake vähem mõõte",
+    "view_all": "Vaata rohkem mõõte"
+  },
+  "drawers": {
+    "manage": {
+      "actions": {
+        "select": "Vali",
+        "delete": "Kustuta"
+      },
+      "active_profile": {
+        "details_shoe": "{{brandName}} suurus {{size}}",
+        "no_name": "Sisesta nimi",
+        "delete": "Kustuta profiil"
+      },
+      "new_profile": {
+        "input_example": "Näidis: Tiit Tamm",
+        "title": "Lisa profiil",
+        "subtitle": "Anna sellele profiilile nimi"
+      }
+    },
+    "knobs": {
+      "kids_shoes_tips": "Suuruse vihjed",
+      "garment_info": "Rõivaste mõõdud",
+      "size_content": "Stiili juhend",
+      "measurement_tape": "Mõõdulint",
+      "product_info": "Keha mõõtmed",
+      "size_hint_promo": "Täitke reklaam",
+      "size_hint": "Soovitus",
+      "sizes_conversions": "Suuruste teisendamine"
+    },
+    "kids_shoes_title": "Juhised ja soovitused laste jalgade ja jalanõude osas",
+    "kids_shoes_button": "Sain aru",
+    "kids_shoes_message": "Laste jalad kasvavad poole võrra suuremaks iga 2–4 ​​kuu järel. Selle kiire kasvu tõttu soovitame hankida lapsele veidi vabamad suurused, et jalatsid kestaks kauem ega pigistaks kiiresti arenevaid jalgu."
+  },
+  "landscape_vertical_subtitle": "Kasutamise alustamiseks asetage seade püsti",
+  "coppa_gate": {
+    "close": "Ei, ma olen alla 13",
+    "confirm": "Jah, ma olen hooldaja",
+    "prompt_title_months": "Kas sa oled lapsevanem või eestkostja lapsele kes on {{ months }} kuud vana?",
+    "message": "Saad jätkata selle toote proovimist, kui oled täiskasvanu, kes lõi selle profiili, et proovida oma lapsele toodet.",
+    "prompt_title_years": "Kas sa oled lapsevanem või eestkostja lapsele kes on {{ years }} aastat vana?",
+    "title": "Vanuse kinnitamine"
+  },
+  "fetching": {
+    "subtitle": "Arvutame mõõdud ideaalse suuruse soovituse loomiseks",
+    "title": "Peaaegu valmis!",
+    "shoe": {
+      "success": "Arvutus lõpetatud!",
+      "calculating": "Teie mõõtude arvutamine",
+      "analyzing": "Teie vastuste analüüsimine"
+    }
+  },
+  "landscape_subtitle": "Alustamiseks hoia oma telefon horisontaalselt",
+  "measurement_tape": {
+    "link_download": {
+      "in": "//static.sizebay.technology/assets/measurement_tape/measurement_tape_in_en.pdf",
+      "cm": "//static.sizebay.technology/assets/measurement_tape/measurement_tape_cm_en.pdf"
+    },
+    "title": "Lint",
+    "message": "Prindi, lõika ja proovi seda mõõdulinti kontrollimaks oma mõõte.",
+    "print": "Mõõdulint",
+    "print_mobile": "Prindi mõõdulint",
+    "download": {
+      "file": {
+        "title": "Juhised printimiseks ja mõõdulindi kasutamiseks",
+        "fold-and-rotate": "voldi ja pööra",
+        "how-to-do": "Print:"
+      }
+    }
+  },
+  "foot_size": {
+    "select_region": "Vali piirkond",
+    "not_selected": "Jätkamiseks valige kindlasti suurus",
+    "title": "Mis on teie jalanõude suurus?",
+    "pattern": "{{region}} süsteem",
+    "subtitle": "Valige oma suurus aastal"
+  },
+  "child_name": {
+    "name": "Nimi",
+    "title": "Kas sa ütleksid meile oma lapse nime?",
+    "subtitle": "See aitab sul koostada profiili Proovikabiini jaoks"
+  },
+  "size_hint": {
+    "title": "Me valisime veel mõned tooted mis sulle sobivad",
+    "discount-original-price": "Tavahind: <span class='size-hint__discount-original-price discount-description-price'>{{ price }}</span> <span class='size-hint__discount-percentage'>-{{discount }}%</span>",
+    "discount-lowest-price": "Madalaim hind alates 30 päeva enne alandamist: <span class='size-hint__discount-lowest-price discount-description-price'>{{ price }}</span> <span class='size-hint__discount-percentage'>-{{ discount }}%</span>",
+    "title_promo": "Täitke reklaam",
+    "try_now": "Proovi nüüd"
+  },
+  "size_tailor": {
+    "action_button": "Me kohandame sinu jaoks",
+    "title": "Kohandatud toode",
+    "description": "Kinnita oma keha mõõdud, et saaksime luua sulle kohandatud toote."
+  },
+  "miscellaneous": {
+    "hannaLinks": {
+      "recommendation": "Tagasi minu tulemuste juurde",
+      "welcome": "Mine tagasi"
+    }
+  },
+  "measure_shape": {
+    "shape_bigger": "Suurem",
+    "shape_smaller": "Väiksem",
+    "skin_types": {
+      "toggle": "Muuda nahavärvi"
+    },
+    "subtitle": "See on ligikaudne kehakuju, mille loome sinu mõõtude põhjal. Reguleeri ainult vajadusel\n\n",
+    "measure_range": {
+      "1": "Palju väiksem",
+      "2": "Väiksem",
+      "3": "Keskmine",
+      "4": "Suurem",
+      "5": "Palju suurem"
+    },
+    "shape_regular": "Keskmine",
+    "title": "Kohenda keha kuju "
+  },
+  "calculating": {
+    "subtitle": "Kontrolli mõõte ja kohenda vajadusel",
+    "circle_title_loading": "Laeb....",
+    "circle_title_completed": "Valmis!",
+    "title": "Arvutamine lõpetatud!"
+  },
+  "brands_grid": {
+    "subtitle": "Millist brändi sa tavaliselt kannad?",
+    "unique_brand": "Kas kannate juba {{ brandName }} kingi?",
+    "search_other_brands": "Otsige teist kaubamärki"
+  },
+  "modals": {
+    "remove_profile": {
+      "title_alt": "Kas oled kindel, et soovid selle profiili kustutada?",
+      "title": "Kustutan {{profileName}} profiili?",
+      "action": "Eemalda profiil",
+      "confirm": "Kustuta profiil"
+    }
+  },
+  "no_recommendation": {
+    "expected_size": "Soovituslik suurus on {{recommendedSize}}.",
+    "title_shoe": "Kahjuks see toode ja suurus ei ole meie veebipoes saadaval.",
+    "based_on": "Uuesti proovimiseks saate oma teavet muuta",
+    "calculate_again": "Arvuta uuesti",
+    "title": "Teie suurus pole praegu saadaval",
+    "subtitle": "Me ei leidnud suurust allolevatele mõõtudele. Vajadusel palun kohenda. "
+  },
+  "accessory": {
+    "welcome": {
+      "subtitle": "Selle toote proovimiseks järgige juhiseid mõõtmiseks ja sisesta saadud number",
+      "shoe": {
+        "subtitle": "Vali allpool oma jalalaba mõõt järgides meie juhiseid mõõtmise kohta"
+      }
+    },
+    "bike": {
+      "recommendation": {
+        "title_suggested": "Jalgratta suurus mida me pakume on sulle parima asendi ja sõidutulemuse jaoks. Mugavalt jalgrattaga sõitmiseks just paras, mitte liiga pikk ega liiga lühike.",
+        "subtitle": "sinu pikkuse järgi",
+        "title_also_fits": "Jalgratta suurus mida me pakume on sulle parima asendi ja sõidutulemuse jaoks. Mugavalt jalgrattaga sõitmiseks just paras, mitte liiga pikk ega liiga lühike.",
+        "title_not_suggested": "Jalgratta suurus mida me pakume on sulle parima asendi ja sõidutulemuse jaoks. Mugavalt jalgrattaga sõitmiseks just paras, mitte liiga pikk ega liiga lühike."
+      }
+    },
+    "shoe_size": {
+      "subtitle": "Proovimaks seda toodet vali suurus mis vastab sinu jalalaba pikkusele"
+    }
+  },
+  "foot_format": {
+    "formats": {
+      "0": {
+        "description": "Kitsastel jalgadel kipub jalanõu külgedel olema rohkem ruumi.",
+        "title": "Kitsas"
+      },
+      "1": {
+        "title": "Keskmine",
+        "description": "Keskmise suurusega jalad sobivad tavaliselt hästi enamike kingadega."
+      },
+      "2": {
+        "title": "Lai",
+        "description": "Laiad jalad sobivad kinga pikkusega, kuid tunduvad külgedelt kitsad."
+      }
+    },
+    "subtitle": "Vali oma jala laius, et parandada sobivust.",
+    "title": "Jala kuju"
+  },
+  "landscape_warning": {
+    "title": "Virtuaalne proovikabiin"
+  },
+  "my_measures": {
+    "title": "Minu mõõdud",
+    "subtitle": "Muuda mõõte nagu vaja"
+  },
+  "subcategory": {
+    "subtitle": "Vali üks alamkategooriatest mis tõenäoliselt sobitub sinu {{brandName}} > {{categoryName}}",
+    "title": "Mis on alamkategooria?"
+  },
+  "model": {
+    "title": "Mis mudel see on?",
+    "subtitle": "Vali üks mudel mis on kõige sarnasem {{brandName}} > {{categoryName}} > {{subcategoryName}}"
+  },
+  "landscape_horizontal_subtitle": "Kasutamise alustamiseks asetage seade horisontaalselt",
+  "category": {
+    "subtitle": "Vali üks kategooriatest mis enim sobib sinu {{brandName}}",
+    "title": "Mis tüüpi jalanõu on?"
+  },
+  "header": {
+    "title": "Fit Finder"
+  }
+}

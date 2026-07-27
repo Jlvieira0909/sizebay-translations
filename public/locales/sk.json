@@ -1,0 +1,953 @@
+{
+  "shoe_size": {
+    "fit_loose": "Voľný",
+    "shoe_accessory": {
+      "no_recommendation": {
+        "subtitle": "Nenašli sme veľkosť pre uvedené merania. Prispôsob, ak je to potrebné.",
+        "title": "Nenašli sme žiadnu veľkosť"
+      },
+      "all_measures": {
+        "measurements_guide": "Sprievodca meraniami [PDF]",
+        "title": "Aká je veľkosť tvojej nohy?"
+      },
+      "info_drawer_subtitle": "Aby si našiel najlepšiu veľkosť obuvi, prečo nám nepovieš trochu o sebe?"
+    },
+    "recommendation": "Na základe vašich informácií, toto je vaše meranie nohy. V prípade potreby upravte:",
+    "foot_shape_question": "Aký je tvar tvojej nohy?",
+    "title": "Aká je dĺžka tvojej nohy?",
+    "drawer_title": "Ako sa merať",
+    "subtitle": {
+      "0": "Povedz nám trochu o sebe, aby sme našli najlepšiu veľkosť obuvi",
+      "box": {
+        "subtitle": "Umiestnite hárok papiera na podlahu pri stene. Postavte sa s pätou na papier a k stene. Označte špičku svojho najdlhšieho prsta na nohe, potom zmerajte vzdialenosť.",
+        "title": "Ako správne merať nohu:"
+      }
+    },
+    "fit_description_ideal": "Medzi prstami a topánkou je <strong>malý priestor</strong>.",
+    "length_example": "Obujte si svoje <strong>{{brandName}}</strong> veľkosti <strong>{{size}}</strong> a povedzte nám, ako vám sedí dĺžka na nohách.",
+    "fit_tight": "Útulný",
+    "fit_ideal": "Vhodný",
+    "open_drawer_button": "Ako sa merať",
+    "fit_description_loose": "Medzi prstami a topánkou je <strong>veľký priestor</strong>.",
+    "shoe_accessory_subtitle": "Vyber si mieru svojej nohy nižšie, nasledujúc naše pokyny\nako sa správne merať.",
+    "drawer_button": "Rozumiem",
+    "fit_description_tight": "Topánka sa dotýka prstov <strong>bez priestoru</strong>.",
+    "length_question": "Ako vám sedí topánka na dĺžku?"
+  },
+  "footer": {
+    "add_to_cart_mobile_2": "Vložiť do košíka",
+    "confirm": "Potvrdiť",
+    "none_of_those": "Žiadny z tých",
+    "save_measures": "Uložiť miery",
+    "view_recommendation": "Zobraziť Odporúčanie",
+    "print_measurement_tape": "Tlačiť meracie pásmo",
+    "virtual_fitting_room": "Virtuálna Skúšobňa",
+    "info_box": "Vyberte Vlastnú Veľkosť, ak chcete, aby sa vaša bunda prispôsobila mieram vášho tela",
+    "yes": "Áno",
+    "add_to_cart": "Pridať do košíka",
+    "brand_not_found": "Nenašiel som značku",
+    "proceed": "Pokračovať",
+    "edit_data": "Upraviť Údaje",
+    "not_yet": "Ešte nie",
+    "cancel_alt": "Nie, zrušiť",
+    "next": "Ďalšie",
+    "cancel": "Zrušiť",
+    "by-sizebay": "od Sizebay®",
+    "sure": "Samozrejme!",
+    "add_profile": "Vytvoriť profil",
+    "create_new_profile": "Vytvoriť nový profil",
+    "restart": "Reštartovať",
+    "close": "Zatvoriť",
+    "select_another_profile": "Vybrať iný profil",
+    "continue_without_brand": "Pokračovať bez značky",
+    "unsure": "Nie som si istý",
+    "save": "Uložiť",
+    "edit_measures": "Upraviť Mere",
+    "proceed_anyway": "Pokračovať aj tak",
+    "edit_profile": "Upraviť profily",
+    "add_to_cart_mobile": "Kúpiť",
+    "back": "Späť"
+  },
+  "composed_measures": {
+    "welcome": {
+      "link_tooltip": "<b>{{suffix}} {{measureName}} šírka.</b>",
+      "item_text": "Moje {{measureName}} je {{range}} {{sizeSystem}} široké",
+      "measures_range_item": "{{initialRange}} až {{finalRange}}",
+      "tooltip_text": "Kliknutím vyberte inú veľkosť",
+      "tooltip_instructions": "Kliknutím sem sa dozviete, ako vykonať meranie {{measureName}} ",
+      "height": {
+        "item_text": "Som {{range}} {{sizeSystem}} vysoký",
+        "link_tooltip": "<b>ako ste vysoký.</b>",
+        "title": "Ako ste vysoký?",
+        "instructions": "Potrebujeme poznať vašu <b>výšku</b> aby bolo možné zobraziť vám možné odporúčania"
+      },
+      "title": "Aký je rozmer {{suffix}} {{measureName}}?",
+      "instructions": "Ako široký je {{suffix}} <b>{{measureName}}</b>? Potrebujeme vedieť {{suffix}} {{measureName}} veľkosť, aby sme vám mohli zobraziť možné odporúčania"
+    },
+    "height": {
+      "title": "Aký si vysoký?",
+      "link_tooltip": "ukázať svoju výšku"
+    },
+    "table": {
+      "helper_height": "Výška sa pohybuje od {{range}} {{sizeSystem}} výšky. Nie je toto meranie presné?",
+      "tooltip_change": "Zmeniť tu.",
+      "helper": "Tento {{measureName}} prechádza z {{range}} {{sizeSystem}} dĺžky. Je toto meranie nepresné?",
+      "title": "To sú možné veľkosti pre <span>{{range}}</span> {{measureName}}",
+      "vfr_tooltip": "Máte svoje miery? Prečo si neskúsite zistiť svoju veľkosť vo virtuálnej skúšobni?"
+    }
+  },
+  "body_measurements": {
+    "diameter": "PRIEMER",
+    "collar": "Golier",
+    "length": "Dĺžka produktu",
+    "centralSeam": "Predný vzostup",
+    "weightChart": "Hmotnosť",
+    "width": "Šírka",
+    "waistUpper": "Horná časť pása",
+    "weight": "Hmotnosť",
+    "circumference": "Obvod",
+    "insoleLength": "Dĺžka chodidla",
+    "label1": "VEĽKOSŤ (USA)",
+    "sleve": "Dĺžka rukávov",
+    "waist": "Pás",
+    "chest_m": "Hruď",
+    "chest_f": "Poprsie",
+    "neck": "Krk",
+    "comfort": "Pohodlie",
+    "sleeve": "Rameno",
+    "thigh": "Stehno",
+    "headCircumference": "Hlava",
+    "hip": "Bedrový kĺb",
+    "shoulderWidth": "Ramená",
+    "waistLower": "Dolná časť pása",
+    "wrist": "Zápästie",
+    "palm": "Dlaň ruky",
+    "bar": "Lem",
+    "chest": "Hrudník / poprsie",
+    "lowerLength": "Spodná dĺžka",
+    "finger_circumference": "OBVOD",
+    "insoleWidth": "Šírka chodidla",
+    "height": "Výška",
+    "ageChart": "Vek",
+    "underBust": "Pod prsiami",
+    "insideLeg": "Vnútorný šev",
+    "biceps": "Biceps",
+    "calf": "Lýtko",
+    "fist": "Päsť",
+    "fullBodyLength": "Dĺžka celého tela"
+  },
+  "measures_info": {
+    "insideLeg": "Odmerajte vnútornú vzdialenosť nohy od lonovej kosti po chodidlá.",
+    "fullBodyLength": "Odmerajte vzdialenosť od hornej časti ramien po podlahu.",
+    "weightChart": "Odvážte sa na váhe a skontrolujte v tejto tabuľke meraní, či sa čísla hmotnosti zhodujú.",
+    "waistUpper": "Zmerajte obvod pásu nad pupkom.",
+    "insoleLength": "Umiestnite hárok papiera na podlahu pri stene. Postavte sa s pätou na papier a k stene. Označte špičku svojho najdlhšieho prsta na nohe, potom zmerajte vzdialenosť.",
+    "biceps": "Použite meter okolo stredu ramena, na jeho najširšej časti.",
+    "height": "Toto je ľahké. Ide o vzdialenosť medzi temenom hlavy (lebkou) a zemou (chodidlom), meranú vo vzpriamenom postoji.",
+    "width": "Zmerajte šírku odevu",
+    "weight": "Odvážte sa na váhe a overte si v tejto tabuľke, či sa čísla hmotnosti zhodujú.",
+    "sleeve": "Zmerajte vzdialenosť medzi ramenom a zápästím, pričom ruku držte mierne pokrčenú. Držte pásku za lakťom a zaznamenajte si namerané hodnoty.",
+    "neck": "Použite meter po obvode krku, pričom nesmiete pásku príliš napínať. Pri meraní si pomôžte zrkadlom.",
+    "collar": "Merajte okolo krku tesne nad kľúčnou kosťou, pričom medzi pásku a krk vložte jeden prst.",
+    "chest": "Použite meter okolo hrudníka (oblasť pŕs) a pokojne dýchajte. Všímajte si odchýlky pri dýchaní a zapíšte si najvyššie zistené číslo.",
+    "ageChart": "Vek osoby, ktorá bude tento výrobok nosiť.",
+    "circumference": "Zmerajte obvod odevu",
+    "length_botton": "Začiatok meracej pásky priložte k pásu, kde sa nosia nohavice alebo sukňa. Natiahnite meter až po dĺžku holene, aby ste označili meranie.",
+    "waist": "Postavte sa pred zrkadlo a zmerajte obvod tesne pod rebrami, kúsok nad bokmi.",
+    "footLength": "Stojte na rovnej ploche a oprite sa chrbtom o stenu. Pomocou pravítka zmerajte dĺžku chodidla (od päty po prsty).",
+    "lowerLength": "Toto je vzdialenosť medzi bokom a podlahou.",
+    "chest_m": "Použite meter okolo hrudníka a pokojne dýchajte. Všímajte si odchýlky pri dýchaní a zapíšte si najvyššie zistené číslo.",
+    "chest_f": "Pri pokojnom dýchaní použite meter okolo hrudníka (oblasť pŕs). Všímajte si odchýlky pri dýchaní a zapíšte si najvyššie zistené číslo.",
+    "palm": "Zapíšte si rozpätie ruky pri položení meradla na rovný povrch, ohnutí ruky a položení ľavej strany dominantnej ruky na nulový bod meradla.",
+    "waistLower": "Obvod pása zmerajte pod pupkom, kde sa zvyčajne nosí opasok (na spodnej časti pása).",
+    "thigh": "Merací pásik umiestnite okolo najširšej časti stehna, teda tesne pod jeho spodnou časťou.",
+    "underBust": "Použite meter okolo hrudníka, tesne pod prsiami. Pokojne dýchajte a zároveň si všímajte odchýlky v meraní a označte najvyššie číslo.",
+    "bar": "Zmerajte lem odevu",
+    "insoleWidth": "Vyberte stielku z topánky, ktorá vám dobre sedí, a zmerajte šírku stielky.",
+    "headCircumference": "Pomocou metra zmerajte obvod hlavy (nad ušami).",
+    "wrist": "Meracím pásom si vyznačte miesto okolo zápästia, presne tam, kde by mali byť umiestnené hodinky.",
+    "hip": "Pomocou metra obkreslite \"širšiu\" oblasť pod pásom, ktorá je rovnobežná s najvyššou časťou sedacích svalov.",
+    "diameter": "Zmerajte priemer vnútorného kruhu prsteňa, ktorý sa nosí na tom istom prste ruky, na ktorej sa bude tento výrobok nosiť.",
+    "length": "Zmerajte vzdialenosť medzi hornou časťou trupu a dolnou časťou pása (tesne pod bruchom).",
+    "fist": "Vyznačte okolo zápästia metrom presne to miesto, kde sa nosia hodinky.",
+    "calf": "Sadnite si na stoličku, chodidlo držte na zemi a potom nohu pokrčte do uhla 90 stupňov. Pomocou pásky zmerajte vzdialenosť od základne chodidla po miesto, kde sa ohýba koleno.",
+    "shoulderWidth": "Za pomoci inej osoby zmerajte vzdialenosť medzi koncami ramien.",
+    "ring": "Uviažte tenký povrázok okolo prsta, na ktorom chcete nosiť tento výrobok, označte spojenie povrázku a zmerajte dĺžku, aby ste získali obvod.",
+    "centralSeam": "Pomocou metra zmerajte vzdialenosť medzi pásom a povrchom v sede na rovnom povrchu."
+  },
+  "privacy": {
+    "services": {
+      "anchor": "Služby Sizebay",
+      "text": "Služby SIZEBAY sú dostupné na e-commerce platforme vo forme softvéru ako služby (SaaS), čo znamená, že SIZEBAY poskytuje e-commerce licenciu na používanie softvéru.",
+      "title": "Ako robí SIZEBAY svoje služby dostupnými?"
+    },
+    "clear_data": {
+      "button": {
+        "initial": "Vymazať všetky údaje",
+        "cleared": "čisté!",
+        "cleaning": "Čistenie..."
+      },
+      "title": "Čistenie cookies",
+      "tooltip": "Vaše údaje boli vymazané!",
+      "text": "Kliknite na tlačidlo nižšie, ak chcete vymazať všetky svoje údaje prehliadania, vyrovnávaciu pamäť a súbory cookie uložené spoločnosťou Sizebay."
+    },
+    "contact": {
+      "title": "V prípade pochybností, ako sa skontaktovať?",
+      "text": "Ak máte akékoľvek otázky týkajúce sa zásad SIZEBAY alebo toho, ako môžete uplatniť svoje práva ako vlastník údajov, kontaktujte úradníka pre ochranu údajov (DPO) spoločnosti SIZEBAY:  \nJanderson Roberto Araujo  \nAdresa: R. Blumenau, 953 – Sala 402 – América, Joinville – SC, 89204-251 – Brazília.  \nTelefón: +55 48 4042-0150  \nE-mail: privacy@sizebay.com\n\nPozrieť viac zásad"
+    },
+    "data_protection": {
+      "anchor": "Ochrana údajov",
+      "title": "Ako chráni SIZEBAY svoje údaje?",
+      "text": "SIZEBAY považuje dôvernosť a bezpečnosť informácií svojich zákazníkov, používateľov a návštevníkov za mimoriadne dôležité; preto používa technológiu šifrovania a firewallu a urobí všetko, čo je v jeho silách, aby zabezpečil ochranu vašich údajov a informácií. Odporúčame, aby ste pravidelne čistili súbory cookie uložené vo vašom prehliadači, aby sa zabránilo odstráneniu zhromaždených informácií z databázy SIZEBAY, ako aj z iných navštívených webových stránok."
+    },
+    "how_data_is_collected": {
+      "text": "Zhromažďovanie údajov sa vykonáva, keď používateľ poskytne informácie pri používaní služieb Virtuálnej skúšobnej kabíny a Tabuľky veľkostí, alebo prostredníctvom cookies, keď používateľ pristupuje k aplikácii alebo webovej stránke SIZEBAY.",
+      "title": "Ako SIZEBAY zbiera údaje?"
+    },
+    "users_obligations": {
+      "anchor": "Povinnosti používateľov",
+      "title": "Aké sú povinnosti používateľa?",
+      "text": "Používatelia aplikácie sa zaväzujú používať služby SIZEBAY vždy s rešpektovaním a dodržiavaním zásad, ako aj platnej legislatívy, zvykov, verejného poriadku a povinných požiadaviek potrebných na používanie a prijatie platformy."
+    },
+    "data_collected": {
+      "title": "Aké údaje zbiera SIZEBAY?",
+      "text": "Na poskytovanie svojich služieb môže SIZEBAY zhromažďovať profilové údaje, ako sú prezývka (nepovinné), vek, pohlavie, výška, váha, anatomický profil a telesné miery. Okrem toho môžu byť zhromažďované údaje z prístupových denníkov a súbory cookie, aby sa zlepšila užívateľská skúsenosť a uľahčilo používanie aplikácie, bez potreby opätovného poskytnutia údajov už informovaných používateľom v prípade ďalšieho nákupu alebo analýzy produktu.\n\nSIZEBAY bude tiež schopná zhromažďovať údaje z objednávky uskutočnenej na e-commerce, aby analyzovala odporúčanú veľkosť a skutočne zakúpenú veľkosť, s cieľom zlepšiť dostupné služby pre odporúčanie veľkosti oblečenia a obuvi.\n\nUjasňujeme, že aplikácia SIZEBAY sa zaoberá ochranou súkromia svojich používateľov, preto boli služby vyvinuté tak, aby sa zhromažďovanie údajov uskutočňovalo bez možnosti identifikácie vlastníkov údajov.",
+      "anchor": "Zhromaždené údaje"
+    },
+    "how_it_works": {
+      "anchor": "Ako to funguje?",
+      "title": "Ako funguje prístup do virtuálnej skúšobnej kabínky a tabuľky veľkostí?",
+      "text": "Na používanie služieb nie je potrebné, aby sa používateľ zaregistroval na platforme SIZEBAY. Prístup k tabuľke Fit & Size bude dostupný a na použitie virtuálnej skúšobnej miestnosti je potrebné, aby používateľ vyplnil niektoré základné informácie, aby aplikácia mohla odporučiť veľkosť oblečenia a obuvi.\n\nVytvorenie profilu v aplikácii SIZEBAY nevyžaduje, aby používateľ použil svoje meno alebo priezvisko, a môže dokonca vyplniť fiktívne údaje, ak má záujem viac chrániť svoje súkromie.\n\nMaloletí nebudú môcť používať aplikáciu, pokiaľ nebudú zastúpení a/alebo asistovaní rodičmi alebo opatrovníkmi."
+    },
+    "title": "Súkromie",
+    "overview": {
+      "title": "Na čo slúžia Podmienky používania a Zásady ochrany osobných údajov?",
+      "text": "Podmienky používania SIZEBAY sú určené na reguláciu: (i) používania služieb sprístupnených spoločnosťou SIZEBAY prostredníctvom e-commerce platformy jej zákazníkov, a tiež (ii) prístupu a obsahu sprístupneného na webovej stránke SIZEBAY, (iii) povinností používateľov, návštevníkov a zákazníkov platformy a webovej stránky pri používaní aplikácie alebo prístupe na webovú stránku SIZEBAY, (iv) zodpovednosti zúčastnených strán.\n\nZásady ochrany osobných údajov majú za cieľ objasniť, ako SIZEBAY spracúva údaje počas používania a prístupu k jeho aplikácii a webovej stránke, práva držiteľa a ako ich môže uplatniť voči SIZEBAY sú tiež objasnené.\n\nPri prístupe a používaní Virtuálnej skúšobne a Tabuľky veľkostí a rozmerov súhlasíte s politikami SIZEBAY. Na celý text politík SIZEBAY sa môžete dostať prostredníctvom odkazu.\n\nNižšie vám zhrnieme hlavné informácie:",
+      "anchor": "Súkromie"
+    },
+    "share_data": {
+      "text": "Zdieľanie údajov môže byť vždy vykonané s cieľom umožniť lepší online nákupný zážitok alebo aby aplikácia mohla fungovať, a preto môže byť vykonané so: zákazníkmi, obchodnými partnermi, poskytovateľmi služieb, subdodávateľmi, výrobcami odevov a obuvi.",
+      "title": "S kým môže SIZEBAY zdieľať údaje?"
+    }
+  },
+  "product_not_found": {
+    "report_status": {
+      "sending": "Oznamovanie...",
+      "sent": "Ďakujeme!",
+      "not_sending": "Upozornite nás",
+      "not_sent": "Upozornite nás"
+    },
+    "description": "Stále nemáme dostatok informácií o tomto produkte, aby sme ho mohli odporučiť.",
+    "title": "To nie!"
+  },
+  "languages": {
+    "all_langs": {
+      "fr": "Francúzsky",
+      "et": "Estónsky",
+      "es": "Španielsky",
+      "en": "Anglický",
+      "fi": "Fínsky",
+      "dk": "Dánsky",
+      "cn": "Čínština",
+      "de": "Nemecký",
+      "cz": "Český",
+      "br": "Portugalský",
+      "ar": "Arabský",
+      "bg": "bulharčina",
+      "mx": "Španielsky",
+      "no": "Nórsky",
+      "nl": "Holandský",
+      "lt": "Litovský",
+      "lv": "Lotyšský",
+      "jp": "Japonský",
+      "ko": "Kórejský",
+      "it": "Taliansky",
+      "hu": "Maďarský",
+      "hr": "Chorvátsky",
+      "id": "Indonézia",
+      "gr": "Grécky",
+      "he": "Hebrejčina",
+      "vn": "Vietnamský",
+      "uk": "Anglický",
+      "th": "Thajský",
+      "tr": "Turecký",
+      "sr": "srbský",
+      "sv": "Švédsky",
+      "sl": "slovensky",
+      "sk": "slovenský",
+      "ru": "Ruský",
+      "ro": "rumunský",
+      "pt": "Portugalský",
+      "pl": "Poľský",
+      "esAR": "Španielsky",
+      "esCT": "španielčina (katalánsky)",
+      "ukr": "Ukrajinčina",
+      "zh": "Čínsky"
+    },
+    "select": "Dostupné jazyky: {{langs}}",
+    "box": "Výber jazyka, používate jazyk {{currentLang}}"
+  },
+  "garment_measurements": {
+    "hip_width": "Šírka bokov",
+    "thigh_width": "Šírka stehna",
+    "head_circumference": "Obvod hlavy",
+    "lower_waist_circumference": "Nižší obvod pása",
+    "collar": "Golier",
+    "waistband_circumference": "Obvod pásu",
+    "hip_circumference": "Obvod bokov",
+    "biceps": "Biceps",
+    "waistband_width": "Šírka pásu",
+    "hem": "Hem",
+    "lower_waist_width": "Šírka spodného pásu",
+    "chest_circumference": "Obvod hrudníka",
+    "waist_circumference": "Obvod pása",
+    "insole_width": "Šírka vložky",
+    "palm_length": "Dĺžka dlane",
+    "shoulder_length": "Dĺžka po plecia",
+    "length": "Dĺžka",
+    "waist_width": "Šírka pásu",
+    "chest_width": "Šírka hrudníka",
+    "wrist_width": "Šírka zápästia",
+    "insole_length": "Dĺžka vložky",
+    "calf_width": "Šírka lýtka",
+    "heel_height": "Výška podpätku",
+    "front_length": "Dĺžka prednej strany",
+    "brim": "Okraj",
+    "sleeve": "Rukáv",
+    "thigh_circumference": "Obvod stehna",
+    "inside_leg": "Vnútorná dĺžka nohavíc",
+    "wrist_circumference": "Obvod zápästia",
+    "high_waist_circumference": "Obvod vysokého pásu",
+    "shaft_height": "Výška hriadeľa",
+    "calf_circumference": "Obvod lýtka",
+    "full_body_length": "Celková dĺžka tela",
+    "back_hook": "Zadný hák",
+    "platform_height": "Výška plošiny",
+    "circumference": "Obvod",
+    "hook": "Háčik",
+    "lower_length": "Nižšia dĺžka",
+    "under_bust": "Podprsenka pod prsiami",
+    "high_waist_width": "Šírka vysokého pásu",
+    "back_length": "Dĺžka chrbta"
+  },
+  "regions": {
+    "IT": "Taliansky",
+    "HU": "Maďarsky",
+    "FR": "Francúzsky",
+    "MX": "Mexický",
+    "CUSTOM": "Medzinárodné",
+    "JP": "Japonský",
+    "code": {
+      "CUSTOM": "CUSTOM",
+      "US": "US",
+      "UK": "UK",
+      "AU": "AU",
+      "IT": "IT",
+      "MEX": "MEX",
+      "JP": "JP",
+      "FR": "FR",
+      "EU": "EU",
+      "CN": "CN",
+      "BR": "BR",
+      "DE": "DE"
+    },
+    "ES": "Španielsko",
+    "EU": "Európsky",
+    "DE": "Nemecký",
+    "CN": "Čínsky",
+    "AU": "Austrálsky",
+    "BR": "Brazílsky",
+    "region": "Región",
+    "other": "Neznáme",
+    "mx_marti": "Marti",
+    "PT": "Portugalský PT",
+    "letter-br": "Brazílsky",
+    "US": "Americký",
+    "UK": "Britský"
+  },
+  "size_chart": {
+    "subtitle": "Posunutím zobrazíte ďalšie rozmery a veľkosti",
+    "title_web": "Porovnajte svoje miery s touto tabuľkou.",
+    "scroll_action": "Posuvník",
+    "subtitle_mobile": "Potiahnutím zobrazíte ďalšie rozmery a veľkosti",
+    "returns_link": "Zistite viac informácií o pravidlách vrátenia tovaru.",
+    "returns": "Ešte stále máte pochybnosti? Nebojte sa, prvé <strong>vrátenie je zadarmo.</strong>",
+    "title_accessory": "Veľkostná tabuľka pre toto príslušenstvo",
+    "title": "Vyberte veľkosť a skontrolujte rozmery",
+    "instruction_measure": "Pozrite si náš materiál o tom, ako sa zmerať a porovnajte svoje miery s touto tabuľkou.",
+    "title_mobile": "Svoje rozmery porovnajte s touto tabuľkou. Prejdite na jednotlivé stĺpce nižšie a zistite, aký spôsob merania vášho tela je najlepší."
+  },
+  "generics": {
+    "disable": "Vypnúť",
+    "less_than_year": "< 1 rok",
+    "profile_tooltip": "Kliknutím sem vytvoríte nové profily meraní",
+    "weight": "Váha",
+    "age": "Vek",
+    "accessibility": "Prístupnosť",
+    "language": "Jazyk",
+    "years": "Roky",
+    "female": "Ženské",
+    "size_fit": "Veľkosť",
+    "no_name": "Bez mena",
+    "pronoun_female": "moja",
+    "year": "Rok",
+    "suffix_male": "váš",
+    "months": "Mesiace",
+    "size_chart": "Tabuľka veľkostí",
+    "chart": "Tabuľka Rozmerov",
+    "closeVfr": "Zatvoriť Virtuálne Skúšanie",
+    "about": "O Sizebay",
+    "see_how_to_measure": "Pozrite sa, ako merať",
+    "kg": "Kilogramy",
+    "assistive_mode": "{{status}} prístupný režim",
+    "suffix_female": "vaša",
+    "switcher": {
+      "title_chart": "Merenia:"
+    },
+    "lb": "Libry",
+    "how_to_measure": "Ako sa merať",
+    "unavailable": "--",
+    "other_profiles": "Ďalšie profily",
+    "privacy": "Ochrana osobných údajov",
+    "ft": "Stopy",
+    "pronoun_male": "môj",
+    "got_it": "Rozumiem",
+    "enable": "Zapnúť",
+    "cm": "Centimetre",
+    "height": "Výška",
+    "male_singular": "mužský",
+    "uninformed": "Neinformovaný",
+    "female_singular": "ženská",
+    "profile": {
+      "title": "Používateľský profil"
+    },
+    "male": "Mužské",
+    "confirm_edit": "OK"
+  },
+  "privacy_v2": {
+    "overview": {
+      "text": "<p>Aby ste mohli lepšie porozumieť Zásadám, ktoré upravujú používanie riešení vyvinutých spoločnosťou<strong> SIZEBAY </strong>, vypracovali sme pre vás tento stručný prehľad. Tento prehľad nenahrádza kompletný obsah Zásad, preto vám odporúčame, aby ste si po jeho prečítaní pozorne prečítali každý dokument.</p><p> <strong>ZÁSADY A PODMIENKY POUŽÍVANIA</strong> <strong>SIZEBAY</strong> upravujú: (i) používanie služieb, ktoré poskytuje <strong>SIZEBAY</strong>, prostredníctvom platformy elektronického obchodu <a href={{pageTenant }} target=_blank>{{{tenantName }} ({{ pageTenant }})</a>, a taktiež (ii) prístup a obsah dostupný na webovej stránke <strong>SIZEBAY</strong>, ( iii) povinnosti používateľov, návštevníkov a zákazníkov platformy a webovej stránky počas používania aplikácie alebo pri prístupe na webovú stránku <strong>SIZEBAY</strong>, (iv) zodpovednosť zúčastnených strán. </p>{{ pagePrivacyTenant }}<p>Cieľom <strong> ZÁSAD OCHRANY OSOBNÝCH ÚDAJOV </strong> je ozrejmiť, ako <strong>SIZEBAY </strong> spracúva údaje počas používania a pristupovania k aplikácii a webovej lokalite, objasňujú sa tiež práva držiteľov a spôsob, akým ich môžu uplatňovať v <strong>SIZEBAY </strong>.</p>",
+      "title": "Prehľad"
+    },
+    "clear_data": {
+      "text": "Vyčistite všetky navigačné dáta, vyrovnávaciu pamäť a súbory cookie, ktoré boli uložené v Sizebay",
+      "button": {
+        "initial": "Vymažte všetky súbory cookie"
+      }
+    },
+    "person": {
+      "first": {
+        "name": "Marcelo Bastos",
+        "info": "<li>Európska únia</li> <li>privacy@sizebay.com</li>"
+      },
+      "second": {
+        "name": "Janderson Roberto Araujo",
+        "info": "<li>Iné lokality</li> <li>privacy@sizebay.com</li>"
+      }
+    },
+    "services": {
+      "title": "Ako poskytuje SIZEBAY svoje služby?",
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/computer-face.svg /><p> Služby  <strong>SIZEBAY</strong> sú na platforme elektronického obchodu dostupné vo forme softvéru ako služby (SaaS), čo znamená, že <strong>SIZEBAY</strong> poskytuje elektronickému obchodu licenciu na používanie softvéru.</p></span> <div><img src=https://static.sizebay.technology/assets/icons/computer-face.svg /></div>"
+    },
+    "contact": {
+      "text": "<p>Pokiaľ máte akékoľvek otázky týkajúce sa Zásad spoločnosti <strong>SIZEBAY</strong> alebo spôsobu, akým môžete uplatniť svoje práva ako držiteľ údajov, obráťte sa na zodpovednú osobu pre ochranu údajov (DPO) spoločnosti  <strong>SIZEBAY</strong>:",
+      "title": "V prípade pochybností, ako kontaktovať?"
+    },
+    "data_collected": {
+      "title": "Aké údaje zbiera SIZEBAY?",
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/cookies.svg /><p> Za účelom poskytovania svojich služieb môže <strong>SIZEBAY</strong> zhromažďovať profilové údaje, ako sú prezývka (nepovinné), vek, pohlavie, výška, hmotnosť, anatomický profil a telesné miery. Okrem toho môžu byť zhromažďované údaje z protokolov o prístupe a súbory cookie s cieľom vylepšiť používateľský zážitok a uľahčiť používanie aplikácie bez nutnosti opätovného poskytovania údajov, ktoré už používateľ uviedol pri ďalšom nákupe alebo analýze produktu. .</p></span><span><img src=https://static.sizebay.technology/assets/icons/bag.svg /><p> <strong>SIZEBAY</strong> môže tiež zhromažďovať údaje z objednávky nákupu uskutočnenej v elektronickom obchode s cieľom vykonávať analýzy medzi odporúčanou veľkosťou a skutočne zakúpenou veľkosťou s cieľom zlepšiť služby odporúčania veľkosti kusov oblečenia a obuvi.</p></span><span><img src=https://static.sizebay.technology/assets/icons/anonymous-person.svg /><p> Ujasňujeme, že aplikácia <strong>SIZEBAY</strong> berie ohľad na súkromie svojich používateľov, preto sa služby vyvinuli tak, aby sa zber údajov vykonával bez toho, aby bolo možné identifikovať údaje ich držiteľov.</p></span><div><img src=https://static.sizebay.technology/assets/icons/cookies.svg /> <img src=https://static.sizebay.technology/assets/icons/bag.svg /> <img src=https://static.sizebay.technology/assets/icons/anonymous-person.svg /></div>"
+    },
+    "how_it_works": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/mannequin.svg /><p> Ak chcete využívať služby, nie je potrebné, aby sa používateľ zaregistroval na platforme <strong>SIZEBAY</strong>. Prístup k tabuľke rozmerov bude vždy k dispozícii. Na používanie virtuálnej skúšobne musí používateľ vyplniť niekoľko základných informácií, aby mu aplikácia mohla odporučiť veľkosť oblečenia a obuvi.</p></span><span><img src=https://static.sizebay.technology/assets/icons/anonymous.svg /><p> Vytvorenie profilu v aplikácii <strong>SIZEBAY</strong> si nevyžaduje, aby používateľ uviedol svoje meno alebo priezvisko, a môže vyplniť aj fiktívne údaje, ak má záujem o ešte väčšie zachovanie svojho súkromia.</p></span><span><img src=https://static.sizebay.technology/assets/icons/persons.svg /><p> Mladistvé osoby nemôžu používať aplikáciu, pokiaľ ich nezastupujú a/alebo im nepomáhajú rodičia alebo opatrovníci.</p></span><div><img src=https://static.sizebay.technology/assets/icons/mannequin.svg /><img src=https://static.sizebay.technology/assets/icons/anonymous.svg /><img src=https://static.sizebay.technology/assets/icons/persons.svg /></div>",
+      "title": "Ako funguje prístup k službám Virtuálna skúšobná kabína a Virtuálny stôl?"
+    },
+    "share_data": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/share.svg /><p> Zdieľanie údajov možno vykonať vždy s cieľom poskytnúť lepší zážitok z nakupovania online alebo umožniť fungovanie aplikácie, teda ho možno vykonať so: zákazníkmi a dodávateľmi.</p></span><div><img src=https://static.sizebay.technology/assets/icons/share.svg /></div>",
+      "title": "S kým môže SIZEBAY zdieľať údaje?"
+    },
+    "actions": {
+      "terms": {
+        "content": "<li><a href=https://home.sizebay.com/{{lang}}/legal/conditions-of-use target=_blank>Podmienky používania</a></li><li><a href=https://home.sizebay.com/{{lang}}/legal/privacy target=_blank>Zásady ochrany osobných údajov</a></li><li><a href=https://home.sizebay.com/{{lang}}/legal/cookies-policy target=_blank>Zásady používania súborov cookie</a></li>",
+        "conditions-use": "Podmienky používania",
+        "privacy": "Zásady ochrany osobných údajov",
+        "cookies": "Zásady používania súborov cookie",
+        "title": "Podmienky"
+      },
+      "statements": {
+        "gdpr": "Súlad s GDPR",
+        "title": "Vyhlásenie",
+        "lgpd": "Súlad s LGPD",
+        "content": "<li><a href=https://home.sizebay.com/{{lang}}/legal/gdpr target=_blank >Súlad s GDPR</a></li><li><a href=https: / /home.sizebay.com/{{lang}}/legal/lgpd target=_blank >Súlad s LGPD</a></li><li><a href=https://home.sizebay.com/{ {lang }}/legal/ccpa target=_blank >Súlad so zákonom CCPA</a></li><li><a href=https://sizebay.com/{{lang}}/legal/pipl target=_blank >Súlad s PIPL </a></li>",
+        "pipl": "Súlad s PIPL",
+        "ccpa": "Súlad so zákonom CCPA"
+      },
+      "title": "Prístup na naše stránky s podmienkami",
+      "redirect_privacy": {
+        "text": "Kliknutím tu budete presmerovaní na {{ tenantName }} stránku so zásadami ochrany osobných údajov"
+      }
+    },
+    "how_data_is_collected": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/computer-hanger.svg /><p> Zhromažďovanie údajov sa vykonáva, keď používateľ poskytne informácie pri používaní služieb Virtua Fitter a Measurement Table, alebo prostredníctvom súborov cookie, keď používateľ pristupuje k aplikácii <strong>SIZEBAY</strong> alebo na webovú stránku opätovne. Údaje, ktoré už používateľ uviedol pri inom nákupe alebo analýze produktu.</p></span><div><img src=https://static.sizebay.technology/assets/icons/computer-hanger.svg /></div>",
+      "title": "Ako SIZEBAY zhromažďuje údaje?"
+    },
+    "users_obligations": {
+      "title": "Aké sú povinnosti používateľa?",
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/obligations.svg /><p> Používatelia aplikácie sa zaväzujú využívať služby  <strong>SIZEBAY</strong> vždy s ohľadom na rešpektovanie a dodržiavanie Zásad, ako aj platných právnych predpisov, zvyklostí, verejného poriadku, ako aj povinných požiadaviek požadovaných pre používanie a akceptovanie používania platformy.</p></span><div><img src=https://static.sizebay.technology/assets/icons/obligations.svg /></div>"
+    },
+    "data_protection": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/security.svg /><p> <strong>SIZEBAY</strong> pokladá dôvernosť a bezpečnosť informácií svojich zákazníkov, používateľov a návštevníkov za mimoriadne dôležitú. Preto používa technológiu Encryption a Firewall a spraví všetko, čo je v jej silách, aby zaručila ochranu vašich údajov a informácií.</p></span><span><img src=https://static.sizebay.technology/assets/icons/http.svg /><p> Odporúčame vám pravidelné čistenie súborov cookie uložených vo vašom prehliadači, aby ste z databázy <strong>SIZEBAY</strong> ako aj z iných navštívených stránok, nevymazali zhromaždené informácie.</p></span><div><img src=https://static.sizebay.technology/assets/icons/security.svg /> <img src=https://static.sizebay.technology/assets/icons/http.svg /></div>",
+      "title": "Ako SIZEBAY chráni vaše údaje?"
+    }
+  },
+  "garment_measures_info": {
+    "shaft_height": "Merajte od päty po vrch topánkového drieku.",
+    "shoulder_length": "Šírka od jedného švu rukáva k druhému na zadnej strane odevu.",
+    "full_body_length": "Merajte od horného švu po spodný lem celého kusu odevu.",
+    "hem": "Šírka spodnej časti dielu.",
+    "back_length": "Merajte od goliera po lem vrchnej časti, zozadu.",
+    "lower_waist_width": "Šírka pásu odevu s nízkym pásom.",
+    "hip_circumference": "Šírka odevu, približne 20 cm pod pásom, vynásobená dvoma.",
+    "palm_length": "Merajte od zápästia po špičku prostredníka.",
+    "calf_circumference": "Meranie okolo vrchnej časti sáry topánky, zvyčajne v najširšom bode lýtka.",
+    "head_circumference": "Zmerajte vnútornú časť klobúka, kde spočíva hlava.",
+    "sleeve": "Merajte od vnútornej strany, kde začína rukáv, po koniec manžety.",
+    "waist_width": "Šírka najužšej časti vrchu, medzi podpazuším a spodným lemom.",
+    "thigh_width": "Šírka najširšej časti stehna.",
+    "waistband_circumference": "Meranie horného otvoru odevu.",
+    "circumference": "Zmerajte okolo kusu, zvyčajne vynásobením šírky 2.",
+    "lower_waist_circumference": "Šírka odevu, tesne pod prirodzeným pásom, vynásobená dvoma.",
+    "high_waist_width": "Šírka pásu odevu s vysokým pásom.",
+    "chest_circumference": "Meranie šírky vrchného odevu z jednej strany na druhú, tesne pod pazuchou, vynásobené dvoma.",
+    "waist_circumference": "Šírka najužšej časti odevu vynásobená dvomi.",
+    "front_length": "Merajte od goliera po lem vrchnej časti, z prednej strany.",
+    "lower_length": "Merajte od pásu po lem odevu, z boku.",
+    "wrist_circumference": "Meranie obvodu otvoru rukáva, kde sedí na zápästí.",
+    "heel_height": "Merajte od základne skoku po najvyšší bod.",
+    "wrist_width": "Šírka rukoväte dielu.",
+    "hook": "Merajte od vrchu pásu po šev rozkroku.",
+    "thigh_circumference": "Meranie najširšej časti stehna odevu, tesne pod vnútorným švom.",
+    "platform_height": "Merajte od základne prednej časti topánky po vrchol platformy.",
+    "biceps": "Šírka rukáva, približne 2,5 cm pod pazuchou.",
+    "insole_width": "Zmerajte najširšiu časť stielky.",
+    "brim": "Merajte od základne po špičku okraja čiapky.",
+    "high_waist_circumference": "Zmerajte okolo pásu odevu s vysokým pásom.",
+    "hip_width": "Šírka kusu, 20 cm pod pásom.",
+    "length": "Merajte od hornej švy po spodný lem kusu.",
+    "chest_width": "Zmerajte šírku vrchnej časti, z jednej strany na druhú, tesne pod pazuchami.",
+    "calf_width": "Meranie šírky hriadeľa čižmy vo výške lýtka.",
+    "collar": "Šírka goliera blúzky, meraná okolo základne krku.",
+    "waistband_width": "Šírka pásu spodného dielu.",
+    "back_hook": "Merajte od pásu po švík rozkroku, na zadnej strane odevu.",
+    "insole_length": "Merajte od špičky päty po špičku prsta stielky.",
+    "under_bust": "Meranie šírky vrchného odevu z jednej strany na druhú, tesne pod prsiami, vynásobené dvoma.",
+    "inside_leg": "Merajte od rozkrokového švu po lem nohavíc"
+  },
+  "error": {
+    "close": "Odchod zo skúšobne",
+    "title": "Ups, niečo sa pokazilo!",
+    "options": "Profil môžete skúsiť opätovne spustiť alebo ho zatvoriť a skúsiť neskôr.",
+    "restart": "Reštart profilu",
+    "description": "Nemajte obavy, situáciu už vyšetrujeme, aby sme zabránili jej opakovaniu."
+  },
+  "recommendation": {
+    "3d_feel": {
+      "lanes": {
+        "large": "príliš voľné",
+        "ideal": "ideálne",
+        "slightly_loose": "trochu voľné",
+        "loose": "voľné",
+        "slightly_fit": "trochu úzke",
+        "tight": "veľmi úzke",
+        "fit": "úzke"
+      },
+      "title_suggested": "Najlepšia možnosť"
+    },
+    "lanes": {
+      "tight": "SNUG",
+      "ideal": "IDEÁLNE",
+      "fit": "ÚZKE",
+      "looser": "VOĽNEJŠIE",
+      "large": "ŠIROKÉ",
+      "loose": "VOĽNÉ",
+      "tighter": "UŽŠIE"
+    },
+    "title_not_suggested": "neodporúča sa",
+    "measurements": {
+      "title": "Merania",
+      "conversion": {
+        "title": "Prevod veľkostí"
+      }
+    },
+    "centered_mode": {
+      "controls": {
+        "appearance": "Vzhľad",
+        "comfort": "Komfort"
+      },
+      "comfort_map": {
+        "header": "Farby na 3D obrázku naznačujú, ako tesný alebo voľný bude odev na vašom tele."
+      },
+      "tag_info": "3D simulácia tela znázorňuje vaše individuálne telesné rozmery a reálne prispôsobenie produktu.",
+      "measure_name": "na vašom {{measureName}}"
+    },
+    "title_suggested": "je najlepšou možnosťou",
+    "height_warning": {
+      "threshold": {
+        "long": "dlhé",
+        "short": "krátke"
+      },
+      "message": "príliš {{threshold}} na tých, ktorí majú {{height}}"
+    },
+    "shoe": {
+      "insoleLength": "dĺžka",
+      "insoleWidth": "šírka"
+    },
+    "subtitle": "Nižšie si pozrite úrovne pohodlia",
+    "subtitle_shoe": "Na základe vašej {{brandName}} veľkosti {{size}}",
+    "title_also_fits": "tiež vyhovuje",
+    "carousel_also_try": "Skúste tiež veľkosti:"
+  },
+  "product_comparison": {
+    "elements": {
+      "edit": "Upraviť",
+      "foot_format": "Tvar chodidla",
+      "category": "Kategória",
+      "brand": "Značka",
+      "size": "Veľkosť"
+    },
+    "title": "Porovnanie produktu",
+    "subtitle": "Tieto údaje sa používajú pri odporúčaní veľkosti."
+  },
+  "warnings": {
+    "age_group": {
+      "age_group": "{{ageGroup}} produkt",
+      "limit_reached": "Celkový počet profilov dosiahol svoj limit. Odstráňte profil a pridajte nový.",
+      "subtitle": "Vekové rozpätie produktu sa nezhoduje s vekom profilu {{profileName}}. Vyberte alebo pridajte profil, aby ste mohli pokračovať.",
+      "prompt_message": "Chcete si vyskúšať aj oblečenie zo sekcie ({{ ageGroup }})?"
+    },
+    "we_need_more_measures": {
+      "subtitle": "Nepodarilo sa nám vypočítať vaše rozmery. Nižšie uvedené miery prosím upravte alebo sa vráťte a skontrolujte údaje.",
+      "title": "Zadajte svoje rozmery"
+    },
+    "unmatched_gender": {
+      "choose_a_profile": "Vyberte požadovaný profil",
+      "select_profile": "Nie, vyberte si iný profil",
+      "tooltip": "Tento profil nie je vhodný pre vybraný typ výrobku",
+      "title": "Chcete si vyskúšať aj oblečenie zo sekcie {{gender}}?",
+      "create_profile": "Nie, vytvorte si iný profil"
+    }
+  },
+  "brands_list": {
+    "search_question": "Akú značku zvyčajne nosíte?",
+    "not_found": {
+      "title": "Ups!",
+      "subtitle": "Nenašli sa žiadne výsledky."
+    },
+    "subtitle": "Po zodpovedaní niekoľkých otázok vám pomôžeme vybrať tú najlepšiu veľkosť topánok.",
+    "title": "Virtuálna skúšobná kabínka",
+    "search_placeholder": "Zadajte značku",
+    "title_restricted": "Nosíte naše topánky?"
+  },
+  "age_group": {
+    "adult": "Dospelý",
+    "kids": "Deti"
+  },
+  "a11y": {
+    "Chart": {
+      "vfr_button": "Stlačte medzerník pre vstup do virtuálnej skúšobne",
+      "step_blocks": {
+        "table": {
+          "measure_description": "Toto je veľkosť {{size}}, na {{measureName}} by mala merať {{measure}}"
+        },
+        "switcher": {
+          "instruction_press_space": "Stlačte medzerník na prepínanie hodnôt",
+          "option": "Vaša aktuálna hodnota je {{value}}"
+        }
+      },
+      "greeting": "Toto je tabuľka veľkostí",
+      "size_system": {
+        "instruction": "Váš aktuálny systém veľkostí je {{sizeSystem}}. Stlačte medzerník na výber inej možnosti."
+      },
+      "instruction": "Tu môžete porovnať svoje rozmery s tými, ktoré sú uvedené v našej tabuľke"
+    },
+    "shoe": {
+      "Brands": {
+        "highlighted": {
+          "edit_negative": "Stlačte medzerník, ak nenosíte žiadnu z týchto značiek",
+          "edit_action": "Stlačte medzerník na pokračovanie s vybranou značkou",
+          "instruction": "Stlačte medzerník na pokračovanie s {{brandName}}"
+        },
+        "restricted": {
+          "greeting": "Vitajte v skúšobnej miestnosti obuvi obmedzených značiek. Vyberte si jednu zo značiek obuvi, ktorú už nosíte"
+        }
+      },
+      "FootSize": {
+        "instruction": "Stlačte medzerník pre výber systému veľkostí {{ sizeSystem }}"
+      },
+      "EditData": {
+        "greeting": "Tu môžete upraviť informácie o chodidle a obuvi, ktoré ste nám poslali"
+      },
+      "FootFormat": {
+        "instruction": "Vyberte tvar chodidla.",
+        "edit_action": "Stlačte medzerník na výber {{ shoeFormat }}"
+      }
+    },
+    "drawer": {
+      "measurement_tape_header": "Páska",
+      "measurement_tape_handle": "Meracia páska. Stlačte medzerník pre prístup k meracej páske",
+      "close_group_handle": "Stlačte medzerník na zatvorenie skupiny",
+      "measurement_tape_print_button": "Stlačte medzerník na otvorenie meracieho pásma"
+    },
+    "clothes": {
+      "Welcome": {
+        "step_blocks": {
+          "gender": {
+            "question": "Vyberte si pohlavie, aby ste mohli pokračovať. Vaše aktuálne pohlavie je {{gender}}"
+          },
+          "age": {
+            "tooltip": "Stlačte medzerník pre zobrazenie ďalších informácií o tom, ako vek ovplyvňuje odporúčania"
+          },
+          "height": {
+            "question": "Zadajte svoju výšku v {{measurementSystem}} sem."
+          }
+        }
+      },
+      "ProfilesMenu": {
+        "blocks": {
+          "greeting": "Toto sú všetky vaše profily vo virtuálnej skúšobnej kabínke",
+          "edit": "Tu si môžete vybrať, či chcete pridať alebo odstrániť profily"
+        },
+        "chip": {
+          "message": "Stlačte medzerník pre zobrazenie ďalších podrobností o vašom profile {{profileName}}"
+        }
+      },
+      "Recommendation": {
+        "lane": "Veľkosť {{ size }} je {{ label }} na {{ measureName }}",
+        "carousel_instruction": "Nájdite viac možností veľkostí tu"
+      },
+      "measures": {
+        "edit": "Stlačte klávesy so šípkami na zvýšenie alebo zníženie miery {{measureName}}",
+        "read": "Vaša {{measureName}} meria {{measureValue}} v {{measureSystem}}"
+      }
+    },
+    "generics": {
+      "welcome": "Vitajte vo virtuálnej skúšobnej kabínke"
+    }
+  },
+  "welcome": {
+    "age_disclaimer": "Postava sa v priebehu rokov mení, čo ovplyvňuje naše výpočty.",
+    "gender_f_kids": "Ženský",
+    "title": "Virtuálna skúšobná kabínka",
+    "gender_m_kids": "Mužský",
+    "foot_measurement_known": "Už poznám svoju veľkosť nohy",
+    "gender_m": "Muž",
+    "shoe_measure": "Dĺžka chodidla",
+    "gender_f": "Žena",
+    "gender_u": "Unisex",
+    "subtitle": "Vyplňte údaje a vyskúšajte tento produkt"
+  },
+  "edit_measures": {
+    "view_less": "Zobraziť menej meraní",
+    "view_all": "Viac meraní"
+  },
+  "drawers": {
+    "manage": {
+      "actions": {
+        "select": "Vyberte",
+        "delete": "Vymazať"
+      },
+      "active_profile": {
+        "details_shoe": "{{brandName}} veľkosť {{size}}",
+        "no_name": "Zadajte meno",
+        "delete": "Odstrániť profil"
+      },
+      "new_profile": {
+        "input_example": "Príklad: John Smith",
+        "title": "Pridať profil",
+        "subtitle": "Zadajte názov tohto profilu"
+      }
+    },
+    "knobs": {
+      "kids_shoes_tips": "Tipy pre veľkosti",
+      "garment_info": "Rozmery odevov",
+      "size_content": "Sprievodca štýlom",
+      "measurement_tape": "Meracia páska",
+      "product_info": "Telesné miery",
+      "size_hint_promo": "Doplňte promo",
+      "size_hint": "Návrh",
+      "sizes_conversions": "Prevody veľkostí"
+    },
+    "kids_shoes_title": "Tipy a pokyny pre detské nohy a obuv",
+    "kids_shoes_button": "Mám to",
+    "kids_shoes_message": "Nohy detí sa každé 2 až 4 mesiace zväčšia o polovicu. Kvôli tomuto rýchlemu rastu odporúčame zaobstarať dieťaťu o niečo voľnejšie veľkosti, aby mu obuv dlhšie vydržala a netlačila ho na chodidlách, ktoré sa rýchlo vyvíjajú."
+  },
+  "landscape_vertical_subtitle": "Umiestnite svoje zariadenie do zvislej polohy, aby ste mohli začať používať",
+  "coppa_gate": {
+    "close": "Nie, mám menej ako 13 rokov",
+    "confirm": "Áno, som poručník",
+    "prompt_title_months": "Ste rodič alebo zákonný zástupca dieťaťa, ktoré má {{ months }} mesiacov?",
+    "message": "Ak ste dospelý, ktorý si tento profil vytvoril, aby vyskúšal produkt pre svoje dieťa, môžete tento produkt naďalej skúšať.",
+    "prompt_title_years": "Ste rodič alebo zákonný zástupca dieťaťa, ktoré má {{ years }} rokov?",
+    "title": "Overenie veku"
+  },
+  "fetching": {
+    "subtitle": "Vypočítavame vaše telesné miery, aby sme vám mohli odporučiť ideálnu veľkosť.",
+    "title": "Už to skoro je!",
+    "shoe": {
+      "success": "Výpočet dokončený!",
+      "calculating": "Vypočítavanie vašich meraní",
+      "analyzing": "Analyzovanie vašich odpovedí"
+    }
+  },
+  "landscape_subtitle": "Ak chcete začať, podržte telefón vo vodorovnej polohe. ",
+  "measurement_tape": {
+    "link_download": {
+      "in": "//static.sizebay.technology/assets/measurement_tape/measurement_tape_in_sk.pdf",
+      "cm": "//static.sizebay.technology/assets/measurement_tape/measurement_tape_cm_sk.pdf"
+    },
+    "title": "Merací pás",
+    "message": "Vytlačte, vystrihnite a zostavte tento merací pás, aby ste si overili svoje miery.",
+    "print": "Merací pás",
+    "print_mobile": "Vytlačiť merací pás",
+    "download": {
+      "file": {
+        "title": "Pokyny na tlač a montáž meracieho pásu",
+        "fold-and-rotate": "zložte a otočte",
+        "how-to-do": "Tlač:\nPri tlači sa uistite, že možnosť 'prispôsobiť na stránku' v dialógovom okne tlače je vypnutá, aby tlačiareň nezmenšovala alebo zväčšovala rozmery pásky.\n\nVystrihnutie:\nPomocou nožníc alebo rezačky vystrihnite všetky čierne nepretržité čiary označené 'nožnicami', aby ste vytvorili segmenty pásky.\n\nMontáž:\nZložte a otočte konce (ako je uvedené na tlači), spájajúc bodkované čiary, kým nevytvoríte jednu pásku.\n\nUpevnenie záhybov:\nPo montáži upevnite záhyby pásky pomocou lepidla, lepiacej pásky alebo sponkovača."
+      }
+    }
+  },
+  "foot_size": {
+    "select_region": "Vyberte Región:",
+    "not_selected": "Uistite sa, že ste vybrali veľkosť, aby ste mohli pokračovať",
+    "title": "Aká je tvoja veľkosť topánok?",
+    "pattern": "Vzor {{region}}",
+    "subtitle": "Vyberte si svoju veľkosť v"
+  },
+  "child_name": {
+    "name": "Meno",
+    "title": "Mohli by ste nám povedať meno vášho dieťaťa?",
+    "subtitle": "To nám pomôže vytvoriť profil pre skúšobnú kabínku"
+  },
+  "size_hint": {
+    "title": "Vybrali sme niekoľko produktov, ktoré by vám tiež mohli vyhovovať",
+    "discount-original-price": "Bežná cena:",
+    "discount-lowest-price": "Najnižšia cena z 30 dní pred zľavou: <span class='size-hint__discount-lowest-price discount-description-price'>{{ price }}</span> <span class='size-hint__discount-percentage'>-{{ discount }}%</span>",
+    "title_promo": "Doplňte promo",
+    "try_now": "Skúste teraz"
+  },
+  "size_tailor": {
+    "action_button": "Na mieru pre vás",
+    "title": "Výrobok na mieru",
+    "description": "Potvrďte svoje telesné miery, aby sme vám mohli vytvoriť výrobok na mieru."
+  },
+  "miscellaneous": {
+    "hannaLinks": {
+      "recommendation": "Späť na moje výsledky",
+      "welcome": "Späť"
+    }
+  },
+  "measure_shape": {
+    "shape_bigger": "Väčšie",
+    "shape_smaller": "Menšie",
+    "skin_types": {
+      "toggle": "Zmena farby pokožky"
+    },
+    "subtitle": "Toto je približný tvar tela, ktorý sme vygenerovali na základe vašich rozmerov. Ak je to potrebné, zmeňte ho.",
+    "measure_range": {
+      "1": "Oveľa menšie",
+      "2": "Menšie",
+      "3": "Priemerná",
+      "4": "Väčší",
+      "5": "Oveľa väčší"
+    },
+    "shape_regular": "Normálne",
+    "title": "Prispôsobenie tvaru tela"
+  },
+  "calculating": {
+    "subtitle": "Skontrolujte merania a v prípade potreby ich upravte",
+    "circle_title_loading": "Načítavanie...",
+    "circle_title_completed": "Pripravený!",
+    "title": "Dokončené výpočty!"
+  },
+  "brands_grid": {
+    "subtitle": "Ktorú značku zvyčajne nosíte?",
+    "unique_brand": "Už nosíte {{ brandName }} topánky?",
+    "search_other_brands": "Hľadaj inú značku"
+  },
+  "modals": {
+    "remove_profile": {
+      "title_alt": "Naozaj chcete odstrániť tento profil?",
+      "title": "Odstrániť profil {{profileName}}?",
+      "action": "Odstrániť profil",
+      "confirm": "Vymazanie profilu"
+    }
+  },
+  "no_recommendation": {
+    "expected_size": "Odporúčaná veľkosť je {{recommendedSize}}.",
+    "title_shoe": "Tento model a veľkosť bohužiaľ momentálne nie sú v našom obchode k dispozícii.",
+    "based_on": "Odporúčanie vychádza z vašich rozmerov a veľkosti produktu {{brandName}} veľkosti{{size}} ktorý používate.",
+    "calculate_again": "Prepočítajte",
+    "title": "Nenašli sme žiadnu veľkosť",
+    "subtitle": "Pre nižšie uvedené rozmery sa nám nepodarilo nájsť veľkosť. Ak je to potrebné, upravte veľkosť."
+  },
+  "accessory": {
+    "welcome": {
+      "subtitle": "Aby ste mohli vyskúšať tento produkt, postupujte podľa pokynov, vykonajte merania a uveďte príslušné číslo.",
+      "shoe": {
+        "subtitle": "Vyberte si rozmery chodidla podľa nášho návodu, ako si ho zmerať"
+      }
+    },
+    "bike": {
+      "recommendation": {
+        "title_suggested": "Odporúčaná veľkosť bicykla je najlepšia pre váš výkon a držanie tela. Nie je príliš vysoký ani príliš nízky, budete môcť pohodlne jazdiť na bicykli.",
+        "subtitle": "na základe vašej výšky",
+        "title_also_fits": "Odporúčaná veľkosť bicykla je najlepšia pre váš výkon a držanie tela. Nie je príliš vysoký ani príliš nízky, budete môcť pohodlne jazdiť na bicykli.",
+        "title_not_suggested": "Odporúčaná veľkosť bicykla je najlepšia pre váš výkon a držanie tela. Nie je príliš vysoký ani príliš nízky, na bicykli sa vám bude jazdiť pohodlne."
+      }
+    },
+    "shoe_size": {
+      "subtitle": "Ak chcete vyskúšať tento výrobok, vyberte si veľkosť zodpovedajúcu dĺžke vášho chodidla"
+    }
+  },
+  "foot_format": {
+    "formats": {
+      "0": {
+        "description": "Úzke chodidlá majú tendenciu mať viac miesta po stranách topánky.",
+        "title": "Úzky"
+      },
+      "1": {
+        "title": "Stredný",
+        "description": "Stredne veľké nohy sa zvyčajne dobre hodia do väčšiny topánok."
+      },
+      "2": {
+        "title": "Široký",
+        "description": "Široké chodidlá zodpovedajú dĺžke topánky, ale po bokoch sú tesné."
+      }
+    },
+    "subtitle": "Vyberte, aká široká je vaša noha, aby ste si zlepšili pohodlie.",
+    "title": "Formát Nohy"
+  },
+  "landscape_warning": {
+    "title": "Virtuálna skúšobná kabínka"
+  },
+  "my_measures": {
+    "title": "Moje rozmery",
+    "subtitle": "Upravte merania podľa potreby"
+  },
+  "subcategory": {
+    "subtitle": "Vyberte si jednu z podkategórií, ktorá najviac zodpovedá vašej {{brandName}} > {{categoryName}}",
+    "title": "Aká je podkategória?"
+  },
+  "model": {
+    "title": "O aký model ide?",
+    "subtitle": "Vyberte si jeden z modelov, ktorý sa najviac podobá na {{brandName}} > {{categoryName}} > {{subcategoryName}}"
+  },
+  "landscape_horizontal_subtitle": "Umiestnite svoje zariadenie vodorovne, aby ste mohli začať používať",
+  "category": {
+    "subtitle": "Vyberte si jednu z kategórií, ktorá najviac zodpovedá vášmu {{brandName}}",
+    "title": "Aký typ obuvi?"
+  },
+  "header": {
+    "title": "Fit Finder"
+  }
+}

@@ -1,0 +1,953 @@
+{
+  "shoe_size": {
+    "fit_loose": "Largo",
+    "shoe_accessory": {
+      "no_recommendation": {
+        "subtitle": "Non siamo riusciti a trovare una taglia per le misure qui sotto. Regolare se necessario.",
+        "title": "Non abbiamo trovato alcuna taglia"
+      },
+      "all_measures": {
+        "measurements_guide": "Guida alle misurazioni [PDF]",
+        "title": "Qual è la dimensione dei tuoi piedi?"
+      },
+      "info_drawer_subtitle": "Per trovare la taglia di scarpe migliore, perché non ci parli un po' di te?"
+    },
+    "recommendation": "In base alle tue informazioni, questa è la misura del tuo piede. Regola se necessario",
+    "foot_shape_question": "Qual è la forma del tuo piede?",
+    "title": "Qual è la lunghezza del tuo piede?",
+    "drawer_title": "Quanto sono lunghi i tuoi piedi",
+    "subtitle": {
+      "0": "Raccontaci qualcosa di te per trovare il numero di scarpe migliore",
+      "box": {
+        "subtitle": "Posiziona un foglio di carta sul pavimento contro un muro. Stai con il tallone sulla carta e contro il muro. Segna la punta del dito più lungo, quindi misura la distanza.",
+        "title": "Come misurare correttamente il piede:"
+      }
+    },
+    "fit_description_ideal": "C'è un <strong>piccolo spazio</strong> tra le dita dei piedi e la scarpa.",
+    "length_example": "Indossa le tue {{brandName}} taglia {{size}} e dicci come si adatta la lunghezza ai tuoi piedi.",
+    "fit_tight": "Accogliente",
+    "fit_ideal": "Aderente",
+    "open_drawer_button": "Come misurarsi",
+    "fit_description_loose": "C'è un <strong>grande spazio</strong> tra le dita dei piedi e la scarpa.",
+    "shoe_accessory_subtitle": "Seleziona la misura del tuo piede qui sotto, seguendo la nostra guida\nsu come misurarti.",
+    "drawer_button": "Fatto",
+    "fit_description_tight": "La scarpa tocca le tue dita senza <strong>spazio extra</strong>.",
+    "length_question": "Come calza la tua scarpa in lunghezza?"
+  },
+  "footer": {
+    "add_to_cart_mobile_2": "Aggiungi al carrello",
+    "confirm": "Accertare",
+    "none_of_those": "Nessuno di questi",
+    "save_measures": "Salva misure",
+    "view_recommendation": "Vedi Raccomandazione",
+    "print_measurement_tape": "Stampa il metro a nastro\n\n",
+    "virtual_fitting_room": "Camerino Virtuale",
+    "info_box": "Scegli la taglia personalizzata se desideri che la tua giacca sia su misura per le misure del tuo corpo",
+    "yes": "Sì",
+    "add_to_cart": "Aggiungi al carrello",
+    "brand_not_found": "Non ho trovato il brand",
+    "proceed": "Continua",
+    "edit_data": "Modifica informazioni",
+    "not_yet": "Non ancora",
+    "cancel_alt": "No, annulla",
+    "next": "Avanti",
+    "cancel": "Annullare",
+    "by-sizebay": "da Sizebay®",
+    "sure": "Certo!",
+    "add_profile": "Crea un profilo",
+    "create_new_profile": "Creare un nuovo profilo",
+    "restart": "Reset",
+    "close": "Chiudi",
+    "select_another_profile": "Scegli un altro profilo",
+    "continue_without_brand": "Non sono riuscito a trovare la marca",
+    "unsure": "Non credo",
+    "save": "Salvare",
+    "edit_measures": "Modifica Misure",
+    "proceed_anyway": "Continuare comunque",
+    "edit_profile": "Modifica i profili",
+    "add_to_cart_mobile": "Acquistare",
+    "back": "Indietro"
+  },
+  "composed_measures": {
+    "welcome": {
+      "link_tooltip": "<b>larghezza di {{suffix}} {{measureName}}.</b>",
+      "item_text": "Il mio {{measureName}} è largo {{range}} {{sizeSystem}}",
+      "measures_range_item": "{{initialRange}} a {{finalRange}}",
+      "tooltip_text": "Clicca per scegliere un'altra misura",
+      "tooltip_instructions": "Clicca qui per imparare come prendere la misura di {{measureName}}",
+      "height": {
+        "item_text": "Sono alto {{range}} {{sizeSystem}}",
+        "link_tooltip": "<b>quanto sei alto.</b>",
+        "title": "Quanto sei alto?",
+        "instructions": "Dobbiamo conoscere la tua <b>altezza</b> per mostrarti le possibili raccomandazioni secondo "
+      },
+      "title": "Qual è la misura di {{suffix}} {{measureName}}?",
+      "instructions": "Quanto è largo {{suffix}} <b>{{measureName}}</b>? Dobbiamo conoscere la dimensione di {{suffix}} {{measureName}} per mostrarti le possibili raccomandazioni secondo "
+    },
+    "height": {
+      "title": "Quanto sei alto?",
+      "link_tooltip": "mostrare la tua altezza"
+    },
+    "table": {
+      "helper_height": "Questa altezza va da {{range}} {{sizeSystem}} di altezza. Questa misura è inesatta?",
+      "tooltip_change": "Cambia qui.",
+      "helper": "Questo {{measureName}} va da {{range}} {{sizeSystem}} di lunghezza. Questa misura è inesatta?",
+      "title": "Queste sono le possibili misure per il <span>{{range}}</span> {{measureName}}",
+      "vfr_tooltip": "Hai preso le misure? Perché non provi a scoprire la tua taglia nella Stanza di Prova Virtuale?"
+    }
+  },
+  "body_measurements": {
+    "diameter": "DIAMETRO",
+    "collar": "Colletto",
+    "length": "Lunghezza del prodotto",
+    "centralSeam": "Cavallo ",
+    "weightChart": "Peso",
+    "width": "Larghezza",
+    "waistUpper": "Vita Alta",
+    "weight": "Peso",
+    "circumference": "Circonferenza",
+    "insoleLength": "Lunghezza del piede",
+    "label1": "Taglia (USA)",
+    "sleve": "Lunghezza della Manica",
+    "waist": "Vita",
+    "chest_m": "Torace",
+    "chest_f": "Petto",
+    "neck": "Collo",
+    "comfort": "Comfort",
+    "sleeve": "Braccio",
+    "thigh": "Coscia",
+    "headCircumference": "Testa",
+    "hip": "Fianchi",
+    "shoulderWidth": "Spalla a Spalla",
+    "waistLower": "Vita Bassa",
+    "wrist": "Polso",
+    "palm": "Palmo",
+    "bar": "Orlare",
+    "chest": "Torace / Petto",
+    "lowerLength": "Lunghezza inferiore",
+    "finger_circumference": "CIRCONFERENZA",
+    "insoleWidth": "Larghezza del piede",
+    "height": "Altezza",
+    "ageChart": "Età",
+    "underBust": "Sottoseno",
+    "insideLeg": "Interno Gamba",
+    "biceps": "Muscolo",
+    "calf": "Vitello",
+    "fist": "Polso",
+    "fullBodyLength": "Tutta la lunghezza del corpo"
+  },
+  "measures_info": {
+    "insideLeg": "Misurare la distanza interna della gamba dal pube alla pianta dei piedi.",
+    "fullBodyLength": "Misura la distanza dalle spalle al pavimento.",
+    "weightChart": "Quanto pesi?",
+    "waistUpper": "Misura la circonferenza della vita sopra l'ombelico.",
+    "insoleLength": "Posiziona un foglio di carta sul pavimento contro un muro. Stai con il tallone sulla carta e contro il muro. Segna la punta del dito più lungo, quindi misura la distanza.",
+    "biceps": "Delinea il metro al centro del braccio, individuando la parte più larga.",
+    "height": "Misurare la distanza tra punto più alto nella parte superiore della testa (cranio) e il suolo (suole) restando dritta",
+    "width": "Prendi la misura della larghezza dai tuoi vestiti",
+    "weight": "Suo peso.",
+    "sleeve": "Con il braccio leggermente piegato, misura la distanza tra la spalla e il polso facendo passare il metro dietro il gomito.",
+    "neck": "Usa un metro a nastro per misurare la circonferenza media del collo senza stringerlo troppo. Usa uno specchio per controllare la misurazione.",
+    "collar": "Misura intorno al collo appena sopra la clavicola, mettendo un dito tra il nastro e il collo.",
+    "chest": "Avvolgi il metro intorno alla circonferenza del torace o seno (all’altezza dei capezzoli) e respira normalmente. Osserva i cambiamenti mentre respiri e registra il numero più alto.",
+    "ageChart": "Quanti anni hai?",
+    "circumference": "Prendi la misura della circonferenza dai tuoi vestiti",
+    "length_botton": "Posiziona l'inizio del metro nel punto più alto del tuo corpo dove si troveranno gli abiti. Rilascia il resto del nastro e segna la misura.",
+    "waist": "Stai di fronte a uno specchio con la vita chiaramente visibile. Inclinando leggermente il busto di lato, visualizza la formazione di una piega, che indica la posizione della vita naturale. Avvolgi il metro a nastro nella giro vita.",
+    "footLength": "Posizionati su una superficie piana, con la tua altezza allineata al muro. Misura la parte più lunga del piede (dal tallone alle dita dei piedi) usando un righello.",
+    "lowerLength": "Questa è la distanza tra l'anca e il pavimento.",
+    "chest_m": "Avvolgi il metro intorno alla circonferenza del torace e respira normalmente. Osserva i cambiamenti mentre respiri e registra il numero più alto.",
+    "chest_f": "Avvolgi il metro intorno alla parte più sporgente del petto, e respira normalmente. Osserva i cambiamenti mentre respiri e registra il numero più alto.",
+    "palm": "Posiziona un righello su una superficie piana, fletti la mano, posiziona il lato sinistro della mano dominante nel punto zero del righello e prendi nota dell'ampiezza della mano.",
+    "waistLower": "Misura la circonferenza della vita sotto l'ombelico, dove di solito si adatta la cintola dei pantaloni (vita bassa).",
+    "thigh": "Delinea il metro intorno alla parte più larga della coscia, situata appena sotto i glutei.",
+    "underBust": "Avvolgi il metro intorno all'attaccatura inferiore del seno. Osserva i cambiamenti mentre respiri e registra il numero più alto.",
+    "bar": "Prendi la misura dell'orlo dei tuoi vestiti",
+    "insoleWidth": "Rimuovere la soletta di una scarpa comoda e misurare la larghezza della soletta come mostrato nell'immagine.",
+    "headCircumference": "Misura la circonferenza della tua testa (sopra le orecchie) con il metro.",
+    "wrist": "Delinea il metro intorno al polso, esattamente dove metteresti un orologio, ad esempio.",
+    "hip": "Delinea con il metro a nastro la regione intorno ai fianchi (punto più largo) sotto la vita, parallela alla parte più alta dei glutei.",
+    "diameter": "Misura il diametro del cerchio interno di un anello che indossi sullo stesso dito della stessa mano in cui vuoi indossare questo prodotto",
+    "length": "Misura la distanza tra la parte superiore del tronco (giunzione con il collo) e la vita bassa (appena sotto la pancia) attorno alla pancia.",
+    "fist": "Delinea il metro intorno al polso, esattamente dove metteresti un orologio, ad esempio.",
+    "calf": "Siediti su una sedia e tieni il piede a terra, piegando la gamba a 90 gradi. Con il metro a nastro sul lato del polpaccio, prendi la misura dalla base del piede alla piega del ginocchio.",
+    "shoulderWidth": "Con l'aiuto di un'altra persona, misura la distanza spalle alle spalle come mostrato.",
+    "ring": "Lega un filo sottile attorno allo stesso dito che vuoi indossare questo prodotto, segna la giunzione del filo e misura la lunghezza per ottenere la circonferenza",
+    "centralSeam": "Seduto su una superficie piana, misura la distanza tra la tua vita e la superficie con un metro a nastro"
+  },
+  "privacy": {
+    "services": {
+      "anchor": "Servizi Sizebay",
+      "text": "<p>I servizi di SIZEBAY sono disponibili in piattaforme di e-commerce in modalità software as a service (SaaS), o ciò significa che a SIZEBAY concedono una licenza di e-commerce per l'uso di software.</p>",
+      "title": "In che modo SIZEBAY mette a disposizione i propri servizi?"
+    },
+    "clear_data": {
+      "button": {
+        "initial": "Cancella tutti i dati",
+        "cleared": "pulire!",
+        "cleaning": "Pulire..."
+      },
+      "title": "Biscotti di pulizia",
+      "tooltip": "I tuoi dati sono stati cancellati!",
+      "text": "Fare clic sul pulsante in basso se si desidera cancellare tutti i dati di navigazione, la cache ei cookie memorizzati da Sizebay."
+    },
+    "contact": {
+      "title": "In caso di dubbio, come contattarmi?",
+      "text": "<p>Se hai domande sulle politiche di SIZEBAY o su come puoi esercitare i tuoi diritti in qualità di titolare dei dati, contatta il responsabile della protezione dei dati di SIZEBAY (DPO):<br><br>Janderson Roberto Araujo<br>Indirizzo: R. Blumenau, 953 – Sala 402 – América, Joinville – SC, 89204-251 – Brasile.<br>Telefono: +55 48 4042-0150<br>E-mail: <a href='mailto:privacy@sizebay.com' target='_blank'>privacy@sizebay.com</a></p><br><a href='https://sizebay.com/pt/legal/' target='_blank'><strong>Vedi più politiche</strong></a>"
+    },
+    "data_protection": {
+      "anchor": "Protezione dati",
+      "title": "In che modo SIZEBAY protegge i propri dati?",
+      "text": "<p>SIZEBAY considera estremamente importante la riservatezza e la sicurezza delle informazioni dei propri clienti, utenti e visitatori; pertanto, utilizza la tecnologia di crittografia e firewall e farà tutto il possibile per garantire la protezione dei tuoi dati e delle tue informazioni.</p><p>Ti consigliamo di pulire periodicamente i cookie memorizzati nel browser che utilizzi, in ordine per evitare che le informazioni raccolte vengano cancellate dal database SIZEBAY, così come da altri siti web eventualmente consultati.</p>"
+    },
+    "how_data_is_collected": {
+      "text": "<p>La raccolta dei dati viene eseguita quando l'utente fornisce informazioni durante l'utilizzo dei servizi Camerino virtuale e Fit & Size Chart, o tramite i cookie, quando l'utente accede all'applicazione o al sito web SIZEBAY.</p>",
+      "title": "In che modo SIZEBAY raccoglie i dati?"
+    },
+    "users_obligations": {
+      "anchor": "Obblighi degli utenti",
+      "title": "Quali sono gli obblighi dell'utente?",
+      "text": "<p>Gli utenti dell'Applicazione si impegnano a utilizzare i servizi di SIZEBAY sempre rispettando e osservando le Politiche, nonché la normativa vigente, le consuetudini, l'ordine pubblico e i requisiti obbligatori richiesti per utilizzare e accettare la piattaforma.</p>"
+    },
+    "data_collected": {
+      "title": "Quali dati vengono raccolti da SIZEBAY?",
+      "text": "<p>Per fornire i propri servizi, SIZEBAY può raccogliere dati del profilo come nickname (facoltativo), età, sesso, altezza, peso, profilo anatomico e misure corporee. Inoltre, possono essere raccolti dati di log di accesso e dati sui cookie, al fine di migliorare l'esperienza dell'utente e facilitare l'utilizzo dell'applicazione, senza dover fornire nuovamente dati già informati dall'utente in caso di altro acquisto o analisi del prodotto.< /p><p>SIZEBAY potrà inoltre raccogliere i dati dell'ordine di acquisto effettuato presso l'e-commerce, al fine di analizzare la taglia consigliata e la taglia effettivamente acquistata, questo per migliorare i servizi disponibili per la raccomandazione della taglia dei capi e scarpe. </p><p>Chiariamo che l'applicazione SIZEBAY riguarda la privacy dei suoi utenti, pertanto i servizi sono stati sviluppati in modo tale che la raccolta dei dati avvenga senza che sia possibile identificare i proprietari dei dati.</p >",
+      "anchor": "Dati raccolti"
+    },
+    "how_it_works": {
+      "anchor": "Come funziona?",
+      "title": "Come funziona l'accesso al Camerino Virtuale e alla Tabella Fit & Taglie?",
+      "text": "<p>Per utilizzare i servizi non è necessario che l'utente si registri alla piattaforma SIZEBAY. Sarà disponibile l'accesso alla tabella Fit & Size e per utilizzare il camerino virtuale è necessario che l'utente compili alcune informazioni di base affinché l'applicazione possa consigliare l'abbigliamento e la taglia delle scarpe.</p><p>Creazione di un profilo nell'applicazione SIZEBAY non richiede all'utente di utilizzare il proprio nome o cognome e può anche inserire dati fittizi, se interessati a preservare ulteriormente la propria privacy.</p><p>I minorenni non potranno utilizzare la domanda a meno che non siano rappresentati e/o assistiti dai loro genitori o tutori.</p>"
+    },
+    "title": "Privacy Policy",
+    "overview": {
+      "title": "A cosa servono i Termini e condizioni d'uso e l'Informativa sulla privacy?",
+      "text": "<p>I TERMINI E CONDIZIONI D'USO DI SIZEBAY hanno lo scopo di disciplinare: (i) l'utilizzo dei servizi messi a disposizione da SIZEBAY, attraverso la piattaforma di e-commerce dei propri clienti, nonché (ii) l'accesso e i contenuti resi disponibili sulla sito Web di SIZEBAY, (iii) gli utenti, i visitatori e i clienti della piattaforma e gli obblighi del sito Web durante l'utilizzo dell'applicazione o l'accesso al sito Web SIZEBAY, (iv) la responsabilità delle parti coinvolte.</p><p><strong>Il PRIVACY POLICY</strong> ha lo scopo di chiarire come SIZEBAY gestisce il trattamento dei dati durante l'utilizzo e l'accesso della propria applicazione e sito web, vengono inoltre chiariti i diritti del titolare e come questi può esercitarli con SIZEBAY.</p><p>Quando si accede e utilizzando il Camerino Virtuale e la Tabella Vestibilità e Taglie, accetti le Politiche di SIZEBAY. Puoi accedere alle Politiche di SIZEBAY complete sul link.</p><p><strong>Di seguito riassumiamo le informazioni principali:</strong></p>",
+      "anchor": "Privacy"
+    },
+    "share_data": {
+      "text": "<p>La condivisione dei dati può sempre essere effettuata con l'obiettivo di consentire una migliore esperienza di acquisto online o affinché l'applicazione possa funzionare, quindi può essere effettuata con: clienti, partner commerciali, fornitori di servizi, subappaltatori, abbigliamento e calzature produttori di prodotti.</p>",
+      "title": "Con chi SIZEBAY può condividere i dati?"
+    }
+  },
+  "product_not_found": {
+    "report_status": {
+      "sending": "Avvisandoci...",
+      "sent": "Grazie!",
+      "not_sending": "Avvisaci",
+      "not_sent": "Avvisaci"
+    },
+    "description": "Non abbiamo ancora abbastanza informazioni su questo prodotto per consigliarlo.",
+    "title": "Oh no!"
+  },
+  "languages": {
+    "all_langs": {
+      "fr": "francese",
+      "et": "estone",
+      "es": "spagnolo",
+      "en": "Inglese",
+      "fi": "finlandese",
+      "dk": "danese",
+      "cn": "Cinese",
+      "de": "Tedesco",
+      "cz": "ceco",
+      "br": "portoghese",
+      "ar": "Arabo",
+      "bg": "bulgaro",
+      "mx": "spagnolo",
+      "no": "norvegese",
+      "nl": "Olandese",
+      "lt": "lituano",
+      "lv": "lettone",
+      "jp": "giapponese",
+      "ko": "coreano",
+      "it": "Italiano",
+      "hu": "ungherese",
+      "hr": "croato",
+      "id": "Indonesia",
+      "gr": "greco",
+      "he": "Ebraico",
+      "vn": "vietnamita",
+      "uk": "Inglese",
+      "th": "tailandese",
+      "tr": "Turco",
+      "sr": "serbo",
+      "sv": "svedese",
+      "sl": "sloveno",
+      "sk": "slovacco",
+      "ru": "russo",
+      "ro": "rumeno",
+      "pt": "portoghese",
+      "pl": "Polacco",
+      "esAR": "spagnolo",
+      "esCT": "spagnolo (catalano)",
+      "ukr": "ucraino",
+      "zh": "Cinese"
+    },
+    "select": "Lingue disponibili: {{langs}}",
+    "box": "Selettore della lingua, stai usando la lingua {{currentLang}}"
+  },
+  "garment_measurements": {
+    "hip_width": "Larghezza dell'anca",
+    "thigh_width": "Larghezza della coscia",
+    "head_circumference": "Circonferenza cranica",
+    "lower_waist_circumference": "Circonferenza della vita inferiore",
+    "collar": "Collo",
+    "waistband_circumference": "Circonferenza della vita",
+    "hip_circumference": "Circonferenza dell'anca",
+    "biceps": "Bicipite",
+    "waistband_width": "Larghezza della cintura",
+    "hem": "Orlo",
+    "lower_waist_width": "Larghezza inferiore della vita",
+    "chest_circumference": "Circonferenza del torace",
+    "waist_circumference": "Circonferenza della vita",
+    "insole_width": "Larghezza della soletta",
+    "palm_length": "Lunghezza del palmo",
+    "shoulder_length": "Lunghezza delle spalle",
+    "length": "Lunghezza",
+    "waist_width": "Larghezza della vita",
+    "chest_width": "Larghezza del torace",
+    "wrist_width": "Larghezza del polso",
+    "insole_length": "Lunghezza della soletta",
+    "calf_width": "Larghezza dei polpacci",
+    "heel_height": "Altezza del tacco",
+    "front_length": "Lunghezza anteriore",
+    "brim": "Visiera ",
+    "sleeve": "Manica",
+    "thigh_circumference": "Circonferenza della coscia",
+    "inside_leg": "Cucitura interna",
+    "wrist_circumference": "Circonferenza del polso",
+    "high_waist_circumference": "Circonferenza della vita alta",
+    "shaft_height": "Altezza del gambale",
+    "calf_circumference": "Circonferenza del polpaccio",
+    "full_body_length": "Lunghezza totale del corpo",
+    "back_hook": "Gancio posteriore",
+    "platform_height": "Altezza della piattaforma",
+    "circumference": "Circonferenza",
+    "hook": "Gancio",
+    "lower_length": "Lunghezza inferiore",
+    "under_bust": "Sotto seno",
+    "high_waist_width": "Larghezza della vita alta",
+    "back_length": "Lunghezza della schiena"
+  },
+  "regions": {
+    "IT": "Italiano",
+    "HU": "Ungherese",
+    "FR": "Francese",
+    "MX": "Messicano",
+    "CUSTOM": "Internazionale",
+    "JP": "Giapponese",
+    "code": {
+      "CUSTOM": "CUSTOM",
+      "US": "US",
+      "UK": "UK",
+      "AU": "AU",
+      "IT": "IT",
+      "MEX": "MEX",
+      "JP": "JP",
+      "FR": "FR",
+      "EU": "EU",
+      "CN": "CN",
+      "BR": "BR",
+      "DE": "DE"
+    },
+    "ES": "Spagna",
+    "EU": "Europeo",
+    "DE": "Tedesco",
+    "CN": "Cinese",
+    "AU": "Australiano",
+    "BR": "Brasiliano",
+    "region": "Regione",
+    "other": "Sconosciuto",
+    "mx_marti": "Marti",
+    "PT": "Portoghese dal Portogallo",
+    "letter-br": "Brasiliano",
+    "US": "Americano",
+    "UK": "Britannico"
+  },
+  "size_chart": {
+    "subtitle": "Fai scorrere le barre di scorrimento per visualizzare più misure e taglie",
+    "title_web": "Confronta le tue misure con questa tabella.",
+    "scroll_action": "Scorrere",
+    "subtitle_mobile": "Scorri per vedere più misure e dimensioni",
+    "returns_link": "Scopre di più su politiche di resi",
+    "returns": "Hai ancora incertezza? Non ti preoccupare, il primo <strong> scambio è gratuito </strong>",
+    "title_accessory": "Tabella delle taglie per questo accessorio",
+    "title": "Seleziona una taglia e verifica le misure",
+    "instruction_measure": "Consulta il nostro materiale su come misurarti e confronta le tue misurazioni con questa tabella.",
+    "title_mobile": "Confronta le tue misure con questa tabella. Tocca le intestazioni delle colonne sottostanti e guarda come misurare correttamente il tuo corpo."
+  },
+  "generics": {
+    "disable": "Disattivare",
+    "less_than_year": "< 1 anno",
+    "profile_tooltip": "Fare clic qui per modificare i dati o aggiungere nuovi profili.",
+    "weight": "Peso",
+    "age": "Età",
+    "accessibility": "Accessibilità",
+    "language": "Idioma",
+    "years": "Anni",
+    "female": "Femminili",
+    "size_fit": "Size & Fit",
+    "no_name": "Senza Nome",
+    "pronoun_female": "Mio",
+    "year": "Anno",
+    "suffix_male": "tuo",
+    "months": "Mesi",
+    "size_chart": "Tabella delle taglie",
+    "chart": "Guida alle taglie",
+    "closeVfr": "Chiudi la Cabina di Prova Virtuale",
+    "about": "Informazioni su Sizebay",
+    "see_how_to_measure": "Scopri come misurare",
+    "kg": "Chilogrammi",
+    "assistive_mode": "{{status}} modalità assistiva",
+    "suffix_female": "tuo",
+    "switcher": {
+      "title_chart": "Misurazioni:"
+    },
+    "lb": "Libre",
+    "how_to_measure": "Come misurare",
+    "unavailable": "--",
+    "other_profiles": "Altri profili",
+    "privacy": "Privacy",
+    "ft": "Pollici",
+    "pronoun_male": "Mio",
+    "got_it": "Fatto",
+    "enable": "Abilitare",
+    "cm": "Centrimetri",
+    "height": "Altezza",
+    "male_singular": "maschio",
+    "uninformed": "Non informato",
+    "female_singular": "femmina",
+    "profile": {
+      "title": "Profilo utente"
+    },
+    "male": "Maschili",
+    "confirm_edit": "OK"
+  },
+  "privacy_v2": {
+    "overview": {
+      "text": "<p>Affinché tu possa comprendere meglio le Policy che regolano l'utilizzo delle soluzioni sviluppate da<strong> SIZEBAY</strong>, abbiamo preparato per te questo breve riepilogo. Questa panoramica non sostituisce l'intero contenuto delle Politiche, quindi ti consigliamo di leggere attentamente ogni documento.</p><p>I <strong>TERMINI E CONDIZIONI DI UTILIZZO</strong> di <strong>SIZEBAY</strong> hanno lo scopo di disciplinare: (i) l'uso delle servizi forniti da <strong>SIZEBAY</strong>, attraverso la piattaforma di e-commerce di <a href={{ pageTenant }} target=_blank>{{ tenantName }} ({{ pageTenant }})</a>, nonché (ii) accesso e contenuti resi disponibili sul sito Web di <strong>SIZEBAY</strong>, (iii) gli obblighi degli utenti, dei visitatori e dei clienti della piattaforma e del sito Web durante l'utilizzo dell'applicazione o l'accesso al sito Web <strong>SIZEBAY</strong>, (iv) responsabilità delle parti coinvolte.</p>{{ pagePrivacyTenant }}<p>Una <strong>INFORMATIVA SULLA PRIVACY </strong> mira a chiarire come <strong> SIZEBAY </strong> elabora i dati durante l'uso e l'accesso alla sua applicazione e al suo sito Web, vengono inoltre chiariti i diritti dei titolari e come possono esercitarli con <strong> SIZEBAY </strong>.</p>",
+      "title": "Panoramica"
+    },
+    "clear_data": {
+      "text": "Cancella tutti i tuoi dati di navigazione, cache e cookie memorizzati da Sizebay",
+      "button": {
+        "initial": "biscotti puliti"
+      }
+    },
+    "person": {
+      "first": {
+        "name": "Marcello Bastos",
+        "info": "<li>Unione Europea</li> <li>privacy@sizebay.com</li>"
+      },
+      "second": {
+        "name": "Janderson Roberto Araujo",
+        "info": "<li>Altri luoghi</li> <li>privacy@sizebay.com</li>"
+      }
+    },
+    "services": {
+      "title": "Come fornisce i suoi serviziSIZEBAY?",
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/computer-face.svg /><p> I servizi <strong>SIZEBAY</strong> sono disponibili sulla piattaforma di e-commerce sotto forma di software come servizio (SaaS), il che significa che <strong>SIZEBAY</strong> concede all'e-commerce la licenza per utilizzare il software.</p></span> <div><img src=https://static.sizebay.technology/assets/icons/computer-face.svg /></div>"
+    },
+    "contact": {
+      "text": "<p>In caso di domande sulle politiche di <strong>SIZEBAY</strong> o su come esercitare i propri diritti in qualità di interessato, contattare il responsabile della protezione dei dati (RPD) di <strong>SIZEBAY</strong>:</p>",
+      "title": "In caso di dubbi, come contattare?"
+    },
+    "data_collected": {
+      "title": "Quali dati vengono raccolti daSIZEBAY?",
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/cookies.svg /><p> Per fornire i propri servizi, <strong>SIZEBAY</strong> può raccogliere dati del profilo, come nickname (facoltativo), età, sesso, altezza, peso, profilo anatomico e misure del corpo. Inoltre, potrebbero essere raccolti dati di log di accesso e cookie, con l'obiettivo di migliorare l'esperienza dell'utente e facilitare l'utilizzo dell'applicazione, senza la necessità di fornire nuovamente dati già informati dall'utente in un successivo acquisto o analisi del prodotto. .</p> </span><span><img src=https://static.sizebay.technology/assets/icons/bag.svg /><p> <strong>SIZEBAY</strong> può anche raccogliere dati dall'ordine di acquisto effettuato sull'e-commerce, con l'obiettivo di effettuare analisi tra la taglia consigliata e quella effettivamente acquistata, al fine di migliorare i servizi di consigliare la taglia di capi di abbigliamento e calzature.</p></span><span><img src=https://static.sizebay.technology/assets/icons/anonymous-person.svg /><p> Precisiamo che l'applicazione <strong>SIZEBAY</strong> si preoccupa della privacy dei suoi utenti, pertanto, i servizi sono stati sviluppati in modo tale che la raccolta dei dati venga effettuata senza che sia possibile identificare dati dei titolari.</p></span><div><img src=https://static.sizebay.technology/assets/icons/cookies.svg /> <img src=https://static.sizebay.technology/assets/icons/bag.svg /> <img src=https://static.sizebay.technology/assets/icons/anonymous-person.svg /></div>"
+    },
+    "how_it_works": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/mannequin.svg /><p> Per utilizzare i servizi, non è necessario che l'utente si registri sulla piattaforma <strong>SIZEBAY</strong>. L'accesso alla tabella delle misure sarà sempre disponibile. Per utilizzare il camerino virtuale, l'utente deve inserire alcune informazioni di base in modo che l'applicazione possa consigliare la taglia di indumenti e scarpe.</p></span><span><img src=https://static.sizebay.technology/assets/icons/anonymous.svg /><p> La creazione di un profilo nell'applicazione <strong>SIZEBAY</strong> non richiede all'utente di utilizzare il proprio nome o cognome, e può anche essere compilato con dati fittizi, se sei interessato a preservare ancora di più la tua privacy.</p></span><span><img src=https://static.sizebay.technology/assets/icons/persons.svg /><p> I minorenni non possono utilizzare l'applicazione, a meno che non siano rappresentati e/o assistiti dai genitori. guardiani.</p></span><div><img src=https://static.sizebay.technology/assets/icons/mannequin.svg /><img src=https://static.sizebay.technology/assets/icons/anonymous.svg /><img src=https://static.sizebay.technology/assets/icons/persons.svg /></div>",
+      "title": "Come funziona l'accesso ai servizi di Fitting Room e Tavolo Virtuale?"
+    },
+    "share_data": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/share.svg /><p> La condivisione dei dati può sempre essere effettuata con l'obiettivo di fornire una migliore esperienza di acquisto online o per consentire il funzionamento dell'applicazione, quindi può essere effettuata con: clienti e fornitori.</p></span><div><img src=https://static.sizebay.technology/assets/icons/share.svg /></div>",
+      "title": "Con chi può condividere i datiSIZEBAY?"
+    },
+    "actions": {
+      "terms": {
+        "content": "<li><a href=https://home.sizebay.com/{{lang}}/legal/conditions-of-use target=_blank>Condizioni d'uso</a></li><li><a href=https://home.sizebay.com/{{lang}}/legal/privacy target=_blank>Informativa sulla privacy</a></li><li><a href=https://home.sizebay.com/{{lang}}/legal/cookies-policy target=_blank>Informativa sui cookie</a></li>",
+        "conditions-use": "Termini di utilizzo",
+        "privacy": "politica sulla riservatezza",
+        "cookies": "Politica sui cookie",
+        "title": "Termini"
+      },
+      "statements": {
+        "gdpr": "Conformità al GDPR",
+        "title": "dichiarazioni",
+        "lgpd": "Conformità alla LGPD",
+        "content": "<li><a href=https://home.sizebay.com/{{lang}}/legal/gdpr target=_blank >Conformità GDPR</a></li><li><a href=https://home.sizebay.com/{{lang}}/legal/lgpd target=_blank >Conformità LGPD</a></li><li><a href=https://home.sizebay.com/{{lang}}/legal/ccpa target=_blank >Conformità CCPA</a></li><li><a href=https://sizebay.com/{{lang}}/legal/pipl target=_blank >Conformità PIPL</a></li>",
+        "pipl": "Conformità PIPL",
+        "ccpa": "Conformità al CCPA"
+      },
+      "title": "Accedi alle nostre pagine dei termini",
+      "redirect_privacy": {
+        "text": "Fai clic qui per reindirizzarti alla pagina sulla privacy di {{ tenantName }}"
+      }
+    },
+    "how_data_is_collected": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/computer-hanger.svg /><p> La raccolta dei dati viene effettuata quando l'utente fornisce informazioni quando utilizza i servizi Virtua Fitter e Measurement Table, o tramite i cookie, quando l'utente accede all'applicazione o al sito Web <strong>SIZEBAY</strong>. ancora dati già comunicati dall'utente in un prossimo acquisto o analisi del prodotto.</p></span><div><img src=https://static.sizebay.technology/assets/icons/computer-hanger.svg /></div>",
+      "title": "In che modo SizeBAY raccoglie i dati?"
+    },
+    "users_obligations": {
+      "title": "Quali sono gli obblighi dell'utente?",
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/obligations.svg /><p> Gli utenti dell'Applicazione si impegnano ad utilizzare i servizi di <strong>SIZEBAY</strong> sempre rispettando ed osservando le Policy, nonché la normativa vigente, doganale, di ordine pubblico, nonché i requisiti obbligatori richiesti per l'utilizzo e l'accettazione dell'utilizzo della piattaforma .</p></span><div><img src=https://static.sizebay.technology/assets/icons/obligations.svg /></div>"
+    },
+    "data_protection": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/security.svg /><p> <strong>SIZEBAY</strong> considera estremamente importante la segretezza e la sicurezza delle informazioni dei propri clienti, utenti e visitatori. Per questo motivo utilizza la tecnologia di crittografia e firewall e farà tutto quanto in suo potere per garantire la protezione dei tuoi dati e delle tue informazioni.</p></span><span><img src=https://static.sizebay.technology/assets/icons/http.svg /><p> Ti consigliamo di pulire periodicamente i cookie memorizzati nel tuo browser, al fine di impedire le informazioni raccolte vengano eliminate dal database <strong>SIZEBAY</strong>, nonché da altri siti a cui si accede.</p></span><div><img src=https://static.sizebay.technology/assets/icons/security.svg /> <img src=https://static.sizebay.technology/assets/icons/http.svg /></div>",
+      "title": "In che modoSIZEBAY protegge i tuoi dati?"
+    }
+  },
+  "garment_measures_info": {
+    "shaft_height": "Misura dalla base del tallone alla parte superiore del gambale della scarpa.",
+    "shoulder_length": "Larghezza di una cucitura della manica all'altra, sulla parte posteriore del capo.\n\n",
+    "full_body_length": "Misura dalla cucitura superiore all'orlo inferiore di un pezzo intero.",
+    "hem": "Larghezza della parte inferiore del capo.",
+    "back_length": "Medi dal colletto all'orlo della parte superiore, sul retro",
+    "lower_waist_width": "Larghezza della cintura del capo a vita bassa.\n\n",
+    "hip_circumference": "Larghezza del capo, a circa 20 cm sotto la cintura, moltiplicata per due.",
+    "palm_length": "Misura dal polso alla punta del dito medio.",
+    "calf_circumference": "Misura intorno alla parte superiore del gambale, generalmente nel punto più largo dei polpacci.",
+    "head_circumference": "Misura intorno all'interno del cappello dove si appoggia la testa.",
+    "sleeve": "Misura dalla cucitura interna dove inizia la manica fino alla fine del polsino.",
+    "waist_width": "Larghezza della parte più stretta della parte superiore, tra le ascelle e l'orlo.",
+    "thigh_width": "Larghezza della parte più larga della coscia.\n\n",
+    "waistband_circumference": "Misura dell'apertura superiore del capo di abbigliamento.\n\n",
+    "circumference": "Misura intorno a un pezzo, solitamente moltiplicando la larghezza per 2.",
+    "lower_waist_circumference": "Larghezza del capo, appena sotto il punto vita naturale, moltiplicata per due.",
+    "high_waist_width": "Larghezza della cintura del capo a vita alta.\n\n",
+    "chest_circumference": "Misura della larghezza della parte superiore, da un lato all'altro, appena sotto le ascelle, moltiplicata per due.",
+    "waist_circumference": "Larghezza della parte più stretta del capo moltiplicata per due.",
+    "front_length": "Misura dal colletto all'orlo del capo superiore, dalla parte anteriore.",
+    "lower_length": "Misura dalla vita all'orlo del capo, lateralmente.\n\n",
+    "wrist_circumference": "Misura della circonferenza dell'apertura della manica dove passa il polso.\n\n",
+    "heel_height": "Misura dalla base del salto al punto più alto.",
+    "wrist_width": "Larghezza della tracolla del capo.\n\n",
+    "hook": "Misura dalla parte superiore della vita alla cucitura dell'inguine.\n\n",
+    "thigh_circumference": "Misura la parte più larga della coscia del capo, appena sotto la cucitura.\n\n",
+    "platform_height": "Misura dalla base della parte anteriore della scarpa fino alla parte superiore della piattaforma.",
+    "biceps": "Larghezza della manica, circa 2,5 cm sotto la zona delle ascelle",
+    "insole_width": "Misura la parte più larga della soletta.",
+    "brim": "Medi dalla base alla punta della visiera del cappellino.",
+    "high_waist_circumference": "Misura intorno alla vita del capo a vita alta.",
+    "hip_width": "Larghezza del capo, 20 cm sotto la cintura.\n\n",
+    "length": "Misura dalla cucitura superiore all'orlo inferiore del capo.\n\n",
+    "chest_width": "Misura la larghezza del pezzo superiore, da un lato all'altro, appena sotto le ascelle.",
+    "calf_width": "Misura della larghezza del gambale della bota all'altezza dei polpacci.\n\n",
+    "collar": "Larghezza del colletto della blusa, misurata attorno alla base del collo.",
+    "waistband_width": "Larghezza della cintura del capo inferiore.",
+    "back_hook": "Medi dalla fascia in vita alla cucitura del cavallo, sul retro del capo.",
+    "insole_length": "Misura dalla punta del tallone alla punta delle dita della soletta.\n\n",
+    "under_bust": "Misura della larghezza del capo superiore, da un lato all'altro, appena sotto il busto, moltiplicata per due.",
+    "inside_leg": "Misura dalla cucitura dell'inguine all'orlo dei pantaloni.\n\n"
+  },
+  "error": {
+    "close": "Esci dal camerino",
+    "title": "Oops! Qualcosa è andato storto!",
+    "options": "Puoi riprovare riavviando il profilo o chiuderlo e riprovare più tardi.",
+    "restart": "Riavvia profilo",
+    "description": "Non preoccuparti, stiamo già indagando su cosa è successo per evitare che accada di nuovo."
+  },
+  "recommendation": {
+    "3d_feel": {
+      "lanes": {
+        "large": "troppo largo",
+        "ideal": "perfetto",
+        "slightly_loose": "leggermente comodo",
+        "loose": "comodo",
+        "slightly_fit": "leggermente aderente",
+        "tight": "stretto",
+        "fit": "attillato"
+      },
+      "title_suggested": "Migliore opzione"
+    },
+    "lanes": {
+      "tight": "Stretto",
+      "ideal": "Perfetto",
+      "fit": "Attillato",
+      "looser": "Perdente",
+      "large": "Largo",
+      "loose": "Comodo",
+      "tighter": "Più stretto"
+    },
+    "title_not_suggested": "non è consigliata",
+    "measurements": {
+      "title": "Misure",
+      "conversion": {
+        "title": "Conversione delle dimensioni"
+      }
+    },
+    "centered_mode": {
+      "controls": {
+        "appearance": "Aspetto",
+        "comfort": "Comforto"
+      },
+      "comfort_map": {
+        "header": "I colori nell'immagine 3D indicano quanto stretto o largo sarà il capo sul tuo corpo"
+      },
+      "tag_info": "La simulazione del corpo 3D rappresenta le tue misure corporee individuali e l'adattamento del prodotto realistico.",
+      "measure_name": "sul tuo {{measureName}}"
+    },
+    "title_suggested": "è l'opzione migliore",
+    "height_warning": {
+      "threshold": {
+        "long": "Lungo",
+        "short": "Corto"
+      },
+      "message": "{{threshold}} è troppo per chi misura {{height}}"
+    },
+    "shoe": {
+      "insoleLength": "lunghezza",
+      "insoleWidth": "larghezza"
+    },
+    "subtitle": "Vedi i livelli di comfort di seguito",
+    "subtitle_shoe": "In base al tuo {{brand Name}} della taglia {{size}}",
+    "title_also_fits": "può andarti bene anche la",
+    "carousel_also_try": "Prova anche le taglie:"
+  },
+  "product_comparison": {
+    "elements": {
+      "edit": "Modificare",
+      "foot_format": "Forma del piede",
+      "category": "Categoria",
+      "brand": "Marca",
+      "size": "Taglia"
+    },
+    "title": "Prodotto di confronto",
+    "subtitle": "Queste sono le informazioni utilizzate per la raccomandazione sulla taglia."
+  },
+  "warnings": {
+    "age_group": {
+      "age_group": "Prodotto {{ageGroup}}",
+      "limit_reached": "Il numero di profili ha raggiunto il limite. Rimuovine alcuni per aggiungerne uno nuovo.",
+      "subtitle": "La fascia d'età del prodotto non è compatibile con l'età del profilo {{profileName}}. Seleziona o aggiungi un profilo per continuare.",
+      "prompt_message": "Vuoi provare anche i capi della sezione ({{ ageGroup }})?"
+    },
+    "we_need_more_measures": {
+      "subtitle": "Non siamo riusciti a calcolare le misure per te. Ti preghiamo di informarci di seguito o di rivedere i dettagli forniti",
+      "title": "Inserisci le tue misure"
+    },
+    "unmatched_gender": {
+      "choose_a_profile": "Seleziona il profilo desiderato",
+      "select_profile": "No, seleziona un altro profilo",
+      "tooltip": "Questo profilo non è adatto al tipo di prodotto scelto",
+      "title": "Vuoi provare anche i vestiti della sezione {{gender}}?",
+      "create_profile": "No, crea un nuovo profilo"
+    }
+  },
+  "brands_list": {
+    "search_question": "Quale brand usi di solito?",
+    "not_found": {
+      "title": "Non siamo riusciti a trovare un marchio con questo nome",
+      "subtitle": "Nessun risultato trovato."
+    },
+    "subtitle": "Con poche domande, ti aiuteremo a scegliere la taglia perfetta per il tuo piede.",
+    "title": "Camerino di prova virtuale",
+    "search_placeholder": "Inserire qui un brand",
+    "title_restricted": "Indossi le nostre scarpe?"
+  },
+  "age_group": {
+    "adult": "Adulto",
+    "kids": "Bambini"
+  },
+  "a11y": {
+    "Chart": {
+      "vfr_button": "Premi la barra spaziatrice per andare al camerino virtuale",
+      "step_blocks": {
+        "table": {
+          "measure_description": "Questa è la misura {{size}}, sul {{measureName}} dovrebbe misurare {{measure}}"
+        },
+        "switcher": {
+          "instruction_press_space": "Premi la barra spaziatrice per cambiare i valori",
+          "option": "Il tuo valore attuale è {{value}}"
+        }
+      },
+      "greeting": "Questa è la tabella delle taglie",
+      "size_system": {
+        "instruction": "Il tuo sistema di taglie attuale è {{sizeSystem}}. Premi la barra spaziatrice per scegliere un'altra opzione."
+      },
+      "instruction": "Qui puoi confrontare le tue misure con quelle elencate nella nostra tabella"
+    },
+    "shoe": {
+      "Brands": {
+        "highlighted": {
+          "edit_negative": "Premi la barra spaziatrice se non indossi nessuno di questi marchi",
+          "edit_action": "Premi la barra spaziatrice per procedere con il marchio scelto",
+          "instruction": "Premi la barra spaziatrice per continuare con {{brandName}}"
+        },
+        "restricted": {
+          "greeting": "Benvenuto nella sala di prova scarpe dei marchi riservati. Scegli uno dei marchi di scarpe che indossi già"
+        }
+      },
+      "FootSize": {
+        "instruction": "Premi la barra spaziatrice per selezionare il sistema di taglie {{ sizeSystem }}"
+      },
+      "EditData": {
+        "greeting": "Qui puoi apportare modifiche alle informazioni sul piede e sulla scarpa che ci hai inviato"
+      },
+      "FootFormat": {
+        "instruction": "Scegli una forma del piede.",
+        "edit_action": "Premi la barra spaziatrice per scegliere {{ shoeFormat }}"
+      }
+    },
+    "drawer": {
+      "measurement_tape_header": "Nastro",
+      "measurement_tape_handle": "Metro a nastro. Premi la barra spaziatrice per accedere al metro a nastro",
+      "close_group_handle": "Premi la barra spaziatrice per chiudere il gruppo",
+      "measurement_tape_print_button": "Premi la barra spaziatrice per aprire il metro"
+    },
+    "clothes": {
+      "Welcome": {
+        "step_blocks": {
+          "gender": {
+            "question": "Scegli un genere per continuare. Il tuo genere attuale è {{gender}}"
+          },
+          "age": {
+            "tooltip": "Premi la barra spaziatrice per leggere ulteriori informazioni su come l’età influisce sulle raccomandazioni"
+          },
+          "height": {
+            "question": "Inserisci qui la tua altezza in {{measurementSystem}}."
+          }
+        }
+      },
+      "ProfilesMenu": {
+        "blocks": {
+          "greeting": "Questi sono tutti i tuoi profili nella cabina di prova virtuale",
+          "edit": "Qui puoi scegliere se aggiungere o rimuovere profili"
+        },
+        "chip": {
+          "message": "Premi la barra spaziatrice per accedere a più dettagli del profilo di {{profileName}}"
+        }
+      },
+      "Recommendation": {
+        "lane": "La taglia {{ size }} è {{ label }} sulla {{ measureName }}",
+        "carousel_instruction": "Trova altre opzioni di taglia qui"
+      },
+      "measures": {
+        "edit": "Premi i tasti freccia per aumentare o diminuire la misura {{measureName}}",
+        "read": "Il tuo {{measureName}} misura {{measureValue}} in {{measureSystem}}"
+      }
+    },
+    "generics": {
+      "welcome": "Benvenuto nel camerino virtuale"
+    }
+  },
+  "welcome": {
+    "age_disclaimer": "La forma del corpo cambia con l'età e questo influenza il nostro calcolo.",
+    "gender_f_kids": "Donna",
+    "title": "Camerino di prova virtuale",
+    "gender_m_kids": "Uomo",
+    "foot_measurement_known": "Conosco già la misura del mio piede",
+    "gender_m": "Uomo",
+    "shoe_measure": "Lunghezza del piede",
+    "gender_f": "Donna",
+    "gender_u": "Unisex",
+    "subtitle": "Compila i dettagli per provare questo prodotto"
+  },
+  "edit_measures": {
+    "view_less": "Vedi meno misurazioni",
+    "view_all": "Vedi più misurazioni"
+  },
+  "drawers": {
+    "manage": {
+      "actions": {
+        "select": "Scegliere",
+        "delete": "Cancellare"
+      },
+      "active_profile": {
+        "details_shoe": "{{brandName}} taglia {{size}}",
+        "no_name": "Inserire il nome",
+        "delete": "Elimina profilo"
+      },
+      "new_profile": {
+        "input_example": "Esempio: Giuseppe Rossi",
+        "title": "Aggiungi profilo",
+        "subtitle": "Inserire un nome per questo profilo"
+      }
+    },
+    "knobs": {
+      "kids_shoes_tips": "Suggerimenti sulla taglia",
+      "garment_info": "Misure dell'abbigliamento\n\n",
+      "size_content": "Style Guide",
+      "measurement_tape": "Nastro di misurazione",
+      "product_info": "Misure del corpo",
+      "size_hint_promo": "Completa la promo",
+      "size_hint": "Suggerimento",
+      "sizes_conversions": "Conversioni delle taglie"
+    },
+    "kids_shoes_title": "Suggerimenti e linee guida sui piedi e le scarpe dei bambini",
+    "kids_shoes_button": "Inteso",
+    "kids_shoes_message": "I piedi dei bambini crescono della metà ogni 2-4 mesi. A causa di questa rapida crescita, ti consigliamo di prendere taglie leggermente più larghe per il bambino in modo che le scarpe durino più a lungo e non pizzichino i piedi, che si sviluppano rapidamente."
+  },
+  "landscape_vertical_subtitle": "Posiziona il dispositivo in posizione verticale per iniziare a utilizzarlo",
+  "coppa_gate": {
+    "close": "No, ho meno di 13 anni",
+    "confirm": "Sì, sono il guardiano",
+    "prompt_title_months": "Sei il genitore o tutore del bambino che ha {{ months }} mesi?",
+    "message": "Puoi continuare a provare questo prodotto se sei un adulto che ha creato questo profilo per provare un prodotto per tuo figlio.",
+    "prompt_title_years": "Sei il genitore o tutore del bambino che ha {{ years }} anni?",
+    "title": "Verifica dell'età"
+  },
+  "fetching": {
+    "subtitle": "Stiamo calcolando le misure del tuo corpo per consigliarti la taglia ideale.",
+    "title": "Ci siamo quasi!",
+    "shoe": {
+      "success": "Calcolo completato!",
+      "calculating": "Calcolare le tue misure",
+      "analyzing": "Analizzando le tue risposte"
+    }
+  },
+  "landscape_subtitle": "Tieni il telefono in orizzontale per iniziare",
+  "measurement_tape": {
+    "link_download": {
+      "in": "//static.sizebay.technology/assets/measurement_tape/measurement_tape_in_it.pdf",
+      "cm": "//static.sizebay.technology/assets/measurement_tape/measurement_tape_cm_it.pdf"
+    },
+    "title": "Nastro di misurazione",
+    "message": "Stampa, taglia e monta questo metro a nastro per controllare le tue misure.",
+    "print": "Stampare",
+    "print_mobile": "Stampa il metro a nastro",
+    "download": {
+      "file": {
+        "title": "Istruzioni per la stampa e il montaggio del metro a nastro",
+        "fold-and-rotate": "Ruotare e piegare",
+        "how-to-do": "Stampa:\nPrima di stampare, assicurarsi che l'opzione \"adatta alla pagina\" o \"fit to page\" nella finestra di dialogo di stampa sia disabilitata in modo che la stampante non riduca o aumenti le dimensioni del nastro.\n\nRitaglia:\nCon delle forbici o uno stilo, ritaglia tutte le linee nere continue indicate con le \"forbici\" per creare i segmenti di nastro.\n\nMontare:\nPiega e ruota le estremità (come indicato sulla stampa) unendo le linee tratteggiate fino a quando non viene assemblato un singolo nastro.\n\nCorreggi le pieghe:\nDopo il montaggio, fissare le pieghe del nastro utilizzando colla, nastro adesivo o una cucitrice."
+      }
+    }
+  },
+  "foot_size": {
+    "select_region": "Seleziona una regione:",
+    "not_selected": "Assicurati di selezionare una taglia per continuare",
+    "title": "Qual è il tuo numero di scarpe?",
+    "pattern": "Modello {{region}}",
+    "subtitle": "Scegli la tua taglia in"
+  },
+  "child_name": {
+    "name": "Nome",
+    "title": "Ci diresti il ​​nome di tuo figlio?",
+    "subtitle": "Questo ci aiuta a creare un profilo per il camerino"
+  },
+  "size_hint": {
+    "title": "Abbiamo separato alcuni prodotti che ti stanno bene anche",
+    "discount-original-price": "Prezzo normale: <span class='size-hint__discount-original-price discount-description-price'>{{ price }}</span> <span class='size-hint__discount-percentage'>-{{discount }}%</span>",
+    "discount-lowest-price": "Prezzo più basso da 30 giorni prima della riduzione: <span class='size-hint__discount-lowest-price discount-description-price'>{{ price }}</span> <span class='size-hint__discount-percentage'>-{{ discount }}%</span>",
+    "title_promo": "Completa la promo",
+    "try_now": "Provi!"
+  },
+  "size_tailor": {
+    "action_button": "Personalizziamo per te",
+    "title": "Prodotto personalizzato",
+    "description": "Conferma le misure del tuo corpo in modo che possiamo sviluppare il tuo prodotto su misura."
+  },
+  "miscellaneous": {
+    "hannaLinks": {
+      "recommendation": "Torna ai miei risultati",
+      "welcome": "Torna indietro"
+    }
+  },
+  "measure_shape": {
+    "shape_bigger": "Maggiore",
+    "shape_smaller": "Minore",
+    "skin_types": {
+      "toggle": "Cambia il colore della pelle"
+    },
+    "subtitle": "Questa è la forma approssimativa del corpo che generiamo dalle tue misurazioni. Regolare solo se necessario.",
+    "measure_range": {
+      "1": "Molto più piccolo",
+      "2": "Più piccolo",
+      "3": "Media",
+      "4": "Più grande",
+      "5": "Molto più grande"
+    },
+    "shape_regular": "Regolare",
+    "title": "Regola la forma del corpo"
+  },
+  "calculating": {
+    "subtitle": "Controlla le misure e regola, se necessario",
+    "circle_title_loading": "Attendi",
+    "circle_title_completed": "Fatto!",
+    "title": "Calcoli Conclusi"
+  },
+  "brands_grid": {
+    "subtitle": "Quale marca indossi di solito?",
+    "unique_brand": "Indossi già le scarpe {{ brandName }}?",
+    "search_other_brands": "Cerca un'altra marca"
+  },
+  "modals": {
+    "remove_profile": {
+      "title_alt": "Sei sicuro di voler eliminare questo profilo?",
+      "title": "Eliminare il profilo {{profileName}}?",
+      "action": "Elimina profilo",
+      "confirm": "Elimina profilo"
+    }
+  },
+  "no_recommendation": {
+    "expected_size": "La dimensione consigliata è {{recommendedSize}}.",
+    "title_shoe": "Purtroppo al momento questo modello e questa taglia non sono disponibili nel nostro negozio.",
+    "based_on": "Puoi modificare le tue informazioni per riprovare",
+    "calculate_again": "Ricalcolare ",
+    "title": "Abbiamo trovato nessuna taglia",
+    "subtitle": "Non siamo riusciti a trovare una taglia per le misure di seguito. Regola se necessario."
+  },
+  "accessory": {
+    "welcome": {
+      "subtitle": "Per provare questo prodotto segui le istruzioni per prendere le tue misure e comunicare il numero corrispondente",
+      "shoe": {
+        "subtitle": "Seleziona la misura del tuo piede qui sotto, seguendo la nostra guida su come misurare te stesso"
+      }
+    },
+    "bike": {
+      "recommendation": {
+        "title_suggested": "La taglia della bicicletta che consigliamo è la migliore per le tue prestazioni e la tua postura. Non troppo alto né troppo basso, potrai andare in bicicletta comodamente.",
+        "subtitle": "in base alla tua altezza",
+        "title_also_fits": "La taglia della bicicletta che consigliamo è la migliore per le tue prestazioni e la tua postura. Non troppo alto né troppo basso, potrai andare in bicicletta comodamente.",
+        "title_not_suggested": "La taglia della bicicletta che consigliamo è la migliore per le tue prestazioni e la tua postura. Non troppo alto né troppo basso, potrai andare in bicicletta comodamente."
+      }
+    },
+    "shoe_size": {
+      "subtitle": "Per provare questo prodotto scegli una taglia in base alla lunghezza del tuo piede"
+    }
+  },
+  "foot_format": {
+    "formats": {
+      "0": {
+        "description": "I piedi stretti tendono ad avere spazio extra sui lati delle scarpe.",
+        "title": "Stretto"
+      },
+      "1": {
+        "title": "Medio",
+        "description": "I piedi di dimensioni medie di solito si adattano bene alla maggior parte delle scarpe."
+      },
+      "2": {
+        "title": "Ampio",
+        "description": "Piedi larghi corrispondono alla lunghezza della scarpa ma si sentono stretti ai lati."
+      }
+    },
+    "subtitle": "Seleziona la larghezza del tuo piede per migliorare la vestibilità.",
+    "title": "Forma del piede"
+  },
+  "landscape_warning": {
+    "title": "Camerino di prova virtuale"
+  },
+  "my_measures": {
+    "title": "Le Mie Misure",
+    "subtitle": "Regola le misure secondo necessità"
+  },
+  "subcategory": {
+    "subtitle": "Scegli il tipo di scarpa <strong>{{brandName}}</strong> che indossi abitualmente",
+    "title": "Qual è la sottocategoria?"
+  },
+  "model": {
+    "title": "Qual è il modello?",
+    "subtitle": "Scegli il modello di scarpa <strong>{{brandName}}</strong> che indossi abitualmente"
+  },
+  "landscape_horizontal_subtitle": "Posiziona il tuo dispositivo orizzontalmente per iniziare a utilizzarlo",
+  "category": {
+    "subtitle": "Scegli una delle categorie che più si avvicina al tuo {{brandName}}",
+    "title": "Qual è il tipo delle scarpe?"
+  },
+  "header": {
+    "title": "Fit Finder"
+  }
+}

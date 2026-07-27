@@ -1,0 +1,953 @@
+{
+  "shoe_size": {
+    "fit_loose": "Suelto",
+    "shoe_accessory": {
+      "no_recommendation": {
+        "subtitle": "No pudimos encontrar una talla para las medidas a continuación. Ajusta si es necesario.",
+        "title": "No encontramos ninguna talla"
+      },
+      "all_measures": {
+        "measurements_guide": "Guía de Medidas [PDF]",
+        "title": "¿Cuál es la talla de tus pies?"
+      },
+      "info_drawer_subtitle": "Para encontrar la mejor talla de zapatos, ¿por qué no nos cuentas un poco sobre ti?"
+    },
+    "recommendation": "Según tu información, esta es la medida de tu pie. Ajusta si es necesario",
+    "foot_shape_question": "¿Cuál es la forma de tu pie?",
+    "title": "¿Cuál es la longitud de tu pie?",
+    "drawer_title": "¿Cuánto miden tus pies?",
+    "subtitle": {
+      "0": "escull una talla de la marca {{brandName}} segons la longitud del teu peu",
+      "box": {
+        "subtitle": "Coloca una hoja de papel en el suelo contra una pared. Ponte de pie con el talón en el papel y la pared. Marca la punta de tu dedo más largo, luego mide la distancia.",
+        "title": "Com mesurar el teu peu correctament"
+      }
+    },
+    "fit_description_ideal": "Hi ha un <strong>petit espai</strong> entre els teus dits i la sabata.",
+    "length_example": "Posa't el teu <strong>{{brandName}}</strong> de la talla <strong>{{size}}</strong> i explica'ns com s'adapta la llargada al teu peu.",
+    "fit_tight": "Acogedor",
+    "fit_ideal": "Ajustat",
+    "open_drawer_button": "Cómo medirte a ti mismo",
+    "fit_description_loose": "Hi ha un <strong>gran espai</strong> entre els teus dits i la sabata.",
+    "shoe_accessory_subtitle": "Seleccione su medida de pie a continuación, siguiendo nuestra guía sobre cómo medirse.",
+    "drawer_button": "Entendido",
+    "fit_description_tight": "La sabata toca els teus dits <strong>sense espai</strong>.",
+    "length_question": "¿Cómo te queda el zapato en cuanto al largo?"
+  },
+  "footer": {
+    "add_to_cart_mobile_2": "Agregar al carrito",
+    "confirm": "Confirmar",
+    "none_of_those": "Cap d'aquests",
+    "save_measures": "Guarda les teves mesures",
+    "view_recommendation": "Recomenacions",
+    "print_measurement_tape": "Cinta métrica impresa",
+    "virtual_fitting_room": "Vestidor Virtual",
+    "info_box": "Escull la talla que vulguis, si vols que la jaquesta s'ajusto a les mesures del teu cos",
+    "yes": "Si",
+    "add_to_cart": "Afegeix a la cistella",
+    "brand_not_found": "No puc trobar la marca",
+    "proceed": "Continuar",
+    "edit_data": "Edita les teves dades",
+    "not_yet": "Encara no",
+    "cancel_alt": "No, cancel·la",
+    "next": "Següent",
+    "cancel": "Cancel·lar",
+    "by-sizebay": "por Sizebay®",
+    "sure": "És clar!",
+    "add_profile": "Crea el perfil",
+    "create_new_profile": "Crea un nou perfil",
+    "restart": "Reiniciar",
+    "close": "Tancar",
+    "select_another_profile": "Selecciona un altre perfil",
+    "continue_without_brand": "No pude encontrar la marca",
+    "unsure": "No estic segur",
+    "save": "Guardar",
+    "edit_measures": "Afegeix les mesures",
+    "proceed_anyway": "Continuar de totes maneres",
+    "edit_profile": "Edita els perfils",
+    "add_to_cart_mobile": "Comprar",
+    "back": "Tornar"
+  },
+  "composed_measures": {
+    "welcome": {
+      "link_tooltip": "Afeigeix suffix}},{{measureName}} breedte b>",
+      "item_text": "La  meva {{measureName}} té {{range}},{{sizeSystem}} d'ample",
+      "measures_range_item": "{{initialRange}} a {{finalRange}}",
+      "tooltip_text": "Fes clic per escollir una altra mida ",
+      "tooltip_instructions": "Fes clic aquí per saber com mesurar-te",
+      "height": {
+        "item_text": "Soc {{riex sizeSystem alt",
+        "link_tooltip": "<b>quant medeixes",
+        "title": "Quant medeixes?",
+        "instructions": "Necessitem saber la teva alçada <b>altura</b> per ensenyar-te possibles recomenacions"
+      },
+      "title": "¿Quina és la mesura de {{suffix}},{{measureName}}?",
+      "instructions": "¿Quina amplada té {{suffix}} <b>{{measureName}}</b>?Necessitem saber la mida de {{suffix}},{{measureName}}  per ensenyar-te les possibles recomenacions"
+    },
+    "height": {
+      "title": "¿Cuánto mides?",
+      "link_tooltip": "mostrar tu altura"
+    },
+    "table": {
+      "helper_height": "Aquesta alçada va des de {{range}},{{sizeSystem}}. És correcte?",
+      "tooltip_change": "Canvia aquí",
+      "helper": "Aquesta {{measureName}} té una longitud de {{range}},{{sizeSystem}}. És correcte?",
+      "title": "Aquests són els possibles tamanys pel <span>{{range}}</span> {{measureName}}",
+      "vfr_tooltip": "Tens les teves mides? Per què no probes de descubrir la teva talla en el probador virtual?"
+    }
+  },
+  "body_measurements": {
+    "diameter": "DIÀMETRE",
+    "collar": "Coll",
+    "length": "Llarg de la peça",
+    "centralSeam": "Ganxo",
+    "weightChart": "Pes",
+    "width": "Ample",
+    "waistUpper": "Cintura alta",
+    "weight": "Pes",
+    "circumference": "Circumferència",
+    "insoleLength": "Longitud del pie",
+    "label1": "Talla",
+    "sleve": "Llarg de màniga",
+    "waist": "Cintura",
+    "chest_m": "Tórax",
+    "chest_f": "pit",
+    "neck": "Coll",
+    "comfort": "Comoditat",
+    "sleeve": "braç",
+    "thigh": "cuixa",
+    "headCircumference": "Cap",
+    "hip": "Maluc",
+    "shoulderWidth": "espatlla a espatlla",
+    "waistLower": "Cintura baixa",
+    "wrist": "Canell",
+    "palm": "Palmell",
+    "bar": "Doblec",
+    "chest": "Pit",
+    "lowerLength": "Menor longitud",
+    "finger_circumference": "CIRCUMFERÈNCIA",
+    "insoleWidth": "Anchura del pie",
+    "height": "Alçada",
+    "ageChart": "Edat",
+    "underBust": "Sota del pit",
+    "insideLeg": "Entre cames",
+    "biceps": "Bíceps",
+    "calf": "Boví",
+    "fist": "Puny",
+    "fullBodyLength": "Longitud del cos sencer"
+  },
+  "measures_info": {
+    "insideLeg": "Mesura la distància interna de la cama des del pubis fins a les plantes dels peus.",
+    "fullBodyLength": "Mide la distancia desde tus hombros hasta el suelo.",
+    "weightChart": "¿Cuál eiex su pes",
+    "waistUpper": "Mesura la circumferència de la cintura per sobre del melic.",
+    "insoleLength": "Coloca una hoja de papel en el suelo contra una pared. Ponte de pie con el talón en el papel y la pared. Marca la punta de tu dedo más largo, luego mide la distancia.",
+    "biceps": "Identifica la part més ample del braç  amb la cinta mètrica",
+    "height": "Això és fàcil. És la distància entre la part superior del cap (crani) i el sòl (planta dels peus), mesura amb la postura recta.",
+    "width": "Mide el ancho de tu ropa.",
+    "weight": "Afeigeix wi peso.",
+    "sleeve": "Amb el braç lleugerament doblegat, mesura la distància entre l'espatlla i la nina passant la cinta per darrere del colze.",
+    "neck": "Contorneja l'altura mitjana del teu coll amb la cinta mètrica sense estrènyer-la. Usa un mirall per a ajudar a comprovar el mesurament.",
+    "collar": "Mida alrededor de su cuello, justo por encima de la clavícula, colocando un dedo entre la cinta y su cuello.",
+    "chest": "Mesura't el pit amb una cinta mètrica i respira normal. Observa les variacions mentre respires i registra el nombre més elevat",
+    "ageChart": "Quants anys tens?",
+    "circumference": "Mide la circunferencia de tu ropa.",
+    "length_botton": "Col·loca el començament de la cinta mètrica en el punt més alt del teu cos on estarà la roba. Solta la resta de la cinta i marca la mesura.",
+    "waist": "Posi't davant d'un mirall amb la cintura visible. Inclinant el tors lleugerament cap a un costat, visualitza la informació d'un plec, que indica la posició natural de la cintura. Embolica la cintura.",
+    "footLength": "Póngase de pie sobre una superficie plana, con su altura alineada con la pared. Mida la parte más larga del pie (desde el talón hasta los dedos) con una regla.",
+    "lowerLength": "Esta es la distancia entre la cadera y el suelo.",
+    "chest_m": "Mesura't el pit amb una cinta mètrica i respira normal. Observa les variacions mentre respires i registra el nombre més elevat",
+    "chest_f": "Mesura't el pit amb una cinta mètrica i respira normal. Observa les variacions mentre respires i registra el nombre més elevat",
+    "palm": "Coloca una regla sobre una superficie plana, flexiona la mano, coloca el lado izquierdo de tu mano dominante en el punto cero de la regla y toma nota de la extensión de tu mano.",
+    "waistLower": "Mesura la circumferència de la cintura per sota del seu melic, on generalment s'ajusta la pretina (cintura baixa).",
+    "thigh": "Contorneja amb una cinta mètrica la regió més ‘ampla’ per sota de la cintura, passant paral·lelament a la part més alta dels glutis.",
+    "underBust": "Mesura amb la cinta mètrica el seu tòrax al voltant de la regió just sota el teu bust. Respira normalment observant les variacions en els mesuraments i registra el major número.",
+    "bar": "Mide el dobladillo de tu ropa",
+    "insoleWidth": "Retira la plantilla d'una sabata que et quedi bé i mesura l'amplària de la plantilla com es mostra.",
+    "headCircumference": "Mesura amb una cinta mètrica la circumferència del teu cap (per sobre de les orelles)",
+    "wrist": "Contornee la cinta métrica alrededor de su muñeca, exactamente donde colocaría un reloj, por ejemplo.",
+    "hip": "Contorneja amb la cinta mètrica a través de la regió més 'ampla' per sota de la cintura passant paral·lelament a la part més alta de les natges.",
+    "diameter": "Mide el diámetro del círculo interior de un anillo que usas en el mismo dedo de la misma mano donde deseas usar este producto.",
+    "length": "Mesura la distància entre la part més alta del tors (unió amb el coll) i la cintura baixa (just sota el ventre) al voltant del ventre.",
+    "fist": "Mesura't el canell, de la mateixa manera que et posaries un rellotge",
+    "calf": "Siéntese en una silla y mantenga el pie en el suelo, doblando la pierna a 90 grados. Con la cinta métrica al costado de la pantorrilla, tome la medida desde la base del pie hasta el pliegue de la rodilla.",
+    "shoulderWidth": "Amb l'ajuda d'una altra persona, mesura la distància entre els extrems de les teves espatlles com en la imatge.",
+    "ring": "Ata una cuerda delgada alrededor del mismo dedo que deseas usar este producto, marca la unión de la cuerda y mide la longitud para obtener la circunferencia",
+    "centralSeam": "Assegut en una superfície plana, mesura amb la cinta mètrica la distància entre la cintura i la superfície"
+  },
+  "privacy": {
+    "services": {
+      "anchor": "Servicios Sizebay",
+      "text": "Los servicios de SIZEBAY están disponibles en la plataforma de comercio electrónico en forma de software como servicio (SaaS), lo que significa que SIZEBAY otorga la licencia de comercio electrónico para usar el software.",
+      "title": "¿Cómo pone a disposición SIZEBAY sus servicios?"
+    },
+    "clear_data": {
+      "button": {
+        "initial": "Borrar todos los datos",
+        "cleared": "¡Limpio!",
+        "cleaning": "Limpiar"
+      },
+      "title": "limpieza de galletas",
+      "tooltip": "¡Tus datos han sido eliminados!",
+      "text": "Haga clic en el botón a continuación si desea borrar todos sus datos de navegación, caché y cookies almacenados por Sizebay."
+    },
+    "contact": {
+      "title": "En caso de duda, ¿cómo ponerse en contacto?",
+      "text": "Si tiene alguna pregunta sobre las Políticas de SIZEBAY o cómo puede ejercer sus derechos como propietario de datos, comuníquese con el Delegado de Protección de Datos (DPO) de SIZEBAY:  \nJanderson Roberto Araujo  \nDirección: R. Blumenau, 953 – Sala 402 – América, Joinville – SC, 89204-251 – Brasil.  \nTeléfono: +55 48 4042-0150  \nE-mail: privacy@sizebay.com  \nVer más políticas"
+    },
+    "data_protection": {
+      "anchor": "Protección de Datos",
+      "title": "¿Cómo protege SIZEBAY sus datos?",
+      "text": "SIZEBAY considera de suma importancia la confidencialidad y seguridad de la información de sus clientes, usuarios y visitantes; por ello, utiliza tecnología de cifrado y cortafuegos, y hará todo lo posible para garantizar la protección de tus datos e información.\n\nTe recomendamos limpiar periódicamente las cookies almacenadas en el navegador que utilices, con el fin de evitar que la información recopilada sea eliminada de la base de datos de SIZEBAY, así como de otros sitios web a los que se acceda."
+    },
+    "how_data_is_collected": {
+      "text": "La recolección de datos se lleva a cabo cuando el usuario proporciona información al utilizar los servicios de Virtual Fitting Room y Fit & Size Chart, o a través de cookies, cuando el usuario accede a la aplicación o web de SIZEBAY.",
+      "title": "¿Cómo recopila datos SIZEBAY?"
+    },
+    "users_obligations": {
+      "anchor": "Obligaciones de los usuarios",
+      "title": "¿Cuáles son las obligaciones del usuario?",
+      "text": "Los usuarios de la aplicación se comprometen a utilizar los servicios de SIZEBAY siempre respetando y observando las políticas, así como la legislación vigente, las costumbres, el orden público y los requisitos obligatorios exigidos para utilizar y aceptar la plataforma."
+    },
+    "data_collected": {
+      "title": "¿Qué datos recopila SIZEBAY?",
+      "text": "<p>Para prestar sus servicios, SIZEBAY podrá recabar datos de perfil como apodo (opcional), edad, sexo, altura, peso, perfil anatómico y medidas corporales. Además, se pueden recopilar datos de registro de acceso y datos de cookies, con el fin de mejorar la experiencia del usuario y facilitar el uso de la aplicación, sin necesidad de volver a proporcionar datos ya informados por el usuario en caso de otra compra o análisis de producto.</p><p>SIZEBAY también podrá recolectar datos de la orden de compra realizada en el e-commerce, con el fin de analizar la talla recomendada y la talla realmente comprada, esto para mejorar los servicios disponibles para la recomendación de tallas de ropa y zapatos.</p><p>Aclaramos que la aplicación SIZEBAY se preocupa por la privacidad de sus usuarios, por lo que los servicios fueron desarrollados de tal forma que la recolección de datos se realiza sin que sea posible identificar a los titulares de los datos.</p>",
+      "anchor": "Datos recopilados"
+    },
+    "how_it_works": {
+      "anchor": "¿Cómo funciona?",
+      "title": "¿Cómo funciona el acceso al probador virtual y al cuadro de tallas?",
+      "text": "Para utilizar los servicios no es necesario que el usuario se registre en la plataforma SIZEBAY. El acceso a la tabla de tallas estará disponible y para usar el probador virtual es necesario que el usuario complete algunos datos básicos para que la aplicación haga la recomendación de tallas de ropa y zapatos.\n\nCrear un perfil en la aplicación SIZEBAY no requiere que el usuario utilice su nombre o apellido, pudiendo incluso rellenar datos ficticios, si está interesado en preservar aún más su privacidad.\n\nLos menores de edad no podrán utilizar la aplicación a menos que estén representados y/o asistidos por sus padres o tutores."
+    },
+    "title": "Política de privacitat",
+    "overview": {
+      "title": "¿Para qué sirven los Términos y Condiciones de Uso y la Política de Privacidad?",
+      "text": "Los TÉRMINOS Y CONDICIONES DE USO DE SIZEBAY tienen por objeto regular: (i) el uso de los servicios puestos a disposición por SIZEBAY, a través de la plataforma de comercio electrónico de sus clientes, así como (ii) el acceso y contenidos puestos a disposición en el sitio web de SIZEBAY, (iii) las obligaciones de los usuarios, visitantes y clientes de la plataforma y del sitio web durante el uso de la aplicación o el acceso al sitio web de SIZEBAY, (iv) la responsabilidad de las partes involucradas.\n\nLa POLÍTICA DE PRIVACIDAD tiene como objetivo aclarar cómo SIZEBAY trata el tratamiento de datos durante el uso y acceso a su aplicación y sitio web, también se aclaran los derechos del titular y cómo puede ejercerlos con SIZEBAY.\n\nAl acceder y al utilizar el Probador virtual y la Tabla de tallas y tallas, usted acepta las Políticas de SIZEBAY. Puedes acceder a las Políticas completas de SIZEBAY en el enlace.\n\nA continuación te resumimos la información principal:",
+      "anchor": "Privacidad"
+    },
+    "share_data": {
+      "text": "El intercambio de datos siempre se puede realizar con el objetivo de permitir una mejor experiencia de compra en línea o para que la aplicación pueda funcionar, por lo tanto, se puede realizar con: clientes, socios comerciales, proveedores de servicios, subcontratistas, ropa y calzado fabricantes de productos.",
+      "title": "¿Con quién puede compartir datos SIZEBAY?"
+    }
+  },
+  "product_not_found": {
+    "report_status": {
+      "sending": "Notificant",
+      "sent": "Gràcies!",
+      "not_sending": "Notifican'ns",
+      "not_sent": "Notifican'ns"
+    },
+    "description": "Encara no tenim massa informació sobre el producte per recomenar-te'l",
+    "title": "O no!"
+  },
+  "languages": {
+    "all_langs": {
+      "fr": "Francès",
+      "et": "estonià",
+      "es": "Espanyol",
+      "en": "anglès",
+      "fi": "finlandès",
+      "dk": "danès",
+      "cn": "Chino",
+      "de": "Alemany",
+      "cz": "Txec",
+      "br": "portuguès",
+      "ar": "Aràbic",
+      "bg": "búlgar",
+      "mx": "espanyol",
+      "no": "norueg",
+      "nl": "Holandès",
+      "lt": "lituà",
+      "lv": "lituà",
+      "jp": "japonès",
+      "ko": "Coreà",
+      "it": "italià",
+      "hu": "hongarès",
+      "hr": "croata",
+      "id": "Indonesia",
+      "gr": "Grec",
+      "he": "Hebreo",
+      "vn": "vietnamita",
+      "uk": "anglès",
+      "th": "tailands",
+      "tr": "Turc",
+      "sr": "serbi",
+      "sv": "suec",
+      "sl": "eslovè",
+      "sk": "eslovac",
+      "ru": "rus",
+      "ro": "rumà",
+      "pt": "portuguès",
+      "pl": "Polac",
+      "esAR": "espanyol",
+      "esCT": "español (castellano)",
+      "ukr": "ucranià",
+      "zh": "Xinès"
+    },
+    "select": "Idiomas disponibles: {{langs}}",
+    "box": "Selector de idioma, estás usando el idioma {{currentLang}}"
+  },
+  "garment_measurements": {
+    "hip_width": "Ancho de cadera",
+    "thigh_width": "Ancho del muslo",
+    "head_circumference": "Circunferencia de la cabeza",
+    "lower_waist_circumference": "Circunferencia de la cintura más baja",
+    "collar": "Collar",
+    "waistband_circumference": "Circunferencia de la cintura",
+    "hip_circumference": "Circunferencia de la cadera",
+    "biceps": "Bíceps",
+    "waistband_width": "Ancho de la pretina",
+    "hem": "Hemorragia",
+    "lower_waist_width": "Ancho inferior de la cintura",
+    "chest_circumference": "Circunferencia del pecho",
+    "waist_circumference": "Circunferencia de la cintura",
+    "insole_width": "Ancho de plantilla",
+    "palm_length": "Longitud de la palma",
+    "shoulder_length": "Largo de los hombros",
+    "length": "Longitud",
+    "waist_width": "Ancho de cintura",
+    "chest_width": "Ancho de pecho",
+    "wrist_width": "Anchura de la muñeca",
+    "insole_length": "Longitud de la plantilla",
+    "calf_width": "Ancho de pantorrilla",
+    "heel_height": "Altura del tacón",
+    "front_length": "Longitud delantera",
+    "brim": "Ala",
+    "sleeve": "Manga",
+    "thigh_circumference": "Circunferencia del muslo",
+    "inside_leg": "Entrepierna",
+    "wrist_circumference": "Circunferencia de muñeca",
+    "high_waist_circumference": "Circunferencia de cintura alta",
+    "shaft_height": "Altura del eje",
+    "calf_circumference": "Circunferencia de la pantorrilla",
+    "full_body_length": "Longitud total del cuerpo",
+    "back_hook": "Gancho trasero",
+    "platform_height": "Altura de la plataforma",
+    "circumference": "Circunferencia",
+    "hook": "Gancho",
+    "lower_length": "Longitud inferior",
+    "under_bust": "Bajo busto",
+    "high_waist_width": "Ancho de Cintura Alta",
+    "back_length": "Longitud de la espalda"
+  },
+  "regions": {
+    "IT": "Italià",
+    "HU": "Húngaro",
+    "FR": "Francès",
+    "MX": "Mexicà",
+    "CUSTOM": "Internacional",
+    "JP": "Japonès",
+    "code": {
+      "CUSTOM": "CUSTOM",
+      "US": "US",
+      "UK": "UK",
+      "AU": "AU",
+      "IT": "IT",
+      "MEX": "MEX",
+      "JP": "JP",
+      "FR": "FR",
+      "EU": "EU",
+      "CN": "CN",
+      "BR": "BR",
+      "DE": "DE"
+    },
+    "ES": "España",
+    "EU": "Europeu",
+    "DE": "Alemany",
+    "CN": "China",
+    "AU": "Australià",
+    "BR": "Brasileny",
+    "region": "Región",
+    "other": "Desconegut",
+    "mx_marti": "Martí",
+    "PT": "Espanyol ES",
+    "letter-br": "Brasileny",
+    "US": "Americà",
+    "UK": "Britànic"
+  },
+  "size_chart": {
+    "subtitle": "Llisca per veure més mesures i talles",
+    "title_web": "Compara les teves mesures amb la taula",
+    "scroll_action": "Llisca",
+    "subtitle_mobile": "Llisca per veure més mesures i talles",
+    "returns_link": "Aconsegueix més informació sobre la política de canvis",
+    "returns": "Encara tens dubtes? No et preocupis, el primer canvi és gratuït",
+    "title_accessory": "Tabla de tallas para este accesorio",
+    "title": "Selecciona una talla y verifica las medidas",
+    "instruction_measure": "Consulta nuestro material sobre cómo medirte y compara tus medidas con esta tabla.",
+    "title_mobile": "Compara les mesures del teu cos amb la taula. Clica en els títols de les columnes i compra com es mesura correctament"
+  },
+  "generics": {
+    "disable": "Desactivar",
+    "less_than_year": "< 1 any",
+    "profile_tooltip": "Fes clic aquí per editar les teves dades o afegir nous perfils",
+    "weight": "Pes",
+    "age": "Edat",
+    "accessibility": "Accessibilitat",
+    "language": "Idioma",
+    "years": "Anys",
+    "female": "Femenines",
+    "size_fit": "Mida",
+    "no_name": "Sense Nom",
+    "pronoun_female": "Mi",
+    "year": "Any",
+    "suffix_male": "tu",
+    "months": "Mesos",
+    "size_chart": "Gràfic de talles",
+    "chart": "Guia de talles",
+    "closeVfr": "Tanca el provador virtual",
+    "about": "Acerca de Sizebay",
+    "see_how_to_measure": "Veure com mesurar",
+    "kg": "Kg",
+    "assistive_mode": "{status} model d'assistència",
+    "suffix_female": "tu",
+    "switcher": {
+      "title_chart": "Mesures:"
+    },
+    "lb": "Lliures",
+    "how_to_measure": "Veure com medir",
+    "unavailable": "--",
+    "other_profiles": "Altres perfils",
+    "privacy": "Privacitat",
+    "ft": "Pulzades",
+    "pronoun_male": "Mi",
+    "got_it": "entesos",
+    "enable": "Permetre",
+    "cm": "Centímetres",
+    "height": "Alçada",
+    "male_singular": "masculina",
+    "uninformed": "No informado",
+    "female_singular": "femenina",
+    "profile": {
+      "title": "Perfil de usuario"
+    },
+    "male": "Masculines",
+    "confirm_edit": "OK"
+  },
+  "privacy_v2": {
+    "overview": {
+      "text": "<p>Para que puedas comprender mejor las Políticas que regulan el uso de las soluciones desarrolladas por<strong> SIZEBAY</strong>, hemos preparado este breve resumen para ti. Esta descripción general no reemplaza el contenido completo de las Políticas, por lo que le recomendamos que luego lea atentamente cada documento. </p><p>Los <strong>TÉRMINOS Y CONDICIONES DE USO</strong> de <strong>SIZEBAY</strong> tienen por objeto regular: (i) el uso de la servicios prestados por <strong>SIZEBAY</strong>, a través de la plataforma de comercio electrónico de <a href={{ pageTenant }} target=_blank>{{ tenantName }} ({{ pageTenant }})</a>, y también (ii) el acceso y contenido puesto a disposición en el sitio web de <strong>SIZEBAY</strong>, (iii) las obligaciones de los usuarios, visitantes y clientes de la plataforma y del sitio web al usar la aplicación o acceder al sitio web de <strong>SIZEBAY</strong>, (iv) responsabilidad de las partes involucradas.</p>{{ pagePrivacyTenant }}<p>UNA <strong>POLÍTICA DE PRIVACIDAD </strong> tiene como objetivo aclarar cómo <strong>SIZEBAY</strong> trata datos durante el uso y acceso a su aplicación y sitio web, también se aclaran los derechos de los titulares y cómo pueden ejercerlos con <strong>SIZEBAY</strong>.</p>",
+      "title": "Visión general"
+    },
+    "clear_data": {
+      "text": "Borre todos sus datos de navegación, caché y cookies almacenados por Sizebay",
+      "button": {
+        "initial": "eliminar cookies"
+      }
+    },
+    "person": {
+      "first": {
+        "name": "marcelo bastos",
+        "info": "<li>Unión Europea</li> <li>privacy@sizebay.com</li>"
+      },
+      "second": {
+        "name": "Janderson Roberto Araujo",
+        "info": "<li>Otras ubicaciones</li> <li>privacy@sizebay.com</li>"
+      }
+    },
+    "services": {
+      "title": "¿Cómo presta sus servicios SizeBAY?",
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/computer-face.svg /><p> Los servicios <strong>SIZEBAY</strong> están disponibles en la plataforma de comercio electrónico en forma de software como servicio (SaaS), lo que significa que <strong>SIZEBAY</strong> otorga al comercio electrónico la licencia para usar el software.</p></span> <div><img src=https://static.sizebay.technology/assets/icons/computer-face.svg /></div>"
+    },
+    "contact": {
+      "text": "<p>Si tiene alguna pregunta sobre las Políticas de <strong>SIZEBAY</strong> o cómo puede ejercer sus derechos como interesado, comuníquese con el Delegado de Protección de Datos (RPD) de <strong>SIZEBAY</strong>:</p>",
+      "title": "En caso de dudas ¿cómo contactar?"
+    },
+    "data_collected": {
+      "title": "¿Qué datos recopila SizeBAY?",
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/cookies.svg /><p> Para poder prestar sus servicios, <strong>SIZEBAY</strong> podrá recabar datos de perfil, tales como apodo (opcional), edad, sexo, altura, peso, perfil anatómico y medidas corporales. Además, se podrán recoger datos de registro de acceso y cookies, con el objetivo de mejorar la experiencia del usuario y facilitar el uso de la aplicación, sin necesidad de volver a facilitar datos ya informados por el usuario en una próxima compra o análisis del producto.</p> </span><span><img src=https://static.sizebay.technology/assets/icons/bag.svg /><p> <strong>SIZEBAY</strong> también podrá recabar datos de la orden de compra realizada en el e-commerce, con el fin de realizar análisis entre la talla recomendada y la realmente comprada, con el fin de mejorar los servicios de recomendación de talla de prendas de vestir y calzado.</p></span><span><img src=https://static.sizebay.technology/assets/icons/anonymous-person.svg /><p> Aclaramos que la aplicación <strong>SIZEBAY</strong> se preocupa por la privacidad de sus usuarios, por lo tanto, los servicios fueron desarrollados de tal manera que la recolección de datos se realiza sin que sea posible identificarlos. datos de los titulares.</p></span><div><img src=https://static.sizebay.technology/assets/icons/cookies.svg /> <img src=https://static.sizebay.technology/assets/icons/bag.svg /> <img src=https://static.sizebay.technology/assets/icons/anonymous-person.svg /></div>"
+    },
+    "how_it_works": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/mannequin.svg /><p> Para utilizar los servicios, no es necesario que el usuario se registre en la plataforma <strong>SIZEBAY</strong>. El acceso a la tabla de medidas siempre estará disponible. Para usar el Probador Virtual, el usuario debe completar algunos datos básicos para que la aplicación pueda recomendar la talla de prendas y zapatos. </p></span><span><img src=https://static.sizebay.technology/assets/icons/anonymous.svg /><p> La creación de un perfil en la aplicación <strong>SIZEBAY</strong> no requiere que el usuario use su nombre o apellido, pudiendo incluso rellenar con datos ficticios, si está interesado en preservar aún más su privacidad.</p></span><span><img src=https://static.sizebay.technology/assets/icons/persons.svg /><p> Los menores de edad no pueden utilizar la aplicación, salvo que estén representados y/o asistidos por sus padres o guardianes.</p></span><div><img src=https://static.sizebay.technology/assets/icons/mannequin.svg /><img src=https://static.sizebay.technology/assets/icons/anonymous.svg /><img src=https://static.sizebay.technology/assets/icons/persons.svg /></div>",
+      "title": "¿Cómo funciona el acceso a los servicios de Probador Virtual y Mesa Virtual?"
+    },
+    "share_data": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/share.svg /><p> El intercambio de datos siempre se puede realizar con el objetivo de brindar una mejor experiencia de compra en línea o para hacer posible el funcionamiento de la aplicación, por lo que se puede realizar con: clientes y proveedores.</p></span><div><img src=https://static.sizebay.technology/assets/icons/share.svg /></div>",
+      "title": "¿Con quién puede compartir datos SizeBAY?"
+    },
+    "actions": {
+      "terms": {
+        "content": "<li><a href=https://home.sizebay.com/{{lang}}/legal/conditions-of-use target=_blank>Términos de uso</a></li><li><a href=https://home.sizebay.com/{{lang}}/legal/privacy target=_blank>Política de Privacidad</a></li><li><a href=https://home.sizebay.com/{{lang}}/legal/cookies-policy target=_blank>Política de Cookies</a></li>",
+        "conditions-use": "Condiciones de uso",
+        "privacy": "política de privacidad",
+        "cookies": "Política de cookies",
+        "title": "Términos"
+      },
+      "statements": {
+        "gdpr": "Cumplimiento del RGPD",
+        "title": "declaraciones",
+        "lgpd": "Cumplimiento LGPD",
+        "content": "<li><a href=https://home.sizebay.com/{{lang}}/legal/gdpr target=_blank >Cumplimiento del RGPD</a></li><li><a href=https: / /home.sizebay.com/{{lang}}/legal/lgpd target=_blank >Cumplimiento LGPD</a></li><li><a href=https://home.sizebay.com/{ {lang }}/legal/ccpa target=_blank >Cumplimiento de CCPA</a></li><li><a href=https://sizebay.com/{{lang}}/legal/pipl target=_blank >Cumplimiento de PIPL </a></li>",
+        "pipl": "Cumplimiento de PIPL",
+        "ccpa": "Cumplimiento de la CCPA"
+      },
+      "title": "Acceda a nuestras páginas de términos",
+      "redirect_privacy": {
+        "text": "Haga clic aquí para redirigirlo a la página de privacidad de {{ tenantName }}"
+      }
+    },
+    "how_data_is_collected": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/computer-hanger.svg /><p> La recogida de datos se realiza cuando el usuario proporciona información al utilizar los servicios de Virtua Fitter y Tabla de Medición, o a través de cookies, cuando el usuario accede a la aplicación o sitio web <strong>SIZEBAY</strong>. nuevamente datos ya informados por el usuario en una próxima compra o análisis del producto.</p></span><div><img src=https://static.sizebay.technology/assets/icons/computer-hanger.svg /></div>",
+      "title": "¿Cómo recopila datos SizeBAY?"
+    },
+    "users_obligations": {
+      "title": "¿Cuáles son las obligaciones del usuario?",
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/obligations.svg /><p> Los usuarios de la aplicación se comprometen a utilizar los servicios de <strong>SIZEBAY</strong> siempre respetando y observando las Políticas, así como la legislación vigente, las costumbres, el orden público, así como los requisitos obligatorios exigidos para el uso y aceptación del uso de la plataforma .</p></span><div><img src=https://static.sizebay.technology/assets/icons/obligations.svg /></div>"
+    },
+    "data_protection": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/security.svg /><p> <strong>SIZEBAY</strong> considera sumamente importante el secreto y la seguridad de la información de sus clientes, usuarios y visitantes. Para ello utiliza tecnología de Cifrado y Firewall, y hará todo lo posible para garantizar la protección de sus datos e información.</p></span><span><img src=https://static.sizebay.technology/assets/icons/http.svg /><p> Le recomendamos que limpie periódicamente las Cookies almacenadas en su navegador, con el fin de evitar la información recopilada sea eliminada de la base de datos <strong>SIZEBAY</strong>, así como de otros sitios a los que se acceda.</p></span><div><img src=https://static.sizebay.technology/assets/icons/security.svg /> <img src=https://static.sizebay.technology/assets/icons/http.svg /></div>",
+      "title": "¿Cómo protege SizeBAY sus datos?"
+    }
+  },
+  "garment_measures_info": {
+    "shaft_height": "Mide desde la base del talón hasta la parte superior del tubo de la bota.",
+    "shoulder_length": "Ancho de una costura de la manga a la otra, en la parte posterior de la prenda.",
+    "full_body_length": "Mida desde la costura superior hasta el dobladillo inferior de una pieza completa del cuerpo.",
+    "hem": "Ancho de la parte inferior de la pieza.",
+    "back_length": "Mide desde el cuello hasta el dobladillo de la prenda superior, desde la parte trasera.",
+    "lower_waist_width": "Ancho de la pretina de la prenda de tiro bajo.",
+    "hip_circumference": "Ancho de la prenda, aproximadamente 20 cm por debajo de la cintura, multiplicado por dos.",
+    "palm_length": "Mide desde la muñeca hasta la punta del dedo medio.",
+    "calf_circumference": "Medida alrededor de la parte superior del eje de la bota, generalmente en el punto más ancho de la pantorrilla.",
+    "head_circumference": "Mide alrededor del interior del sombrero donde descansa la cabeza.",
+    "sleeve": "Mide desde la costura interior donde comienza la manga hasta el final del puño.",
+    "waist_width": "Ancho de la parte más estrecha de la parte superior, entre las axilas y el dobladillo.",
+    "thigh_width": "Ancho de la parte más ancha del muslo.",
+    "waistband_circumference": "Medición de la apertura superior de la prenda.",
+    "circumference": "Mide alrededor de una pieza, generalmente multiplicando el ancho por 2.",
+    "lower_waist_circumference": "Ancho de la prenda, justo debajo de la cintura natural, multiplicado por dos.",
+    "high_waist_width": "Ancho de la pretina de la prenda de talle alto.",
+    "chest_circumference": "Medición del ancho de la prenda superior, de un lado al otro, justo debajo de la axila, multiplicado por dos.",
+    "waist_circumference": "Ancho de la parte más estrecha de la prenda multiplicado por dos.",
+    "front_length": "Mide desde el cuello hasta el dobladillo de la prenda superior, desde el frente.",
+    "lower_length": "Mide desde la cintura hasta el dobladillo de la prenda, desde el costado.",
+    "wrist_circumference": "Medición de la circunferencia de la abertura de la manga donde se ajusta a la muñeca.",
+    "heel_height": "Mide desde la base del salto hasta el punto más alto.",
+    "wrist_width": "Manejar el ancho de la pieza.",
+    "hook": "Mide desde la parte superior de la pretina hasta la costura de la entrepierna.",
+    "thigh_circumference": "Medición de la parte más ancha del muslo de la prenda, justo debajo de la costura interior.",
+    "platform_height": "Mide desde la base del frente del zapato hasta la parte superior de la plataforma.",
+    "biceps": "Ancho de la manga, aproximadamente 2.5 cm debajo de la axila.",
+    "insole_width": "Mide la parte más ancha de la plantilla.",
+    "brim": "Mide desde la base hasta la punta del borde de la visera.",
+    "high_waist_circumference": "Mide alrededor de la pretina de la prenda de cintura alta.",
+    "hip_width": "Ancho de la pieza, 20 cm debajo de la pretina.",
+    "length": "Mide desde la costura superior hasta el dobladillo inferior de la pieza.",
+    "chest_width": "Mide el ancho de la pieza superior, de un lado al otro, justo debajo de las axilas.",
+    "calf_width": "Medición del ancho del eje de la bota a la altura de la pantorrilla.",
+    "collar": "Ancho del cuello de la blusa, medido alrededor de la base del cuello.",
+    "waistband_width": "Ancho de la pretina de la parte inferior.",
+    "back_hook": "Mide desde la cintura hasta la costura de la entrepierna, en la parte trasera de la prenda.",
+    "insole_length": "Mide desde la punta del talón hasta la punta del dedo del pie de la plantilla.",
+    "under_bust": "Medición del ancho de la prenda superior, de un lado al otro, justo debajo del busto, multiplicado por dos.",
+    "inside_leg": "Mide desde la costura de la entrepierna hasta el dobladillo del pantalón"
+  },
+  "error": {
+    "close": "Salir del probador",
+    "title": "Ui! Alguna cosa ha sortit malament",
+    "options": "Torna-ho a intentar reiniciant el perfil o tancant i provar-ho més tard",
+    "restart": "Reinicia el perfil",
+    "description": "No et preocupis ja estem investigant què ha passat per evitar que torni a succeïr"
+  },
+  "recommendation": {
+    "3d_feel": {
+      "lanes": {
+        "large": "demasiado suelto",
+        "ideal": "ideal",
+        "slightly_loose": "Afeigeix e suelto",
+        "loose": "folgat",
+        "slightly_fit": "Afeigeix zins justa",
+        "tight": "APRETAT",
+        "fit": "just"
+      },
+      "title_suggested": "Afeigeix  opción"
+    },
+    "lanes": {
+      "tight": "APRETAT",
+      "ideal": "IDEAL",
+      "fit": "JUSTA",
+      "looser": "MÉS SOLT",
+      "large": "AMPLE",
+      "loose": "FOLGAT",
+      "tighter": "MÉS ATAPEÏT"
+    },
+    "title_not_suggested": "Afeigeix aa n",
+    "measurements": {
+      "title": "Mediciones",
+      "conversion": {
+        "title": "Conversión de Tallas"
+      }
+    },
+    "centered_mode": {
+      "controls": {
+        "appearance": "Apariencia",
+        "comfort": "Comodidad"
+      },
+      "comfort_map": {
+        "header": "Los colores en la imagen 3D indican cuán ajustada o suelta estará la prenda en tu cuerpo."
+      },
+      "tag_info": "La simulación corporal en 3D representa tus medidas corporales individuales y el ajuste realista del producto.",
+      "measure_name": "en tu {{measureName}}"
+    },
+    "title_suggested": "Es la miex mejor opc",
+    "height_warning": {
+      "threshold": {
+        "long": "Llarg",
+        "short": "Curt"
+      },
+      "message": "{{threshold}} massa sobre qui mesura {{height}}"
+    },
+    "shoe": {
+      "insoleLength": "longitud",
+      "insoleWidth": "anchura"
+    },
+    "subtitle": "Vea los niveles de comodidad a continuación",
+    "subtitle_shoe": "Según la marca {{brandName}} y {{size}}\\n",
+    "title_also_fits": "Afeigeix oo sirve",
+    "carousel_also_try": "Prueba iex las tal"
+  },
+  "product_comparison": {
+    "elements": {
+      "edit": "Editar",
+      "foot_format": "Forma del peu",
+      "category": "Categoría",
+      "brand": "Marca",
+      "size": "Talla"
+    },
+    "title": "Comparació",
+    "subtitle": "Aquesta es la recomenació de la teva talla"
+  },
+  "warnings": {
+    "age_group": {
+      "age_group": "Producte {{ageGroup}}",
+      "limit_reached": "El nombre de perfils ja arribat al límit. Elimina algún per afegir-ne d'altres",
+      "subtitle": "El rang d'edat del producte no és compatible  amb l'edat del perfil {{profileName}}. Sel·lecciona o afegeix un perfil per continuar",
+      "prompt_message": "Vols probar-te roba de la secció ({{ ageGroup }})?"
+    },
+    "we_need_more_measures": {
+      "subtitle": "No hem pogut calcular les teves mides. Informa'ns o torna i revisa les dades proporcionades",
+      "title": "Afegeix les teves mesures"
+    },
+    "unmatched_gender": {
+      "choose_a_profile": "Sel·lecciona el perfil desitjat",
+      "select_profile": "No, sel·lecciona un altra perfil ",
+      "tooltip": "Aquest perfil no és adequat pel tipu de producte escollit",
+      "title": "Vols probar-te roba de la secció  {{gender}}?",
+      "create_profile": "No, crea un perfil nou"
+    }
+  },
+  "brands_list": {
+    "search_question": "¿Quina marca utilitzes?",
+    "not_found": {
+      "title": "Ops!",
+      "subtitle": "No s'han trobat resultats"
+    },
+    "subtitle": "Amb algunes preguntes t'ajudarem a escollir millor la talla del calçat",
+    "title": "Probador Virtual",
+    "search_placeholder": "Introdueix la marca",
+    "title_restricted": "¿Fas servir les nostres sabates?"
+  },
+  "age_group": {
+    "adult": "Adult",
+    "kids": "Infantil"
+  },
+  "a11y": {
+    "Chart": {
+      "vfr_button": "Pulsa la barra espaciadora para ir al probador virtual",
+      "step_blocks": {
+        "table": {
+          "measure_description": "Este es el tamaño {{size}}, en el {{measureName}} debería medir {{measure}}"
+        },
+        "switcher": {
+          "instruction_press_space": "Presiona la barra espaciadora para cambiar los valores",
+          "option": "El teu valor actual és {{value}}"
+        }
+      },
+      "greeting": "Esta es la tabla de tallas",
+      "size_system": {
+        "instruction": "Tu sistema de tallas actual es {{sizeSystem}}. Pulsa la barra espaciadora para elegir otra opción."
+      },
+      "instruction": "Aquí puedes comparar tus medidas con las que aparecen en nuestra tabla"
+    },
+    "shoe": {
+      "Brands": {
+        "highlighted": {
+          "edit_negative": "Presiona la barra espaciadora si no usas ninguna de estas marcas",
+          "edit_action": "Presiona la barra espaciadora para continuar con la marca elegida",
+          "instruction": "Pulsa la barra espaciadora para continuar con {{brandName}}"
+        },
+        "restricted": {
+          "greeting": "Bienvenido al probador de zapatos de marcas restringidas. Elige una de las marcas de zapatos que ya usas"
+        }
+      },
+      "FootSize": {
+        "instruction": "Pulsa la barra espaciadora para seleccionar el sistema de tallas {{ sizeSystem }}"
+      },
+      "EditData": {
+        "greeting": "Aquí puedes hacer cambios en la información sobre el pie y el calzado que nos enviaste"
+      },
+      "FootFormat": {
+        "instruction": "Elige una forma de pie.",
+        "edit_action": "Presiona la barra espaciadora para elegir {{ shoeFormat }}"
+      }
+    },
+    "drawer": {
+      "measurement_tape_header": "Cinta",
+      "measurement_tape_handle": "Cinta métrica. Pulsa la barra espaciadora para acceder a la cinta métrica",
+      "close_group_handle": "Pulsa la barra espaciadora para cerrar el grupo",
+      "measurement_tape_print_button": "Pulsa la barra espaciadora para abrir la cinta métrica"
+    },
+    "clothes": {
+      "Welcome": {
+        "step_blocks": {
+          "gender": {
+            "question": "Elige un género para continuar. Tu género actual es {{gender}}"
+          },
+          "age": {
+            "tooltip": "Pulsa la barra espaciadora para leer más información sobre cómo la edad afecta la recomendación"
+          },
+          "height": {
+            "question": "Introduce tu altura en {{measurementSystem}} aquí."
+          }
+        }
+      },
+      "ProfilesMenu": {
+        "blocks": {
+          "greeting": "Estos son todos tus perfiles en el probador virtual",
+          "edit": "Aquí puedes elegir si deseas añadir o eliminar perfiles"
+        },
+        "chip": {
+          "message": "Presiona la barra espaciadora para acceder a más detalles de tu perfil de {{profileName}}"
+        }
+      },
+      "Recommendation": {
+        "lane": "La talla {{ size }} es {{ label }} en el {{ measureName }}",
+        "carousel_instruction": "Encuentra más opciones de tamaño aquí"
+      },
+      "measures": {
+        "edit": "Presiona las teclas de flecha para aumentar o disminuir la medida de {{measureName}}",
+        "read": "El teu {{measureName}} mesura {{measureValue}} en {{measureSystem}}"
+      }
+    },
+    "generics": {
+      "welcome": "Bienvenido al probador virtual"
+    }
+  },
+  "welcome": {
+    "age_disclaimer": "La forma del cos canvia amb l'edat i pot afectar en el nostre càlcul",
+    "gender_f_kids": "Femenino",
+    "title": "Probador Virtual",
+    "gender_m_kids": "Masculino",
+    "foot_measurement_known": "Ya conozco la medida de mi pie",
+    "gender_m": "Masculí",
+    "shoe_measure": "Longitud del pie",
+    "gender_f": "Femení",
+    "gender_u": "Unisex",
+    "subtitle": "Posa les teves dades per probar aquest producte"
+  },
+  "edit_measures": {
+    "view_less": "Veure menys mesures",
+    "view_all": "Veure les mesures"
+  },
+  "drawers": {
+    "manage": {
+      "actions": {
+        "select": "Seleccionar",
+        "delete": "Borrar"
+      },
+      "active_profile": {
+        "details_shoe": "{{brandName}} talla {{size}}",
+        "no_name": "Introduiex el nom",
+        "delete": "Eliminar perfil"
+      },
+      "new_profile": {
+        "input_example": "Exemple: Juan Cortez",
+        "title": "Afeigeix el perfil",
+        "subtitle": "Introdueix un nom per aquest perfil"
+      }
+    },
+    "knobs": {
+      "kids_shoes_tips": "Consells del tamany",
+      "garment_info": "Medidas de prendas",
+      "size_content": "Guia d'estil",
+      "measurement_tape": "Cinta mètrica",
+      "product_info": "Medidas corporales",
+      "size_hint_promo": "Completa la promo",
+      "size_hint": "Suggerència",
+      "sizes_conversions": "Conversiones de Tallas"
+    },
+    "kids_shoes_title": "Consells i pautes sobre el calçat infantil",
+    "kids_shoes_button": "Entès",
+    "kids_shoes_message": "Els peus dels nens creixen cada 2 a 4 mesos. Degut a aquest ràpid creixement, recomanem que escullis talles una mica més folgada pel nene perque les sabates puguin durar més i no facin mal als peus. "
+  },
+  "landscape_vertical_subtitle": "Col·loca el teu dispositiu en posició vertical per començar a fer-lo servir",
+  "coppa_gate": {
+    "close": "No, tinc menys de 13 anys",
+    "confirm": "Sí, sóc el responsable",
+    "prompt_title_months": "¿Ets el pare o tutor legal del nen que té {{ months }} mesos?",
+    "message": "Pots seguir emprovant aquest producte si és un adult qui va crear el perfil per emprovar el producte pel seu fill",
+    "prompt_title_years": "¿Ets el pare o tutor legal del nen que té {{ years }} anys?",
+    "title": "Comprovar l'edat"
+  },
+  "fetching": {
+    "subtitle": "Estem calculant la mida del teu cos per recomenar-te una talla",
+    "title": "Ja casi està!",
+    "shoe": {
+      "success": "¡Cálculo completado!",
+      "calculating": "Calculando tus medidas",
+      "analyzing": "Analizando tus respuestas"
+    }
+  },
+  "landscape_subtitle": "Posa el telèfon en horitzontal per començar",
+  "measurement_tape": {
+    "link_download": {
+      "in": "//static.sizebay.technology/assets/measurement_tape/measurement_tape_in_cat.pdf",
+      "cm": "static.sizebay.technology/assets/measurement_tape/measurement_tape_cm_es.pdf"
+    },
+    "title": "Cinta mètrica",
+    "message": "Imprimeix, talla i monta aquesta cinta mètrica per comprovar les teves mides",
+    "print": "Imprimir",
+    "print_mobile": "Cinta métrica impresa",
+    "download": {
+      "file": {
+        "title": "Instrucción per imprimir i montar la cinta mètrica",
+        "fold-and-rotate": "Doblega i gira",
+        "how-to-do": "Imprimiu:\\nAbans d'imprimir, assegureu-vos que l'opció \"ajustar a la pàgina\" o “fit to page” al quadre de diàleg d'impressió estigui desactivada perquè la impressora no redueixi ni augmenti les dimensions de la cinta.\\n\\ nTallar:\\nAmb unes tisores o un estilet, talleu totes les línies negres contínues indicades amb les \"tisores\" per crear els segments de la cinta.\\n\\nArmar:\\nDoble i gireu els extrems (com s'indica a la impressió) unint les línies de punts fins que s'assembli una sola cinta.\\n\\nArreglegueu els plecs:\\nDesprés de la preparació, fixeu els plecs de la cinta amb cola, cinta adhesiva o una grapadora."
+      }
+    }
+  },
+  "foot_size": {
+    "select_region": "Selecciona una región",
+    "not_selected": "Asegúrate de seleccionar un tamaño para continuar",
+    "title": "¿Cuál es tu talla de zapatos?",
+    "pattern": "Estàndar",
+    "subtitle": "Elige tu talla en"
+  },
+  "child_name": {
+    "name": "Nom",
+    "title": "¿Ens pots dir el nom del teu fill?",
+    "subtitle": "Això ens ajuda a crear un perfil per l'Emprovador"
+  },
+  "size_hint": {
+    "title": "Hem triat uns productes que també serveixen",
+    "discount-original-price": "Precio habitual: <span class='size-hint__discount-original-price discount-description-price'>{{ price }}</span> <span class='size-hint__discount-percentage'>-{{discount }}%</span>",
+    "discount-lowest-price": "Precio más bajo desde 30 días antes de la reducción: <span class='size-hint__discount-lowest-price discount-description-price'>{{ price }}</span> <span class='size-hint__discount-percentage'>-{{ discount }}%</span>",
+    "title_promo": "Completa la promo",
+    "try_now": "Prova"
+  },
+  "size_tailor": {
+    "action_button": "Ho personalitzem per a tu!",
+    "title": "Producte personalitzat",
+    "description": "Confirma les mesures del teu cos perque podem desenvolupar el producte"
+  },
+  "miscellaneous": {
+    "hannaLinks": {
+      "recommendation": "Volver a mis resultados",
+      "welcome": "Regresar"
+    }
+  },
+  "measure_shape": {
+    "shape_bigger": "Més gran",
+    "shape_smaller": "Més petit",
+    "skin_types": {
+      "toggle": "Canvia el color de pell"
+    },
+    "subtitle": "Aquesta es la forma del cos aproximada que hem generat  amb les mesures que ens has donat. Ajusta si és necessari",
+    "measure_range": {
+      "1": "Molt més petit",
+      "2": "Més petit",
+      "3": "Mitjana",
+      "4": "Més gran",
+      "5": "Molt més gran"
+    },
+    "shape_regular": "Normal",
+    "title": "Ajusta la forma del cos"
+  },
+  "calculating": {
+    "subtitle": "Revisa les mesures i ajústeles en cas necessari",
+    "circle_title_loading": "Si us plau, espera",
+    "circle_title_completed": "Llest!",
+    "title": "Càlculs fets"
+  },
+  "brands_grid": {
+    "subtitle": "¿Qué marca sueles usar?",
+    "unique_brand": "¿Ya usas zapatos de {{ brandName }}?",
+    "search_other_brands": "Busca otra marca"
+  },
+  "modals": {
+    "remove_profile": {
+      "title_alt": "¿Estás seguro de que deseas eliminar este perfil?",
+      "title": "¿Borrariex de {{p",
+      "action": "Afeigeix el perfil",
+      "confirm": "Afeigeix jder perfil"
+    }
+  },
+  "no_recommendation": {
+    "expected_size": "La talleix taille per aquest recommendedSize}}.",
+    "title_shoe": "Lamentablement de moment aquest model i talla no està disponible a la nostra botiga.",
+    "based_on": "Recomendación basada en su cuerpo y el producto {{brandName}} talla {{size}} que usa.",
+    "calculate_again": "Recalcueix per aquest Recalcular",
+    "title": "No trobem cap talla",
+    "subtitle": "No vam poder trobar una talla per a les següents mesures. Ajust si és necessari."
+  },
+  "accessory": {
+    "welcome": {
+      "subtitle": "Para probar este producto, siga las instrucciones para tomar sus medidas e informar el número correspondiente",
+      "shoe": {
+        "subtitle": "Seleccione la medida de su pie a continuación, siguiendo nuestra guía sobre cómo medirse"
+      }
+    },
+    "bike": {
+      "recommendation": {
+        "title_suggested": "El tamaño de bicicleta que recomendamos es el mejor para su rendimiento y postura. Ni muy alto ni muy bajo, podrás andar en bicicleta cómodamente.",
+        "subtitle": "basado en tu altura",
+        "title_also_fits": "El tamaño de bicicleta que recomendamos es el mejor para tu rendimiento y postura. Ni demasiado alta ni demasiado baja, podrás andar en bicicleta cómodamente.",
+        "title_not_suggested": "El tamaño de bicicleta que recomendamos es el mejor para su rendimiento y postura. Ni muy alto ni muy bajo, podrás andar en bicicleta cómodamente."
+      }
+    },
+    "shoe_size": {
+      "subtitle": "Para probar este producto, elija una talla acorde a la longitud de su pie"
+    }
+  },
+  "foot_format": {
+    "formats": {
+      "0": {
+        "description": "Los pies estrechos tienden a tener espacio adicional en los lados del zapato.",
+        "title": "Estrecho"
+      },
+      "1": {
+        "title": "Medio",
+        "description": "Los pies de tamaño mediano suelen ajustarse bien en la mayoría de los zapatos."
+      },
+      "2": {
+        "title": "Ancho",
+        "description": "Los pies anchos coinciden con la longitud del zapato pero se sienten apretados en los lados."
+      }
+    },
+    "subtitle": "Selecciona qué tan ancho es tu pie para mejorar tu ajuste.",
+    "title": "¿Com d'ample és el teu peu?"
+  },
+  "landscape_warning": {
+    "title": "Probador Virtual"
+  },
+  "my_measures": {
+    "title": "Afeigeix ma medidas",
+    "subtitle": "Ajuste iex sea nec"
+  },
+  "subcategory": {
+    "subtitle": "Sel·lecciona una de les subcategories que més s'assembli al producte  {{brandName}} > {{categoryName}}",
+    "title": "Quina subcategoria és?"
+  },
+  "model": {
+    "title": "¿Cuál eiex el mod",
+    "subtitle": "Elija uno de los modelos que más se parezca a {{brandName}} > {{categoryName}} > {{subcategoryName}}"
+  },
+  "landscape_horizontal_subtitle": "Col·loca el teu dispositiu en posició horitzontal per començar a fer-lo servir",
+  "category": {
+    "subtitle": "Selecciona una de les categories que s'adeqüi al producte {{brandName}}.",
+    "title": "¿Quin és el tipu de sabates?"
+  },
+  "header": {
+    "title": "Buscador de Tallas"
+  }
+}

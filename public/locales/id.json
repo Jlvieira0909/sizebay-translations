@@ -1,0 +1,953 @@
+{
+  "shoe_size": {
+    "fit_loose": "Kendur",
+    "shoe_accessory": {
+      "no_recommendation": {
+        "subtitle": "Kami tidak dapat menemukan ukuran untuk pengukuran di bawah ini. Sesuaikan jika perlu.",
+        "title": "Kami tidak menemukan ukuran apa pun"
+      },
+      "all_measures": {
+        "measurements_guide": "Panduan Pengukuran [PDF]",
+        "title": "Berapa ukuran kaki Anda?"
+      },
+      "info_drawer_subtitle": "Untuk menemukan ukuran sepatu terbaik, mengapa Anda tidak memberi tahu kami sedikit tentang diri Anda?"
+    },
+    "recommendation": "Berdasarkan informasi Anda, ini adalah ukuran kaki Anda. Sesuaikan jika perlu",
+    "foot_shape_question": "Apa bentuk kaki Anda?",
+    "title": "Berapa panjang kaki Anda?",
+    "drawer_title": "Berapa lama kaki Anda",
+    "subtitle": {
+      "0": "Ceritakan sedikit tentang diri Anda untuk menemukan ukuran sepatu terbaik",
+      "box": {
+        "subtitle": "Letakkan selembar kertas di lantai menempel pada dinding. Berdirilah dengan tumit Anda di atas kertas dan dinding. Tandai ujung jari kaki terpanjang Anda, lalu ukur jaraknya.",
+        "title": "Cara mengukur kaki Anda dengan benar:"
+      }
+    },
+    "fit_description_ideal": "Ada <strong>sedikit ruang</strong> antara jari kaki dan sepatu.",
+    "length_example": "Kenakan <strong>{{brandName}}</strong> ukuran <strong>{{size}}</strong> Anda dan beri tahu kami bagaimana panjangnya terasa di kaki Anda.",
+    "fit_tight": "Nyaman",
+    "fit_ideal": "Pas",
+    "open_drawer_button": "Bagaimana mengukur diri sendiri",
+    "fit_description_loose": "Ada <strong>ruang besar</strong> antara jari kaki dan sepatu.",
+    "shoe_accessory_subtitle": "Pilih pengukuran kaki Anda di bawah ini, ikuti panduan kami\ntentang cara mengukur diri sendiri.",
+    "drawer_button": "Mengerti",
+    "fit_description_tight": "Sepatu menyentuh jari kaki Anda <strong>tanpa ruang</strong>.",
+    "length_question": "Bagaimana panjang sepatu Anda pas?"
+  },
+  "footer": {
+    "add_to_cart_mobile_2": "Tambahkan ke Keranjang",
+    "confirm": "Mengonfirmasi",
+    "none_of_those": "Tidak ada yang",
+    "save_measures": "Simpan langkah -langkah",
+    "view_recommendation": "Lihat Rekomendasi",
+    "print_measurement_tape": "Pita pengukur cetak",
+    "virtual_fitting_room": "Kamar pas virtual",
+    "info_box": "Pilih ukuran khusus jika Anda ingin membuat jaket Anda disesuaikan dengan pengukuran tubuh Anda",
+    "yes": "Ya",
+    "add_to_cart": "Tambahkan ke Keranjang",
+    "brand_not_found": "Saya tidak dapat menemukan mereknya",
+    "proceed": "Melanjutkan",
+    "edit_data": "Edit data",
+    "not_yet": "Belum",
+    "cancel_alt": "Tidak, Batalkan",
+    "next": "Berikutnya",
+    "cancel": "Membatalkan",
+    "by-sizebay": "oleh Sizebay®",
+    "sure": "Tentu!",
+    "add_profile": "Buat profil",
+    "create_new_profile": "Buat profil baru",
+    "restart": "Restart",
+    "close": "Menutup",
+    "select_another_profile": "Pilih profil lain",
+    "continue_without_brand": "Saya tidak dapat menemukan mereknya",
+    "unsure": "Saya tidak yakin",
+    "save": "Menyimpan",
+    "edit_measures": "Edit pengukuran",
+    "proceed_anyway": "Lanjutkan",
+    "edit_profile": "Edit profil",
+    "add_to_cart_mobile": "Membeli",
+    "back": "Sebelumnya"
+  },
+  "composed_measures": {
+    "welcome": {
+      "link_tooltip": "<b> {{suffix}} {{Measurename}} width. </b>",
+      "item_text": "My {{ukurename}} adalah {{range}} {{sizeSystem}} lebar",
+      "measures_range_item": "{{initialrange}} ke {{finalRange}}",
+      "tooltip_text": "Klik untuk memilih ukuran lain",
+      "tooltip_instructions": "Klik di sini untuk mempelajari cara mengambil pengukuran {{{Ukuran}} Anda",
+      "height": {
+        "item_text": "Saya {{range}} {{sizeSystem}} tinggi",
+        "link_tooltip": "<b> Berapa tinggi Anda. </b>",
+        "title": "Berapa tinggi kamu?",
+        "instructions": "Kami perlu mengetahui ketinggian <b> Anda </b> untuk menunjukkan kepada Anda rekomendasi yang mungkin menurut"
+      },
+      "title": "Apa ukuran {{suffix}} {{ukurename}}?",
+      "instructions": "Seberapa lebar {{suffix}} <b> {{ukurename}} </b>? Kita perlu tahu {{suffix}} {{ukureName}} ukuran untuk menunjukkan kepada Anda rekomendasi yang mungkin sesuai dengan"
+    },
+    "height": {
+      "title": "Berapa tinggi kamu?",
+      "link_tooltip": "untuk menunjukkan tinggi badan Anda"
+    },
+    "table": {
+      "helper_height": "Ketinggian ini berubah dari {{range}} {{sizeSystem}} tinggi. Apakah pengukuran ini tidak akurat?",
+      "tooltip_change": "Ubah di sini.",
+      "helper": "Ini {{ukurename}} pergi dari {{range}} {{sizeSystem}} panjang. Apakah pengukuran ini tidak akurat?",
+      "title": "Ini adalah ukuran yang mungkin untuk <span> {{range}} </span> {{ukurename}}",
+      "vfr_tooltip": "Punya pengukuran Anda? Mengapa Anda tidak mencoba menemukan ukuran Anda di ruang pemasangan virtual?"
+    }
+  },
+  "body_measurements": {
+    "diameter": "DIAMETER",
+    "collar": "Kerah",
+    "length": "Panjang produk",
+    "centralSeam": "Bangkit depan",
+    "weightChart": "Berat",
+    "width": "Lebar",
+    "waistUpper": "Pinggang Atas",
+    "weight": "Berat",
+    "circumference": "Lingkar",
+    "insoleLength": "Panjang kaki",
+    "label1": "Ukuran (AS)",
+    "sleve": "Panjang lengan",
+    "waist": "Pinggang",
+    "chest_m": "Dada",
+    "chest_f": "Menyergap",
+    "neck": "Leher",
+    "comfort": "Kenyamanan",
+    "sleeve": "Lengan",
+    "thigh": "Paha",
+    "headCircumference": "Kepala",
+    "hip": "Panggul",
+    "shoulderWidth": "Bahu",
+    "waistLower": "Pinggang Bawah",
+    "wrist": "Pergelangan tangan",
+    "palm": "Telapak tangan tangan",
+    "bar": "Keliman",
+    "chest": "Dada / payudara",
+    "lowerLength": "Panjang lebih rendah",
+    "finger_circumference": "LINGKAR",
+    "insoleWidth": "Lebar Kaki",
+    "height": "Tinggi",
+    "ageChart": "Usia",
+    "underBust": "Di bawah patung",
+    "insideLeg": "Inseam",
+    "biceps": "Bisep",
+    "calf": "Anak sapi",
+    "fist": "Tinju",
+    "fullBodyLength": "Panjang tubuh penuh"
+  },
+  "measures_info": {
+    "insideLeg": "Ukur jarak internal kaki dari pubis ke telapak kaki.",
+    "fullBodyLength": "Ukur jarak dari bahu Anda ke lantai.",
+    "weightChart": "Berapa berat Anda?",
+    "waistUpper": "Ukur lingkar pinggang di atas tombol perut Anda.",
+    "insoleLength": "Letakkan selembar kertas di lantai menempel pada dinding. Berdirilah dengan tumit Anda di atas kertas dan dinding. Tandai ujung jari kaki terpanjang Anda, lalu ukur jaraknya.",
+    "biceps": "Garis besar pita pengukur di tengah lengan Anda, mengidentifikasi bagian terluasnya.",
+    "height": "Ini mudah. Ini adalah jarak antara bagian atas kepala Anda (tengkorak) ke tanah (sol), diukur dengan postur tegak.",
+    "width": "Ambil ukuran lebar pakaian Anda",
+    "weight": "Berat badan Anda.",
+    "sleeve": "Dengan lengan Anda sedikit bengkok, ukur jarak antara bahu dan pergelangan tangan dengan melewati selotip di belakang siku.",
+    "neck": "Gariskan ketinggian rata -rata leher Anda dengan pita pengukur tanpa memerasnya. Gunakan cermin untuk membantu memeriksa pengukuran.",
+    "collar": "Ukur di sekitar leher Anda tepat di atas tulang kerah Anda, letakkan satu jari di antara selotip dan leher Anda.",
+    "chest": "Garis besar dada atau dada Anda (area payudara) dengan pita pengukur dan bernafas secara normal. Perhatikan variasi saat Anda bernafas dan merekam angka tertinggi.",
+    "ageChart": "Berapa usiamu?",
+    "circumference": "Ambil ukuran keliling pakaian Anda",
+    "length_botton": "Posisikan awal pita pengukur pada titik tertinggi di tubuh Anda di mana pakaian akan berada. Lepaskan sisa rekaman dan tandai pengukuran.",
+    "waist": "Tempatkan diri Anda di depan cermin dengan pinggang Anda terlihat jelas. Sedikit memiringkan tubuh ke samping, visualisasikan pembentukan lipatan, yang menunjukkan posisi pinggang alami. Bungkus pinggang.",
+    "footLength": "Berdirilah di permukaan yang rata, dengan tinggi Anda selaras dengan dinding. Ukur bagian terpanjang kaki (dari tumit ke jari kaki) menggunakan penguasa.",
+    "lowerLength": "Ini adalah jarak antara pinggul Anda ke lantai.",
+    "chest_m": "Garis besar dada Anda dengan pita pengukur dan bernafas secara normal. Perhatikan variasi saat Anda bernafas dan merekam angka tertinggi.",
+    "chest_f": "Garis besar payudara (area payudara) dengan pita pengukur dan bernafas secara normal. Perhatikan variasi saat Anda bernafas dan merekam angka tertinggi.",
+    "palm": "Tempatkan penggaris di permukaan datar, lenturkan tangan Anda, letakkan sisi kiri tangan dominan Anda di titik nol penguasa dan perhatikan rentang tangan Anda.",
+    "waistLower": "Ukur lingkar pinggang di bawah pusar Anda, di mana ikat pinggang (pinggang rendah) biasanya cocok.",
+    "thigh": "Garis besar pita pengukur di sekitar bagian terluas dari paha Anda, terletak tepat di bawah bokong.",
+    "underBust": "Ukur dada Anda dengan pita pengukur di sekitar area tepat di bawah payudara Anda. Bernafas secara normal dengan memperhatikan variasi dalam pengukuran dan mencatat angka tertinggi.",
+    "bar": "Ambil ukuran ujung pakaian Anda",
+    "insoleWidth": "Lepaskan insole sepatu yang cocok untuk Anda dan ukur lebar insole seperti yang ditunjukkan pada gambar.",
+    "headCircumference": "Ukur keliling kepala Anda (di atas telinga Anda) dengan pita pengukur.",
+    "wrist": "Garis besar pita pengukur di pergelangan tangan Anda, tepat di mana Anda akan mengawasi, misalnya.",
+    "hip": "Garis besar dengan pita pengukur wilayah \"lebih luas\" di bawah pinggang, berjalan sejajar dengan bagian tertinggi glutes.",
+    "diameter": "Ukur diameter lingkaran bagian dalam cincin yang Anda kenakan di jari yang sama dari tangan yang sama di mana Anda ingin memakai produk ini",
+    "length": "Ukur jarak antara bagian atas batang tubuh Anda (persimpangan dengan leher Anda) dan pinggang rendah Anda (tepat di bawah perut Anda) di sekitar perut Anda.",
+    "fist": "Garis besar pita pengukur di pergelangan tangan Anda, tepat di mana Anda akan mengawasi, misalnya.",
+    "calf": "Duduklah di kursi dan jaga kaki Anda di tanah, lipat kaki Anda hingga 90 derajat. Dengan pita pengukur di sisi betis, ambil pengukuran dari pangkal kaki ke lipatan lutut.",
+    "shoulderWidth": "Dengan bantuan orang lain, ukur jarak antara ujung bahu Anda seperti yang ditunjukkan.",
+    "ring": "Ikat tali tipis di sekitar jari yang sama dengan yang ingin Anda kenakan produk ini, tandai persimpangan tali dan ukur panjangnya untuk mendapatkan keliling",
+    "centralSeam": "Duduk di permukaan datar, ukur jarak antara pinggang Anda dan permukaan dengan pita pengukur"
+  },
+  "privacy": {
+    "services": {
+      "anchor": "Layanan SizeBay",
+      "text": "<p> Layanan SIESEBAY tersedia di platform e-commerce dalam bentuk perangkat lunak sebagai layanan (SaaS), yang berarti bahwa sizebay memberikan e-commerce lisensi untuk menggunakan perangkat lunak. </p>",
+      "title": "Bagaimana SIZEBAY menyediakan layanannya?"
+    },
+    "clear_data": {
+      "button": {
+        "initial": "Hapus semua data",
+        "cleared": "membersihkan!",
+        "cleaning": "Membersihkan ..."
+      },
+      "title": "Membersihkan kue",
+      "tooltip": "Data Anda telah dihapus!",
+      "text": "Klik tombol di bawah ini jika Anda ingin menghapus semua data penelusuran, cache, dan cookie Anda yang disimpan oleh SizeBay."
+    },
+    "contact": {
+      "title": "Dalam hal keraguan, bagaimana cara menghubungi?",
+      "text": "<p> Jika Anda memiliki pertanyaan tentang kebijakan SIZEBAY atau bagaimana Anda dapat menggunakan hak -hak Anda sebagai pemilik data, silakan hubungi Petugas Perlindungan Data Sizebay (DPO): <br> <br> Janderson Roberto Araujo <br> Alamat: R. Blumenau, 953-Sala 402-América, Joinville-SC, 89204-251-Brasil. <br> Telepon: 55 48 4042-0150 <br> E-mail: <a href = 'mailto: privacy@sizebay.com' target 'target' = '_ blank'> privacy@sizebay.com </a> </p> <br> <a href = 'https: //sizebay.com/pt/legal/' target = '_ blank'> <strong> lihat lebih lanjut Kebijakan </strong> </a>"
+    },
+    "data_protection": {
+      "anchor": "Perlindungan Data",
+      "title": "Bagaimana SICEBAY melindungi datanya?",
+      "text": "<p> SizeBay mempertimbangkan kerahasiaan dan keamanan informasi pelanggan, pengguna, dan pengunjungnya sangat penting; Oleh karena itu, ia menggunakan teknologi enkripsi dan firewall, dan akan melakukan segala daya untuk memastikan perlindungan data dan informasi Anda. </p> <p> Kami menyarankan Anda secara berkala membersihkan cookie yang disimpan di browser yang Anda gunakan, secara berurutan untuk mencegah informasi yang dikumpulkan dari dihapus dari database sizebay, serta dari situs web lain yang diakses. </p>"
+    },
+    "how_data_is_collected": {
+      "text": "<p> Pengumpulan data dilakukan saat pengguna memberikan informasi saat menggunakan ruang pemasangan virtual dan fit",
+      "title": "Bagaimana SIZEBAY mengumpulkan data?"
+    },
+    "users_obligations": {
+      "anchor": "Kewajiban pengguna",
+      "title": "Apa kewajiban pengguna?",
+      "text": "<p> Pengguna aplikasi berjanji untuk menggunakan layanan SIZEBAY selalu menghormati dan mengamati kebijakan, serta undang -undang saat ini, bea cukai, ketertiban umum, dan persyaratan wajib yang diperlukan untuk menggunakan dan menerima platform. </p>"
+    },
+    "data_collected": {
+      "title": "Data apa yang dikumpulkan oleh sizebay?",
+      "text": "<p> Untuk memberikan layanannya, sizebay dapat mengumpulkan data profil seperti nama panggilan (opsional), usia, jenis kelamin, tinggi, berat badan, profil anatomi dan pengukuran tubuh. Selain itu, data log akses dan data cookie dapat dikumpulkan, untuk meningkatkan pengalaman pengguna dan memudahkan penggunaan aplikasi, tanpa perlu memberikan data lagi yang sudah diinformasikan oleh pengguna jika terjadi pembelian atau analisis produk lainnya. < /p> <p> sizeBay juga akan dapat mengumpulkan data dari pesanan pembelian yang dibuat di e-commerce, untuk menganalisis ukuran yang disarankan dan ukuran yang sebenarnya dibeli, ini untuk meningkatkan layanan yang tersedia untuk rekomendasi ukuran pakaian dan sepatu. </p> <p> Kami mengklarifikasi bahwa aplikasi sizebay berkaitan dengan privasi penggunanya, dengan demikian, layanan dikembangkan sedemikian rupa sehingga pengumpulan data dilakukan tanpa mungkin untuk mengidentifikasi pemilik data. </p >",
+      "anchor": "Data dikumpulkan"
+    },
+    "how_it_works": {
+      "anchor": "Bagaimana cara kerjanya?",
+      "title": "Bagaimana akses ke ruang pemasangan virtual dan bugar",
+      "text": "<p> Untuk menggunakan Layanan, tidak perlu bagi pengguna untuk mendaftar di platform SIZEBAY. Akses ke Fit"
+    },
+    "title": "Pribadi",
+    "overview": {
+      "title": "Untuk apa syarat dan ketentuan penggunaan dan kebijakan privasi?",
+      "text": "<p> Syarat dan ketentuan SIZEBAY dimaksudkan untuk mengatur: (i) Penggunaan layanan yang disediakan oleh SIZEBAY, melalui platform e-commerce pelanggan, dan juga (ii) akses dan konten yang tersedia di dalam Situs Web SizeBay, (iii) Pengguna, Pengunjung, dan Pelanggan Platform dan Kewajiban Situs Web saat menggunakan aplikasi atau mengakses situs web SIZEBAY, (iv) tanggung jawab pihak yang terlibat. </p> <p> <strong> Kebijakan Privasi </strong> bertujuan untuk mengklarifikasi bagaimana sizeBay menangani pemrosesan data selama penggunaan dan akses aplikasi dan situs webnya, hak pemegang dan bagaimana mereka dapat melaksanakannya dengan sizebay juga diklarifikasi. </p> <p> Saat mengakses dan Menggunakan ruang pemasangan virtual dan kesesuaian",
+      "anchor": "Pribadi"
+    },
+    "share_data": {
+      "text": "<p> Berbagi data selalu dapat dilakukan dengan tujuan memungkinkan pengalaman belanja online yang lebih baik atau sehingga aplikasi dapat berfungsi, dengan demikian, dapat dilakukan dengan: pelanggan, mitra bisnis, penyedia layanan, subkontraktor, pakaian, dan alas kaki Produsen Produk. </p>",
+      "title": "Dengan siapa sizeBay dapat berbagi data?"
+    }
+  },
+  "product_not_found": {
+    "report_status": {
+      "sending": "Memberi tahu ...",
+      "sent": "Terima kasih!",
+      "not_sending": "Beri tahu kami",
+      "not_sent": "Beri tahu kami"
+    },
+    "description": "Kami masih belum memiliki informasi yang cukup tentang produk ini untuk merekomendasikannya.",
+    "title": "Oh tidak!"
+  },
+  "languages": {
+    "all_langs": {
+      "fr": "Perancis",
+      "et": "Estonia",
+      "es": "Spanyol",
+      "en": "Bahasa inggris",
+      "fi": "Finlandia",
+      "dk": "Denmark",
+      "cn": "Cina",
+      "de": "Jerman",
+      "cz": "Ceko",
+      "br": "Portugis",
+      "ar": "Arab",
+      "bg": "Bulgaria",
+      "mx": "Spanyol",
+      "no": "Norwegia",
+      "nl": "Belanda",
+      "lt": "Lithuania",
+      "lv": "Latvia",
+      "jp": "Jepang",
+      "ko": "Korea",
+      "it": "Italia",
+      "hu": "Hongaria",
+      "hr": "Kroasia",
+      "id": "Indonesia",
+      "gr": "Orang yunani",
+      "he": "Ibrani",
+      "vn": "Vietnam",
+      "uk": "Bahasa inggris",
+      "th": "Thai",
+      "tr": "Turki",
+      "sr": "Serbia",
+      "sv": "Swedia",
+      "sl": "Slovenia",
+      "sk": "Slovakia",
+      "ru": "Rusia",
+      "ro": "Rumania",
+      "pt": "Portugis",
+      "pl": "Polandia",
+      "esAR": "Spanyol",
+      "esCT": "Spanyol (Kastilia)",
+      "ukr": "Ukraina",
+      "zh": "Cina"
+    },
+    "select": "Bahasa yang tersedia: {{langs}}",
+    "box": "Pemilih Bahasa, Anda menggunakan bahasa {{{currentlang}}}"
+  },
+  "garment_measurements": {
+    "hip_width": "Lebar Pinggul",
+    "thigh_width": "Lebar Paha",
+    "head_circumference": "Lingkar Kepala",
+    "lower_waist_circumference": "Lingkar Pinggang Lebih Rendah",
+    "collar": "Kerah",
+    "waistband_circumference": "Lingkar Pinggang",
+    "hip_circumference": "Lingkar Pinggul",
+    "biceps": "Biseps",
+    "waistband_width": "Lebar Pinggang",
+    "hem": "Hem",
+    "lower_waist_width": "Lebar Pinggang Bawah",
+    "chest_circumference": "Lingkar Dada",
+    "waist_circumference": "Lingkar Pinggang",
+    "insole_width": "Lebar Insole",
+    "palm_length": "Panjang Telapak Tangan",
+    "shoulder_length": "Panjang Bahu",
+    "length": "Panjang",
+    "waist_width": "Lebar Pinggang",
+    "chest_width": "Lebar Dada",
+    "wrist_width": "Lebar Pergelangan Tangan",
+    "insole_length": "Panjang Insole",
+    "calf_width": "Lebar Betis",
+    "heel_height": "Tinggi Hak",
+    "front_length": "Panjang Depan",
+    "brim": "Pinggiran",
+    "sleeve": "Lengan",
+    "thigh_circumference": "Lingkar Paha",
+    "inside_leg": "Panjang Dalam",
+    "wrist_circumference": "Lingkar Pergelangan Tangan",
+    "high_waist_circumference": "Lingkar Pinggang Tinggi",
+    "shaft_height": "Tinggi Poros",
+    "calf_circumference": "Lingkar Betis",
+    "full_body_length": "Panjang tubuh penuh",
+    "back_hook": "Hook Belakang",
+    "platform_height": "Tinggi Platform",
+    "circumference": "Keliling",
+    "hook": "Kait",
+    "lower_length": "Panjang Lebih Rendah",
+    "under_bust": "Bawah payudara",
+    "high_waist_width": "Lebar Pinggang Tinggi",
+    "back_length": "Panjang Punggung"
+  },
+  "regions": {
+    "IT": "Italia",
+    "HU": "Hongaria",
+    "FR": "Perancis",
+    "MX": "Meksiko",
+    "CUSTOM": "Internasional",
+    "JP": "Jepang",
+    "code": {
+      "CUSTOM": "CUSTOM",
+      "US": "US",
+      "UK": "UK",
+      "AU": "AU",
+      "IT": "IT",
+      "MEX": "MEX",
+      "JP": "JP",
+      "FR": "FR",
+      "EU": "EU",
+      "CN": "CN",
+      "BR": "BR",
+      "DE": "DE"
+    },
+    "ES": "Spanyol",
+    "EU": "Eropa",
+    "DE": "Deutsch",
+    "CN": "Cina",
+    "AU": "Australia",
+    "BR": "Brazil",
+    "region": "Wilayah",
+    "other": "Tidak dikenal",
+    "mx_marti": "Marti",
+    "PT": "Pt Portugis",
+    "letter-br": "Brazil",
+    "US": "Amerika",
+    "UK": "Inggris"
+  },
+  "size_chart": {
+    "subtitle": "Geser bilah gulir untuk melihat lebih banyak pengukuran dan ukuran",
+    "title_web": "Bandingkan pengukuran Anda dengan bagan ini.",
+    "scroll_action": "Menggeser",
+    "subtitle_mobile": "Geser untuk melihat lebih banyak pengukuran dan ukuran",
+    "returns_link": "Cari tahu lebih lanjut tentang kebijakan pengembalian.",
+    "returns": "Masih ragu? Jangan khawatir, pengembalian <strong> pertama gratis. </strong>",
+    "title_accessory": "Ukuran bagan untuk aksesori ini",
+    "title": "Pilih ukuran dan periksa pengukurannya",
+    "instruction_measure": "Lihat materi kami tentang cara mengukur diri sendiri dan membandingkan pengukuran Anda dengan tabel ini.",
+    "title_mobile": "Bandingkan pengukuran tubuh Anda dengan bagan ini. Arahkan setiap judul kolom di bawah ini dan temukan cara terbaik untuk mengukur tubuh Anda."
+  },
+  "generics": {
+    "disable": "Cacat",
+    "less_than_year": "<1 tahun",
+    "profile_tooltip": "Anda dapat membuat profil pengukuran baru dengan mengklik di sini",
+    "weight": "Berat",
+    "age": "Usia",
+    "accessibility": "Aksesibilitas",
+    "language": "Bahasa",
+    "years": "Bertahun-tahun",
+    "female": "Perempuan",
+    "size_fit": "Ukuran",
+    "no_name": "Tidak disebutkan namanya",
+    "pronoun_female": "-ku",
+    "year": "Tahun",
+    "suffix_male": "milikmu",
+    "months": "Bulan",
+    "size_chart": "Bagan Ukuran",
+    "chart": "Bagan Ukuran",
+    "closeVfr": "Tutup ruang pemasangan virtual",
+    "about": "Tentang Sizebay",
+    "see_how_to_measure": "Lihat Cara Mengukur",
+    "kg": "Kilogram",
+    "assistive_mode": "{{status}} mode bantu",
+    "suffix_female": "milikmu",
+    "switcher": {
+      "title_chart": "Pengukuran:"
+    },
+    "lb": "Pound",
+    "how_to_measure": "Lihat Cara Mengukur",
+    "unavailable": "-",
+    "other_profiles": "Profil lainnya",
+    "privacy": "Pribadi",
+    "ft": "Inci",
+    "pronoun_male": "-ku",
+    "got_it": "Mengerti",
+    "enable": "Memungkinkan",
+    "cm": "Sentimeter",
+    "height": "Tinggi",
+    "male_singular": "pria",
+    "uninformed": "Tidak diinformasikan",
+    "female_singular": "perempuan",
+    "profile": {
+      "title": "Profil pengguna"
+    },
+    "male": "Pria",
+    "confirm_edit": "OKE"
+  },
+  "privacy_v2": {
+    "overview": {
+      "text": "<p> sehingga Anda dapat lebih memahami kebijakan yang mengatur penggunaan solusi yang dikembangkan oleh <strong> sizeBay </strong>, kami telah menyiapkan ringkasan singkat ini untuk Anda. Tinjauan ini tidak menggantikan seluruh konten kebijakan, jadi kami sarankan setelah itu Anda membaca setiap dokumen dengan cermat. </p> <p> Syarat dan ketentuan penggunaan </strong> dari <strong> sizeBay < /Strong> dimaksudkan untuk mengatur: (i) Penggunaan layanan yang disediakan oleh <strong> sizeBay </strong>, melalui platform e-commerce dari <a href = {{pagetenant}} target = _blank> {{tenantName }} ({{pagetenant}}) </a>, dan juga (ii) akses dan konten yang tersedia di situs web <strong> sizebay </strong>, (iii) kewajiban pengguna, pengunjung, dan pelanggan dari platform dan situs web saat menggunakan aplikasi atau mengakses situs web <strong> sizeBay </strong>, (iv) tanggung jawab pihak yang terlibat. > bertujuan untuk mengklarifikasi bagaimana <strong> sizeBay </strong> memproses data selama penggunaan dan akses aplikasi dan situs webnya, hak -hak pemegang juga diklarifikasi dan bagaimana mereka dapat melatihnya dengan <strong> sizeBay </strong>. < /p>",
+      "title": "Ringkasan"
+    },
+    "clear_data": {
+      "text": "Bersihkan semua data penelusuran, cache, dan cookie Anda yang disimpan oleh sizebay",
+      "button": {
+        "initial": "bersihkan cookie"
+      }
+    },
+    "person": {
+      "first": {
+        "name": "Marcelo Bastos",
+        "info": "<li> Uni Eropa </li> <li> privacy@sizebay.com </li>"
+      },
+      "second": {
+        "name": "Janderson Roberto Araujo",
+        "info": "<li> Lokasi lain </li> <li> privacy@sizebay.com </li>"
+      }
+    },
+    "services": {
+      "title": "Bagaimana SizeBay memberikan layanannya?",
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/computer-face.svg /><p> Layanan <strong>SIZEBAY</strong> tersedia di platform e-commerce dalam bentuk perangkat lunak sebagai layanan (SaaS), yang berarti <strong>SIZEBAY</strong> memberikan lisensi kepada e-commerce untuk menggunakan perangkat lunak tersebut.</p></span> <div><img src=https://static.sizebay.technology/assets/icons/computer-face.svg /></div>"
+    },
+    "contact": {
+      "text": "<p> Jika Anda memiliki pertanyaan tentang <strong> sizeBay </strong> kebijakan atau bagaimana Anda dapat menggunakan hak Anda sebagai subjek data, silakan hubungi <strong> sizeBay </strong> Petugas Perlindungan Data (DPO): </s p>",
+      "title": "Dalam hal keraguan, bagaimana cara menghubungi?"
+    },
+    "data_collected": {
+      "title": "Data apa yang dikumpulkan oleh sizebay?",
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/cookies.svg /><p> Untuk menyediakan layanannya, <strong>SIZEBAY</strong> dapat mengumpulkan data profil, seperti nama panggilan (opsional), usia, jenis kelamin, tinggi badan, berat badan, profil anatomi, dan ukuran tubuh. Selain itu, data log akses dan cookie juga dapat dikumpulkan, dengan tujuan meningkatkan pengalaman pengguna dan memudahkan penggunaan aplikasi, tanpa perlu memasukkan ulang data yang telah diinformasikan sebelumnya oleh pengguna pada pembelian atau analisis produk berikutnya.</p></span><span><img src=https://static.sizebay.technology/assets/icons/bag.svg /><p> <strong>SIZEBAY</strong> juga dapat mengumpulkan data dari pesanan yang dilakukan di e-commerce, dengan tujuan untuk menganalisis ukuran yang direkomendasikan dengan yang sebenarnya dibeli, guna meningkatkan layanan rekomendasi ukuran pakaian dan alas kaki.</p></span><span><img src=https://static.sizebay.technology/assets/icons/anonymous-person.svg /><p> Kami tegaskan bahwa aplikasi <strong>SIZEBAY</strong> sangat memperhatikan privasi penggunanya, oleh karena itu, layanan dikembangkan sedemikian rupa sehingga pengumpulan data dilakukan tanpa dapat mengidentifikasi pemilik data tersebut.</p></span><div><img src=https://static.sizebay.technology/assets/icons/cookies.svg /> <img src=https://static.sizebay.technology/assets/icons/bag.svg /> <img src=https://static.sizebay.technology/assets/icons/anonymous-person.svg /></div>"
+    },
+    "how_it_works": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/mannequin.svg /><p> Untuk menggunakan layanan, pengguna tidak perlu mendaftar di platform <strong>SIZEBAY</strong>. Akses ke tabel ukuran selalu tersedia. Untuk menggunakan Ruang Pas Virtual, pengguna harus mengisi beberapa informasi dasar agar aplikasi dapat merekomendasikan ukuran pakaian dan sepatu.</p></span><span><img src=https://static.sizebay.technology/assets/icons/anonymous.svg /><p> Membuat profil di aplikasi <strong>SIZEBAY</strong> tidak mewajibkan pengguna untuk menggunakan nama asli, dan dapat menggunakan data fiktif jika ingin menjaga privasi lebih lanjut.</p></span><span><img src=https://static.sizebay.technology/assets/icons/persons.svg /><p> Anak di bawah umur tidak dapat menggunakan aplikasi, kecuali diwakili dan/atau didampingi oleh orang tua atau wali mereka.</p></span><div><img src=https://static.sizebay.technology/assets/icons/mannequin.svg /><img src=https://static.sizebay.technology/assets/icons/anonymous.svg /><img src=https://static.sizebay.technology/assets/icons/persons.svg /></div>",
+      "title": "Bagaimana cara kerja akses ke ruang pemasangan virtual dan layanan meja virtual?"
+    },
+    "share_data": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/share.svg /><p> Berbagi data dapat dilakukan untuk meningkatkan pengalaman belanja online atau untuk memungkinkan aplikasi berfungsi, dan dapat dilakukan dengan: pelanggan dan pemasok.</p></span><div><img src=https://static.sizebay.technology/assets/icons/share.svg /></div>",
+      "title": "Dengan siapa sizeBay berbagi data?"
+    },
+    "actions": {
+      "terms": {
+        "content": "<li> <a href = https: //home.sizebay.com/ {{lang}}/legal/ketentuan target guna = _blank> istilah penggunaan </a> </li> <li> <a href = https: //home.sizebay.com/ {{lang}}/target hukum/privasi = _blank> Kebijakan privasi </a> </li> <li> <a href = https: //home.sizebay. com/{{lang}}/legal/cookies-policy target = _blank> kebijakan cookie </a> </li>",
+        "conditions-use": "Ketentuan Penggunaan",
+        "privacy": "Kebijakan Privasi",
+        "cookies": "Kebijakan Cookie",
+        "title": "Ketentuan"
+      },
+      "statements": {
+        "gdpr": "Kepatuhan GDPR",
+        "title": "deklarasi",
+        "lgpd": "Kepatuhan LGPD",
+        "content": "<li> <a href = https: //home.sizebay.com/ {{lang}}/legal/gdpr target = _blank> kepatuhan gdpr </a> </li> <li> <a href = https:/ /home.sizebay.com/{ {{{llang }}/legal/target CCPA = _blank> Kepatuhan CCPA </a> </li> <li> <a href = https: //sizebay.com/ {{lang}}/legal/pipl target = _blank> Pipl Cepatian </a> </li>",
+        "pipl": "Kepatuhan pipl",
+        "ccpa": "Kepatuhan CCPA"
+      },
+      "title": "Akses Halaman Ketentuan kami",
+      "redirect_privacy": {
+        "text": "Klik di sini untuk mengarahkan Anda ke {{{TenantName}}} halaman privasi"
+      }
+    },
+    "how_data_is_collected": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/computer-hanger.svg /><p> Pengumpulan data dilakukan ketika pengguna memberikan informasi saat menggunakan layanan Virtual Fitting dan Tabel Ukuran, atau melalui cookie saat pengguna mengakses aplikasi atau situs web <strong>SIZEBAY</strong>.</p></span><div><img src=https://static.sizebay.technology/assets/icons/computer-hanger.svg /></div>",
+      "title": "Bagaimana SIZEBAY mengumpulkan data?"
+    },
+    "users_obligations": {
+      "title": "Apa kewajiban pengguna?",
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/obligations.svg /><p> Pengguna aplikasi berkewajiban menggunakan layanan <strong>SIZEBAY</strong> dengan menghormati dan mematuhi Kebijakan, serta hukum yang berlaku, kebiasaan, ketertiban umum, dan persyaratan yang diwajibkan untuk penggunaan dan penerimaan platform.</p></span><div><img src=https://static.sizebay.technology/assets/icons/obligations.svg /></div>"
+    },
+    "data_protection": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/security.svg /><p> <strong>SIZEBAY</strong> sangat mengutamakan kerahasiaan dan keamanan informasi pelanggan, pengguna, dan pengunjungnya. Oleh karena itu, SIZEBAY menggunakan teknologi Enkripsi dan Firewall, dan akan melakukan segala yang mungkin untuk menjamin perlindungan data dan informasi Anda.</p></span><span><img src=https://static.sizebay.technology/assets/icons/http.svg /><p> Kami menyarankan Anda untuk secara berkala membersihkan cookie yang tersimpan di browser Anda, untuk mencegah informasi yang dikumpulkan tetap tersimpan di database <strong>SIZEBAY</strong> maupun situs lain yang diakses.</p></span><div><img src=https://static.sizebay.technology/assets/icons/security.svg /> <img src=https://static.sizebay.technology/assets/icons/http.svg /></div>",
+      "title": "Bagaimana SICEBAY melindungi data Anda?"
+    }
+  },
+  "garment_measures_info": {
+    "shaft_height": "Ukur dari dasar tumit hingga bagian atas poros sepatu.",
+    "shoulder_length": "Lebar dari satu jahitan lengan ke yang lain, di bagian belakang pakaian.",
+    "full_body_length": "Ukur dari jahitan atas ke keliman bawah dari sebuah pakaian seluruh tubuh.",
+    "hem": "Lebar bagian bawah komponen tersebut.",
+    "back_length": "Ukur dari kerah hingga keliman bagian atas, dari belakang.",
+    "lower_waist_width": "Lebar pinggang pakaian berpinggang rendah.",
+    "hip_circumference": "Lebar pakaian, sekitar 20 cm di bawah pinggang, dikalikan dua.",
+    "palm_length": "Ukur dari pergelangan tangan ke ujung jari tengah.",
+    "calf_circumference": "Pengukuran di sekitar bagian atas poros sepatu bot, biasanya pada titik terlebar dari betis.",
+    "head_circumference": "Ukur di sekitar bagian dalam topi tempat kepala bersandar.",
+    "sleeve": "Ukur dari jahitan dalam tempat lengan dimulai hingga ujung manset.",
+    "waist_width": "Lebar bagian tersempit dari atas, antara ketiak dan keliman.",
+    "thigh_width": "Lebar bagian terlebar dari paha.",
+    "waistband_circumference": "Pengukuran bagian atas bukaan pakaian.",
+    "circumference": "Ukur sekeliling suatu benda, biasanya dengan mengalikan lebar dengan 2.",
+    "lower_waist_circumference": "Lebar pakaian, tepat di bawah pinggang alami, dikalikan dua.",
+    "high_waist_width": "Lebar pinggang pakaian berpinggang tinggi.",
+    "chest_circumference": "Pengukuran lebar pakaian atas, dari satu sisi ke sisi lainnya, tepat di bawah ketiak, dikalikan dua.",
+    "waist_circumference": "Lebar bagian tersempit dari pakaian dikalikan dua.",
+    "front_length": "Ukur dari kerah ke kelim bagian atas, dari depan.",
+    "lower_length": "Ukur dari pinggang hingga ujung pakaian, dari samping.",
+    "wrist_circumference": "Pengukuran keliling pembukaan lengan di mana lengan tersebut pas di pergelangan tangan.",
+    "heel_height": "Ukur dari dasar lompatan ke titik tertinggi.",
+    "wrist_width": "Tangani lebar potongan.",
+    "hook": "Ukur dari bagian atas pinggang hingga jahitan selangkangan.",
+    "thigh_circumference": "Pengukuran bagian terlebar dari paha pakaian, tepat di bawah jahitan dalam.",
+    "platform_height": "Ukur dari dasar bagian depan sepatu ke bagian atas platform.",
+    "biceps": "Lebar lengan, sekitar 2,5 cm di bawah ketiak.",
+    "insole_width": "Ukur bagian terlebar dari insole.",
+    "brim": "Ukur dari dasar ke ujung tepi topi.",
+    "high_waist_circumference": "Ukur di sekitar pinggang pakaian dengan pinggang tinggi.",
+    "hip_width": "Lebar potongan, 20 cm di bawah pinggang.",
+    "length": "Ukur dari jahitan atas ke keliman bawah dari bagian tersebut.",
+    "chest_width": "Ukur lebar bagian atas, dari satu sisi ke sisi lainnya, tepat di bawah ketiak.",
+    "calf_width": "Pengukuran lebar poros sepatu bot pada tinggi betis.",
+    "collar": "Lebar kerah blus, diukur di sekitar pangkal leher.",
+    "waistband_width": "Lebar pinggang dari bagian bawah.",
+    "back_hook": "Ukur dari pinggang ke jahitan selangkangan, di bagian belakang pakaian.",
+    "insole_length": "Ukur dari ujung tumit ke ujung jari kaki dari insole.",
+    "under_bust": "Pengukuran lebar pakaian atas, dari satu sisi ke sisi lainnya, tepat di bawah dada, dikalikan dua.",
+    "inside_leg": "Ukur dari jahitan selangkangan hingga ujung celana"
+  },
+  "error": {
+    "close": "Kamar pas keluar",
+    "title": "Ups, ada yang salah!",
+    "options": "Anda dapat mencoba lagi dengan memulai kembali profil atau menutup dan mencoba nanti.",
+    "restart": "Restart profil",
+    "description": "Jangan khawatir, kami sudah menyelidiki apa yang terjadi untuk mencegahnya terjadi lagi."
+  },
+  "recommendation": {
+    "3d_feel": {
+      "lanes": {
+        "large": "terlalu longgar",
+        "ideal": "ideal",
+        "slightly_loose": "sedikit longgar",
+        "loose": "longgar",
+        "slightly_fit": "sedikit ketat",
+        "tight": "sangat ketat",
+        "fit": "ketat"
+      },
+      "title_suggested": "Pilihan terbaik"
+    },
+    "lanes": {
+      "tight": "NYAMAN",
+      "ideal": "IDEAL",
+      "fit": "KETAT",
+      "looser": "Looser",
+      "large": "LEBAR",
+      "loose": "LONGGAR",
+      "tighter": "Lebih ketat"
+    },
+    "title_not_suggested": "tidak direkomendasikan",
+    "measurements": {
+      "title": "Pengukuran",
+      "conversion": {
+        "title": "Konversi ukuran"
+      }
+    },
+    "centered_mode": {
+      "controls": {
+        "appearance": "Penampilan",
+        "comfort": "Kenyamanan"
+      },
+      "comfort_map": {
+        "header": "Warna -warna dalam gambar 3D menunjukkan seberapa kencang atau longgar pakaian di tubuh Anda"
+      },
+      "tag_info": "Simulasi tubuh 3D mewakili pengukuran tubuh pribadi dan kesesuaian produk yang benar-benar kehidupan.",
+      "measure_name": "di {{{ukurename}} Anda"
+    },
+    "title_suggested": "adalah pilihan terbaik",
+    "height_warning": {
+      "threshold": {
+        "long": "panjang",
+        "short": "pendek"
+      },
+      "message": "juga {{threshold}} pada mereka yang {{height}}"
+    },
+    "shoe": {
+      "insoleLength": "panjang",
+      "insoleWidth": "lebar"
+    },
+    "subtitle": "Lihat tingkat kenyamanan di bawah ini",
+    "subtitle_shoe": "Berdasarkan {{brandname}} ukuran {{size} {{brandname} Anda",
+    "title_also_fits": "juga cocok",
+    "carousel_also_try": "Coba juga ukurannya:"
+  },
+  "product_comparison": {
+    "elements": {
+      "edit": "Edit",
+      "foot_format": "Bentuk kaki",
+      "category": "Kategori",
+      "brand": "Merek",
+      "size": "Ukuran"
+    },
+    "title": "Produk perbandingan",
+    "subtitle": "Ini adalah informasi yang digunakan untuk rekomendasi ukuran."
+  },
+  "warnings": {
+    "age_group": {
+      "age_group": "{{{AgeGroup}} produk",
+      "limit_reached": "Jumlah profil telah mencapai batasnya. Hapus profil untuk menambahkan yang baru.",
+      "subtitle": "Rentang usia produk tidak cocok dengan usia profil {{ProfileName}}. Pilih atau tambahkan profil untuk melanjutkan.",
+      "prompt_message": "Apakah Anda juga ingin mencoba pakaian dari bagian ({{AgeGroup}})?"
+    },
+    "we_need_more_measures": {
+      "subtitle": "Kami tidak dapat menghitung pengukuran untuk Anda. Harap sesuaikan pengukuran di bawah ini atau kembali untuk meninjau data yang diinformasikan.",
+      "title": "Masukkan pengukuran Anda"
+    },
+    "unmatched_gender": {
+      "choose_a_profile": "Pilih profil yang diinginkan",
+      "select_profile": "Tidak, pilih profil lain",
+      "tooltip": "Profil ini tidak cocok untuk jenis produk yang dipilih",
+      "title": "Apakah Anda juga ingin mencoba pakaian dari bagian {{gender}}?",
+      "create_profile": "Tidak, buat profil lain"
+    }
+  },
+  "brands_list": {
+    "search_question": "Merek mana yang biasanya Anda pakai?",
+    "not_found": {
+      "title": "Kami tidak dapat menemukan merek dengan nama ini",
+      "subtitle": "Coba cari lagi jika memperbaiki kesalahan ketik apa pun."
+    },
+    "subtitle": "Setelah beberapa pertanyaan, kami akan membantu Anda memilih ukuran sepatu terbaik.",
+    "title": "Ruang Pas Virtual",
+    "search_placeholder": "Ketik dan cari merek Anda di sini",
+    "title_restricted": "Apakah Anda memakai sepatu kami?"
+  },
+  "age_group": {
+    "adult": "Dewasa",
+    "kids": "Anak-anak"
+  },
+  "a11y": {
+    "Chart": {
+      "vfr_button": "Tekan spasi untuk masuk ke ruang pas virtual",
+      "step_blocks": {
+        "table": {
+          "measure_description": "Ini adalah ukuran {{size}}, pada {{measureName}} seharusnya berukuran {{measure}}"
+        },
+        "switcher": {
+          "instruction_press_space": "Tekan spasi untuk mengganti nilai",
+          "option": "Nilai Anda saat ini adalah {{value}}"
+        }
+      },
+      "greeting": "Ini adalah tabel ukuran",
+      "size_system": {
+        "instruction": "Sistem ukuran Anda saat ini adalah {{sizeSystem}}. Tekan spasi untuk memilih opsi lain."
+      },
+      "instruction": "Di sini Anda dapat membandingkan pengukuran Anda dengan yang tercantum di tabel kami"
+    },
+    "shoe": {
+      "Brands": {
+        "highlighted": {
+          "edit_negative": "Tekan spasi jika Anda tidak mengenakan salah satu dari merek-merek ini",
+          "edit_action": "Tekan spasi untuk melanjutkan dengan merek yang dipilih",
+          "instruction": "Tekan spasi untuk melanjutkan dengan {{brandName}}"
+        },
+        "restricted": {
+          "greeting": "Selamat datang di ruang pengukuran sepatu merek terbatas. Pilih salah satu merek sepatu yang sudah Anda pakai"
+        }
+      },
+      "FootSize": {
+        "instruction": "Tekan spasi untuk memilih sistem ukuran {{ sizeSystem }}"
+      },
+      "EditData": {
+        "greeting": "Di sini Anda dapat membuat perubahan pada informasi kaki dan sepatu yang Anda kirimkan kepada kami"
+      },
+      "FootFormat": {
+        "instruction": "Pilih bentuk kaki.",
+        "edit_action": "Tekan spasi untuk memilih {{ shoeFormat }}"
+      }
+    },
+    "drawer": {
+      "measurement_tape_header": "Pita",
+      "measurement_tape_handle": "Meteran pengukur. Tekan spasi untuk mengakses meteran pengukur",
+      "close_group_handle": "Tekan spasi untuk menutup grup",
+      "measurement_tape_print_button": "Tekan spasi untuk membuka pita pengukur"
+    },
+    "clothes": {
+      "Welcome": {
+        "step_blocks": {
+          "gender": {
+            "question": "Pilih jenis kelamin untuk melanjutkan. Jenis kelamin Anda saat ini adalah {{gender}}"
+          },
+          "age": {
+            "tooltip": "Tekan spasi untuk membaca informasi lebih lanjut tentang bagaimana usia memengaruhi rekomendasi"
+          },
+          "height": {
+            "question": "Masukkan tinggi badan Anda dalam {{measurementSystem}} di sini."
+          }
+        }
+      },
+      "ProfilesMenu": {
+        "blocks": {
+          "greeting": "Ini semua profil Anda di ruang coba virtual",
+          "edit": "Di sini Anda dapat memilih untuk menambah atau menghapus profil"
+        },
+        "chip": {
+          "message": "Tekan spasi untuk mengakses detail lebih lanjut dari profil {{profileName}} Anda"
+        }
+      },
+      "Recommendation": {
+        "lane": "Ukuran {{ size }} adalah {{ label }} pada {{ measureName }}",
+        "carousel_instruction": "Temukan lebih banyak pilihan ukuran di sini"
+      },
+      "measures": {
+        "edit": "Tekan tombol panah untuk menambah atau mengurangi ukuran {{measureName}}",
+        "read": "{{measureName}} Anda mengukur {{measureValue}} dalam {{measureSystem}}"
+      }
+    },
+    "generics": {
+      "welcome": "Selamat datang di ruang pas virtual"
+    }
+  },
+  "welcome": {
+    "age_disclaimer": "Bentuk tubuh berubah selama bertahun -tahun dan ini mempengaruhi perhitungan kami.",
+    "gender_f_kids": "Wanita",
+    "title": "Ruang Pas Virtual",
+    "gender_m_kids": "Maskulin",
+    "foot_measurement_known": "Saya sudah tahu ukuran kaki saya",
+    "gender_m": "Pria",
+    "shoe_measure": "Panjang kaki",
+    "gender_f": "Perempuan",
+    "gender_u": "Uniseks",
+    "subtitle": "Isi detail untuk mencoba produk ini"
+  },
+  "edit_measures": {
+    "view_less": "Lihat lebih sedikit pengukuran",
+    "view_all": "Lihat lebih banyak pengukuran"
+  },
+  "drawers": {
+    "manage": {
+      "actions": {
+        "select": "Memilih",
+        "delete": "Menghapus"
+      },
+      "active_profile": {
+        "details_shoe": "{{brandname}} size {{size}}",
+        "no_name": "Masukkan nama",
+        "delete": "Hapus profil"
+      },
+      "new_profile": {
+        "input_example": "Contoh: John Smith",
+        "title": "Tambahkan profil",
+        "subtitle": "Masukkan nama untuk profil ini"
+      }
+    },
+    "knobs": {
+      "kids_shoes_tips": "Ukuran tips",
+      "garment_info": "Ukuran pakaian",
+      "size_content": "Panduan Gaya",
+      "measurement_tape": "Pita Pengukuran",
+      "product_info": "Pengukuran tubuh",
+      "size_hint_promo": "Selesaikan promo",
+      "size_hint": "Saran",
+      "sizes_conversions": "Ukuran konversi"
+    },
+    "kids_shoes_title": "Tips dan pedoman pada kaki dan sepatu anak -anak",
+    "kids_shoes_button": "Mengerti",
+    "kids_shoes_message": "Kaki anak -anak tumbuh setengah lebih besar setiap 2 hingga 4 bulan. Karena pertumbuhan yang cepat ini, kami menyarankan Anda untuk mendapatkan ukuran yang sedikit lebih longgar untuk anak sehingga sepatu akan bertahan lebih lama dan tidak akan mencubit kaki mereka, yang berkembang dengan cepat."
+  },
+  "landscape_vertical_subtitle": "Letakkan perangkat Anda dalam posisi tegak untuk mulai menggunakan",
+  "coppa_gate": {
+    "close": "Tidak, saya berusia di bawah 13 tahun",
+    "confirm": "Ya, saya adalah wali",
+    "prompt_title_months": "Apakah Anda orang tua atau wali anak yang berusia {{bulan}} bulan?",
+    "message": "Anda dapat terus mencoba produk ini jika Anda adalah orang dewasa yang membuat profil ini untuk mencoba produk untuk anak Anda.",
+    "prompt_title_years": "Apakah Anda orang tua atau wali anak yang berusia {{tahun}} tahun?",
+    "title": "Verifikasi Usia"
+  },
+  "fetching": {
+    "subtitle": "Kami menghitung pengukuran untuk menghasilkan rekomendasi ukuran yang ideal",
+    "title": "Hampir sampai di sana!",
+    "shoe": {
+      "success": "Perhitungan selesai!",
+      "calculating": "Menghitung pengukuran Anda",
+      "analyzing": "Menganalisis jawaban Anda"
+    }
+  },
+  "landscape_subtitle": "Tahan ponsel Anda secara horizontal untuk memulai",
+  "measurement_tape": {
+    "link_download": {
+      "in": "//static.sizebay.technology/assets/measurement_tape/measurement_tape_in_en.pdf",
+      "cm": "//static.sizebay.technology/assets/measurement_tape/measurement_tape_cm_en.pdf"
+    },
+    "title": "Tape",
+    "message": "Cetak, potong, dan rakit pita ini untuk memeriksa pengukuran Anda.",
+    "print": "Mencetak",
+    "print_mobile": "Cetak pita pengukur",
+    "download": {
+      "file": {
+        "title": "Instruksi untuk mencetak dan menyiapkan pita pengukur",
+        "fold-and-rotate": "lipat dan putar",
+        "how-to-do": "Mencetak:\nSebelum dicetak, pastikan bahwa opsi \"Fit to Page\" di kotak dialog pencetakan dinonaktifkan sehingga printer tidak mengurangi atau meningkatkan dimensi pita.\n\nTanaman:\nMenggunakan gunting atau stylus, potong semua garis hitam kontinu yang ditunjukkan dengan \"gunting\" untuk membuat segmen pita.\n\nPerakitan:\nLipat dan putar ujungnya (seperti yang ditunjukkan pada cetakan) dengan bergabung dengan garis putus -putus sampai satu pita dirakit.\n\nPerbaiki lipatan:\nSetelah perakitan, perbaiki lipatan pita menggunakan lem, pita perekat atau stapler."
+      }
+    }
+  },
+  "foot_size": {
+    "select_region": "Pilih wilayah:",
+    "not_selected": "Pastikan Anda memilih ukuran untuk melanjutkan",
+    "title": "Berapa ukuran sepatu Anda?",
+    "pattern": "{{region}} sistem",
+    "subtitle": "Pilih ukuran Anda di"
+  },
+  "child_name": {
+    "name": "Nama",
+    "title": "Maukah Anda memberi tahu kami nama anak Anda?",
+    "subtitle": "Ini membantu kami membuat profil untuk ruang pas"
+  },
+  "size_hint": {
+    "title": "Kami memilih beberapa produk yang juga cocok untuk Anda",
+    "discount-original-price": "Harga reguler: <span class='size-hint__discount-original-price discount-description-price'>{{price}}</span> <span class='size-hint__discount-percentage'>-{{discount}}%</span>",
+    "discount-lowest-price": "Harga terendah dari 30 hari sebelum pengurangan: <span class='size-hint__discount-lowest-price discount-description-price'>{{ price }}</span> <span class='size-hint__discount-percentage'>-{{ discount }}%</span>",
+    "title_promo": "Selesaikan promo",
+    "try_now": "Coba sekarang"
+  },
+  "size_tailor": {
+    "action_button": "Kami menyesuaikan untuk Anda",
+    "title": "Produk khusus",
+    "description": "Konfirmasikan pengukuran tubuh Anda sehingga kami dapat mengembangkan produk yang dibuat khusus."
+  },
+  "miscellaneous": {
+    "hannaLinks": {
+      "recommendation": "Kembali ke hasil saya",
+      "welcome": "Kembali"
+    }
+  },
+  "measure_shape": {
+    "shape_bigger": "Lebih besar",
+    "shape_smaller": "Lebih kecil",
+    "skin_types": {
+      "toggle": "Ubah warna kulit"
+    },
+    "subtitle": "Ini adalah perkiraan bentuk tubuh yang kami hasilkan dari pengukuran Anda. Sesuaikan hanya jika perlu.",
+    "measure_range": {
+      "1": "Jauh lebih kecil",
+      "2": "Lebih kecil",
+      "3": "Rata-rata",
+      "4": "Lebih besar",
+      "5": "Jauh lebih besar"
+    },
+    "shape_regular": "Biasa",
+    "title": "Sesuaikan bentuk tubuh"
+  },
+  "calculating": {
+    "subtitle": "Periksa pengukuran dan sesuaikan jika perlu",
+    "circle_title_loading": "Memuat...",
+    "circle_title_completed": "Siap!",
+    "title": "Menghitung selesai!"
+  },
+  "brands_grid": {
+    "subtitle": "Merek apa yang biasanya kamu pakai?",
+    "unique_brand": "Apakah Anda sudah memakai {{brandname}} sepatu?",
+    "search_other_brands": "Cari merek lain"
+  },
+  "modals": {
+    "remove_profile": {
+      "title_alt": "Apakah Anda yakin ingin menghapus profil ini?",
+      "title": "Hapus profil {{Profilename}}?",
+      "action": "Hapus profil",
+      "confirm": "Hapus profil"
+    }
+  },
+  "no_recommendation": {
+    "expected_size": "Ukuran yang disarankan adalah {{direkomendasikan}}.",
+    "title_shoe": "Sayangnya saat ini model dan ukuran ini tidak tersedia di toko kami.",
+    "based_on": "Anda dapat mengedit informasi Anda untuk mencoba lagi",
+    "calculate_again": "Hitung ulang",
+    "title": "Ukuran Anda tidak tersedia sekarang",
+    "subtitle": "Kami tidak dapat menemukan ukuran untuk pengukuran di bawah ini. Sesuaikan jika perlu."
+  },
+  "accessory": {
+    "welcome": {
+      "subtitle": "Untuk mencoba produk ini, ikuti instruksi untuk mengambil pengukuran Anda dan menginformasikan nomor yang sesuai",
+      "shoe": {
+        "subtitle": "Pilih pengukuran kaki Anda di bawah ini, ikuti panduan kami tentang cara mengukur diri sendiri"
+      }
+    },
+    "bike": {
+      "recommendation": {
+        "title_suggested": "Ukuran sepeda yang kami rekomendasikan adalah yang terbaik untuk kinerja dan postur Anda. Tidak terlalu tinggi tidak terlalu pendek, Anda akan bisa bersepeda dengan nyaman.",
+        "subtitle": "berdasarkan tinggi badan anda",
+        "title_also_fits": "Ukuran sepeda yang kami rekomendasikan adalah yang terbaik untuk kinerja dan postur Anda. Tidak terlalu tinggi tidak terlalu pendek, Anda akan bisa bersepeda dengan nyaman.",
+        "title_not_suggested": "Ukuran sepeda yang kami rekomendasikan adalah yang terbaik untuk kinerja dan postur Anda. Tidak terlalu tinggi tidak terlalu pendek, Anda akan bisa bersepeda dengan nyaman."
+      }
+    },
+    "shoe_size": {
+      "subtitle": "Untuk mencoba produk ini, pilih ukuran sesuai dengan panjang kaki Anda"
+    }
+  },
+  "foot_format": {
+    "formats": {
+      "0": {
+        "description": "Kaki yang sempit cenderung memiliki ruang ekstra di sisi sepatu.",
+        "title": "Sempit"
+      },
+      "1": {
+        "title": "Sedang",
+        "description": "Kaki berukuran sedang biasanya cocok dengan kebanyakan sepatu."
+      },
+      "2": {
+        "title": "Luas",
+        "description": "Kaki lebar sesuai dengan panjang sepatu tetapi terasa sempit di bagian samping."
+      }
+    },
+    "subtitle": "Pilih seberapa lebar kaki Anda untuk meningkatkan kecocokan Anda.",
+    "title": "Bentuk kaki"
+  },
+  "landscape_warning": {
+    "title": "Ruang Pas Virtual"
+  },
+  "my_measures": {
+    "title": "Pengukuran saya",
+    "subtitle": "Sesuaikan pengukuran sesuai kebutuhan"
+  },
+  "subcategory": {
+    "subtitle": "Pilih jenis <strong> {{brandname}} </strong> sepatu yang biasanya Anda pakai",
+    "title": "Jenis {{CategoryName}} apa yang Anda pakai?"
+  },
+  "model": {
+    "title": "Jenis {{composedName}} apa yang Anda pakai?",
+    "subtitle": "Pilih model <strong> {{brandname}} </strong> sepatu yang biasanya Anda pakai"
+  },
+  "landscape_horizontal_subtitle": "Letakkan perangkat Anda secara horizontal untuk mulai menggunakan",
+  "category": {
+    "subtitle": "Pilih satu jenis dari daftar di bawah ini yang paling mirip dengan sepatu <strong> {{brandname} </strong> Anda",
+    "title": "Apa jenis sepatu Anda?"
+  },
+  "header": {
+    "title": "Fit Finder"
+  }
+}

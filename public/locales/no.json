@@ -1,0 +1,953 @@
+{
+  "shoe_size": {
+    "fit_loose": "Løs",
+    "shoe_accessory": {
+      "no_recommendation": {
+        "subtitle": "Vi fant ingen størrelse for målene nedenfor. Juster om nødvendig.",
+        "title": "Vi fant ingen størrelse"
+      },
+      "all_measures": {
+        "measurements_guide": "Måleveiledning [PDF]",
+        "title": "Hva er størrelsen på føttene dine?"
+      },
+      "info_drawer_subtitle": "For å finne den beste skostørrelsen, hvorfor ikke fortelle oss litt om deg selv?"
+    },
+    "recommendation": "Basert på informasjonen din, er dette din fotmåling. Juster om nødvendig",
+    "foot_shape_question": "Hva er formen på foten din",
+    "title": "Hva er lengden på foten din?",
+    "drawer_title": "Hvor lange er føttene dine",
+    "subtitle": {
+      "0": "For å finne den beste skostørrelsen, hvorfor ikke fortelle oss litt om deg selv?",
+      "box": {
+        "subtitle": "Plasser et ark på gulvet mot en vegg. Stå med hælen på arket og mot veggen. Marker tuppen av den lengste tåen din, og mål deretter avstanden.",
+        "title": "Slik måler du foten riktig:"
+      }
+    },
+    "fit_description_ideal": "Det er <strong>litt plass</strong> mellom tærne og skoen.",
+    "length_example": "Ta på dine <strong>{{brandName}}</strong> i størrelse <strong>{{size}}</strong> og fortell oss hvordan lengden passer føttene dine.",
+    "fit_tight": "Koselig",
+    "fit_ideal": "Passende",
+    "open_drawer_button": "Hvordan måle deg selv",
+    "fit_description_loose": "Det er <strong>stor plass</strong> mellom tærne og skoen.",
+    "shoe_accessory_subtitle": "Velg fotmål nedenfor, følg vår veiledning\\ikke hvordan du måler deg selv.",
+    "drawer_button": "Har det",
+    "fit_description_tight": "Skoen berører tærne dine <strong>uten plass</strong>.",
+    "length_question": "Hvordan passer skoen din i lengden?"
+  },
+  "footer": {
+    "add_to_cart_mobile_2": "Legg i handlekurv",
+    "confirm": "Bekreft",
+    "none_of_those": "Ingen av disse",
+    "save_measures": "Lagre målinger",
+    "view_recommendation": "Vis anbefaling",
+    "print_measurement_tape": "Skriv målebånd",
+    "virtual_fitting_room": "Virtuelt prøverom",
+    "info_box": "Velg tilpassetstørrelse hvis du ønsker å få jakken skreddersydd til dine kroppsmål",
+    "yes": "Ja",
+    "add_to_cart": "Legg til i handlekurv",
+    "brand_not_found": "Jeg kunne ikke finne merket",
+    "proceed": "Fortsett",
+    "edit_data": "Rediger data",
+    "not_yet": "Ikke ennå",
+    "cancel_alt": "Nei, avbryt",
+    "next": "Neste",
+    "cancel": "Avbryt",
+    "by-sizebay": "av Sizebay®",
+    "sure": "Sikker!",
+    "add_profile": "Opprett profil",
+    "create_new_profile": "Opprett ny profil",
+    "restart": "Omstart",
+    "close": "Lukk",
+    "select_another_profile": "Velg en annen profil",
+    "continue_without_brand": "Jeg fant ikke merket",
+    "unsure": "Jeg er ikke sikker",
+    "save": "Lagre",
+    "edit_measures": "Rediger målinger",
+    "proceed_anyway": "Fortsett uansett",
+    "edit_profile": "Rediger profiler",
+    "add_to_cart_mobile": "Kjøp",
+    "back": "Forrige"
+  },
+  "composed_measures": {
+    "welcome": {
+      "link_tooltip": "<b>{{suffix}} {{measureName}} bredde.</b>",
+      "item_text": "Min {{measureName}} er {{range}} {{sizeSystem}} bred",
+      "measures_range_item": "{{initialRange}} til {{finalRange}}",
+      "tooltip_text": "Klikk for å velge en annen størrelse",
+      "tooltip_instructions": "Klikk her for å finne ut hvordan du tar {{measureName}}-målingen",
+      "height": {
+        "item_text": "Jeg er {{range}} {{sizeSystem}} høy",
+        "link_tooltip": "<b>hvor høy du er.</b>",
+        "title": "Hvor høy er du?",
+        "instructions": "Vi trenger å vite din <b>høyde</b> for å vise deg mulige anbefalinger i henhold til "
+      },
+      "title": "Hva er målet for {{suffix}} {{measureName}}?",
+      "instructions": "Hvor bredt er {{suffix}} <b>{{measureName}}</b>? Vi trenger å vite {{suffix}} {{measureName}} størrelse for å vise deg mulige anbefalinger i henhold til "
+    },
+    "height": {
+      "title": "Hvor høy er du?",
+      "link_tooltip": "å vise høyden din"
+    },
+    "table": {
+      "helper_height": "Denne høyden går fra {{range}} {{sizeSystem}} høy. Er denne målingen unøyaktig?",
+      "tooltip_change": "Endre her.",
+      "helper": "Denne {{measureName}} går fra {{range}} {{sizeSystem}} lang. Er denne målingen unøyaktig?",
+      "title": "Dette er de mulige størrelsene for <span>{{range}}</span> {{measureName}}",
+      "vfr_tooltip": "Har du mål? Hvorfor prøver du ikke å finne ut størrelsen din på det virtuelle tilpasningsrommet?"
+    }
+  },
+  "body_measurements": {
+    "diameter": "DIAMETER",
+    "collar": "Krage",
+    "length": "Produktlengde",
+    "centralSeam": "Fremre søm",
+    "weightChart": "Vekt",
+    "width": "Bredde",
+    "waistUpper": "Øvre midje",
+    "weight": "Vekt",
+    "circumference": "Omkrets",
+    "insoleLength": "Fotlengde",
+    "label1": "STØRRELSE (USA)",
+    "sleve": "Ermlengde",
+    "waist": "Midje",
+    "chest_m": "Bryst",
+    "chest_f": "Byste",
+    "neck": "Hals",
+    "comfort": "Komfort",
+    "sleeve": "Arm",
+    "thigh": "Lår",
+    "headCircumference": "Hode",
+    "hip": "Hofte",
+    "shoulderWidth": "Skuldre",
+    "waistLower": "Nedre midje",
+    "wrist": "Håndledd",
+    "palm": "Håndflate",
+    "bar": "Fald",
+    "chest": "Bryst/Byste",
+    "lowerLength": "Lavere lengde",
+    "finger_circumference": "OMKRETS",
+    "insoleWidth": "Fotbredde",
+    "height": "Høyde",
+    "ageChart": "Alder",
+    "underBust": "Under byste",
+    "insideLeg": "Indre benlengde",
+    "biceps": "Biceps",
+    "calf": "Kalv",
+    "fist": "Neve",
+    "fullBodyLength": "Full kroppslengde"
+  },
+  "measures_info": {
+    "insideLeg": "Mål den indre avstanden til beinet fra pubis til fotsålene.",
+    "fullBodyLength": "Mål avstanden fra toppen av skuldrene til gulvet.",
+    "weightChart": "Ta vekten på en veiemaskin og sjekk denne måletabellen for å se om vekttallene stemmer overens.",
+    "waistUpper": "Mål midjeomkretsen over navlen.",
+    "insoleLength": "Plasser et ark på gulvet mot en vegg. Stå med hælen på arket og mot veggen. Marker tuppen av den lengste tåen din, og mål deretter avstanden.",
+    "biceps": "Bruk målebåndet rundt midten av armen, på den bredeste delen av den.",
+    "height": "Dette er en enkel en. Det er avstanden mellom toppen av hodet (skallen) til bakken (såler), målt med oppreist stilling.",
+    "width": "Ta mål av bredden på klærne",
+    "weight": "Ta vekten på en veiemaskin og sjekk denne måletabellen for å se om vekttallene stemmer overens.",
+    "sleeve": "Mål avstanden mellom skulderen og håndleddet mens du holder armen litt bøyd. Pass båndet bak albuen og noter målingen.",
+    "neck": "Bruk målebåndet rundt nakkeomkretsen, mens du ikke holder båndet for stramt. Bruk et speil for å hjelpe deg med å ta denne målingen.",
+    "collar": "Mål rundt halsen rett over kragebeinet, legg en finger mellom båndet og nakken.",
+    "chest": "Bruk målebåndet rundt brystområdet mens du puster rolig. Legg merke til variasjonene mens du puster og legg merke til det høyeste tallet du ser.",
+    "ageChart": "Alderen på personen som skal bruke dette produktet.",
+    "circumference": "Ta måling av omkretsen av klærne",
+    "length_botton": "Plasser begynnelsen av målebåndet ved midjen, der bukser eller skjørt skal brukes. Strekk båndet til lengden på skinnen for å markere målingen.",
+    "waist": "Plasser kroppen foran et speil og ta måling av omkretsen rett under ribbeina, litt over hoftene.",
+    "footLength": "Mens du står på en flat overflate, juster baksiden til veggen. Mål lengden på foten (fra hæl til tær) ved hjelp av en linjal.",
+    "lowerLength": "Dette er avstanden mellom hoften til gulvet.",
+    "chest_m": "Bruk målebåndet rundt brystet mens du puster rolig. Legg merke til variasjonene mens du puster og legg merke til det høyeste tallet du ser.",
+    "chest_f": "Bruk målebåndet rundt brystområdet mens du puster rolig. Legg merke til variasjonene mens du puster og legg merke til det høyeste tallet du ser.",
+    "palm": "Legg merke til håndspennet mens du plasserer en linjal på en flat overflate, bøyer hånden og plasserer venstre side av den dominerende hånden på linjalens nullpunkt.",
+    "waistLower": "Mål midjeomkretsen under navlen, der linningen (på nedre midje) vanligvis bæres.",
+    "thigh": "Plasser målebåndet rundt den bredeste delen av låret, som ligger like under bunnen.",
+    "underBust": "Bruk målebåndet rundt brystet, rett under bysten. Fortsett å puste rolig mens du legger merke til variasjonene i målingene og markerer det høyeste tallet.",
+    "bar": "Ta mål av kanten på klærne",
+    "insoleWidth": "Fjern innersålen på en sko som sitter godt og mål bredden på innleggssålen.",
+    "headCircumference": "Mål omkretsen av hodet (over ørene) med målebåndet.",
+    "wrist": "Skisser målebåndet rundt håndleddet, nøyaktig hvor en klokke skal plasseres.",
+    "hip": "Omriss med båndet måler det \"bredere\" området under midjen, som går parallelt med den høyeste delen av setemusklene.",
+    "diameter": "Mål diameteren på den indre sirkelen av en ring som bæres på samme finger fra hånden der dette produktet skal brukes.",
+    "length": "Mål avstanden mellom den øvre delen av torso og nedre midje (like under magen).",
+    "fist": "Skisser målebåndet rundt håndleddet, nøyaktig hvor en klokke ville blitt brukt.",
+    "calf": "Sitt på en stol og hold foten på bakken, brett deretter benet til 90 grader. Ta målingen med båndet, fra fotbunnen til der kneet brettes.",
+    "shoulderWidth": "Mål avstanden mellom endene på skuldrene ved hjelp av noen andre.",
+    "ring": "Bind en tynn streng rundt samme finger som du vil ha på deg dette produktet, merk krysset av strengen og mål lengden for å få omkretsen",
+    "centralSeam": "Mål avstanden mellom midjen og overflaten med et målebånd mens du sitter på en flat overflate."
+  },
+  "privacy": {
+    "services": {
+      "anchor": "Sizebay-tjenester",
+      "text": "SIZEBAYs tjenester er tilgjengelige på e-handelsplattformen i form av programvare som en tjeneste (SaaS), noe som betyr at SIZEBAY gir e-handelen lisens til å bruke programvaren.",
+      "title": "Hvordan gjør SIZEBAY sine tjenester tilgjengelige?"
+    },
+    "clear_data": {
+      "button": {
+        "initial": "Slett alle data",
+        "cleared": "ren!",
+        "cleaning": "Rydder opp..."
+      },
+      "title": "Rengjøring av informasjonskapsler",
+      "tooltip": "Dataene dine har blitt slettet!",
+      "text": "Klikk på knappen nedenfor hvis du vil slette all nettleserdata, cache og informasjonskapsler lagret av Sizebay."
+    },
+    "contact": {
+      "title": "Ved tvil, hvordan ta kontakt?",
+      "text": "Hvis du har spørsmål om SIZEBAYs retningslinjer eller hvordan du kan utøve dine rettigheter som en dataeier, vennligst kontakt SIZEBAYs personvernombud (DPO):  \nJanderson Roberto Araujo  \nAdresse: R. Blumenau, 953 – Sala 402 – América, Joinville – SC, 89204-251 – Brasil.  \nTelefon: +55 48 4042-0150  \nE-post: privacy@sizebay.com  \n  \nSe flere retningslinjer"
+    },
+    "data_protection": {
+      "anchor": "Databeskyttelse",
+      "title": "Hvordan beskytter SIZEBAY sine data?",
+      "text": "SIZEBAY anser konfidensialiteten og sikkerheten til informasjonen til sine kunder, brukere og besøkende som ekstremt viktig; derfor bruker den kryptering og brannmurteknologi, og vil gjøre alt i sin makt for å sikre beskyttelsen av dine data og informasjon. Vi anbefaler at du regelmessig sletter informasjonskapslene lagret i nettleseren du bruker, for å forhindre at informasjonen som samles inn, blir slettet fra SIZEBAY-databasen, samt fra andre nettsteder som er besøkt."
+    },
+    "how_data_is_collected": {
+      "text": "Datainnsamling utføres når brukeren gir informasjon ved bruk av tjenestene Virtual Fitting Room og Fit & Size Chart, eller gjennom informasjonskapsler, når brukeren åpner SIZEBAY-applikasjonen eller nettstedet.",
+      "title": "Hvordan samler SIZEBAY inn data?"
+    },
+    "users_obligations": {
+      "anchor": "Brukernes forpliktelser",
+      "title": "Hva er brukerens forpliktelser",
+      "text": "Applikasjonsbrukere forplikter seg til å bruke SIZEBAYs tjenester alltid med respekt for og overholdelse av retningslinjene, samt gjeldende lovgivning, skikker, offentlig orden og de obligatoriske kravene som kreves for å bruke og akseptere plattformen."
+    },
+    "data_collected": {
+      "title": "Hvilke data samles inn av SIZEBAY?",
+      "text": "For å tilby sine tjenester, kan SIZEBAY samle inn profildata som kallenavn (valgfritt), alder, kjønn, høyde, vekt, anatomisk profil og kroppsmål. I tillegg kan tilgangsloggdata og informasjonskapseldata samles inn for å forbedre brukeropplevelsen og gjøre det lettere å bruke applikasjonen, uten å måtte oppgi data igjen som allerede er informert av brukeren i tilfelle et nytt kjøp eller analyse av produktet.\n\nSIZEBAY vil også kunne samle inn data fra bestillingen gjort i netthandelen for å analysere den anbefalte størrelsen og den faktisk kjøpte størrelsen, dette for å forbedre tjenestene tilgjengelig for størrelsesanbefaling av klær og sko.\n\nVi presiserer at SIZEBAY-applikasjonen er opptatt av brukernes personvern, derfor ble tjenestene utviklet på en slik måte at datainnsamling utføres uten at det er mulig å identifisere dataeierne.",
+      "anchor": "Data samlet inn"
+    },
+    "how_it_works": {
+      "anchor": "Hvordan fungerer det?",
+      "title": "Hvordan fungerer tilgangen til det virtuelle prøverommet og størrelsesguiden?",
+      "text": "For å bruke tjenestene er det ikke nødvendig for brukeren å registrere seg på SIZEBAY-plattformen. Tilgang til Fit & Size Chart vil være tilgjengelig, og for å bruke det virtuelle prøverommet er det nødvendig for brukeren å fylle inn noen grunnleggende opplysninger for at applikasjonen skal kunne gi anbefalinger om klær- og skostørrelser.\n\nÅ opprette en profil i SIZEBAY-applikasjonen krever ikke at brukeren bruker sitt fornavn eller etternavn, og de kan til og med fylle inn fiktive data hvis de ønsker å bevare sin personvern ytterligere.\n\nMindreårige vil ikke kunne bruke applikasjonen med mindre de er representert og/eller assistert av sine foreldre eller foresatte."
+    },
+    "title": "Personvern",
+    "overview": {
+      "title": "Hva er vilkårene for bruk og personvernerklæringen til for?",
+      "text": "SIZEBAY VILKÅR OG BETINGELSER FOR BRUK er ment å regulere: (i) bruken av tjenestene som gjøres tilgjengelig av SIZEBAY, gjennom kundens e-handelsplattform, og også (ii) tilgangen og innholdet gjort tilgjengelig på nettstedet til SIZEBAY, (iii) brukerne, besøkende og kundenes forpliktelser på plattformen og nettstedet ved bruk av applikasjonen eller tilgang til SIZEBAY-nettstedet, (iv) ansvaret til de involverte partene.\n\nPERSONVERNPOLITIKKEN har som mål å klargjøre hvordan SIZEBAY håndterer databehandling under bruk og tilgang til applikasjonen og nettstedet, rettighetene til innehaveren og hvordan de kan utøve dem med SIZEBAY blir også klargjort.\n\nNår du får tilgang til og bruker Virtual Fitting Room og Fit & Size Chart, godtar du SIZEBAYs retningslinjer. Du kan få tilgang til de fullstendige SIZEBAY-retningslinjene på lenken.\n\nNedenfor oppsummerer vi for deg hovedinformasjonen:",
+      "anchor": "Personvern"
+    },
+    "share_data": {
+      "text": "Datadeling kan alltid gjennomføres med mål om å muliggjøre en bedre netthandelsopplevelse eller slik at applikasjonen kan fungere, dermed kan det gjennomføres med: kunder, forretningspartnere, tjenesteleverandører, underleverandører, produsenter av klær og fottøyprodukter.",
+      "title": "Med hvem kan SIZEBAY dele data?"
+    }
+  },
+  "product_not_found": {
+    "report_status": {
+      "sending": "Varsler...",
+      "sent": "Takk!",
+      "not_sending": "Varsle oss",
+      "not_sent": "Varsle oss"
+    },
+    "description": "Vi har fortsatt ikke nok informasjon om dette produktet til å anbefale det.",
+    "title": "Å nei!"
+  },
+  "languages": {
+    "all_langs": {
+      "fr": "fransk",
+      "et": "estisk",
+      "es": "spansk",
+      "en": "Engelsk",
+      "fi": "finsk",
+      "dk": "dansk",
+      "cn": "Kinesisk",
+      "de": "tysk",
+      "cz": "tsjekkisk",
+      "br": "portugisisk",
+      "ar": "arabisk",
+      "bg": "Bulgarsk",
+      "mx": "spansk",
+      "no": "norsk",
+      "nl": "nederlandsk",
+      "lt": "litauisk",
+      "lv": "latvisk",
+      "jp": "japansk",
+      "ko": "koreansk",
+      "it": "italiensk",
+      "hu": "ungarsk",
+      "hr": "Kroatisk",
+      "id": "Indonesia",
+      "gr": "gresk",
+      "he": "Hebraisk",
+      "vn": "vietnamesisk",
+      "uk": "Engelsk",
+      "th": "Thai",
+      "tr": "tyrkisk",
+      "sr": "serbisk",
+      "sv": "svensk",
+      "sl": "slovensk",
+      "sk": "slovakisk",
+      "ru": "russisk",
+      "ro": "rumensk",
+      "pt": "portugisisk",
+      "pl": "Pusse",
+      "esAR": "spansk",
+      "esCT": "spansk (kastiliansk)",
+      "ukr": "ukrainsk",
+      "zh": "kinesisk"
+    },
+    "select": "Tilgjengelige språk: {{langs}}",
+    "box": "Språkvelger, bruker du språket {{currentLang}}"
+  },
+  "garment_measurements": {
+    "hip_width": "Hoftebredde",
+    "thigh_width": "Lårbredde",
+    "head_circumference": "Hodeomkrets",
+    "lower_waist_circumference": "Lavere midjeomkrets",
+    "collar": "Krage",
+    "waistband_circumference": "Livvidde omkrets",
+    "hip_circumference": "Hofteomkrets",
+    "biceps": "Biceps",
+    "waistband_width": "Linningens bredde",
+    "hem": "Hem",
+    "lower_waist_width": "Bredde på nedre del av livet",
+    "chest_circumference": "Brystomkrets",
+    "waist_circumference": "Midjeomkrets",
+    "insole_width": "Innersåle Bredde",
+    "palm_length": "Håndlengde",
+    "shoulder_length": "Skulderlengde",
+    "length": "Lengde",
+    "waist_width": "Midjebredde",
+    "chest_width": "Brystbredde",
+    "wrist_width": "Håndleddets bredde",
+    "insole_length": "Innleggssålelengde",
+    "calf_width": "Leggvidde",
+    "heel_height": "Hælhøyde",
+    "front_length": "Foran Lengde",
+    "brim": "Brim",
+    "sleeve": "Erme",
+    "thigh_circumference": "Lår omkrets",
+    "inside_leg": "Innsideben",
+    "wrist_circumference": "Håndleddets omkrets",
+    "high_waist_circumference": "Høy midjeomkrets",
+    "shaft_height": "Skaftets høyde",
+    "calf_circumference": "Leggomkrets",
+    "full_body_length": "Full kroppslengde",
+    "back_hook": "Tilbakekrok",
+    "platform_height": "Plattformhøyde",
+    "circumference": "Omkrets",
+    "hook": "Krok",
+    "lower_length": "Lavere lengde",
+    "under_bust": "Underbust",
+    "high_waist_width": "Høy midjebredde",
+    "back_length": "Rygglengde"
+  },
+  "regions": {
+    "IT": "Italiensk",
+    "HU": "Ungarsk",
+    "FR": "Fransk",
+    "MX": "Meksikansk",
+    "CUSTOM": "Internasjonal",
+    "JP": "Japansk",
+    "code": {
+      "CUSTOM": "CUSTOM",
+      "US": "US",
+      "UK": "UK",
+      "AU": "AU",
+      "IT": "IT",
+      "MEX": "MEX",
+      "JP": "JP",
+      "FR": "FR",
+      "EU": "EU",
+      "CN": "CN",
+      "BR": "BR",
+      "DE": "DE"
+    },
+    "ES": "Spania",
+    "EU": "Europeisk",
+    "DE": "Tysk",
+    "CN": "Kinesisk",
+    "AU": "Australier",
+    "BR": "Brasiliansk",
+    "region": "Region",
+    "other": "Ukjent",
+    "mx_marti": "Marti",
+    "PT": "Portugisisk PT",
+    "letter-br": "Brasiliansk",
+    "US": "Amerikansk",
+    "UK": "Britisk"
+  },
+  "size_chart": {
+    "subtitle": "Skyv rullefeltene for å se flere mål og størrelser",
+    "title_web": "Sammenlign målingene dine med dette diagrammet.",
+    "scroll_action": "Rull",
+    "subtitle_mobile": "Sveip for å se flere mål og størrelser",
+    "returns_link": "Finn ut mer om returrett.",
+    "returns": "Fortsatt i tvil? Ikke bekymre deg, den første <strong>returen er gratis.</strong>",
+    "title_accessory": "Størrelsestabell for dette tilbehøret",
+    "title": "Velg en størrelse og sjekk målene",
+    "instruction_measure": "Se vårt materiale om hvordan du måler deg selv og sammenlign målene dine med denne tabellen.",
+    "title_mobile": "Sammenlign kroppsmålingene dine med dette diagrammet. Hold markøren over hver av kolonnetitlene nedenfor og finn ut den beste måten å måle kroppen din på."
+  },
+  "generics": {
+    "disable": "Deaktiver",
+    "less_than_year": "< 1 år",
+    "profile_tooltip": "Du kan opprette nye målingsprofiler ved å klikke her",
+    "weight": "Vekt",
+    "age": "Alder",
+    "accessibility": "TILGJENGELIGHET",
+    "language": "Språk",
+    "years": "År",
+    "female": "Kvinne",
+    "size_fit": "Størrelse",
+    "no_name": "Ikke navngitt",
+    "pronoun_female": "Min",
+    "year": "År",
+    "suffix_male": "din",
+    "months": "Måneder",
+    "size_chart": "Størrelsestabell",
+    "chart": "Størrelsestabell",
+    "closeVfr": "Lukk det virtuelle prøverommet",
+    "about": "Om Sizebay",
+    "see_how_to_measure": "Se hvordan du måler",
+    "kg": "Kilo",
+    "assistive_mode": "{{status}} hjelpemodus",
+    "suffix_female": "din",
+    "switcher": {
+      "title_chart": "Målinger:"
+    },
+    "lb": "Pund",
+    "how_to_measure": "Se hvordan du måler",
+    "unavailable": "Jeg er en profesjonell språktolk.",
+    "other_profiles": "Andre profiler",
+    "privacy": "Personvern",
+    "ft": "Tommer",
+    "pronoun_male": "Min",
+    "got_it": "Forstått",
+    "enable": "Aktiver",
+    "cm": "Centimeter",
+    "height": "Høyde",
+    "male_singular": "mann",
+    "uninformed": "Ikke informert",
+    "female_singular": "kvinne",
+    "profile": {
+      "title": "Brukerprofil"
+    },
+    "male": "Mann",
+    "confirm_edit": "OK"
+  },
+  "privacy_v2": {
+    "overview": {
+      "text": "<p>For at du bedre skal forstå retningslinjene som regulerer bruken av løsninger utviklet av<strong> SIZEBAY </strong>, har vi utarbeidet denne korte oppsummeringen for deg. Denne oversikten erstatter ikke hele innholdet i retningslinjene, så vi anbefaler at du etter det leser hvert dokument nøye.</p><p><strong>VILKÅR OG BETINGELSER FOR BRUK</strong> for <strong>SIZEBAY</strong> er ment å regulere: (i) bruken av tjenestene som tilbys av <strong>SIZEBAY</strong>, gjennom e-handelsplattformen til <a href={{ pageTenant }} target=_blank>{{ tenantName }} ({{ pageTenant }})</a>, og også (ii) tilgang og innhold gjort tilgjengelig på nettstedet til <strong>SIZEBAY</strong>, (iii) forpliktelsene til brukere, besøkende og kunder av plattformen og nettstedet mens de bruker applikasjonen eller får tilgang til nettstedet <strong>SIZEBAY</strong>, (iv) ansvaret til de involverte partene.</p>{{ pagePrivacyTenant }}<p><strong>PERSONVERNSERKLÆRING</strong> tar sikte på å avklare hvordan <strong> SIZEBAY</strong> behandler data under bruk og tilgang til applikasjonen og nettstedet, blir rettighetene til innehavere også avklart og hvordan de kan utøve dem med <strong>SIZEBAY</strong>.</p>",
+      "title": "Oversikt"
+    },
+    "clear_data": {
+      "text": "Fjern alle navigasjonsdata, hurtigbuffer og informasjonskapsler som ble lagret av Sizebay",
+      "button": {
+        "initial": "Fjern alle informasjonskapsler"
+      }
+    },
+    "person": {
+      "first": {
+        "name": "Marcelo Bastos",
+        "info": "<li>Den europeiske union</li> <li>privacy@sizebay.com</li>"
+      },
+      "second": {
+        "name": "Janderson Roberto Araujo",
+        "info": "<li>Andre lokasjoner</li> <li>privacy@sizebay.com</li>"
+      }
+    },
+    "services": {
+      "title": "Hvordan tilbyr SIZEBAY sine tjenester?",
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/computer-face.svg /><p><strong>SIZEBAY</strong> tjenester er tilgjengelige på e-handelsplattformen i form av programvare som en tjeneste (SaaS), noe som betyr at <strong>SIZEBAY</strong> gir e-handel lisensen til å bruke programvaren.</p></span><div><img src=https://static.sizebay.technology/assets/icons/computer-face.svg /></div>"
+    },
+    "contact": {
+      "text": "<p>Hvis du har spørsmål om <strong>SIZEBAY</strong>s retningslinjer eller hvordan du kan utøve dine rettigheter som datainnehaver, kan du kontakte <strong>SIZEBAY</strong>s Data Protection Officer (DPO):",
+      "title": "Ved tvil, hvordan kontaktes?"
+    },
+    "data_collected": {
+      "title": "Hvilke data samles inn av SIZEBAY?",
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/cookies.svg /><p> For å kunne tilby sine tjenester kan <strong>SIZEBAY</strong> samle inn profildata, for eksempel kallenavn (valgfritt), alder, kjønn, høyde, vekt, anatomisk profil og kroppsmål. I tillegg kan tilgangsloggdata og informasjonskapsler samles inn, med det formål å forbedre brukeropplevelsen og forenkle bruken av applikasjonen, uten å måtte gi igjen data som allerede er informert av brukeren i et neste kjøp eller produktanalyse.</p></span><span><img src=https://static.sizebay.technology/assets/icons/bag.svg /><p><strong>SIZEBAY</strong> kan også samle inn data fra innkjøpsordren som er plassert på e-handelen, med sikte på å utføre analyser mellom anbefalt størrelse og den som faktisk er kjøpt,  for å forbedre tjenestene ved å anbefale størrelsen på klær og fottøy.</p></span><span><img src=https://static.sizebay.technology/assets/icons/anonymous-person.svg /><p> Vi presiserer at applikasjonen <strong>SIZEBAY</strong> er opptatt av personvernet til brukerne,  Derfor ble tjenestene utviklet på en slik måte at datainnsamling utføres uten at det er mulig å identifisere data om innehaverne.</p></span><div><img src=https://static.sizebay.technology/assets/icons/cookies.svg /> <img src=https://static.sizebay.technology/assets/icons/bag.svg /> <img src=https://static.sizebay.technology/assets/icons/anonymous-person.svg /></div>"
+    },
+    "how_it_works": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/mannequin.svg /><p> For å bruke tjenestene er det ikke nødvendig for brukeren å registrere seg på plattformen <strong>SIZEBAY</strong>. Tilgang til måletabellen vil alltid være tilgjengelig. For å bruke det virtuelle prøverommet, må brukeren fylle ut grunnleggende informasjon slik at applikasjonen kan anbefale størrelsen på plagg og sko.</p></span><span><img src=https://static.sizebay.technology/assets/icons/anonymous.svg /><p> Å opprette en profil i applikasjonen <strong>SIZEBAY</strong> krever ikke at brukeren bruker for- eller etternavnet ditt,  og kan til og med fylle ut med fiktive data, hvis du er interessert i å bevare personvernet ditt enda mer.</p></span><span><img src=https://static.sizebay.technology/assets/icons/persons.svg /><p> Mindreårige kan ikke bruke applikasjonen, med mindre de er representert og/eller assistert av foreldrene eller foresatte.</p></span><div><img src=https://static.sizebay.technology/assets/icons/mannequin.svg /><img src=https://static.sizebay.technology/assets/icons/anonymous.svg /><img src=https://static.sizebay.technology/assets/icons/persons.svg /></div>",
+      "title": "Hvordan fungerer tilgangen til Virtual Fitting Room og Virtual Table-tjenestene?"
+    },
+    "share_data": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/share.svg /><p> Datadeling kan alltid utføres med sikte på å gi en bedre online shoppingopplevelse eller for å gjøre det mulig for applikasjonen å fungere, og det kan derfor utføres med: kunder og leverandører.</p></span><div><img src=https://static.sizebay.technology/assets/icons/share.svg /></div>",
+      "title": "Hvem kan SIZEBAY dele data med?"
+    },
+    "actions": {
+      "terms": {
+        "content": "<li><a href=https://home.sizebay.com/{{lang}}/legal/conditions-of-use target=_blank>Vilkår for bruk</a></li><li><a href=https://home.sizebay.com/{{lang}}/legal/privacy target=_blank>Personvern</a></li><li><a href=https://home.sizebay.com/{{lang}}/legal/cookies-policy target=_blank>Retningslinjer for informasjonskapsler</a></li>",
+        "conditions-use": "Vilkår for bruk",
+        "privacy": "Personvernerklæring",
+        "cookies": "Retningslinjer for informasjonskapsler",
+        "title": "Vilkår"
+      },
+      "statements": {
+        "gdpr": "GDPR-overholdelse",
+        "title": "Uttalelser",
+        "lgpd": "LGPD-samsvar",
+        "content": "<li><a href=https://home.sizebay.com/{{lang}}/legal/gdpr target=_blank >GDPR-overholdelse</a></li><li><a href=https: / /home.sizebay.com/{{lang}}/legal/lgpd target=_blank >LGPD-samsvar</a></li><li><a href=https://home.sizebay.com/{ {lang }}/legal/ccpa target=_blank >CCPA-samsvar</a></li><li><a href=https://sizebay.com/{{lang}}/legal/pipl target=_blank >PIPL-samsvar </a></li>",
+        "pipl": "PIPL-samsvar",
+        "ccpa": "CCPA-overholdelse"
+      },
+      "title": "Få tilgang til våre termsider",
+      "redirect_privacy": {
+        "text": "Klikk her for å bli omdirigert til siden for personvernerklæringen til {{ tenantName }}"
+      }
+    },
+    "how_data_is_collected": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/computer-hanger.svg /><p> Datainnsamling utføres når brukeren oppgir informasjon når brukeren bruker tjenestene virtuelt prøverom og måletabell, eller gjennom informasjonskapsler, når brukeren går inn på applikasjonen eller nettstedet <strong>SIZEBAY</strong> og igjen data som allerede er informert av brukeren i et neste kjøp eller produktanalyse.</p></span><div><img src=https://static.sizebay.technology/assets/icons/computer-hanger.svg /></div>",
+      "title": "Hvordan samler SIZEBAY inn data?"
+    },
+    "users_obligations": {
+      "title": "Hva er brukerens forpliktelser?",
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/obligations.svg /><p> Applikasjonsbrukere forplikter seg til å bruke tjenestene til <strong>SIZEBAY</strong> alltid respektere og overholde retningslinjene, samt gjeldende lovgivning, skikker, offentlig orden, samt de obligatoriske kravene som kreves for bruk og aksept av bruken av plattformen.</p></span><div><img src=https:// static.sizebay.technology/assets/icons/obligations.svg /></div>"
+    },
+    "data_protection": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/security.svg /><p> <strong>SIZEBAY</strong> anser hemmeligholdet og sikkerheten til informasjonen til sine kunder, brukere og besøkende ekstremt viktig. Av denne grunn bruker den krypterings- og brannmurteknologi, og vil gjøre alt i sin makt for å garantere beskyttelsen av dataene og informasjonen din.</p></span><span><img src=https://static.sizebay.technology/assets/icons/http.svg /><p> Vi anbefaler at du med jevne mellomrom rengjør informasjonskapslene som er lagret i nettleseren din,  for å forhindre at den innsamlede informasjonen blir eliminert fra databasen <strong>SIZEBAY</strong>, samt fra andre tilgjengelige nettsteder.</p></span><div><img src=https://static.sizebay.technology/assets/icons/security.svg /> <img src=https://static.sizebay.technology/assets/icons/http.svg /></div>",
+      "title": "Hvordan beskytter SIZEBAY dataene dine?"
+    }
+  },
+  "garment_measures_info": {
+    "shaft_height": "Mål fra bunnen av hælen til toppen av skoskaftet.",
+    "shoulder_length": "Bredde fra den ene ermesømmen til den andre, på baksiden av plagget.",
+    "full_body_length": "Mål fra toppsøm til bunnfall på et helt stykke.",
+    "hem": "Bredden på bunnen av delen.",
+    "back_length": "Mål fra kragen til falden på det øverste plagget, fra baksiden.",
+    "lower_waist_width": "Midjebåndets bredde på plagget med lav midje.",
+    "hip_circumference": "Bredde på plagget, omtrent 20 cm under linningen, multiplisert med to.",
+    "palm_length": "Mål fra håndleddet til tuppen av langfingeren.",
+    "calf_circumference": "Måling rundt den øvre delen av støvelskaftet, vanligvis på det bredeste punktet av leggen.",
+    "head_circumference": "Mål rundt innsiden av hatten der hodet hviler.",
+    "sleeve": "Mål fra innsiden der ermet starter til enden av mansjetten.",
+    "waist_width": "Bredde på den smaleste delen av toppen, mellom armhulene og falden.",
+    "thigh_width": "Bredde på den bredeste delen av låret.",
+    "waistband_circumference": "Måling av den øvre åpningen på plagget.",
+    "circumference": "Mål rundt et stykke, vanligvis ved å multiplisere bredden med 2.",
+    "lower_waist_circumference": "Bredden på plagget, rett under den naturlige midjen, multiplisert med to.",
+    "high_waist_width": "Bredde på linningen til plagget med høyt liv.",
+    "chest_circumference": "Måling av bredden på det øvre plagget, fra den ene siden til den andre, rett under armhulen, multiplisert med to.",
+    "waist_circumference": "Bredden på den smaleste delen av plagget multiplisert med to.",
+    "front_length": "Mål fra kragen til falden på den øverste delen, fra forsiden.",
+    "lower_length": "Mål fra linningen til kanten av plagget, fra siden.",
+    "wrist_circumference": "Måling av omkretsen av ermåpningen der den passer rundt håndleddet.",
+    "heel_height": "Mål fra bunnen av hoppet til det høyeste punktet.",
+    "wrist_width": "Håndter bredden på stykket.",
+    "hook": "Mål fra toppen av linningen til skrittsømmen.",
+    "thigh_circumference": "Måling av den bredeste delen av plaggets lår, rett under skrittsømmen.",
+    "platform_height": "Mål fra bunnen av fronten på skoen til toppen av platået.",
+    "biceps": "Ermebredde, omtrent 2,5 cm nedenfor armhulen.",
+    "insole_width": "Mål den bredeste delen av innersålen.",
+    "brim": "Mål fra bunnen til toppen av bremmen på luen.",
+    "high_waist_circumference": "Mål rundt midjen på plagget med høyt liv.",
+    "hip_width": "Bredde på stykket, 20 cm under linningen.",
+    "length": "Mål fra den øverste sømmen til den nederste falden på stykket.",
+    "chest_width": "Mål bredden på det øverste stykket, fra den ene siden til den andre, rett under armhulene.",
+    "calf_width": "Måling av bredden på støvelskaftet i legg høyde.",
+    "collar": "Bredde på blusekrage, målt rundt bunnen av halsen.",
+    "waistband_width": "Midjebåndets bredde på den nederste delen.",
+    "back_hook": "Mål fra linningen til skrittsømmen, på baksiden av plagget.",
+    "insole_length": "Mål fra tuppen av hælen til tuppen av tåen på innersålen.",
+    "under_bust": "Måling av bredden på det øvre plagget, fra den ene siden til den andre, rett under bysten, multiplisert med to.",
+    "inside_leg": "Mål fra skrittet til buksekanten"
+  },
+  "error": {
+    "close": "Gå ut av prøverommet",
+    "title": "Uff, noe gikk galt!",
+    "options": "Du kan prøve på nytt ved å starte profilen på nytt eller lukke og prøve senere.",
+    "restart": "Start profilen på nytt",
+    "description": "Ikke bekymre deg, vi undersøker allerede hva som skjedde for å forhindre at det skjer igjen."
+  },
+  "recommendation": {
+    "3d_feel": {
+      "lanes": {
+        "large": "for løs",
+        "ideal": "ideell",
+        "slightly_loose": "litt løs",
+        "loose": "romslig",
+        "slightly_fit": "litt stramt",
+        "tight": "veldig stramt",
+        "fit": "tett"
+      },
+      "title_suggested": "Beste alternativ"
+    },
+    "lanes": {
+      "tight": "KOSELIG",
+      "ideal": "IDEELL",
+      "fit": "TETT",
+      "looser": "LØSERE",
+      "large": "VID",
+      "loose": "ROMSLIG",
+      "tighter": "STRAMMERE"
+    },
+    "title_not_suggested": "Anbefales ikke",
+    "measurements": {
+      "title": "Målinger",
+      "conversion": {
+        "title": "Størrelseskonvertering"
+      }
+    },
+    "centered_mode": {
+      "controls": {
+        "appearance": "Utseende",
+        "comfort": "Komfort"
+      },
+      "comfort_map": {
+        "header": "Fargene i 3D-bildet indikerer hvor stramt eller løst plagget vil være på kroppen din"
+      },
+      "tag_info": "3D-kroppssimuleringen representerer dine individuelle kroppsmål og naturtro produkttilpasning.",
+      "measure_name": "på {{measureName}}"
+    },
+    "title_suggested": "er det beste alternativet",
+    "height_warning": {
+      "threshold": {
+        "long": "lang",
+        "short": "kort"
+      },
+      "message": "for {{threshold}} på de som er {{height}}"
+    },
+    "shoe": {
+      "insoleLength": "lengde",
+      "insoleWidth": "bredde"
+    },
+    "subtitle": "Se komfortnivåene nedenfor",
+    "subtitle_shoe": "Basert på {{brandName}}-størrelsen {{size}}",
+    "title_also_fits": "Passer også",
+    "carousel_also_try": "Prøv også størrelsene:"
+  },
+  "product_comparison": {
+    "elements": {
+      "edit": "Rediger",
+      "foot_format": "Fotform",
+      "category": "Kategori",
+      "brand": "Merke",
+      "size": "Størrelse"
+    },
+    "title": "Sammenligning produkt",
+    "subtitle": "Dette er informasjonen som brukes til størrelsesanbefaling."
+  },
+  "warnings": {
+    "age_group": {
+      "age_group": "{{ageGroup}} produkt",
+      "limit_reached": "Antall profiler har nådd sin grense. Slett en profil for å legge til en ny.",
+      "subtitle": "Produktets aldersgruppe samsvarer ikke med alderen på {{profileName}}-profilen. Velg eller legg til en profil for å fortsette.",
+      "prompt_message": "Ønsker du også å prøve klær fra ({{ageGroup}})-delen?"
+    },
+    "we_need_more_measures": {
+      "subtitle": "Vi kunne ikke beregne målingene for deg. Juster målingene nedenfor eller gå tilbake for å se gjennom de informerte dataene.",
+      "title": "Angi målene dine"
+    },
+    "unmatched_gender": {
+      "choose_a_profile": "Velg ønsket profil",
+      "select_profile": "Nei, velg en annen profil",
+      "tooltip": "Denne profilen er ikke egnet for den valgte produkttypen",
+      "title": "Vil du også prøve klær fra {{gender}} kategorien?",
+      "create_profile": "Nei, opprett en ny profil"
+    }
+  },
+  "brands_list": {
+    "search_question": "Hvilket merke bruker du vanligvis?",
+    "not_found": {
+      "title": "Vi kunne ikke finne et merke med dette navnet",
+      "subtitle": "Prøv å søke på nytt hvis du vil rette eventuelle skrivefeil."
+    },
+    "subtitle": "Etter noen spørsmål hjelper vi deg med å velge den beste skostørrelsen.",
+    "title": "Virtuelt prøverom",
+    "search_placeholder": "Skriv inn og søk etter merkevaren din her",
+    "title_restricted": "Bruker du skoene våre?"
+  },
+  "age_group": {
+    "adult": "Voksen",
+    "kids": "Barn"
+  },
+  "a11y": {
+    "Chart": {
+      "vfr_button": "Trykk på mellomromstasten for å gå til det virtuelle prøverommet",
+      "step_blocks": {
+        "table": {
+          "measure_description": "Dette er {{size}}-størrelsen, på {{measureName}} skal det måle {{measure}}"
+        },
+        "switcher": {
+          "instruction_press_space": "Trykk på mellomromstasten for å bytte verdier",
+          "option": "Din nåværende verdi er {{value}}"
+        }
+      },
+      "greeting": "Dette er størrelsestabellen",
+      "size_system": {
+        "instruction": "Ditt nåværende størrelsessystem er {{sizeSystem}}. Trykk på mellomromstasten for å velge et annet alternativ."
+      },
+      "instruction": "Her kan du sammenligne dine målinger med de som er oppført i tabellen vår"
+    },
+    "shoe": {
+      "Brands": {
+        "highlighted": {
+          "edit_negative": "Trykk på mellomromstasten hvis du ikke bruker noen av disse merkene",
+          "edit_action": "Trykk mellomromstasten for å fortsette med det valgte merket",
+          "instruction": "Trykk på mellomromstasten for å fortsette med {{brandName}}"
+        },
+        "restricted": {
+          "greeting": "Velkommen til prøverommet for sko fra begrensede merker. Velg et av skomerkene du allerede bruker"
+        }
+      },
+      "FootSize": {
+        "instruction": "Trykk på mellomromstasten for å velge {{ sizeSystem }} størrelsessystem"
+      },
+      "EditData": {
+        "greeting": "Her kan du gjøre endringer i fot- og skoinformasjonen du har sendt til oss"
+      },
+      "FootFormat": {
+        "instruction": "Velg en fotform.",
+        "edit_action": "Trykk på mellomromstasten for å velge {{ shoeFormat }}"
+      }
+    },
+    "drawer": {
+      "measurement_tape_header": "Tape",
+      "measurement_tape_handle": "Målebånd. Trykk på mellomromstasten for å få tilgang til målebåndet",
+      "close_group_handle": "Trykk på mellomromstasten for å lukke gruppen",
+      "measurement_tape_print_button": "Trykk på mellomromstasten for å åpne målebåndet"
+    },
+    "clothes": {
+      "Welcome": {
+        "step_blocks": {
+          "gender": {
+            "question": "Velg et kjønn for å fortsette. Ditt nåværende kjønn er {{gender}}"
+          },
+          "age": {
+            "tooltip": "Trykk på mellomromstasten for å lese mer informasjon om hvordan alder påvirker anbefaling"
+          },
+          "height": {
+            "question": "Skriv inn høyden din i {{measurementSystem}} her."
+          }
+        }
+      },
+      "ProfilesMenu": {
+        "blocks": {
+          "greeting": "Dette er alle profilene dine i det virtuelle prøverommet",
+          "edit": "Her kan du velge om du vil legge til eller fjerne profiler"
+        },
+        "chip": {
+          "message": "Trykk på mellomromstasten for å få tilgang til flere detaljer om profilen din {{profileName}}"
+        }
+      },
+      "Recommendation": {
+        "lane": "{{ size }}-størrelsen er {{ label }} på {{ measureName }}",
+        "carousel_instruction": "Finn flere størrelsevalg her"
+      },
+      "measures": {
+        "edit": "Trykk på piltastene for å øke eller redusere {{measureName}}-målingen",
+        "read": "Din {{measureName}} måler {{measureValue}} i {{measureSystem}}"
+      }
+    },
+    "generics": {
+      "welcome": "Velkommen til det virtuelle prøverommet"
+    }
+  },
+  "welcome": {
+    "age_disclaimer": "Kroppsformen endrer seg gjennom årene, og dette påvirker beregningen vår.",
+    "gender_f_kids": "Feminin",
+    "title": "Virtuelt prøverom",
+    "gender_m_kids": "Maskulin",
+    "foot_measurement_known": "Jeg kjenner allerede til fotmålet mitt",
+    "gender_m": "Mann",
+    "shoe_measure": "Fotlengde",
+    "gender_f": "Kvinne",
+    "gender_u": "Unisex",
+    "subtitle": "Fyll ut detaljene for å prøve dette produktet"
+  },
+  "edit_measures": {
+    "view_less": "Se færre mål",
+    "view_all": "Se flere målinger"
+  },
+  "drawers": {
+    "manage": {
+      "actions": {
+        "select": "Velg",
+        "delete": "Slett"
+      },
+      "active_profile": {
+        "details_shoe": "{{brandName}} størrelse {{size}}",
+        "no_name": "Skriv inn navn",
+        "delete": "Slett profil"
+      },
+      "new_profile": {
+        "input_example": "Eksempel: John Smith",
+        "title": "Legg til profil",
+        "subtitle": "Skriv inn et navn for denne profilen"
+      }
+    },
+    "knobs": {
+      "kids_shoes_tips": "Tips om størrelse",
+      "garment_info": "Plaggmål",
+      "size_content": "Stilguide",
+      "measurement_tape": "Målebånd",
+      "product_info": "Kroppsmålinger",
+      "size_hint_promo": "Fullfør kampanjen",
+      "size_hint": "Forslag",
+      "sizes_conversions": "Konvertering mellom størrelser"
+    },
+    "kids_shoes_title": "Tips og retningslinjer om barns føtter og sko",
+    "kids_shoes_button": "Forstått",
+    "kids_shoes_message": "Barnas føtter blir en halv større hver 2. til 4. måned. På grunn av denne raske veksten, er vårt råd å få litt løsere størrelser for barnet, slik at skoene varer lenger og ikke klemmer føttene, som utvikler seg raskt."
+  },
+  "landscape_vertical_subtitle": "Plasser enheten oppreist for å begynne å bruke",
+  "coppa_gate": {
+    "close": "Nei, jeg er under 13 år",
+    "confirm": "Ja, jeg er vergen",
+    "prompt_title_months": "Er du forelder eller foresatt til barnet som er {{ months }} gammelt?",
+    "message": "Du kan fortsette å prøve dette produktet hvis du er en voksen som opprettet denne profilen for å prøve et produkt for barnet ditt.",
+    "prompt_title_years": "Er du forelder eller verge til barnet som er {{ years }} år gammelt?",
+    "title": "Alder bekreftelse"
+  },
+  "fetching": {
+    "subtitle": "Vi beregner målene for å generere den ideelle størrelsesanbefalingen",
+    "title": "Nesten der!",
+    "shoe": {
+      "success": "Beregning fullført!",
+      "calculating": "Beregner målingene dine",
+      "analyzing": "Analyserer svarene dine"
+    }
+  },
+  "landscape_subtitle": "Hold telefonen horisontalt for å begynne ",
+  "measurement_tape": {
+    "link_download": {
+      "in": "//static.sizebay.technology/assets/measurement_tape/measurement_tape_in_en.pdf",
+      "cm": "//static.sizebay.technology/assets/measurement_tape/measurement_tape_cm_en.pdf"
+    },
+    "title": "Bånd",
+    "message": "Skriv ut, klipp ut og monter dette målebåndet for å sjekke målene dine.",
+    "print": "Trykk",
+    "print_mobile": "Skriv ut målebånd",
+    "download": {
+      "file": {
+        "title": "Instruksjoner for utskrift og oppsett av målebåndet",
+        "fold-and-rotate": "brett og roter",
+        "how-to-do": "Skriv ut:\nFør utskrift må du kontrollere at alternativet \"tilpass til side\" i utskriftsdialogboksen er deaktivert, slik at skriveren ikke reduserer eller øker dimensjonene på båndet.\n\nBeskjær:\nBruk saks eller en pekepenn til å klippe ut alle de kontinuerlige svarte linjene som er angitt med \"saksen\" for å lage segmentene på båndet.\n\nMontering:\nBrett og roter endene (som angitt på utskriften) ved å føye sammen de stiplede linjene til et enkelt bånd er montert.\n\nFest brettene:\nEtter montering, fest brettene på båndet med lim, tape eller en stiftemaskin."
+      }
+    }
+  },
+  "foot_size": {
+    "select_region": "Velg en region:",
+    "not_selected": "Pass på at du velger en størrelse for å fortsette",
+    "title": "Hva er skostørrelsen din?",
+    "pattern": "{{region}}-systemet",
+    "subtitle": "Velg din størrelse i"
+  },
+  "child_name": {
+    "name": "Navn",
+    "title": "Vil du fortelle oss navnet på barnet ditt?",
+    "subtitle": "Dette hjelper oss med å opprette en profil for prøverommet"
+  },
+  "size_hint": {
+    "title": "Vi har valgt ut noen produkter som også passer deg",
+    "discount-original-price": "Vanlig pris: <span class='size-hint__discount-original-price discount-description-price'>{{ price }}</span> <span class='size-hint__discount-percentage'>-{{discount }}%</span>",
+    "discount-lowest-price": "Laveste pris fra 30 dager før reduksjon: <span class='size-hint__discount-lowest-price discount-description-price'>{{ price }}</span> <span class='size-hint__discount-percentage'>-{{ discount }}%</span>",
+    "title_promo": "Fullfør kampanjen",
+    "try_now": "Prøv nå"
+  },
+  "size_tailor": {
+    "action_button": "Vi tilpasser for deg",
+    "title": "Tilpasset produkt",
+    "description": "Bekreft kroppsmålene dine slik at vi kan utvikle ditt skreddersydde produkt."
+  },
+  "miscellaneous": {
+    "hannaLinks": {
+      "recommendation": "Gå tilbake til resultatene mine",
+      "welcome": "Gå tilbake"
+    }
+  },
+  "measure_shape": {
+    "shape_bigger": "Større",
+    "shape_smaller": "Mindre",
+    "skin_types": {
+      "toggle": "Endre hudfarge"
+    },
+    "subtitle": "Dette er den omtrentlige kroppsformen vi genererer fra målingene dine. Juster bare om nødvendig.",
+    "measure_range": {
+      "1": "Mye mindre",
+      "2": "Mindre",
+      "3": "Gjennomsnittlig",
+      "4": "Større",
+      "5": "Mye større"
+    },
+    "shape_regular": "Regelmessig",
+    "title": "Juster kroppsformen"
+  },
+  "calculating": {
+    "subtitle": "Kontroller målingene og juster om nødvendig",
+    "circle_title_loading": "Laster inn...",
+    "circle_title_completed": "Klar!",
+    "title": "Ferdig beregnet!"
+  },
+  "brands_grid": {
+    "subtitle": "Hvilket merke pleier du å bruke?",
+    "unique_brand": "Bruker du allerede {{ brandName }}-sko?",
+    "search_other_brands": "Se etter et annet merke"
+  },
+  "modals": {
+    "remove_profile": {
+      "title_alt": "Er du sikker på at du vil slette denne profilen?",
+      "title": "Slett {{profileName}}-profilen?",
+      "action": "Fjern profil",
+      "confirm": "Slett profil"
+    }
+  },
+  "no_recommendation": {
+    "expected_size": "Den anbefalte størrelsen er {{recommendedSize}}.",
+    "title_shoe": "Dessverre er denne modellen og størrelsen for øyeblikket ikke tilgjengelig i butikken vår.",
+    "based_on": "Du kan redigere informasjonen din for å prøve igjen",
+    "calculate_again": "Beregne på nytt",
+    "title": "Størrelsen din er ikke tilgjengelig akkurat nå",
+    "subtitle": "Vi kunne ikke finne en størrelse for målingene nedenfor. Juster om nødvendig."
+  },
+  "accessory": {
+    "welcome": {
+      "subtitle": "For å prøve dette produktet, følg instruksjonene for å ta målene dine og informere det tilsvarende nummeret",
+      "shoe": {
+        "subtitle": "Velg fotmåling nedenfor, etter vår veiledning om hvordan du måler deg selv"
+      }
+    },
+    "bike": {
+      "recommendation": {
+        "title_suggested": "Sykkelstørrelsen vi anbefaler er den beste for din ytelse og holdning. Ikke for høy eller for kort, du vil kunne sykle komfortabelt.",
+        "subtitle": "basert på høyden din",
+        "title_also_fits": "Sykkelstørrelsen vi anbefaler er den beste for din ytelse og holdning. Ikke for høy eller for kort, du vil kunne sykle komfortabelt.",
+        "title_not_suggested": "Sykkelstørrelsen vi anbefaler er den beste for din ytelse og holdning. Ikke for høy eller for kort, du vil kunne sykle komfortabelt."
+      }
+    },
+    "shoe_size": {
+      "subtitle": "For å prøve dette produktet, velg en størrelse i henhold til fotlengden din"
+    }
+  },
+  "foot_format": {
+    "formats": {
+      "0": {
+        "description": "Smal føtter har en tendens til å ha ekstra plass på skoens sider.",
+        "title": "Smal"
+      },
+      "1": {
+        "title": "Middels",
+        "description": "Medium føtter passer vanligvis godt i de fleste sko."
+      },
+      "2": {
+        "title": "Bred",
+        "description": "Brede føtter passer til skostørrelsen, men føles stramme på sidene."
+      }
+    },
+    "subtitle": "Velg hvor bred foten din er for å forbedre passformen din.",
+    "title": "Fotform"
+  },
+  "landscape_warning": {
+    "title": "Virtuelt prøverom"
+  },
+  "my_measures": {
+    "title": "Mine målinger",
+    "subtitle": "Juster målinger etter behov"
+  },
+  "subcategory": {
+    "subtitle": "Velg typen <strong>{{brandName}}</strong> sko du vanligvis bruker",
+    "title": "Hva slags {{categoryName}} bruker du?"
+  },
+  "model": {
+    "title": "Hva slags {{composedName}} har du på deg?",
+    "subtitle": "Velg modellen av <strong>{{brandName}}</strong> sko du vanligvis bruker"
+  },
+  "landscape_horizontal_subtitle": "Plasser enheten horisontalt for å begynne å bruke",
+  "category": {
+    "subtitle": "Velg én type fra listen nedenfor, altså\nmest lik din <strong>{{brandName}}</strong> sko",
+    "title": "Hva er type sko?"
+  },
+  "header": {
+    "title": "Fit Finder"
+  }
+}

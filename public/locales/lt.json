@@ -1,0 +1,953 @@
+{
+  "shoe_size": {
+    "fit_loose": "Palaidas",
+    "shoe_accessory": {
+      "no_recommendation": {
+        "subtitle": "Nepavyko rasti toliau pateiktų išmatavimų dydžio. Jei reikia, sureguliuokite.",
+        "title": "Neradome jokio dydžio"
+      },
+      "all_measures": {
+        "measurements_guide": "Išmatavimų vadovas [PDF]",
+        "title": "Koks tavo pėdų dydis?"
+      },
+      "info_drawer_subtitle": "Norėdami rasti geriausią batų dydį, nepapasakojus šiek tiek apie save?"
+    },
+    "recommendation": "Remiantis jūsų informacija, tai yra jūsų pėdos išmatavimas. Jei reikia, pakoreguokite:",
+    "foot_shape_question": "Kokia yra tavo pėdos forma?",
+    "title": "Koks jūsų pėdos ilgis?",
+    "drawer_title": "kaip pasimatuoti",
+    "subtitle": {
+      "0": "Norėdami rasti geriausią batų dydį, nepapasakojus šiek tiek apie save?",
+      "box": {
+        "subtitle": "Padėkite popieriaus lapą ant grindų prie sienos. Atsistokite kulnu ant popieriaus ir prie sienos. Pažymėkite ilgiausio piršto galiuką, tada išmatuokite atstumą.",
+        "title": "Kaip teisingai pamatuoti koją:"
+      }
+    },
+    "fit_description_ideal": "Tarp pirštų ir batų yra <strong>nedidelė erdvė</strong>.",
+    "length_example": "Užsidėkite savo <strong>{{brandName}}</strong> dydžio <strong>{{size}}</strong> batus ir pasakykite mums, kaip jaučiasi ilgis jūsų pėdoje.",
+    "fit_tight": "Jaukus",
+    "fit_ideal": "Tinkamas",
+    "open_drawer_button": "Kaip išmatuoti save",
+    "fit_description_loose": "Tarp pirštų ir batų yra <strong>didelė erdvė</strong>.",
+    "shoe_accessory_subtitle": "Toliau pasirinkite pėdos išmatavimą vadovaudamiesi mūsų nurodymais,\\nkaip išmatuoti save.",
+    "drawer_button": "Supratau",
+    "fit_description_tight": "Batas liečia jūsų pirštus <strong>be tarpų</strong>.",
+    "length_question": "Kaip jūsų batų ilgis tinka?"
+  },
+  "footer": {
+    "add_to_cart_mobile_2": "Į krepšelį",
+    "confirm": "Patvirtinti",
+    "none_of_those": "Nei vienas iš šių",
+    "save_measures": "Išsaugoti matavimus",
+    "view_recommendation": "Žiūrėti Rekomendacijas",
+    "print_measurement_tape": "Spausdinti matavimo juostą",
+    "virtual_fitting_room": "Virtuali pasirengimo kambarys",
+    "info_box": "Pasirinkite Individualų Dydį, jei norite, kad jūsų striukė būtų pritaikyta prie jūsų kūno išmatavimų",
+    "yes": "Taip",
+    "add_to_cart": "Pridėti į prekių krepšelį",
+    "brand_not_found": "Man nepavyko rasti prekės ženklo",
+    "proceed": "Tęsti",
+    "edit_data": "Redaguoti duomenis",
+    "not_yet": "Dar ne",
+    "cancel_alt": "Ne, atšaukti",
+    "next": "Kitas",
+    "cancel": "Atšaukti",
+    "by-sizebay": "pagal Sizebay®",
+    "sure": "Žinoma!",
+    "add_profile": "Sukurti profilį",
+    "create_new_profile": "Sukurti naują profilį",
+    "restart": "Perkrauti",
+    "close": "Uždaryti",
+    "select_another_profile": "Pasirinkti kitą profilį",
+    "continue_without_brand": "Aš negalėjau rasti prekės ženklo",
+    "unsure": "Nesu tikras",
+    "save": "Išsaugoti",
+    "edit_measures": "Redaguoti išmatavimus",
+    "proceed_anyway": "Tęsti bet kokiu atveju",
+    "edit_profile": "Redaguoti profilį",
+    "add_to_cart_mobile": "Pirkti",
+    "back": "Ankstesnis"
+  },
+  "composed_measures": {
+    "welcome": {
+      "link_tooltip": "<b>{{suffix}} {{measureName}} plotis.</b>",
+      "item_text": "Mano {{measureName}} yra {{range}} {{sizeSystem}} pločio",
+      "measures_range_item": "{{initialRange}} iki {{finalRange}}",
+      "tooltip_text": "Spauskite norėdami pasirinkti kitą dydį",
+      "tooltip_instructions": "Paspauskite čia, jei norite sužinoti, kaip atlikti {{measureName}} matavimą",
+      "height": {
+        "item_text": "Aš esu {{range}} {{sizeSystem}} ūgio",
+        "link_tooltip": "<b>koks jūsų ūgis.</b>",
+        "title": "Koks jūsų ūgis?",
+        "instructions": "Mums reikia žinoti jūsų <b>ūgį</b>, kad galėtume parodyti galimas rekomendacijas"
+      },
+      "title": "Koks yra {{suffix}} {{measureName}} matmuo?",
+      "instructions": "Kokio pločio yra {{suffix}} <b>{{measureName}}</b>? Mes turime žinoti {{suffix}} {{measureName}} dydį, kad galėtume parodyti galimas rekomendacijas pagal"
+    },
+    "height": {
+      "title": "Kokio ūgio esi?",
+      "link_tooltip": "parodyti tavo ūgį"
+    },
+    "table": {
+      "helper_height": "Šis aukštis svyruoja nuo {{range}} {{sizeSystem}} ūgio. Ar šis matavimas netikslus?",
+      "tooltip_change": "Pakeiskite čia.",
+      "helper": "Šis {{measureName}} prasideda nuo {{range}} {{sizeSystem}} ilgio. Ar šis matavimas netikslus?",
+      "title": "Tai galimi dydžiai, skirti <span>{{range}}</span> {{measureName}}",
+      "vfr_tooltip": "Turite savo išmatavimus? Kodėl gi nepabandžius atrasti savo dydžio Virtualiame Matavimosi Kambaryje?"
+    }
+  },
+  "body_measurements": {
+    "diameter": "SKERSMUO",
+    "collar": "Apykaklė",
+    "length": "Produkto Ilgis",
+    "centralSeam": "Priekio dydis (nuo liemens iki klyno)",
+    "weightChart": "Svoris",
+    "width": "Plotis",
+    "waistUpper": "Virš liemens",
+    "weight": "Svoris",
+    "circumference": "Apimtis",
+    "insoleLength": "Pėdos ilgis",
+    "label1": "DYDIS (JAV)",
+    "sleve": "Rankovės ilgis",
+    "waist": "Liemuo",
+    "chest_m": "Krūtinė",
+    "chest_f": "Biustas",
+    "neck": "Kaklas",
+    "comfort": "Komfortas",
+    "sleeve": "Ranka",
+    "thigh": "Šlaunis",
+    "headCircumference": "Galva",
+    "hip": "Klubas",
+    "shoulderWidth": "Pečiai",
+    "waistLower": "Po liemeniu",
+    "wrist": "Riešas",
+    "palm": "Rankos delnas",
+    "bar": "Apatinis drabužio kraštas",
+    "chest": "Krūtinė / Biustas",
+    "lowerLength": "Apatinis ilgis",
+    "finger_circumference": "APIMTIS",
+    "insoleWidth": "Pėdos plotis",
+    "height": "Ūgis",
+    "ageChart": "Amžius",
+    "underBust": "Po krūtine",
+    "insideLeg": "Vidinė siūlė",
+    "biceps": "Bicepsas",
+    "calf": "Blauzda",
+    "fist": "Ranka",
+    "fullBodyLength": "Visas kūno ilgio"
+  },
+  "measures_info": {
+    "insideLeg": "Išmatuokite vidinį kojos atstumą nuo gaktos iki pėdų padų.",
+    "fullBodyLength": "Išmatuokite atstumą nuo pečių viršaus iki grindų.",
+    "weightChart": "Pasisverkite ant svarstyklių ir patikrinkite matavimų lentelę, kad pamatytumėte, ar svorio skaičiai sutampa.",
+    "waistUpper": "Išmatuokite juosmens apimtį virš bambos.",
+    "insoleLength": "Padėkite popieriaus lapą ant grindų prie sienos. Atsistokite kulnu ant popieriaus ir prie sienos. Pažymėkite ilgiausio piršto galiuką, tada išmatuokite atstumą.",
+    "biceps": "Matavimo juostą naudokite ties rankos viduriu, plačiausioje jos dalyje.",
+    "height": "Šis bus paprastas. Tai atstumas nuo viršugalvio (kaukolės) iki žemės (padų), matuojama stovint vertikaliai.",
+    "width": "Išmatuokite drabužių plotį",
+    "weight": "Pasisverkite ant svarstyklių ir patikrinkite matavimų lentelę, kad pamatytumėte, ar svorio skaičiai sutampa.",
+    "sleeve": "Išmatuokite atstumą tarp peties ir riešo, laikydami ranką šiek tiek sulenktą. Perkelkite juostą už alkūnės ir pasižymėkite matavimą.",
+    "neck": "Panaudokite matavimo juostelę kaklo apimčiai išmatuoti, nelaikydami juostelės per stipriai. Panaudokite veidrodį, kad matavimą atliktumėte lengviau.",
+    "collar": "Išmatuokite aplink kaklą, tiesiai virš apykaklės kaulo, vieną pirštą įkiškite tarp juostelės ir kaklo.",
+    "chest": "Ramiai kvėpuodami panaudokite matavimo juostele aplink krūtinę (krūtinės sritį). Pasižymėkite skirtumus kvėpuojant ir atkreipkite dėmesį į didžiausią rastą skaičių.",
+    "ageChart": "Asmens, kuris dėvės šį produktą, amžius.",
+    "circumference": "Išmatuokite drabužių apimtis",
+    "length_botton": "Matavimo juostelės pradžią uždėkite ties juosmeniu, kur būtų dėvimos kelnės ar sijonas. Matuokite su juosta per visą blauzdos ilgį, kad pažymėtumėte matavimą.",
+    "waist": "Atsistokite priešais veidrodį ir išsimatuokite apimtį tiesiai po šonkauliais, šiek tiek virš klubų.",
+    "footLength": "Stovėdami ant lygaus paviršiaus, sulygiuokite nugarą prie sienos. Liniuote išmatuokite pėdos ilgį (nuo kulno iki kojų pirštų).",
+    "lowerLength": "Tai atstumas tarp klubo iki grindų.",
+    "chest_m": "Ramiai kvėpuodami panaudokite matavimo juostele aplink krūtinę. Pasižymėkite skirtumus kvėpuojant ir atkreipkite dėmesį į didžiausią rastą skaičių.",
+    "chest_f": "Ramiai kvėpuodami panaudokite matavimo juostele aplink krūtinę (krūtinės sritį). Pasižymėkite skirtumus kvėpuojant ir atkreipkite dėmesį į didžiausią rastą skaičių.",
+    "palm": "Pasižymėkite plaštakos ilgį, padėdami liniuotę ant lygaus paviršiaus, sulenkdami ranką ir padėdami kairę dominuojančios rankos pusę ties nuliniu liniuotės tašku.",
+    "waistLower": "Išmatuokite juosmens apimtį žemiau bambos, kur dažniausiai dėvima juosmens juosta (apatinė juosmens dalis).",
+    "thigh": "Uždėkite matavimo juostelę aplink plačiausią šlaunies dalį, esančią tiesiai po pasturgaliu.",
+    "underBust": "Panaudokite matavimo juostelę aplink krūtinę, tiesiai po krūtine. Ramiai kvėpuokite, pasižymėkite matavimų skirtumus ir pasižymėkite didžiausią skaičių.",
+    "bar": "Išmatuokite drabužių kraštą",
+    "insoleWidth": "Išimkite gerai prigludusio bato vidpadį ir išmatuokite vidpadžio plotį.",
+    "headCircumference": "Išmatuokite galvos apimtį su matavimo juostele (virš ausų).",
+    "wrist": "Uždėkite matavimo juostelę aplink riešą, tiksliai ten, kur būtų laikrodis.",
+    "hip": "Su matavimo juostele apvyniokite „platesnę“ sritį žemiau juosmens, lygiagrečiai su aukščiausia sėdmenų dalimi.",
+    "diameter": "Išmatuokite žiedo vidinį skersmenį, ant rankos piršto, ant kurios bus nešiojamas šis produktas.",
+    "length": "Išmatuokite atstumą tarp viršutinės liemens dalies ir apatinės juosmens (tiesiai po pilvu).",
+    "fist": "Apvyniokite matavimo juostelę aplink riešą, tiksliai toje vietoje, kur būtų nešiojamas laikrodis.",
+    "calf": "Atsisėskite ant kėdės ir laikykite pėdą ant žemės, tada sulenkite koją 90 laipsnių kampu. Matuokite su juostele nuo pėdos pagrindo iki kelio susilenkimo vietos.",
+    "shoulderWidth": "Su kieno nors pagalba išmatuokite atstumą tarp pečių galų.",
+    "ring": "Užriškite ploną virvelę aplink to pačio piršto, ant kurio norite nešioti šį produktą, pažymėkite virvelės susikirtimą ir pamatuokite tą ilgį, kad gautumėte apimtis",
+    "centralSeam": "Sėdėdami ant lygaus paviršiaus su matavimo juostele išmatuokite atstumą tarp juosmens ir paviršiaus."
+  },
+  "privacy": {
+    "services": {
+      "anchor": "Sizebay paslaugos",
+      "text": "SIZEBAY paslaugos yra prieinamos e. komercijos platformoje kaip programinė įranga kaip paslauga (SaaS), tai reiškia, kad SIZEBAY suteikia e. komercijai licenciją naudoti programinę įrangą.",
+      "title": "Kaip SIZEBAY teikia savo paslaugas?"
+    },
+    "clear_data": {
+      "button": {
+        "initial": "Išvalyti visus duomenis",
+        "cleared": "švaru!",
+        "cleaning": "Valoma..."
+      },
+      "title": "Slapukų valymas",
+      "tooltip": "Jūsų duomenys buvo ištrinti!",
+      "text": "Spustelėkite žemiau esantį mygtuką, jei norite ištrinti visus Sizebay saugomus naršymo duomenis, talpyklą ir slapukus."
+    },
+    "contact": {
+      "title": "Jei kyla abejonių, kaip susisiekti?",
+      "text": "Jei turite klausimų apie SIZEBAY politiką ar kaip galite pasinaudoti savo teisėmis kaip duomenų savininkas, prašome susisiekti su SIZEBAY duomenų apsaugos pareigūnu (DPO):\n\nJanderson Roberto Araujo  \nAdresas: R. Blumenau, 953 – Sala 402 – América, Joinville – SC, 89204-251 – Brazilija.  \nTelefonas: +55 48 4042-0150  \nEl. paštas: privacy@sizebay.com  \n\nŽr. daugiau politikų"
+    },
+    "data_protection": {
+      "anchor": "Duomenų apsauga",
+      "title": "Kaip SIZEBAY apsaugo savo duomenis?",
+      "text": "SIZEBAY laiko savo klientų, vartotojų ir lankytojų informacijos konfidencialumą ir saugumą itin svarbiu; todėl naudoja šifravimo ir ugniasienės technologijas bei dės visas pastangas, kad užtikrintų jūsų duomenų ir informacijos apsaugą. Rekomenduojame periodiškai išvalyti slapukus, saugomus naršyklėje, kurią naudojate, kad išvengtumėte surinktos informacijos pašalinimo iš SIZEBAY duomenų bazės, taip pat iš kitų lankomų svetainių."
+    },
+    "how_data_is_collected": {
+      "text": "Duomenų rinkimas atliekamas, kai vartotojas pateikia informaciją naudodamasis Virtualia Matavimo Kabina ir Dydžio & Tinkamumo Diagrama paslaugomis arba per slapukus, kai vartotojas pasiekia SIZEBAY programą ar svetainę.",
+      "title": "Kaip SIZEBAY renka duomenis?"
+    },
+    "users_obligations": {
+      "anchor": "Vartotojų įsipareigojimai",
+      "title": "Kokie yra vartotojo įsipareigojimai?",
+      "text": "Programos naudotojai įsipareigoja naudotis SIZEBAY paslaugomis visada gerbdami ir laikydamiesi Politikos, taip pat galiojančių teisės aktų, papročių, viešosios tvarkos ir privalomų reikalavimų, būtinų norint naudotis platforma ir ją priimti."
+    },
+    "data_collected": {
+      "title": "Kokius duomenis renka SIZEBAY?",
+      "text": "Norėdama teikti savo paslaugas, SIZEBAY gali rinkti profilio duomenis, tokius kaip slapyvardis (neprivaloma), amžius, lytis, ūgis, svoris, anatominis profilis ir kūno matmenys. Be to, gali būti renkami prieigos žurnalo duomenys ir slapukų duomenys, siekiant pagerinti vartotojo patirtį ir palengvinti programos naudojimą, nereikalaujant vėl pateikti jau vartotojo pateiktų duomenų kito pirkimo ar produkto analizės atveju.\n\nSIZEBAY taip pat galės rinkti duomenis iš pirkimo užsakymo, atlikto elektroninėje prekyboje, siekiant analizuoti rekomenduojamą dydį ir faktiškai įsigytą dydį, siekiant pagerinti teikiamas paslaugas drabužių ir batų dydžio rekomendacijai.\n\nPažymime, kad SIZEBAY programa rūpinasi savo vartotojų privatumu, todėl paslaugos buvo sukurtos taip, kad duomenų rinkimas būtų vykdomas be galimybės identifikuoti duomenų savininkus.",
+      "anchor": "Surinkti duomenys"
+    },
+    "how_it_works": {
+      "anchor": "Kaip tai veikia?",
+      "title": "Kaip veikia prieiga prie virtualios matavimosi kabinos ir dydžio lentelės?",
+      "text": "Norint naudotis paslaugomis, vartotojui nebūtina registruotis SIZEBAY platformoje. Prieiga prie Fit & Size Chart bus prieinama, o norint naudotis virtualiu matavimosi kambariu, vartotojui reikia užpildyti tam tikrą pagrindinę informaciją, kad programa galėtų pateikti drabužių ir batų dydžio rekomendaciją. Sukurti profilį SIZEBAY programoje nereikalaujama, kad vartotojas naudotų savo vardą ar pavardę, ir gali netgi užpildyti fiktyvius duomenis, jei nori labiau apsaugoti savo privatumą. Nepilnamečiai negalės naudotis programa, nebent juos atstovautų ir (arba) padėtų tėvai ar globėjai."
+    },
+    "title": "Privatumas",
+    "overview": {
+      "title": "Kam skirti Naudojimo sąlygos ir Privatumo politika?",
+      "text": "SIZEBAY NAUDOJIMO SĄLYGOS skirtos reguliuoti: (i) paslaugų, kurias teikia SIZEBAY per savo klientų el. prekybos platformą, naudojimą, taip pat (ii) prieigą ir turinį, pateikiamą SIZEBAY svetainėje, (iii) platformos ir svetainės naudotojų, lankytojų ir klientų pareigas naudojant programą ar lankantis SIZEBAY svetainėje, (iv) atsakomybę šalių, susijusių su naudojimu.\n\nPRIVATUMO POLITIKA siekia paaiškinti, kaip SIZEBAY tvarko duomenų apdorojimą naudojant ir lankantis jos programoje ir svetainėje, taip pat aiškinamos duomenų valdytojo teisės ir kaip jos gali būti įgyvendinamos su SIZEBAY.\n\nKai naudojatės Virtualiu Matavimosi Kambariu ir Tinkamumo bei Dydžio Diagrama, sutinkate su SIZEBAY politikomis. Galite pasiekti visas SIZEBAY politikos nuostatas nuorodoje.\n\nŽemiau apibendriname jums pagrindinę informaciją:",
+      "anchor": "Privatumas"
+    },
+    "share_data": {
+      "text": "Duomenų dalijimasis visada gali būti vykdomas siekiant užtikrinti geresnę apsipirkimo internetu patirtį arba kad programa galėtų veikti, taip jis gali būti vykdomas su: klientais, verslo partneriais, paslaugų teikėjais, subrangovais, drabužių ir avalynės gamintojais.",
+      "title": "Su kuo SIZEBAY gali dalintis duomenimis?"
+    }
+  },
+  "product_not_found": {
+    "report_status": {
+      "sending": "Pranešama...",
+      "sent": "Ačiū!",
+      "not_sending": "Praneškite mums",
+      "not_sent": "Praneškite mums"
+    },
+    "description": "Vis dar neturime pakankamai informacijos apie šį produktą, kad galėtume jį rekomenduoti.",
+    "title": "Oh ne!"
+  },
+  "languages": {
+    "all_langs": {
+      "fr": "Prancūzų kalba",
+      "et": "Estų",
+      "es": "ispanų",
+      "en": "Anglų",
+      "fi": "suomių",
+      "dk": "danų",
+      "cn": "Kinų",
+      "de": "vokiečių kalba",
+      "cz": "čekų",
+      "br": "portugalų",
+      "ar": "arabiškas",
+      "bg": "bulgarų",
+      "mx": "ispanų",
+      "no": "norvegų",
+      "nl": "olandų",
+      "lt": "lietuvių",
+      "lv": "latvių",
+      "jp": "japonų",
+      "ko": "korėjiečių",
+      "it": "italų",
+      "hu": "vengrų",
+      "hr": "kroatų",
+      "id": "Indonezija",
+      "gr": "graikų",
+      "he": "Hebrajų kalba",
+      "vn": "vietnamiečių",
+      "uk": "Anglų",
+      "th": "tajų",
+      "tr": "turkų",
+      "sr": "serbų",
+      "sv": "Švedijos",
+      "sl": "slovėnų",
+      "sk": "slovakų",
+      "ru": "rusų",
+      "ro": "rumunų",
+      "pt": "portugalų",
+      "pl": "lenkas",
+      "esAR": "ispanų",
+      "esCT": "ispanų (kastiliečių)",
+      "ukr": "ukrainiečių",
+      "zh": "kinų"
+    },
+    "select": "Galimos kalbos: {{langs}}",
+    "box": "Kalbos parinkiklis, jūs naudojate {{currentLang}} kalbą"
+  },
+  "garment_measurements": {
+    "hip_width": "Klubų plotis",
+    "thigh_width": "Šlaunies plotis",
+    "head_circumference": "Galvos apimtis",
+    "lower_waist_circumference": "Mažesnė liemens apimtis",
+    "collar": "Apykaklė",
+    "waistband_circumference": "Juosmens apimtis",
+    "hip_circumference": "Klubų apimtis",
+    "biceps": "Bicepsas",
+    "waistband_width": "Juosmens juostos plotis",
+    "hem": "Kraujas",
+    "lower_waist_width": "Apatinio juosmens plotis",
+    "chest_circumference": "Krūtinės apimtis",
+    "waist_circumference": "Juosmens apimtis",
+    "insole_width": "Vidpadžio plotis",
+    "palm_length": "Delno ilgis",
+    "shoulder_length": "Pečių ilgis",
+    "length": "Ilgis",
+    "waist_width": "Juosmens plotis",
+    "chest_width": "Krūtinės plotis",
+    "wrist_width": "Riešo plotis",
+    "insole_length": "Vidpadžio ilgis",
+    "calf_width": "Blauzdos plotis",
+    "heel_height": "Kulno aukštis",
+    "front_length": "Priekinis ilgis",
+    "brim": "Briauna",
+    "sleeve": "Rankovė",
+    "thigh_circumference": "Šlaunies apimtis",
+    "inside_leg": "Vidinė kojų siūlė",
+    "wrist_circumference": "Riešo apimtis",
+    "high_waist_circumference": "Aukštas liemens apimtis",
+    "shaft_height": "Veleno aukštis",
+    "calf_circumference": "Blauzdos apimtis",
+    "full_body_length": "Visas kūno ilgis",
+    "back_hook": "Atgal kabliukas",
+    "platform_height": "Platformos aukštis",
+    "circumference": "Apskritimo ilgis",
+    "hook": "Kabliukas",
+    "lower_length": "Mažesnis ilgis",
+    "under_bust": "Po krūtine",
+    "high_waist_width": "Aukštas juosmens plotis",
+    "back_length": "Nugaros ilgis"
+  },
+  "regions": {
+    "IT": "Italų",
+    "HU": "Vengrų",
+    "FR": "Prancūzų",
+    "MX": "Meksikiečių",
+    "CUSTOM": "Tarptautinis",
+    "JP": "Japonų",
+    "code": {
+      "CUSTOM": "CUSTOM",
+      "US": "US",
+      "UK": "UK",
+      "AU": "AU",
+      "IT": "IT",
+      "MEX": "MEX",
+      "JP": "JP",
+      "FR": "FR",
+      "EU": "EU",
+      "CN": "CN",
+      "BR": "BR",
+      "DE": "DE"
+    },
+    "ES": "Ispanija",
+    "EU": "Europos",
+    "DE": "Vokiečių",
+    "CN": "Kinų",
+    "AU": "Australų",
+    "BR": "Brazilų",
+    "region": "Regionas",
+    "other": "Nežinoma",
+    "mx_marti": "Marti",
+    "PT": "Portugalų PT",
+    "letter-br": "Brazilų",
+    "US": "Amerikiečių",
+    "UK": "Britų"
+  },
+  "size_chart": {
+    "subtitle": "Braukite per slinkties juostas, kad pamatytumėte daugiau išmatavimų ir dydžių",
+    "title_web": "Matavimo diagrama",
+    "scroll_action": "Braukti",
+    "subtitle_mobile": "Perbraukite, kad pamatytumėte daugiau išmatavimų ir dydžių",
+    "returns_link": "Sužinokite daugiau apie grąžinimo politiką.",
+    "returns": "Vis dar abejojate? Nesijaudinkite, pirmasis <strong>grąžinimas yra nemokamas.</strong>",
+    "title_accessory": "Dydžio Lentelė šiam priedui",
+    "title": "Pasirinkite dydį ir patikrinkite matmenis",
+    "instruction_measure": "Peržiūrėkite mūsų medžiagą, kaip išmatuoti save, ir palyginkite savo matavimus su šia lentele.",
+    "title_mobile": "Palyginkite savo kūno išmatavimus su šia lentele. Užeikite ant kiekvieno iš žemiau esančių stulpelių pavadinimų ir sužinokite geriausią būdą pamatuoti savo kūną."
+  },
+  "generics": {
+    "disable": "Išjungti",
+    "less_than_year": "< 1 metai",
+    "profile_tooltip": "Galite susikurti naujus matavimo profilius paspaudę čia",
+    "weight": "Svoris",
+    "age": "Amžius",
+    "accessibility": "PRIEINAMUMAS",
+    "language": "Kalba",
+    "years": "Metai",
+    "female": "Moteris",
+    "size_fit": "Dydis",
+    "no_name": "Nepavadintas",
+    "pronoun_female": "Mano",
+    "year": "Metai",
+    "suffix_male": "jūsų",
+    "months": "Mėnesiai",
+    "size_chart": "Dydžių lentelė",
+    "chart": "Dydžių Lentelė",
+    "closeVfr": "Uždaryti Virtualų Matavimosi Kambarį",
+    "about": "Apie Sizebay",
+    "see_how_to_measure": "Pažiūrėkite, kaip išmatuoti",
+    "kg": "Kilogramai",
+    "assistive_mode": "{{status}} pagalbinis režimas",
+    "suffix_female": "jūsų",
+    "switcher": {
+      "title_chart": "Išmatavimai:"
+    },
+    "lb": "Svarai",
+    "how_to_measure": "Pažiūrėkite, kaip matuoti",
+    "unavailable": "--",
+    "other_profiles": "Kiti profiliai",
+    "privacy": "Privatumas",
+    "ft": "Coliai",
+    "pronoun_male": "Mano",
+    "got_it": "Supratau",
+    "enable": "Įjungti",
+    "cm": "Centimetrai",
+    "height": "Ūgis",
+    "male_singular": "vyras",
+    "uninformed": "Neinformuotas",
+    "female_singular": "moteris",
+    "profile": {
+      "title": "Vartotojo profilis"
+    },
+    "male": "Vyras",
+    "confirm_edit": "Gerai"
+  },
+  "privacy_v2": {
+    "overview": {
+      "text": "<p>Kad jūgs galėtumėte geriau suprasti <strong>SIZEBAY</strong> sukurtų sprendimų naudojimą reglamentuojančias Politikas, mes parengėme jums šią trumpą santrauką. Ši apžvalga nepakeičia visų Politikų turinio, todėl paskui rekomenduojame atidžiai perskaityti kiekvieną dokumentą atskirai.</p><p><strong>SIZEBAY</strong> <strong>PASLAUGŲ NAUDOJIMO SĄLYGOS IR TVARKA</strong> yra skirti reguliuoti: (i) <strong>SIZEBAY</strong> teikiamų paslaugų naudojimą per <a href={{ pageTenant }} target=_blank>{{ tenantName }} ({{ pageTenant }})</a> elektroninės prekybos platformą, taip pat (ii) prieigą ir turinį, pasiekiamą <strong>SIZEBAY</strong> svetainėje, (iii) platformos ir svetainės naudotojų, lankytojų ir klientų įsipareigojimus, kai naudojamasi programėle arba lankoma <strong>SIZEBAY</strong> svetainė, (iv) dalyvaujančių šalių atsakomybes.</p>{{ pagePrivacyTenant }}<p><strong>PRIVATUMO POLITIKOJE </strong> siekiama paaiškinti, kaip <strong>SIZEBAY</strong> apdorojama duomenis naudojantis ir apsilankant svetainėje bei programėlėje, taip pat paaiškinamos turėtojų teisės ir kaip jie gali jomis pasinaudoti su <strong>SIZEBAY</strong>.</p>",
+      "title": "Apžvalga"
+    },
+    "clear_data": {
+      "text": "Išvalykite visus naršymo, laikinosios atminties ir slapukų duomenis, kuriuos patalpino Sizebay",
+      "button": {
+        "initial": "Išvalyti visus slapukus"
+      }
+    },
+    "person": {
+      "first": {
+        "name": "Marcelo Bastos",
+        "info": "<li>Europos Sąjunga</li> <li>privacy@sizebay.com</li>"
+      },
+      "second": {
+        "name": "Janderson Roberto Araujo",
+        "info": "<li>Kitos vietovės</li> <li>privacy@sizebay.com</li>"
+      }
+    },
+    "services": {
+      "title": "Kaip SIZEBAY teikia savo paslaugas?",
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/computer-face.svg /><p><strong>SIZEBAY</strong> paslaugos pasiekiamos elektroninės prekybos platformoje, kaip programinės įrangos  paslaugos forma (SaaS), o tai reiškia, kad <strong>SIZEBAY</strong> suteikia elektroninei prekybai licenciją naudoti programinę įrangą.</p></span> <div><img src=https://static.sizebay.technology/assets/icons/computer-face.svg /></div>"
+    },
+    "contact": {
+      "text": "<p>Jei turite kokių nors klausimų dėl <strong>SIZEBAY</strong> Politikų arba kaip galite pasinaudoti savo, kaip duomenų turėtojo, teisėmis, susisiekite su <strong>SIZEBAY</strong> Duomenų Apsaugos Pareigūnu (DAP):",
+      "title": "Kilus neaiškumams, kaip susisiekti?"
+    },
+    "data_collected": {
+      "title": "Kokius duomenis renka SIZEBAY?",
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/cookies.svg /><p> Kad galėtų teikti savo paslaugas, <strong>SIZEBAY</strong> gali rinkti profilio duomenis, tokius kaip, slapyvardis (neprivaloma), amžius, lytis, ūgis, svoris, anatominis profilis ir kūno išmatavimai. Be to, gali būti renkami prieigos žurnalo duomenys ir slapukai, su tikslu pagerinti vartotojo patirtį ir palengvinti naudojimąsi programėle, nereikalaujant pakartotinai pateikti duomenų, kuriuos vartotojas jau jau buvo pateikięs, sekančio pirkimo ar produkto analizės metu.</p></span><span><img src=https://static.sizebay.technology/assets/icons/bag.svg /><p> <strong>SIZEBAY</strong> taip pat gali rinkti duomenis iš elektroninėje prekyboje pateikto pirkimo užsakymo, siekiant atlikti rekomenduojamo dydžio ir faktiškai įsigyto dydžio analizę, su tiklsu pagerinti drabužių ir avalynės dydžio rekomendacijų teikimo paslaugas.</p></span><span><img src=https://static.sizebay.technology/assets/icons/anonymous-person.svg /><p>Mes patiksliname, kad <strong>SIZEBAY</strong> programėlė  rūpinasi vartotojų privatumu, todėl paslaugos buvo sukurtos taip, kad duomenys būtų renkami be galimybės identifikuoti turėtojų duomenų.</p></span><div><img src=https://static.sizebay.technology/assets/icons/cookies.svg /> <img src=https://static.sizebay.technology/assets/icons/bag.svg /> <img src=https://static.sizebay.technology/assets/icons/anonymous-person.svg /></div>"
+    },
+    "how_it_works": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/mannequin.svg /><p> Norint naudotis paslaugomis, vartotojui nėra būtina registruotis <strong>SIZEBAY</strong> platformoje. Prieiga prie matavimo lentelės visada bus pasiekiama. Norėdamas naudotis Virtualiu Matavimosi Kambariu, vartotojas turi užpildyti tam tikrą bazinę informaciją, kad programėlė galėtų rekomenduoti drabužių ir batų dydį.</p></span><span><img src=https://static.sizebay.technology/assets/icons/anonymous.svg /><p> Poriflio susikūrimas <strong>SIZEBAY</strong> prgramėlėje nereikalauja vartotojo naudoti savo vardo ar pavardės ir netgi gali būti užpildyta fiktyviais duomenimis , jei norima dar labiau išsaugoti savo privatumą.</p></span><span><img src=https://static.sizebay.technology/assets/icons/persons.svg /><p> Nepilnamečiai negali naudotis programėle, nebent jiems atstovauja ir (arba) jiems padeda jų tėvai arba globėjai.</p></span><div><img src=https://static.sizebay.technology/assets/icons/mannequin.svg /><img src=https://static.sizebay.technology/assets/icons/anonymous.svg /><img src=https://static.sizebay.technology/assets/icons/persons.svg /></div>",
+      "title": "Kaip veikia prieiga prie Virtualios priekabos ir Virtualaus stalo paslaugų?"
+    },
+    "share_data": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/share.svg /><p> Dalijimasis duomenimis visada gali būti atliekamas siekiant suteikti geresnę apsipirkimo internetu patirtį arba, kad programėlė apskritai galėtų veikti, taigi, tai galima atlikti su: klientais ir tiekėjais.</p></span><div><img src=https://static.sizebay.technology/assets/icons/share.svg /></div>",
+      "title": "Su kuo SIZEBAY gali bendrinti duomenis?"
+    },
+    "actions": {
+      "terms": {
+        "content": "<li><a href=https://home.sizebay.com/{{lang}}/legal/conditions-of-use target=_blank>Naudojimo sąlygos</a></li><li><a href=https://home.sizebay.com/{{lang}}/legal/privacy target=_blank>Privatumo politika</a></li><li><a href=https://home.sizebay.com/{{lang}}/legal/cookies-policy target=_blank>Slapukų politika</a></li>",
+        "conditions-use": "Naudojimo sąlygos",
+        "privacy": "Privatumo politika",
+        "cookies": "Slapukų politika",
+        "title": "Paslaugų teikimo sąlygos"
+      },
+      "statements": {
+        "gdpr": "GDPR atitiktis",
+        "title": "Pareiškimai",
+        "lgpd": "LGPD atitiktis",
+        "content": "<li><a href=https://home.sizebay.com/{{lang}}/legal/gdpr target=_blank >BDAR atitiktis</a></li><li><a href=https://home.sizebay.com/{{lang}}/legal/lgpd target=_blank >LGPD atitiktis</a></li><li><a href=https://home.sizebay.com/{{lang }}/legal/ccpa target=_blank >CCPA laikymasis</a></li><li><a href=https://sizebay.com/{{lang}}/legal/pipl target=_blank >PIPL laikymasis </a></li>",
+        "pipl": "PIPL atitiktis",
+        "ccpa": "CCPA laikymasis"
+      },
+      "title": "Pasiekite mūsų paslaugų teikimo sąlygų puslapius",
+      "redirect_privacy": {
+        "text": "Spustelėkite čia, kad būtumėte nukreipti į {{ tenantName }} Privatumo Politikos puslapį"
+      }
+    },
+    "how_data_is_collected": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/computer-hanger.svg /><p> Duomenų rinkimas yra atliekamas, kai vartotojas pateikia informaciją naudodamasis Virtualaus Matavimosi Kambario ir Išmatavimų Lentelės paslaugomis, arba per slapukus, kuomet vartotojas atsidaro <strong>SIZEBAY</strong> svetainę arba įsijungia programėlę. Duomenys, kuriuos vartotojas jau pateikė, kito apsipirkimo arba produkto analizės metu.</p></span><div><img src=https://static.sizebay.technology/assets/icons/computer-hanger.svg / ></div>",
+      "title": "Kaip SIZEBAY renka duomenis?"
+    },
+    "users_obligations": {
+      "title": "Kokie yra vartotojo įsipareigojimai?",
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/obligations.svg /><p> Programėlės vartotojai įsipareigoja naudotis <strong>SIZEBAY</strong> paslaugomis visada gerbdami ir laikydamiesi Politikų, taip pat galiojančių teisės aktų, taisyklių, viešosios tvarkos, taip pat privalomų reikalavimų, kurie keliami norint naudotis platforma ir dėl sutikimo naudotis platforma.</p></span><div><img src=https://static.sizebay.technology/assets/icons/obligations.svg /></div>"
+    },
+    "data_protection": {
+      "text": "<span><img src=https://static.sizebay.technology/assets/icons/security.svg /><p><strong>SIZEBAY</strong> atsižvelgia į savo klientų, vartotojų informacijos slaptumą ir saugumą, nes lankytojai yra itin svarbūs. Dėl šios priežasties, SIZEBAY naudoja Šifravimo ir Ugniasienės technologiją ir padarys viską, ką gali, kad garantuotų jūsų duomenų ir informacijos apsaugą.</p></span><span><img src=https://static.sizebay.technology/assets/icons/http.svg /><p> Rekomenduojame periodiškai išsivalyti naršyklėje saugomus slapukus, kad surinkta informacija nebūtų pašalinta iš <strong>SIZEBAY</strong> duomenų bazės, taip pat iš kitų lankytų svetainių.</p></span><div><img src=https://static.sizebay.technology/assets/icons/security.svg /> <img src=https:// static.sizebay.technology/assets/icons/http.svg /></div>",
+      "title": "Kaip SIZEBAY apsaugo jūsų duomenis?"
+    }
+  },
+  "garment_measures_info": {
+    "shaft_height": "Matuokite nuo kulno pagrindo iki batų aulo viršaus.",
+    "shoulder_length": "Plotis nuo vienos rankovės siūlės iki kitos, drabužio nugaroje.",
+    "full_body_length": "Matavimo nuo viršutinės siūlės iki apatinio krašto viso kūno drabužio.",
+    "hem": "Apačios dalies plotis.",
+    "back_length": "Matuokite nuo apykaklės iki viršutinio drabužio apatinio krašto, nuo nugaros.",
+    "lower_waist_width": "Žemo liemens drabužio juosmens plotis.",
+    "hip_circumference": "Drabužio plotis, maždaug 20 cm žemiau juosmens, padaugintas iš dviejų.",
+    "palm_length": "Matuokite nuo riešo iki vidurinio piršto galiuko.",
+    "calf_circumference": "Matavimas aplink viršutinę bato aulo dalį, paprastai plačiausioje blauzdos vietoje.",
+    "head_circumference": "Išmatuokite kepurės vidinę dalį, kurioje ilsisi galva.",
+    "sleeve": "Matuokite nuo vidinės siūlės, kur prasideda rankovė, iki rankogalio galo.",
+    "waist_width": "Plotis siauriausioje marškinėlių dalyje, tarp pažastų ir krašto.",
+    "thigh_width": "Plačiausios šlaunies dalies plotis.",
+    "waistband_circumference": "Viršutinės drabužio angos matavimas.",
+    "circumference": "Išmatuoti aplink gabalą, paprastai padauginant plotį iš 2.",
+    "lower_waist_circumference": "Drabužio plotis, šiek tiek žemiau natūralios juosmens linijos, padaugintas iš dviejų.",
+    "high_waist_width": "Aukšto liemens drabužio juosmens plotis.",
+    "chest_circumference": "Viršutinio drabužio pločio matavimas, nuo vienos pusės iki kitos, tiesiai po pažastimi, padaugintas iš dviejų.",
+    "waist_circumference": "Siauriausios drabužio dalies plotis padaugintas iš dviejų.",
+    "front_length": "Matuokite nuo apykaklės iki viršutinio drabužio apačios, iš priekio.",
+    "lower_length": "Matuokite nuo juosmens iki drabužio apačios, iš šono.",
+    "wrist_circumference": "Rankovės angos apimties matavimas ten, kur ji priglunda prie riešo.",
+    "heel_height": "Matuokite nuo šuolio pagrindo iki aukščiausio taško.",
+    "wrist_width": "Rankenos plotis.",
+    "hook": "Matuokite nuo juosmens viršaus iki siūlės tarpkojyje.",
+    "thigh_circumference": "Plačiausios drabužio šlaunies dalies matavimas, tiesiai po siūle.",
+    "platform_height": "Matuokite nuo priekinės batų dalies pagrindo iki platformos viršaus.",
+    "biceps": "Rankovės plotis, maždaug 2,5 cm žemiau pažasties.",
+    "insole_width": "Išmatuokite plačiausią vidpadžio dalį.",
+    "brim": "Matuokite nuo pagrindo iki kepurės krašto viršaus.",
+    "high_waist_circumference": "Išmatuokite aplink aukštos juosmens drabužio juosmenį.",
+    "hip_width": "Gabalėlio plotis, 20 cm žemiau juosmens.",
+    "length": "Matuokite nuo viršutinės siūlės iki apatinio krašto.",
+    "chest_width": "Išmatuokite viršutinės dalies plotį, nuo vienos pusės iki kitos, tiesiog žemiau pažastų.",
+    "calf_width": "Bato aulo pločio matavimas ties blauzdos aukščiu.",
+    "collar": "Palaidinės apykaklės plotis, matuojamas aplink kaklo pagrindą.",
+    "waistband_width": "Juosmens juostos plotis apatinėje dalyje.",
+    "back_hook": "Matuokite nuo juosmens iki klynelio siūlės, drabužio gale.",
+    "insole_length": "Matuokite nuo kulno galiuko iki pado pirštų galiuko.",
+    "under_bust": "Viršutinio drabužio pločio matavimas, nuo vienos pusės iki kitos, tiesiai po krūtine, padaugintas iš dviejų.",
+    "inside_leg": "Matuokite nuo klyno siūlės iki kelnių krašto"
+  },
+  "error": {
+    "close": "Išeiti iš matavimosi kambario",
+    "title": "Oij! Kažkas negerai!",
+    "options": "Galite bandyti dar kartą iš naujo paleisdami profilį arba uždaryti ir pabandyti vėliau.",
+    "restart": "Perkrauti profilį",
+    "description": "Nesijaudinkite, mes jau tiriame, kas nutiko, kad tai nebepasikartotų."
+  },
+  "recommendation": {
+    "3d_feel": {
+      "lanes": {
+        "large": "per laisvas",
+        "ideal": "idealus",
+        "slightly_loose": "šiek tiek laisva",
+        "loose": "laisvas",
+        "slightly_fit": "šiek tiek aptempta",
+        "tight": "labai aptemptas",
+        "fit": "aptemptas"
+      },
+      "title_suggested": "Geriausias pasirinkimas"
+    },
+    "lanes": {
+      "tight": "PRIGLUDĘS",
+      "ideal": "IDEALUS",
+      "fit": "APTEMPTAS",
+      "looser": "LAISVAS",
+      "large": "PLATUS",
+      "loose": "LAISVAS",
+      "tighter": "APTEMPTAS"
+    },
+    "title_not_suggested": "nerekomenduojama",
+    "measurements": {
+      "title": "Išmatavimai",
+      "conversion": {
+        "title": "Dydžio konvertavimas"
+      }
+    },
+    "centered_mode": {
+      "controls": {
+        "appearance": "Išvaizda",
+        "comfort": "Komfortas"
+      },
+      "comfort_map": {
+        "header": "Spalvos 3D vaizde parodo, kaip aptemptas ar kaip laisvas drabužis bus ant jūsų kūno"
+      },
+      "tag_info": "3D kūno modeliavimas atspindi jūsų individualius kūno išmatavimus ir tikrovišką produkto pritaikymą.",
+      "measure_name": "ant jūsų {{measureName}}"
+    },
+    "title_suggested": "yra geriausias pasirinkimas",
+    "height_warning": {
+      "threshold": {
+        "long": "ilgas",
+        "short": "trumpas"
+      },
+      "message": "per {{threshold}} tiems, kurie yra {{height}}"
+    },
+    "shoe": {
+      "insoleLength": "ilgio",
+      "insoleWidth": "plotis"
+    },
+    "subtitle": "Peržiūrėkite toliau pateiktus komforto lygius",
+    "subtitle_shoe": "Remiantis jūsų {{brandName}} dydžiu {{size}}",
+    "title_also_fits": "taip pat tinka",
+    "carousel_also_try": "Taip pat išbandykite šiuos dydžius:"
+  },
+  "product_comparison": {
+    "elements": {
+      "edit": "Redaguoti",
+      "foot_format": "Pėdos forma",
+      "category": "Kategorija",
+      "brand": "Prekės ženklas",
+      "size": "Dydis"
+    },
+    "title": "Palyginimo produktas",
+    "subtitle": "Tai yra informacija, naudojama rekomendacijai pagal dydį."
+  },
+  "warnings": {
+    "age_group": {
+      "age_group": "{{ageGroup}} produktas",
+      "limit_reached": "Pasiektas maksimalus profilių skaičius. Ištrinkite sena profilį, kad pridėtumėte naują.",
+      "subtitle": "Produkto amžiaus diapazonas nesutampa su {{{profileName}} profilio amžiumi. Pasirinkite arba pridėkite profilį, kad galėtumėte tęsti.",
+      "prompt_message": "Ar taip pat norėtumėte išbandyti drabužius iš ({{ ageGroup }}) skyriaus?"
+    },
+    "we_need_more_measures": {
+      "subtitle": "Negalėjome apskaičiuoti jūsų išmatavimų. Pakoreguokite žemiau esančius matavimus arba grįžkite atgal, kad peržiūrėtumėte įvestus duomenis.",
+      "title": "Įveskite savo išmatavimus"
+    },
+    "unmatched_gender": {
+      "choose_a_profile": "Pasirinkite norimą profilį",
+      "select_profile": "Ne, pasirinkti kitą profilį",
+      "tooltip": "Šis profilis netinka pasirinkto produkto tipui",
+      "title": "Ar taip pat norėtumėte išbandyti drabužius iš {{gender}} skyriaus?",
+      "create_profile": "Ne, sukurti kitą profilį"
+    }
+  },
+  "brands_list": {
+    "search_question": "Kokį prekės ženklą dažniausiai nešiojate?",
+    "not_found": {
+      "title": "Negalėjome rasti prekės ženklo tokiu pavadinimu",
+      "subtitle": "Pabandykite ieškoti dar kartą, jei norite ištaisyti rašybos klaidas."
+    },
+    "subtitle": "Po keltos klausimų, mes padėsime jus išsirinkti geriausią batų dydį.",
+    "title": "Virtualus matavimosi kambarys",
+    "search_placeholder": "Įveskite ir ieškokite savo prekės ženklo čia",
+    "title_restricted": "Ar avite mūsų batus?"
+  },
+  "age_group": {
+    "adult": "Suaugę",
+    "kids": "Vaikai"
+  },
+  "a11y": {
+    "Chart": {
+      "vfr_button": "Paspauskite tarpo klavišą, kad patektumėte į virtualią matavimosi kabiną",
+      "step_blocks": {
+        "table": {
+          "measure_description": "Tai yra {{size}} dydis, pagal {{measureName}} jis turėtų būti {{measure}}"
+        },
+        "switcher": {
+          "instruction_press_space": "Paspauskite tarpo klavišą, kad pakeistumėte reikšmes",
+          "option": "Jūsų dabartinė reikšmė yra {{value}}"
+        }
+      },
+      "greeting": "Tai yra dydžių lentelė",
+      "size_system": {
+        "instruction": "Jūsų dabartinė dydžių sistema yra {{sizeSystem}}. Paspauskite tarpo klavišą, kad pasirinktumėte kitą parinktį."
+      },
+      "instruction": "Čia galite palyginti savo matavimus su mūsų lentelėje pateiktais matavimais"
+    },
+    "shoe": {
+      "Brands": {
+        "highlighted": {
+          "edit_negative": "Paspauskite tarpo klavišą, jei nedėvite nė vieno iš šių prekių ženklų",
+          "edit_action": "Paspauskite tarpo klavišą, kad tęstumėte su pasirinktu prekės ženklu",
+          "instruction": "Paspauskite tarpo klavišą, kad tęstumėte su {{brandName}}"
+        },
+        "restricted": {
+          "greeting": "Sveiki atvykę į ribotų prekių ženklų batų matavimosi kambarį. Pasirinkite vieną iš batų prekių ženklų, kuriuos jau avite"
+        }
+      },
+      "FootSize": {
+        "instruction": "Paspauskite tarpo klavišą, kad pasirinktumėte {{ sizeSystem }} dydžių sistemą"
+      },
+      "EditData": {
+        "greeting": "Čia galite pakeisti mums atsiųstą pėdos ir batų informaciją"
+      },
+      "FootFormat": {
+        "instruction": "Pasirinkite pėdos formą.",
+        "edit_action": "Paspauskite tarpo klavišą, kad pasirinktumėte {{ shoeFormat }}"
+      }
+    },
+    "drawer": {
+      "measurement_tape_header": "Juosta",
+      "measurement_tape_handle": "Matavimo juosta. Paspauskite tarpo klavišą, kad pasiektumėte matavimo juostą",
+      "close_group_handle": "Paspauskite tarpo klavišą, kad uždarytumėte grupę",
+      "measurement_tape_print_button": "Paspauskite tarpo klavišą, kad atidarytumėte matavimo juostą"
+    },
+    "clothes": {
+      "Welcome": {
+        "step_blocks": {
+          "gender": {
+            "question": "Pasirinkite lytį, kad galėtumėte tęsti. Jūsų dabartinė lytis yra {{gender}}"
+          },
+          "age": {
+            "tooltip": "Paspauskite tarpo klavišą, kad sužinotumėte daugiau informacijos apie tai, kaip amžius veikia rekomendacijas"
+          },
+          "height": {
+            "question": "Įveskite savo ūgį čia {{measurementSystem}}."
+          }
+        }
+      },
+      "ProfilesMenu": {
+        "blocks": {
+          "greeting": "Tai visi jūsų profiliai virtualioje matavimosi kabinoje",
+          "edit": "Čia galite pasirinkti, ar pridėti, ar pašalinti profilius"
+        },
+        "chip": {
+          "message": "Paspauskite tarpo klavišą, kad peržiūrėtumėte daugiau informacijos apie savo {{profileName}} profilį"
+        }
+      },
+      "Recommendation": {
+        "lane": "{{ size }} dydis yra {{ label }} pagal {{ measureName }}",
+        "carousel_instruction": "Raskite daugiau dydžių pasirinkimų čia"
+      },
+      "measures": {
+        "edit": "Paspauskite rodyklių klavišus, kad padidintumėte arba sumažintumėte {{measureName}} matą",
+        "read": "Jūsų {{measureName}} matuoja {{measureValue}} {{measureSystem}} sistemoje"
+      }
+    },
+    "generics": {
+      "welcome": "Sveiki atvykę į virtualią matavimosi kabiną"
+    }
+  },
+  "welcome": {
+    "age_disclaimer": "Kūno forma bėgant metams keičiasi ir tai turi įtakos mūsų paskaičiavimams.",
+    "gender_f_kids": "Moteriška",
+    "title": "Virtualus matavimosi kambarys",
+    "gender_m_kids": "Vyriškas",
+    "foot_measurement_known": "Aš jau žinau savo pėdos matmenis",
+    "gender_m": "Vyras",
+    "shoe_measure": "Pėdos ilgis",
+    "gender_f": "Moteris",
+    "gender_u": "Unisex",
+    "subtitle": "Užpildykite informaciją norėdami išbandyti šį produktą"
+  },
+  "edit_measures": {
+    "view_less": "Matyti mažiau išmatavimų",
+    "view_all": "Žiūrėti daugiau matavimų"
+  },
+  "drawers": {
+    "manage": {
+      "actions": {
+        "select": "Pasirinkti",
+        "delete": "Ištrinti"
+      },
+      "active_profile": {
+        "details_shoe": "{{brandName}} dydis {{size}}",
+        "no_name": "Įveskite vardą",
+        "delete": "Ištrinti profilį"
+      },
+      "new_profile": {
+        "input_example": "Pavyzdžiui: Jonas Jonaitis",
+        "title": "Pridėti profilį",
+        "subtitle": "Parašykite pavadinimą šiam profiliui"
+      }
+    },
+    "knobs": {
+      "kids_shoes_tips": "Patarimai dėl dydžio",
+      "garment_info": "Drabužių matmenys",
+      "size_content": "Stiliaus Gidas",
+      "measurement_tape": "Matavimo juosta",
+      "product_info": "Kūno matmenys",
+      "size_hint_promo": "Užpildykite reklamą",
+      "size_hint": "Pasiūlymas",
+      "sizes_conversions": "Dydžių Pervertimas"
+    },
+    "kids_shoes_title": "Vaikų kojų ir batų patarimai ir rekomendacijos",
+    "kids_shoes_button": "Supratau",
+    "kids_shoes_message": "Vaikų pėdos paauga per pusę kas 2-4 mėnesius. Dėl šio spartaus augimo patariame vaikui rinktis kiek laisvesnius dydžius, kad batai tarnautų ilgiau ir nespaustų kojyčių, kurios greitai auga."
+  },
+  "landscape_vertical_subtitle": "Norėdami pradėti naudoti, pastatykite įrenginį vertikaliai",
+  "coppa_gate": {
+    "close": "Ne, aš jaunesnis (-ė) nei 13 metų",
+    "confirm": "Taip, aš esu globėjas",
+    "prompt_title_months": "Ar esate vaiko, kuriam yra {{ months }} mėnesiai (-ių), tėvai ar globėjai?",
+    "message": "Galite ir toliau matuotis šį produktą, jei esate suaugęs asmuo, kuris sukūrė šį profilį, kad išbandytų produktą savo vaikui.",
+    "prompt_title_years": "Ar esate vaiko, kuriam yra {{ years }} metų (-ai), tėvai ar globėjai?",
+    "title": "Amžiaus patvirtinimas"
+  },
+  "fetching": {
+    "subtitle": "Skaičiuojame išmatavimus, kad gautume idealaus dydžio rekomendaciją",
+    "title": "Jau beveik!",
+    "shoe": {
+      "success": "Skaičiavimas baigtas!",
+      "calculating": "Skaičiuojant jūsų matmenis",
+      "analyzing": "Analizuojant jūsų atsakymus"
+    }
+  },
+  "landscape_subtitle": "Laikykite telefoną horizontaliai, kad pradėtumėte",
+  "measurement_tape": {
+    "link_download": {
+      "in": "//static.sizebay.technology/assets/measurement_tape/measurement_tape_in_en.pdf",
+      "cm": "//static.sizebay.technology/assets/measurement_tape/measurement_tape_cm_en.pdf"
+    },
+    "title": "Juosta",
+    "message": "Atsispausdinkite, sukarpykite ir surinkite šią matavimo juostą, kad patikrintumėte išmatavimus.",
+    "print": "Matavimo juostos",
+    "print_mobile": "Spausdinkite matavimo juostą",
+    "download": {
+      "file": {
+        "title": "Instrukcijos, kaip atsispausdinti ir pasiruošti matavimo juostą",
+        "fold-and-rotate": "lenkite ir pasukite",
+        "how-to-do": "Spausdinimas:\nPrieš spausdindami, įsitikinkite, kad spaisdinimo dialogo lange yra išjungtas pasirinkimas „“fit to page“, kad spausdintuvas nesumažintų ar nepadidintų juostos matmenų.\n\nApkirpimas:\nNaudodami žirkles ar peliuką, iškirpkite visas ištisines juodas linijas, pažymėtas su „žirklėmis“, kad sukurtumėte juostos segmentus.\n\nSurinkimas:\nSulenkite ir pasukite galus (kaip nurodyta spausdinime), sujungdami punktyrines linijas, kol bus surinkta vientisa juosta.\n\nSusilankstymų pataisymas:\nPo surinkimo, sutvarkykite susilanksčiusias vietas naudodami klijus, lipnią juostą ar segilį."
+      }
+    }
+  },
+  "foot_size": {
+    "select_region": "Pasirinkite regioną:",
+    "not_selected": "Norėdami tęsti, būtinai pasirinkite dydį",
+    "title": "Koks jūsų batų dydis?",
+    "pattern": "{{region}} sistema",
+    "subtitle": "Pasirinkite savo dydį"
+  },
+  "child_name": {
+    "name": "Vardas",
+    "title": "Ar pasakytumėte mums savo vaiko vardą?",
+    "subtitle": "Tai padeda mums sukurti Matavimosi Kambario profilį"
+  },
+  "size_hint": {
+    "title": "Mes atrinkome keletą produktų, kurie jums taip pat tinka",
+    "discount-original-price": "Įprasta kaina: <span class='size-hint__discount-original-price discount-description-price'>{{ price }}</span> <span class='size-hint__discount-percentage'>-{{discount }}%</span>",
+    "discount-lowest-price": "Mažiausia kaina nuo 30 dienų iki sumažinimo: <span class='size-hint__discount-lowest-price discount-description-price'>{{ price }}</span> <span class='size-hint__discount-percentage'>-{{ discount }}%</span>",
+    "title_promo": "Užpildykite reklamą",
+    "try_now": "Išbandyti dabar"
+  },
+  "size_tailor": {
+    "action_button": "Mes individualizuojame pagal jus",
+    "title": "Individualizuotas Produktas",
+    "description": "Patvirtinkite savo kūno išmatavimus, kad galėtume sukurti individualizuota produktą."
+  },
+  "miscellaneous": {
+    "hannaLinks": {
+      "recommendation": "Grįžti prie mano rezultatų",
+      "welcome": "Atgal"
+    }
+  },
+  "measure_shape": {
+    "shape_bigger": "Didelė",
+    "shape_smaller": "Mažesnio",
+    "skin_types": {
+      "toggle": "Pakeisti odos spalvą"
+    },
+    "subtitle": "Tai yra apytikslė kūno forma, kurią sugeneravome pagal jūsų išmatavimus. Keiskite tik esant reikalui.",
+    "measure_range": {
+      "1": "Daug mažesnis",
+      "2": "Mažesnis",
+      "3": "Vidutinis",
+      "4": "Didesnis",
+      "5": "Daug Didesnis"
+    },
+    "shape_regular": "Įprasto",
+    "title": "Keisti kūno formą"
+  },
+  "calculating": {
+    "subtitle": "Patikrinkite išmatavimus ir, jei reikia, pakoreguokite",
+    "circle_title_loading": "Įkeliama...",
+    "circle_title_completed": "Pasiruošę!",
+    "title": "Skaičiavimai baigti!"
+  },
+  "brands_grid": {
+    "subtitle": "Kokį prekės ženklą dažniausiai dėvite?",
+    "unique_brand": "Ar jau dėvite {{ brandName }} batus?",
+    "search_other_brands": "Ieškokite kito prekės ženklo"
+  },
+  "modals": {
+    "remove_profile": {
+      "title_alt": "Ar tikrai norite ištrinti šį profilį?",
+      "title": "Ištrinti {{profileName}} profilį?",
+      "action": "Pašalinti profilį",
+      "confirm": "Ištrinti profilį"
+    }
+  },
+  "no_recommendation": {
+    "expected_size": "Rekomenduojamas dydis yra {{recommended Size}}.",
+    "title_shoe": "Deja, šiuo metu šio modelio ir dydžio mūsų parduotuvėje nėra.",
+    "based_on": "Galite redaguoti informaciją ir bandyti dar kartą",
+    "calculate_again": "Perskaičiuoti",
+    "title": "Jūsų dydis šiuo metu nepasiekiamas",
+    "subtitle": "Nepavyko rasti dydžio toliau pateiktiems išmatavimams. Jei reikia, pakoreguokite."
+  },
+  "accessory": {
+    "welcome": {
+      "subtitle": "Norėdami išbandyti šį produktą, sekite instrukcijas, kad atliktumėte matavimus ir nurodytumėte atitinkamą numerį",
+      "shoe": {
+        "subtitle": "Žemiau pasirinkite savo pėdos išmatavimą, sekdami mūsų rekomendacijas, kaip pamatuoti save"
+      }
+    },
+    "bike": {
+      "recommendation": {
+        "title_suggested": "Mūsų rekomenduojamas dviračio dydis geriausiai tinka jūsų patogumui ir laikysenai. Nei per aukštas, nei per žemas, galėsite patogiai važinėtis.",
+        "subtitle": "pagal jūsų ūgį",
+        "title_also_fits": "Mūsų rekomenduojamas dviračio dydis geriausiai tinka jūsų patogumui ir laikysenai. Nei per aukštas, nei per žemas, galėsite patogiai važinėtis.",
+        "title_not_suggested": "Mūsų rekomenduojamas dviračio dydis geriausiai tinka jūsų patogumui ir laikysenai. Nei per aukštas, nei per žemas, galėsite patogiai važinėtis."
+      }
+    },
+    "shoe_size": {
+      "subtitle": "Norėdami išbandyti šį produktą, pasirinkite dydį pagal savo pėdos ilgį"
+    }
+  },
+  "foot_format": {
+    "formats": {
+      "0": {
+        "description": "Siaurų pėdų šonuose dažnai būna papildomos vietos batuose.",
+        "title": "Siauras"
+      },
+      "1": {
+        "title": "Vidutinis",
+        "description": "Vidutinio dydžio pėdos paprastai gerai tinka daugumai batų."
+      },
+      "2": {
+        "title": "Platus",
+        "description": "Plati pėda atitinka batų ilgį, bet šonuose jaučiasi ankšta."
+      }
+    },
+    "subtitle": "Pasirinkite, koks yra jūsų pėdos plotis, kad pagerintumėte pritaikymą.",
+    "title": "Pėdos forma"
+  },
+  "landscape_warning": {
+    "title": "Virtualus matavimosi kambarys"
+  },
+  "my_measures": {
+    "title": "Mano išmatavimai",
+    "subtitle": "Prireikus pakoreguokite išmatavimus"
+  },
+  "subcategory": {
+    "subtitle": "Pasirinkite <strong>{{brandName}}</strong> batų tipą, kurį paprastai avite",
+    "title": "Kokią {{categoryName}} dėvite?"
+  },
+  "model": {
+    "title": "Kokius {{composedName}} dėvite?",
+    "subtitle": "Pasirinkite batų, kuriuos paprastai dėvite, <strong>{{brandName}}</strong> modelį"
+  },
+  "landscape_horizontal_subtitle": "Norėdami pradėti naudoti, pastatykite įrenginį horizontaliai",
+  "category": {
+    "subtitle": "Iš toliau pateikto sąrašo pasirinkite vieną tipą\nlabiausiai panašūs į jūsų <strong>{{brandName}}</strong> batus",
+    "title": "Koks jūsų batų tipas?"
+  },
+  "header": {
+    "title": "Fit Finder"
+  }
+}
