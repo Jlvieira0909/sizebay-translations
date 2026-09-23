@@ -8,7 +8,13 @@ import {
   useState,
 } from "react";
 import { downloadMany } from "@/lib/files";
-import { applyEdits, hasMarkup, placeholders, serialize } from "@/lib/json";
+import {
+  changesFileName,
+  hasMarkup,
+  pickEdits,
+  placeholders,
+  serialize,
+} from "@/lib/json";
 import { localeMeta } from "@/lib/locales";
 import { buildIndex, normalize, search } from "@/lib/search";
 import { useTranslator } from "@/lib/store";
@@ -171,9 +177,10 @@ export function EditorScreen() {
     const files = codes
       .map((code) => state.loaded[code])
       .filter((file): file is LoadedLocale => Boolean(file))
+      .filter((file) => Boolean(state.edits[file.code]))
       .map((file) => ({
-        name: file.fileName,
-        text: serialize(applyEdits(file.data, state.edits[file.code])),
+        name: changesFileName(file.fileName),
+        text: serialize(pickEdits(file.data, state.edits[file.code])),
       }));
     if (files.length === 0) return;
     await downloadMany(files);

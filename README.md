@@ -34,7 +34,7 @@ O **Sizebay Translator** transforma isso numa tela só: você busca pelo texto q
 - 📝 **Registro de mudanças** — gaveta com tudo que foi alterado (antes → depois) antes de exportar
 - 🔤 **Suporte a RTL** — árabe e hebraico renderizam na direção correta
 - ➕ **Chaves faltantes** — uma chave ausente aparece com borda tracejada; digitar nela cria a chave
-- ⬇️ **Export pronto para deploy** — download dos JSONs com a estrutura original preservada
+- ⬇️ **Export só do que mudou** — cada idioma alterado baixa como `<arquivo>.changes.json`, só com as chaves editadas e o aninhamento original, pronto para mesclar com o arquivo do S3 sem sobrescrever chaves customizadas do cliente
 
 ## 🗣️ Idiomas suportados
 

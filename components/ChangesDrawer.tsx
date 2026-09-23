@@ -18,7 +18,7 @@ function oneLine(value: string): string {
 }
 
 export function ChangesDrawer({ open, onClose, onSave, onJump }: ChangesDrawerProps) {
-  const { state, dispatch, changes, changedLocales, loadedCodes, changeCount } = useTranslator();
+  const { state, dispatch, changes, changedLocales, changeCount } = useTranslator();
   const panel = useRef<HTMLDivElement>(null);
   const [copied, setCopied] = useState(false);
 
@@ -165,14 +165,6 @@ export function ChangesDrawer({ open, onClose, onSave, onJump }: ChangesDrawerPr
               disabled={changeCount === 0}
             >
               <DownloadIcon size={14} /> Download report
-            </button>
-            <button
-              type="button"
-              className="sb-ghost"
-              onClick={() => void onSave(loadedCodes)}
-              disabled={loadedCodes.length === 0}
-            >
-              <DownloadIcon size={14} /> Save every loaded file
             </button>
             <button
               type="button"

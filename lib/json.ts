@@ -4,10 +4,6 @@ export function isPlainObject(value: unknown): value is JsonObject {
   return typeof value === "object" && value !== null && !Array.isArray(value);
 }
 
-export function clone<T>(value: T): T {
-  return JSON.parse(JSON.stringify(value)) as T;
-}
-
 export function flatten(
   input: JsonValue,
   prefix = "",
@@ -100,16 +96,21 @@ function coerceLike(original: JsonValue | undefined, next: string): JsonValue {
   return next;
 }
 
-export function applyEdits(
+export function pickEdits(
   base: JsonObject,
   edits: Record<string, string> | undefined
 ): JsonObject {
-  const next = clone(base);
+  const next: JsonObject = {};
   if (!edits) return next;
-  for (const [path, value] of Object.entries(edits)) {
-    setAtPath(next, path, coerceLike(getAtPath(base, path), value));
+  for (const path of Object.keys(edits).sort()) {
+    setAtPath(next, path, coerceLike(getAtPath(base, path), edits[path]));
   }
   return next;
+}
+
+export function changesFileName(fileName: string): string {
+  const name = fileName.split(/[\\/]/).pop() ?? fileName;
+  return name.replace(/(\.json)?$/i, ".changes.json");
 }
 
 export function serialize(data: JsonObject): string {

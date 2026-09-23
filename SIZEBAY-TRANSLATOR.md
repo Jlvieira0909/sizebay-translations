@@ -2,7 +2,7 @@
 
 An editor for the fitting room and size chart texts. Pick the languages you want to change, find
 a text by the words you can see in the store, edit every language side by side, and download
-files that are ready to ship.
+only the keys you changed, ready to merge into the live files.
 
 Nothing leaves the browser. Files are read with the File API, edited in memory, and written back
 with a download — the originals on disk are never touched.
@@ -95,8 +95,11 @@ Fonts (Bricolage Grotesque, IBM Plex Sans, IBM Plex Mono) load from Google Fonts
    while you search.
 5. **Edit.** One row per key, one field per language, the first one flagged as the reference. Pin
    any language to move it first.
-6. **Save.** Each changed file downloads under its own name. The review drawer shows every
-   before/after grouped by file and exports a Markdown report to send along with the change.
+6. **Save.** Each changed language downloads as `<file>.changes.json` (`br.json` becomes
+   `br.changes.json`), holding only the keys you edited, nested exactly as in the original. Merge
+   it into the file that is live on S3 so customer-specific keys you never loaded survive. The
+   review drawer shows every before/after grouped by file and exports a Markdown report to send
+   along with the change.
 
 ## The guards
 
@@ -112,8 +115,10 @@ None of them block saving. They are warnings, because sometimes dropping a varia
 
 ## Worth knowing
 
-- **Only edited keys are written.** The file is re-serialised from the original parse, so key
-  order and untouched values survive. Indentation is two spaces with a trailing newline.
+- **Only edited keys are written.** The download is a partial file: just the edited paths, with
+  their original nesting, sorted by path. It is never the full file, so it cannot overwrite keys
+  a customer already customised on S3. Deep-merge it into the live file instead of replacing it.
+  Indentation is two spaces with a trailing newline.
 - **Integer-like keys get hoisted.** JavaScript orders keys like `"0"`, `"1"`, `"2"` before string
   keys, so `subtitle: { "0": …, "box": … }` always serialises with `"0"` first. In these files
   they already are first, and JSON does not care about key order — but a diff might show the move.

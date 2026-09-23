@@ -83,8 +83,8 @@ export function SetupScreen() {
           Every text your shoppers read lives behind a key like{" "}
           <code>footer.add_to_cart</code> — but you know it as the{" "}
           <em>Add to cart</em> button. Search by the words you can see in the
-          store, edit every language side by side, and download files that are
-          ready to ship.
+          store, edit every language side by side, and download just the keys you
+          changed, ready to merge into the live files.
         </p>
       </header>
 
